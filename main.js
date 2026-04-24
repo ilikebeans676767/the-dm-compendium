@@ -33,6 +33,7 @@ __export(main_exports, {
   default: () => MyToolkitPlugin
 });
 module.exports = __toCommonJS(main_exports);
+var path4 = __toESM(require("path"));
 var import_obsidian = require("obsidian");
 
 // src/formatters/BookFormatter.ts
@@ -44,35 +45,31 @@ var BaseFormatter = class {
 
 // src/utils/dataLoader.ts
 var fs = __toESM(require("fs"));
-function createJsonLoader(jsonPath, description) {
-  let cachedData = null;
-  let cachedMtimeMs = 0;
-  return async function loadJsonData() {
-    try {
-      const stat = await fs.promises.stat(jsonPath);
-      if (cachedData && stat.mtimeMs === cachedMtimeMs) {
-        return cachedData;
-      }
-      const fileContents = await fs.promises.readFile(jsonPath, "utf-8");
-      const data = JSON.parse(fileContents);
-      cachedData = data;
-      cachedMtimeMs = stat.mtimeMs;
-      return data;
-    } catch (error) {
-      console.error(`[Toolkit] Failed to load ${description} data from ${jsonPath}:`, error);
-      return [];
+var cache = /* @__PURE__ */ new Map();
+async function loadJsonData(jsonPath, description) {
+  try {
+    const stat = await fs.promises.stat(jsonPath);
+    const cached = cache.get(jsonPath);
+    if (cached && cached.mtimeMs === stat.mtimeMs) {
+      return cached.data;
     }
-  };
+    const fileContents = await fs.promises.readFile(jsonPath, "utf-8");
+    const data = JSON.parse(fileContents);
+    cache.set(jsonPath, { mtimeMs: stat.mtimeMs, data });
+    return data;
+  } catch (error) {
+    console.error(`[Toolkit] Failed to load ${description} data from ${jsonPath}:`, error);
+    return [];
+  }
 }
 
 // src/formatters/BookFormatter.ts
-var loadBooks = createJsonLoader(
-  path.join(__dirname, "..", "data", "books.json"),
-  "book"
-);
 var BookFormatter = class extends BaseFormatter {
   async load(dataDir) {
-    const books = await loadBooks();
+    const books = await loadJsonData(
+      path.join(dataDir, "data", "books.json"),
+      "book"
+    );
     return books.map((b) => this.format(b));
   }
   format(book) {
@@ -97,13 +94,12 @@ var BookFormatter = class extends BaseFormatter {
 
 // src/formatters/MovieFormatter.ts
 var path2 = __toESM(require("path"));
-var loadMovies = createJsonLoader(
-  path2.join(__dirname, "..", "data", "movies.json"),
-  "movie"
-);
 var MovieFormatter = class extends BaseFormatter {
   async load(dataDir) {
-    const movies = await loadMovies();
+    const movies = await loadJsonData(
+      path2.join(dataDir, "data", "movies.json"),
+      "movie"
+    );
     return movies.map((m) => this.format(m));
   }
   format(movie) {
@@ -178,6 +174,7 @@ var MyToolkitPlugin = class extends import_obsidian.Plugin {
     console.log("[Toolkit] Loading...");
     await this.loadSettings();
     const vaultPath = this.app.vault.adapter.getBasePath();
+    const pluginDir = path4.join(this.app.vault.configDir, "plugins", this.manifest.id);
     globalThis.__toolkit = {
       getItems: async (dataType) => {
         const formatter = registry[dataType];
@@ -185,7 +182,7 @@ var MyToolkitPlugin = class extends import_obsidian.Plugin {
           console.warn(`[Toolkit] Unknown data type: ${dataType}`);
           return [];
         }
-        return formatter.load("");
+        return formatter.load(pluginDir);
       }
     };
     this.addCommand({

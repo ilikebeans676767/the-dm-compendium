@@ -1,3 +1,4 @@
+import * as path from "path";
 import { Notice, Plugin, Editor, FuzzySuggestModal } from "obsidian";
 import { registry } from "./registry";
 import { Deployer } from "./deployer";
@@ -13,6 +14,7 @@ export default class MyToolkitPlugin extends Plugin {
     await this.loadSettings();
 
     const vaultPath = (this.app.vault.adapter as any).getBasePath() as string;
+    const pluginDir = path.join(this.app.vault.configDir, "plugins", this.manifest.id);
 
     // ── Global bridge ──────────────────────────────────────────────────────
     // Keeps all formatter logic inside the plugin bundle.
@@ -23,7 +25,7 @@ export default class MyToolkitPlugin extends Plugin {
           console.warn(`[Toolkit] Unknown data type: ${dataType}`);
           return [];
         }
-        return formatter.load("");
+        return formatter.load(pluginDir);
       },
     };
 

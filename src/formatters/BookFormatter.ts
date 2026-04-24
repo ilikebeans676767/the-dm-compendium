@@ -1,6 +1,6 @@
 import * as path from "path";
 import { BaseFormatter, FormatterItem } from "./BaseFormatter";
-import { createJsonLoader } from "../utils/dataLoader";
+import { loadJsonData } from "../utils/dataLoader";
 
 interface BookEntry {
   title: string;
@@ -11,14 +11,12 @@ interface BookEntry {
   notes: string;
 }
 
-const loadBooks = createJsonLoader<BookEntry>(
-  path.join(__dirname, "..", "data", "books.json"),
-  "book"
-);
-
 export class BookFormatter extends BaseFormatter {
   async load(dataDir: string): Promise<FormatterItem[]> {
-    const books = await loadBooks();
+    const books = await loadJsonData<BookEntry>(
+      path.join(dataDir, "data", "books.json"),
+      "book"
+    );
     return books.map((b) => this.format(b));
   }
 
