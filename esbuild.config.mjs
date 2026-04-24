@@ -34,14 +34,7 @@ if (watch) {
     outfile: "main.js",
     format: "cjs",
   });
-  const scriptCtx = await esbuild.context({
-    ...baseConfig,
-    entryPoints: ["src/userScripts/toolkit_search.ts"],
-    outfile: "toolkit_search.js",
-    format: "cjs",
-    external: [],
-  });
-  await Promise.all([pluginCtx.watch(), scriptCtx.watch()]);
+  await pluginCtx.watch();
   console.log("Watching for changes...");
 } else {
   await esbuild.build({
@@ -50,15 +43,5 @@ if (watch) {
     outfile: "main.js",
     format: "cjs",
   });
-  await esbuild.build({
-    ...baseConfig,
-    entryPoints: ["src/userScripts/toolkit_search.ts"],
-    outfile: "toolkit_search.js",
-    format: "cjs",
-    external: [],
-  });
-  // Copy templates and data directories after build
-  copyDir("templates", "templates");
-  copyDir("data", "data");
-  console.log("Build complete. Assets copied.");
+  console.log("Build complete.");
 }

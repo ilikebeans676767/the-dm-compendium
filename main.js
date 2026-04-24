@@ -34,7 +34,6 @@ __export(main_exports, {
 });
 module.exports = __toCommonJS(main_exports);
 var import_obsidian = require("obsidian");
-var path2 = __toESM(require("path"));
 
 // src/formatters/BaseFormatter.ts
 var BaseFormatter = class {
@@ -194,8 +193,6 @@ var MyToolkitPlugin = class extends import_obsidian.Plugin {
     console.log("[Toolkit] Loading...");
     await this.loadSettings();
     const vaultPath = this.app.vault.adapter.getBasePath();
-    const pluginDir = path2.join(vaultPath, ".obsidian", "plugins", "my-toolkit-plugin");
-    const dataDir = path2.join(pluginDir, "data");
     globalThis.__toolkit = {
       getItems: async (dataType) => {
         const formatter = registry[dataType];
@@ -205,26 +202,6 @@ var MyToolkitPlugin = class extends import_obsidian.Plugin {
         }
         return formatter.load("");
       }
-    };
-    globalThis.toolkit_search = async (tp, dataType) => {
-      const bridge = globalThis.__toolkit;
-      if (!bridge) {
-        tp.system.notice("[Toolkit] Plugin not loaded. Enable My Toolkit Plugin first.");
-        return "";
-      }
-      const items = await bridge.getItems(dataType);
-      if (!items || items.length === 0) {
-        tp.system.notice(`[Toolkit] No items found for type: ${dataType}`);
-        return "";
-      }
-      const selected = await tp.system.suggester(
-        (item) => item.label,
-        items,
-        true,
-        // throw_on_cancel
-        `Search ${dataType}...`
-      );
-      return selected ? selected.body : "";
     };
     this.addCommand({
       id: "insert-from-toolkit",

@@ -1,5 +1,4 @@
-import { Notice, Plugin, TFile, Editor, MarkdownView, FuzzySuggestModal } from "obsidian";
-import * as path from "path";
+import { Notice, Plugin, Editor, FuzzySuggestModal } from "obsidian";
 import { registry } from "./registry";
 import { Deployer } from "./deployer";
 import { DEFAULT_SETTINGS, ToolkitSettings } from "./settings";
@@ -14,11 +13,8 @@ export default class MyToolkitPlugin extends Plugin {
     await this.loadSettings();
 
     const vaultPath = (this.app.vault.adapter as any).getBasePath() as string;
-    const pluginDir = path.join(vaultPath, ".obsidian", "plugins", "my-toolkit-plugin");
-    const dataDir = path.join(pluginDir, "data");
 
     // ── Global bridge ──────────────────────────────────────────────────────
-    // The compiled toolkit_search.js user script calls into this at runtime.
     // Keeps all formatter logic inside the plugin bundle.
     (globalThis as any).__toolkit = {
       getItems: async (dataType: string): Promise<FormatterItem[]> => {
@@ -27,36 +23,8 @@ export default class MyToolkitPlugin extends Plugin {
           console.warn(`[Toolkit] Unknown data type: ${dataType}`);
           return [];
         }
-        return formatter.load(""); // dataDir no longer needed - data is embedded
+        return formatter.load("");
       },
-    };
-
-    // ── Make toolkit_search available globally for Templater ───────────────
-    (globalThis as any).toolkit_search = async (tp: any, dataType: string): Promise<string> => {
-      const bridge = (globalThis as any).__toolkit;
-
-      if (!bridge) {
-        tp.system.notice("[Toolkit] Plugin not loaded. Enable My Toolkit Plugin first.");
-        return "";
-      }
-
-      // Get formatted items from the plugin via the global bridge
-      const items: FormatterItem[] = await bridge.getItems(dataType);
-
-      if (!items || items.length === 0) {
-        tp.system.notice(`[Toolkit] No items found for type: ${dataType}`);
-        return "";
-      }
-
-      // Drive Templater's suggester: user picks from the dropdown
-      const selected = await tp.system.suggester(
-        (item: FormatterItem) => item.label,
-        items,
-        true, // throw_on_cancel
-        `Search ${dataType}...`
-      );
-
-      return selected ? selected.body : "";
     };
 
     // ── Add command for direct insertion ────────────────────────────────────

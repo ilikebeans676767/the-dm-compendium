@@ -28,7 +28,7 @@ jobs:
         run: echo "version=$(jq -r '.version' manifest.json)" >> $GITHUB_OUTPUT
 
       - name: Create tar archive with all assets
-        run: tar czf plugin-assets.tar.gz main.js toolkit_search.js manifest.json styles.css
+        run: tar czf plugin-assets.tar.gz main.js manifest.json styles.css
 
       - name: Delete existing release if it exists
         run: |
@@ -39,7 +39,7 @@ jobs:
       - name: Create release with all assets
         run: |
           # Build list of all files to upload
-          FILES="main.js toolkit_search.js manifest.json styles.css"
+          FILES="main.js manifest.json styles.css"
           
           gh release create ${{ steps.version.outputs.version }} $FILES \
             plugin-assets.tar.gz \
