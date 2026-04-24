@@ -36,33 +36,40 @@ module.exports = __toCommonJS(main_exports);
 var import_obsidian = require("obsidian");
 
 // src/formatters/BookFormatter.ts
-var fs = __toESM(require("fs"));
 var path = __toESM(require("path"));
 
 // src/formatters/BaseFormatter.ts
 var BaseFormatter = class {
 };
 
-// src/formatters/BookFormatter.ts
-var BOOKS_DATA_FILE = path.join(__dirname, "..", "data", "books.json");
-var cachedBooks = null;
-var cachedBooksMtimeMs = 0;
-async function loadBooks() {
-  try {
-    const stat = await fs.promises.stat(BOOKS_DATA_FILE);
-    if (cachedBooks && stat.mtimeMs === cachedBooksMtimeMs) {
-      return cachedBooks;
+// src/utils/dataLoader.ts
+var fs = __toESM(require("fs"));
+function createJsonLoader(jsonPath, description) {
+  let cachedData = null;
+  let cachedMtimeMs = 0;
+  return async function loadJsonData() {
+    try {
+      const stat = await fs.promises.stat(jsonPath);
+      if (cachedData && stat.mtimeMs === cachedMtimeMs) {
+        return cachedData;
+      }
+      const fileContents = await fs.promises.readFile(jsonPath, "utf-8");
+      const data = JSON.parse(fileContents);
+      cachedData = data;
+      cachedMtimeMs = stat.mtimeMs;
+      return data;
+    } catch (error) {
+      console.error(`[Toolkit] Failed to load ${description} data from ${jsonPath}:`, error);
+      return [];
     }
-    const fileContents = await fs.promises.readFile(BOOKS_DATA_FILE, "utf-8");
-    const books = JSON.parse(fileContents);
-    cachedBooks = books;
-    cachedBooksMtimeMs = stat.mtimeMs;
-    return books;
-  } catch (error) {
-    console.error("[Toolkit] Failed to load book data:", error);
-    return [];
-  }
+  };
 }
+
+// src/formatters/BookFormatter.ts
+var loadBooks = createJsonLoader(
+  path.join(__dirname, "..", "data", "books.json"),
+  "book"
+);
 var BookFormatter = class extends BaseFormatter {
   async load(dataDir) {
     const books = await loadBooks();
@@ -89,27 +96,11 @@ var BookFormatter = class extends BaseFormatter {
 };
 
 // src/formatters/MovieFormatter.ts
-var fs2 = __toESM(require("fs"));
 var path2 = __toESM(require("path"));
-var MOVIES_DATA_FILE = path2.join(__dirname, "..", "data", "movies.json");
-var cachedMovies = null;
-var cachedMoviesMtimeMs = 0;
-async function loadMovies() {
-  try {
-    const stat = await fs2.promises.stat(MOVIES_DATA_FILE);
-    if (cachedMovies && stat.mtimeMs === cachedMoviesMtimeMs) {
-      return cachedMovies;
-    }
-    const fileContents = await fs2.promises.readFile(MOVIES_DATA_FILE, "utf-8");
-    const movies = JSON.parse(fileContents);
-    cachedMovies = movies;
-    cachedMoviesMtimeMs = stat.mtimeMs;
-    return movies;
-  } catch (error) {
-    console.error("[Toolkit] Failed to load movie data:", error);
-    return [];
-  }
-}
+var loadMovies = createJsonLoader(
+  path2.join(__dirname, "..", "data", "movies.json"),
+  "movie"
+);
 var MovieFormatter = class extends BaseFormatter {
   async load(dataDir) {
     const movies = await loadMovies();
@@ -142,7 +133,7 @@ var registry = {
 };
 
 // src/deployer.ts
-var fs3 = __toESM(require("fs"));
+var fs2 = __toESM(require("fs"));
 var path3 = __toESM(require("path"));
 var Deployer = class {
   constructor(opts) {
@@ -157,8 +148,8 @@ var Deployer = class {
     const hotkeysPath = path3.join(this.opts.vaultPath, ".obsidian", "hotkeys.json");
     let hotkeys = {};
     try {
-      if (fs3.existsSync(hotkeysPath)) {
-        hotkeys = JSON.parse(fs3.readFileSync(hotkeysPath, "utf-8"));
+      if (fs2.existsSync(hotkeysPath)) {
+        hotkeys = JSON.parse(fs2.readFileSync(hotkeysPath, "utf-8"));
       }
     } catch {
       console.warn("[Toolkit] Could not read hotkeys.json, will create.");
@@ -166,7 +157,7 @@ var Deployer = class {
     const commandId = "my-toolkit-plugin:insert-from-toolkit";
     if (!hotkeys[commandId]) {
       hotkeys[commandId] = [{ modifiers: ["Alt", "Shift"], key: "E" }];
-      fs3.writeFileSync(hotkeysPath, JSON.stringify(hotkeys, null, 2));
+      fs2.writeFileSync(hotkeysPath, JSON.stringify(hotkeys, null, 2));
       console.log("[Toolkit] Hotkey Option+Shift+E set for toolkit insertion.");
     } else {
       console.log("[Toolkit] Toolkit hotkey already set by user, skipping.");
