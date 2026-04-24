@@ -152,12 +152,12 @@ var registry = {
 var fs = __toESM(require("fs"));
 var path = __toESM(require("path"));
 var EMBEDDED_TEMPLATES = {
-  "book.md": `<%* 
-const result = await tp.user.toolkit_search(tp, "books");
+  "Insert book.md": `<%* 
+const result = await toolkit_search(tp, "books");
 tR += result;
 %>`,
-  "movie.md": `<%* 
-const result = await tp.user.toolkit_search(tp, "movies");
+  "Insert movie.md": `<%* 
+const result = await toolkit_search(tp, "movies");
 tR += result;
 %>`
 };
@@ -167,7 +167,6 @@ var Deployer = class {
   }
   deployAll() {
     this.deployTemplates();
-    this.deployUserScript();
     this.setTemplaterHotkey();
   }
   // Deploy .md templates into the vault's Templater template folder
@@ -184,19 +183,6 @@ var Deployer = class {
         console.log(`[Toolkit] Template already exists (user customized), skipping: ${filename}`);
       }
     }
-  }
-  // Deploy the compiled user script so Templater can call tp.user.toolkit_search()
-  deployUserScript() {
-    const src = path.join(this.opts.pluginDir, "toolkit_search.js");
-    const destDir = path.join(this.opts.vaultPath, this.opts.scriptsFolder);
-    if (!fs.existsSync(src)) {
-      console.warn("[Toolkit] toolkit_search.js not built yet. Run npm run build.");
-      return;
-    }
-    fs.mkdirSync(destDir, { recursive: true });
-    const dest = path.join(destDir, "toolkit_search.js");
-    fs.copyFileSync(src, dest);
-    console.log("[Toolkit] User script deployed.");
   }
   // Write Alt+Shift+E for Templater's insert modal into hotkeys.json
   // Only sets if the user hasn't already customised this command.
@@ -223,7 +209,7 @@ var Deployer = class {
 
 // src/settings.ts
 var DEFAULT_SETTINGS = {
-  templateFolder: "Templates/toolkit",
+  templateFolder: "Templates",
   scriptsFolder: ".obsidian/scripts"
 };
 
@@ -248,6 +234,26 @@ var MyToolkitPlugin = class extends import_obsidian.Plugin {
         }
         return formatter.load("");
       }
+    };
+    globalThis.toolkit_search = async (tp, dataType) => {
+      const bridge = globalThis.__toolkit;
+      if (!bridge) {
+        tp.system.notice("[Toolkit] Plugin not loaded. Enable My Toolkit Plugin first.");
+        return "";
+      }
+      const items = await bridge.getItems(dataType);
+      if (!items || items.length === 0) {
+        tp.system.notice(`[Toolkit] No items found for type: ${dataType}`);
+        return "";
+      }
+      const selected = await tp.system.suggester(
+        (item) => item.label,
+        items,
+        true,
+        // throw_on_cancel
+        `Search ${dataType}...`
+      );
+      return selected ? selected.body : "";
     };
     const deployer = new Deployer({
       vaultPath,

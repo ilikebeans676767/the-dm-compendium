@@ -3,12 +3,12 @@ import * as path from "path";
 
 // Embedded templates and data (since BRAT doesn't download directories)
 const EMBEDDED_TEMPLATES: Record<string, string> = {
-  "book.md": `<%* 
-const result = await tp.user.toolkit_search(tp, "books");
+  "Insert book.md": `<%* 
+const result = await toolkit_search(tp, "books");
 tR += result;
 %>`,
-  "movie.md": `<%* 
-const result = await tp.user.toolkit_search(tp, "movies");
+  "Insert movie.md": `<%* 
+const result = await toolkit_search(tp, "movies");
 tR += result;
 %>`
 };
@@ -84,7 +84,6 @@ export class Deployer {
 
   deployAll() {
     this.deployTemplates();
-    this.deployUserScript();
     this.setTemplaterHotkey();
   }
 
@@ -106,22 +105,6 @@ export class Deployer {
         console.log(`[Toolkit] Template already exists (user customized), skipping: ${filename}`);
       }
     }
-  }
-
-  // Deploy the compiled user script so Templater can call tp.user.toolkit_search()
-  private deployUserScript() {
-    const src = path.join(this.opts.pluginDir, "toolkit_search.js");
-    const destDir = path.join(this.opts.vaultPath, this.opts.scriptsFolder);
-
-    if (!fs.existsSync(src)) {
-      console.warn("[Toolkit] toolkit_search.js not built yet. Run npm run build.");
-      return;
-    }
-
-    fs.mkdirSync(destDir, { recursive: true });
-    const dest = path.join(destDir, "toolkit_search.js");
-    fs.copyFileSync(src, dest);
-    console.log("[Toolkit] User script deployed.");
   }
 
   // Write Alt+Shift+E for Templater's insert modal into hotkeys.json

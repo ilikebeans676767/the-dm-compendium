@@ -4,6 +4,6 @@ export interface ToolkitSettings {
 }
 
 export const DEFAULT_SETTINGS: ToolkitSettings = {
-  templateFolder: "Templates/toolkit",
+  templateFolder: "Templates",
   scriptsFolder: ".obsidian/scripts",
 };

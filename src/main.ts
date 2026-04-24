@@ -31,6 +31,34 @@ export default class MyToolkitPlugin extends Plugin {
       },
     };
 
+    // ── Make toolkit_search available globally for Templater ───────────────
+    (globalThis as any).toolkit_search = async (tp: any, dataType: string): Promise<string> => {
+      const bridge = (globalThis as any).__toolkit;
+
+      if (!bridge) {
+        tp.system.notice("[Toolkit] Plugin not loaded. Enable My Toolkit Plugin first.");
+        return "";
+      }
+
+      // Get formatted items from the plugin via the global bridge
+      const items: FormatterItem[] = await bridge.getItems(dataType);
+
+      if (!items || items.length === 0) {
+        tp.system.notice(`[Toolkit] No items found for type: ${dataType}`);
+        return "";
+      }
+
+      // Drive Templater's suggester: user picks from the dropdown
+      const selected = await tp.system.suggester(
+        (item: FormatterItem) => item.label,
+        items,
+        true, // throw_on_cancel
+        `Search ${dataType}...`
+      );
+
+      return selected ? selected.body : "";
+    };
+
     // ── Deploy assets ──────────────────────────────────────────────────────
     const deployer = new Deployer({
       vaultPath,
