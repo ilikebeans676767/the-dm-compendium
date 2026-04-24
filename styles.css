@@ -1,0 +1,21 @@
+/* Obsidian loads this automatically from the plugin folder. No snippet system needed. */
+
+.callout[data-callout="toolkit-highlight"] {
+    --callout-color: 233, 69, 96;
+    --callout-icon: lucide-flask-conical;
+    background-color: rgba(26, 26, 46, 0.6);
+    border-left: 3px solid rgba(233, 69, 96, 0.8);
+}
+
+.callout[data-callout="toolkit-highlight"] .callout-title {
+    color: #e94560;
+    font-family: monospace;
+    font-size: 0.8em;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.callout[data-callout="toolkit-highlight"] .callout-content {
+    color: #eaeaea;
+    font-family: monospace;
+}

@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "inlineSourceMap": true,
+    "inlineSources": true,
+    "module": "ESNext",
+    "target": "ES6",
+    "allowSyntheticDefaultImports": true,
+    "moduleResolution": "bundler",
+    "lib": ["ES6", "DOM"],
+    "strict": true,
+    "noImplicitAny": true,
+    "skipLibCheck": true,
+    "types": ["node", "obsidian"]
+  },
+  "include": ["src/**/*.ts"]
+}
