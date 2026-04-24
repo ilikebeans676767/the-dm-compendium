@@ -1,5 +1,3 @@
-import { readFileSync } from "fs";
-import * as path from "path";
 import { BaseFormatter, FormatterItem } from "./BaseFormatter";
 
 interface MovieEntry {
@@ -11,11 +9,37 @@ interface MovieEntry {
   notes: string;
 }
 
+// Embedded movies data
+const MOVIES_DATA: MovieEntry[] = [
+  {
+    "title": "Stalker",
+    "director": "Andrei Tarkovsky",
+    "year": 1979,
+    "genre": "Sci-Fi / Drama",
+    "rating": 5,
+    "notes": "Slow, philosophical, unforgettable. The Zone."
+  },
+  {
+    "title": "Parasite",
+    "director": "Bong Joon-ho",
+    "year": 2019,
+    "genre": "Thriller",
+    "rating": 5,
+    "notes": "Class warfare as genre film. Perfect structure."
+  },
+  {
+    "title": "Adaptation",
+    "director": "Spike Jonze",
+    "year": 2002,
+    "genre": "Comedy / Drama",
+    "rating": 4,
+    "notes": "Meta-screenplay about writing a screenplay. Kaufman at his best."
+  }
+];
+
 export class MovieFormatter extends BaseFormatter {
   async load(dataDir: string): Promise<FormatterItem[]> {
-    const raw = readFileSync(path.join(dataDir, "movies.json"), "utf-8");
-    const movies: MovieEntry[] = JSON.parse(raw);
-    return movies.map((m) => this.format(m));
+    return MOVIES_DATA.map((m) => this.format(m));
   }
 
   protected format(movie: MovieEntry): FormatterItem {

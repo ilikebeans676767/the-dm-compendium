@@ -34,22 +34,42 @@ __export(main_exports, {
 });
 module.exports = __toCommonJS(main_exports);
 var import_obsidian = require("obsidian");
-var path4 = __toESM(require("path"));
-
-// src/formatters/BookFormatter.ts
-var import_fs = require("fs");
-var path = __toESM(require("path"));
+var path2 = __toESM(require("path"));
 
 // src/formatters/BaseFormatter.ts
 var BaseFormatter = class {
 };
 
 // src/formatters/BookFormatter.ts
+var BOOKS_DATA = [
+  {
+    "title": "The Dispossessed",
+    "author": "Ursula K. Le Guin",
+    "year": 1974,
+    "genre": "Science Fiction",
+    "rating": 5,
+    "notes": "Dual-world anarchist utopia. Dense and rewarding."
+  },
+  {
+    "title": "Thinking, Fast and Slow",
+    "author": "Daniel Kahneman",
+    "year": 2011,
+    "genre": "Psychology",
+    "rating": 4,
+    "notes": "System 1 vs System 2 thinking. Foundational."
+  },
+  {
+    "title": "Blood Meridian",
+    "author": "Cormac McCarthy",
+    "year": 1985,
+    "genre": "Literary Fiction",
+    "rating": 5,
+    "notes": "Brutal and poetic. Not for the faint-hearted."
+  }
+];
 var BookFormatter = class extends BaseFormatter {
   async load(dataDir) {
-    const raw = (0, import_fs.readFileSync)(path.join(dataDir, "books.json"), "utf-8");
-    const books = JSON.parse(raw);
-    return books.map((b) => this.format(b));
+    return BOOKS_DATA.map((b) => this.format(b));
   }
   format(book) {
     const stars = "\u2605".repeat(book.rating) + "\u2606".repeat(5 - book.rating);
@@ -72,13 +92,35 @@ var BookFormatter = class extends BaseFormatter {
 };
 
 // src/formatters/MovieFormatter.ts
-var import_fs2 = require("fs");
-var path2 = __toESM(require("path"));
+var MOVIES_DATA = [
+  {
+    "title": "Stalker",
+    "director": "Andrei Tarkovsky",
+    "year": 1979,
+    "genre": "Sci-Fi / Drama",
+    "rating": 5,
+    "notes": "Slow, philosophical, unforgettable. The Zone."
+  },
+  {
+    "title": "Parasite",
+    "director": "Bong Joon-ho",
+    "year": 2019,
+    "genre": "Thriller",
+    "rating": 5,
+    "notes": "Class warfare as genre film. Perfect structure."
+  },
+  {
+    "title": "Adaptation",
+    "director": "Spike Jonze",
+    "year": 2002,
+    "genre": "Comedy / Drama",
+    "rating": 4,
+    "notes": "Meta-screenplay about writing a screenplay. Kaufman at his best."
+  }
+];
 var MovieFormatter = class extends BaseFormatter {
   async load(dataDir) {
-    const raw = (0, import_fs2.readFileSync)(path2.join(dataDir, "movies.json"), "utf-8");
-    const movies = JSON.parse(raw);
-    return movies.map((m) => this.format(m));
+    return MOVIES_DATA.map((m) => this.format(m));
   }
   format(movie) {
     const stars = "\u2605".repeat(movie.rating) + "\u2606".repeat(5 - movie.rating);
@@ -108,7 +150,17 @@ var registry = {
 
 // src/deployer.ts
 var fs = __toESM(require("fs"));
-var path3 = __toESM(require("path"));
+var path = __toESM(require("path"));
+var EMBEDDED_TEMPLATES = {
+  "book.md": `<%* 
+const result = await tp.user.toolkit_search(tp, "books");
+tR += result;
+%>`,
+  "movie.md": `<%* 
+const result = await tp.user.toolkit_search(tp, "movies");
+tR += result;
+%>`
+};
 var Deployer = class {
   constructor(opts) {
     this.opts = opts;
@@ -120,48 +172,36 @@ var Deployer = class {
   }
   // Deploy .md templates into the vault's Templater template folder
   deployTemplates() {
-    const srcDir = path3.join(this.opts.pluginDir, "templates");
-    const destDir = path3.join(this.opts.vaultPath, this.opts.templateFolder);
-    console.log(`[Toolkit] Looking for templates at: ${srcDir}`);
-    console.log(`[Toolkit] Will deploy to: ${destDir}`);
-    if (!fs.existsSync(srcDir)) {
-      console.warn(`[Toolkit] Templates directory not found at ${srcDir}. Skipping template deployment.`);
-      return;
-    }
+    const destDir = path.join(this.opts.vaultPath, this.opts.templateFolder);
+    console.log(`[Toolkit] Deploying embedded templates to: ${destDir}`);
     fs.mkdirSync(destDir, { recursive: true });
-    const files = fs.readdirSync(srcDir);
-    console.log(`[Toolkit] Found ${files.length} items in templates directory.`);
-    for (const file of files) {
-      if (!file.endsWith(".md")) {
-        console.log(`[Toolkit] Skipping non-markdown file: ${file}`);
-        continue;
-      }
-      const dest = path3.join(destDir, file);
+    for (const [filename, content] of Object.entries(EMBEDDED_TEMPLATES)) {
+      const dest = path.join(destDir, filename);
       if (!fs.existsSync(dest)) {
-        fs.copyFileSync(path3.join(srcDir, file), dest);
-        console.log(`[Toolkit] Template deployed: ${file}`);
+        fs.writeFileSync(dest, content, "utf-8");
+        console.log(`[Toolkit] Template deployed: ${filename}`);
       } else {
-        console.log(`[Toolkit] Template already exists (user customized), skipping: ${file}`);
+        console.log(`[Toolkit] Template already exists (user customized), skipping: ${filename}`);
       }
     }
   }
   // Deploy the compiled user script so Templater can call tp.user.toolkit_search()
   deployUserScript() {
-    const src = path3.join(this.opts.pluginDir, "toolkit_search.js");
-    const destDir = path3.join(this.opts.vaultPath, this.opts.scriptsFolder);
+    const src = path.join(this.opts.pluginDir, "toolkit_search.js");
+    const destDir = path.join(this.opts.vaultPath, this.opts.scriptsFolder);
     if (!fs.existsSync(src)) {
       console.warn("[Toolkit] toolkit_search.js not built yet. Run npm run build.");
       return;
     }
     fs.mkdirSync(destDir, { recursive: true });
-    const dest = path3.join(destDir, "toolkit_search.js");
+    const dest = path.join(destDir, "toolkit_search.js");
     fs.copyFileSync(src, dest);
     console.log("[Toolkit] User script deployed.");
   }
   // Write Alt+Shift+E for Templater's insert modal into hotkeys.json
   // Only sets if the user hasn't already customised this command.
   setTemplaterHotkey() {
-    const hotkeysPath = path3.join(this.opts.vaultPath, ".obsidian", "hotkeys.json");
+    const hotkeysPath = path.join(this.opts.vaultPath, ".obsidian", "hotkeys.json");
     let hotkeys = {};
     try {
       if (fs.existsSync(hotkeysPath)) {
@@ -197,8 +237,8 @@ var MyToolkitPlugin = class extends import_obsidian.Plugin {
     console.log("[Toolkit] Loading...");
     await this.loadSettings();
     const vaultPath = this.app.vault.adapter.getBasePath();
-    const pluginDir = path4.join(vaultPath, ".obsidian", "plugins", "my-toolkit-plugin");
-    const dataDir = path4.join(pluginDir, "data");
+    const pluginDir = path2.join(vaultPath, ".obsidian", "plugins", "my-toolkit-plugin");
+    const dataDir = path2.join(pluginDir, "data");
     globalThis.__toolkit = {
       getItems: async (dataType) => {
         const formatter = registry[dataType];
@@ -206,7 +246,7 @@ var MyToolkitPlugin = class extends import_obsidian.Plugin {
           console.warn(`[Toolkit] Unknown data type: ${dataType}`);
           return [];
         }
-        return formatter.load(dataDir);
+        return formatter.load("");
       }
     };
     const deployer = new Deployer({

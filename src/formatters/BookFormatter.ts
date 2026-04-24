@@ -1,5 +1,3 @@
-import { readFileSync } from "fs";
-import * as path from "path";
 import { BaseFormatter, FormatterItem } from "./BaseFormatter";
 
 interface BookEntry {
@@ -11,11 +9,37 @@ interface BookEntry {
   notes: string;
 }
 
+// Embedded books data
+const BOOKS_DATA: BookEntry[] = [
+  {
+    "title": "The Dispossessed",
+    "author": "Ursula K. Le Guin",
+    "year": 1974,
+    "genre": "Science Fiction",
+    "rating": 5,
+    "notes": "Dual-world anarchist utopia. Dense and rewarding."
+  },
+  {
+    "title": "Thinking, Fast and Slow",
+    "author": "Daniel Kahneman",
+    "year": 2011,
+    "genre": "Psychology",
+    "rating": 4,
+    "notes": "System 1 vs System 2 thinking. Foundational."
+  },
+  {
+    "title": "Blood Meridian",
+    "author": "Cormac McCarthy",
+    "year": 1985,
+    "genre": "Literary Fiction",
+    "rating": 5,
+    "notes": "Brutal and poetic. Not for the faint-hearted."
+  }
+];
+
 export class BookFormatter extends BaseFormatter {
   async load(dataDir: string): Promise<FormatterItem[]> {
-    const raw = readFileSync(path.join(dataDir, "books.json"), "utf-8");
-    const books: BookEntry[] = JSON.parse(raw);
-    return books.map((b) => this.format(b));
+    return BOOKS_DATA.map((b) => this.format(b));
   }
 
   protected format(book: BookEntry): FormatterItem {

@@ -1,6 +1,73 @@
 import * as fs from "fs";
 import * as path from "path";
 
+// Embedded templates and data (since BRAT doesn't download directories)
+const EMBEDDED_TEMPLATES: Record<string, string> = {
+  "book.md": `<%* 
+const result = await tp.user.toolkit_search(tp, "books");
+tR += result;
+%>`,
+  "movie.md": `<%* 
+const result = await tp.user.toolkit_search(tp, "movies");
+tR += result;
+%>`
+};
+
+const EMBEDDED_DATA: Record<string, string> = {
+  "books.json": `[
+  {
+    "title": "The Dispossessed",
+    "author": "Ursula K. Le Guin",
+    "year": 1974,
+    "genre": "Science Fiction",
+    "rating": 5,
+    "notes": "Dual-world anarchist utopia. Dense and rewarding."
+  },
+  {
+    "title": "Thinking, Fast and Slow",
+    "author": "Daniel Kahneman",
+    "year": 2011,
+    "genre": "Psychology",
+    "rating": 4,
+    "notes": "System 1 vs System 2 thinking. Foundational."
+  },
+  {
+    "title": "Blood Meridian",
+    "author": "Cormac McCarthy",
+    "year": 1985,
+    "genre": "Literary Fiction",
+    "rating": 5,
+    "notes": "Brutal and poetic. Not for the faint-hearted."
+  }
+]`,
+  "movies.json": `[
+  {
+    "title": "Stalker",
+    "director": "Andrei Tarkovsky",
+    "year": 1979,
+    "genre": "Sci-Fi / Drama",
+    "rating": 5,
+    "notes": "Slow, philosophical, unforgettable. The Zone."
+  },
+  {
+    "title": "Parasite",
+    "director": "Bong Joon-ho",
+    "year": 2019,
+    "genre": "Thriller",
+    "rating": 5,
+    "notes": "Class warfare as genre film. Perfect structure."
+  },
+  {
+    "title": "Adaptation",
+    "director": "Spike Jonze",
+    "year": 2002,
+    "genre": "Comedy / Drama",
+    "rating": 4,
+    "notes": "Meta-screenplay about writing a screenplay. Kaufman at his best."
+  }
+]`
+};
+
 interface DeployerOptions {
   vaultPath: string;
   pluginDir: string;
@@ -23,35 +90,20 @@ export class Deployer {
 
   // Deploy .md templates into the vault's Templater template folder
   private deployTemplates() {
-    const srcDir = path.join(this.opts.pluginDir, "templates");
     const destDir = path.join(this.opts.vaultPath, this.opts.templateFolder);
-    
-    console.log(`[Toolkit] Looking for templates at: ${srcDir}`);
-    console.log(`[Toolkit] Will deploy to: ${destDir}`);
 
-    // Check if templates directory exists (may not be present in deployed plugin)
-    if (!fs.existsSync(srcDir)) {
-      console.warn(`[Toolkit] Templates directory not found at ${srcDir}. Skipping template deployment.`);
-      return;
-    }
+    console.log(`[Toolkit] Deploying embedded templates to: ${destDir}`);
 
     fs.mkdirSync(destDir, { recursive: true });
 
-    const files = fs.readdirSync(srcDir);
-    console.log(`[Toolkit] Found ${files.length} items in templates directory.`);
-
-    for (const file of files) {
-      if (!file.endsWith(".md")) {
-        console.log(`[Toolkit] Skipping non-markdown file: ${file}`);
-        continue;
-      }
-      const dest = path.join(destDir, file);
+    for (const [filename, content] of Object.entries(EMBEDDED_TEMPLATES)) {
+      const dest = path.join(destDir, filename);
       // Never overwrite — user may have customised their copy
       if (!fs.existsSync(dest)) {
-        fs.copyFileSync(path.join(srcDir, file), dest);
-        console.log(`[Toolkit] Template deployed: ${file}`);
+        fs.writeFileSync(dest, content, 'utf-8');
+        console.log(`[Toolkit] Template deployed: ${filename}`);
       } else {
-        console.log(`[Toolkit] Template already exists (user customized), skipping: ${file}`);
+        console.log(`[Toolkit] Template already exists (user customized), skipping: ${filename}`);
       }
     }
   }

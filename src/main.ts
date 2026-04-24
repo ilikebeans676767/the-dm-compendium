@@ -27,7 +27,7 @@ export default class MyToolkitPlugin extends Plugin {
           console.warn(`[Toolkit] Unknown data type: ${dataType}`);
           return [];
         }
-        return formatter.load(dataDir);
+        return formatter.load(""); // dataDir no longer needed - data is embedded
       },
     };
 
