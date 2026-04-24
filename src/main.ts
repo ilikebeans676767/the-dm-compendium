@@ -63,7 +63,7 @@ export default class MyToolkitPlugin extends Plugin {
     this.addCommand({
       id: "insert-from-toolkit",
       name: "Insert from toolkit",
-      editorCallback: async (editor: Editor, view: MarkdownView) => {
+      editorCallback: async (editor: Editor, ctx: any) => {
         await this.insertFromToolkit(editor);
       },
     });

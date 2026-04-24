@@ -258,7 +258,7 @@ var MyToolkitPlugin = class extends import_obsidian.Plugin {
     this.addCommand({
       id: "insert-from-toolkit",
       name: "Insert from toolkit",
-      editorCallback: async (editor, view) => {
+      editorCallback: async (editor, ctx) => {
         await this.insertFromToolkit(editor);
       }
     });
