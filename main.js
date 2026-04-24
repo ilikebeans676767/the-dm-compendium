@@ -209,7 +209,7 @@ var Deployer = class {
 
 // src/settings.ts
 var DEFAULT_SETTINGS = {
-  templateFolder: "Templates",
+  templateFolder: ".",
   scriptsFolder: ".obsidian/scripts"
 };
 
@@ -255,6 +255,13 @@ var MyToolkitPlugin = class extends import_obsidian.Plugin {
       );
       return selected ? selected.body : "";
     };
+    this.addCommand({
+      id: "insert-from-toolkit",
+      name: "Insert from toolkit",
+      editorCallback: async (editor, view) => {
+        await this.insertFromToolkit(editor);
+      }
+    });
     const deployer = new Deployer({
       vaultPath,
       pluginDir,
@@ -274,5 +281,61 @@ var MyToolkitPlugin = class extends import_obsidian.Plugin {
   }
   async saveSettings() {
     await this.saveData(this.settings);
+  }
+  // Direct insertion command - no templates required
+  async insertFromToolkit(editor) {
+    const typeModal = new TypeSelectionModal(this.app, async (selectedType) => {
+      if (!selectedType) return;
+      const items = await globalThis.__toolkit.getItems(selectedType);
+      if (!items || items.length === 0) {
+        new import_obsidian.Notice(`No ${selectedType} found.`);
+        return;
+      }
+      const itemModal = new ItemSelectionModal(this.app, items, selectedType, (selectedItem) => {
+        if (selectedItem) {
+          editor.replaceSelection(selectedItem.body);
+          new import_obsidian.Notice("Content inserted!");
+        }
+      });
+      itemModal.open();
+    });
+    typeModal.open();
+  }
+};
+var TypeSelectionModal = class extends import_obsidian.FuzzySuggestModal {
+  constructor(app, onSelect) {
+    super(app);
+    this.onSelect = onSelect;
+    this.setPlaceholder("Choose what to insert...");
+  }
+  getItems() {
+    return [
+      { label: "Insert book", value: "books" },
+      { label: "Insert movie", value: "movies" }
+    ];
+  }
+  getItemText(item) {
+    return item.label;
+  }
+  onChooseItem(item, evt) {
+    this.onSelect(item.value);
+  }
+};
+var ItemSelectionModal = class extends import_obsidian.FuzzySuggestModal {
+  constructor(app, items, typeName, onSelect) {
+    super(app);
+    this.items = items;
+    this.typeName = typeName;
+    this.onSelect = onSelect;
+    this.setPlaceholder(`Search ${typeName}...`);
+  }
+  getItems() {
+    return this.items;
+  }
+  getItemText(item) {
+    return item.label;
+  }
+  onChooseItem(item, evt) {
+    this.onSelect(item);
   }
 };

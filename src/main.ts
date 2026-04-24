@@ -1,4 +1,4 @@
-import { Notice, Plugin } from "obsidian";
+import { Notice, Plugin, TFile, Editor, MarkdownView, FuzzySuggestModal } from "obsidian";
 import * as path from "path";
 import { registry } from "./registry";
 import { Deployer } from "./deployer";
@@ -59,6 +59,15 @@ export default class MyToolkitPlugin extends Plugin {
       return selected ? selected.body : "";
     };
 
+    // ── Add command for direct insertion ────────────────────────────────────
+    this.addCommand({
+      id: "insert-from-toolkit",
+      name: "Insert from toolkit",
+      editorCallback: async (editor: Editor, view: MarkdownView) => {
+        await this.insertFromToolkit(editor);
+      },
+    });
+
     // ── Deploy assets ──────────────────────────────────────────────────────
     const deployer = new Deployer({
       vaultPath,
@@ -84,5 +93,86 @@ export default class MyToolkitPlugin extends Plugin {
 
   async saveSettings() {
     await this.saveData(this.settings);
+  }
+
+  // Direct insertion command - no templates required
+  private async insertFromToolkit(editor: Editor) {
+    // First modal: choose content type
+    const typeModal = new TypeSelectionModal(this.app, async (selectedType: string) => {
+      if (!selectedType) return;
+
+      // Get items for selected type
+      const items = await (globalThis as any).__toolkit.getItems(selectedType);
+
+      if (!items || items.length === 0) {
+        new Notice(`No ${selectedType} found.`);
+        return;
+      }
+
+      // Second modal: choose specific item
+      const itemModal = new ItemSelectionModal(this.app, items, selectedType, (selectedItem: FormatterItem) => {
+        if (selectedItem) {
+          editor.replaceSelection(selectedItem.body);
+          new Notice("Content inserted!");
+        }
+      });
+
+      itemModal.open();
+    });
+
+    typeModal.open();
+  }
+}
+
+// Modal for selecting content type (books/movies)
+class TypeSelectionModal extends FuzzySuggestModal<{ label: string; value: string }> {
+  private onSelect: (type: string) => void;
+
+  constructor(app: any, onSelect: (type: string) => void) {
+    super(app);
+    this.onSelect = onSelect;
+    this.setPlaceholder("Choose what to insert...");
+  }
+
+  getItems(): { label: string; value: string }[] {
+    return [
+      { label: "Insert book", value: "books" },
+      { label: "Insert movie", value: "movies" }
+    ];
+  }
+
+  getItemText(item: { label: string; value: string }): string {
+    return item.label;
+  }
+
+  onChooseItem(item: { label: string; value: string }, evt: MouseEvent | KeyboardEvent): void {
+    this.onSelect(item.value);
+  }
+}
+
+// Modal for selecting specific item
+class ItemSelectionModal extends FuzzySuggestModal<FormatterItem> {
+  private items: FormatterItem[];
+  private typeName: string;
+  private onSelect: (item: FormatterItem) => void;
+
+  constructor(app: any, items: FormatterItem[], typeName: string, onSelect: (item: FormatterItem) => void) {
+    super(app);
+    this.items = items;
+    this.typeName = typeName;
+    this.onSelect = onSelect;
+    this.setPlaceholder(`Search ${typeName}...`);
+  }
+
+  getItems(): FormatterItem[] {
+    return this.items;
+  }
+
+  getItemText(item: FormatterItem): string {
+    return item.label;
+  }
+
+  onChooseItem(item: FormatterItem, evt: MouseEvent | KeyboardEvent): void {
+    this.onSelect(item);
   }
 }
