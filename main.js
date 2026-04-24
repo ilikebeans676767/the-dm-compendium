@@ -121,6 +121,10 @@ var Deployer = class {
   // Deploy .md templates into the vault's Templater template folder
   deployTemplates() {
     const srcDir = path3.join(this.opts.pluginDir, "templates");
+    if (!fs.existsSync(srcDir)) {
+      console.warn("[Toolkit] Templates directory not found. Skipping template deployment.");
+      return;
+    }
     const destDir = path3.join(this.opts.vaultPath, this.opts.templateFolder);
     fs.mkdirSync(destDir, { recursive: true });
     for (const file of fs.readdirSync(srcDir)) {
