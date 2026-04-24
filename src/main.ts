@@ -71,9 +71,6 @@ export default class MyToolkitPlugin extends Plugin {
     // ── Deploy assets ──────────────────────────────────────────────────────
     const deployer = new Deployer({
       vaultPath,
-      pluginDir,
-      templateFolder: this.settings.templateFolder,
-      scriptsFolder: this.settings.scriptsFolder,
     });
     deployer.deployAll();
 

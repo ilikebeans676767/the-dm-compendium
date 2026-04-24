@@ -151,37 +151,12 @@ var registry = {
 // src/deployer.ts
 var fs = __toESM(require("fs"));
 var path = __toESM(require("path"));
-var EMBEDDED_TEMPLATES = {
-  "Insert book.md": `<%* 
-const result = await toolkit_search(tp, "books");
-tR += result;
-%>`,
-  "Insert movie.md": `<%* 
-const result = await toolkit_search(tp, "movies");
-tR += result;
-%>`
-};
 var Deployer = class {
   constructor(opts) {
     this.opts = opts;
   }
   deployAll() {
     this.setToolkitHotkey();
-  }
-  // Deploy .md templates into the vault's Templater template folder
-  deployTemplates() {
-    const destDir = path.join(this.opts.vaultPath, this.opts.templateFolder);
-    console.log(`[Toolkit] Deploying embedded templates to: ${destDir}`);
-    fs.mkdirSync(destDir, { recursive: true });
-    for (const [filename, content] of Object.entries(EMBEDDED_TEMPLATES)) {
-      const dest = path.join(destDir, filename);
-      if (!fs.existsSync(dest)) {
-        fs.writeFileSync(dest, content, "utf-8");
-        console.log(`[Toolkit] Template deployed: ${filename}`);
-      } else {
-        console.log(`[Toolkit] Template already exists (user customized), skipping: ${filename}`);
-      }
-    }
   }
   // Write Option+Shift+E for toolkit insertion into hotkeys.json
   // Only sets if the user hasn't already customised this command.
@@ -207,10 +182,7 @@ var Deployer = class {
 };
 
 // src/settings.ts
-var DEFAULT_SETTINGS = {
-  templateFolder: ".",
-  scriptsFolder: ".obsidian/scripts"
-};
+var DEFAULT_SETTINGS = {};
 
 // src/main.ts
 var MyToolkitPlugin = class extends import_obsidian.Plugin {
@@ -262,10 +234,7 @@ var MyToolkitPlugin = class extends import_obsidian.Plugin {
       }
     });
     const deployer = new Deployer({
-      vaultPath,
-      pluginDir,
-      templateFolder: this.settings.templateFolder,
-      scriptsFolder: this.settings.scriptsFolder
+      vaultPath
     });
     deployer.deployAll();
     new import_obsidian.Notice("\u2705 Toolkit Plugin loaded.");
