@@ -27,16 +27,24 @@ jobs:
         id: version
         run: echo "version=$(jq -r '.version' manifest.json)" >> $GITHUB_OUTPUT
 
+      - name: Create tar archive with all assets
+        run: tar czf plugin-assets.tar.gz main.js toolkit_search.js manifest.json styles.css templates/ data/
+
       - name: Delete existing release if it exists
         run: |
           gh release delete ${{ steps.version.outputs.version }} --yes || true
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Create release
+      - name: Create release with all assets
         run: |
-          gh release create ${{ steps.version.outputs.version }} \
-            main.js toolkit_search.js manifest.json styles.css \
+          # Build list of all files to upload
+          FILES="main.js toolkit_search.js manifest.json styles.css"
+          FILES="$FILES $(find templates -type f | sort)"
+          FILES="$FILES $(find data -type f | sort)"
+          
+          gh release create ${{ steps.version.outputs.version }} $FILES \
+            plugin-assets.tar.gz \
             --title "${{ steps.version.outputs.version }}" \
             --notes "Auto-built from main"
         env:
