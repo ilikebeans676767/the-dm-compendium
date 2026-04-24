@@ -166,8 +166,7 @@ var Deployer = class {
     this.opts = opts;
   }
   deployAll() {
-    this.deployTemplates();
-    this.setTemplaterHotkey();
+    this.setToolkitHotkey();
   }
   // Deploy .md templates into the vault's Templater template folder
   deployTemplates() {
@@ -184,9 +183,9 @@ var Deployer = class {
       }
     }
   }
-  // Write Alt+Shift+E for Templater's insert modal into hotkeys.json
+  // Write Option+Shift+E for toolkit insertion into hotkeys.json
   // Only sets if the user hasn't already customised this command.
-  setTemplaterHotkey() {
+  setToolkitHotkey() {
     const hotkeysPath = path.join(this.opts.vaultPath, ".obsidian", "hotkeys.json");
     let hotkeys = {};
     try {
@@ -196,13 +195,13 @@ var Deployer = class {
     } catch {
       console.warn("[Toolkit] Could not read hotkeys.json, will create.");
     }
-    const commandId = "templater-obsidian:insert-templater";
+    const commandId = "my-toolkit-plugin:insert-from-toolkit";
     if (!hotkeys[commandId]) {
       hotkeys[commandId] = [{ modifiers: ["Alt", "Shift"], key: "E" }];
       fs.writeFileSync(hotkeysPath, JSON.stringify(hotkeys, null, 2));
-      console.log("[Toolkit] Hotkey Alt+Shift+E set for Templater insert modal.");
+      console.log("[Toolkit] Hotkey Option+Shift+E set for toolkit insertion.");
     } else {
-      console.log("[Toolkit] Templater hotkey already set by user, skipping.");
+      console.log("[Toolkit] Toolkit hotkey already set by user, skipping.");
     }
   }
 };
