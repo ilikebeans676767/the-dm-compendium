@@ -35,40 +35,38 @@ __export(main_exports, {
 module.exports = __toCommonJS(main_exports);
 var import_obsidian = require("obsidian");
 
+// src/formatters/BookFormatter.ts
+var fs = __toESM(require("fs"));
+var path = __toESM(require("path"));
+
 // src/formatters/BaseFormatter.ts
 var BaseFormatter = class {
 };
 
 // src/formatters/BookFormatter.ts
-var BOOKS_DATA = [
-  {
-    "title": "The Dispossessed",
-    "author": "Ursula K. Le Guin",
-    "year": 1974,
-    "genre": "Science Fiction",
-    "rating": 5,
-    "notes": "Dual-world anarchist utopia. Dense and rewarding."
-  },
-  {
-    "title": "Thinking, Fast and Slow",
-    "author": "Daniel Kahneman",
-    "year": 2011,
-    "genre": "Psychology",
-    "rating": 4,
-    "notes": "System 1 vs System 2 thinking. Foundational."
-  },
-  {
-    "title": "Blood Meridian",
-    "author": "Cormac McCarthy",
-    "year": 1985,
-    "genre": "Literary Fiction",
-    "rating": 5,
-    "notes": "Brutal and poetic. Not for the faint-hearted."
+var BOOKS_DATA_FILE = path.join(__dirname, "..", "data", "books.json");
+var cachedBooks = null;
+var cachedBooksMtimeMs = 0;
+async function loadBooks() {
+  try {
+    const stat = await fs.promises.stat(BOOKS_DATA_FILE);
+    if (cachedBooks && stat.mtimeMs === cachedBooksMtimeMs) {
+      return cachedBooks;
+    }
+    const fileContents = await fs.promises.readFile(BOOKS_DATA_FILE, "utf-8");
+    const books = JSON.parse(fileContents);
+    cachedBooks = books;
+    cachedBooksMtimeMs = stat.mtimeMs;
+    return books;
+  } catch (error) {
+    console.error("[Toolkit] Failed to load book data:", error);
+    return [];
   }
-];
+}
 var BookFormatter = class extends BaseFormatter {
   async load(dataDir) {
-    return BOOKS_DATA.map((b) => this.format(b));
+    const books = await loadBooks();
+    return books.map((b) => this.format(b));
   }
   format(book) {
     const stars = "\u2605".repeat(book.rating) + "\u2606".repeat(5 - book.rating);
@@ -91,35 +89,31 @@ var BookFormatter = class extends BaseFormatter {
 };
 
 // src/formatters/MovieFormatter.ts
-var MOVIES_DATA = [
-  {
-    "title": "Stalker",
-    "director": "Andrei Tarkovsky",
-    "year": 1979,
-    "genre": "Sci-Fi / Drama",
-    "rating": 5,
-    "notes": "Slow, philosophical, unforgettable. The Zone."
-  },
-  {
-    "title": "Parasite",
-    "director": "Bong Joon-ho",
-    "year": 2019,
-    "genre": "Thriller",
-    "rating": 5,
-    "notes": "Class warfare as genre film. Perfect structure."
-  },
-  {
-    "title": "Adaptation",
-    "director": "Spike Jonze",
-    "year": 2002,
-    "genre": "Comedy / Drama",
-    "rating": 4,
-    "notes": "Meta-screenplay about writing a screenplay. Kaufman at his best."
+var fs2 = __toESM(require("fs"));
+var path2 = __toESM(require("path"));
+var MOVIES_DATA_FILE = path2.join(__dirname, "..", "data", "movies.json");
+var cachedMovies = null;
+var cachedMoviesMtimeMs = 0;
+async function loadMovies() {
+  try {
+    const stat = await fs2.promises.stat(MOVIES_DATA_FILE);
+    if (cachedMovies && stat.mtimeMs === cachedMoviesMtimeMs) {
+      return cachedMovies;
+    }
+    const fileContents = await fs2.promises.readFile(MOVIES_DATA_FILE, "utf-8");
+    const movies = JSON.parse(fileContents);
+    cachedMovies = movies;
+    cachedMoviesMtimeMs = stat.mtimeMs;
+    return movies;
+  } catch (error) {
+    console.error("[Toolkit] Failed to load movie data:", error);
+    return [];
   }
-];
+}
 var MovieFormatter = class extends BaseFormatter {
   async load(dataDir) {
-    return MOVIES_DATA.map((m) => this.format(m));
+    const movies = await loadMovies();
+    return movies.map((m) => this.format(m));
   }
   format(movie) {
     const stars = "\u2605".repeat(movie.rating) + "\u2606".repeat(5 - movie.rating);
@@ -148,8 +142,8 @@ var registry = {
 };
 
 // src/deployer.ts
-var fs = __toESM(require("fs"));
-var path = __toESM(require("path"));
+var fs3 = __toESM(require("fs"));
+var path3 = __toESM(require("path"));
 var Deployer = class {
   constructor(opts) {
     this.opts = opts;
@@ -160,11 +154,11 @@ var Deployer = class {
   // Write Option+Shift+E for toolkit insertion into hotkeys.json
   // Only sets if the user hasn't already customised this command.
   setToolkitHotkey() {
-    const hotkeysPath = path.join(this.opts.vaultPath, ".obsidian", "hotkeys.json");
+    const hotkeysPath = path3.join(this.opts.vaultPath, ".obsidian", "hotkeys.json");
     let hotkeys = {};
     try {
-      if (fs.existsSync(hotkeysPath)) {
-        hotkeys = JSON.parse(fs.readFileSync(hotkeysPath, "utf-8"));
+      if (fs3.existsSync(hotkeysPath)) {
+        hotkeys = JSON.parse(fs3.readFileSync(hotkeysPath, "utf-8"));
       }
     } catch {
       console.warn("[Toolkit] Could not read hotkeys.json, will create.");
@@ -172,7 +166,7 @@ var Deployer = class {
     const commandId = "my-toolkit-plugin:insert-from-toolkit";
     if (!hotkeys[commandId]) {
       hotkeys[commandId] = [{ modifiers: ["Alt", "Shift"], key: "E" }];
-      fs.writeFileSync(hotkeysPath, JSON.stringify(hotkeys, null, 2));
+      fs3.writeFileSync(hotkeysPath, JSON.stringify(hotkeys, null, 2));
       console.log("[Toolkit] Hotkey Option+Shift+E set for toolkit insertion.");
     } else {
       console.log("[Toolkit] Toolkit hotkey already set by user, skipping.");

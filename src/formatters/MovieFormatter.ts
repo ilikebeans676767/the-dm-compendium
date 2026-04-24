@@ -1,3 +1,5 @@
+import * as fs from "fs";
+import * as path from "path";
 import { BaseFormatter, FormatterItem } from "./BaseFormatter";
 
 interface MovieEntry {
@@ -9,37 +11,32 @@ interface MovieEntry {
   notes: string;
 }
 
-// Embedded movies data
-const MOVIES_DATA: MovieEntry[] = [
-  {
-    "title": "Stalker",
-    "director": "Andrei Tarkovsky",
-    "year": 1979,
-    "genre": "Sci-Fi / Drama",
-    "rating": 5,
-    "notes": "Slow, philosophical, unforgettable. The Zone."
-  },
-  {
-    "title": "Parasite",
-    "director": "Bong Joon-ho",
-    "year": 2019,
-    "genre": "Thriller",
-    "rating": 5,
-    "notes": "Class warfare as genre film. Perfect structure."
-  },
-  {
-    "title": "Adaptation",
-    "director": "Spike Jonze",
-    "year": 2002,
-    "genre": "Comedy / Drama",
-    "rating": 4,
-    "notes": "Meta-screenplay about writing a screenplay. Kaufman at his best."
+const MOVIES_DATA_FILE = path.join(__dirname, "..", "data", "movies.json");
+let cachedMovies: MovieEntry[] | null = null;
+let cachedMoviesMtimeMs = 0;
+
+async function loadMovies(): Promise<MovieEntry[]> {
+  try {
+    const stat = await fs.promises.stat(MOVIES_DATA_FILE);
+    if (cachedMovies && stat.mtimeMs === cachedMoviesMtimeMs) {
+      return cachedMovies;
+    }
+
+    const fileContents = await fs.promises.readFile(MOVIES_DATA_FILE, "utf-8");
+    const movies = JSON.parse(fileContents) as MovieEntry[];
+    cachedMovies = movies;
+    cachedMoviesMtimeMs = stat.mtimeMs;
+    return movies;
+  } catch (error) {
+    console.error("[Toolkit] Failed to load movie data:", error);
+    return [];
   }
-];
+}
 
 export class MovieFormatter extends BaseFormatter {
   async load(dataDir: string): Promise<FormatterItem[]> {
-    return MOVIES_DATA.map((m) => this.format(m));
+    const movies = await loadMovies();
+    return movies.map((m) => this.format(m));
   }
 
   protected format(movie: MovieEntry): FormatterItem {
