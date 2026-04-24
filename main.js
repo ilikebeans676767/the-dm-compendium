@@ -121,18 +121,27 @@ var Deployer = class {
   // Deploy .md templates into the vault's Templater template folder
   deployTemplates() {
     const srcDir = path3.join(this.opts.pluginDir, "templates");
+    const destDir = path3.join(this.opts.vaultPath, this.opts.templateFolder);
+    console.log(`[Toolkit] Looking for templates at: ${srcDir}`);
+    console.log(`[Toolkit] Will deploy to: ${destDir}`);
     if (!fs.existsSync(srcDir)) {
-      console.warn("[Toolkit] Templates directory not found. Skipping template deployment.");
+      console.warn(`[Toolkit] Templates directory not found at ${srcDir}. Skipping template deployment.`);
       return;
     }
-    const destDir = path3.join(this.opts.vaultPath, this.opts.templateFolder);
     fs.mkdirSync(destDir, { recursive: true });
-    for (const file of fs.readdirSync(srcDir)) {
-      if (!file.endsWith(".md")) continue;
+    const files = fs.readdirSync(srcDir);
+    console.log(`[Toolkit] Found ${files.length} items in templates directory.`);
+    for (const file of files) {
+      if (!file.endsWith(".md")) {
+        console.log(`[Toolkit] Skipping non-markdown file: ${file}`);
+        continue;
+      }
       const dest = path3.join(destDir, file);
       if (!fs.existsSync(dest)) {
         fs.copyFileSync(path3.join(srcDir, file), dest);
         console.log(`[Toolkit] Template deployed: ${file}`);
+      } else {
+        console.log(`[Toolkit] Template already exists (user customized), skipping: ${file}`);
       }
     }
   }
