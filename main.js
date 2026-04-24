@@ -174,7 +174,7 @@ var MyToolkitPlugin = class extends import_obsidian.Plugin {
     console.log("[Toolkit] Loading...");
     await this.loadSettings();
     const vaultPath = this.app.vault.adapter.getBasePath();
-    const pluginDir = path4.join(this.app.vault.configDir, "plugins", this.manifest.id);
+    const pluginDir = path4.join(vaultPath, this.app.vault.configDir, "plugins", this.manifest.id);
     globalThis.__toolkit = {
       getItems: async (dataType) => {
         const formatter = registry[dataType];

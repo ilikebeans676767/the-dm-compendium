@@ -14,7 +14,7 @@ export default class MyToolkitPlugin extends Plugin {
     await this.loadSettings();
 
     const vaultPath = (this.app.vault.adapter as any).getBasePath() as string;
-    const pluginDir = path.join(this.app.vault.configDir, "plugins", this.manifest.id);
+    const pluginDir = path.join(vaultPath, this.app.vault.configDir, "plugins", this.manifest.id);
 
     // ── Global bridge ──────────────────────────────────────────────────────
     // Keeps all formatter logic inside the plugin bundle.
