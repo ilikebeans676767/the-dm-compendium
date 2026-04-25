@@ -1,5 +1,5 @@
 import * as path from "path";
-import { Notice, Plugin, Editor, FuzzySuggestModal } from "obsidian";
+import { App, Notice, Plugin, Editor, FuzzySuggestModal, PluginSettingTab, Setting } from "obsidian";
 import { registry } from "./registry";
 import { Deployer } from "./deployer";
 import { DEFAULT_SETTINGS, ToolkitSettings } from "./settings";
@@ -19,6 +19,7 @@ export default class MyToolkitPlugin extends Plugin {
     this.pluginDir = path.join(vaultPath, this.app.vault.configDir, "plugins", this.manifest.id);
 
     await this.ensureDatabaseCache();
+    this.addSettingTab(new ToolkitSettingTab(this.app, this));
 
     // ── Global bridge ──────────────────────────────────────────────────────
     // Keeps all formatter logic inside the plugin bundle.
@@ -85,14 +86,14 @@ export default class MyToolkitPlugin extends Plugin {
 
   private async refreshToolkitDatabase(showSuccessNotice: boolean) {
     try {
-      await refreshDatabaseCache(this.pluginDir);
+      await refreshDatabaseCache(this.pluginDir, this.settings.githubToken);
       if (showSuccessNotice) {
         new Notice("Toolkit database refreshed.");
       }
       console.log("[Toolkit] Database cache refreshed.");
     } catch (error) {
       console.error("[Toolkit] Failed to refresh database cache:", error);
-      new Notice("Toolkit database refresh failed. Check the developer console.");
+      new Notice("Toolkit database refresh failed. For a private repo, add a GitHub token in plugin settings.");
     }
   }
 
@@ -122,6 +123,35 @@ export default class MyToolkitPlugin extends Plugin {
     });
 
     typeModal.open();
+  }
+}
+
+class ToolkitSettingTab extends PluginSettingTab {
+  plugin: MyToolkitPlugin;
+
+  constructor(app: App, plugin: MyToolkitPlugin) {
+    super(app, plugin);
+    this.plugin = plugin;
+  }
+
+  display(): void {
+    const { containerEl } = this;
+    containerEl.empty();
+
+    new Setting(containerEl)
+      .setName("GitHub token")
+      .setDesc("Fine-grained token with read-only Contents access to the private data repository.")
+      .addText((text) => {
+        text
+          .setPlaceholder("github_pat_...")
+          .setValue(this.plugin.settings.githubToken)
+          .onChange(async (value) => {
+            this.plugin.settings.githubToken = value.trim();
+            await this.plugin.saveSettings();
+          });
+
+        text.inputEl.type = "password";
+      });
   }
 }
 

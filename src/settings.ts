@@ -1,3 +1,7 @@
-export interface ToolkitSettings {}
+export interface ToolkitSettings {
+  githubToken: string;
+}
 
-export const DEFAULT_SETTINGS: ToolkitSettings = {};
+export const DEFAULT_SETTINGS: ToolkitSettings = {
+  githubToken: "",
+};

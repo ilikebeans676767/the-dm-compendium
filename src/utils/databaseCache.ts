@@ -12,12 +12,12 @@ const DATABASE_FILES: DatabaseFile[] = [
   {
     name: "books.json",
     description: "books",
-    sourceUrl: "https://raw.githubusercontent.com/guykahalani/my-toolkit-plugin/main/data/books.json",
+    sourceUrl: "https://api.github.com/repos/guykahalani/my-toolkit-plugin/contents/data/books.json?ref=main",
   },
   {
     name: "movies.json",
     description: "movies",
-    sourceUrl: "https://raw.githubusercontent.com/guykahalani/my-toolkit-plugin/main/data/movies.json",
+    sourceUrl: "https://api.github.com/repos/guykahalani/my-toolkit-plugin/contents/data/movies.json?ref=main",
   },
 ];
 
@@ -45,13 +45,26 @@ export async function hasDatabaseCache(pluginDir: string): Promise<boolean> {
   return results.every(Boolean);
 }
 
-export async function refreshDatabaseCache(pluginDir: string): Promise<void> {
+export async function refreshDatabaseCache(pluginDir: string, githubToken: string): Promise<void> {
   const cacheDir = getCacheDir(pluginDir);
   await fs.promises.mkdir(cacheDir, { recursive: true });
 
   await Promise.all(
     DATABASE_FILES.map(async (file) => {
-      const response = await requestUrl(file.sourceUrl);
+      const headers: Record<string, string> = {
+        Accept: "application/vnd.github.raw+json",
+        "X-GitHub-Api-Version": "2022-11-28",
+      };
+
+      if (githubToken.trim()) {
+        headers.Authorization = `Bearer ${githubToken.trim()}`;
+      }
+
+      const response = await requestUrl({
+        url: file.sourceUrl,
+        method: "GET",
+        headers,
+      });
       const data = response.json;
 
       if (!Array.isArray(data)) {

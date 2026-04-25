@@ -162,7 +162,9 @@ var Deployer = class {
 };
 
 // src/settings.ts
-var DEFAULT_SETTINGS = {};
+var DEFAULT_SETTINGS = {
+  githubToken: ""
+};
 
 // src/utils/databaseCache.ts
 var fs3 = __toESM(require("fs"));
@@ -172,12 +174,12 @@ var DATABASE_FILES = [
   {
     name: "books.json",
     description: "books",
-    sourceUrl: "https://raw.githubusercontent.com/guykahalani/my-toolkit-plugin/main/data/books.json"
+    sourceUrl: "https://api.github.com/repos/guykahalani/my-toolkit-plugin/contents/data/books.json?ref=main"
   },
   {
     name: "movies.json",
     description: "movies",
-    sourceUrl: "https://raw.githubusercontent.com/guykahalani/my-toolkit-plugin/main/data/movies.json"
+    sourceUrl: "https://api.github.com/repos/guykahalani/my-toolkit-plugin/contents/data/movies.json?ref=main"
   }
 ];
 function getCacheDir(pluginDir) {
@@ -197,12 +199,23 @@ async function hasDatabaseCache(pluginDir) {
   );
   return results.every(Boolean);
 }
-async function refreshDatabaseCache(pluginDir) {
+async function refreshDatabaseCache(pluginDir, githubToken) {
   const cacheDir = getCacheDir(pluginDir);
   await fs3.promises.mkdir(cacheDir, { recursive: true });
   await Promise.all(
     DATABASE_FILES.map(async (file) => {
-      const response = await (0, import_obsidian.requestUrl)(file.sourceUrl);
+      const headers = {
+        Accept: "application/vnd.github.raw+json",
+        "X-GitHub-Api-Version": "2022-11-28"
+      };
+      if (githubToken.trim()) {
+        headers.Authorization = `Bearer ${githubToken.trim()}`;
+      }
+      const response = await (0, import_obsidian.requestUrl)({
+        url: file.sourceUrl,
+        method: "GET",
+        headers
+      });
       const data = response.json;
       if (!Array.isArray(data)) {
         throw new Error(`Remote ${file.description} data is not a JSON array.`);
@@ -229,6 +242,7 @@ var MyToolkitPlugin = class extends import_obsidian2.Plugin {
     const vaultPath = this.app.vault.adapter.getBasePath();
     this.pluginDir = path5.join(vaultPath, this.app.vault.configDir, "plugins", this.manifest.id);
     await this.ensureDatabaseCache();
+    this.addSettingTab(new ToolkitSettingTab(this.app, this));
     globalThis.__toolkit = {
       getItems: async (dataType) => {
         const formatter = registry[dataType];
@@ -279,14 +293,14 @@ var MyToolkitPlugin = class extends import_obsidian2.Plugin {
   }
   async refreshToolkitDatabase(showSuccessNotice) {
     try {
-      await refreshDatabaseCache(this.pluginDir);
+      await refreshDatabaseCache(this.pluginDir, this.settings.githubToken);
       if (showSuccessNotice) {
         new import_obsidian2.Notice("Toolkit database refreshed.");
       }
       console.log("[Toolkit] Database cache refreshed.");
     } catch (error) {
       console.error("[Toolkit] Failed to refresh database cache:", error);
-      new import_obsidian2.Notice("Toolkit database refresh failed. Check the developer console.");
+      new import_obsidian2.Notice("Toolkit database refresh failed. For a private repo, add a GitHub token in plugin settings.");
     }
   }
   // Direct insertion command - no templates required
@@ -307,6 +321,23 @@ var MyToolkitPlugin = class extends import_obsidian2.Plugin {
       itemModal.open();
     });
     typeModal.open();
+  }
+};
+var ToolkitSettingTab = class extends import_obsidian2.PluginSettingTab {
+  constructor(app, plugin) {
+    super(app, plugin);
+    this.plugin = plugin;
+  }
+  display() {
+    const { containerEl } = this;
+    containerEl.empty();
+    new import_obsidian2.Setting(containerEl).setName("GitHub token").setDesc("Fine-grained token with read-only Contents access to the private data repository.").addText((text) => {
+      text.setPlaceholder("github_pat_...").setValue(this.plugin.settings.githubToken).onChange(async (value) => {
+        this.plugin.settings.githubToken = value.trim();
+        await this.plugin.saveSettings();
+      });
+      text.inputEl.type = "password";
+    });
   }
 };
 var TypeSelectionModal = class extends import_obsidian2.FuzzySuggestModal {
