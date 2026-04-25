@@ -10,11 +10,16 @@ import {
   ToolkitSettings,
 } from "./settings";
 import { FormatterItem } from "./formatters/BaseFormatter";
-import { hasDatabaseCache, refreshDatabaseCache } from "./utils/databaseCache";
+import {
+  hasDatabaseCache,
+  refreshDatabaseCache,
+  refreshSourceFilteredDatabaseCache,
+} from "./utils/databaseCache";
 
 export default class MyToolkitPlugin extends Plugin {
   settings: ToolkitSettings = DEFAULT_SETTINGS;
   private pluginDir = "";
+  private sourceRefreshTimer: ReturnType<typeof setTimeout> | null = null;
 
   async onload() {
     console.log("[Toolkit] Loading...");
@@ -70,6 +75,9 @@ export default class MyToolkitPlugin extends Plugin {
   }
 
   onunload() {
+    if (this.sourceRefreshTimer) {
+      clearTimeout(this.sourceRefreshTimer);
+    }
     // Clean up the global bridge so nothing leaks after the plugin is disabled
     delete (globalThis as any).__toolkit;
     console.log("[Toolkit] Unloaded. Bridge removed.");
@@ -88,7 +96,7 @@ export default class MyToolkitPlugin extends Plugin {
   }
 
   private async ensureDatabaseCache() {
-    if (await hasDatabaseCache(this.pluginDir)) {
+    if (await hasDatabaseCache(this.pluginDir, this.settings.includedSources)) {
       return;
     }
 
@@ -97,7 +105,7 @@ export default class MyToolkitPlugin extends Plugin {
 
   private async refreshToolkitDatabase(showSuccessNotice: boolean) {
     try {
-      await refreshDatabaseCache(this.pluginDir, this.settings.githubToken);
+      await refreshDatabaseCache(this.pluginDir, this.settings.githubToken, this.settings.includedSources);
       if (showSuccessNotice) {
         new Notice("Toolkit database refreshed.");
       }
@@ -105,6 +113,31 @@ export default class MyToolkitPlugin extends Plugin {
     } catch (error) {
       console.error("[Toolkit] Failed to refresh database cache:", error);
       new Notice("Toolkit database refresh failed. For a private repo, add a GitHub token in plugin settings.");
+    }
+  }
+
+  scheduleSourceFilteredCacheRefresh() {
+    if (this.sourceRefreshTimer) {
+      clearTimeout(this.sourceRefreshTimer);
+    }
+
+    this.sourceRefreshTimer = setTimeout(async () => {
+      this.sourceRefreshTimer = null;
+      await this.refreshSourceFilteredCache();
+    }, 900);
+  }
+
+  private async refreshSourceFilteredCache() {
+    try {
+      await refreshSourceFilteredDatabaseCache(
+        this.pluginDir,
+        this.settings.githubToken,
+        this.settings.includedSources
+      );
+      console.log("[Toolkit] Source-filtered database cache refreshed.");
+    } catch (error) {
+      console.error("[Toolkit] Failed to refresh source-filtered database cache:", error);
+      new Notice("Toolkit source cache refresh failed. Check the developer console.");
     }
   }
 
@@ -178,6 +211,7 @@ class ToolkitSettingTab extends PluginSettingTab {
           .onClick(async () => {
             this.plugin.settings.includedSources = getDefaultIncludedSources();
             await this.plugin.saveSettings();
+            this.plugin.scheduleSourceFilteredCacheRefresh();
             this.display();
           });
       })
@@ -187,6 +221,7 @@ class ToolkitSettingTab extends PluginSettingTab {
           .onClick(async () => {
             this.plugin.settings.includedSources = Object.keys(SOURCE_LIST).map(normalizeSourceKey);
             await this.plugin.saveSettings();
+            this.plugin.scheduleSourceFilteredCacheRefresh();
             this.display();
           });
       })
@@ -196,6 +231,7 @@ class ToolkitSettingTab extends PluginSettingTab {
           .onClick(async () => {
             this.plugin.settings.includedSources = [];
             await this.plugin.saveSettings();
+            this.plugin.scheduleSourceFilteredCacheRefresh();
             this.display();
           });
       });
@@ -219,6 +255,7 @@ class ToolkitSettingTab extends PluginSettingTab {
                 }
                 this.plugin.settings.includedSources = Array.from(nextSources).sort();
                 await this.plugin.saveSettings();
+                this.plugin.scheduleSourceFilteredCacheRefresh();
               });
           });
       });

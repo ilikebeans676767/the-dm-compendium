@@ -4,6 +4,8 @@ import * as path from "path";
 const ROOT_DIR = process.cwd();
 const SPELLS_DIR = path.join(ROOT_DIR, "5etools-src", "data", "spells");
 const DATA_DIR = path.join(ROOT_DIR, "data");
+const GENERATED_SPELLS_DIR = path.join(DATA_DIR, "spells");
+const SPELL_SOURCE_LIST_PATH = path.join(ROOT_DIR, "src", "spell-source-list.json");
 const SPELL_SCHOOL_NAMES = {
   A: "abjuration",
   C: "conjuration",
@@ -163,8 +165,28 @@ function buildSpells() {
     });
 
   fs.mkdirSync(DATA_DIR, { recursive: true });
+  fs.rmSync(GENERATED_SPELLS_DIR, { recursive: true, force: true });
+  fs.mkdirSync(GENERATED_SPELLS_DIR, { recursive: true });
+
+  const spellsBySource = new Map();
+  for (const spell of spells) {
+    const sourceSpells = spellsBySource.get(spell.sourceKey) ?? [];
+    sourceSpells.push(spell);
+    spellsBySource.set(spell.sourceKey, sourceSpells);
+  }
+
   fs.writeFileSync(path.join(DATA_DIR, "spells.json"), `${JSON.stringify(spells, null, 2)}\n`);
-  console.log(`Built data/spells.json with ${spells.length} spells.`);
+  for (const [sourceKey, sourceSpells] of spellsBySource) {
+    fs.writeFileSync(
+      path.join(GENERATED_SPELLS_DIR, `${sourceKey.toLowerCase()}.json`),
+      `${JSON.stringify(sourceSpells, null, 2)}\n`
+    );
+  }
+  fs.writeFileSync(
+    SPELL_SOURCE_LIST_PATH,
+    `${JSON.stringify(Array.from(spellsBySource.keys()).sort(), null, 2)}\n`
+  );
+  console.log(`Built data/spells.json with ${spells.length} spells across ${spellsBySource.size} sources.`);
 }
 
 buildSpells();

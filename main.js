@@ -553,6 +553,31 @@ var require_source_list = __commonJS({
   }
 });
 
+// src/spell-source-list.json
+var require_spell_source_list = __commonJS({
+  "src/spell-source-list.json"(exports2, module2) {
+    module2.exports = [
+      "AAG",
+      "AI",
+      "AITFR-AVT",
+      "BMT",
+      "EFA",
+      "EGW",
+      "FRHOF",
+      "FTD",
+      "GGR",
+      "IDROTF",
+      "LLK",
+      "PHB",
+      "SATO",
+      "SCC",
+      "TCE",
+      "XGE",
+      "XPHB"
+    ];
+  }
+});
+
 // src/main.ts
 var main_exports = {};
 __export(main_exports, {
@@ -756,6 +781,9 @@ var Deployer = class {
 var fs3 = __toESM(require("fs"));
 var path5 = __toESM(require("path"));
 var import_obsidian = require("obsidian");
+var SPELL_SOURCE_LIST = require_spell_source_list();
+var SPELL_SOURCE_SET = new Set(SPELL_SOURCE_LIST.map(normalizeSourceKey));
+var CACHE_METADATA_FILE = ".database-cache.json";
 var DATABASE_FILES = [
   {
     name: "books.json",
@@ -766,58 +794,111 @@ var DATABASE_FILES = [
     name: "movies.json",
     description: "movies",
     sourceUrl: "https://api.github.com/repos/guykahalani/my-toolkit-plugin/contents/data/movies.json?ref=main"
-  },
-  {
-    name: "spells.json",
-    description: "spells",
-    sourceUrl: "https://api.github.com/repos/guykahalani/my-toolkit-plugin/contents/data/spells.json?ref=main"
   }
 ];
 function getCacheDir(pluginDir) {
   return path5.join(pluginDir, "cache");
 }
-async function hasDatabaseCache(pluginDir) {
+async function hasDatabaseCache(pluginDir, includedSources) {
   const cacheDir = getCacheDir(pluginDir);
   const results = await Promise.all(
-    DATABASE_FILES.map(async (file) => {
-      try {
-        await fs3.promises.access(path5.join(cacheDir, file.name), fs3.constants.R_OK);
-        return true;
-      } catch {
-        return false;
-      }
-    })
+    DATABASE_FILES.map((file) => hasFile(path5.join(cacheDir, file.name)))
   );
-  return results.every(Boolean);
+  return results.every(Boolean) && await hasFile(path5.join(cacheDir, "spells.json")) && await hasMatchingCacheMetadata(cacheDir, includedSources);
 }
-async function refreshDatabaseCache(pluginDir, githubToken) {
+async function refreshDatabaseCache(pluginDir, githubToken, includedSources) {
   const cacheDir = getCacheDir(pluginDir);
   await fs3.promises.mkdir(cacheDir, { recursive: true });
   await Promise.all(
-    DATABASE_FILES.map(async (file) => {
-      const headers = {
-        Accept: "application/vnd.github.raw+json",
-        "X-GitHub-Api-Version": "2022-11-28"
-      };
-      if (githubToken.trim()) {
-        headers.Authorization = `Bearer ${githubToken.trim()}`;
-      }
-      const response = await (0, import_obsidian.requestUrl)({
-        url: file.sourceUrl,
-        method: "GET",
-        headers
-      });
-      const data = response.json;
-      if (!Array.isArray(data)) {
-        throw new Error(`Remote ${file.description} data is not a JSON array.`);
-      }
-      await fs3.promises.writeFile(
-        path5.join(cacheDir, file.name),
-        JSON.stringify(data, null, 2),
-        "utf-8"
-      );
-    })
+    DATABASE_FILES.map((file) => writeJsonCacheFile(cacheDir, file, githubToken))
   );
+  await refreshSourceFilteredDatabaseCache(pluginDir, githubToken, includedSources);
+}
+async function refreshSourceFilteredDatabaseCache(pluginDir, githubToken, includedSources) {
+  const cacheDir = getCacheDir(pluginDir);
+  await fs3.promises.mkdir(cacheDir, { recursive: true });
+  const selectedSpellSources = getSelectedSpellSources(includedSources);
+  const sourceSpellGroups = await Promise.all(
+    selectedSpellSources.map((sourceKey) => fetchJsonArrayFromGithub(
+      getSpellSourceUrl(sourceKey),
+      githubToken,
+      `${sourceKey} spells`
+    ))
+  );
+  const spells = sourceSpellGroups.flat().sort((left, right) => {
+    const byName = String(left.name).localeCompare(String(right.name));
+    return byName || String(left.source).localeCompare(String(right.source));
+  });
+  await fs3.promises.writeFile(
+    path5.join(cacheDir, "spells.json"),
+    JSON.stringify(spells, null, 2),
+    "utf-8"
+  );
+  await writeCacheMetadata(cacheDir, includedSources);
+}
+async function writeJsonCacheFile(cacheDir, file, githubToken) {
+  const data = await fetchJsonArrayFromGithub(file.sourceUrl, githubToken, file.description);
+  await fs3.promises.writeFile(
+    path5.join(cacheDir, file.name),
+    JSON.stringify(data, null, 2),
+    "utf-8"
+  );
+}
+async function fetchJsonArrayFromGithub(sourceUrl, githubToken, description) {
+  const headers = {
+    Accept: "application/vnd.github.raw+json",
+    "X-GitHub-Api-Version": "2022-11-28"
+  };
+  if (githubToken.trim()) {
+    headers.Authorization = `Bearer ${githubToken.trim()}`;
+  }
+  const response = await (0, import_obsidian.requestUrl)({
+    url: sourceUrl,
+    method: "GET",
+    headers
+  });
+  const data = response.json;
+  if (!Array.isArray(data)) {
+    throw new Error(`Remote ${description} data is not a JSON array.`);
+  }
+  return data;
+}
+function getSelectedSpellSources(includedSources) {
+  return includedSources.map(normalizeSourceKey).filter((sourceKey) => SPELL_SOURCE_SET.has(sourceKey)).sort();
+}
+function getSpellSourceUrl(sourceKey) {
+  return `https://api.github.com/repos/guykahalani/my-toolkit-plugin/contents/data/spells/${sourceKey.toLowerCase()}.json?ref=main`;
+}
+async function hasFile(filePath) {
+  try {
+    await fs3.promises.access(filePath, fs3.constants.R_OK);
+    return true;
+  } catch {
+    return false;
+  }
+}
+async function hasMatchingCacheMetadata(cacheDir, includedSources) {
+  try {
+    const metadata = JSON.parse(
+      await fs3.promises.readFile(path5.join(cacheDir, CACHE_METADATA_FILE), "utf-8")
+    );
+    return sourcesMatch(metadata.includedSources ?? [], includedSources);
+  } catch {
+    return false;
+  }
+}
+async function writeCacheMetadata(cacheDir, includedSources) {
+  await fs3.promises.writeFile(
+    path5.join(cacheDir, CACHE_METADATA_FILE),
+    JSON.stringify({ includedSources: normalizeSources(includedSources) }, null, 2),
+    "utf-8"
+  );
+}
+function sourcesMatch(left, right) {
+  return JSON.stringify(normalizeSources(left)) === JSON.stringify(normalizeSources(right));
+}
+function normalizeSources(sources) {
+  return sources.map(normalizeSourceKey).sort();
 }
 
 // src/main.ts
@@ -826,6 +907,7 @@ var MyToolkitPlugin = class extends import_obsidian2.Plugin {
     super(...arguments);
     this.settings = DEFAULT_SETTINGS;
     this.pluginDir = "";
+    this.sourceRefreshTimer = null;
   }
   async onload() {
     console.log("[Toolkit] Loading...");
@@ -868,6 +950,9 @@ var MyToolkitPlugin = class extends import_obsidian2.Plugin {
     console.log("[Toolkit] Ready. Bridge attached, assets deployed.");
   }
   onunload() {
+    if (this.sourceRefreshTimer) {
+      clearTimeout(this.sourceRefreshTimer);
+    }
     delete globalThis.__toolkit;
     console.log("[Toolkit] Unloaded. Bridge removed.");
   }
@@ -882,14 +967,14 @@ var MyToolkitPlugin = class extends import_obsidian2.Plugin {
     await this.saveData(this.settings);
   }
   async ensureDatabaseCache() {
-    if (await hasDatabaseCache(this.pluginDir)) {
+    if (await hasDatabaseCache(this.pluginDir, this.settings.includedSources)) {
       return;
     }
     await this.refreshToolkitDatabase(false);
   }
   async refreshToolkitDatabase(showSuccessNotice) {
     try {
-      await refreshDatabaseCache(this.pluginDir, this.settings.githubToken);
+      await refreshDatabaseCache(this.pluginDir, this.settings.githubToken, this.settings.includedSources);
       if (showSuccessNotice) {
         new import_obsidian2.Notice("Toolkit database refreshed.");
       }
@@ -897,6 +982,28 @@ var MyToolkitPlugin = class extends import_obsidian2.Plugin {
     } catch (error) {
       console.error("[Toolkit] Failed to refresh database cache:", error);
       new import_obsidian2.Notice("Toolkit database refresh failed. For a private repo, add a GitHub token in plugin settings.");
+    }
+  }
+  scheduleSourceFilteredCacheRefresh() {
+    if (this.sourceRefreshTimer) {
+      clearTimeout(this.sourceRefreshTimer);
+    }
+    this.sourceRefreshTimer = setTimeout(async () => {
+      this.sourceRefreshTimer = null;
+      await this.refreshSourceFilteredCache();
+    }, 900);
+  }
+  async refreshSourceFilteredCache() {
+    try {
+      await refreshSourceFilteredDatabaseCache(
+        this.pluginDir,
+        this.settings.githubToken,
+        this.settings.includedSources
+      );
+      console.log("[Toolkit] Source-filtered database cache refreshed.");
+    } catch (error) {
+      console.error("[Toolkit] Failed to refresh source-filtered database cache:", error);
+      new import_obsidian2.Notice("Toolkit source cache refresh failed. Check the developer console.");
     }
   }
   filterItemsBySource(items) {
@@ -942,18 +1049,21 @@ var ToolkitSettingTab = class extends import_obsidian2.PluginSettingTab {
       button.setButtonText("Defaults").onClick(async () => {
         this.plugin.settings.includedSources = getDefaultIncludedSources();
         await this.plugin.saveSettings();
+        this.plugin.scheduleSourceFilteredCacheRefresh();
         this.display();
       });
     }).addButton((button) => {
       button.setButtonText("All").onClick(async () => {
         this.plugin.settings.includedSources = Object.keys(SOURCE_LIST).map(normalizeSourceKey);
         await this.plugin.saveSettings();
+        this.plugin.scheduleSourceFilteredCacheRefresh();
         this.display();
       });
     }).addButton((button) => {
       button.setButtonText("None").onClick(async () => {
         this.plugin.settings.includedSources = [];
         await this.plugin.saveSettings();
+        this.plugin.scheduleSourceFilteredCacheRefresh();
         this.display();
       });
     });
@@ -970,6 +1080,7 @@ var ToolkitSettingTab = class extends import_obsidian2.PluginSettingTab {
           }
           this.plugin.settings.includedSources = Array.from(nextSources).sort();
           await this.plugin.saveSettings();
+          this.plugin.scheduleSourceFilteredCacheRefresh();
         });
       });
     });
