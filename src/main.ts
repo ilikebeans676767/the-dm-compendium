@@ -6,6 +6,7 @@ import {
   DEFAULT_SETTINGS,
   getDefaultIncludedSources,
   normalizeSourceKey,
+  SourceInfo,
   SOURCE_LIST,
   ToolkitSettings,
 } from "./settings";
@@ -15,6 +16,8 @@ import {
   refreshDatabaseCache,
   refreshSourceFilteredDatabaseCache,
 } from "./utils/databaseCache";
+
+const PRIORITY_SOURCE_KEYS = ["PHB", "XPHB", "DMG", "XDMG", "MM", "XMM"];
 
 export default class MyToolkitPlugin extends Plugin {
   settings: ToolkitSettings = DEFAULT_SETTINGS;
@@ -238,7 +241,7 @@ class ToolkitSettingTab extends PluginSettingTab {
 
     const includedSources = new Set(this.plugin.settings.includedSources.map(normalizeSourceKey));
     Object.entries(SOURCE_LIST)
-      .sort(([leftKey], [rightKey]) => leftKey.localeCompare(rightKey))
+      .sort(compareSourcesForSettings)
       .forEach(([sourceKey, source]) => {
         const normalizedSourceKey = normalizeSourceKey(sourceKey);
         new Setting(containerEl)
@@ -260,6 +263,22 @@ class ToolkitSettingTab extends PluginSettingTab {
           });
       });
   }
+}
+
+function compareSourcesForSettings(
+  [leftKey, leftSource]: [string, SourceInfo],
+  [rightKey, rightSource]: [string, SourceInfo]
+) {
+  const leftPriority = PRIORITY_SOURCE_KEYS.indexOf(normalizeSourceKey(leftKey));
+  const rightPriority = PRIORITY_SOURCE_KEYS.indexOf(normalizeSourceKey(rightKey));
+
+  if (leftPriority !== -1 || rightPriority !== -1) {
+    if (leftPriority === -1) return 1;
+    if (rightPriority === -1) return -1;
+    return leftPriority - rightPriority;
+  }
+
+  return leftSource.full.localeCompare(rightSource.full) || leftKey.localeCompare(rightKey);
 }
 
 // Modal for selecting content type (books/movies)

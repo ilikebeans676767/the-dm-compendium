@@ -175,7 +175,6 @@ function buildSpells() {
     spellsBySource.set(spell.sourceKey, sourceSpells);
   }
 
-  fs.writeFileSync(path.join(DATA_DIR, "spells.json"), `${JSON.stringify(spells, null, 2)}\n`);
   for (const [sourceKey, sourceSpells] of spellsBySource) {
     fs.writeFileSync(
       path.join(GENERATED_SPELLS_DIR, `${sourceKey.toLowerCase()}.json`),
@@ -186,7 +185,7 @@ function buildSpells() {
     SPELL_SOURCE_LIST_PATH,
     `${JSON.stringify(Array.from(spellsBySource.keys()).sort(), null, 2)}\n`
   );
-  console.log(`Built data/spells.json with ${spells.length} spells across ${spellsBySource.size} sources.`);
+  console.log(`Built ${spells.length} spells across ${spellsBySource.size} source files.`);
 }
 
 buildSpells();

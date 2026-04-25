@@ -902,6 +902,7 @@ function normalizeSources(sources) {
 }
 
 // src/main.ts
+var PRIORITY_SOURCE_KEYS = ["PHB", "XPHB", "DMG", "XDMG", "MM", "XMM"];
 var MyToolkitPlugin = class extends import_obsidian2.Plugin {
   constructor() {
     super(...arguments);
@@ -1068,7 +1069,7 @@ var ToolkitSettingTab = class extends import_obsidian2.PluginSettingTab {
       });
     });
     const includedSources = new Set(this.plugin.settings.includedSources.map(normalizeSourceKey));
-    Object.entries(SOURCE_LIST).sort(([leftKey], [rightKey]) => leftKey.localeCompare(rightKey)).forEach(([sourceKey, source]) => {
+    Object.entries(SOURCE_LIST).sort(compareSourcesForSettings).forEach(([sourceKey, source]) => {
       const normalizedSourceKey = normalizeSourceKey(sourceKey);
       new import_obsidian2.Setting(containerEl).setName(`${source.short} - ${source.full}`).addToggle((toggle) => {
         toggle.setValue(includedSources.has(normalizedSourceKey)).onChange(async (value) => {
@@ -1086,6 +1087,16 @@ var ToolkitSettingTab = class extends import_obsidian2.PluginSettingTab {
     });
   }
 };
+function compareSourcesForSettings([leftKey, leftSource], [rightKey, rightSource]) {
+  const leftPriority = PRIORITY_SOURCE_KEYS.indexOf(normalizeSourceKey(leftKey));
+  const rightPriority = PRIORITY_SOURCE_KEYS.indexOf(normalizeSourceKey(rightKey));
+  if (leftPriority !== -1 || rightPriority !== -1) {
+    if (leftPriority === -1) return 1;
+    if (rightPriority === -1) return -1;
+    return leftPriority - rightPriority;
+  }
+  return leftSource.full.localeCompare(rightSource.full) || leftKey.localeCompare(rightKey);
+}
 var TypeSelectionModal = class extends import_obsidian2.FuzzySuggestModal {
   constructor(app, onSelect) {
     super(app);
