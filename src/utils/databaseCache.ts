@@ -19,6 +19,11 @@ const DATABASE_FILES: DatabaseFile[] = [
     description: "movies",
     sourceUrl: "https://api.github.com/repos/guykahalani/my-toolkit-plugin/contents/data/movies.json?ref=main",
   },
+  {
+    name: "spells.json",
+    description: "spells",
+    sourceUrl: "https://api.github.com/repos/guykahalani/my-toolkit-plugin/contents/data/spells.json?ref=main",
+  },
 ];
 
 export function getDatabaseFiles(): DatabaseFile[] {

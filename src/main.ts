@@ -2,7 +2,13 @@ import * as path from "path";
 import { App, Notice, Plugin, Editor, FuzzySuggestModal, PluginSettingTab, Setting } from "obsidian";
 import { registry } from "./registry";
 import { Deployer } from "./deployer";
-import { DEFAULT_SETTINGS, ToolkitSettings } from "./settings";
+import {
+  DEFAULT_SETTINGS,
+  getDefaultIncludedSources,
+  normalizeSourceKey,
+  SOURCE_LIST,
+  ToolkitSettings,
+} from "./settings";
 import { FormatterItem } from "./formatters/BaseFormatter";
 import { hasDatabaseCache, refreshDatabaseCache } from "./utils/databaseCache";
 
@@ -31,7 +37,8 @@ export default class MyToolkitPlugin extends Plugin {
           return [];
         }
         await this.ensureDatabaseCache();
-        return formatter.load(this.pluginDir);
+        const items = await formatter.load(this.pluginDir);
+        return this.filterItemsBySource(items);
       },
     };
 
@@ -69,7 +76,11 @@ export default class MyToolkitPlugin extends Plugin {
   }
 
   async loadSettings() {
-    this.settings = Object.assign({}, DEFAULT_SETTINGS, await this.loadData());
+    const loadedSettings = (await this.loadData()) as Partial<ToolkitSettings> | null;
+    this.settings = Object.assign({}, DEFAULT_SETTINGS, loadedSettings);
+    if (!Array.isArray(loadedSettings?.includedSources)) {
+      this.settings.includedSources = getDefaultIncludedSources();
+    }
   }
 
   async saveSettings() {
@@ -95,6 +106,11 @@ export default class MyToolkitPlugin extends Plugin {
       console.error("[Toolkit] Failed to refresh database cache:", error);
       new Notice("Toolkit database refresh failed. For a private repo, add a GitHub token in plugin settings.");
     }
+  }
+
+  private filterItemsBySource(items: FormatterItem[]) {
+    const includedSources = new Set(this.settings.includedSources.map(normalizeSourceKey));
+    return items.filter((item) => !item.source || includedSources.has(normalizeSourceKey(item.source)));
   }
 
   // Direct insertion command - no templates required
@@ -152,6 +168,60 @@ class ToolkitSettingTab extends PluginSettingTab {
 
         text.inputEl.type = "password";
       });
+
+    new Setting(containerEl)
+      .setName("D&D sources")
+      .setDesc("Choose which sources appear in D&D search results.")
+      .addButton((button) => {
+        button
+          .setButtonText("Defaults")
+          .onClick(async () => {
+            this.plugin.settings.includedSources = getDefaultIncludedSources();
+            await this.plugin.saveSettings();
+            this.display();
+          });
+      })
+      .addButton((button) => {
+        button
+          .setButtonText("All")
+          .onClick(async () => {
+            this.plugin.settings.includedSources = Object.keys(SOURCE_LIST).map(normalizeSourceKey);
+            await this.plugin.saveSettings();
+            this.display();
+          });
+      })
+      .addButton((button) => {
+        button
+          .setButtonText("None")
+          .onClick(async () => {
+            this.plugin.settings.includedSources = [];
+            await this.plugin.saveSettings();
+            this.display();
+          });
+      });
+
+    const includedSources = new Set(this.plugin.settings.includedSources.map(normalizeSourceKey));
+    Object.entries(SOURCE_LIST)
+      .sort(([leftKey], [rightKey]) => leftKey.localeCompare(rightKey))
+      .forEach(([sourceKey, source]) => {
+        const normalizedSourceKey = normalizeSourceKey(sourceKey);
+        new Setting(containerEl)
+          .setName(`${source.short} - ${source.full}`)
+          .addToggle((toggle) => {
+            toggle
+              .setValue(includedSources.has(normalizedSourceKey))
+              .onChange(async (value) => {
+                const nextSources = new Set(this.plugin.settings.includedSources.map(normalizeSourceKey));
+                if (value) {
+                  nextSources.add(normalizedSourceKey);
+                } else {
+                  nextSources.delete(normalizedSourceKey);
+                }
+                this.plugin.settings.includedSources = Array.from(nextSources).sort();
+                await this.plugin.saveSettings();
+              });
+          });
+      });
   }
 }
 
@@ -168,7 +238,8 @@ class TypeSelectionModal extends FuzzySuggestModal<{ label: string; value: strin
   getItems(): { label: string; value: string }[] {
     return [
       { label: "Insert book", value: "books" },
-      { label: "Insert movie", value: "movies" }
+      { label: "Insert movie", value: "movies" },
+      { label: "Insert spell", value: "spells" },
     ];
   }
 

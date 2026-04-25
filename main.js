@@ -5,6 +5,9 @@ var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
 var __getOwnPropNames = Object.getOwnPropertyNames;
 var __getProtoOf = Object.getPrototypeOf;
 var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __commonJS = (cb, mod) => function __require() {
+  return mod || (0, cb[__getOwnPropNames(cb)[0]])((mod = { exports: {} }).exports, mod), mod.exports;
+};
 var __export = (target, all) => {
   for (var name in all)
     __defProp(target, name, { get: all[name], enumerable: true });
@@ -27,13 +30,536 @@ var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__ge
 ));
 var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
 
+// src/source-list.json
+var require_source_list = __commonJS({
+  "src/source-list.json"(exports2, module2) {
+    module2.exports = {
+      PHB: {
+        full: "Player's Handbook",
+        short: "PHB'14",
+        include: true
+      },
+      XPHB: {
+        full: "Player's Handbook (2024)",
+        short: "PHB'24",
+        include: true
+      },
+      TCE: {
+        full: "Tasha's Cauldron of Everything",
+        short: "TCE",
+        include: true
+      },
+      XGE: {
+        full: "Xanathar's Guide to Everything",
+        short: "XGE",
+        include: true
+      },
+      MPMM: {
+        full: "Mordenkainen's Presents: Monsters and Minions",
+        short: "MPMM",
+        include: true
+      },
+      MM: {
+        full: "Monster Manual",
+        short: "MM'14",
+        include: true
+      },
+      XMM: {
+        full: "Monster Manual (2025)",
+        short: "MM'25",
+        include: true
+      },
+      DMG: {
+        full: "Dungeon Master's Guide",
+        short: "DMG'14",
+        include: true
+      },
+      XDMG: {
+        full: "Dungeon Master's Guide (2024)",
+        short: "DMG'24",
+        include: true
+      },
+      AAG: {
+        full: "Astral Adventurer's Guide",
+        short: "AAG",
+        include: false
+      },
+      AATM: {
+        full: "Adventure Atlas: The Mortuary",
+        short: "AATM",
+        include: false
+      },
+      ABH: {
+        full: "Astarion's Book of Hungers",
+        short: "ABH",
+        include: false
+      },
+      AI: {
+        full: "Acquisitions Incorporated",
+        short: "AI",
+        include: false
+      },
+      "AITFR-AVT": {
+        full: "AitFR: A Verdant Tomb",
+        short: "AITFR-AVT",
+        include: false
+      },
+      "AITFR-THP": {
+        full: "AitFR: The Hidden Page",
+        short: "AITFR-THP",
+        include: false
+      },
+      AWM: {
+        full: "Adventure with Muk",
+        short: "AWM",
+        include: false
+      },
+      AZFYT: {
+        full: "A Zib for Your Thoughts",
+        short: "AZFYT",
+        include: false
+      },
+      BAM: {
+        full: "Boo's Astral Menagerie",
+        short: "BAM",
+        include: false
+      },
+      BGDIA: {
+        full: "Baldur's Gate: Descent Into Avernus",
+        short: "BGDIA",
+        include: false
+      },
+      BGG: {
+        full: "Bigby Presents: Glory of the Giants",
+        short: "BGG",
+        include: false
+      },
+      BMT: {
+        full: "The Book of Many Things",
+        short: "BMT",
+        include: false
+      },
+      CM: {
+        full: "Candlekeep Mysteries",
+        short: "CM",
+        include: false
+      },
+      COA: {
+        full: "Chains of Asmodeus",
+        short: "COA",
+        include: false
+      },
+      COS: {
+        full: "Curse of Strahd",
+        short: "COS",
+        include: false
+      },
+      CRCOTN: {
+        full: "Critical Role: Call of the Netherdeep",
+        short: "CRCOTN",
+        include: false
+      },
+      DC: {
+        full: "ESK: Divine Contention",
+        short: "DC",
+        include: false
+      },
+      DIP: {
+        full: "ESK: Dragon of Icespire Peak",
+        short: "DIP",
+        include: false
+      },
+      DITLCOT: {
+        full: "Descent into the Lost Caverns of Tsojcanth",
+        short: "DITLCOT",
+        include: false
+      },
+      DOD: {
+        full: "Domains of Delight",
+        short: "DOD",
+        include: false
+      },
+      DOSI: {
+        full: "Dragons of Stormwreck Isle",
+        short: "DOSI",
+        include: false
+      },
+      DSOTDQ: {
+        full: "Dragonlance: Shadow of the Dragon Queen",
+        short: "DSOTDQ",
+        include: false
+      },
+      EET: {
+        full: "Elemental Evil: Trinkets",
+        short: "EET",
+        include: false
+      },
+      EFA: {
+        full: "Eberron: Forge of the Artificer",
+        short: "EFA",
+        include: false
+      },
+      EGW: {
+        full: "Explorer's Guide to Wildemount",
+        short: "EGW",
+        include: false
+      },
+      ERLW: {
+        full: "Eberron: Rising from the Last War",
+        short: "ERLW",
+        include: false
+      },
+      ESK: {
+        full: "Essentials Kit",
+        short: "ESK",
+        include: false
+      },
+      FRAIF: {
+        full: "Forgotten Realms: Adventures in Faer\xFBn",
+        short: "FRAIF",
+        include: false
+      },
+      FRHOF: {
+        full: "Forgotten Realms: Heroes of Faer\xFBn",
+        short: "FRHOF",
+        include: false
+      },
+      FTD: {
+        full: "Fizban's Treasury of Dragons",
+        short: "FTD",
+        include: false
+      },
+      GGR: {
+        full: "Guildmasters' Guide to Ravnica",
+        short: "GGR",
+        include: false
+      },
+      GOS: {
+        full: "Ghosts of Saltmarsh",
+        short: "GOS",
+        include: false
+      },
+      GOTSF: {
+        full: "Giants of the Star Forge",
+        short: "GOTSF",
+        include: false
+      },
+      "HAT-LMI": {
+        full: "Honor Among Thieves: Legendary Magic Items",
+        short: "HAT-LMI",
+        include: false
+      },
+      HFTT: {
+        full: "Hunt for the Thessalhydra",
+        short: "HFTT",
+        include: false
+      },
+      HOL: {
+        full: "Ravenloft: The House of Lament",
+        short: "HOL",
+        include: false
+      },
+      HOTB: {
+        full: "Heroes of the Borderlands",
+        short: "HOTB",
+        include: false
+      },
+      HOTDQ: {
+        full: "Hoard of the Dragon Queen",
+        short: "HOTDQ",
+        include: false
+      },
+      IDROTF: {
+        full: "Icewind Dale: Rime of the Frostmaiden",
+        short: "IDROTF",
+        include: false
+      },
+      IMR: {
+        full: "Infernal Machine Rebuild",
+        short: "IMR",
+        include: false
+      },
+      JTTRC: {
+        full: "Journeys Through the Radiant Citadel",
+        short: "JTTRC",
+        include: false
+      },
+      KFTGV: {
+        full: "Keys from the Golden Vault",
+        short: "KFTGV",
+        include: false
+      },
+      KKW: {
+        full: "Krenko's Way",
+        short: "KKW",
+        include: false
+      },
+      LFL: {
+        full: "Lorwyn: First Light",
+        short: "LFL",
+        include: false
+      },
+      LLK: {
+        full: "Lost Library of Kwalish",
+        short: "LLK",
+        include: false
+      },
+      LMOP: {
+        full: "Lost Mine of Phandelver",
+        short: "LMOP",
+        include: false
+      },
+      LOX: {
+        full: "Light of Xaryxis",
+        short: "LOX",
+        include: false
+      },
+      LR: {
+        full: "Locathah Rising",
+        short: "LR",
+        include: false
+      },
+      LRDT: {
+        full: "Red Dragon's Tale: A LEGO Adventure",
+        short: "LRDT",
+        include: false
+      },
+      MABJOV: {
+        full: "Minsc and Boo's Journal of Villainy",
+        short: "MABJOV",
+        include: false
+      },
+      MCV1SC: {
+        full: "Monstrous Compendium Volume 1: Spelljammer Creatures",
+        short: "MCV1SC",
+        include: false
+      },
+      MCV2DC: {
+        full: "Monstrous Compendium Volume 2: Dragonlance Creatures",
+        short: "MCV2DC",
+        include: false
+      },
+      MCV3MC: {
+        full: "Monstrous Compendium Volume 3: Minecraft Creatures",
+        short: "MCV3MC",
+        include: false
+      },
+      MCV4EC: {
+        full: "Monstrous Compendium Volume 4: Eldraine Creatures",
+        short: "MCV4EC",
+        include: false
+      },
+      MFF: {
+        full: "Mordenkainen's Fiendish Folio",
+        short: "MFF",
+        include: false
+      },
+      MGELFT: {
+        full: "Muk's Guide to Everything He Learned From Tasha",
+        short: "MGELFT",
+        include: false
+      },
+      MISMV1: {
+        full: "Misplaced Monsters: Volume 1",
+        short: "MISMV1",
+        include: false
+      },
+      MOT: {
+        full: "Mythic Odysseys of Theros",
+        short: "MOT",
+        include: false
+      },
+      MPP: {
+        full: "Morte's Planar Parade",
+        short: "MPP",
+        include: false
+      },
+      MTF: {
+        full: "Mordenkainen\u2019s Tome of Foes",
+        short: "MTF",
+        include: false
+      },
+      NF: {
+        full: "Netheril's Fall",
+        short: "NF",
+        include: false
+      },
+      "NRH-AT": {
+        full: "NRH: Adventure Together",
+        short: "NRH-AT",
+        include: false
+      },
+      "NRH-TLT": {
+        full: "NRH: The Lost Tomb",
+        short: "NRH-TLT",
+        include: false
+      },
+      OGA: {
+        full: "One Grung Above",
+        short: "OGA",
+        include: false
+      },
+      OOTA: {
+        full: "Out of the Abyss",
+        short: "OOTA",
+        include: false
+      },
+      OOW: {
+        full: "The Orrery of the Wanderer",
+        short: "OOW",
+        include: false
+      },
+      PABTSO: {
+        full: "Phandelver and Below: The Shattered Obelisk",
+        short: "PABTSO",
+        include: false
+      },
+      POTA: {
+        full: "Princes of the Apocalypse",
+        short: "POTA",
+        include: false
+      },
+      PSX: {
+        full: "Plane Shift: Ixalan",
+        short: "PSX",
+        include: false
+      },
+      QFTIS: {
+        full: "Quests from the Infinite Staircase",
+        short: "QFTIS",
+        include: false
+      },
+      RMBRE: {
+        full: "The Lost Dungeon of Rickedness: Big Rick Energy",
+        short: "RMBRE",
+        include: false
+      },
+      ROT: {
+        full: "Rise of Tiamat",
+        short: "ROT",
+        include: false
+      },
+      ROTOS: {
+        full: "The Rise of Tiamat Online Supplement",
+        short: "ROTOS",
+        include: false
+      },
+      RTG: {
+        full: "Return to the Glory",
+        short: "RTG",
+        include: false
+      },
+      SADS: {
+        full: "Sapphire Anniversary Dice Set",
+        short: "SADS",
+        include: false
+      },
+      SATO: {
+        full: "Sigil and the Outlands",
+        short: "SATO",
+        include: false
+      },
+      SCC: {
+        full: "Strixhaven: A Curriculum of Chaos",
+        short: "SCC",
+        include: false
+      },
+      SDW: {
+        full: "ESK: Sleeping Dragon's Wake",
+        short: "SDW",
+        include: false
+      },
+      SKT: {
+        full: "Storm King's Thunder",
+        short: "SKT",
+        include: false
+      },
+      SLW: {
+        full: "ESK: Storm Lord's Wrath",
+        short: "SLW",
+        include: false
+      },
+      TFTYP: {
+        full: "TftYP: Against the Giants",
+        short: "TFTYP",
+        include: false
+      },
+      TOA: {
+        full: "Tomb of Annihilation",
+        short: "TOA",
+        include: false
+      },
+      TOFW: {
+        full: "Turn of Fortune's Wheel",
+        short: "TOFW",
+        include: false
+      },
+      TTP: {
+        full: "The Tortle Package",
+        short: "TTP",
+        include: false
+      },
+      UTHFTLH: {
+        full: "UTHFTLH",
+        short: "UTHFTLH",
+        include: false
+      },
+      VD: {
+        full: "Vecna Dossier",
+        short: "VD",
+        include: false
+      },
+      VEOR: {
+        full: "Vecna: Eve of Ruin",
+        short: "VEOR",
+        include: false
+      },
+      VGM: {
+        full: "Volo's Guide to Monsters",
+        short: "VGM",
+        include: false
+      },
+      VRGR: {
+        full: "Van Richten's Guide to Ravenloft",
+        short: "VRGR",
+        include: false
+      },
+      WBTW: {
+        full: "The Wild Beyond the Witchlight",
+        short: "WBTW",
+        include: false
+      },
+      WDH: {
+        full: "Waterdeep: Dragon Heist",
+        short: "WDH",
+        include: false
+      },
+      WDMM: {
+        full: "Waterdeep: Dungeon of the Mad Mage",
+        short: "WDMM",
+        include: false
+      },
+      WTTHC: {
+        full: "Stranger Things: Welcome to the Hellfire Club",
+        short: "WTTHC",
+        include: false
+      },
+      XMTS: {
+        full: "X Marks the Spot",
+        short: "XMTS",
+        include: false
+      }
+    };
+  }
+});
+
 // src/main.ts
 var main_exports = {};
 __export(main_exports, {
   default: () => MyToolkitPlugin
 });
 module.exports = __toCommonJS(main_exports);
-var path5 = __toESM(require("path"));
+var path6 = __toESM(require("path"));
 var import_obsidian2 = require("obsidian");
 
 // src/formatters/BookFormatter.ts
@@ -122,15 +648,80 @@ var MovieFormatter = class extends BaseFormatter {
   }
 };
 
+// src/formatters/SpellFormatter.ts
+var path3 = __toESM(require("path"));
+
+// src/settings.ts
+var SOURCE_LIST = require_source_list();
+var DEFAULT_SETTINGS = {
+  githubToken: "",
+  includedSources: []
+};
+function normalizeSourceKey(source) {
+  return source.toUpperCase();
+}
+function getDefaultIncludedSources() {
+  return Object.entries(SOURCE_LIST).filter(([, source]) => source.include).map(([sourceKey]) => normalizeSourceKey(sourceKey));
+}
+function getSourceLabel(source) {
+  const sourceInfo = SOURCE_LIST[normalizeSourceKey(source)];
+  return sourceInfo?.short ?? source;
+}
+
+// src/formatters/SpellFormatter.ts
+var LEVEL_NAMES = {
+  0: "Cantrip",
+  1: "1st-level",
+  2: "2nd-level",
+  3: "3rd-level"
+};
+var SpellFormatter = class extends BaseFormatter {
+  async load(dataDir) {
+    const spells = await loadJsonData(
+      path3.join(dataDir, "cache", "spells.json"),
+      "spell"
+    );
+    return spells.map((spell) => this.format(spell));
+  }
+  format(spell) {
+    const sourceLabel = getSourceLabel(spell.source);
+    const levelText = LEVEL_NAMES[spell.level] ?? `${spell.level}th-level`;
+    const pageText = spell.page ? `, p. ${spell.page}` : "";
+    const higherLevel = spell.higherLevel?.length ? `
+### At Higher Levels
+
+${spell.higherLevel.join("\n\n")}
+` : "";
+    return {
+      label: `${spell.name} (${sourceLabel})`,
+      source: spell.source,
+      body: `## ${spell.name}
+
+*${levelText} ${spell.school} (${sourceLabel}${pageText})*
+
+| Field | Value |
+| ----- | ----- |
+| Casting Time | ${spell.castingTime} |
+| Range | ${spell.range} |
+| Components | ${spell.components} |
+| Duration | ${spell.duration} |
+
+${spell.entries.join("\n\n")}
+${higherLevel}`
+    };
+  }
+};
+
 // src/registry.ts
 var registry = {
   books: new BookFormatter(),
-  movies: new MovieFormatter()
+  movies: new MovieFormatter(),
+  spells: new SpellFormatter()
 };
 
 // src/deployer.ts
 var fs2 = __toESM(require("fs"));
-var path3 = __toESM(require("path"));
+var path4 = __toESM(require("path"));
 var Deployer = class {
   constructor(opts) {
     this.opts = opts;
@@ -141,7 +732,7 @@ var Deployer = class {
   // Write Option+Shift+E for toolkit insertion into hotkeys.json
   // Only sets if the user hasn't already customised this command.
   setToolkitHotkey() {
-    const hotkeysPath = path3.join(this.opts.vaultPath, ".obsidian", "hotkeys.json");
+    const hotkeysPath = path4.join(this.opts.vaultPath, ".obsidian", "hotkeys.json");
     let hotkeys = {};
     try {
       if (fs2.existsSync(hotkeysPath)) {
@@ -161,14 +752,9 @@ var Deployer = class {
   }
 };
 
-// src/settings.ts
-var DEFAULT_SETTINGS = {
-  githubToken: ""
-};
-
 // src/utils/databaseCache.ts
 var fs3 = __toESM(require("fs"));
-var path4 = __toESM(require("path"));
+var path5 = __toESM(require("path"));
 var import_obsidian = require("obsidian");
 var DATABASE_FILES = [
   {
@@ -180,17 +766,22 @@ var DATABASE_FILES = [
     name: "movies.json",
     description: "movies",
     sourceUrl: "https://api.github.com/repos/guykahalani/my-toolkit-plugin/contents/data/movies.json?ref=main"
+  },
+  {
+    name: "spells.json",
+    description: "spells",
+    sourceUrl: "https://api.github.com/repos/guykahalani/my-toolkit-plugin/contents/data/spells.json?ref=main"
   }
 ];
 function getCacheDir(pluginDir) {
-  return path4.join(pluginDir, "cache");
+  return path5.join(pluginDir, "cache");
 }
 async function hasDatabaseCache(pluginDir) {
   const cacheDir = getCacheDir(pluginDir);
   const results = await Promise.all(
     DATABASE_FILES.map(async (file) => {
       try {
-        await fs3.promises.access(path4.join(cacheDir, file.name), fs3.constants.R_OK);
+        await fs3.promises.access(path5.join(cacheDir, file.name), fs3.constants.R_OK);
         return true;
       } catch {
         return false;
@@ -221,7 +812,7 @@ async function refreshDatabaseCache(pluginDir, githubToken) {
         throw new Error(`Remote ${file.description} data is not a JSON array.`);
       }
       await fs3.promises.writeFile(
-        path4.join(cacheDir, file.name),
+        path5.join(cacheDir, file.name),
         JSON.stringify(data, null, 2),
         "utf-8"
       );
@@ -240,7 +831,7 @@ var MyToolkitPlugin = class extends import_obsidian2.Plugin {
     console.log("[Toolkit] Loading...");
     await this.loadSettings();
     const vaultPath = this.app.vault.adapter.getBasePath();
-    this.pluginDir = path5.join(vaultPath, this.app.vault.configDir, "plugins", this.manifest.id);
+    this.pluginDir = path6.join(vaultPath, this.app.vault.configDir, "plugins", this.manifest.id);
     await this.ensureDatabaseCache();
     this.addSettingTab(new ToolkitSettingTab(this.app, this));
     globalThis.__toolkit = {
@@ -251,7 +842,8 @@ var MyToolkitPlugin = class extends import_obsidian2.Plugin {
           return [];
         }
         await this.ensureDatabaseCache();
-        return formatter.load(this.pluginDir);
+        const items = await formatter.load(this.pluginDir);
+        return this.filterItemsBySource(items);
       }
     };
     this.addCommand({
@@ -280,7 +872,11 @@ var MyToolkitPlugin = class extends import_obsidian2.Plugin {
     console.log("[Toolkit] Unloaded. Bridge removed.");
   }
   async loadSettings() {
-    this.settings = Object.assign({}, DEFAULT_SETTINGS, await this.loadData());
+    const loadedSettings = await this.loadData();
+    this.settings = Object.assign({}, DEFAULT_SETTINGS, loadedSettings);
+    if (!Array.isArray(loadedSettings?.includedSources)) {
+      this.settings.includedSources = getDefaultIncludedSources();
+    }
   }
   async saveSettings() {
     await this.saveData(this.settings);
@@ -302,6 +898,10 @@ var MyToolkitPlugin = class extends import_obsidian2.Plugin {
       console.error("[Toolkit] Failed to refresh database cache:", error);
       new import_obsidian2.Notice("Toolkit database refresh failed. For a private repo, add a GitHub token in plugin settings.");
     }
+  }
+  filterItemsBySource(items) {
+    const includedSources = new Set(this.settings.includedSources.map(normalizeSourceKey));
+    return items.filter((item) => !item.source || includedSources.has(normalizeSourceKey(item.source)));
   }
   // Direct insertion command - no templates required
   async insertFromToolkit(editor) {
@@ -338,6 +938,41 @@ var ToolkitSettingTab = class extends import_obsidian2.PluginSettingTab {
       });
       text.inputEl.type = "password";
     });
+    new import_obsidian2.Setting(containerEl).setName("D&D sources").setDesc("Choose which sources appear in D&D search results.").addButton((button) => {
+      button.setButtonText("Defaults").onClick(async () => {
+        this.plugin.settings.includedSources = getDefaultIncludedSources();
+        await this.plugin.saveSettings();
+        this.display();
+      });
+    }).addButton((button) => {
+      button.setButtonText("All").onClick(async () => {
+        this.plugin.settings.includedSources = Object.keys(SOURCE_LIST).map(normalizeSourceKey);
+        await this.plugin.saveSettings();
+        this.display();
+      });
+    }).addButton((button) => {
+      button.setButtonText("None").onClick(async () => {
+        this.plugin.settings.includedSources = [];
+        await this.plugin.saveSettings();
+        this.display();
+      });
+    });
+    const includedSources = new Set(this.plugin.settings.includedSources.map(normalizeSourceKey));
+    Object.entries(SOURCE_LIST).sort(([leftKey], [rightKey]) => leftKey.localeCompare(rightKey)).forEach(([sourceKey, source]) => {
+      const normalizedSourceKey = normalizeSourceKey(sourceKey);
+      new import_obsidian2.Setting(containerEl).setName(`${source.short} - ${source.full}`).addToggle((toggle) => {
+        toggle.setValue(includedSources.has(normalizedSourceKey)).onChange(async (value) => {
+          const nextSources = new Set(this.plugin.settings.includedSources.map(normalizeSourceKey));
+          if (value) {
+            nextSources.add(normalizedSourceKey);
+          } else {
+            nextSources.delete(normalizedSourceKey);
+          }
+          this.plugin.settings.includedSources = Array.from(nextSources).sort();
+          await this.plugin.saveSettings();
+        });
+      });
+    });
   }
 };
 var TypeSelectionModal = class extends import_obsidian2.FuzzySuggestModal {
@@ -349,7 +984,8 @@ var TypeSelectionModal = class extends import_obsidian2.FuzzySuggestModal {
   getItems() {
     return [
       { label: "Insert book", value: "books" },
-      { label: "Insert movie", value: "movies" }
+      { label: "Insert movie", value: "movies" },
+      { label: "Insert spell", value: "spells" }
     ];
   }
   getItemText(item) {

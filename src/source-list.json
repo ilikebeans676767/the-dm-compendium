@@ -1,0 +1,517 @@
+{
+  "PHB": {
+    "full": "Player's Handbook",
+    "short": "PHB'14",
+    "include": true
+  },
+  "XPHB": {
+    "full": "Player's Handbook (2024)",
+    "short": "PHB'24",
+    "include": true
+  },
+  "TCE": {
+    "full": "Tasha's Cauldron of Everything",
+    "short": "TCE",
+    "include": true
+  },
+  "XGE": {
+    "full": "Xanathar's Guide to Everything",
+    "short": "XGE",
+    "include": true
+  },
+  "MPMM": {
+    "full": "Mordenkainen's Presents: Monsters and Minions",
+    "short": "MPMM",
+    "include": true
+  },
+  "MM": {
+    "full": "Monster Manual",
+    "short": "MM'14",
+    "include": true
+  },
+  "XMM": {
+    "full": "Monster Manual (2025)",
+    "short": "MM'25",
+    "include": true
+  },
+  "DMG": {
+    "full": "Dungeon Master's Guide",
+    "short": "DMG'14",
+    "include": true
+  },
+  "XDMG": {
+    "full": "Dungeon Master's Guide (2024)",
+    "short": "DMG'24",
+    "include": true
+  },
+  "AAG": {
+    "full": "Astral Adventurer's Guide",
+    "short": "AAG",
+    "include": false
+  },
+  "AATM": {
+    "full": "Adventure Atlas: The Mortuary",
+    "short": "AATM",
+    "include": false
+  },
+  "ABH": {
+    "full": "Astarion's Book of Hungers",
+    "short": "ABH",
+    "include": false
+  },
+  "AI": {
+    "full": "Acquisitions Incorporated",
+    "short": "AI",
+    "include": false
+  },
+  "AITFR-AVT": {
+    "full": "AitFR: A Verdant Tomb",
+    "short": "AITFR-AVT",
+    "include": false
+  },
+  "AITFR-THP": {
+    "full": "AitFR: The Hidden Page",
+    "short": "AITFR-THP",
+    "include": false
+  },
+  "AWM": {
+    "full": "Adventure with Muk",
+    "short": "AWM",
+    "include": false
+  },
+  "AZFYT": {
+    "full": "A Zib for Your Thoughts",
+    "short": "AZFYT",
+    "include": false
+  },
+  "BAM": {
+    "full": "Boo's Astral Menagerie",
+    "short": "BAM",
+    "include": false
+  },
+  "BGDIA": {
+    "full": "Baldur's Gate: Descent Into Avernus",
+    "short": "BGDIA",
+    "include": false
+  },
+  "BGG": {
+    "full": "Bigby Presents: Glory of the Giants",
+    "short": "BGG",
+    "include": false
+  },
+  "BMT": {
+    "full": "The Book of Many Things",
+    "short": "BMT",
+    "include": false
+  },
+  "CM": {
+    "full": "Candlekeep Mysteries",
+    "short": "CM",
+    "include": false
+  },
+  "COA": {
+    "full": "Chains of Asmodeus",
+    "short": "COA",
+    "include": false
+  },
+  "COS": {
+    "full": "Curse of Strahd",
+    "short": "COS",
+    "include": false
+  },
+  "CRCOTN": {
+    "full": "Critical Role: Call of the Netherdeep",
+    "short": "CRCOTN",
+    "include": false
+  },
+  "DC": {
+    "full": "ESK: Divine Contention",
+    "short": "DC",
+    "include": false
+  },
+  "DIP": {
+    "full": "ESK: Dragon of Icespire Peak",
+    "short": "DIP",
+    "include": false
+  },
+  "DITLCOT": {
+    "full": "Descent into the Lost Caverns of Tsojcanth",
+    "short": "DITLCOT",
+    "include": false
+  },
+  "DOD": {
+    "full": "Domains of Delight",
+    "short": "DOD",
+    "include": false
+  },
+  "DOSI": {
+    "full": "Dragons of Stormwreck Isle",
+    "short": "DOSI",
+    "include": false
+  },
+  "DSOTDQ": {
+    "full": "Dragonlance: Shadow of the Dragon Queen",
+    "short": "DSOTDQ",
+    "include": false
+  },
+  "EET": {
+    "full": "Elemental Evil: Trinkets",
+    "short": "EET",
+    "include": false
+  },
+  "EFA": {
+    "full": "Eberron: Forge of the Artificer",
+    "short": "EFA",
+    "include": false
+  },
+  "EGW": {
+    "full": "Explorer's Guide to Wildemount",
+    "short": "EGW",
+    "include": false
+  },
+  "ERLW": {
+    "full": "Eberron: Rising from the Last War",
+    "short": "ERLW",
+    "include": false
+  },
+  "ESK": {
+    "full": "Essentials Kit",
+    "short": "ESK",
+    "include": false
+  },
+  "FRAIF": {
+    "full": "Forgotten Realms: Adventures in Faerûn",
+    "short": "FRAIF",
+    "include": false
+  },
+  "FRHOF": {
+    "full": "Forgotten Realms: Heroes of Faerûn",
+    "short": "FRHOF",
+    "include": false
+  },
+  "FTD": {
+    "full": "Fizban's Treasury of Dragons",
+    "short": "FTD",
+    "include": false
+  },
+  "GGR": {
+    "full": "Guildmasters' Guide to Ravnica",
+    "short": "GGR",
+    "include": false
+  },
+  "GOS": {
+    "full": "Ghosts of Saltmarsh",
+    "short": "GOS",
+    "include": false
+  },
+  "GOTSF": {
+    "full": "Giants of the Star Forge",
+    "short": "GOTSF",
+    "include": false
+  },
+  "HAT-LMI": {
+    "full": "Honor Among Thieves: Legendary Magic Items",
+    "short": "HAT-LMI",
+    "include": false
+  },
+  "HFTT": {
+    "full": "Hunt for the Thessalhydra",
+    "short": "HFTT",
+    "include": false
+  },
+  "HOL": {
+    "full": "Ravenloft: The House of Lament",
+    "short": "HOL",
+    "include": false
+  },
+  "HOTB": {
+    "full": "Heroes of the Borderlands",
+    "short": "HOTB",
+    "include": false
+  },
+  "HOTDQ": {
+    "full": "Hoard of the Dragon Queen",
+    "short": "HOTDQ",
+    "include": false
+  },
+  "IDROTF": {
+    "full": "Icewind Dale: Rime of the Frostmaiden",
+    "short": "IDROTF",
+    "include": false
+  },
+  "IMR": {
+    "full": "Infernal Machine Rebuild",
+    "short": "IMR",
+    "include": false
+  },
+  "JTTRC": {
+    "full": "Journeys Through the Radiant Citadel",
+    "short": "JTTRC",
+    "include": false
+  },
+  "KFTGV": {
+    "full": "Keys from the Golden Vault",
+    "short": "KFTGV",
+    "include": false
+  },
+  "KKW": {
+    "full": "Krenko's Way",
+    "short": "KKW",
+    "include": false
+  },
+  "LFL": {
+    "full": "Lorwyn: First Light",
+    "short": "LFL",
+    "include": false
+  },
+  "LLK": {
+    "full": "Lost Library of Kwalish",
+    "short": "LLK",
+    "include": false
+  },
+  "LMOP": {
+    "full": "Lost Mine of Phandelver",
+    "short": "LMOP",
+    "include": false
+  },
+  "LOX": {
+    "full": "Light of Xaryxis",
+    "short": "LOX",
+    "include": false
+  },
+  "LR": {
+    "full": "Locathah Rising",
+    "short": "LR",
+    "include": false
+  },
+  "LRDT": {
+    "full": "Red Dragon's Tale: A LEGO Adventure",
+    "short": "LRDT",
+    "include": false
+  },
+  "MABJOV": {
+    "full": "Minsc and Boo's Journal of Villainy",
+    "short": "MABJOV",
+    "include": false
+  },
+  "MCV1SC": {
+    "full": "Monstrous Compendium Volume 1: Spelljammer Creatures",
+    "short": "MCV1SC",
+    "include": false
+  },
+  "MCV2DC": {
+    "full": "Monstrous Compendium Volume 2: Dragonlance Creatures",
+    "short": "MCV2DC",
+    "include": false
+  },
+  "MCV3MC": {
+    "full": "Monstrous Compendium Volume 3: Minecraft Creatures",
+    "short": "MCV3MC",
+    "include": false
+  },
+  "MCV4EC": {
+    "full": "Monstrous Compendium Volume 4: Eldraine Creatures",
+    "short": "MCV4EC",
+    "include": false
+  },
+  "MFF": {
+    "full": "Mordenkainen's Fiendish Folio",
+    "short": "MFF",
+    "include": false
+  },
+  "MGELFT": {
+    "full": "Muk's Guide to Everything He Learned From Tasha",
+    "short": "MGELFT",
+    "include": false
+  },
+  "MISMV1": {
+    "full": "Misplaced Monsters: Volume 1",
+    "short": "MISMV1",
+    "include": false
+  },
+  "MOT": {
+    "full": "Mythic Odysseys of Theros",
+    "short": "MOT",
+    "include": false
+  },
+  "MPP": {
+    "full": "Morte's Planar Parade",
+    "short": "MPP",
+    "include": false
+  },
+  "MTF": {
+    "full": "Mordenkainen’s Tome of Foes",
+    "short": "MTF",
+    "include": false
+  },
+  "NF": {
+    "full": "Netheril's Fall",
+    "short": "NF",
+    "include": false
+  },
+  "NRH-AT": {
+    "full": "NRH: Adventure Together",
+    "short": "NRH-AT",
+    "include": false
+  },
+  "NRH-TLT": {
+    "full": "NRH: The Lost Tomb",
+    "short": "NRH-TLT",
+    "include": false
+  },
+  "OGA": {
+    "full": "One Grung Above",
+    "short": "OGA",
+    "include": false
+  },
+  "OOTA": {
+    "full": "Out of the Abyss",
+    "short": "OOTA",
+    "include": false
+  },
+  "OOW": {
+    "full": "The Orrery of the Wanderer",
+    "short": "OOW",
+    "include": false
+  },
+  "PABTSO": {
+    "full": "Phandelver and Below: The Shattered Obelisk",
+    "short": "PABTSO",
+    "include": false
+  },
+  "POTA": {
+    "full": "Princes of the Apocalypse",
+    "short": "POTA",
+    "include": false
+  },
+  "PSX": {
+    "full": "Plane Shift: Ixalan",
+    "short": "PSX",
+    "include": false
+  },
+  "QFTIS": {
+    "full": "Quests from the Infinite Staircase",
+    "short": "QFTIS",
+    "include": false
+  },
+  "RMBRE": {
+    "full": "The Lost Dungeon of Rickedness: Big Rick Energy",
+    "short": "RMBRE",
+    "include": false
+  },
+  "ROT": {
+    "full": "Rise of Tiamat",
+    "short": "ROT",
+    "include": false
+  },
+  "ROTOS": {
+    "full": "The Rise of Tiamat Online Supplement",
+    "short": "ROTOS",
+    "include": false
+  },
+  "RTG": {
+    "full": "Return to the Glory",
+    "short": "RTG",
+    "include": false
+  },
+  "SADS": {
+    "full": "Sapphire Anniversary Dice Set",
+    "short": "SADS",
+    "include": false
+  },
+  "SATO": {
+    "full": "Sigil and the Outlands",
+    "short": "SATO",
+    "include": false
+  },
+  "SCC": {
+    "full": "Strixhaven: A Curriculum of Chaos",
+    "short": "SCC",
+    "include": false
+  },
+  "SDW": {
+    "full": "ESK: Sleeping Dragon's Wake",
+    "short": "SDW",
+    "include": false
+  },
+  "SKT": {
+    "full": "Storm King's Thunder",
+    "short": "SKT",
+    "include": false
+  },
+  "SLW": {
+    "full": "ESK: Storm Lord's Wrath",
+    "short": "SLW",
+    "include": false
+  },
+  "TFTYP": {
+    "full": "TftYP: Against the Giants",
+    "short": "TFTYP",
+    "include": false
+  },
+  "TOA": {
+    "full": "Tomb of Annihilation",
+    "short": "TOA",
+    "include": false
+  },
+  "TOFW": {
+    "full": "Turn of Fortune's Wheel",
+    "short": "TOFW",
+    "include": false
+  },
+  "TTP": {
+    "full": "The Tortle Package",
+    "short": "TTP",
+    "include": false
+  },
+  "UTHFTLH": {
+    "full": "UTHFTLH",
+    "short": "UTHFTLH",
+    "include": false
+  },
+  "VD": {
+    "full": "Vecna Dossier",
+    "short": "VD",
+    "include": false
+  },
+  "VEOR": {
+    "full": "Vecna: Eve of Ruin",
+    "short": "VEOR",
+    "include": false
+  },
+  "VGM": {
+    "full": "Volo's Guide to Monsters",
+    "short": "VGM",
+    "include": false
+  },
+  "VRGR": {
+    "full": "Van Richten's Guide to Ravenloft",
+    "short": "VRGR",
+    "include": false
+  },
+  "WBTW": {
+    "full": "The Wild Beyond the Witchlight",
+    "short": "WBTW",
+    "include": false
+  },
+  "WDH": {
+    "full": "Waterdeep: Dragon Heist",
+    "short": "WDH",
+    "include": false
+  },
+  "WDMM": {
+    "full": "Waterdeep: Dungeon of the Mad Mage",
+    "short": "WDMM",
+    "include": false
+  },
+  "WTTHC": {
+    "full": "Stranger Things: Welcome to the Hellfire Club",
+    "short": "WTTHC",
+    "include": false
+  },
+  "XMTS": {
+    "full": "X Marks the Spot",
+    "short": "XMTS",
+    "include": false
+  }
+}

@@ -3,6 +3,8 @@ export interface FormatterItem {
   label: string;
   /** Markdown inserted into the note */
   body: string;
+  /** Optional source abbreviation used for source filtering */
+  source?: string;
 }
 
 export abstract class BaseFormatter {

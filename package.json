@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build:data": "node scripts/build-dataset.mjs",
     "build": "node esbuild.config.mjs",
     "dev": "node esbuild.config.mjs --watch"
   },
