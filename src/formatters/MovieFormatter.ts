@@ -14,7 +14,7 @@ interface MovieEntry {
 export class MovieFormatter extends BaseFormatter {
   async load(dataDir: string): Promise<FormatterItem[]> {
     const movies = await loadJsonData<MovieEntry>(
-      path.join(dataDir, "data", "movies.json"),
+      path.join(dataDir, "cache", "movies.json"),
       "movie"
     );
     return movies.map((m) => this.format(m));

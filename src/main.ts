@@ -4,9 +4,11 @@ import { registry } from "./registry";
 import { Deployer } from "./deployer";
 import { DEFAULT_SETTINGS, ToolkitSettings } from "./settings";
 import { FormatterItem } from "./formatters/BaseFormatter";
+import { hasDatabaseCache, refreshDatabaseCache } from "./utils/databaseCache";
 
 export default class MyToolkitPlugin extends Plugin {
   settings: ToolkitSettings = DEFAULT_SETTINGS;
+  private pluginDir = "";
 
   async onload() {
     console.log("[Toolkit] Loading...");
@@ -14,7 +16,9 @@ export default class MyToolkitPlugin extends Plugin {
     await this.loadSettings();
 
     const vaultPath = (this.app.vault.adapter as any).getBasePath() as string;
-    const pluginDir = path.join(vaultPath, this.app.vault.configDir, "plugins", this.manifest.id);
+    this.pluginDir = path.join(vaultPath, this.app.vault.configDir, "plugins", this.manifest.id);
+
+    await this.ensureDatabaseCache();
 
     // ── Global bridge ──────────────────────────────────────────────────────
     // Keeps all formatter logic inside the plugin bundle.
@@ -25,7 +29,8 @@ export default class MyToolkitPlugin extends Plugin {
           console.warn(`[Toolkit] Unknown data type: ${dataType}`);
           return [];
         }
-        return formatter.load(pluginDir);
+        await this.ensureDatabaseCache();
+        return formatter.load(this.pluginDir);
       },
     };
 
@@ -35,6 +40,14 @@ export default class MyToolkitPlugin extends Plugin {
       name: "Insert from toolkit",
       editorCallback: async (editor: Editor, ctx: any) => {
         await this.insertFromToolkit(editor);
+      },
+    });
+
+    this.addCommand({
+      id: "refresh-toolkit-database",
+      name: "Refresh Toolkit Database",
+      callback: async () => {
+        await this.refreshToolkitDatabase(true);
       },
     });
 
@@ -60,6 +73,27 @@ export default class MyToolkitPlugin extends Plugin {
 
   async saveSettings() {
     await this.saveData(this.settings);
+  }
+
+  private async ensureDatabaseCache() {
+    if (await hasDatabaseCache(this.pluginDir)) {
+      return;
+    }
+
+    await this.refreshToolkitDatabase(false);
+  }
+
+  private async refreshToolkitDatabase(showSuccessNotice: boolean) {
+    try {
+      await refreshDatabaseCache(this.pluginDir);
+      if (showSuccessNotice) {
+        new Notice("Toolkit database refreshed.");
+      }
+      console.log("[Toolkit] Database cache refreshed.");
+    } catch (error) {
+      console.error("[Toolkit] Failed to refresh database cache:", error);
+      new Notice("Toolkit database refresh failed. Check the developer console.");
+    }
   }
 
   // Direct insertion command - no templates required

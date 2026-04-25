@@ -14,7 +14,7 @@ interface BookEntry {
 export class BookFormatter extends BaseFormatter {
   async load(dataDir: string): Promise<FormatterItem[]> {
     const books = await loadJsonData<BookEntry>(
-      path.join(dataDir, "data", "books.json"),
+      path.join(dataDir, "cache", "books.json"),
       "book"
     );
     return books.map((b) => this.format(b));
