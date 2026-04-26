@@ -104,6 +104,21 @@ var require_source_list = __commonJS({
         short: "AITFR-AVT",
         include: false
       },
+      "AITFR-DN": {
+        full: "Adventures in the Forgotten Realms: Deepest Night",
+        short: "AITFR-DN",
+        include: false
+      },
+      "AITFR-FCD": {
+        full: "Adventures in the Forgotten Realms: From Cyan Depths",
+        short: "AITFR-FCD",
+        include: false
+      },
+      "AITFR-ISF": {
+        full: "Adventures in the Forgotten Realms: In Scarlet Flames",
+        short: "AITFR-ISF",
+        include: false
+      },
       "AITFR-THP": {
         full: "AitFR: The Hidden Page",
         short: "AITFR-THP",
@@ -249,6 +264,11 @@ var require_source_list = __commonJS({
         short: "HAT-LMI",
         include: false
       },
+      "HAT-TG": {
+        full: "Honor Among Thieves: Thieves' Gallery",
+        short: "HAT-TG",
+        include: false
+      },
       HFTT: {
         full: "Hunt for the Thessalhydra",
         short: "HFTT",
@@ -389,6 +409,31 @@ var require_source_list = __commonJS({
         short: "NRH-AT",
         include: false
       },
+      "NRH-ASS": {
+        full: "NERDS Restoring Harmony: A Sticky Situation",
+        short: "NRH-ASS",
+        include: false
+      },
+      "NRH-AVITW": {
+        full: "NERDS Restoring Harmony: A Voice in the Wilderness",
+        short: "NRH-AVITW",
+        include: false
+      },
+      "NRH-AWOL": {
+        full: "NERDS Restoring Harmony: A Web of Lies",
+        short: "NRH-AWOL",
+        include: false
+      },
+      "NRH-COI": {
+        full: "NERDS Restoring Harmony: Circus of Illusion",
+        short: "NRH-COI",
+        include: false
+      },
+      "NRH-TCMC": {
+        full: "NERDS Restoring Harmony: The Candy Mountain Caper",
+        short: "NRH-TCMC",
+        include: false
+      },
       "NRH-TLT": {
         full: "NRH: The Lost Tomb",
         short: "NRH-TLT",
@@ -419,9 +464,34 @@ var require_source_list = __commonJS({
         short: "POTA",
         include: false
       },
+      PSA: {
+        full: "Plane Shift: Amonkhet",
+        short: "PSA",
+        include: false
+      },
+      PSD: {
+        full: "Plane Shift: Dominaria",
+        short: "PSD",
+        include: false
+      },
+      PSI: {
+        full: "Plane Shift: Innistrad",
+        short: "PSI",
+        include: false
+      },
+      PSK: {
+        full: "Plane Shift: Kaladesh",
+        short: "PSK",
+        include: false
+      },
       PSX: {
         full: "Plane Shift: Ixalan",
         short: "PSX",
+        include: false
+      },
+      PSZ: {
+        full: "Plane Shift: Zendikar",
+        short: "PSZ",
         include: false
       },
       QFTIS: {
@@ -578,13 +648,126 @@ var require_spell_source_list = __commonJS({
   }
 });
 
+// src/monster-source-list.json
+var require_monster_source_list = __commonJS({
+  "src/monster-source-list.json"(exports2, module2) {
+    module2.exports = [
+      "AATM",
+      "ABH",
+      "AI",
+      "AITFR-DN",
+      "AITFR-FCD",
+      "AITFR-ISF",
+      "AITFR-THP",
+      "AWM",
+      "BAM",
+      "BGDIA",
+      "BGG",
+      "BMT",
+      "CM",
+      "COA",
+      "COS",
+      "CRCOTN",
+      "DC",
+      "DIP",
+      "DITLCOT",
+      "DMG",
+      "DOD",
+      "DOSI",
+      "DSOTDQ",
+      "EFA",
+      "EGW",
+      "ERLW",
+      "ESK",
+      "FRAIF",
+      "FTD",
+      "GGR",
+      "GOS",
+      "GOTSF",
+      "HAT-TG",
+      "HFTT",
+      "HOL",
+      "HOTB",
+      "HOTDQ",
+      "IDROTF",
+      "IMR",
+      "JTTRC",
+      "KFTGV",
+      "KKW",
+      "LFL",
+      "LLK",
+      "LMOP",
+      "LOX",
+      "LR",
+      "LRDT",
+      "MABJOV",
+      "MCV1SC",
+      "MCV2DC",
+      "MCV3MC",
+      "MCV4EC",
+      "MFF",
+      "MGELFT",
+      "MISMV1",
+      "MM",
+      "MOT",
+      "MPMM",
+      "MPP",
+      "MTF",
+      "NF",
+      "NRH-ASS",
+      "NRH-AT",
+      "NRH-AVITW",
+      "NRH-AWOL",
+      "NRH-COI",
+      "NRH-TCMC",
+      "OOTA",
+      "OOW",
+      "PABTSO",
+      "PHB",
+      "POTA",
+      "PSA",
+      "PSD",
+      "PSI",
+      "PSK",
+      "PSX",
+      "PSZ",
+      "QFTIS",
+      "RMBRE",
+      "ROT",
+      "RTG",
+      "SADS",
+      "SCC",
+      "SDW",
+      "SKT",
+      "SLW",
+      "TCE",
+      "TFTYP",
+      "TOA",
+      "TOFW",
+      "TTP",
+      "VD",
+      "VEOR",
+      "VGM",
+      "VRGR",
+      "WBTW",
+      "WDH",
+      "WDMM",
+      "WTTHC",
+      "XDMG",
+      "XGE",
+      "XMM",
+      "XPHB"
+    ];
+  }
+});
+
 // src/main.ts
 var main_exports = {};
 __export(main_exports, {
   default: () => MyToolkitPlugin
 });
 module.exports = __toCommonJS(main_exports);
-var path6 = __toESM(require("path"));
+var path7 = __toESM(require("path"));
 var import_obsidian2 = require("obsidian");
 
 // src/formatters/BookFormatter.ts
@@ -643,12 +826,113 @@ var BookFormatter = class extends BaseFormatter {
   }
 };
 
-// src/formatters/MovieFormatter.ts
+// src/formatters/MonsterFormatter.ts
 var path2 = __toESM(require("path"));
+
+// src/settings.ts
+var SOURCE_LIST = require_source_list();
+var DEFAULT_SETTINGS = {
+  githubToken: "",
+  includedSources: []
+};
+function normalizeSourceKey(source) {
+  return source.toUpperCase();
+}
+function getDefaultIncludedSources() {
+  return Object.entries(SOURCE_LIST).filter(([, source]) => source.include).map(([sourceKey]) => normalizeSourceKey(sourceKey));
+}
+function getSourceLabel(source) {
+  const sourceInfo = SOURCE_LIST[normalizeSourceKey(source)];
+  return sourceInfo?.short ?? source;
+}
+
+// src/formatters/MonsterFormatter.ts
+var ABILITY_LABELS = ["str", "dex", "con", "int", "wis", "cha"];
+var MonsterFormatter = class extends BaseFormatter {
+  async load(dataDir) {
+    const monsters = await loadJsonData(
+      path2.join(dataDir, "cache", "bestiary.json"),
+      "monster"
+    );
+    return monsters.map((monster) => this.format(monster));
+  }
+  format(monster) {
+    const sourceLabel = getSourceLabel(monster.source);
+    const pageText = monster.page ? `, p. ${monster.page}` : "";
+    const subtitle = [monster.size, monster.type, monster.alignment].filter(Boolean).join(", ");
+    return {
+      label: `${monster.name} (${sourceLabel})`,
+      source: monster.source,
+      body: `## ${monster.name}
+
+*${subtitle} (${sourceLabel}${pageText})*
+
+| Field | Value |
+| ----- | ----- |
+| Armor Class | ${monster.armorClass || "-"} |
+| Hit Points | ${monster.hitPoints || "-"} |
+| Speed | ${monster.speed || "-"} |
+| Saving Throws | ${monster.savingThrows || "-"} |
+| Skills | ${monster.skills || "-"} |
+| Senses | ${monster.senses || "-"} |
+| Languages | ${monster.languages || "-"} |
+| Challenge | ${monster.challengeRating || "-"} |
+
+${this.formatAbilities(monster)}
+${this.formatSection("Traits", monster.traits)}
+${this.formatSection("Spellcasting", monster.spellcasting)}
+${this.formatSection("Actions", monster.actions)}
+${this.formatSection("Bonus Actions", monster.bonusActions)}
+${this.formatSection("Reactions", monster.reactions)}
+${this.formatSection("Legendary Actions", monster.legendaryActions)}
+${this.formatSection("Mythic Actions", monster.mythicActions)}
+${this.formatSection("Lair Actions", monster.lairActions)}
+${this.formatEnvironment(monster.environment)}`.trim()
+    };
+  }
+  formatAbilities(monster) {
+    const headings = ABILITY_LABELS.map((ability) => ability.toUpperCase()).join(" | ");
+    const dividers = ABILITY_LABELS.map(() => "-----").join(" | ");
+    const values = ABILITY_LABELS.map((ability) => {
+      const score = monster.abilities[ability];
+      return `${score} (${formatModifier(score)})`;
+    }).join(" | ");
+    return `| ${headings} |
+| ${dividers} |
+| ${values} |
+`;
+  }
+  formatSection(title, entries) {
+    if (!entries.length) return "";
+    const body = entries.map((entry) => {
+      const heading = entry.name ? `**${entry.name}.** ` : "";
+      return `${heading}${entry.entries.join("\n\n")}`.trim();
+    }).join("\n\n");
+    return `
+### ${title}
+
+${body}
+`;
+  }
+  formatEnvironment(environment) {
+    return environment.length ? `
+### Environment
+
+${environment.join(", ")}
+` : "";
+  }
+};
+function formatModifier(score) {
+  const modifier = Math.floor((score - 10) / 2);
+  return modifier >= 0 ? `+${modifier}` : String(modifier);
+}
+
+// src/formatters/MovieFormatter.ts
+var path3 = __toESM(require("path"));
 var MovieFormatter = class extends BaseFormatter {
   async load(dataDir) {
     const movies = await loadJsonData(
-      path2.join(dataDir, "cache", "movies.json"),
+      path3.join(dataDir, "cache", "movies.json"),
       "movie"
     );
     return movies.map((m) => this.format(m));
@@ -674,26 +958,7 @@ var MovieFormatter = class extends BaseFormatter {
 };
 
 // src/formatters/SpellFormatter.ts
-var path3 = __toESM(require("path"));
-
-// src/settings.ts
-var SOURCE_LIST = require_source_list();
-var DEFAULT_SETTINGS = {
-  githubToken: "",
-  includedSources: []
-};
-function normalizeSourceKey(source) {
-  return source.toUpperCase();
-}
-function getDefaultIncludedSources() {
-  return Object.entries(SOURCE_LIST).filter(([, source]) => source.include).map(([sourceKey]) => normalizeSourceKey(sourceKey));
-}
-function getSourceLabel(source) {
-  const sourceInfo = SOURCE_LIST[normalizeSourceKey(source)];
-  return sourceInfo?.short ?? source;
-}
-
-// src/formatters/SpellFormatter.ts
+var path4 = __toESM(require("path"));
 var LEVEL_NAMES = {
   0: "Cantrip",
   1: "1st-level",
@@ -703,7 +968,7 @@ var LEVEL_NAMES = {
 var SpellFormatter = class extends BaseFormatter {
   async load(dataDir) {
     const spells = await loadJsonData(
-      path3.join(dataDir, "cache", "spells.json"),
+      path4.join(dataDir, "cache", "spells.json"),
       "spell"
     );
     return spells.map((spell) => this.format(spell));
@@ -739,14 +1004,16 @@ ${higherLevel}`
 
 // src/registry.ts
 var registry = {
+  bestiary: new MonsterFormatter(),
   books: new BookFormatter(),
   movies: new MovieFormatter(),
+  monsters: new MonsterFormatter(),
   spells: new SpellFormatter()
 };
 
 // src/deployer.ts
 var fs2 = __toESM(require("fs"));
-var path4 = __toESM(require("path"));
+var path5 = __toESM(require("path"));
 var Deployer = class {
   constructor(opts) {
     this.opts = opts;
@@ -757,7 +1024,7 @@ var Deployer = class {
   // Write Option+Shift+E for toolkit insertion into hotkeys.json
   // Only sets if the user hasn't already customised this command.
   setToolkitHotkey() {
-    const hotkeysPath = path4.join(this.opts.vaultPath, ".obsidian", "hotkeys.json");
+    const hotkeysPath = path5.join(this.opts.vaultPath, ".obsidian", "hotkeys.json");
     let hotkeys = {};
     try {
       if (fs2.existsSync(hotkeysPath)) {
@@ -779,10 +1046,12 @@ var Deployer = class {
 
 // src/utils/databaseCache.ts
 var fs3 = __toESM(require("fs"));
-var path5 = __toESM(require("path"));
+var path6 = __toESM(require("path"));
 var import_obsidian = require("obsidian");
 var SPELL_SOURCE_LIST = require_spell_source_list();
+var MONSTER_SOURCE_LIST = require_monster_source_list();
 var SPELL_SOURCE_SET = new Set(SPELL_SOURCE_LIST.map(normalizeSourceKey));
+var MONSTER_SOURCE_SET = new Set(MONSTER_SOURCE_LIST.map(normalizeSourceKey));
 var CACHE_METADATA_FILE = ".database-cache.json";
 var DATABASE_FILES = [
   {
@@ -796,15 +1065,29 @@ var DATABASE_FILES = [
     sourceUrl: "https://api.github.com/repos/guykahalani/my-toolkit-plugin/contents/data/movies.json?ref=main"
   }
 ];
+var SOURCE_FILTERED_DATABASE_FILES = [
+  {
+    name: "spells.json",
+    description: "spells",
+    sourceSet: SPELL_SOURCE_SET,
+    getSourceUrl: getSpellSourceUrl
+  },
+  {
+    name: "bestiary.json",
+    description: "monsters",
+    sourceSet: MONSTER_SOURCE_SET,
+    getSourceUrl: getBestiarySourceUrl
+  }
+];
 function getCacheDir(pluginDir) {
-  return path5.join(pluginDir, "cache");
+  return path6.join(pluginDir, "cache");
 }
 async function hasDatabaseCache(pluginDir, includedSources) {
   const cacheDir = getCacheDir(pluginDir);
   const results = await Promise.all(
-    DATABASE_FILES.map((file) => hasFile(path5.join(cacheDir, file.name)))
+    [...DATABASE_FILES, ...SOURCE_FILTERED_DATABASE_FILES].map((file) => hasFile(path6.join(cacheDir, file.name)))
   );
-  return results.every(Boolean) && await hasFile(path5.join(cacheDir, "spells.json")) && await hasMatchingCacheMetadata(cacheDir, includedSources);
+  return results.every(Boolean) && await hasMatchingCacheMetadata(cacheDir, includedSources);
 }
 async function refreshDatabaseCache(pluginDir, githubToken, includedSources) {
   const cacheDir = getCacheDir(pluginDir);
@@ -817,29 +1100,39 @@ async function refreshDatabaseCache(pluginDir, githubToken, includedSources) {
 async function refreshSourceFilteredDatabaseCache(pluginDir, githubToken, includedSources) {
   const cacheDir = getCacheDir(pluginDir);
   await fs3.promises.mkdir(cacheDir, { recursive: true });
-  const selectedSpellSources = getSelectedSpellSources(includedSources);
-  const sourceSpellGroups = await Promise.all(
-    selectedSpellSources.map((sourceKey) => fetchJsonArrayFromGithub(
-      getSpellSourceUrl(sourceKey),
+  await Promise.all(
+    SOURCE_FILTERED_DATABASE_FILES.map((file) => writeSourceFilteredJsonCacheFile(
+      cacheDir,
+      file,
       githubToken,
-      `${sourceKey} spells`
+      includedSources
     ))
-  );
-  const spells = sourceSpellGroups.flat().sort((left, right) => {
-    const byName = String(left.name).localeCompare(String(right.name));
-    return byName || String(left.source).localeCompare(String(right.source));
-  });
-  await fs3.promises.writeFile(
-    path5.join(cacheDir, "spells.json"),
-    JSON.stringify(spells, null, 2),
-    "utf-8"
   );
   await writeCacheMetadata(cacheDir, includedSources);
 }
 async function writeJsonCacheFile(cacheDir, file, githubToken) {
   const data = await fetchJsonArrayFromGithub(file.sourceUrl, githubToken, file.description);
   await fs3.promises.writeFile(
-    path5.join(cacheDir, file.name),
+    path6.join(cacheDir, file.name),
+    JSON.stringify(data, null, 2),
+    "utf-8"
+  );
+}
+async function writeSourceFilteredJsonCacheFile(cacheDir, file, githubToken, includedSources) {
+  const selectedSources = getSelectedSources(includedSources, file.sourceSet);
+  const sourceGroups = await Promise.all(
+    selectedSources.map((sourceKey) => fetchJsonArrayFromGithub(
+      file.getSourceUrl(sourceKey),
+      githubToken,
+      `${sourceKey} ${file.description}`
+    ))
+  );
+  const data = sourceGroups.flat().sort((left, right) => {
+    const byName = String(left.name).localeCompare(String(right.name));
+    return byName || String(left.source).localeCompare(String(right.source));
+  });
+  await fs3.promises.writeFile(
+    path6.join(cacheDir, file.name),
     JSON.stringify(data, null, 2),
     "utf-8"
   );
@@ -863,11 +1156,14 @@ async function fetchJsonArrayFromGithub(sourceUrl, githubToken, description) {
   }
   return data;
 }
-function getSelectedSpellSources(includedSources) {
-  return includedSources.map(normalizeSourceKey).filter((sourceKey) => SPELL_SOURCE_SET.has(sourceKey)).sort();
+function getSelectedSources(includedSources, sourceSet) {
+  return includedSources.map(normalizeSourceKey).filter((sourceKey) => sourceSet.has(sourceKey)).sort();
 }
 function getSpellSourceUrl(sourceKey) {
   return `https://api.github.com/repos/guykahalani/my-toolkit-plugin/contents/data/spells/${sourceKey.toLowerCase()}.json?ref=main`;
+}
+function getBestiarySourceUrl(sourceKey) {
+  return `https://api.github.com/repos/guykahalani/my-toolkit-plugin/contents/data/bestiary/${sourceKey.toLowerCase()}.json?ref=main`;
 }
 async function hasFile(filePath) {
   try {
@@ -880,7 +1176,7 @@ async function hasFile(filePath) {
 async function hasMatchingCacheMetadata(cacheDir, includedSources) {
   try {
     const metadata = JSON.parse(
-      await fs3.promises.readFile(path5.join(cacheDir, CACHE_METADATA_FILE), "utf-8")
+      await fs3.promises.readFile(path6.join(cacheDir, CACHE_METADATA_FILE), "utf-8")
     );
     return sourcesMatch(metadata.includedSources ?? [], includedSources);
   } catch {
@@ -889,7 +1185,7 @@ async function hasMatchingCacheMetadata(cacheDir, includedSources) {
 }
 async function writeCacheMetadata(cacheDir, includedSources) {
   await fs3.promises.writeFile(
-    path5.join(cacheDir, CACHE_METADATA_FILE),
+    path6.join(cacheDir, CACHE_METADATA_FILE),
     JSON.stringify({ includedSources: normalizeSources(includedSources) }, null, 2),
     "utf-8"
   );
@@ -914,7 +1210,7 @@ var MyToolkitPlugin = class extends import_obsidian2.Plugin {
     console.log("[Toolkit] Loading...");
     await this.loadSettings();
     const vaultPath = this.app.vault.adapter.getBasePath();
-    this.pluginDir = path6.join(vaultPath, this.app.vault.configDir, "plugins", this.manifest.id);
+    this.pluginDir = path7.join(vaultPath, this.app.vault.configDir, "plugins", this.manifest.id);
     await this.ensureDatabaseCache();
     this.addSettingTab(new ToolkitSettingTab(this.app, this));
     globalThis.__toolkit = {
@@ -1071,7 +1367,7 @@ var ToolkitSettingTab = class extends import_obsidian2.PluginSettingTab {
     const includedSources = new Set(this.plugin.settings.includedSources.map(normalizeSourceKey));
     Object.entries(SOURCE_LIST).sort(compareSourcesForSettings).forEach(([sourceKey, source]) => {
       const normalizedSourceKey = normalizeSourceKey(sourceKey);
-      new import_obsidian2.Setting(containerEl).setName(`${source.short} - ${source.full}`).addToggle((toggle) => {
+      new import_obsidian2.Setting(containerEl).setName(`${source.full} (${source.short})`).addToggle((toggle) => {
         toggle.setValue(includedSources.has(normalizedSourceKey)).onChange(async (value) => {
           const nextSources = new Set(this.plugin.settings.includedSources.map(normalizeSourceKey));
           if (value) {
@@ -1107,6 +1403,7 @@ var TypeSelectionModal = class extends import_obsidian2.FuzzySuggestModal {
     return [
       { label: "Insert book", value: "books" },
       { label: "Insert movie", value: "movies" },
+      { label: "Insert monster", value: "monsters" },
       { label: "Insert spell", value: "spells" }
     ];
   }

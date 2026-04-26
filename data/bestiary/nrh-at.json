@@ -1,0 +1,122 @@
+[
+  {
+    "name": "Emo",
+    "source": "NRH-AT",
+    "sourceKey": "NRH-AT",
+    "page": 9,
+    "size": "",
+    "type": "",
+    "alignment": "",
+    "armorClass": "",
+    "hitPoints": "",
+    "speed": "",
+    "abilities": {},
+    "savingThrows": "",
+    "skills": "",
+    "senses": "",
+    "languages": "",
+    "challengeRating": "",
+    "traits": [],
+    "spellcasting": [],
+    "actions": [],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Maude",
+    "source": "NRH-AT",
+    "sourceKey": "NRH-AT",
+    "page": 12,
+    "size": "",
+    "type": "",
+    "alignment": "",
+    "armorClass": "",
+    "hitPoints": "",
+    "speed": "",
+    "abilities": {},
+    "savingThrows": "",
+    "skills": "",
+    "senses": "",
+    "languages": "",
+    "challengeRating": "",
+    "traits": [],
+    "spellcasting": [],
+    "actions": [],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Mr. Greystone",
+    "source": "NRH-AT",
+    "sourceKey": "NRH-AT",
+    "page": 13,
+    "size": "Medium",
+    "type": "humanoid (human)",
+    "alignment": "lawful evil",
+    "armorClass": "15 (studded leather armor)",
+    "hitPoints": "112 (15d8 + 45)",
+    "speed": "walk 30 ft.",
+    "abilities": {
+      "str": 18,
+      "dex": 15,
+      "con": 16,
+      "int": 10,
+      "wis": 12,
+      "cha": 15
+    },
+    "savingThrows": "str: +7, dex: +5, con: +6",
+    "skills": "athletics: +10, intimidation: +5",
+    "senses": "passive Perception 11",
+    "languages": "Common, Goblin",
+    "challengeRating": "5",
+    "traits": [
+      {
+        "name": "Brave",
+        "entries": [
+          "Mr. Greystone has advantage on saving throws against being frightened."
+        ]
+      },
+      {
+        "name": "Brute",
+        "entries": [
+          "A melee weapon deals one extra die of its damage when Mr. Greystone hits with it (included in the attack)."
+        ]
+      }
+    ],
+    "spellcasting": [],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "entries": [
+          "Mr. Greystone makes two melee attacks or two ranged attacks."
+        ]
+      },
+      {
+        "name": "Club",
+        "entries": [
+          "Melee Weapon Attack: 7 to hit, reach 5 ft., one target. 11 (2d6 + 4) bludgeoning damage."
+        ]
+      },
+      {
+        "name": "Hand Crossbow",
+        "entries": [
+          "Ranged Weapon Attack: 5 to hit, range 30/120 ft., one target. 5 (1d6 + 2) piercing damage."
+        ]
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  }
+]

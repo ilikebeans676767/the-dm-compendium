@@ -4,7 +4,9 @@ import { requestUrl } from "obsidian";
 import { normalizeSourceKey } from "../settings";
 
 const SPELL_SOURCE_LIST = require("../spell-source-list.json") as string[];
+const MONSTER_SOURCE_LIST = require("../monster-source-list.json") as string[];
 const SPELL_SOURCE_SET = new Set(SPELL_SOURCE_LIST.map(normalizeSourceKey));
+const MONSTER_SOURCE_SET = new Set(MONSTER_SOURCE_LIST.map(normalizeSourceKey));
 const CACHE_METADATA_FILE = ".database-cache.json";
 
 export interface DatabaseFile {
@@ -26,6 +28,28 @@ const DATABASE_FILES: DatabaseFile[] = [
   },
 ];
 
+interface SourceFilteredDatabaseFile {
+  name: string;
+  description: string;
+  sourceSet: Set<string>;
+  getSourceUrl: (sourceKey: string) => string;
+}
+
+const SOURCE_FILTERED_DATABASE_FILES: SourceFilteredDatabaseFile[] = [
+  {
+    name: "spells.json",
+    description: "spells",
+    sourceSet: SPELL_SOURCE_SET,
+    getSourceUrl: getSpellSourceUrl,
+  },
+  {
+    name: "bestiary.json",
+    description: "monsters",
+    sourceSet: MONSTER_SOURCE_SET,
+    getSourceUrl: getBestiarySourceUrl,
+  },
+];
+
 export function getDatabaseFiles(): DatabaseFile[] {
   return DATABASE_FILES;
 }
@@ -37,11 +61,10 @@ export function getCacheDir(pluginDir: string): string {
 export async function hasDatabaseCache(pluginDir: string, includedSources: string[]): Promise<boolean> {
   const cacheDir = getCacheDir(pluginDir);
   const results = await Promise.all(
-    DATABASE_FILES.map((file) => hasFile(path.join(cacheDir, file.name)))
+    [...DATABASE_FILES, ...SOURCE_FILTERED_DATABASE_FILES].map((file) => hasFile(path.join(cacheDir, file.name)))
   );
 
   return results.every(Boolean)
-    && await hasFile(path.join(cacheDir, "spells.json"))
     && await hasMatchingCacheMetadata(cacheDir, includedSources);
 }
 
@@ -67,31 +90,47 @@ export async function refreshSourceFilteredDatabaseCache(
   const cacheDir = getCacheDir(pluginDir);
   await fs.promises.mkdir(cacheDir, { recursive: true });
 
-  const selectedSpellSources = getSelectedSpellSources(includedSources);
-  const sourceSpellGroups = await Promise.all(
-    selectedSpellSources.map((sourceKey) => fetchJsonArrayFromGithub(
-      getSpellSourceUrl(sourceKey),
+  await Promise.all(
+    SOURCE_FILTERED_DATABASE_FILES.map((file) => writeSourceFilteredJsonCacheFile(
+      cacheDir,
+      file,
       githubToken,
-      `${sourceKey} spells`
+      includedSources
     ))
-  );
-  const spells = sourceSpellGroups
-    .flat()
-    .sort((left: any, right: any) => {
-      const byName = String(left.name).localeCompare(String(right.name));
-      return byName || String(left.source).localeCompare(String(right.source));
-    });
-
-  await fs.promises.writeFile(
-    path.join(cacheDir, "spells.json"),
-    JSON.stringify(spells, null, 2),
-    "utf-8"
   );
   await writeCacheMetadata(cacheDir, includedSources);
 }
 
 async function writeJsonCacheFile(cacheDir: string, file: DatabaseFile, githubToken: string) {
   const data = await fetchJsonArrayFromGithub(file.sourceUrl, githubToken, file.description);
+  await fs.promises.writeFile(
+    path.join(cacheDir, file.name),
+    JSON.stringify(data, null, 2),
+    "utf-8"
+  );
+}
+
+async function writeSourceFilteredJsonCacheFile(
+  cacheDir: string,
+  file: SourceFilteredDatabaseFile,
+  githubToken: string,
+  includedSources: string[]
+) {
+  const selectedSources = getSelectedSources(includedSources, file.sourceSet);
+  const sourceGroups = await Promise.all(
+    selectedSources.map((sourceKey) => fetchJsonArrayFromGithub(
+      file.getSourceUrl(sourceKey),
+      githubToken,
+      `${sourceKey} ${file.description}`
+    ))
+  );
+  const data = sourceGroups
+    .flat()
+    .sort((left: any, right: any) => {
+      const byName = String(left.name).localeCompare(String(right.name));
+      return byName || String(left.source).localeCompare(String(right.source));
+    });
+
   await fs.promises.writeFile(
     path.join(cacheDir, file.name),
     JSON.stringify(data, null, 2),
@@ -123,15 +162,19 @@ async function fetchJsonArrayFromGithub(sourceUrl: string, githubToken: string, 
   return data;
 }
 
-function getSelectedSpellSources(includedSources: string[]) {
+function getSelectedSources(includedSources: string[], sourceSet: Set<string>) {
   return includedSources
     .map(normalizeSourceKey)
-    .filter((sourceKey) => SPELL_SOURCE_SET.has(sourceKey))
+    .filter((sourceKey) => sourceSet.has(sourceKey))
     .sort();
 }
 
 function getSpellSourceUrl(sourceKey: string) {
   return `https://api.github.com/repos/guykahalani/my-toolkit-plugin/contents/data/spells/${sourceKey.toLowerCase()}.json?ref=main`;
+}
+
+function getBestiarySourceUrl(sourceKey: string) {
+  return `https://api.github.com/repos/guykahalani/my-toolkit-plugin/contents/data/bestiary/${sourceKey.toLowerCase()}.json?ref=main`;
 }
 
 async function hasFile(filePath: string): Promise<boolean> {

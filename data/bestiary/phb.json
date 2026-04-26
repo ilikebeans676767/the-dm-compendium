@@ -1,0 +1,252 @@
+[
+  {
+    "name": "Animated Object (Huge)",
+    "source": "PHB",
+    "sourceKey": "PHB",
+    "page": 213,
+    "size": "Huge",
+    "type": "construct",
+    "alignment": "unaligned",
+    "armorClass": "10 (natural armor)",
+    "hitPoints": "80",
+    "speed": "walk 30 ft.",
+    "abilities": {
+      "str": 18,
+      "dex": 6,
+      "con": 10,
+      "int": 3,
+      "wis": 3,
+      "cha": 1
+    },
+    "savingThrows": "",
+    "skills": "",
+    "senses": "blindsight 30 ft. (blind beyond this radius), passive Perception 6",
+    "languages": "",
+    "challengeRating": "",
+    "traits": [
+      {
+        "name": "Animated",
+        "entries": [
+          "If the object lacks legs or other appendages it can use for locomotion, it instead has a flying speed of 30 feet and can hover. If the object is securely attached to a surface or larger object, such as a chain bolted to a wall, its speed is 0.",
+          "When the animated object drops to 0 hit points, it reverts to its original object form, and any remaining damage carries over to its original object form.",
+          "The DM might rule that a specific objects slam attack inflicts slashing or piercing damage based on its form."
+        ]
+      }
+    ],
+    "spellcasting": [],
+    "actions": [
+      {
+        "name": "Slam",
+        "entries": [
+          "Melee Weapon Attack: 8 to hit, reach 5 ft., one target. 16 (2d12 + 4) bludgeoning damage."
+        ]
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Animated Object (Large)",
+    "source": "PHB",
+    "sourceKey": "PHB",
+    "page": 213,
+    "size": "Large",
+    "type": "construct",
+    "alignment": "unaligned",
+    "armorClass": "10 (natural armor)",
+    "hitPoints": "50",
+    "speed": "walk 30 ft.",
+    "abilities": {
+      "str": 14,
+      "dex": 10,
+      "con": 10,
+      "int": 3,
+      "wis": 3,
+      "cha": 1
+    },
+    "savingThrows": "",
+    "skills": "",
+    "senses": "blindsight 30 ft. (blind beyond this radius), passive Perception 6",
+    "languages": "",
+    "challengeRating": "",
+    "traits": [
+      {
+        "name": "Animated",
+        "entries": [
+          "If the object lacks legs or other appendages it can use for locomotion, it instead has a flying speed of 30 feet and can hover. If the object is securely attached to a surface or larger object, such as a chain bolted to a wall, its speed is 0.",
+          "When the animated object drops to 0 hit points, it reverts to its original object form, and any remaining damage carries over to its original object form.",
+          "The DM might rule that a specific objects slam attack inflicts slashing or piercing damage based on its form."
+        ]
+      }
+    ],
+    "spellcasting": [],
+    "actions": [
+      {
+        "name": "Slam",
+        "entries": [
+          "Melee Weapon Attack: 6 to hit, reach 5 ft., one target. 12 (2d10 + 2) bludgeoning damage."
+        ]
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Animated Object (Medium)",
+    "source": "PHB",
+    "sourceKey": "PHB",
+    "page": 213,
+    "size": "Medium",
+    "type": "construct",
+    "alignment": "unaligned",
+    "armorClass": "13 (natural armor)",
+    "hitPoints": "40",
+    "speed": "walk 30 ft.",
+    "abilities": {
+      "str": 10,
+      "dex": 12,
+      "con": 10,
+      "int": 3,
+      "wis": 3,
+      "cha": 1
+    },
+    "savingThrows": "",
+    "skills": "",
+    "senses": "blindsight 30 ft. (blind beyond this radius), passive Perception 6",
+    "languages": "",
+    "challengeRating": "",
+    "traits": [
+      {
+        "name": "Animated",
+        "entries": [
+          "If the object lacks legs or other appendages it can use for locomotion, it instead has a flying speed of 30 feet and can hover. If the object is securely attached to a surface or larger object, such as a chain bolted to a wall, its speed is 0.",
+          "When the animated object drops to 0 hit points, it reverts to its original object form, and any remaining damage carries over to its original object form.",
+          "The DM might rule that a specific objects slam attack inflicts slashing or piercing damage based on its form."
+        ]
+      }
+    ],
+    "spellcasting": [],
+    "actions": [
+      {
+        "name": "Slam",
+        "entries": [
+          "Melee Weapon Attack: 5 to hit, reach 5 ft., one target. 7 (2d6 + 1) bludgeoning damage."
+        ]
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Animated Object (Small)",
+    "source": "PHB",
+    "sourceKey": "PHB",
+    "page": 213,
+    "size": "Small",
+    "type": "construct",
+    "alignment": "unaligned",
+    "armorClass": "16 (natural armor)",
+    "hitPoints": "25",
+    "speed": "walk 30 ft.",
+    "abilities": {
+      "str": 6,
+      "dex": 14,
+      "con": 10,
+      "int": 3,
+      "wis": 3,
+      "cha": 1
+    },
+    "savingThrows": "",
+    "skills": "",
+    "senses": "blindsight 30 ft. (blind beyond this radius), passive Perception 6",
+    "languages": "",
+    "challengeRating": "",
+    "traits": [
+      {
+        "name": "Animated",
+        "entries": [
+          "If the object lacks legs or other appendages it can use for locomotion, it instead has a flying speed of 30 feet and can hover. If the object is securely attached to a surface or larger object, such as a chain bolted to a wall, its speed is 0.",
+          "When the animated object drops to 0 hit points, it reverts to its original object form, and any remaining damage carries over to its original object form.",
+          "The DM might rule that a specific objects slam attack inflicts slashing or piercing damage based on its form."
+        ]
+      }
+    ],
+    "spellcasting": [],
+    "actions": [
+      {
+        "name": "Slam",
+        "entries": [
+          "Melee Weapon Attack: 6 to hit, reach 5 ft., one target. 6 (1d8 + 2) bludgeoning damage."
+        ]
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Animated Object (Tiny)",
+    "source": "PHB",
+    "sourceKey": "PHB",
+    "page": 213,
+    "size": "Tiny",
+    "type": "construct",
+    "alignment": "unaligned",
+    "armorClass": "18 (natural armor)",
+    "hitPoints": "20",
+    "speed": "walk 30 ft.",
+    "abilities": {
+      "str": 4,
+      "dex": 18,
+      "con": 10,
+      "int": 3,
+      "wis": 3,
+      "cha": 1
+    },
+    "savingThrows": "",
+    "skills": "",
+    "senses": "blindsight 30 ft. (blind beyond this radius), passive Perception 6",
+    "languages": "",
+    "challengeRating": "",
+    "traits": [
+      {
+        "name": "Animated",
+        "entries": [
+          "If the object lacks legs or other appendages it can use for locomotion, it instead has a flying speed of 30 feet and can hover. If the object is securely attached to a surface or larger object, such as a chain bolted to a wall, its speed is 0.",
+          "When the animated object drops to 0 hit points, it reverts to its original object form, and any remaining damage carries over to its original object form.",
+          "The DM might rule that a specific objects slam attack inflicts slashing or piercing damage based on its form."
+        ]
+      }
+    ],
+    "spellcasting": [],
+    "actions": [
+      {
+        "name": "Slam",
+        "entries": [
+          "Melee Weapon Attack: 8 to hit, reach 5 ft., one target. 6 (1d4 + 4) bludgeoning damage."
+        ]
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  }
+]

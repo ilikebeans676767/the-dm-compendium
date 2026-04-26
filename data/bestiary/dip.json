@@ -1,0 +1,353 @@
+[
+  {
+    "name": "Anchorite of Talos",
+    "source": "DIP",
+    "sourceKey": "DIP",
+    "page": 51,
+    "size": "Medium",
+    "type": "humanoid (half-orc, shapechanger)",
+    "alignment": "neutral evil",
+    "armorClass": "13 (hide armor)",
+    "hitPoints": "58 (9d8 + 18)",
+    "speed": "walk 30 ft.",
+    "abilities": {
+      "str": 16,
+      "dex": 13,
+      "con": 14,
+      "int": 9,
+      "wis": 15,
+      "cha": 12
+    },
+    "savingThrows": "",
+    "skills": "nature: +1, stealth: +3, survival: +4",
+    "senses": "darkvision 60 ft., passive Perception 12",
+    "languages": "Common, Orc",
+    "challengeRating": "3",
+    "traits": [
+      {
+        "name": "Shapechanger",
+        "entries": [
+          "The anchorite can use its action to polymorph into a boar or back into its true form, which is humanoid. Its statistics are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies."
+        ]
+      }
+    ],
+    "spellcasting": [
+      {
+        "name": "Innate Spellcasting",
+        "entries": [
+          "The anchorite's innate spellcasting ability is Wisdom (spell save DC 12). It can innately cast the following spells, requiring no material components:",
+          "3/day: thunderwave (2d8 damage)",
+          "1e/day: augury, bless, lightning bolt (8d6 damage), revivify"
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "name": "Clawed Gauntlet (Humanoid Form Only)",
+        "entries": [
+          "Melee Weapon Attack: 5 to hit, reach 5 ft., one target. 5 (1d4 + 3) slashing damage."
+        ]
+      },
+      {
+        "name": "Tusk (Boar Form Only)",
+        "entries": [
+          "Melee Weapon Attack: 5 to hit, reach 5 ft., one target. 6 (1d6 + 3) slashing damage."
+        ]
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Don-Jon Raskin",
+    "source": "DIP",
+    "sourceKey": "DIP",
+    "page": 56,
+    "size": "Medium",
+    "type": "humanoid (human)",
+    "alignment": "neutral",
+    "armorClass": "10",
+    "hitPoints": "44 (8d8 + 8)",
+    "speed": "walk 30 ft.",
+    "abilities": {
+      "str": 11,
+      "dex": 10,
+      "con": 13,
+      "int": 12,
+      "wis": 10,
+      "cha": 14
+    },
+    "savingThrows": "dex: +2, con: +3",
+    "skills": "deception: +4, persuasion: +4",
+    "senses": "passive Perception 10",
+    "languages": "Common, Dwarvish",
+    "challengeRating": "1/2",
+    "traits": [
+      {
+        "name": "Brave",
+        "entries": [
+          "Don-Jon has advantage on saving throws against being frightened."
+        ]
+      },
+      {
+        "name": "Not Dead Yet (Recharges after a Long Rest)",
+        "entries": [
+          "If damage reduces Don-Jon to 0 hit points, he drops to 1 hit point instead and gains advantage on attack rolls until the end of his next turn."
+        ]
+      }
+    ],
+    "spellcasting": [],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "entries": [
+          "Don-Jon makes three melee attacks."
+        ]
+      },
+      {
+        "name": "Dagger",
+        "entries": [
+          "Melee Weapon or Ranged Weapon Attack: 2 to hit, reach 5 ft. or range 20/60 ft., one target. 2 (1d4) piercing damage."
+        ]
+      },
+      {
+        "name": "Sling",
+        "entries": [
+          "Ranged Weapon Attack: 2 to hit, range 30/120 ft., one target. 2 (1d4) bludgeoning damage."
+        ]
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Falcon the Hunter",
+    "source": "DIP",
+    "sourceKey": "DIP",
+    "page": 56,
+    "size": "Medium",
+    "type": "humanoid (human)",
+    "alignment": "neutral good",
+    "armorClass": "14 (studded leather armor)",
+    "hitPoints": "112 (15d8 + 45)",
+    "speed": "walk 30 ft.",
+    "abilities": {
+      "str": 14,
+      "dex": 15,
+      "con": 16,
+      "int": 11,
+      "wis": 16,
+      "cha": 15
+    },
+    "savingThrows": "dex: +4, wis: +5",
+    "skills": "athletics: +4, perception: +7, survival: +5",
+    "senses": "passive Perception 17",
+    "languages": "Common",
+    "challengeRating": "4",
+    "traits": [
+      {
+        "name": "Archer",
+        "entries": [
+          "A longbow or shortbow deals one extra die of its damage when Falcon hits with it (included in his longbow attack)."
+        ]
+      },
+      {
+        "name": "Sharpshooter",
+        "entries": [
+          "Falcon's ranged weapon attacks ignore Cover and Cover."
+        ]
+      }
+    ],
+    "spellcasting": [],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "entries": [
+          "Falcon makes three melee attacks or two ranged attacks."
+        ]
+      },
+      {
+        "name": "Longsword",
+        "entries": [
+          "Melee Weapon Attack: 4 to hit, reach 5 ft., one target. 6 (1d8 + 2) slashing damage, or 7 (1d10 + 2) slashing damage if used with two hands."
+        ]
+      },
+      {
+        "name": "Longbow",
+        "entries": [
+          "Ranged Weapon Attack: 4 to hit, range 150/600 ft., one target. 11 (2d8 + 2) piercing damage."
+        ]
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Gorthok the Thunder Boar",
+    "source": "DIP",
+    "sourceKey": "DIP",
+    "page": 58,
+    "size": "Huge",
+    "type": "monstrosity",
+    "alignment": "chaotic evil",
+    "armorClass": "15 (natural armor)",
+    "hitPoints": "73 (7d12 + 28)",
+    "speed": "walk 50 ft.",
+    "abilities": {
+      "str": 20,
+      "dex": 11,
+      "con": 19,
+      "int": 6,
+      "wis": 10,
+      "cha": 14
+    },
+    "savingThrows": "",
+    "skills": "",
+    "senses": "darkvision 60 ft., passive Perception 10",
+    "languages": "",
+    "challengeRating": "6",
+    "traits": [
+      {
+        "name": "Relentless (Recharges after a Short or Long Rest)",
+        "entries": [
+          "If Gorthok takes 27 damage or less that would reduce it to 0 hit points, it is reduced to 1 hit point instead."
+        ]
+      }
+    ],
+    "spellcasting": [],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "entries": [
+          "Gorthok makes two melee attacks: one with its lightning tusks and one with its thunder hooves."
+        ]
+      },
+      {
+        "name": "Lightning Tusks",
+        "entries": [
+          "Melee Weapon Attack: 8 to hit, reach 10 ft., one target. 12 (2d6 + 5) slashing damage plus 7 (2d6) lightning damage."
+        ]
+      },
+      {
+        "name": "Thunder Hooves",
+        "entries": [
+          "Melee Weapon Attack: 8 to hit, reach 10 ft., one target. 12 (2d6 + 5) bludgeoning damage plus 7 (2d6) thunder damage."
+        ]
+      },
+      {
+        "name": "Lightning Bolt",
+        "entries": [
+          "Gorthok shoots a bolt of lightning at one creature it can see within 120 feet of it. The target must make a DC 15 Dexterity saving throw, taking 18 (4d8) lightning damage on a failed save, or half as much damage on a successful one."
+        ]
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Rock Gnome Recluse",
+    "source": "DIP",
+    "sourceKey": "DIP",
+    "page": 62,
+    "size": "Small",
+    "type": "humanoid (gnome)",
+    "alignment": "chaotic neutral",
+    "armorClass": "10, 13 with mage armor",
+    "hitPoints": "7 (2d6)",
+    "speed": "walk 25 ft.",
+    "abilities": {
+      "str": 6,
+      "dex": 11,
+      "con": 10,
+      "int": 15,
+      "wis": 10,
+      "cha": 13
+    },
+    "savingThrows": "",
+    "skills": "arcana: +4, history: +4",
+    "senses": "darkvision 60 ft., passive Perception 10",
+    "languages": "Common, Gnomish",
+    "challengeRating": "1/4",
+    "traits": [
+      {
+        "name": "Gnome Cunning",
+        "entries": [
+          "The gnome has advantage on Intelligence, Wisdom, and Charisma saving throws against magic."
+        ]
+      }
+    ],
+    "spellcasting": [
+      {
+        "name": "Spellcasting",
+        "entries": [
+          "The gnome is a 2nd-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 12, 4 to hit with spell attacks). It has the following wizard spells prepared:",
+          "0: mage hand, prestidigitation, ray of frost (see \"Actions\" below)",
+          "1 (3 slots): detect magic, mage armor, magic missile (see \"Actions\" below), shield"
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "name": "Magic Missile (Expends a 1st-Level Spell Slot)",
+        "entries": [
+          "The gnome creates three magical darts. Each dart hits a creature the gnome chooses within 120 feet of it and deals 3 (1d4 + 1) force damage."
+        ]
+      },
+      {
+        "name": "Ray of Frost",
+        "entries": [
+          "Ranged Spell Attack: 4 to hit, range 60 ft., one creature. 4 (1d8) cold damage, and the target's speed is reduced by 10 feet until the start of the gnome's next turn."
+        ]
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Skeletal Riding Horse",
+    "source": "DIP",
+    "sourceKey": "DIP",
+    "page": 21,
+    "size": "",
+    "type": "undead",
+    "alignment": "",
+    "armorClass": "",
+    "hitPoints": "",
+    "speed": "",
+    "abilities": {},
+    "savingThrows": "",
+    "skills": "",
+    "senses": "",
+    "languages": "",
+    "challengeRating": "",
+    "traits": [],
+    "spellcasting": [],
+    "actions": [],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  }
+]

@@ -1,0 +1,658 @@
+[
+  {
+    "name": "Big Water Slurpent",
+    "source": "AWM",
+    "sourceKey": "AWM",
+    "page": 29,
+    "size": "Large",
+    "type": "elemental",
+    "alignment": "neutral",
+    "armorClass": "13",
+    "hitPoints": "58",
+    "speed": "walk 0 ft., swim 60 ft.",
+    "abilities": {
+      "str": 17,
+      "dex": 16,
+      "con": 13,
+      "int": 11,
+      "wis": 10,
+      "cha": 10
+    },
+    "savingThrows": "",
+    "skills": "",
+    "senses": "",
+    "languages": "",
+    "challengeRating": "3",
+    "traits": [
+      {
+        "name": "Invisible in Water",
+        "entries": [
+          "The big water slurpent is invisible while fully immersed in water."
+        ]
+      },
+      {
+        "name": "Water Bound",
+        "entries": [
+          "The big water slurpent dies if it leaves the water to which it is bound or if that water is destroyed."
+        ]
+      }
+    ],
+    "spellcasting": [],
+    "actions": [
+      {
+        "name": "Constrict",
+        "entries": [
+          "Melee Weapon Attack: 5 to hit, one target. 13 (3d6+3) bludgeoning damage. If the target is Medium or smaller, it is grappled (escape DC 13) and pulled 5 feet toward the big water slurpent. Until this grapple ends, the target is restrained, the big water slurpent tries to drown it, and the big water slurpent can't constrict another target."
+        ]
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Birdsquirrel",
+    "source": "AWM",
+    "sourceKey": "AWM",
+    "page": 30,
+    "size": "Tiny",
+    "type": "beast",
+    "alignment": "unaligned",
+    "armorClass": "13",
+    "hitPoints": "10",
+    "speed": "walk 20 ft., fly 30 ft., climb 20 ft.",
+    "abilities": {
+      "str": 6,
+      "dex": 14,
+      "con": 13,
+      "int": 4,
+      "wis": 12,
+      "cha": 6
+    },
+    "savingThrows": "",
+    "skills": "",
+    "senses": "",
+    "languages": "",
+    "challengeRating": "1/4",
+    "traits": [
+      {
+        "name": "Pack Tactics",
+        "entries": [
+          "Birdsquirrel has advantage on an attack roll against a creature if at least one of the Birdsquirrel's allies is within 5 feet of the creature and the ally isn't incapacitated."
+        ]
+      }
+    ],
+    "spellcasting": [],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "entries": [
+          "Birdsquirrel makes two attacks: one with its bite and one with its claws."
+        ]
+      },
+      {
+        "name": "Bite",
+        "entries": [
+          "Melee Weapon Attack: 4 to hit, reach 5 ft., one target. 5 (1d6+2) piercing damage."
+        ]
+      },
+      {
+        "name": "Claws",
+        "entries": [
+          "Melee Weapon Attack: 4 to hit, reach 5 ft., one target. 4 (1d4+2) slashing damage."
+        ]
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Boontu Monkey",
+    "source": "AWM",
+    "sourceKey": "AWM",
+    "page": 30,
+    "size": "Medium",
+    "type": "beast",
+    "alignment": "unaligned",
+    "armorClass": "12",
+    "hitPoints": "3",
+    "speed": "walk 20 ft., climb 20 ft.",
+    "abilities": {
+      "str": 8,
+      "dex": 14,
+      "con": 11,
+      "int": 5,
+      "wis": 12,
+      "cha": 6
+    },
+    "savingThrows": "",
+    "skills": "",
+    "senses": "",
+    "languages": "",
+    "challengeRating": "0",
+    "traits": [
+      {
+        "name": "Pack Tactics",
+        "entries": [
+          "The Boontu monkey has advantage on an attack roll against a creature if at least one of the boontu monkey's allies is within 5 feet of the creature and the ally isn't incapacitated."
+        ]
+      }
+    ],
+    "spellcasting": [],
+    "actions": [
+      {
+        "name": "Bite",
+        "entries": [
+          "Melee Weapon Attack: 1 to hit, reach 5 ft., one target. 1 (1d4 - 1) piercing damage."
+        ]
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Crystal Cave Merfolk",
+    "source": "AWM",
+    "sourceKey": "AWM",
+    "page": 31,
+    "size": "Medium",
+    "type": "humanoid (merfolk)",
+    "alignment": "neutral",
+    "armorClass": "11",
+    "hitPoints": "11",
+    "speed": "walk 10 ft., swim 40 ft.",
+    "abilities": {
+      "str": 10,
+      "dex": 13,
+      "con": 12,
+      "int": 11,
+      "wis": 11,
+      "cha": 12
+    },
+    "savingThrows": "",
+    "skills": "",
+    "senses": "",
+    "languages": "",
+    "challengeRating": "1/8",
+    "traits": [
+      {
+        "name": "Amphibious",
+        "entries": [
+          "The merfolk can breathe air and water."
+        ]
+      },
+      {
+        "name": "Siren Song",
+        "entries": [
+          "Lovely singing voices charm every humanoid or giant within 300 feet. The targets must succeed on a DC 11 Wisdom saving throw or be charmed until the song ends."
+        ]
+      }
+    ],
+    "spellcasting": [],
+    "actions": [
+      {
+        "name": "Bite",
+        "entries": [
+          "Melee Weapon Attack: 2 to hit, one target. 3 (1d6) piercing damage."
+        ]
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Dankwood Hag",
+    "source": "AWM",
+    "sourceKey": "AWM",
+    "page": 31,
+    "size": "Medium",
+    "type": "fey",
+    "alignment": "neutral evil",
+    "armorClass": "17",
+    "hitPoints": "82",
+    "speed": "walk 30 ft.",
+    "abilities": {
+      "str": 18,
+      "dex": 12,
+      "con": 16,
+      "int": 13,
+      "wis": 14,
+      "cha": 14
+    },
+    "savingThrows": "",
+    "skills": "",
+    "senses": "",
+    "languages": "",
+    "challengeRating": "3",
+    "traits": [
+      {
+        "name": "Amphibious",
+        "entries": [
+          "The hag can breathe air and water."
+        ]
+      },
+      {
+        "name": "Mimicry (Green Hag)",
+        "entries": [
+          "The hag can mimic animal sounds and humanoid voices. A creature that hears the sounds can tell they are imitations with a successful DC 14 Wisdom (Insight) check."
+        ]
+      }
+    ],
+    "spellcasting": [
+      {
+        "name": "Innate Spellcasting",
+        "entries": [
+          "The hag's spellcasting ability is Charisma (spell save DC 12). It can innately cast the following spells:",
+          "At will: dancing lights, minor illusion, vicious mockery"
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "name": "Illusory Appearance",
+        "entries": [
+          "The hag covers herself with a magical illusion that allows her to look like another creature of her general size and shape. The illusion ends when the hag chooses, or if she dies. A DC 20 Intelligence (Investigation) check will expose the hag's disguise."
+        ]
+      },
+      {
+        "name": "Invisible Passage",
+        "entries": [
+          "The hag magically turns invisible until she attacks or casts a spell, or until her concentration ends. While invisible, she leaves no physical evidence of her passage, and can only be tracked by magic."
+        ]
+      },
+      {
+        "name": "Claws",
+        "entries": [
+          "Melee Weapon Attack: 6 to hit, one target. 17 (2d8 + 4) slashing damage."
+        ]
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Dum-Dum Goblin",
+    "source": "AWM",
+    "sourceKey": "AWM",
+    "page": 32,
+    "size": "Small",
+    "type": "humanoid (goblinoid)",
+    "alignment": "neutral evil",
+    "armorClass": "7",
+    "hitPoints": "7",
+    "speed": "walk 30 ft.",
+    "abilities": {
+      "str": 8,
+      "dex": 14,
+      "con": 10,
+      "int": 10,
+      "wis": 8,
+      "cha": 8
+    },
+    "savingThrows": "",
+    "skills": "",
+    "senses": "",
+    "languages": "",
+    "challengeRating": "1/4",
+    "traits": [
+      {
+        "name": "Nimble Escape",
+        "entries": [
+          "The goblin can take the Disengage or Hide action as a bonus action on each of its turns."
+        ]
+      }
+    ],
+    "spellcasting": [],
+    "actions": [
+      {
+        "name": "Catch me if you can!",
+        "entries": [
+          "Dum-Dum Goblins will opt to run and hide before fighting! A DC 15 Dexterity check must be made before they can be attacked."
+        ]
+      },
+      {
+        "name": "Scimitar",
+        "entries": [
+          "Melee Weapon Attack: 4 to hit, one target. 3 (1d6 +2) slashing damage."
+        ]
+      },
+      {
+        "name": "Shortbow",
+        "entries": [
+          "Ranged Weapon Attack: 4 to hit, one target. 6 (1d6 + 2) piercing damage."
+        ]
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Dwarf",
+    "source": "AWM",
+    "sourceKey": "AWM",
+    "page": 32,
+    "size": "Medium",
+    "type": "humanoid (dwarf)",
+    "alignment": "lawful good",
+    "armorClass": "10",
+    "hitPoints": "30",
+    "speed": "walk 25 ft.",
+    "abilities": {
+      "str": 16,
+      "dex": 13,
+      "con": 14,
+      "int": 10,
+      "wis": 11,
+      "cha": 10
+    },
+    "savingThrows": "",
+    "skills": "",
+    "senses": "",
+    "languages": "",
+    "challengeRating": "1/4",
+    "traits": [
+      {
+        "name": "Dwarven Resilience",
+        "entries": [
+          "They have advantage on saving throws against poison, and they have resistance to poison damage."
+        ]
+      }
+    ],
+    "spellcasting": [],
+    "actions": [
+      {
+        "name": "Shortbow",
+        "entries": [
+          "Melee Weapon Attack: 3 to hit, one target. 4 (1d6 + 1) slashing damage."
+        ]
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Great Kroom, Purple Worm",
+    "source": "AWM",
+    "sourceKey": "AWM",
+    "page": 33,
+    "size": "Gargantuan",
+    "type": "monstrosity",
+    "alignment": "unaligned",
+    "armorClass": "18 (natural armor)",
+    "hitPoints": "247",
+    "speed": "walk 50 ft., burrow 30 ft.",
+    "abilities": {
+      "str": 10,
+      "dex": 13,
+      "con": 12,
+      "int": 11,
+      "wis": 11,
+      "cha": 12
+    },
+    "savingThrows": "",
+    "skills": "",
+    "senses": "",
+    "languages": "",
+    "challengeRating": "15",
+    "traits": [
+      {
+        "name": "Tunneler",
+        "entries": [
+          "The worm can burrow through solid rock at half its burrow speed and leaves a 10-foot-diameter tunnel in its wake."
+        ]
+      }
+    ],
+    "spellcasting": [],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "entries": [
+          "The worm makes two attacks:"
+        ]
+      },
+      {
+        "name": "Bite",
+        "entries": [
+          "Melee Weapon Attack: 14 to hit, one target. 22 (3d8) piercing damage. Target must make a DC 19 Dexterity save, or be swallowed by the worm!"
+        ]
+      },
+      {
+        "name": "Tail Stinger",
+        "entries": [
+          "Melee Weapon Attack: 14 to hit, one creature. 19 (3d6 + 9) piercing damage Target must make a DC 19 Constitution save, or take 42 (12d6) poison damage."
+        ]
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Hangry Otyugh",
+    "source": "AWM",
+    "sourceKey": "AWM",
+    "page": 33,
+    "size": "Large",
+    "type": "aberration",
+    "alignment": "neutral",
+    "armorClass": "14",
+    "hitPoints": "114",
+    "speed": "walk 30 ft.",
+    "abilities": {
+      "str": 16,
+      "dex": 11,
+      "con": 19,
+      "int": 6,
+      "wis": 13,
+      "cha": 6
+    },
+    "savingThrows": "",
+    "skills": "",
+    "senses": "",
+    "languages": "",
+    "challengeRating": "5",
+    "traits": [
+      {
+        "name": "Limited Telepathy",
+        "entries": [
+          "The otyugh can magically transmit simple messages and images to any creature within 120 feet of it that can understand a language. This form of telepathy doesn't allow the receiving creature to telepathically respond."
+        ]
+      }
+    ],
+    "spellcasting": [],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "entries": [
+          "The otyugh makes three attacks:"
+        ]
+      },
+      {
+        "name": "Bite",
+        "entries": [
+          "Melee Weapon Attack: 6 to hit, reach 5 ft., one target. 12 (2d8 + 3) piercing damage. Target must make a DC 15 Constitution save, or take 6 (1d10) poison damage until cured."
+        ]
+      },
+      {
+        "name": "Tentacle",
+        "entries": [
+          "Melee Weapon Attack: 6 to hit, reach 10 ft., one target. 7 (1d8 + 3) bludgeoning damage. Target must make a DC 19 Constitution save, or take 42 (12d6) poison damage."
+        ]
+      },
+      {
+        "name": "Slam!",
+        "entries": [
+          "Target must make a DC 14 Constitution save, or be grappled."
+        ]
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": [
+      "underdark"
+    ]
+  },
+  {
+    "name": "Hill Giant, Blorbo",
+    "source": "AWM",
+    "sourceKey": "AWM",
+    "page": 34,
+    "size": "Huge",
+    "type": "giant",
+    "alignment": "chaotic evil",
+    "armorClass": "13",
+    "hitPoints": "105",
+    "speed": "walk 40 ft.",
+    "abilities": {
+      "str": 21,
+      "dex": 8,
+      "con": 19,
+      "int": 5,
+      "wis": 9,
+      "cha": 6
+    },
+    "savingThrows": "",
+    "skills": "",
+    "senses": "",
+    "languages": "",
+    "challengeRating": "4",
+    "traits": [],
+    "spellcasting": [],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "entries": [
+          "The giant makes two greatclub attacks."
+        ]
+      },
+      {
+        "name": "Greatclub",
+        "entries": [
+          "Melee Weapon Attack: 8 to hit, one target. 18 (3d8 + 5) bludgeoning damage."
+        ]
+      },
+      {
+        "name": "Rock",
+        "entries": [
+          "Ranged Weapon Attack: 8 to hit, one target. 21 (3d10 + 5) bludgeoning damage."
+        ]
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Saleeth the Couatl",
+    "source": "AWM",
+    "sourceKey": "AWM",
+    "page": 34,
+    "size": "Medium",
+    "type": "celestial",
+    "alignment": "lawful good",
+    "armorClass": "19 (natural armor)",
+    "hitPoints": "97",
+    "speed": "walk 30 ft., fly 90 ft.",
+    "abilities": {
+      "str": 16,
+      "dex": 20,
+      "con": 17,
+      "int": 18,
+      "wis": 20,
+      "cha": 18
+    },
+    "savingThrows": "",
+    "skills": "",
+    "senses": "",
+    "languages": "",
+    "challengeRating": "4",
+    "traits": [
+      {
+        "name": "Magic Weapons",
+        "entries": [
+          "The couatl's weapon attacks are magical."
+        ]
+      },
+      {
+        "name": "Shielded Mind",
+        "entries": [
+          "The couatl is immune to scrying and to any effect that would sense its emotions, read its thoughts, or detect its location."
+        ]
+      }
+    ],
+    "spellcasting": [
+      {
+        "name": "Innate Spellcasting",
+        "entries": [
+          "The couatl's spellcasting ability is Charisma (spell save DC 14). It can innately cast the following spells, requiring only verbal components:",
+          "At will: detect evil and good, detect magic, detect thoughts",
+          "3e/day: bless, create food and water, cure wounds, lesser restoration, protection from poison, sanctuary, shield",
+          "1e/day: dream, greater restoration, scrying"
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "name": "Bite",
+        "entries": [
+          "Melee Weapon Attack: 8 to hit, reach 5 ft., one creature. 8 (1d6 + 5) piercing damage. Target must make a DC 13 Constitution save, or fall unconscious. Another creature can use an action to shake the target awake."
+        ]
+      },
+      {
+        "name": "Constrict",
+        "entries": [
+          "Melee Weapon Attack: 6 to hit, reach 10 ft., one Medium or smaller creature. 10 (2d6 + 3) bludgeoning damage. Target is grappled (escape DC 15). The couatl can constrain only one target at a time."
+        ]
+      },
+      {
+        "name": "Change Shape",
+        "entries": [
+          "The couatl magically polymorphs into a humanoid or beast that has a challenge rating equal to or less than its own, or back into its true form. It reverts to its true form if it dies. Any equipment it is wearing or carrying is absorbed or borne by the new form (the couatl's choice).",
+          "In a new form, the couatl retains its game statistics and ability to speak, but its AC, movement modes, Strength, Dexterity, and other actions are replaced by those of the new form, and it gains any statistics and capabilities (except class features, legendary actions, and lair actions) that the new form has but that it lacks. If the new form has a bite attack, the couatl can use its bite in that form."
+        ]
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  }
+]

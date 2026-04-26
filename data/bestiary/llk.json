@@ -1,0 +1,570 @@
+[
+  {
+    "name": "Brain in a Jar",
+    "source": "LLK",
+    "sourceKey": "LLK",
+    "page": 38,
+    "size": "Medium",
+    "type": "undead",
+    "alignment": "any alignment",
+    "armorClass": "11 (natural armor)",
+    "hitPoints": "58 (9d8 + 18)",
+    "speed": "walk 0 ft.",
+    "abilities": {
+      "str": 1,
+      "dex": 1,
+      "con": 15,
+      "int": 19,
+      "wis": 10,
+      "cha": 15
+    },
+    "savingThrows": "int: +7, cha: +5",
+    "skills": "",
+    "senses": "darkvision 60 ft., passive Perception 10",
+    "languages": "",
+    "challengeRating": "6",
+    "traits": [
+      {
+        "name": "Detect Sentience",
+        "entries": [
+          "The brain in a jar can sense the presence and location of any creature within 300 feet of it that has an Intelligence of 3 or higher, regardless of interposing barriers, unless the creature is protected by a mind blank spell."
+        ]
+      },
+      {
+        "name": "Magic Resistance",
+        "entries": [
+          "The brain in a jar has advantage on saving throws against spells and other magical effects."
+        ]
+      }
+    ],
+    "spellcasting": [
+      {
+        "name": "Innate Spellcasting (Psionics)",
+        "entries": [
+          "The brain in a jar's innate spellcasting ability is Intelligence (spell save DC 15). It can innately cast the following spells, requiring no components:",
+          "At will: detect thoughts, mage hand, zone of truth",
+          "3e/day: charm person, command, hold person",
+          "1e/day: compulsion, hold monster, sleep (cast at 3rd level), Tasha's hideous laughter"
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "name": "Mind Blast 5",
+        "entries": [
+          "The brain in a jar magically emits psychic energy in a 60-foot cone. Each creature in that area must succeed on a DC 15 Intelligence saving throw or take 13 (2d8 + 4) psychic damage and be stunned for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+        ]
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Clockwork Kraken",
+    "source": "LLK",
+    "sourceKey": "LLK",
+    "page": 38,
+    "size": "Large",
+    "type": "construct",
+    "alignment": "unaligned",
+    "armorClass": "17 (natural armor)",
+    "hitPoints": "142 (15d10 + 60)",
+    "speed": "walk 30 ft.",
+    "abilities": {
+      "str": 20,
+      "dex": 12,
+      "con": 18,
+      "int": 3,
+      "wis": 11,
+      "cha": 1
+    },
+    "savingThrows": "",
+    "skills": "",
+    "senses": "darkvision 120 ft., passive Perception 10",
+    "languages": "understands the languages of its creator but can't speak",
+    "challengeRating": "10",
+    "traits": [
+      {
+        "name": "Magic Resistance",
+        "entries": [
+          "The clockwork kraken has advantage on saving throws against spells and other magical effects."
+        ]
+      },
+      {
+        "name": "Independent Tentacles",
+        "entries": [
+          "The clockwork kraken has eight tentacles, each of which is treated as a Medium creature, moves independently on the construct's turn, and has a flying speed of 40 feet. The clockwork kraken's senses operate through its tentacles as well as its main body. Each tentacle can be attacked independently, with damage dealt to tentacles applied to the clockwork kraken's hit point total. A tentacle is destroyed if it takes more than 20 damage.",
+          "Reducing the construct to three or fewer tentacles reduces its attacks accordingly. A clockwork kraken can regrow any destroyed tentacles at the end of a long rest."
+        ]
+      }
+    ],
+    "spellcasting": [],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "entries": [
+          "The clockwork kraken makes four tentacle slam attacks."
+        ]
+      },
+      {
+        "name": "Tentacle Slam",
+        "entries": [
+          "Melee Weapon Attack: 9 to hit, reach 5 ft., one target. 12 (2d6 + 5) bludgeoning damage."
+        ]
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Ctenmiir the Vampire",
+    "source": "LLK",
+    "sourceKey": "LLK",
+    "page": 4,
+    "size": "",
+    "type": "",
+    "alignment": "lawful evil",
+    "armorClass": "",
+    "hitPoints": "",
+    "speed": "walk 30 ft., climb 10 ft.",
+    "abilities": {},
+    "savingThrows": "",
+    "skills": "",
+    "senses": "",
+    "languages": "",
+    "challengeRating": "",
+    "traits": [],
+    "spellcasting": [],
+    "actions": [],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "East Wind",
+    "source": "LLK",
+    "sourceKey": "LLK",
+    "page": 14,
+    "size": "",
+    "type": "",
+    "alignment": "",
+    "armorClass": "",
+    "hitPoints": "",
+    "speed": "",
+    "abilities": {},
+    "savingThrows": "",
+    "skills": "",
+    "senses": "",
+    "languages": "",
+    "challengeRating": "",
+    "traits": [],
+    "spellcasting": [],
+    "actions": [],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Elder Monastery of the Distressed Body Monk",
+    "source": "LLK",
+    "sourceKey": "LLK",
+    "page": 12,
+    "size": "",
+    "type": "",
+    "alignment": "",
+    "armorClass": "",
+    "hitPoints": "",
+    "speed": "",
+    "abilities": {},
+    "savingThrows": "",
+    "skills": "",
+    "senses": "",
+    "languages": "",
+    "challengeRating": "",
+    "traits": [],
+    "spellcasting": [],
+    "actions": [],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Garret Levistusson",
+    "source": "LLK",
+    "sourceKey": "LLK",
+    "page": 41,
+    "size": "Medium",
+    "type": "humanoid",
+    "alignment": "chaotic neutral",
+    "armorClass": "14 (natural armor)",
+    "hitPoints": "44 (8d8 + 8)",
+    "speed": "walk 30 ft.",
+    "abilities": {
+      "str": 11,
+      "dex": 14,
+      "con": 12,
+      "int": 11,
+      "wis": 12,
+      "cha": 17
+    },
+    "savingThrows": "",
+    "skills": "deception: +7, investigation: +4, performance: +5, persuasion: +5",
+    "senses": "passive Perception 11",
+    "languages": "Abyssal, Common, Infernal, Thieves' cant",
+    "challengeRating": "2",
+    "traits": [
+      {
+        "name": "Special Equipment",
+        "entries": [
+          "Garret wears a Ring of Warmth (included in his statistics) and wields a Gambler's Blade longsword."
+        ]
+      },
+      {
+        "name": "Bardic Inspiration (3/Day)",
+        "entries": [
+          "As a bonus action, Garret can give one chosen creature (other than him) a d6 inspiration die. The chosen creature must be within 60 feet of Garret and able to hear him. Once within the next 10 minutes, the creature can roll the die and add the number rolled to one ability check, attack roll, or saving throw it makes. The creature can use the inspiration die after the roll is made but before the DM says whether it succeeds or fails. Once the inspiration die is rolled, it is lost. A creature can have only one inspiration die at a time."
+        ]
+      },
+      {
+        "name": "Cunning Action",
+        "entries": [
+          "On each of his turns, Garret can use a bonus action to take the Dash, Disengage, or Hide action."
+        ]
+      },
+      {
+        "name": "Sneak Attack (1/Turn)",
+        "entries": [
+          "Garret deals an extra 7 (2d6) damage when he hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of Garret that isn't incapacitated and Garret doesn't have disadvantage on the attack roll."
+        ]
+      }
+    ],
+    "spellcasting": [
+      {
+        "name": "Spellcasting",
+        "entries": [
+          "Garret is a 2nd-level spellcaster. His spellcasting ability is Charisma (spell save DC 13, 5 to hit with spell attacks). He has the following bard spells prepared:",
+          "0: blade ward, vicious mockery",
+          "1 (3 slots): charm person, detect magic, disguise self, identify, Tasha's hideous laughter"
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "name": "Shortsword",
+        "entries": [
+          "Melee Weapon Attack: 4 to hit, reach 5 ft., one target. 5 (1d6 + 2) piercing damage."
+        ]
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Gearbox",
+    "source": "LLK",
+    "sourceKey": "LLK",
+    "page": 5,
+    "size": "",
+    "type": "",
+    "alignment": "lawful neutral",
+    "armorClass": "",
+    "hitPoints": "",
+    "speed": "",
+    "abilities": {},
+    "savingThrows": "",
+    "skills": "",
+    "senses": "",
+    "languages": "",
+    "challengeRating": "",
+    "traits": [],
+    "spellcasting": [
+      {
+        "name": "Spellcasting",
+        "entries": [
+          "Gearbox can cast the light cantrip at will.",
+          "0: light"
+        ]
+      }
+    ],
+    "actions": [],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Gloine Nathair-Nathair",
+    "source": "LLK",
+    "sourceKey": "LLK",
+    "page": 23,
+    "size": "",
+    "type": "undead",
+    "alignment": "",
+    "armorClass": "",
+    "hitPoints": "",
+    "speed": "",
+    "abilities": {},
+    "savingThrows": "",
+    "skills": "",
+    "senses": "",
+    "languages": "",
+    "challengeRating": "",
+    "traits": [
+      {
+        "name": "Petrifying Gaze",
+        "entries": [
+          "When a creature that can see the medusa's eyes starts its turn within 30 feet of the medusa, the medusa can force it to make a DC 14 Constitution saving throw if the medusa isn't incapacitated and can see the creature. If the saving throw fails by 5 or more, the creature is instantly petrified. Otherwise, a creature that fails the save begins to turn to glass and is restrained. The restrained creature must repeat the saving throw at the end of its next turn, becoming petrified on a failure or ending the effect on a success. The petrification lasts until the creature is freed by the greater restoration spell or other magic.",
+          "Unless surprised, a creature can avert its eyes to avoid the saving throw at the start of its turn. If the creature does so, it can't see the medusa until the start of its next turn, when it can avert its eyes again. If the creature looks at the medusa in the meantime, it must immediately make the save.",
+          "If the medusa sees itself reflected on a polished surface within 30 feet of it and in an area of bright light, the medusa is, due to its curse, affected by its own gaze."
+        ]
+      }
+    ],
+    "spellcasting": [],
+    "actions": [],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Mary Greymalkin",
+    "source": "LLK",
+    "sourceKey": "LLK",
+    "page": 41,
+    "size": "Medium",
+    "type": "humanoid",
+    "alignment": "neutral",
+    "armorClass": "12 (Bracers of Defense, Ring of Protection)",
+    "hitPoints": "45 (7d8 + 14)",
+    "speed": "walk 30 ft.",
+    "abilities": {
+      "str": 10,
+      "dex": 12,
+      "con": 10,
+      "int": 14,
+      "wis": 14,
+      "cha": 15
+    },
+    "savingThrows": "wis: +4, cha: +4",
+    "skills": "arcana: +4, medicine: +4, nature: +4, religion: +4",
+    "senses": "passive Perception 12",
+    "languages": "Abyssal, Celestial, Common, Elvish, Infernal, Sylvan",
+    "challengeRating": "2",
+    "traits": [
+      {
+        "name": "Special Equipment",
+        "entries": [
+          "Mary wears Bracers of Defense and a Ring of Protection, and carries a Deck of Several Things"
+        ]
+      },
+      {
+        "name": "Fey Presence (Recharges after a Short Rest)",
+        "entries": [
+          "Mary can cause each creature within 10 feet of her to succeed on a DC 12 Wisdom saving throw or become charmed or frightened by her (Mary's choice) until the end of her next turn."
+        ]
+      },
+      {
+        "name": "Fey Ancestry",
+        "entries": [
+          "Mary has advantage on saving throws against being charmed, and magic can't put her to sleep."
+        ]
+      }
+    ],
+    "spellcasting": [
+      {
+        "name": "Spellcasting",
+        "entries": [
+          "Mary is a 5th-level spellcaster. Her spellcasting ability is Charisma (spell save DC 12, 4 to hit with spell attacks). She regains her expended spell slots when she finishes a short or long rest. She knows the following warlock spells:",
+          "0: chill touch, eldritch blast, mage hand",
+          "3 (3 slots): darkness, hex, hypnotic pattern, misty step, phantasmal force, unseen servant"
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "name": "Quarterstaff",
+        "entries": [
+          "Melee Weapon Attack: 2 to hit, reach 5 ft., one target. 3 (1d6) bludgeoning damage."
+        ]
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Monastery of the Distressed Body Grand Master",
+    "source": "LLK",
+    "sourceKey": "LLK",
+    "page": 14,
+    "size": "",
+    "type": "",
+    "alignment": "",
+    "armorClass": "",
+    "hitPoints": "",
+    "speed": "",
+    "abilities": {},
+    "savingThrows": "",
+    "skills": "",
+    "senses": "",
+    "languages": "",
+    "challengeRating": "",
+    "traits": [],
+    "spellcasting": [],
+    "actions": [],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Monastery of the Distressed Body Monk",
+    "source": "LLK",
+    "sourceKey": "LLK",
+    "page": 12,
+    "size": "",
+    "type": "",
+    "alignment": "",
+    "armorClass": "",
+    "hitPoints": "",
+    "speed": "",
+    "abilities": {},
+    "savingThrows": "",
+    "skills": "",
+    "senses": "",
+    "languages": "",
+    "challengeRating": "",
+    "traits": [],
+    "spellcasting": [],
+    "actions": [],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Ooze-Folk",
+    "source": "LLK",
+    "sourceKey": "LLK",
+    "page": 46,
+    "size": "Medium",
+    "type": "ooze",
+    "alignment": "unaligned",
+    "armorClass": "10 (natural armor)",
+    "hitPoints": "19 (2d8 + 10)",
+    "speed": "walk 30 ft.",
+    "abilities": {
+      "str": 14,
+      "dex": 3,
+      "con": 20,
+      "int": 1,
+      "wis": 6,
+      "cha": 1
+    },
+    "savingThrows": "",
+    "skills": "",
+    "senses": "blindsight 60 ft., passive Perception 8",
+    "languages": "",
+    "challengeRating": "1/2",
+    "traits": [
+      {
+        "name": "Transparent",
+        "entries": [
+          "Even when an ooze-folk is in plain sight, it takes a DC 12 Wisdom (Perception) check to spot an ooze-folk that has neither moved nor attacked. A creature that tries to enter the ooze-folk's space while unaware of the ooze-folk is surprised by the ooze-folk."
+        ]
+      },
+      {
+        "name": "Fragile Bones",
+        "entries": [
+          "For each 5 damage it takes, the ooze-folk's walking speed is reduced by 5 feet."
+        ]
+      }
+    ],
+    "spellcasting": [],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "entries": [
+          "The ooze folk makes one glass longsword attack and one pseudopod attack."
+        ]
+      },
+      {
+        "name": "Glass Longsword",
+        "entries": [
+          "Melee Weapon Attack: 4 to hit, reach 5 ft., one creature. 6 (1d8 + 2) slashing damage. If a 1 is rolled on an attack roll with a glass longsword, it shatters and can no longer be used."
+        ]
+      },
+      {
+        "name": "Pseudopod",
+        "entries": [
+          "Melee Weapon Attack: 4 to hit, reach 5 ft., one creature. 5 (1d6 + 2) acid damage."
+        ]
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "West Wind",
+    "source": "LLK",
+    "sourceKey": "LLK",
+    "page": 14,
+    "size": "",
+    "type": "",
+    "alignment": "",
+    "armorClass": "",
+    "hitPoints": "",
+    "speed": "",
+    "abilities": {},
+    "savingThrows": "",
+    "skills": "",
+    "senses": "",
+    "languages": "",
+    "challengeRating": "",
+    "traits": [],
+    "spellcasting": [],
+    "actions": [],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  }
+]

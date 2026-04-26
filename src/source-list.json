@@ -69,6 +69,21 @@
     "short": "AITFR-AVT",
     "include": false
   },
+  "AITFR-DN": {
+    "full": "Adventures in the Forgotten Realms: Deepest Night",
+    "short": "AITFR-DN",
+    "include": false
+  },
+  "AITFR-FCD": {
+    "full": "Adventures in the Forgotten Realms: From Cyan Depths",
+    "short": "AITFR-FCD",
+    "include": false
+  },
+  "AITFR-ISF": {
+    "full": "Adventures in the Forgotten Realms: In Scarlet Flames",
+    "short": "AITFR-ISF",
+    "include": false
+  },
   "AITFR-THP": {
     "full": "AitFR: The Hidden Page",
     "short": "AITFR-THP",
@@ -214,6 +229,11 @@
     "short": "HAT-LMI",
     "include": false
   },
+  "HAT-TG": {
+    "full": "Honor Among Thieves: Thieves' Gallery",
+    "short": "HAT-TG",
+    "include": false
+  },
   "HFTT": {
     "full": "Hunt for the Thessalhydra",
     "short": "HFTT",
@@ -354,6 +374,31 @@
     "short": "NRH-AT",
     "include": false
   },
+  "NRH-ASS": {
+    "full": "NERDS Restoring Harmony: A Sticky Situation",
+    "short": "NRH-ASS",
+    "include": false
+  },
+  "NRH-AVITW": {
+    "full": "NERDS Restoring Harmony: A Voice in the Wilderness",
+    "short": "NRH-AVITW",
+    "include": false
+  },
+  "NRH-AWOL": {
+    "full": "NERDS Restoring Harmony: A Web of Lies",
+    "short": "NRH-AWOL",
+    "include": false
+  },
+  "NRH-COI": {
+    "full": "NERDS Restoring Harmony: Circus of Illusion",
+    "short": "NRH-COI",
+    "include": false
+  },
+  "NRH-TCMC": {
+    "full": "NERDS Restoring Harmony: The Candy Mountain Caper",
+    "short": "NRH-TCMC",
+    "include": false
+  },
   "NRH-TLT": {
     "full": "NRH: The Lost Tomb",
     "short": "NRH-TLT",
@@ -384,9 +429,34 @@
     "short": "POTA",
     "include": false
   },
+  "PSA": {
+    "full": "Plane Shift: Amonkhet",
+    "short": "PSA",
+    "include": false
+  },
+  "PSD": {
+    "full": "Plane Shift: Dominaria",
+    "short": "PSD",
+    "include": false
+  },
+  "PSI": {
+    "full": "Plane Shift: Innistrad",
+    "short": "PSI",
+    "include": false
+  },
+  "PSK": {
+    "full": "Plane Shift: Kaladesh",
+    "short": "PSK",
+    "include": false
+  },
   "PSX": {
     "full": "Plane Shift: Ixalan",
     "short": "PSX",
+    "include": false
+  },
+  "PSZ": {
+    "full": "Plane Shift: Zendikar",
+    "short": "PSZ",
     "include": false
   },
   "QFTIS": {

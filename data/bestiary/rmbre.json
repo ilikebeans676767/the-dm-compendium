@@ -1,0 +1,351 @@
+[
+  {
+    "name": "Billy Beaver",
+    "source": "RMBRE",
+    "sourceKey": "RMBRE",
+    "page": 27,
+    "size": "Large",
+    "type": "construct",
+    "alignment": "unaligned",
+    "armorClass": "13 (natural armor)",
+    "hitPoints": "34 (7d10 + 21)",
+    "speed": "walk 40 ft.",
+    "abilities": {
+      "str": 20,
+      "dex": 12,
+      "con": 17,
+      "int": 3,
+      "wis": 12,
+      "cha": 7
+    },
+    "savingThrows": "",
+    "skills": "perception: +3",
+    "senses": "darkvision 60 ft., passive Perception 13",
+    "languages": "Common",
+    "challengeRating": "3",
+    "traits": [
+      {
+        "name": "Keen Sight and Smell",
+        "entries": [
+          "Billy Beaver has advantage on Wisdom (Perception) checks that rely on sight or smell."
+        ]
+      }
+    ],
+    "spellcasting": [],
+    "actions": [
+      {
+        "name": "Beak",
+        "entries": [
+          "Melee Weapon Attack: 7 to hit, reach 5 ft., one creature. 10 (1d10 + 5) piercing damage."
+        ]
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Buster the Bear",
+    "source": "RMBRE",
+    "sourceKey": "RMBRE",
+    "page": 27,
+    "size": "Medium",
+    "type": "construct",
+    "alignment": "chaotic evil",
+    "armorClass": "16 (hide armor, shield)",
+    "hitPoints": "27 (5d8 + 5)",
+    "speed": "walk 30 ft.",
+    "abilities": {
+      "str": 15,
+      "dex": 14,
+      "con": 13,
+      "int": 8,
+      "wis": 11,
+      "cha": 9
+    },
+    "savingThrows": "",
+    "skills": "stealth: +6, survival: +2",
+    "senses": "darkvision 60 ft., passive Perception 10",
+    "languages": "Common",
+    "challengeRating": "1",
+    "traits": [
+      {
+        "name": "Surprise Attack",
+        "entries": [
+          "If Buster the Bear surprises a creature and hits it with an attack during the first round of combat, the target takes an extra 7 (2d6) damage from the attack."
+        ]
+      }
+    ],
+    "spellcasting": [],
+    "actions": [
+      {
+        "name": "Bashin' Banjo",
+        "entries": [
+          "Melee Weapon Attack: 4 to hit, reach 5 ft., one target. 6 (1d8 + 2) bludgeoning damage."
+        ]
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Large Mimic",
+    "source": "RMBRE",
+    "sourceKey": "RMBRE",
+    "page": 24,
+    "size": "Large",
+    "type": "",
+    "alignment": "",
+    "armorClass": "",
+    "hitPoints": "75 (9d8 + 18)",
+    "speed": "walk 0 ft.",
+    "abilities": {},
+    "savingThrows": "",
+    "skills": "",
+    "senses": "",
+    "languages": "",
+    "challengeRating": "3",
+    "traits": [],
+    "spellcasting": [],
+    "actions": [],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Layla the Lizard",
+    "source": "RMBRE",
+    "sourceKey": "RMBRE",
+    "page": 28,
+    "size": "Medium",
+    "type": "construct",
+    "alignment": "chaotic evil",
+    "armorClass": "12",
+    "hitPoints": "22 (5d8)",
+    "speed": "walk 30 ft.",
+    "abilities": {
+      "str": 13,
+      "dex": 15,
+      "con": 10,
+      "int": 7,
+      "wis": 10,
+      "cha": 6
+    },
+    "savingThrows": "",
+    "skills": "",
+    "senses": "darkvision 60 ft., passive Perception 10",
+    "languages": "Common",
+    "challengeRating": "1",
+    "traits": [],
+    "spellcasting": [],
+    "actions": [
+      {
+        "name": "Bite",
+        "entries": [
+          "Melee Weapon Attack: 2 to hit, reach 5 ft., one creature. 9 (2d6 + 2) piercing damage."
+        ]
+      },
+      {
+        "name": "Claws",
+        "entries": [
+          "Melee Weapon Attack: 4 to hit, reach 5 ft., one target. 7 (2d4 + 2) slashing damage."
+        ]
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Lycanthropickle",
+    "source": "RMBRE",
+    "sourceKey": "RMBRE",
+    "page": 11,
+    "size": "",
+    "type": "",
+    "alignment": "",
+    "armorClass": "",
+    "hitPoints": "",
+    "speed": "",
+    "abilities": {},
+    "savingThrows": "",
+    "skills": "",
+    "senses": "",
+    "languages": "",
+    "challengeRating": "",
+    "traits": [
+      {
+        "name": "False Appearance",
+        "entries": [
+          "While the lycanthropickle remains motionless, it is indistinguishable from a pickle."
+        ]
+      }
+    ],
+    "spellcasting": [],
+    "actions": [],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Meeseeks",
+    "source": "RMBRE",
+    "sourceKey": "RMBRE",
+    "page": 16,
+    "size": "",
+    "type": "",
+    "alignment": "",
+    "armorClass": "",
+    "hitPoints": "—(immune to damage)",
+    "speed": "",
+    "abilities": {},
+    "savingThrows": "",
+    "skills": "",
+    "senses": "",
+    "languages": "",
+    "challengeRating": "",
+    "traits": [],
+    "spellcasting": [],
+    "actions": [],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Piggy Wiggle Butt",
+    "source": "RMBRE",
+    "sourceKey": "RMBRE",
+    "page": 28,
+    "size": "Medium",
+    "type": "construct",
+    "alignment": "chaotic evil",
+    "armorClass": "13 (hide armor)",
+    "hitPoints": "15 (2d8 + 6)",
+    "speed": "walk 30 ft.",
+    "abilities": {
+      "str": 16,
+      "dex": 12,
+      "con": 16,
+      "int": 7,
+      "wis": 11,
+      "cha": 10
+    },
+    "savingThrows": "",
+    "skills": "intimidation: +2",
+    "senses": "darkvision 60 ft., passive Perception 10",
+    "languages": "Common",
+    "challengeRating": "1/2",
+    "traits": [
+      {
+        "name": "Aggressive",
+        "entries": [
+          "As a bonus action, Piggy Wiggle Butt can move up to its speed toward a hostile creature that it can see."
+        ]
+      }
+    ],
+    "spellcasting": [],
+    "actions": [
+      {
+        "name": "Clay Jug",
+        "entries": [
+          "Melee Weapon Attack: 5 to hit, reach 5 ft., one target. 7 (1d8 + 3) bludgeoning damage."
+        ]
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Thomas T. Toad",
+    "source": "RMBRE",
+    "sourceKey": "RMBRE",
+    "page": 28,
+    "size": "Large",
+    "type": "construct",
+    "alignment": "chaotic evil",
+    "armorClass": "11 (hide armor)",
+    "hitPoints": "59 (7d10 + 21)",
+    "speed": "walk 40 ft.",
+    "abilities": {
+      "str": 19,
+      "dex": 8,
+      "con": 16,
+      "int": 5,
+      "wis": 7,
+      "cha": 7
+    },
+    "savingThrows": "",
+    "skills": "",
+    "senses": "darkvision 60 ft., passive Perception 8",
+    "languages": "Common",
+    "challengeRating": "2",
+    "traits": [],
+    "spellcasting": [],
+    "actions": [
+      {
+        "name": "Webby Hands",
+        "entries": [
+          "Melee Weapon Attack: 6 to hit, reach 5 ft., one target. 8 (1d8 + 4) bludgeoning damage."
+        ]
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Tommy Two-Butts",
+    "source": "RMBRE",
+    "sourceKey": "RMBRE",
+    "page": 18,
+    "size": "",
+    "type": "",
+    "alignment": "",
+    "armorClass": "",
+    "hitPoints": "",
+    "speed": "",
+    "abilities": {
+      "int": 21
+    },
+    "savingThrows": "",
+    "skills": "",
+    "senses": "",
+    "languages": "",
+    "challengeRating": "",
+    "traits": [],
+    "spellcasting": [],
+    "actions": [],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  }
+]

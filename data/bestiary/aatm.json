@@ -1,0 +1,251 @@
+[
+  {
+    "name": "Animated Coffin",
+    "source": "AATM",
+    "sourceKey": "AATM",
+    "size": "Large",
+    "type": "construct",
+    "alignment": "unaligned",
+    "armorClass": "16 (natural armor)",
+    "hitPoints": "60 (8d10 + 16)",
+    "speed": "walk 30 ft., climb 30 ft.",
+    "abilities": {
+      "str": 16,
+      "dex": 12,
+      "con": 15,
+      "int": 3,
+      "wis": 11,
+      "cha": 3
+    },
+    "savingThrows": "",
+    "skills": "",
+    "senses": "blindsight 60 ft. (can't see beyond this radius), passive Perception 10",
+    "languages": "understands the languages of its creator but can't speak",
+    "challengeRating": "3",
+    "traits": [
+      {
+        "name": "False Appearance",
+        "entries": [
+          "If the animated coffin is motionless at the start of combat, it has advantage on its initiative roll. Moreover, if a creature hasn't observed the coffin move or act, that creature must succeed on a DC 18 Intelligence (Investigation) check to discern that the coffin is animate."
+        ]
+      },
+      {
+        "name": "Spider Climb",
+        "entries": [
+          "The animated coffin can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+        ]
+      }
+    ],
+    "spellcasting": [],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "entries": [
+          "The animated coffin makes two Slam attacks."
+        ]
+      },
+      {
+        "name": "Slam",
+        "entries": [
+          "Melee Weapon Attack: 5 to hit, reach 5 ft., one target. 12 (2d8 + 3) bludgeoning damage."
+        ]
+      },
+      {
+        "name": "Entrap",
+        "entries": [
+          "Melee Weapon Attack: 5 to hit, reach 5 ft., one Large or smaller creature. The target has the grappled condition (escape DC 13). Until this grapple ends, if the target is not an Undead, the target has the restrained condition and takes 14 (4d6) piercing damage at the start of each of its turns. The animated coffin can grapple only one creature at a time."
+        ]
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Factol Skall",
+    "source": "AATM",
+    "sourceKey": "AATM",
+    "size": "Medium",
+    "type": "undead (wizard)",
+    "alignment": "neutral evil",
+    "armorClass": "17 (natural armor)",
+    "hitPoints": "210 (28d8 + 84)",
+    "speed": "walk 30 ft., fly 30 ft. (hover) (hover)",
+    "abilities": {
+      "str": 11,
+      "dex": 16,
+      "con": 16,
+      "int": 20,
+      "wis": 14,
+      "cha": 16
+    },
+    "savingThrows": "con: +9, int: +11, wis: +8",
+    "skills": "arcana: +17, history: +11, medicine: +8, perception: +8",
+    "senses": "truesight 120 ft., passive Perception 18",
+    "languages": "all",
+    "challengeRating": "17",
+    "traits": [
+      {
+        "name": "Aura of Death",
+        "entries": [
+          "Creatures within 30 feet of Skall have disadvantage on death saving throws."
+        ]
+      },
+      {
+        "name": "Cosmic Annihilation",
+        "entries": [
+          "A creature killed by Skall can be restored to life only by means of a true resurrection or wish spell."
+        ]
+      },
+      {
+        "name": "Legendary Resistance (4/Day)",
+        "entries": [
+          "If Skall fails a saving throw, he can choose to succeed instead."
+        ]
+      },
+      {
+        "name": "Rejuvenation",
+        "entries": [
+          "If Skall dies, he turns to dust. If his orrery of souls hasn't been destroyed, Skall re-forms within the Mortuary in 1d10 days. He appears within 5 feet of the orrery."
+        ]
+      },
+      {
+        "name": "Turn Resistance",
+        "entries": [
+          "Skall has advantage on saving throws against any effect that turns Undead."
+        ]
+      }
+    ],
+    "spellcasting": [
+      {
+        "name": "Spellcasting",
+        "entries": [
+          "Skall casts one of the following spells, requiring no material components and using Intelligence as the spellcasting ability (spell save DC 19):",
+          "At will: detect magic, mage hand, prestidigitation",
+          "2e/day: animate dead (as an action), dispel magic, speak with dead",
+          "1e/day: finger of death, plane shift (self only), project image"
+        ],
+        "displayAs": "action"
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "entries": [
+          "Skall makes one Withering Touch attack or uses Spellcasting. He also uses Death Knell twice."
+        ]
+      },
+      {
+        "name": "Withering Touch",
+        "entries": [
+          "Melee Spell Attack: 11 to hit, reach 5 ft., one target. 32 (6d8 + 5) cold damage plus 31 (7d8) necrotic damage, and if the target is a creature, it can't regain hit points until the start of Skall's next turn."
+        ]
+      },
+      {
+        "name": "Death Knell",
+        "entries": [
+          "Skall points his finger at a creature he can see within 120 feet of himself, filling the target's mind with visions of death and the plangent toll of an iron bell. The target must succeed on a DC 19 Wisdom saving throw or take 14 (4d6) psychic damage and have the frightened condition until the start of Skall's next turn."
+        ]
+      },
+      {
+        "name": "Fog of Death (1/Day)",
+        "entries": [
+          "Skall exudes a killing fog in a 30-foot-radius sphere centered on himself. The sphere spreads around corners, and its area is heavily obscured. The fog lasts until the start of Skall's next turn, and it can't be dispersed by wind. It does not move with him.",
+          "Each creature that enters the fog for the first time on a turn or starts its turn there must make a DC 19 Constitution saving throw, taking 28 (8d6) necrotic damage and 28 (8d6) poison damage on a failed save, or half as much damage on a successful one. A Medium or smaller Humanoid killed by this damage becomes a zombie under Skall's control. The zombie acts on Skall's initiative but immediately after his turn. Absent any other command, the zombie tries to kill any non-Undead creature it encounters."
+        ]
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [
+      {
+        "name": "Baleful Counterspell",
+        "entries": [
+          "Skall chatters his teeth to interrupt a creature he can see within 60 feet of himself that is casting a spell. If the spell is 4th level or lower, it fails and has no effect. If the spell is 5th level or higher, Skall makes an Intelligence check (DC 10 + the spell's level). On a successful check, the spell fails and has no effect. Whatever the spell's level, the caster takes 10 (3d6) necrotic damage if the spell fails."
+        ]
+      },
+      {
+        "name": "Near-Death Experience",
+        "entries": [
+          "In response to being hit by an attack, Skall teleports, along with any equipment he is wearing or carrying, up to 30 feet to an unoccupied space he can see."
+        ]
+      }
+    ],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Heralds of Dust Exorcist",
+    "source": "AATM",
+    "sourceKey": "AATM",
+    "size": "Small, Medium",
+    "type": "humanoid",
+    "alignment": "any alignment",
+    "armorClass": "13, 16 with mage armor",
+    "hitPoints": "112 (15d8 + 45)",
+    "speed": "walk 30 ft.",
+    "abilities": {
+      "str": 8,
+      "dex": 16,
+      "con": 16,
+      "int": 17,
+      "wis": 14,
+      "cha": 11
+    },
+    "savingThrows": "int: +6, wis: +5, cha: +3",
+    "skills": "arcana: +6, perception: +5, religion: +6",
+    "senses": "truesight 60 ft., passive Perception 15",
+    "languages": "Common plus three more languages",
+    "challengeRating": "6",
+    "traits": [
+      {
+        "name": "Incorruptible Vessel",
+        "entries": [
+          "The exorcist can't be possessed by Celestials, Fiends, or Undead."
+        ]
+      }
+    ],
+    "spellcasting": [
+      {
+        "name": "Spellcasting",
+        "entries": [
+          "The exorcist casts one of the following spells, requiring no material components and using Intelligence as the spellcasting ability (spell save DC 14, 6 to hit with spell attacks):",
+          "At will: detect evil and good, mage armor (self only), mage hand",
+          "2e/day: protection from evil and good, remove curse, speak with dead",
+          "1e/day: banishment, dispel evil and good"
+        ],
+        "displayAs": "action"
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "entries": [
+          "The exorcist makes two Grave Burst attacks."
+        ]
+      },
+      {
+        "name": "Grave Burst",
+        "entries": [
+          "Melee Spell or Ranged Spell Attack: 6 to hit, reach 5 ft. or range 120 ft., one target. 19 (3d10 + 3) necrotic or radiant damage (exorcist's choice)."
+        ]
+      },
+      {
+        "name": "Admit Entity 5",
+        "entries": [
+          "The exorcist thins the veil of death for a creature it can see within 60 feet of itself, exposing the target to malevolent entities. The target must make a DC 14 Charisma saving throw. On a failed save, the target takes 36 (8d8) psychic damage and has the incapacitated condition for 1 minute, during which time it retches and babbles incoherently in a voice that is not its own. On a successful save, the target takes half as much damage only. An incapacitated target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+        ]
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  }
+]

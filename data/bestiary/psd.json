@@ -1,0 +1,278 @@
+[
+  {
+    "name": "Homarid",
+    "source": "PSD",
+    "sourceKey": "PSD",
+    "page": 15,
+    "size": "Medium",
+    "type": "monstrosity",
+    "alignment": "chaotic evil",
+    "armorClass": "14 (natural armor)",
+    "hitPoints": "44 (8d8 + 8)",
+    "speed": "walk 20 ft., swim 30 ft.",
+    "abilities": {
+      "str": 13,
+      "dex": 8,
+      "con": 13,
+      "int": 9,
+      "wis": 14,
+      "cha": 10
+    },
+    "savingThrows": "",
+    "skills": "perception: +4, stealth: +3",
+    "senses": "darkvision 60 ft., passive Perception 14",
+    "languages": "Homarid",
+    "challengeRating": "1",
+    "traits": [
+      {
+        "name": "Amphibious",
+        "entries": [
+          "The homarid can breathe air and water."
+        ]
+      }
+    ],
+    "spellcasting": [],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "entries": [
+          "The homarid makes two claw attacks."
+        ]
+      },
+      {
+        "name": "Claw",
+        "entries": [
+          "Melee Weapon Attack: 3 to hit, reach 5 ft., one target. 5 (1d8 + 1) slashing damage, and the target is grappled (escape DC 11). The homarid has two claws, each of which can grapple only one target."
+        ]
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Kavu Predator",
+    "source": "PSD",
+    "sourceKey": "PSD",
+    "page": 24,
+    "size": "Large",
+    "type": "beast",
+    "alignment": "unaligned",
+    "armorClass": "15 (natural armor)",
+    "hitPoints": "75 (10d10 + 20)",
+    "speed": "walk 30 ft., climb 30 ft.",
+    "abilities": {
+      "str": 18,
+      "dex": 12,
+      "con": 15,
+      "int": 6,
+      "wis": 14,
+      "cha": 8
+    },
+    "savingThrows": "",
+    "skills": "perception: +4, stealth: +5",
+    "senses": "darkvision 60 ft., passive Perception 14",
+    "languages": "understands Elvish",
+    "challengeRating": "2",
+    "traits": [
+      {
+        "name": "Pounce",
+        "entries": [
+          "If the kavu moves at least 20 feet straight toward a creature and then hits it with a claw attack on the same turn, that target must succeed on a DC 14 Strength saving throw or be knocked prone. If the target is prone, the kavu can make one bite attack against it as a bonus action."
+        ]
+      }
+    ],
+    "spellcasting": [],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "entries": [
+          "The kavu makes two claw attacks."
+        ]
+      },
+      {
+        "name": "Bite",
+        "entries": [
+          "Melee Weapon Attack: 6 to hit, reach 5 ft., one target. 9 (1d10 + 4) piercing damage."
+        ]
+      },
+      {
+        "name": "Claw",
+        "entries": [
+          "Melee Weapon Attack: 6 to hit, reach 5 ft., one target. 7 (1d6 + 4) slashing damage."
+        ]
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Lyra",
+    "source": "PSD",
+    "sourceKey": "PSD",
+    "page": 9,
+    "size": "",
+    "type": "",
+    "alignment": "",
+    "armorClass": "",
+    "hitPoints": "",
+    "speed": "",
+    "abilities": {},
+    "savingThrows": "",
+    "skills": "",
+    "senses": "",
+    "languages": "",
+    "challengeRating": "",
+    "traits": [],
+    "spellcasting": [],
+    "actions": [],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Serra Angel",
+    "source": "PSD",
+    "sourceKey": "PSD",
+    "page": 9,
+    "size": "",
+    "type": "",
+    "alignment": "",
+    "armorClass": "",
+    "hitPoints": "",
+    "speed": "",
+    "abilities": {},
+    "savingThrows": "",
+    "skills": "",
+    "senses": "",
+    "languages": "",
+    "challengeRating": "",
+    "traits": [],
+    "spellcasting": [],
+    "actions": [],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Shalai",
+    "source": "PSD",
+    "sourceKey": "PSD",
+    "page": 9,
+    "size": "",
+    "type": "",
+    "alignment": "",
+    "armorClass": "",
+    "hitPoints": "",
+    "speed": "",
+    "abilities": {},
+    "savingThrows": "",
+    "skills": "",
+    "senses": "",
+    "languages": "",
+    "challengeRating": "",
+    "traits": [],
+    "spellcasting": [],
+    "actions": [],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Steel Leaf Kavu",
+    "source": "PSD",
+    "sourceKey": "PSD",
+    "page": 24,
+    "size": "Large",
+    "type": "beast",
+    "alignment": "unaligned",
+    "armorClass": "16 (natural armor)",
+    "hitPoints": "142 (15d10 + 60)",
+    "speed": "walk 40 ft.",
+    "abilities": {
+      "str": 20,
+      "dex": 12,
+      "con": 18,
+      "int": 6,
+      "wis": 14,
+      "cha": 8
+    },
+    "savingThrows": "",
+    "skills": "perception: +4",
+    "senses": "darkvision 60 ft., passive Perception 14",
+    "languages": "understands Elvish",
+    "challengeRating": "4",
+    "traits": [
+      {
+        "name": "Raking Charge",
+        "entries": [
+          "If the kavu moves at least 20 feet straight toward a creature and then hits it with a bite attack on the same turn, that target must succeed on a DC 15 Strength saving throw or be knocked prone. If the target is prone, the kavu can make one rend attack against it as a bonus action."
+        ]
+      }
+    ],
+    "spellcasting": [],
+    "actions": [
+      {
+        "name": "Bite",
+        "entries": [
+          "Melee Weapon Attack: 7 to hit, reach 5 ft., one target. 14 (2d8 + 5) piercing damage."
+        ]
+      },
+      {
+        "name": "Rend",
+        "entries": [
+          "Melee Weapon Attack: 7 to hit, reach 5 ft., one prone creature. 23 (4d8 + 5) slashing damage."
+        ]
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Zombie Horse",
+    "source": "PSD",
+    "sourceKey": "PSD",
+    "page": 17,
+    "size": "Large",
+    "type": "",
+    "alignment": "",
+    "armorClass": "",
+    "hitPoints": "",
+    "speed": "",
+    "abilities": {},
+    "savingThrows": "",
+    "skills": "",
+    "senses": "",
+    "languages": "",
+    "challengeRating": "",
+    "traits": [],
+    "spellcasting": [],
+    "actions": [],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  }
+]

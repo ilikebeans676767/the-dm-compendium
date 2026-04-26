@@ -1,0 +1,195 @@
+[
+  {
+    "name": "Expert",
+    "source": "ESK",
+    "sourceKey": "ESK",
+    "page": 63,
+    "size": "Medium",
+    "type": "humanoid",
+    "alignment": "",
+    "armorClass": "14 (studded leather armor)",
+    "hitPoints": "11 (2d8 + 2)",
+    "speed": "walk 30 ft.",
+    "abilities": {
+      "str": 10,
+      "dex": 15,
+      "con": 12,
+      "int": 13,
+      "wis": 10,
+      "cha": 14
+    },
+    "savingThrows": "dex: +4",
+    "skills": "acrobatics: +4, performance: +4, persuasion: +4, sleight of hand: +4, stealth: +4",
+    "senses": "passive Perception 10",
+    "languages": "Common, plus one of your choice",
+    "challengeRating": "",
+    "traits": [
+      {
+        "name": "Helpful",
+        "entries": [
+          "The expert can take the Help action as a bonus action."
+        ]
+      },
+      {
+        "name": "Tools",
+        "entries": [
+          "The expert has thieves' tools and a musical instrument."
+        ]
+      }
+    ],
+    "spellcasting": [],
+    "actions": [
+      {
+        "name": "Shortsword",
+        "entries": [
+          "Melee Weapon Attack: 4 to hit, reach 5 ft., one target. 5 (1d6 + 2) piercing damage."
+        ]
+      },
+      {
+        "name": "Dagger",
+        "entries": [
+          "Melee Weapon or Ranged Weapon Attack: 4 to hit, reach 5 ft. or range 20/60 ft., one target. 4 (1d4 + 2) piercing damage."
+        ]
+      },
+      {
+        "name": "Shortbow",
+        "entries": [
+          "Ranged Weapon Attack: 4 to hit, range 80/320 ft., one target. 5 (1d6 + 2) piercing damage."
+        ]
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Spellcaster",
+    "source": "ESK",
+    "sourceKey": "ESK",
+    "page": 63,
+    "size": "Medium",
+    "type": "humanoid",
+    "alignment": "",
+    "armorClass": "12 (leather armor)",
+    "hitPoints": "9 (2d8)",
+    "speed": "walk 30 ft.",
+    "abilities": {
+      "str": 10,
+      "dex": 12,
+      "con": 10,
+      "int": 15,
+      "wis": 14,
+      "cha": 13
+    },
+    "savingThrows": "wis: +4",
+    "skills": "arcana: +4, investigation: +4, religion: +4",
+    "senses": "passive Perception 12",
+    "languages": "Common, plus one of your choice",
+    "challengeRating": "",
+    "traits": [
+      {
+        "name": "Magical Role",
+        "entries": [
+          "Choose a role for the spellcaster: healer or mage. Your choice determines which Spellcasting trait to use below."
+        ]
+      }
+    ],
+    "spellcasting": [
+      {
+        "name": "Spellcasting (Healer)",
+        "entries": [
+          "The spellcaster's spellcasting ability is Wisdom (spell save DC 12, 4 to hit with spell attacks). The spellcaster has following cleric spells prepared:",
+          "0: guidance, sacred flame",
+          "1 (2 slots): cure wounds"
+        ]
+      },
+      {
+        "name": "Spellcasting (Mage)",
+        "entries": [
+          "The spellcaster's spellcasting ability is Intelligence (spell save DC 12, 4 to hit with spell attacks). The spellcaster has following wizard spells prepared:",
+          "0: fire bolt, light",
+          "1 (2 slots): sleep"
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "name": "Quarterstaff",
+        "entries": [
+          "Melee Weapon Attack: 2 to hit, reach 5 ft., one target. 3 (1d6) bludgeoning damage, or 4 (1d8) bludgeoning damage if used with two hands."
+        ]
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Warrior",
+    "source": "ESK",
+    "sourceKey": "ESK",
+    "page": 63,
+    "size": "Medium",
+    "type": "humanoid",
+    "alignment": "",
+    "armorClass": "16 (chain shirt, shield)",
+    "hitPoints": "13 (2d8 + 4)",
+    "speed": "walk 30 ft.",
+    "abilities": {
+      "str": 15,
+      "dex": 13,
+      "con": 14,
+      "int": 10,
+      "wis": 12,
+      "cha": 10
+    },
+    "savingThrows": "con: +4",
+    "skills": "athletics: +4, perception: +3, survival: +3",
+    "senses": "passive Perception 13",
+    "languages": "Common, plus one of your choice",
+    "challengeRating": "",
+    "traits": [
+      {
+        "name": "Martial Role",
+        "entries": [
+          "The warrior has one of the following traits of your choice:",
+          "- Attacker The warrior gains a +2 bonus to attack rolls.\n- Defender The warrior gains the Protection reaction below."
+        ]
+      }
+    ],
+    "spellcasting": [],
+    "actions": [
+      {
+        "name": "Longsword",
+        "entries": [
+          "Melee Weapon Attack: 4 to hit, reach 5 ft., one target. 6 (1d8 + 2) slashing damage, or 7 (1d10 + 2) slashing damage if used with two hands."
+        ]
+      },
+      {
+        "name": "Longbow",
+        "entries": [
+          "Ranged Weapon Attack: 3 to hit, range 150/600 ft., one target. 5 (1d8 + 1) piercing damage."
+        ]
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [
+      {
+        "name": "Protection (Defender Only)",
+        "entries": [
+          "The warrior imposes disadvantage on the attack roll of a creature within 5 feet of it whose target isn't the warrior. The warrior must be able to see the attacker."
+        ]
+      }
+    ],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  }
+]

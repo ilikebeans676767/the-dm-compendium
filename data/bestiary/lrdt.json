@@ -1,0 +1,129 @@
+[
+  {
+    "name": "Alax Jadescales",
+    "source": "LRDT",
+    "sourceKey": "LRDT",
+    "page": 11,
+    "size": "Medium",
+    "type": "humanoid (dragonborn)",
+    "alignment": "neutral good",
+    "armorClass": "10",
+    "hitPoints": "58 (9d8 + 18)",
+    "speed": "walk 30 ft.",
+    "abilities": {
+      "str": 11,
+      "dex": 10,
+      "con": 14,
+      "int": 11,
+      "wis": 16,
+      "cha": 15
+    },
+    "savingThrows": "",
+    "skills": "animal handling: +5, survival: +5",
+    "senses": "darkvision 60 ft., passive Perception 13",
+    "languages": "Common, Draconic",
+    "challengeRating": "2",
+    "traits": [],
+    "spellcasting": [
+      {
+        "name": "Spellcasting",
+        "entries": [
+          "Alax casts one of the following spells, using Wisdom as the spellcasting ability (spell save DC 13):",
+          "At will: Druidcraft, Resistance",
+          "1e/day: Cure Wounds, Faerie Fire, Purify Food and Drink"
+        ],
+        "displayAs": "action"
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "entries": [
+          "Alax makes two Fire Strike attacks."
+        ]
+      },
+      {
+        "name": "Fire Strike",
+        "entries": [
+          "Melee Spell or Ranged Spell Attack: 5 to hit, reach 5 ft. or range 60 ft., one target. 10 (2d6 + 3) fire damage."
+        ]
+      },
+      {
+        "name": "Breath Weapon (Recharges after a Short or Long Rest)",
+        "entries": [
+          "Alax exhales a 15-foot cone of fire. Each creature in that area must make a DC 12 Dexterity saving throw, taking 14 (4d6) fire damage on a failed save, or half as much damage on a successful one."
+        ]
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Ervan Soulfallen",
+    "source": "LRDT",
+    "sourceKey": "LRDT",
+    "page": 11,
+    "size": "Medium",
+    "type": "humanoid (human)",
+    "alignment": "chaotic evil",
+    "armorClass": "12, 15 with mage armor",
+    "hitPoints": "84 (13d8 + 26)",
+    "speed": "walk 30 ft.",
+    "abilities": {
+      "str": 10,
+      "dex": 15,
+      "con": 14,
+      "int": 11,
+      "wis": 8,
+      "cha": 17
+    },
+    "savingThrows": "",
+    "skills": "arcana: 3, deception: +6",
+    "senses": "passive Perception 9",
+    "languages": "Common, Draconic",
+    "challengeRating": "5",
+    "traits": [],
+    "spellcasting": [
+      {
+        "name": "Spellcasting",
+        "entries": [
+          "Ervan casts one of the following spells, using Charisma as the spellcasting ability (spell save DC 14):",
+          "At will: Light, Mage Hand",
+          "2/day: Dimension Door",
+          "1e/day: Disguise Self, Levitate, Mage Armor"
+        ],
+        "displayAs": "action"
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "entries": [
+          "Ervan uses his staff to make three Arcane Blast attacks."
+        ]
+      },
+      {
+        "name": "Arcane Blast",
+        "entries": [
+          "Melee Spell or Ranged Spell Attack: 6 to hit, reach 5 ft. or range 120 ft., one target. 13 (3d6 + 3) force damage."
+        ]
+      },
+      {
+        "name": "Acid Rain (Recharges after a Short or Long Rest)",
+        "entries": [
+          "Acid falls in a 10-foot-radius, 20-foot-high cylinder centered on a point Ervan can see within 120 feet of himself. Each creature in that area must make a DC 14 Dexterity saving throw, taking 22 (4d10) acid damage on a failed save, or half as much damage on a successful one."
+        ]
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  }
+]

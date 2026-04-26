@@ -1,0 +1,4872 @@
+[
+  {
+    "name": "Ahmaergo",
+    "source": "WDH",
+    "sourceKey": "WDH",
+    "page": 193,
+    "size": "Medium",
+    "type": "humanoid (dwarf)",
+    "alignment": "lawful evil",
+    "armorClass": "18 (plate armor)",
+    "hitPoints": "143 (22d8 + 44)",
+    "speed": "walk 25 ft.",
+    "abilities": {
+      "str": 20,
+      "dex": 15,
+      "con": 14,
+      "int": 15,
+      "wis": 14,
+      "cha": 12
+    },
+    "savingThrows": "str: +9, con: +6",
+    "skills": "athletics: +9, intimidation: +5, perception: +6",
+    "senses": "darkvision 60 ft., passive Perception 16",
+    "languages": "Common, Dwarvish, Undercommon",
+    "challengeRating": "9",
+    "traits": [
+      {
+        "name": "Dwarven Resilience",
+        "entries": [
+          "Ahmaergo has advantage on saving throws against being poisoned."
+        ]
+      },
+      {
+        "name": "Indomitable (2/Day)",
+        "entries": [
+          "Ahmaergo can reroll a saving throw that he fails. He must use the new roll."
+        ]
+      },
+      {
+        "name": "Second Wind (Recharges after a Short or Long Rest)",
+        "entries": [
+          "As a bonus action, Ahmaergo can regain 20 hit points."
+        ]
+      },
+      {
+        "name": "Extra Damage",
+        "entries": [
+          "If Ahmaergo has more than half his hit points remaining he deals an extra 7 (2d6) slashing damage on every hit."
+        ]
+      }
+    ],
+    "spellcasting": [],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "entries": [
+          "Ahmaergo makes three attacks with his greataxe."
+        ]
+      },
+      {
+        "name": "Greataxe",
+        "entries": [
+          "Melee Weapon Attack: 9 to hit, reach 5 ft., one target. 11 (1d12 + 5) slashing damage."
+        ]
+      },
+      {
+        "name": "Heavy Crossbow",
+        "entries": [
+          "Ranged Weapon Attack: 6 to hit, range 100/400 ft., one target. 7 (1d10 + 2) piercing damage."
+        ]
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Ammalia Cassalanter",
+    "source": "WDH",
+    "sourceKey": "WDH",
+    "page": 193,
+    "size": "Medium",
+    "type": "humanoid (human)",
+    "alignment": "lawful evil",
+    "armorClass": "12, 15 with mage armor",
+    "hitPoints": "45 (10d8)",
+    "speed": "walk 30 ft.",
+    "abilities": {
+      "str": 9,
+      "dex": 14,
+      "con": 11,
+      "int": 17,
+      "wis": 12,
+      "cha": 15
+    },
+    "savingThrows": "int: +6, wis: +4",
+    "skills": "arcana: +6, history: +6, insight: +4, persuasion: +5",
+    "senses": "passive Perception 11",
+    "languages": "Common, Draconic, Elvish, Infernal",
+    "challengeRating": "5",
+    "traits": [],
+    "spellcasting": [
+      {
+        "name": "Spellcasting",
+        "entries": [
+          "Ammalia is a 9th-level spellcaster. Her spellcasting ability is Intelligence (spell save DC 14, 6 to hit with spell attacks). She has the following wizard spells prepared:",
+          "0: friends, mage hand, mending, message",
+          "1 (4 slots): charm person, mage armor, magic missile",
+          "2 (3 slots): hold person, invisibility, suggestion",
+          "3 (3 slots): fireball, haste, tongues",
+          "4 (3 slots): confusion, stoneskin",
+          "5 (1 slots): hold monster"
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "name": "Quarterstaff",
+        "entries": [
+          "Melee Weapon Attack: 2 to hit, reach 5 ft., one target. 2 (1d6 - 1) bludgeoning damage, or 3 (1d8 - 1) bludgeoning damage if used with two hands."
+        ]
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Aurinax",
+    "source": "WDH",
+    "sourceKey": "WDH",
+    "page": 194,
+    "size": "",
+    "type": "",
+    "alignment": "",
+    "armorClass": "",
+    "hitPoints": "",
+    "speed": "",
+    "abilities": {},
+    "savingThrows": "",
+    "skills": "",
+    "senses": "",
+    "languages": "",
+    "challengeRating": "",
+    "traits": [],
+    "spellcasting": [],
+    "actions": [],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Avi",
+    "source": "WDH",
+    "sourceKey": "WDH",
+    "page": 32,
+    "size": "",
+    "type": "humanoid (genasi)",
+    "alignment": "neutral good",
+    "armorClass": "",
+    "hitPoints": "",
+    "speed": "walk 30 ft., swim 30 ft.",
+    "abilities": {},
+    "savingThrows": "",
+    "skills": "",
+    "senses": "",
+    "languages": "Common, Primordial",
+    "challengeRating": "",
+    "traits": [],
+    "spellcasting": [],
+    "actions": [],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Awakened Rat",
+    "source": "WDH",
+    "sourceKey": "WDH",
+    "page": 102,
+    "size": "Tiny",
+    "type": "beast",
+    "alignment": "unaligned",
+    "armorClass": "10",
+    "hitPoints": "1 (1d4 - 1)",
+    "speed": "walk 20 ft.",
+    "abilities": {
+      "str": 2,
+      "dex": 11,
+      "con": 9,
+      "int": 10,
+      "wis": 10,
+      "cha": 4
+    },
+    "savingThrows": "",
+    "skills": "",
+    "senses": "darkvision 30 ft., passive Perception 10",
+    "languages": "Common",
+    "challengeRating": "0",
+    "traits": [
+      {
+        "name": "Keen Smell",
+        "entries": [
+          "The rat has advantage on Wisdom (Perception) checks that rely on smell."
+        ]
+      }
+    ],
+    "spellcasting": [],
+    "actions": [
+      {
+        "name": "Bite",
+        "entries": [
+          "Melee Weapon Attack: 0 to hit, reach 5 ft., one target. 1 piercing damage."
+        ]
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Barnibus Blastwind",
+    "source": "WDH",
+    "sourceKey": "WDH",
+    "page": 195,
+    "size": "Medium",
+    "type": "humanoid (human)",
+    "alignment": "lawful good",
+    "armorClass": "10, 13 with mage armor",
+    "hitPoints": "24 (7d8 - 7)",
+    "speed": "walk 30 ft.",
+    "abilities": {
+      "str": 9,
+      "dex": 10,
+      "con": 9,
+      "int": 17,
+      "wis": 15,
+      "cha": 11
+    },
+    "savingThrows": "int: +5, wis: +4",
+    "skills": "arcana: +5, insight: +6, investigation: +7, perception: +4",
+    "senses": "passive Perception 14",
+    "languages": "Common, Draconic, Dwarvish, Halfling",
+    "challengeRating": "2",
+    "traits": [
+      {
+        "name": "Special Equipment",
+        "entries": [
+          "Barnibus carries a wand of magic detection. (spell included in spell list below but does not use a slot when cast from the wand)"
+        ]
+      }
+    ],
+    "spellcasting": [
+      {
+        "name": "Spellcasting",
+        "entries": [
+          "Barnibus is a 7th-level spellcaster. His spellcasting ability is Intelligence (spell save DC 13, 5 to hit with spell attacks) He has the following wizard spells prepared:",
+          "0: blade ward, light, mage hand, message",
+          "1 (4 slots): comprehend languages, identify, detect magic, mage armor, shield",
+          "2 (3 slots): detect thoughts, suggestion",
+          "3 (3 slots): clairvoyance, sending",
+          "4 (1 slots): locate creature, Otiluke's resilient sphere"
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "name": "Dagger",
+        "entries": [
+          "Melee Weapon or Ranged Weapon Attack: 2 to hit, reach 5 ft. or range 20/60 ft., one target. 2 (1d4) piercing damage."
+        ]
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Bepis Honeymaker",
+    "source": "WDH",
+    "sourceKey": "WDH",
+    "page": 112,
+    "size": "Small",
+    "type": "",
+    "alignment": "lawful good",
+    "armorClass": "",
+    "hitPoints": "3 (1d6)",
+    "speed": "walk 25 ft.",
+    "abilities": {},
+    "savingThrows": "",
+    "skills": "",
+    "senses": "",
+    "languages": "",
+    "challengeRating": "",
+    "traits": [],
+    "spellcasting": [],
+    "actions": [],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Black Viper",
+    "source": "WDH",
+    "sourceKey": "WDH",
+    "page": 196,
+    "size": "Medium",
+    "type": "humanoid (human)",
+    "alignment": "chaotic neutral",
+    "armorClass": "16 (studded leather armor)",
+    "hitPoints": "84 (13d8 + 26)",
+    "speed": "walk 30 ft.",
+    "abilities": {
+      "str": 11,
+      "dex": 18,
+      "con": 14,
+      "int": 11,
+      "wis": 11,
+      "cha": 12
+    },
+    "savingThrows": "dex: +7, int: +3",
+    "skills": "acrobatics: +7, athletics: +3, perception: +3, sleight of hand: +7, stealth: +7",
+    "senses": "passive Perception 13",
+    "languages": "Common, Thieves' cant",
+    "challengeRating": "5",
+    "traits": [
+      {
+        "name": "Cunning Action",
+        "entries": [
+          "On each of her turns, the Black Viper can use a bonus action to take the Dash, Disengage, or Hide action."
+        ]
+      },
+      {
+        "name": "Evasion",
+        "entries": [
+          "If the Black Viper is subjected to an effect that allows her to make a Dexterity saving throw to take only half damage, she instead takes no damage if she succeeds on the saving throw, and only half damage if she fails. She can't use this trait if she's incapacitated."
+        ]
+      },
+      {
+        "name": "Sneak Attack (1/Turn)",
+        "entries": [
+          "The Black Viper deals an extra 14 (4d6) damage when she hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of the Black Viper that isn't incapacitated and the Black Viper doesn't have disadvantage on the attack roll."
+        ]
+      }
+    ],
+    "spellcasting": [],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "entries": [
+          "The Black Viper makes three attacks with her rapier."
+        ]
+      },
+      {
+        "name": "Rapier",
+        "entries": [
+          "Melee Weapon Attack: 7 to hit, reach 5 ft., one target. 7 (1d8 + 4) piercing damage."
+        ]
+      },
+      {
+        "name": "Hand Crossbow",
+        "entries": [
+          "Ranged Weapon Attack: 7 to hit, range 30/120 ft., one target. 7 (1d6 + 4) piercing damage."
+        ]
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [
+      {
+        "name": "Uncanny Dodge",
+        "entries": [
+          "The Black Viper halves the damage that she takes from an attack that hits her. She must be able to see the attacker."
+        ]
+      }
+    ],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Blinded Troll",
+    "source": "WDH",
+    "sourceKey": "WDH",
+    "page": 114,
+    "size": "",
+    "type": "",
+    "alignment": "",
+    "armorClass": "",
+    "hitPoints": "",
+    "speed": "walk 20 ft.",
+    "abilities": {},
+    "savingThrows": "",
+    "skills": "",
+    "senses": "",
+    "languages": "",
+    "challengeRating": "4",
+    "traits": [],
+    "spellcasting": [],
+    "actions": [],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Bonnie",
+    "source": "WDH",
+    "sourceKey": "WDH",
+    "page": 20,
+    "size": "",
+    "type": "",
+    "alignment": "",
+    "armorClass": "",
+    "hitPoints": "",
+    "speed": "walk 20 ft.",
+    "abilities": {},
+    "savingThrows": "",
+    "skills": "",
+    "senses": "",
+    "languages": "",
+    "challengeRating": "4",
+    "traits": [],
+    "spellcasting": [],
+    "actions": [],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Davil Starsong",
+    "source": "WDH",
+    "sourceKey": "WDH",
+    "page": 199,
+    "size": "Medium",
+    "type": "humanoid (elf)",
+    "alignment": "neutral",
+    "armorClass": "15 (chain shirt)",
+    "hitPoints": "82 (15d8 + 15)",
+    "speed": "walk 30 ft.",
+    "abilities": {
+      "str": 10,
+      "dex": 14,
+      "con": 12,
+      "int": 16,
+      "wis": 12,
+      "cha": 17
+    },
+    "savingThrows": "dex: +5, cha: +6",
+    "skills": "arcana: +6, history: +6, insight: +4, perception: +4, performance: +6",
+    "senses": "darkvision 60 ft., passive Perception 14",
+    "languages": "Common, Draconic, Dwarvish, Elvish",
+    "challengeRating": "6",
+    "traits": [
+      {
+        "name": "Fey Ancestry",
+        "entries": [
+          "Davil has advantage on saving throws against being charmed, and magic can't put him to sleep."
+        ]
+      }
+    ],
+    "spellcasting": [
+      {
+        "name": "Spellcasting",
+        "entries": [
+          "Davil is a 12th-level spellcaster. His spellcasting ability is Charisma (spell save DC 14, 6 to hit with spell attacks) He has the following bard spells prepared:",
+          "0: mage hand, mending, minor illusion, vicious mockery",
+          "1 (4 slots): cure wounds, disguise self, sleep",
+          "2 (3 slots): crown of madness, invisibility, suggestion",
+          "3 (3 slots): nondetection, sending, tongues",
+          "4 (3 slots): compulsion, freedom of movement, polymorph",
+          "5 (2 slots): dominate person, greater restoration",
+          "6 (1 slots): Otto's irresistible dance"
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "name": "Dagger",
+        "entries": [
+          "Melee Weapon Attack: 5 to hit, reach 5 ft., one target. 4 (1d4 + 2) piercing damage. Or Ranged Weapon Attack: 5 to hit, range 20/60 ft., one target. 4 (1d4 + 2) piercing damage."
+        ]
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Diatryma",
+    "source": "WDH",
+    "sourceKey": "WDH",
+    "page": 191,
+    "size": "",
+    "type": "",
+    "alignment": "",
+    "armorClass": "",
+    "hitPoints": "",
+    "speed": "",
+    "abilities": {},
+    "savingThrows": "",
+    "skills": "",
+    "senses": "",
+    "languages": "",
+    "challengeRating": "",
+    "traits": [],
+    "spellcasting": [],
+    "actions": [
+      {
+        "name": "Beak",
+        "entries": [
+          "Melee Weapon Attack: 4 to hit, reach 5 ft., one target. 6 (1d8 + 2) piercing damage."
+        ]
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Dining Table Mimic",
+    "source": "WDH",
+    "sourceKey": "WDH",
+    "page": 122,
+    "size": "Large",
+    "type": "monstrosity (shapechanger)",
+    "alignment": "neutral",
+    "armorClass": "12 (natural armor)",
+    "hitPoints": "75 (10d10 + 20)",
+    "speed": "walk 15 ft.",
+    "abilities": {
+      "str": 17,
+      "dex": 12,
+      "con": 15,
+      "int": 5,
+      "wis": 13,
+      "cha": 8
+    },
+    "savingThrows": "",
+    "skills": "stealth: +5",
+    "senses": "darkvision 60 ft., passive Perception 11",
+    "languages": "",
+    "challengeRating": "3",
+    "traits": [
+      {
+        "name": "Shapechanger",
+        "entries": [
+          "The mimic can use its action to polymorph into an object or back into its true, amorphous form. Its statistics are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies."
+        ]
+      },
+      {
+        "name": "Adhesive (Object Form Only)",
+        "entries": [
+          "The mimic adheres to anything that touches it. A Huge or smaller creature adhered to the mimic is also grappled by it (escape DC 13). Ability checks made to escape this grapple have disadvantage."
+        ]
+      },
+      {
+        "name": "False Appearance (Object Form Only)",
+        "entries": [
+          "While the mimic remains motionless, it is indistinguishable from an ordinary object."
+        ]
+      },
+      {
+        "name": "Grappler",
+        "entries": [
+          "The mimic has advantage on attack rolls against any creature grappled by it."
+        ]
+      }
+    ],
+    "spellcasting": [],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "entries": [
+          "The mimic can make three attacks; two with its pseudopods and one with its bite"
+        ]
+      },
+      {
+        "name": "Pseudopod",
+        "entries": [
+          "Melee Weapon Attack: 5 to hit, reach 5 ft., one target. 7 (1d8 + 3) bludgeoning damage. If the mimic is in object form, the target is subjected to its Adhesive trait."
+        ]
+      },
+      {
+        "name": "Bite",
+        "entries": [
+          "Melee Weapon Attack: 5 to hit, reach 5 ft., one target. 7 (1d8 + 3) piercing damage plus 4 (1d8) acid damage."
+        ]
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Drow Gunslinger",
+    "source": "WDH",
+    "sourceKey": "WDH",
+    "page": 201,
+    "size": "Medium",
+    "type": "humanoid (elf)",
+    "alignment": "any alignment",
+    "armorClass": "18 (studded leather armor, shield)",
+    "hitPoints": "84 (13d8 + 26)",
+    "speed": "walk 30 ft.",
+    "abilities": {
+      "str": 13,
+      "dex": 18,
+      "con": 14,
+      "int": 11,
+      "wis": 13,
+      "cha": 14
+    },
+    "savingThrows": "dex: +6, con: +4, wis: +3",
+    "skills": "perception: +3, stealth: +8",
+    "senses": "darkvision 120 ft., passive Perception 13",
+    "languages": "Elvish, Undercommon",
+    "challengeRating": "4",
+    "traits": [
+      {
+        "name": "Fey Ancestry",
+        "entries": [
+          "The drow has advantage on saving throws against being charmed, and magic can't put the drow to sleep."
+        ]
+      },
+      {
+        "name": "Gunslinger",
+        "entries": [
+          "Being within 5 feet of a hostile creature or attacking at long range doesn't impose disadvantage on the drow's ranged attack rolls with a pistol. In addition, the drow ignores Cover and Cover when making ranged attacks with a pistol."
+        ]
+      },
+      {
+        "name": "Sunlight Sensitivity",
+        "entries": [
+          "While in sunlight, the drow has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight."
+        ]
+      }
+    ],
+    "spellcasting": [
+      {
+        "name": "Innate Spellcasting",
+        "entries": [
+          "The drow's spellcasting ability is Charisma (spell save DC 12) It can innately cast the following spells, requiring no material components:",
+          "At will: dancing lights",
+          "1e/day: darkness, faerie fire, levitate (self only)"
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "entries": [
+          "The drow makes two shortsword attacks."
+        ]
+      },
+      {
+        "name": "Shortsword",
+        "entries": [
+          "Melee Weapon Attack: 6 to hit, reach 5 ft., one target. 7 (1d6 + 4) piercing damage."
+        ]
+      },
+      {
+        "name": "Poisonous Pistol",
+        "entries": [
+          "Ranged Weapon Attack: 6 to hit, range 30/90 ft., one target. 9 (1d10 + 4) piercing damage plus 11 (2d10) poison damage."
+        ]
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Durnan",
+    "source": "WDH",
+    "sourceKey": "WDH",
+    "page": 203,
+    "size": "Medium",
+    "type": "humanoid (human)",
+    "alignment": "neutral",
+    "armorClass": "16 (elven chain)",
+    "hitPoints": "144 (17d8 + 68)",
+    "speed": "walk 30 ft.",
+    "abilities": {
+      "str": 18,
+      "dex": 15,
+      "con": 18,
+      "int": 13,
+      "wis": 12,
+      "cha": 10
+    },
+    "savingThrows": "str: +8, con: +8",
+    "skills": "athletics: +8, perception: +5",
+    "senses": "passive Perception 15",
+    "languages": "Common, Dwarvish",
+    "challengeRating": "9",
+    "traits": [
+      {
+        "name": "Special Equipment",
+        "entries": [
+          "Durnan wields a Greatsword of Sharpness called Grimvault. He wears boots of striding and springing, elven chain, and a ring of spell turning."
+        ]
+      },
+      {
+        "name": "Indomitable (Recharges after a Long Rest)",
+        "entries": [
+          "Durnan can reroll a saving throw that he fails. He must use the new roll."
+        ]
+      },
+      {
+        "name": "Spell Turning",
+        "entries": [
+          "While wearing his ring of spell turning, Durnan has advantage on saving throws against any spell that targets only him (not in an area of effect). If Durnan rolls a 20 for the save and the spell is 7th level or lower, the spell has no effect on him and instead targets the caster, using the slot level, spell save DC, attack bonus, and spellcasting ability of the caster."
+        ]
+      }
+    ],
+    "spellcasting": [],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "entries": [
+          "Durnan makes four melee weapon attacks."
+        ]
+      },
+      {
+        "name": "Grimvault",
+        "entries": [
+          "Melee Weapon Attack: 8 to hit, reach 5 ft., one target. 11 (2d6 + 4) slashing damage. If the target is an object, the hit instead deals 16 slashing damage. If the target is a creature and Durnan rolls a 20 on the d20 for the attack roll, the target takes an extra 14 slashing damage, and Durnan rolls another d20. On a roll of 20, he lops off one of the target's limbs, or some other part of its body if it is limbless."
+        ]
+      },
+      {
+        "name": "Double Crossbow",
+        "entries": [
+          "Ranged Weapon Attack: 6 to hit, range 60/240 ft., one target. 13 (2d10 + 2) piercing damage."
+        ]
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Elzerina Cassalanter",
+    "source": "WDH",
+    "sourceKey": "WDH",
+    "page": 115,
+    "size": "Small",
+    "type": "humanoid (human)",
+    "alignment": "",
+    "armorClass": "",
+    "hitPoints": "",
+    "speed": "",
+    "abilities": {},
+    "savingThrows": "",
+    "skills": "",
+    "senses": "",
+    "languages": "",
+    "challengeRating": "",
+    "traits": [],
+    "spellcasting": [],
+    "actions": [],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Embric",
+    "source": "WDH",
+    "sourceKey": "WDH",
+    "page": 32,
+    "size": "",
+    "type": "humanoid (genasi)",
+    "alignment": "neutral good",
+    "armorClass": "",
+    "hitPoints": "",
+    "speed": "",
+    "abilities": {},
+    "savingThrows": "",
+    "skills": "",
+    "senses": "darkvision 60 ft.",
+    "languages": "Common, Primordial",
+    "challengeRating": "",
+    "traits": [],
+    "spellcasting": [
+      {
+        "name": "Innate Spellcasting",
+        "entries": [
+          "Embric's spellcasting ability is Constitution (4 to hit with spell attacks). He can innately cast the following spells, requiring no material components:",
+          "At will: produce flame"
+        ]
+      }
+    ],
+    "actions": [],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Emmek Frewn",
+    "source": "WDH",
+    "sourceKey": "WDH",
+    "page": 42,
+    "size": "",
+    "type": "humanoid (human)",
+    "alignment": "neutral evil",
+    "armorClass": "",
+    "hitPoints": "",
+    "speed": "",
+    "abilities": {},
+    "savingThrows": "",
+    "skills": "",
+    "senses": "",
+    "languages": "",
+    "challengeRating": "",
+    "traits": [],
+    "spellcasting": [],
+    "actions": [],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Engineer",
+    "source": "WDH",
+    "sourceKey": "WDH",
+    "page": 141,
+    "size": "",
+    "type": "",
+    "alignment": "neutral good",
+    "armorClass": "",
+    "hitPoints": "7 (2d6)",
+    "speed": "",
+    "abilities": {},
+    "savingThrows": "",
+    "skills": "",
+    "senses": "",
+    "languages": "Common, Gnomish",
+    "challengeRating": "",
+    "traits": [],
+    "spellcasting": [],
+    "actions": [],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Fala Lefaliir",
+    "source": "WDH",
+    "sourceKey": "WDH",
+    "page": 32,
+    "size": "Medium",
+    "type": "",
+    "alignment": "chaotic good",
+    "armorClass": "",
+    "hitPoints": "",
+    "speed": "",
+    "abilities": {},
+    "savingThrows": "",
+    "skills": "",
+    "senses": "",
+    "languages": "Druidic, Common, Elvish",
+    "challengeRating": "",
+    "traits": [],
+    "spellcasting": [],
+    "actions": [],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Falcon",
+    "source": "WDH",
+    "sourceKey": "WDH",
+    "page": 53,
+    "size": "",
+    "type": "",
+    "alignment": "",
+    "armorClass": "",
+    "hitPoints": "",
+    "speed": "",
+    "abilities": {},
+    "savingThrows": "",
+    "skills": "",
+    "senses": "",
+    "languages": "",
+    "challengeRating": "",
+    "traits": [],
+    "spellcasting": [],
+    "actions": [],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Fel'rekt Lafeen",
+    "source": "WDH",
+    "sourceKey": "WDH",
+    "page": 67,
+    "size": "",
+    "type": "",
+    "alignment": "neutral good",
+    "armorClass": "",
+    "hitPoints": "",
+    "speed": "",
+    "abilities": {},
+    "savingThrows": "",
+    "skills": "",
+    "senses": "",
+    "languages": "",
+    "challengeRating": "",
+    "traits": [],
+    "spellcasting": [],
+    "actions": [],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Floon Blagmaar",
+    "source": "WDH",
+    "sourceKey": "WDH",
+    "page": 202,
+    "size": "",
+    "type": "humanoid (human)",
+    "alignment": "neutral good",
+    "armorClass": "",
+    "hitPoints": "",
+    "speed": "",
+    "abilities": {
+      "int": 7,
+      "cha": 13
+    },
+    "savingThrows": "",
+    "skills": "",
+    "senses": "",
+    "languages": "",
+    "challengeRating": "",
+    "traits": [],
+    "spellcasting": [],
+    "actions": [],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Flying Staff",
+    "source": "WDH",
+    "sourceKey": "WDH",
+    "page": 152,
+    "size": "Small",
+    "type": "construct",
+    "alignment": "unaligned",
+    "armorClass": "17 (natural armor)",
+    "hitPoints": "17 (5d6)",
+    "speed": "walk 0 ft., fly 50 ft. (hover) (hover)",
+    "abilities": {
+      "str": 12,
+      "dex": 15,
+      "con": 11,
+      "int": 1,
+      "wis": 5,
+      "cha": 1
+    },
+    "savingThrows": "dex: +4",
+    "skills": "",
+    "senses": "blindsight 60 ft. (blind beyond this radius), passive Perception 7",
+    "languages": "",
+    "challengeRating": "1/4",
+    "traits": [
+      {
+        "name": "Antimagic Susceptibility",
+        "entries": [
+          "The staff is incapacitated while in the area of an antimagic field. If targeted by dispel magic, the staff must succeed on a Constitution saving throw against the caster's spell save DC or fall unconscious for 1 minute."
+        ]
+      },
+      {
+        "name": "False Appearance",
+        "entries": [
+          "While the staff remains motionless and isn't flying, it is indistinguishable from a normal staff."
+        ]
+      }
+    ],
+    "spellcasting": [],
+    "actions": [
+      {
+        "name": "Knife",
+        "entries": [
+          "Melee Weapon Attack: 3 to hit, reach 5 ft., one target. 4 (1d6 + 1) bludgeoning damage."
+        ]
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Griffon Cavalry Rider",
+    "source": "WDH",
+    "sourceKey": "WDH",
+    "page": 197,
+    "size": "Medium",
+    "type": "humanoid (any race)",
+    "alignment": "any alignment",
+    "armorClass": "17 (half plate armor)",
+    "hitPoints": "58 (9d8 + 18)",
+    "speed": "walk 30 ft.",
+    "abilities": {
+      "str": 14,
+      "dex": 15,
+      "con": 14,
+      "int": 10,
+      "wis": 12,
+      "cha": 10
+    },
+    "savingThrows": "",
+    "skills": "animal handling: +3, athletics: +4, perception: +3",
+    "senses": "passive Perception 13",
+    "languages": "any one language (usually Common)",
+    "challengeRating": "2",
+    "traits": [],
+    "spellcasting": [],
+    "actions": [
+      {
+        "name": "Lance",
+        "entries": [
+          "Melee Weapon Attack: 4 to hit (with disadvantage against a target within 5 ft.), reach 10 ft., one target. 8 (1d12 + 2) piercing damage, or 11 (1d12 + 5) piercing damage while mounted."
+        ]
+      },
+      {
+        "name": "Dagger",
+        "entries": [
+          "Melee Weapon Attack: 4 to hit, reach 5 ft., one target. 4 (1d4 + 2) piercing damage. Or Ranged Weapon Attack: 4 to hit, range 20/60 ft., one target. 4 (1d4 + 2) piercing damage."
+        ]
+      },
+      {
+        "name": "Feather Fall",
+        "entries": [
+          "The rider wears a magic ring with which it can cast the feather fall spell on itself once as a reaction to falling. After the spell is cast, the ring becomes nonmagical."
+        ]
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Grinda Garloth",
+    "source": "WDH",
+    "sourceKey": "WDH",
+    "page": 65,
+    "size": "",
+    "type": "humanoid (human)",
+    "alignment": "chaotic neutral",
+    "armorClass": "",
+    "hitPoints": "",
+    "speed": "",
+    "abilities": {},
+    "savingThrows": "",
+    "skills": "",
+    "senses": "",
+    "languages": "Common, Dwarvish, Halfling, Undercommon",
+    "challengeRating": "",
+    "traits": [],
+    "spellcasting": [],
+    "actions": [],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Grum'shar",
+    "source": "WDH",
+    "sourceKey": "WDH",
+    "page": 29,
+    "size": "Medium",
+    "type": "humanoid (half-orc)",
+    "alignment": "chaotic evil",
+    "armorClass": "10",
+    "hitPoints": "9 (2d8)",
+    "speed": "walk 30 ft.",
+    "abilities": {
+      "str": 10,
+      "dex": 10,
+      "con": 10,
+      "int": 14,
+      "wis": 10,
+      "cha": 11
+    },
+    "savingThrows": "",
+    "skills": "arcana: +4, history: +4",
+    "senses": "darkvision 60 ft., passive Perception 10",
+    "languages": "Common, Orc",
+    "challengeRating": "1/4",
+    "traits": [
+      {
+        "name": "Relentless Endurance",
+        "entries": [
+          "When reduced to 0 hit points, Grum'shar drops to 1 hit point instead. He can only do this once per long rest."
+        ]
+      }
+    ],
+    "spellcasting": [
+      {
+        "name": "Spellcasting",
+        "entries": [
+          "Grum'shar is a 1st-level spellcaster. His spellcasting ability is Intelligence. He has the following wizard spells prepared:",
+          "0: fire bolt, mending, prestidigitation",
+          "1 (2 slots): burning hands, disguise self, shield"
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "name": "Dagger",
+        "entries": [
+          "Melee Weapon Attack: 2 to hit, reach 5 ft., one target. 2 (1d4) piercing damage. Or Ranged Weapon Attack: 2 to hit, range 20/60 ft., one target. 2 (1d4) piercing damage."
+        ]
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Hester Barch",
+    "source": "WDH",
+    "sourceKey": "WDH",
+    "page": 83,
+    "size": "",
+    "type": "humanoid (human)",
+    "alignment": "lawful good",
+    "armorClass": "",
+    "hitPoints": "",
+    "speed": "",
+    "abilities": {},
+    "savingThrows": "",
+    "skills": "medicine: +4, religion: +2, insight: +4",
+    "senses": "",
+    "languages": "",
+    "challengeRating": "",
+    "traits": [],
+    "spellcasting": [],
+    "actions": [],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Hlam",
+    "source": "WDH",
+    "sourceKey": "WDH",
+    "page": 204,
+    "size": "Medium",
+    "type": "humanoid (human)",
+    "alignment": "lawful good",
+    "armorClass": "22 (Unarmored Defense)",
+    "hitPoints": "137 (25d8 + 25)",
+    "speed": "walk 60 ft.",
+    "abilities": {
+      "str": 11,
+      "dex": 24,
+      "con": 13,
+      "int": 14,
+      "wis": 21,
+      "cha": 14
+    },
+    "savingThrows": "str: +5, dex: +12",
+    "skills": "athletics: +5, religion: +7",
+    "senses": "passive Perception 15",
+    "languages": "all spoken languages",
+    "challengeRating": "16",
+    "traits": [
+      {
+        "name": "Evasion",
+        "entries": [
+          "If Hlam is subjected to an effect that allows him to make a Dexterity saving throw to take only half damage, he instead takes no damage if he succeeds on the saving throw, and only half damage if he fails. He can't use this trait if he's incapacitated."
+        ]
+      },
+      {
+        "name": "Magic Attacks",
+        "entries": [
+          "Hlam's unarmed strikes are magical."
+        ]
+      },
+      {
+        "name": "Unarmored Defense",
+        "entries": [
+          "While Hlam is wearing no armor and wielding no shield, his AC includes his Wisdom modifier."
+        ]
+      }
+    ],
+    "spellcasting": [
+      {
+        "name": "Spellcasting",
+        "entries": [
+          "Hlam is a 5th-level spellcaster. His spellcasting ability is Wisdom (spell save DC 18, 10 to hit with spell attacks) He has the following cleric spells prepared:",
+          "0: guidance, light, sacred flame, spare the dying",
+          "1 (4 slots): detect evil and good, healing word, sanctuary, shield of faith",
+          "2 (3 slots): calm emotions, prayer of healing, silence",
+          "3 (2 slots): protection from energy, remove curse, sending"
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "entries": [
+          "Hlam attacks three times using his unarmed strike, darts, or both."
+        ]
+      },
+      {
+        "name": "Unarmed Strike",
+        "entries": [
+          "Melee Weapon Attack: 12 to hit, reach 5 ft., one target. 12 (1d10 + 7) bludgeoning, magic damage. If the target is a creature, Hlam can choose one of the following additional effects:",
+          "The target must succeed on a DC 18 Strength saving throw or drop one item it is holding (Hlam's choice).",
+          "The target must succeed on a DC 18 Dexterity saving throw or be knocked prone.",
+          "The target must succeed on a DC 18 Constitution saving throw or be stunned until the end of Hlam's next turn."
+        ]
+      },
+      {
+        "name": "Dart",
+        "entries": [
+          "Ranged Weapon Attack: 12 to hit, range 20/60 ft., one target. 9 (1d4 + 7) piercing damage."
+        ]
+      },
+      {
+        "name": "Quivering Palm",
+        "entries": [
+          "Melee Weapon Attack: 12 to hit, reach 5 ft., one creature. The target must make a DC 18 Constitution saving throw. On a failed save, the target is reduced to 0 hit points. On a successful save, the target takes 55 (10d10) necrotic damage."
+        ]
+      },
+      {
+        "name": "Wholeness of Body (Recharges after a Long Rest)",
+        "entries": [
+          "Hlam regains 60 hit points."
+        ]
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [
+      {
+        "name": "Deflect Missile",
+        "entries": [
+          "In response to being hit by a ranged weapon attack, Hlam deflects the missile. The damage he takes from the attack is reduced by 1d10 + 27. If the damage is reduced to 0, Hlam catches the missile if it's small enough to hold in one hand and he has a hand free."
+        ]
+      },
+      {
+        "name": "Slow Fall",
+        "entries": [
+          "Hlam reduces the bludgeoning damage he takes from a fall by 100."
+        ]
+      }
+    ],
+    "legendaryActions": [
+      {
+        "name": "Quick Step",
+        "entries": [
+          "Hlam moves up to his speed without provoking opportunity attacks."
+        ]
+      },
+      {
+        "name": "Unarmed Strike (Costs 2 Actions)",
+        "entries": [
+          "Hlam makes one unarmed strike."
+        ]
+      },
+      {
+        "name": "Invisibility (Costs 3 Actions)",
+        "entries": [
+          "Hlam becomes invisible until the end of his next turn. The effect ends if Hlam attacks or casts a spell."
+        ]
+      }
+    ],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Hrabbaz",
+    "source": "WDH",
+    "sourceKey": "WDH",
+    "page": 205,
+    "size": "Medium",
+    "type": "humanoid (half-orc)",
+    "alignment": "lawful evil",
+    "armorClass": "12",
+    "hitPoints": "112 (15d8 + 45)",
+    "speed": "walk 30 ft.",
+    "abilities": {
+      "str": 20,
+      "dex": 15,
+      "con": 17,
+      "int": 10,
+      "wis": 14,
+      "cha": 12
+    },
+    "savingThrows": "str: +8, con: +6",
+    "skills": "athletics: +8, intimidation: +4, perception: +5",
+    "senses": "darkvision 60 ft., passive Perception 15",
+    "languages": "Common, Orc",
+    "challengeRating": "5",
+    "traits": [
+      {
+        "name": "Indomitable (2/Day)",
+        "entries": [
+          "Hrabbaz can reroll a saving throw that he fails. He must use the new roll."
+        ]
+      },
+      {
+        "name": "Relentless Endurance (Recharges after a Long Rest)",
+        "entries": [
+          "When Hrabbaz is reduced to 0 hit points but not killed outright, he drops to 1 hit point instead."
+        ]
+      },
+      {
+        "name": "Extra Damage",
+        "entries": [
+          "As long as Hrabbaz has more than half his hit points left he deals an extra 3 (1d6) damage on all hits."
+        ]
+      }
+    ],
+    "spellcasting": [],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "entries": [
+          "Hrabbaz makes three attacks with his morningstar."
+        ]
+      },
+      {
+        "name": "Morningstar",
+        "entries": [
+          "Melee Weapon Attack: 8 to hit, reach 5 ft., one target. 9 (1d8 + 5) piercing damage."
+        ]
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Istrid Horn",
+    "source": "WDH",
+    "sourceKey": "WDH",
+    "page": 199,
+    "size": "Medium",
+    "type": "humanoid (dwarf)",
+    "alignment": "lawful evil",
+    "armorClass": "18 (plate armor)",
+    "hitPoints": "117 (18d8 + 36)",
+    "speed": "walk 25 ft.",
+    "abilities": {
+      "str": 12,
+      "dex": 10,
+      "con": 14,
+      "int": 11,
+      "wis": 17,
+      "cha": 13
+    },
+    "savingThrows": "con: +5, wis: +6",
+    "skills": "intimidation: +4, religion: +3",
+    "senses": "darkvision 60 ft., passive Perception 13",
+    "languages": "Common, Dwarvish",
+    "challengeRating": "8",
+    "traits": [
+      {
+        "name": "Dwarven Resilience",
+        "entries": [
+          "Istrid has advantage on saving throws against being poisoned."
+        ]
+      }
+    ],
+    "spellcasting": [
+      {
+        "name": "Spellcasting",
+        "entries": [
+          "Istrid is a 9th-level spellcaster. Her spellcasting ability is Wisdom (spell save DC 14, 6 to hit with spell attacks) She has the following cleric spells prepared:",
+          "0: light, mending, sacred flame, spare the dying",
+          "1 (4 slots): divine favor, guiding bolt, healing word, shield of faith",
+          "2 (3 slots): lesser restoration, magic weapon, hold person, silence, spiritual weapon",
+          "3 (3 slots): beacon of hope, crusader's mantle, dispel magic, revivify, spirit guardians, water walk",
+          "4 (3 slots): banishment, freedom of movement, guardian of faith, stoneskin",
+          "5 (1 slots): flame strike, mass cure wounds, hold monster"
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "entries": [
+          "Istrid makes two melee attacks."
+        ]
+      },
+      {
+        "name": "Maul",
+        "entries": [
+          "Melee Weapon Attack: 4 to hit, reach 5 ft., one target. 8 (2d6 + 1) bludgeoning damage."
+        ]
+      },
+      {
+        "name": "Treasure Sense (3/Day)",
+        "entries": [
+          "Istrid magically pinpoints precious metals and stones, such as coins and gems, within 60 feet of her."
+        ]
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Jalester Silvermane",
+    "source": "WDH",
+    "sourceKey": "WDH",
+    "page": 205,
+    "size": "Medium",
+    "type": "humanoid (human)",
+    "alignment": "lawful good",
+    "armorClass": "18 (chain mail, Badge of the Watch)",
+    "hitPoints": "71 (13d8 + 13)",
+    "speed": "walk 30 ft.",
+    "abilities": {
+      "str": 14,
+      "dex": 14,
+      "con": 13,
+      "int": 12,
+      "wis": 14,
+      "cha": 13
+    },
+    "savingThrows": "str: +4, con: +3",
+    "skills": "athletics: +4, survival: +4",
+    "senses": "passive Perception 12",
+    "languages": "Common, Elvish",
+    "challengeRating": "4",
+    "traits": [
+      {
+        "name": "Special Equipment",
+        "entries": [
+          "Jalester carries a badge of the Watch."
+        ]
+      },
+      {
+        "name": "Second Wind (Recharges after a Short or Long Rest)",
+        "entries": [
+          "As a bonus action, Jalester can regain 16 (1d10 + 11) hit points."
+        ]
+      }
+    ],
+    "spellcasting": [],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "entries": [
+          "Jalester makes two weapon attacks."
+        ]
+      },
+      {
+        "name": "Longsword",
+        "entries": [
+          "Melee Weapon Attack: 4 to hit, reach 5 ft., one target. 6 (1d8 + 2) slashing damage, or 7 (1d10 + 2) slashing damage when used with two hands."
+        ]
+      },
+      {
+        "name": "Dagger",
+        "entries": [
+          "Melee Weapon Attack: 4 to hit, reach 5 ft., one target. 4 (1d4 + 2) piercing damage. Or Ranged Weapon Attack: 4 to hit, range 20/60 ft., one target. 4 (1d4 + 2) piercing damage."
+        ]
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [
+      {
+        "name": "Riposte",
+        "entries": [
+          "When a creature that Jalester can see misses him with a melee attack, he can use his reaction to make a melee weapon attack against that creature. On a hit, the target takes an extra 4 damage from the weapon."
+        ]
+      }
+    ],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Jandar Chergoba",
+    "source": "WDH",
+    "sourceKey": "WDH",
+    "page": 116,
+    "size": "Medium",
+    "type": "humanoid (tiefling)",
+    "alignment": "lawful evil",
+    "armorClass": "13 (leather armor)",
+    "hitPoints": "33 (6d8 + 6)",
+    "speed": "walk 30 ft.",
+    "abilities": {
+      "str": 11,
+      "dex": 14,
+      "con": 12,
+      "int": 10,
+      "wis": 13,
+      "cha": 14
+    },
+    "savingThrows": "",
+    "skills": "deception: +4, persuasion: +4, religion: +2",
+    "senses": "darkvision 60 ft., passive Perception 11",
+    "languages": "Common, Infernal",
+    "challengeRating": "2",
+    "traits": [
+      {
+        "name": "Dark Devotion",
+        "entries": [
+          "Jandar has advantage on saving throws against being charmed or frightened."
+        ]
+      }
+    ],
+    "spellcasting": [
+      {
+        "name": "Innate Spellcasting",
+        "entries": [
+          "Jandar's spellcasting ability is Charisma. He can innately cast the following spells, requiring no material components:",
+          "At will: thaumaturgy"
+        ]
+      },
+      {
+        "name": "Spellcasting",
+        "entries": [
+          "Jandar is a 4th-level spellcaster. His spellcasting ability is Wisdom. Jandar has the following cleric spells prepared:",
+          "0: light, sacred flame, thaumaturgy",
+          "1 (4 slots): command, inflict wounds, shield of faith",
+          "2 (3 slots): hold person, spiritual weapon"
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "entries": [
+          "Jandar makes two melee attacks."
+        ]
+      },
+      {
+        "name": "Dagger",
+        "entries": [
+          "Melee Weapon Attack: 4 to hit, reach 5 ft., one creature. 4 (1d4 + 2) piercing damage. Or Ranged Weapon Attack: 4 to hit, range 20/60 ft., one creature. 4 (1d4 + 2) piercing damage."
+        ]
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Jarlaxle Baenre",
+    "source": "WDH",
+    "sourceKey": "WDH",
+    "page": 206,
+    "size": "Medium",
+    "type": "humanoid (elf)",
+    "alignment": "chaotic neutral",
+    "armorClass": "24 (+3 leather armor, Suave Defense)",
+    "hitPoints": "123 (19d8 + 38)",
+    "speed": "walk 30 ft.",
+    "abilities": {
+      "str": 12,
+      "dex": 22,
+      "con": 14,
+      "int": 20,
+      "wis": 16,
+      "cha": 19
+    },
+    "savingThrows": "dex: +11, wis: +8",
+    "skills": "acrobatics: +11, athletics: +6, deception: +14, perception: +8, sleight of hand: +11, stealth: +16",
+    "senses": "darkvision 120 ft., passive Perception 18",
+    "languages": "Abyssal, Common, Draconic, Dwarvish, Elvish, Undercommon",
+    "challengeRating": "15",
+    "traits": [
+      {
+        "name": "Special Equipment",
+        "entries": [
+          "Jarlaxle wears +3 leather armor, a hat of disguise, a bracer of flying daggers, a cloak of invisibility, a knave's eye patch, and a ring of truth telling. He wields a +3 rapier and carries a portable hole and a wand of web. His hat is adorned with a feather of diatryma summoning."
+        ]
+      },
+      {
+        "name": "Evasion",
+        "entries": [
+          "If he is subjected to an effect that allows him to make a Dexterity saving throw to take only half damage, Jarlaxle instead takes no damage if he succeeds on the saving throw, and only half damage if he fails. He can't use this trait if he's incapacitated."
+        ]
+      },
+      {
+        "name": "Fey Ancestry",
+        "entries": [
+          "Jarlaxle has advantage on saving throws against being charmed, and magic can't put him to sleep."
+        ]
+      },
+      {
+        "name": "Legendary Resistance (1/Day)",
+        "entries": [
+          "If Jarlaxle fails a saving throw, he can choose to succeed instead."
+        ]
+      },
+      {
+        "name": "Master Attuner",
+        "entries": [
+          "Jarlaxle can attune to up to five magic items, and he can attune to magic items that normally require attunement by a sorcerer, warlock, or wizard."
+        ]
+      },
+      {
+        "name": "Sneak Attack (1/Turn)",
+        "entries": [
+          "Jarlaxle deals an extra 24 (7d6) damage when he hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of Jarlaxle's that isn't incapacitated and Jarlaxle doesn't have disadvantage on the attack roll."
+        ]
+      },
+      {
+        "name": "Suave Defense",
+        "entries": [
+          "While Jarlaxle is wearing light or no armor and wielding no shield, his AC includes his Charisma modifier."
+        ]
+      },
+      {
+        "name": "Sunlight Sensitivity",
+        "entries": [
+          "When not wearing his knave's eye patch, Jarlaxle has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight."
+        ]
+      }
+    ],
+    "spellcasting": [
+      {
+        "name": "Innate Spellcasting",
+        "entries": [
+          "Jarlaxle's innate spellcasting ability is Charisma (spell save DC 17, 9 to hit with spell attacks) He can innately cast the following spells, requiring no material components:",
+          "At will: dancing lights",
+          "1e/day: darkness, faerie fire, levitate (self only)"
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "entries": [
+          "Jarlaxle makes three attacks with his +3 rapier or two attacks with daggers created by his bracer of flying daggers."
+        ]
+      },
+      {
+        "name": "+3 Rapier",
+        "entries": [
+          "Melee Weapon Attack: 14 to hit, reach 5 ft., one target. 13 (1d8 + 9) piercing damage."
+        ]
+      },
+      {
+        "name": "Flying Dagger",
+        "entries": [
+          "Ranged Weapon Attack: 11 to hit, range 20/60 ft., one target. 8 (1d4 + 6) piercing damage."
+        ]
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [
+      {
+        "name": "Quick Step",
+        "entries": [
+          "Jarlaxle moves up to his speed without provoking opportunity attacks."
+        ]
+      },
+      {
+        "name": "Attack (Costs 2 Actions)",
+        "entries": [
+          "Jarlaxle makes one attack with his +3 rapier or two attacks with daggers created by his bracer of flying daggers."
+        ]
+      }
+    ],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Jenks",
+    "source": "WDH",
+    "sourceKey": "WDH",
+    "page": 63,
+    "size": "Small",
+    "type": "humanoid (human)",
+    "alignment": "",
+    "armorClass": "",
+    "hitPoints": "",
+    "speed": "",
+    "abilities": {},
+    "savingThrows": "",
+    "skills": "",
+    "senses": "",
+    "languages": "",
+    "challengeRating": "",
+    "traits": [],
+    "spellcasting": [],
+    "actions": [],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Kaevja Cynavern",
+    "source": "WDH",
+    "sourceKey": "WDH",
+    "page": 158,
+    "size": "",
+    "type": "humanoid (human)",
+    "alignment": "lawful evil",
+    "armorClass": "",
+    "hitPoints": "",
+    "speed": "",
+    "abilities": {},
+    "savingThrows": "",
+    "skills": "",
+    "senses": "",
+    "languages": "Common, Draconic, Dwarvish, Elvish",
+    "challengeRating": "",
+    "traits": [],
+    "spellcasting": [],
+    "actions": [],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Kalain",
+    "source": "WDH",
+    "sourceKey": "WDH",
+    "page": 89,
+    "size": "Medium",
+    "type": "humanoid (half-elf)",
+    "alignment": "chaotic evil",
+    "armorClass": "15 (chain shirt)",
+    "hitPoints": "44 (8d8 + 8)",
+    "speed": "walk 30 ft.",
+    "abilities": {
+      "str": 11,
+      "dex": 14,
+      "con": 12,
+      "int": 10,
+      "wis": 13,
+      "cha": 14
+    },
+    "savingThrows": "dex: +4, wis: +3",
+    "skills": "acrobatics: +4, perception: +5, performance: +6",
+    "senses": "darkvision 60 ft., passive Perception 15",
+    "languages": "Common, Elvish",
+    "challengeRating": "2",
+    "traits": [
+      {
+        "name": "Fey Ancestry",
+        "entries": [
+          "Kalain has advantage on saving throws against being charmed and magic can't put her to sleep."
+        ]
+      },
+      {
+        "name": "Art Imitates Life (3/Day)",
+        "entries": [
+          "Kalain touches one of her paintings and causes its subject to spring forth, becoming a creature of that kind provided its CR is 3 or lower. The creature appears in an unoccupied space within 5 feet of the painting, which becomes blank. The creature is friendly toward Kalain and hostile toward all others. It rolls initiative to determine when it acts. It disappears after 1 minute, when it is reduced to 0 hit points, or when Kalain dies or falls unconscious."
+        ]
+      },
+      {
+        "name": "Taunt (2/Day)",
+        "entries": [
+          "Kalain can use a bonus action on her turn to target one creature within 30 feet of it. If the target can hear Kalain, the target must succeed on a DC 12 Charisma saving throw or have disadvantage on ability checks, attack rolls, and saving throws until the start of Kalain's next turn."
+        ]
+      }
+    ],
+    "spellcasting": [
+      {
+        "name": "Spellcasting",
+        "entries": [
+          "Kalain is a 4th-level spellcaster. Her spellcasting ability is Charisma. She has the following bard spells prepared:",
+          "0: friends, mage hand, vicious mockery",
+          "1 (4 slots): charm person, healing word, heroism, sleep, thunderwave",
+          "2 (3 slots): invisibility, shatter"
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "name": "Shortsword",
+        "entries": [
+          "Melee Weapon Attack: 4 to hit, reach 5 ft., one target. 5 (1d6 + 2) piercing damage."
+        ]
+      },
+      {
+        "name": "Shortbow",
+        "entries": [
+          "Ranged Weapon Attack: 4 to hit, range 80/320 ft., one target. 5 (1d6 + 2) piercing damage."
+        ]
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Krebbyg Masq'il'yr",
+    "source": "WDH",
+    "sourceKey": "WDH",
+    "page": 67,
+    "size": "",
+    "type": "",
+    "alignment": "chaotic neutral",
+    "armorClass": "",
+    "hitPoints": "",
+    "speed": "",
+    "abilities": {},
+    "savingThrows": "",
+    "skills": "",
+    "senses": "",
+    "languages": "",
+    "challengeRating": "",
+    "traits": [],
+    "spellcasting": [],
+    "actions": [],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Lady Gondafrey",
+    "source": "WDH",
+    "sourceKey": "WDH",
+    "page": 152,
+    "size": "Medium",
+    "type": "elemental",
+    "alignment": "lawful good",
+    "armorClass": "15 (natural armor)",
+    "hitPoints": "52 (7d8 + 21)",
+    "speed": "walk 30 ft., fly 60 ft.",
+    "abilities": {
+      "str": 15,
+      "dex": 11,
+      "con": 16,
+      "int": 10,
+      "wis": 11,
+      "cha": 7
+    },
+    "savingThrows": "",
+    "skills": "",
+    "senses": "darkvision 60 ft., passive Perception 10",
+    "languages": "Common",
+    "challengeRating": "2",
+    "traits": [
+      {
+        "name": "False Appearance",
+        "entries": [
+          "While the gargoyle remains motionless, it is indistinguishable from an inanimate statue."
+        ]
+      }
+    ],
+    "spellcasting": [],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "entries": [
+          "The gargoyle makes two attacks: one with its bite and one with its claws."
+        ]
+      },
+      {
+        "name": "Bite",
+        "entries": [
+          "Melee Weapon Attack: 4 to hit, reach 5 ft., one target. 5 (1d6 + 2) piercing damage."
+        ]
+      },
+      {
+        "name": "Claws",
+        "entries": [
+          "Melee Weapon Attack: 4 to hit, reach 5 ft., one target. 5 (1d6 + 2) slashing damage."
+        ]
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Laeral Silverhand",
+    "source": "WDH",
+    "sourceKey": "WDH",
+    "page": 207,
+    "size": "Medium",
+    "type": "humanoid (human)",
+    "alignment": "chaotic good",
+    "armorClass": "18 (robe of the archmagi)",
+    "hitPoints": "228 (24d8 + 120)",
+    "speed": "walk 30 ft.",
+    "abilities": {
+      "str": 13,
+      "dex": 17,
+      "con": 20,
+      "int": 20,
+      "wis": 20,
+      "cha": 19
+    },
+    "savingThrows": "int: +11, wis: +11",
+    "skills": "arcana: +17, history: +17, insight: +11, perception: +11, persuasion: +10",
+    "senses": "truesight 60 ft., passive Perception 21",
+    "languages": "Common, Draconic, Dwarvish, Elvish, Giant, Infernal",
+    "challengeRating": "17",
+    "traits": [
+      {
+        "name": "Special Equipment",
+        "entries": [
+          "Laeral wears a white robe of the archmagi (accounted for in her statistics). She wields a flame tongue longsword."
+        ]
+      },
+      {
+        "name": "Magic Resistance",
+        "entries": [
+          "While wearing her robe of the archmagi, Laeral has advantage on saving throws against spells and other magical effects."
+        ]
+      }
+    ],
+    "spellcasting": [
+      {
+        "name": "Spellcasting",
+        "entries": [
+          "Laeral is a 19th-level spellcaster. Her spellcasting ability is Intelligence (spell save DC 21, 13 to hit with spell attacks). Laeral has the following wizard spells prepared:",
+          "0: light, mage hand, minor illusion, prestidigitation, ray of frost",
+          "1: detect magic, disguise self, magic missile, shield",
+          "2: detect thoughts, invisibility, misty step",
+          "3 (3 slots): counterspell, fly, sending, tongues",
+          "4 (3 slots): banishment, greater invisibility, Otiluke's resilient sphere",
+          "5 (3 slots): cone of cold, geas, Rary's telepathic bond",
+          "6 (2 slots): globe of invulnerability, mass suggestion",
+          "7 (1 slots): prismatic spray, teleport",
+          "8 (1 slots): feeblemind, power word stun",
+          "9 (1 slots): time stop"
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "entries": [
+          "Laeral makes three attacks with her silver hair and flame tongue, in any combination. She can cast one of her cantrips or 1st-level spells before or after making these attacks."
+        ]
+      },
+      {
+        "name": "Silver Hair",
+        "entries": [
+          "Melee Weapon Attack: 11 to hit, reach 5 ft., one target. 7 (2d6) force damage, and the target must succeed on a DC 19 Constitution saving throw or be paralyzed for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+        ]
+      },
+      {
+        "name": "Flame Tongue",
+        "entries": [
+          "Melee Weapon Attack: 7 to hit, reach 5 ft., one target. 5 (1d8 + 1) slashing damage plus 7 (2d6) fire damage, or 6 (1d10 + 1) slashing damage plus 7 (2d6) fire damage when used with two hands."
+        ]
+      },
+      {
+        "name": "Spellfire (Recharges after a Long Rest)",
+        "entries": [
+          "Magical, heatless, silver fire harmlessly erupts from Laeral and surrounds her until she is incapacitated or until she uses an action to quench it. She gains one of the following benefits of her choice, which lasts until the silver fire ends:",
+          "- She can breathe underwater.\n- She can survive without food and water.\n- She is immune to magic that would ascertain her thoughts, truthfulness, alignment, or creature type.\n- She gains resistance to cold damage, and she is unharmed by temperatures as low as -50 degrees Fahrenheit.",
+          "While the silver fire is present, she has the following additional action options:",
+          "- Cast the cure wounds spell. The target regains 1d8 + 5 hit points. After Laeral takes this action, roll a d6. On a roll of 1, the silver fire disappears.\n- Cast the revivify spell without material components. After Laeral takes this action, roll a d6. On a roll of 1-2, the silver fire disappears.\n- Release a 60-foot line of silver fire that is 5 feet wide or a 30-foot cone of silver fire. Objects in the area that aren't being worn or carried take 26 (4d12) fire damage. Each creature in the area must succeed on a DC 21 Dexterity saving throw, taking 26 (4d12) fire damage on a failed save, or half as much damage on a successful one. After Laeral takes this action, roll a d6. On a roll of 1-3, the silver fire disappears."
+        ]
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Laiba \"Nana\" Rosse",
+    "source": "WDH",
+    "sourceKey": "WDH",
+    "page": 116,
+    "size": "Medium",
+    "type": "humanoid (tiefling)",
+    "alignment": "lawful evil",
+    "armorClass": "13 (leather armor)",
+    "hitPoints": "33 (6d8 + 6)",
+    "speed": "walk 30 ft.",
+    "abilities": {
+      "str": 11,
+      "dex": 14,
+      "con": 12,
+      "int": 10,
+      "wis": 13,
+      "cha": 14
+    },
+    "savingThrows": "",
+    "skills": "deception: +4, persuasion: +4, religion: +2",
+    "senses": "darkvision 60 ft., passive Perception 11",
+    "languages": "Common, Infernal",
+    "challengeRating": "2",
+    "traits": [
+      {
+        "name": "Dark Devotion",
+        "entries": [
+          "Laiba has advantage on saving throws against being charmed or frightened."
+        ]
+      }
+    ],
+    "spellcasting": [
+      {
+        "name": "Innate Spellcasting",
+        "entries": [
+          "Laiba's spellcasting ability is Charisma. She can innately cast the following spells, requiring no material components:",
+          "At will: thaumaturgy"
+        ]
+      },
+      {
+        "name": "Spellcasting",
+        "entries": [
+          "Laiba is a 4th-level spellcaster. Her spellcasting ability is Wisdom. Laiba has the following cleric spells prepared:",
+          "0: light, sacred flame, thaumaturgy",
+          "1 (4 slots): command, inflict wounds, shield of faith",
+          "2 (3 slots): hold person, spiritual weapon"
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "entries": [
+          "Laiba makes two melee attacks."
+        ]
+      },
+      {
+        "name": "Dagger",
+        "entries": [
+          "Melee Weapon Attack: 4 to hit, reach 5 ft., one creature. 4 (1d4 + 2) piercing damage. Or Ranged Weapon Attack: 4 to hit, range 20/60 ft., one creature. 4 (1d4 + 2) piercing damage."
+        ]
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Losser Mirklav",
+    "source": "WDH",
+    "sourceKey": "WDH",
+    "page": 85,
+    "size": "",
+    "type": "",
+    "alignment": "chaotic evil",
+    "armorClass": "",
+    "hitPoints": "31 (9d6)",
+    "speed": "",
+    "abilities": {},
+    "savingThrows": "",
+    "skills": "",
+    "senses": "",
+    "languages": "",
+    "challengeRating": "",
+    "traits": [],
+    "spellcasting": [],
+    "actions": [],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Magister Umbero Zastro",
+    "source": "WDH",
+    "sourceKey": "WDH",
+    "page": 82,
+    "size": "Medium",
+    "type": "humanoid (half-elf)",
+    "alignment": "lawful neutral",
+    "armorClass": "11",
+    "hitPoints": "9 (2d8)",
+    "speed": "walk 30 ft.",
+    "abilities": {
+      "str": 11,
+      "dex": 12,
+      "con": 11,
+      "int": 12,
+      "wis": 14,
+      "cha": 16
+    },
+    "savingThrows": "",
+    "skills": "deception: +5, insight: +4, persuasion: +5",
+    "senses": "darkvision 60 ft., passive Perception 12",
+    "languages": "Common, Elvish",
+    "challengeRating": "0",
+    "traits": [
+      {
+        "name": "Fey Ancestry",
+        "entries": [
+          "Umbero has advantage on saving throws against being charmed and magic can't put him to sleep."
+        ]
+      }
+    ],
+    "spellcasting": [],
+    "actions": [
+      {
+        "name": "Rapier",
+        "entries": [
+          "Melee Weapon Attack: 3 to hit, reach 5 ft., one target. 5 (1d8 + 1) piercing damage."
+        ]
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [
+      {
+        "name": "Parry",
+        "entries": [
+          "The noble adds 2 to its AC against one melee attack that would hit it. To do so, the noble must see the attacker and be wielding a melee weapon."
+        ]
+      }
+    ],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Manafret Cherryport",
+    "source": "WDH",
+    "sourceKey": "WDH",
+    "page": 149,
+    "size": "",
+    "type": "",
+    "alignment": "lawful evil",
+    "armorClass": "",
+    "hitPoints": "31 (9d6)",
+    "speed": "",
+    "abilities": {},
+    "savingThrows": "",
+    "skills": "",
+    "senses": "",
+    "languages": "Common, Halfling",
+    "challengeRating": "",
+    "traits": [],
+    "spellcasting": [],
+    "actions": [],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Manshoon",
+    "source": "WDH",
+    "sourceKey": "WDH",
+    "page": 209,
+    "size": "Medium",
+    "type": "humanoid (human)",
+    "alignment": "lawful evil",
+    "armorClass": "19 (robe of the archmagi, staff of power)",
+    "hitPoints": "126 (23d8 + 23)",
+    "speed": "walk 30 ft.",
+    "abilities": {
+      "str": 10,
+      "dex": 14,
+      "con": 12,
+      "int": 23,
+      "wis": 15,
+      "cha": 16
+    },
+    "savingThrows": "str: +2, dex: +4, con: +3, int: +13, wis: +9, cha: +5",
+    "skills": "arcana: +11, history: +11",
+    "senses": "darkvision 60 ft., passive Perception 12",
+    "languages": "Common, Draconic, Goblin, Infernal, Orc, Undercommon",
+    "challengeRating": "13",
+    "traits": [
+      {
+        "name": "Special Equipment",
+        "entries": [
+          "Manshoon wears a black robe of the archmagi and wields a staff of power (both accounted for in his statistics). Roll 2d10 to determine how many charges the staff has remaining."
+        ]
+      },
+      {
+        "name": "Magic Resistance",
+        "entries": [
+          "While wearing his robe of the archmagi, Manshoon has advantage on saving throws against spells and other magical effects."
+        ]
+      }
+    ],
+    "spellcasting": [
+      {
+        "name": "Spellcasting",
+        "entries": [
+          "Manshoon is an 18th-level spellcaster. His spellcasting ability is Intelligence (spell save DC 21, 15 to hit with spell attacks). He has the following wizard spells prepared:",
+          "0: fire bolt, light, mage hand, prestidigitation, shocking grasp",
+          "1 (4 slots): detect magic, mage armor, magic missile, shield",
+          "2 (3 slots): detect thoughts, mirror image, misty step",
+          "3 (3 slots): counterspell, lightning bolt, sending",
+          "4 (3 slots): fire shield, greater invisibility, polymorph",
+          "5 (3 slots): Bigby's hand, scrying, wall of force",
+          "6 (1 slots): flesh to stone, globe of invulnerability",
+          "7 (1 slots): finger of death, simulacrum",
+          "8 (1 slots): feeblemind, mind blank",
+          "9 (1 slots): imprisonment, power word kill"
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "name": "Metal Fist",
+        "entries": [
+          "Melee Weapon Attack: 6 to hit, reach 5 ft., one target. 4 (1d4 + 2) bludgeoning damage."
+        ]
+      },
+      {
+        "name": "Staff of Power",
+        "entries": [
+          "Melee Weapon Attack: 7 to hit, reach 5 ft., one target. 5 (1d6 + 2) bludgeoning damage, or 6 (1d8 + 2) bludgeoning damage when used with two hands. Manshoon can expend 1 of the staff's charges to deal an extra 3 (1d6) force damage on a hit."
+        ]
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Manshoon Simulacrum",
+    "source": "WDH",
+    "sourceKey": "WDH",
+    "page": 208,
+    "size": "Medium",
+    "type": "humanoid (human)",
+    "alignment": "lawful evil",
+    "armorClass": "12",
+    "hitPoints": "126 (23d8 + 23)",
+    "speed": "walk 30 ft.",
+    "abilities": {
+      "str": 10,
+      "dex": 14,
+      "con": 12,
+      "int": 23,
+      "wis": 15,
+      "cha": 16
+    },
+    "savingThrows": "int: +11, wis: +7",
+    "skills": "arcana: +12, history: +12",
+    "senses": "darkvision 60 ft., passive Perception 12",
+    "languages": "Common, Draconic, Goblin, Infernal, Orc, Undercommon",
+    "challengeRating": "8",
+    "traits": [],
+    "spellcasting": [
+      {
+        "name": "Spellcasting",
+        "entries": [
+          "Manshoon is an 18th-level spellcaster. His spellcasting ability is Intelligence (spell save DC 19, 11 to hit with spell attacks). He has the following wizard spells prepared:",
+          "0: fire bolt, light, mage hand, prestidigitation, shocking grasp",
+          "1 (4 slots): detect magic, mage armor, magic missile, shield",
+          "2 (3 slots): detect thoughts, mirror image, misty step",
+          "3 (3 slots): counterspell, lightning bolt, sending",
+          "4 (3 slots): fire shield, greater invisibility, polymorph",
+          "5 (3 slots): Bigby's hand, scrying, wall of force"
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "name": "Metal Fist",
+        "entries": [
+          "Melee Weapon Attack: 6 to hit, reach 5 ft., one target. 4 (1d4 + 2) bludgeoning damage."
+        ]
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Mattrim \"Threestrings\" Mereg",
+    "source": "WDH",
+    "sourceKey": "WDH",
+    "page": 20,
+    "size": "",
+    "type": "humanoid (human)",
+    "alignment": "lawful good",
+    "armorClass": "",
+    "hitPoints": "",
+    "speed": "",
+    "abilities": {},
+    "savingThrows": "",
+    "skills": "",
+    "senses": "",
+    "languages": "",
+    "challengeRating": "",
+    "traits": [],
+    "spellcasting": [],
+    "actions": [],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Maxeene",
+    "source": "WDH",
+    "sourceKey": "WDH",
+    "page": 37,
+    "size": "Large",
+    "type": "beast",
+    "alignment": "unaligned",
+    "armorClass": "10",
+    "hitPoints": "19 (3d10 + 3)",
+    "speed": "walk 40 ft.",
+    "abilities": {
+      "str": 18,
+      "dex": 10,
+      "con": 12,
+      "int": 10,
+      "wis": 11,
+      "cha": 7
+    },
+    "savingThrows": "",
+    "skills": "",
+    "senses": "passive Perception 10",
+    "languages": "Common",
+    "challengeRating": "1/4",
+    "traits": [],
+    "spellcasting": [],
+    "actions": [
+      {
+        "name": "Hooves",
+        "entries": [
+          "Melee Weapon Attack: 6 to hit, reach 5 ft., one target. 9 (2d4 + 4) bludgeoning damage."
+        ]
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Mechanical Bird",
+    "source": "WDH",
+    "sourceKey": "WDH",
+    "page": 46,
+    "size": "Tiny",
+    "type": "construct",
+    "alignment": "neutral",
+    "armorClass": "15",
+    "hitPoints": "1",
+    "speed": "fly 60 ft.",
+    "abilities": {
+      "str": 10,
+      "dex": 10,
+      "con": 10,
+      "int": 10,
+      "wis": 10,
+      "cha": 10
+    },
+    "savingThrows": "",
+    "skills": "",
+    "senses": "passive Perception 10",
+    "languages": "",
+    "challengeRating": "Unknown",
+    "traits": [],
+    "spellcasting": [],
+    "actions": [
+      {
+        "name": "Slam",
+        "entries": [
+          "Melee Weapon Attack: 0 to hit, reach 5 ft., one target. 2 (1d3) piercing damage, and the bird is destroyed by the impact."
+        ]
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Melannor Fellbranch",
+    "source": "WDH",
+    "sourceKey": "WDH",
+    "page": 36,
+    "size": "Medium",
+    "type": "humanoid (half-elf)",
+    "alignment": "chaotic good",
+    "armorClass": "11, 16 with barkskin",
+    "hitPoints": "27 (5d8 + 5)",
+    "speed": "walk 30 ft.",
+    "abilities": {
+      "str": 10,
+      "dex": 12,
+      "con": 13,
+      "int": 12,
+      "wis": 15,
+      "cha": 11
+    },
+    "savingThrows": "",
+    "skills": "medicine: +4, nature: +3, perception: +4",
+    "senses": "darkvision 60 ft., passive Perception 14",
+    "languages": "Common, Elvish",
+    "challengeRating": "2",
+    "traits": [
+      {
+        "name": "Fey Ancestry",
+        "entries": [
+          "Melannor has advantage on saving throws against being charmed, and magic can't put him to sleep."
+        ]
+      }
+    ],
+    "spellcasting": [
+      {
+        "name": "Spellcasting",
+        "entries": [
+          "Melannor is a 4th-level spellcaster. His spellcasting ability is Wisdom. He has the following druid spells prepared:",
+          "0: druidcraft, produce flame, shillelagh",
+          "1 (4 slots): entangle, longstrider, speak with animals, thunderwave",
+          "2 (3 slots): animal messenger, barkskin"
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "name": "Quarterstaff",
+        "entries": [
+          "Melee Weapon Attack: 2 to hit or Melee Weapon Attack 4 to hit with shillelagh, reach 5 ft., one target. 3 (1d6) bludgeoning damage, or 6 (1d8 + 2) bludgeoning damage with shillelagh or if wielded with two hands."
+        ]
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Meloon Wardragon",
+    "source": "WDH",
+    "sourceKey": "WDH",
+    "page": 210,
+    "size": "Medium",
+    "type": "humanoid (human)",
+    "alignment": "lawful evil",
+    "armorClass": "18 (plate armor)",
+    "hitPoints": "143 (22d8 + 44)",
+    "speed": "walk 30 ft.",
+    "abilities": {
+      "str": 20,
+      "dex": 15,
+      "con": 14,
+      "int": 10,
+      "wis": 14,
+      "cha": 15
+    },
+    "savingThrows": "str: +9, con: +6",
+    "skills": "athletics: +9, survival: +6",
+    "senses": "darkvision 60 ft., passive Perception 12",
+    "languages": "Common, Deep Speech, telepathy 60 ft.",
+    "challengeRating": "9",
+    "traits": [
+      {
+        "name": "Special Equipment",
+        "entries": [
+          "Meloon wields Azuredge but can't attune to it, and thus gains none of its benefits."
+        ]
+      },
+      {
+        "name": "Indomitable (2/Day)",
+        "entries": [
+          "Meloon can reroll a saving throw that he fails. He must use the new roll."
+        ]
+      },
+      {
+        "name": "Second Wind (Recharges after a Short or Long Rest)",
+        "entries": [
+          "As a bonus action, Meloon can regain 20 hit points."
+        ]
+      }
+    ],
+    "spellcasting": [],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "entries": [
+          "Meloon makes four attacks with Azuredge."
+        ]
+      },
+      {
+        "name": "Azuredge",
+        "entries": [
+          "Melee Weapon Attack: 9 to hit, reach 5 ft., one target. 11 (1d12 + 5) slashing damage."
+        ]
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Mirt",
+    "source": "WDH",
+    "sourceKey": "WDH",
+    "page": 211,
+    "size": "Medium",
+    "type": "humanoid (human)",
+    "alignment": "chaotic good",
+    "armorClass": "16 (bracers of defense)",
+    "hitPoints": "153 (18d8 + 72)",
+    "speed": "walk 30 ft.",
+    "abilities": {
+      "str": 18,
+      "dex": 18,
+      "con": 18,
+      "int": 15,
+      "wis": 12,
+      "cha": 15
+    },
+    "savingThrows": "dex: +8, wis: +5",
+    "skills": "acrobatics: +8, athletics: +8, perception: +5, persuasion: +6, stealth: +8",
+    "senses": "passive Perception 15",
+    "languages": "Common, Dwarvish",
+    "challengeRating": "9",
+    "traits": [
+      {
+        "name": "Special Equipment",
+        "entries": [
+          "Mirt wears bracers of defense and a ring of regeneration. He wields a +1 longsword and a +1 dagger."
+        ]
+      },
+      {
+        "name": "Brute",
+        "entries": [
+          "A melee weapon deals one extra die of its damage when Mirt hits with it (included in the attacks below)."
+        ]
+      },
+      {
+        "name": "Evasion",
+        "entries": [
+          "If he is subjected to an effect that allows him to make a Dexterity saving throw to take only half damage, Mirt instead takes no damage if he succeeds on the saving throw, and only half damage if he fails. He can't use this trait if he's incapacitated."
+        ]
+      },
+      {
+        "name": "Sneak Attack (1/Turn)",
+        "entries": [
+          "Mirt deals an extra 14 (4d6) damage when he hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of Mirt's that isn't incapacitated and Mirt doesn't have disadvantage on the attack roll."
+        ]
+      }
+    ],
+    "spellcasting": [],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "entries": [
+          "Mirt makes three attacks: two with his +1 longsword and one with his +1 dagger."
+        ]
+      },
+      {
+        "name": "+1 Longsword",
+        "entries": [
+          "Melee Weapon Attack: 9 to hit, reach 5 ft., one target. 14 (2d8 + 5) slashing damage, or 16 (2d10 + 5) slashing damage when used with two hands."
+        ]
+      },
+      {
+        "name": "+1 Dagger",
+        "entries": [
+          "Melee Weapon Attack: 9 to hit, reach 5 ft., one target. 10 (2d4 + 5) piercing damage. Or Ranged Weapon Attack: 9 to hit, range 20/60 ft., one target. 7 (1d4 + 5) piercing damage."
+        ]
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [
+      {
+        "name": "Parry",
+        "entries": [
+          "Mirt adds 2 to his AC against one melee attack that would hit him. To do so, Mirt must see the attacker and be wielding a melee weapon."
+        ]
+      }
+    ],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Nar'l Xibrindas",
+    "source": "WDH",
+    "sourceKey": "WDH",
+    "page": 211,
+    "size": "",
+    "type": "",
+    "alignment": "",
+    "armorClass": "",
+    "hitPoints": "",
+    "speed": "",
+    "abilities": {},
+    "savingThrows": "",
+    "skills": "",
+    "senses": "",
+    "languages": "",
+    "challengeRating": "",
+    "traits": [],
+    "spellcasting": [],
+    "actions": [],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Nat",
+    "source": "WDH",
+    "sourceKey": "WDH",
+    "page": 63,
+    "size": "Small",
+    "type": "humanoid (human)",
+    "alignment": "",
+    "armorClass": "",
+    "hitPoints": "",
+    "speed": "",
+    "abilities": {},
+    "savingThrows": "",
+    "skills": "",
+    "senses": "",
+    "languages": "",
+    "challengeRating": "",
+    "traits": [],
+    "spellcasting": [],
+    "actions": [],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Nihiloor",
+    "source": "WDH",
+    "sourceKey": "WDH",
+    "page": 212,
+    "size": "",
+    "type": "",
+    "alignment": "",
+    "armorClass": "",
+    "hitPoints": "",
+    "speed": "",
+    "abilities": {},
+    "savingThrows": "",
+    "skills": "",
+    "senses": "",
+    "languages": "",
+    "challengeRating": "",
+    "traits": [],
+    "spellcasting": [],
+    "actions": [],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Nimblewright",
+    "source": "WDH",
+    "sourceKey": "WDH",
+    "page": 212,
+    "size": "Medium",
+    "type": "construct",
+    "alignment": "unaligned",
+    "armorClass": "18 (natural armor)",
+    "hitPoints": "45 (6d8 + 18)",
+    "speed": "walk 60 ft.",
+    "abilities": {
+      "str": 12,
+      "dex": 18,
+      "con": 17,
+      "int": 8,
+      "wis": 10,
+      "cha": 6
+    },
+    "savingThrows": "dex: +6",
+    "skills": "acrobatics: +8, perception: +2",
+    "senses": "darkvision 60 ft., passive Perception 12",
+    "languages": "understands one language known to its creator but can't speak",
+    "challengeRating": "4",
+    "traits": [
+      {
+        "name": "Magic Resistance",
+        "entries": [
+          "The nimblewright has advantage on saving throws against spells and other magical effects."
+        ]
+      },
+      {
+        "name": "Magic Weapons",
+        "entries": [
+          "The nimblewright's weapon attacks are magical."
+        ]
+      },
+      {
+        "name": "Repairable",
+        "entries": [
+          "As long as it has at least 1 hit point remaining, the nimblewright regains 1 hit point when a mending spell is cast on it."
+        ]
+      },
+      {
+        "name": "Sure-Footed",
+        "entries": [
+          "The nimblewright has advantage on Strength and Dexterity saving throws made against effects that would knock it prone."
+        ]
+      }
+    ],
+    "spellcasting": [],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "entries": [
+          "The nimblewright makes three attacks: two with its rapier and one with its dagger."
+        ]
+      },
+      {
+        "name": "Rapier",
+        "entries": [
+          "Melee Weapon Attack: 6 to hit, reach 5 ft., one target. 8 (1d8 + 4) piercing damage."
+        ]
+      },
+      {
+        "name": "Dagger",
+        "entries": [
+          "Melee Weapon Attack: 6 to hit, reach 5 ft., one target. 6 (1d4 + 4) piercing damage. Or Ranged Weapon Attack: 6 to hit, range 20/60 ft., one target. 6 (1d4 + 4) piercing damage."
+        ]
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [
+      {
+        "name": "Parry",
+        "entries": [
+          "The nimblewright adds 2 to its AC against one melee attack that would hit it. To do so, the nimblewright must see the attacker and be wielding a melee weapon."
+        ]
+      }
+    ],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Noska Ur'gray",
+    "source": "WDH",
+    "sourceKey": "WDH",
+    "page": 213,
+    "size": "Medium",
+    "type": "humanoid (dwarf)",
+    "alignment": "lawful evil",
+    "armorClass": "11 (leather armor)",
+    "hitPoints": "32 (5d8 + 10)",
+    "speed": "walk 25 ft.",
+    "abilities": {
+      "str": 15,
+      "dex": 11,
+      "con": 14,
+      "int": 10,
+      "wis": 10,
+      "cha": 11
+    },
+    "savingThrows": "",
+    "skills": "intimidation: +2",
+    "senses": "darkvision 60 ft., passive Perception 10",
+    "languages": "Common, Dwarvish",
+    "challengeRating": "1/2",
+    "traits": [
+      {
+        "name": "Pack Tactics",
+        "entries": [
+          "Noska has advantage on an attack roll against a creature if at least one of Noska's allies is within 5 feet of the creature and the ally isn't incapacitated."
+        ]
+      },
+      {
+        "name": "Dwarven Resilience",
+        "entries": [
+          "Noska has advantage on saving throws against poison and resistance to poison damage."
+        ]
+      },
+      {
+        "name": "Difficult Climber",
+        "entries": [
+          "Noska has disadvantage on Strength checks made to climb, due to his disability."
+        ]
+      }
+    ],
+    "spellcasting": [],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "entries": [
+          "Noska makes two melee attacks."
+        ]
+      },
+      {
+        "name": "Mace",
+        "entries": [
+          "Melee Weapon Attack: 4 to hit, reach 5 ft., one creature. 5 (1d6 + 2) bludgeoning damage."
+        ]
+      },
+      {
+        "name": "Heavy Crossbow",
+        "entries": [
+          "Ranged Weapon Attack: 2 to hit, range 100/400 ft., one target. 5 (1d10) piercing damage."
+        ]
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Obaya Uday",
+    "source": "WDH",
+    "sourceKey": "WDH",
+    "page": 20,
+    "size": "",
+    "type": "humanoid (human)",
+    "alignment": "neutral good",
+    "armorClass": "",
+    "hitPoints": "",
+    "speed": "",
+    "abilities": {},
+    "savingThrows": "",
+    "skills": "",
+    "senses": "",
+    "languages": "",
+    "challengeRating": "",
+    "traits": [],
+    "spellcasting": [],
+    "actions": [],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Obliteros",
+    "source": "WDH",
+    "sourceKey": "WDH",
+    "page": 66,
+    "size": "Huge",
+    "type": "beast",
+    "alignment": "chaotic evil",
+    "armorClass": "13 (natural armor)",
+    "hitPoints": "126 (11d12 + 55)",
+    "speed": "walk 0 ft., swim 50 ft.",
+    "abilities": {
+      "str": 23,
+      "dex": 11,
+      "con": 21,
+      "int": 10,
+      "wis": 10,
+      "cha": 5
+    },
+    "savingThrows": "",
+    "skills": "perception: +3",
+    "senses": "blindsight 60 ft., passive Perception 13",
+    "languages": "Aquan",
+    "challengeRating": "5",
+    "traits": [
+      {
+        "name": "Blood Frenzy",
+        "entries": [
+          "Obliteros has advantage on melee attack rolls against any creature that doesn't have all its hit points."
+        ]
+      },
+      {
+        "name": "Water Breathing",
+        "entries": [
+          "Obliteros can breathe only underwater."
+        ]
+      }
+    ],
+    "spellcasting": [],
+    "actions": [
+      {
+        "name": "Bite",
+        "entries": [
+          "Melee Weapon Attack: 9 to hit, reach 5 ft., one target. 22 (3d10 + 6) piercing damage."
+        ]
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Orond Gralhund",
+    "source": "WDH",
+    "sourceKey": "WDH",
+    "page": 213,
+    "size": "",
+    "type": "humanoid (human)",
+    "alignment": "neutral evil",
+    "armorClass": "",
+    "hitPoints": "",
+    "speed": "",
+    "abilities": {
+      "int": 9
+    },
+    "savingThrows": "",
+    "skills": "",
+    "senses": "",
+    "languages": "Common",
+    "challengeRating": "",
+    "traits": [],
+    "spellcasting": [],
+    "actions": [],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Osvaldo Cassalanter",
+    "source": "WDH",
+    "sourceKey": "WDH",
+    "page": 124,
+    "size": "",
+    "type": "",
+    "alignment": "",
+    "armorClass": "",
+    "hitPoints": "",
+    "speed": "",
+    "abilities": {},
+    "savingThrows": "",
+    "skills": "",
+    "senses": "",
+    "languages": "",
+    "challengeRating": "",
+    "traits": [],
+    "spellcasting": [],
+    "actions": [],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Ott Steeltoes",
+    "source": "WDH",
+    "sourceKey": "WDH",
+    "page": 214,
+    "size": "Medium",
+    "type": "humanoid (dwarf)",
+    "alignment": "chaotic evil",
+    "armorClass": "12 (leather armor)",
+    "hitPoints": "9 (2d8)",
+    "speed": "walk 25 ft.",
+    "abilities": {
+      "str": 11,
+      "dex": 12,
+      "con": 10,
+      "int": 6,
+      "wis": 11,
+      "cha": 10
+    },
+    "savingThrows": "",
+    "skills": "deception: +2, religion: +0",
+    "senses": "darkvision 60 ft., passive Perception 10",
+    "languages": "Common, Dwarvish",
+    "challengeRating": "1/8",
+    "traits": [
+      {
+        "name": "Dwarven Resilience",
+        "entries": [
+          "Ott has advantage on saving throws against poison and resistance to poison damage."
+        ]
+      },
+      {
+        "name": "Dark Devotion",
+        "entries": [
+          "The cultist has advantage on saving throws against being charmed or frightened."
+        ]
+      }
+    ],
+    "spellcasting": [],
+    "actions": [
+      {
+        "name": "Scimitar",
+        "entries": [
+          "Melee Weapon Attack: 3 to hit, reach 5 ft., one creature. 4 (1d6 + 1) slashing damage."
+        ]
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Panopticus Wizard",
+    "source": "WDH",
+    "sourceKey": "WDH",
+    "page": 106,
+    "size": "Medium",
+    "type": "humanoid (dwarf)",
+    "alignment": "neutral",
+    "armorClass": "10",
+    "hitPoints": "9 (2d8)",
+    "speed": "walk 25 ft.",
+    "abilities": {
+      "str": 10,
+      "dex": 10,
+      "con": 10,
+      "int": 14,
+      "wis": 10,
+      "cha": 11
+    },
+    "savingThrows": "",
+    "skills": "arcana: +4, history: +4",
+    "senses": "passive Perception 10",
+    "languages": "Common, Dwarvish",
+    "challengeRating": "1/4",
+    "traits": [
+      {
+        "name": "Dwarven Resilience",
+        "entries": [
+          "The dwarf has advantage on saving throws against poison and resistance to poison damage."
+        ]
+      }
+    ],
+    "spellcasting": [
+      {
+        "name": "Spellcasting",
+        "entries": [
+          "The Dwarf is a 1st-level spellcaster. Its spellcasting ability is Intelligence. It has the following wizard spells prepared:",
+          "0: fire bolt, mending, prestidigitation",
+          "1 (2 slots): burning hands, disguise self, shield"
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "name": "Dagger",
+        "entries": [
+          "Melee Weapon Attack: 2 to hit, reach 5 ft., one target. 2 (1d4) piercing damage. Or Ranged Weapon Attack: 2 to hit, range 20/60 ft., one target. 2 (1d4) piercing damage."
+        ]
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Remallia Haventree",
+    "source": "WDH",
+    "sourceKey": "WDH",
+    "page": 214,
+    "size": "Medium",
+    "type": "humanoid (elf)",
+    "alignment": "chaotic good",
+    "armorClass": "12, 15 with mage armor",
+    "hitPoints": "66 (12d8 + 12)",
+    "speed": "walk 30 ft.",
+    "abilities": {
+      "str": 10,
+      "dex": 14,
+      "con": 13,
+      "int": 18,
+      "wis": 15,
+      "cha": 17
+    },
+    "savingThrows": "int: +8, wis: +6",
+    "skills": "arcana: +8, deception: +7, history: +8, persuasion: +7",
+    "senses": "darkvision 60 ft., passive Perception 12",
+    "languages": "Common, Draconic, Dwarvish, Elvish, Halfling",
+    "challengeRating": "9",
+    "traits": [
+      {
+        "name": "Special Equipment",
+        "entries": [
+          "Remallia has a Figurine of Wondrous Power, Silver Raven."
+        ]
+      },
+      {
+        "name": "Fey Ancestry",
+        "entries": [
+          "Remallia has advantage on saving throws against being charmed, and magic can't put her to sleep."
+        ]
+      },
+      {
+        "name": "Arcane Ward",
+        "entries": [
+          "Remallia has a magical ward that has 30 hit points. Whenever she takes damage, the ward takes the damage instead. If the ward is reduced to 0 hit points, Remallia takes any remaining damage. When Remallia casts an abjuration spell of 1st level or higher, the ward regains a number of hit points equal to twice the level of the spell. This applies to any of the following spells she casts: alarm, mage armor, shield, arcane lock, counterspell, dispel magic, banishment, stoneskin, globe of invulnerability and symbol."
+        ]
+      }
+    ],
+    "spellcasting": [
+      {
+        "name": "Spellcasting",
+        "entries": [
+          "Remallia is a 13th-level spellcaster. Her spellcasting ability is Intelligence (spell save DC 16, 8 to hit with spell attacks). She has the following wizard spells prepared:",
+          "0: dancing lights, mage hand, mending, message, ray of frost",
+          "1 (4 slots): alarm, mage armor, magic missile, shield",
+          "2 (3 slots): arcane lock, invisibility",
+          "3 (3 slots): counterspell, dispel magic, fireball",
+          "4 (3 slots): banishment, stoneskin",
+          "5 (2 slots): cone of cold, wall of force",
+          "6 (1 slots): flesh to stone, globe of invulnerability",
+          "7 (1 slots): symbol, teleport"
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "name": "Dagger",
+        "entries": [
+          "Melee Weapon Attack: 6 to hit, reach 5 ft. or range 20/60 ft., one target. 4 (1d4 + 2) piercing damage."
+        ]
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Renaer Neverember",
+    "source": "WDH",
+    "sourceKey": "WDH",
+    "page": 215,
+    "size": "",
+    "type": "humanoid (human)",
+    "alignment": "chaotic good",
+    "armorClass": "",
+    "hitPoints": "",
+    "speed": "",
+    "abilities": {},
+    "savingThrows": "",
+    "skills": "",
+    "senses": "",
+    "languages": "Common",
+    "challengeRating": "",
+    "traits": [],
+    "spellcasting": [],
+    "actions": [],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Rishaal the Page-Turner",
+    "source": "WDH",
+    "sourceKey": "WDH",
+    "page": 33,
+    "size": "Medium",
+    "type": "humanoid (dragonborn)",
+    "alignment": "neutral",
+    "armorClass": "12, 15 with mage armor",
+    "hitPoints": "40 (9d8)",
+    "speed": "walk 30 ft.",
+    "abilities": {
+      "str": 9,
+      "dex": 14,
+      "con": 11,
+      "int": 17,
+      "wis": 12,
+      "cha": 11
+    },
+    "savingThrows": "int: +6, wis: +4",
+    "skills": "arcana: +6, history: +6",
+    "senses": "passive Perception 11",
+    "languages": "Common, Draconic, Dwarvish, Elvish",
+    "challengeRating": "6",
+    "traits": [],
+    "spellcasting": [
+      {
+        "name": "Spellcasting",
+        "entries": [
+          "Rishaal is a 9th-level spellcaster. His spellcasting ability is Intelligence. Rishaal has the following wizard spells prepared:",
+          "0: fire bolt, light, mage hand, prestidigitation",
+          "1 (4 slots): detect magic, mage armor, magic missile, shield",
+          "2 (3 slots): misty step, suggestion",
+          "3 (3 slots): counterspell, fireball, fly",
+          "4 (3 slots): greater invisibility, ice storm",
+          "5 (1 slots): cone of cold"
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "name": "Breath Weapon",
+        "entries": [
+          "Rishaal can use his action to exhale a 15-foot cone of fire (but can't do this again until he finishes a short or long rest); each creature in the cone must make a DC 10 Dexterity saving throw, taking 2d6 fire damage on a failed save, or half as much damage on a successful one."
+        ]
+      },
+      {
+        "name": "Dagger",
+        "entries": [
+          "Melee Weapon Attack: 5 to hit, reach 5 ft., one target. 4 (1d4 + 2) piercing damage. Or Ranged Weapon Attack: 5 to hit, range 20/60 ft., one target. 4 (1d4 + 2) piercing damage."
+        ]
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Saeth Cromley",
+    "source": "WDH",
+    "sourceKey": "WDH",
+    "page": 216,
+    "size": "",
+    "type": "humanoid (human)",
+    "alignment": "",
+    "armorClass": "",
+    "hitPoints": "",
+    "speed": "",
+    "abilities": {
+      "cha": 14
+    },
+    "savingThrows": "",
+    "skills": "",
+    "senses": "",
+    "languages": "Common",
+    "challengeRating": "",
+    "traits": [],
+    "spellcasting": [],
+    "actions": [],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Samara Strongbones",
+    "source": "WDH",
+    "sourceKey": "WDH",
+    "page": 104,
+    "size": "",
+    "type": "",
+    "alignment": "",
+    "armorClass": "",
+    "hitPoints": "",
+    "speed": "",
+    "abilities": {},
+    "savingThrows": "",
+    "skills": "",
+    "senses": "",
+    "languages": "",
+    "challengeRating": "",
+    "traits": [],
+    "spellcasting": [],
+    "actions": [],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Sergeant",
+    "source": "WDH",
+    "sourceKey": "WDH",
+    "page": 197,
+    "size": "",
+    "type": "",
+    "alignment": "",
+    "armorClass": "",
+    "hitPoints": "",
+    "speed": "",
+    "abilities": {},
+    "savingThrows": "",
+    "skills": "",
+    "senses": "",
+    "languages": "",
+    "challengeRating": "",
+    "traits": [],
+    "spellcasting": [],
+    "actions": [],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Shard Shunner",
+    "source": "WDH",
+    "sourceKey": "WDH",
+    "page": 42,
+    "size": "Small",
+    "type": "humanoid (halfling, shapechanger)",
+    "alignment": "lawful evil",
+    "armorClass": "12",
+    "hitPoints": "27 (6d6 + 6)",
+    "speed": "walk 30 ft.",
+    "abilities": {
+      "str": 10,
+      "dex": 15,
+      "con": 12,
+      "int": 11,
+      "wis": 10,
+      "cha": 8
+    },
+    "savingThrows": "",
+    "skills": "perception: +2, stealth: +4",
+    "senses": "darkvision 60 ft. (rat form only), passive Perception 12",
+    "languages": "Common, Halfling, Thieves' cant",
+    "challengeRating": "2",
+    "traits": [
+      {
+        "name": "Shapechanger",
+        "entries": [
+          "The Shard Shunner can use their action to polymorph into a rat-humanoid hybrid or into a giant rat, or back into their true form, which is humanoid. Their statistics, other than their size, are the same in each form. Any equipment they are wearing or carrying isn't transformed. They revert to their true form if they die."
+        ]
+      },
+      {
+        "name": "Keen Smell",
+        "entries": [
+          "The Shard Shunner has advantage on Wisdom (Perception) checks that rely on smell."
+        ]
+      },
+      {
+        "name": "Halfling Nimbleness",
+        "entries": [
+          "The Shard Shunner can move through the space of creatures that is of a size larger than them."
+        ]
+      },
+      {
+        "name": "Brave",
+        "entries": [
+          "The Shard Shunner has advantage on saving throws against being frightened."
+        ]
+      }
+    ],
+    "spellcasting": [],
+    "actions": [
+      {
+        "name": "Multiattack (Humanoid or Hybrid Form Only)",
+        "entries": [
+          "The Shard Shunner makes two attacks, only one of which can be a bite."
+        ]
+      },
+      {
+        "name": "Bite (Rat or Hybrid Form Only)",
+        "entries": [
+          "Melee Weapon Attack: 4 to hit, reach 5 ft., one target. 4 (1d4 + 2) piercing damage. If the target is a humanoid, it must succeed on a DC 11 Constitution saving throw or be cursed with wererat lycanthropy."
+        ]
+      },
+      {
+        "name": "Shortsword (Humanoid or Hybrid Form Only)",
+        "entries": [
+          "Melee Weapon Attack: 4 to hit, reach 5 ft., one target. 5 (1d6 + 2) piercing damage."
+        ]
+      },
+      {
+        "name": "Hand Crossbow (Humanoid or Hybrid Form Only)",
+        "entries": [
+          "Ranged Weapon Attack: 4 to hit, range 30/120 ft., one target. 5 (1d6 + 2) piercing damage."
+        ]
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Skeemo Weirdbottle",
+    "source": "WDH",
+    "sourceKey": "WDH",
+    "page": 200,
+    "size": "Small",
+    "type": "humanoid (gnome)",
+    "alignment": "lawful evil",
+    "armorClass": "12, 15 with mage armor",
+    "hitPoints": "72 (16d6 + 16)",
+    "speed": "walk 25 ft.",
+    "abilities": {
+      "str": 9,
+      "dex": 14,
+      "con": 12,
+      "int": 17,
+      "wis": 12,
+      "cha": 15
+    },
+    "savingThrows": "int: +6, wis: +4",
+    "skills": "arcana: +6, history: +6, perception: +4, performance: +5",
+    "senses": "darkvision 60 ft., passive Perception 14",
+    "languages": "Abyssal, Common, Gnomish, Undercommon",
+    "challengeRating": "6",
+    "traits": [
+      {
+        "name": "Gnome Cunning",
+        "entries": [
+          "Skeemo has advantage on Intelligence, Wisdom, and Charisma saving throws against magic."
+        ]
+      }
+    ],
+    "spellcasting": [
+      {
+        "name": "Spellcasting",
+        "entries": [
+          "Skeemo is a 9th-level spellcaster. His spellcasting ability is Intelligence (spell save DC 14, 6 to hit with spell attacks) He has the following wizard spells prepared:",
+          "0: fire bolt, light, mage hand, prestidigitation",
+          "1 (4 slots): detect magic, mage armor, magic missile, shield",
+          "2 (3 slots): misty step, suggestion",
+          "3 (3 slots): counterspell, fireball, fly",
+          "4 (3 slots): greater invisibility, ice storm",
+          "5 (1 slots): cone of cold"
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "name": "Dagger",
+        "entries": [
+          "Melee Weapon Attack: 5 to hit, reach 5 ft., one target. 4 (1d4 + 2) piercing damage. Or Ranged Weapon Attack: 5 to hit, range 20/60 ft., one target. 4 (1d4 + 2) piercing damage."
+        ]
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Soluun Xibrindas",
+    "source": "WDH",
+    "sourceKey": "WDH",
+    "page": 202,
+    "size": "Medium",
+    "type": "humanoid (elf)",
+    "alignment": "lawful evil",
+    "armorClass": "18 (studded leather armor, shield)",
+    "hitPoints": "84 (13d8 + 26)",
+    "speed": "walk 30 ft.",
+    "abilities": {
+      "str": 13,
+      "dex": 18,
+      "con": 14,
+      "int": 11,
+      "wis": 13,
+      "cha": 14
+    },
+    "savingThrows": "dex: +6, con: +4, wis: +3",
+    "skills": "perception: +3, stealth: +8",
+    "senses": "darkvision 120 ft., passive Perception 13",
+    "languages": "Elvish, Undercommon",
+    "challengeRating": "4",
+    "traits": [
+      {
+        "name": "Fey Ancestry",
+        "entries": [
+          "Soluun has advantage on saving throws against being charmed, and magic can't put Soluun to sleep."
+        ]
+      },
+      {
+        "name": "Gunslinger",
+        "entries": [
+          "Being within 5 feet of a hostile creature or attacking at long range doesn't impose disadvantage on Soluun's ranged attack rolls with a pistol. In addition, Soluun ignores Cover and Cover when making ranged attacks with a pistol."
+        ]
+      },
+      {
+        "name": "Sunlight Sensitivity",
+        "entries": [
+          "While in sunlight, Soluun has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight."
+        ]
+      },
+      {
+        "name": "Equipment",
+        "entries": [
+          "Four packets of smokepowder and a pouch containing 20 pistol bullets"
+        ]
+      },
+      {
+        "name": "Boots of Elvenkind",
+        "entries": [
+          "Whilst wearing these boots Soluun's steps make no sound and he has advantage on any Dexterity (Stealth) checks that rely on moving silently."
+        ]
+      }
+    ],
+    "spellcasting": [
+      {
+        "name": "Innate Spellcasting",
+        "entries": [
+          "Soluun's spellcasting ability is Charisma. It can innately cast the following spells, requiring no material components:",
+          "At will: dancing lights",
+          "1e/day: darkness, faerie fire, levitate (self only)"
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "entries": [
+          "Soluun makes two scimitar attacks."
+        ]
+      },
+      {
+        "name": "Scimitar",
+        "entries": [
+          "Melee Weapon Attack: 6 to hit, reach 5 ft., one target. 7 (1d6 + 4) slashing damage."
+        ]
+      },
+      {
+        "name": "Poisonous Pistol",
+        "entries": [
+          "Ranged Weapon Attack: 6 to hit, range 30/90 ft., one target. 9 (1d10 + 4) piercing damage plus 11 (2d10) poison damage."
+        ]
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Squiddly",
+    "source": "WDH",
+    "sourceKey": "WDH",
+    "page": 63,
+    "size": "Small",
+    "type": "humanoid (tiefling)",
+    "alignment": "",
+    "armorClass": "",
+    "hitPoints": "",
+    "speed": "",
+    "abilities": {},
+    "savingThrows": "",
+    "skills": "",
+    "senses": "darkvision 60 ft.",
+    "languages": "",
+    "challengeRating": "",
+    "traits": [],
+    "spellcasting": [],
+    "actions": [],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Swarm of Books",
+    "source": "WDH",
+    "sourceKey": "WDH",
+    "page": 156,
+    "size": "Medium",
+    "type": "construct",
+    "alignment": "unaligned",
+    "armorClass": "12",
+    "hitPoints": "22 (5d8)",
+    "speed": "walk 0 ft., fly 30 ft.",
+    "abilities": {
+      "str": 5,
+      "dex": 15,
+      "con": 10,
+      "int": 2,
+      "wis": 12,
+      "cha": 4
+    },
+    "savingThrows": "",
+    "skills": "",
+    "senses": "blindsight 60 ft., passive Perception 11",
+    "languages": "",
+    "challengeRating": "1/4",
+    "traits": [
+      {
+        "name": "Swarm",
+        "entries": [
+          "The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny book. The swarm can't regain hit points or gain temporary hit points."
+        ]
+      }
+    ],
+    "spellcasting": [],
+    "actions": [
+      {
+        "name": "Slam",
+        "entries": [
+          "Melee Weapon Attack: 4 to hit, reach 0 ft., one creature in the swarm's space. 5 (2d4) bludgeoning damage, or 2 (1d4) bludgeoning damage if the swarm has half of its hit points or fewer."
+        ]
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Swarm of Mechanical Spiders",
+    "source": "WDH",
+    "sourceKey": "WDH",
+    "page": 143,
+    "size": "Medium",
+    "type": "construct",
+    "alignment": "unaligned",
+    "armorClass": "12 (natural armor)",
+    "hitPoints": "22 (5d8)",
+    "speed": "walk 20 ft., climb 20 ft.",
+    "abilities": {
+      "str": 3,
+      "dex": 13,
+      "con": 10,
+      "int": 1,
+      "wis": 7,
+      "cha": 1
+    },
+    "savingThrows": "",
+    "skills": "",
+    "senses": "blindsight 10 ft., passive Perception 8",
+    "languages": "",
+    "challengeRating": "1/2",
+    "traits": [
+      {
+        "name": "Constructed Nature",
+        "entries": [
+          "The swarm doesn't require air, food, drink, or sleep."
+        ]
+      },
+      {
+        "name": "Swarm",
+        "entries": [
+          "The swarm can occupy another creature's space and vice versa, and the swarm can move through any opening large enough for a Tiny insect. The swarm can't regain hit points or gain temporary hit points."
+        ]
+      },
+      {
+        "name": "Spider Climb",
+        "entries": [
+          "The swarm can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check."
+        ]
+      },
+      {
+        "name": "Web Sense",
+        "entries": [
+          "While in contact with a web, the swarm knows the exact location of any other creature in contact with the same web."
+        ]
+      },
+      {
+        "name": "Web Walker",
+        "entries": [
+          "The swarm ignores movement restrictions caused by webbing."
+        ]
+      }
+    ],
+    "spellcasting": [],
+    "actions": [
+      {
+        "name": "Bites",
+        "entries": [
+          "Melee Weapon Attack: 3 to hit, reach 0 ft., one target in the swarm's space. 10 (4d4) piercing damage, or 5 (2d4) piercing damage if the swarm has half of its hit points or fewer."
+        ]
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Sylgar",
+    "source": "WDH",
+    "sourceKey": "WDH",
+    "page": 220,
+    "size": "Tiny",
+    "type": "beast",
+    "alignment": "unaligned",
+    "armorClass": "13",
+    "hitPoints": "1 (1d4 - 1)",
+    "speed": "walk 0 ft., swim 40 ft.",
+    "abilities": {
+      "str": 2,
+      "dex": 16,
+      "con": 9,
+      "int": 1,
+      "wis": 7,
+      "cha": 2
+    },
+    "savingThrows": "",
+    "skills": "",
+    "senses": "darkvision 60 ft., passive Perception 8",
+    "languages": "",
+    "challengeRating": "0",
+    "traits": [
+      {
+        "name": "Water Breathing",
+        "entries": [
+          "Sylgar can breathe only underwater."
+        ]
+      }
+    ],
+    "spellcasting": [],
+    "actions": [
+      {
+        "name": "Bite",
+        "entries": [
+          "Melee Weapon Attack: 5 to hit, reach 5 ft., one target. 1 piercing damage."
+        ]
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Talisolvanar \"Tally\" Fellbranch",
+    "source": "WDH",
+    "sourceKey": "WDH",
+    "page": 32,
+    "size": "Medium",
+    "type": "humanoid (half-elf)",
+    "alignment": "chaotic good",
+    "armorClass": "10",
+    "hitPoints": "4 (1d8)",
+    "speed": "walk 30 ft.",
+    "abilities": {
+      "str": 10,
+      "dex": 10,
+      "con": 10,
+      "int": 10,
+      "wis": 10,
+      "cha": 10
+    },
+    "savingThrows": "",
+    "skills": "",
+    "senses": "darkvision 60 ft., passive Perception 10",
+    "languages": "Common, Elvish",
+    "challengeRating": "0",
+    "traits": [
+      {
+        "name": "Fey Ancestry",
+        "entries": [
+          "Tally has advantage on saving throws against being charmed, and magic can't put him to sleep."
+        ]
+      }
+    ],
+    "spellcasting": [],
+    "actions": [
+      {
+        "name": "Club",
+        "entries": [
+          "Melee Weapon Attack: 2 to hit, reach 5 ft., one target. 2 (1d4) bludgeoning damage."
+        ]
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Tashlyn Yafeera",
+    "source": "WDH",
+    "sourceKey": "WDH",
+    "page": 200,
+    "size": "Medium",
+    "type": "humanoid (human)",
+    "alignment": "neutral",
+    "armorClass": "18 (plate armor)",
+    "hitPoints": "149 (23d8 + 46)",
+    "speed": "walk 30 ft.",
+    "abilities": {
+      "str": 18,
+      "dex": 15,
+      "con": 14,
+      "int": 10,
+      "wis": 14,
+      "cha": 12
+    },
+    "savingThrows": "str: +8, con: +6",
+    "skills": "athletics: +8, intimidation: +5, perception: +6",
+    "senses": "passive Perception 16",
+    "languages": "Common",
+    "challengeRating": "9",
+    "traits": [
+      {
+        "name": "Indomitable (2/Day)",
+        "entries": [
+          "Tashlyn can reroll a saving throw that she fails. She must use the new roll."
+        ]
+      },
+      {
+        "name": "Second Wind (Recharges after a Short or Long Rest)",
+        "entries": [
+          "As a bonus action, Tashlyn can regain 20 hit points."
+        ]
+      },
+      {
+        "name": "Extra Damage",
+        "entries": [
+          "Tashlyn deals an extra 7 (2d6) damage to every hit if she has more than half her hit points remaining."
+        ]
+      }
+    ],
+    "spellcasting": [],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "entries": [
+          "Tashlyn makes three attacks with her greatsword or her shortbow."
+        ]
+      },
+      {
+        "name": "Greatsword",
+        "entries": [
+          "Melee Weapon Attack: 8 to hit, reach 5 ft., one target. 11 (2d6 + 4) slashing damage."
+        ]
+      },
+      {
+        "name": "Shortbow",
+        "entries": [
+          "Ranged Weapon Attack: 6 to hit, range 80/320 ft., one target. 5 (1d6 + 2) piercing damage."
+        ]
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Terenzio Cassalanter",
+    "source": "WDH",
+    "sourceKey": "WDH",
+    "page": 115,
+    "size": "Small",
+    "type": "humanoid (human)",
+    "alignment": "",
+    "armorClass": "",
+    "hitPoints": "",
+    "speed": "",
+    "abilities": {},
+    "savingThrows": "",
+    "skills": "",
+    "senses": "",
+    "languages": "",
+    "challengeRating": "",
+    "traits": [],
+    "spellcasting": [],
+    "actions": [],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Thorvin Twinbeard",
+    "source": "WDH",
+    "sourceKey": "WDH",
+    "page": 216,
+    "size": "Medium",
+    "type": "humanoid (dwarf)",
+    "alignment": "lawful neutral",
+    "armorClass": "10",
+    "hitPoints": "4 (1d8)",
+    "speed": "walk 25 ft.",
+    "abilities": {
+      "str": 10,
+      "dex": 10,
+      "con": 10,
+      "int": 10,
+      "wis": 16,
+      "cha": 10
+    },
+    "savingThrows": "",
+    "skills": "",
+    "senses": "darkvision 60 ft., passive Perception 13",
+    "languages": "Common, Dwarvish",
+    "challengeRating": "0",
+    "traits": [
+      {
+        "name": "Dwarven Resilience",
+        "entries": [
+          "Thorvin has advantage on saving throws against poison and resistance to poison damage."
+        ]
+      }
+    ],
+    "spellcasting": [],
+    "actions": [
+      {
+        "name": "Club",
+        "entries": [
+          "Melee Weapon Attack: 2 to hit, reach 5 ft., one target. 2 (1d4) bludgeoning damage."
+        ]
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Thrakkus",
+    "source": "WDH",
+    "sourceKey": "WDH",
+    "page": 89,
+    "size": "Medium",
+    "type": "humanoid (dragonborn)",
+    "alignment": "chaotic evil",
+    "armorClass": "13 (hide armor)",
+    "hitPoints": "67 (9d8 + 27)",
+    "speed": "walk 30 ft.",
+    "abilities": {
+      "str": 16,
+      "dex": 12,
+      "con": 17,
+      "int": 9,
+      "wis": 11,
+      "cha": 9
+    },
+    "savingThrows": "",
+    "skills": "",
+    "senses": "passive Perception 10",
+    "languages": "Common, Draconic",
+    "challengeRating": "2",
+    "traits": [
+      {
+        "name": "Reckless",
+        "entries": [
+          "At the start of his turn, Thrakkus can gain advantage on all melee weapon attack rolls during that turn, but attack rolls against him have advantage until the start of his next turn."
+        ]
+      }
+    ],
+    "spellcasting": [],
+    "actions": [
+      {
+        "name": "Greataxe",
+        "entries": [
+          "Melee Weapon Attack: 5 to hit, reach 5 ft., one target. 9 (1d12 + 3) slashing damage."
+        ]
+      },
+      {
+        "name": "Breath Weapon (1/Day)",
+        "entries": [
+          "Thrakkus can use his action to exhale a 15-foot cone of fire. Each creature in the cone must make a DC 13 Dexterity saving throw, taking 6 (2d6) fire damage on a failed save, or half as much damage on a successful one."
+        ]
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Tissina Khyret",
+    "source": "WDH",
+    "sourceKey": "WDH",
+    "page": 116,
+    "size": "Medium",
+    "type": "humanoid (tiefling)",
+    "alignment": "lawful evil",
+    "armorClass": "13 (leather armor)",
+    "hitPoints": "33 (6d8 + 6)",
+    "speed": "walk 30 ft.",
+    "abilities": {
+      "str": 11,
+      "dex": 14,
+      "con": 12,
+      "int": 10,
+      "wis": 13,
+      "cha": 14
+    },
+    "savingThrows": "",
+    "skills": "deception: +4, persuasion: +4, religion: +2",
+    "senses": "darkvision 60 ft., passive Perception 11",
+    "languages": "Common, Infernal",
+    "challengeRating": "2",
+    "traits": [
+      {
+        "name": "Dark Devotion",
+        "entries": [
+          "Tissina has advantage on saving throws against being charmed or frightened."
+        ]
+      }
+    ],
+    "spellcasting": [
+      {
+        "name": "Innate Spellcasting",
+        "entries": [
+          "Tissina's spellcasting ability is Charisma. She can innately cast the following spells, requiring no material components:",
+          "At will: thaumaturgy"
+        ]
+      },
+      {
+        "name": "Spellcasting",
+        "entries": [
+          "Tissina is a 4th-level spellcaster. Her spellcasting ability is Wisdom. Tissina has the following cleric spells prepared:",
+          "0: light, sacred flame, thaumaturgy",
+          "1 (4 slots): command, inflict wounds, shield of faith",
+          "2 (3 slots): hold person, spiritual weapon"
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "entries": [
+          "Tissina makes two melee attacks."
+        ]
+      },
+      {
+        "name": "Dagger",
+        "entries": [
+          "Melee Weapon Attack: 4 to hit, reach 5 ft., one creature. 4 (1d4 + 2) piercing damage. Or Ranged Weapon Attack: 4 to hit, range 20/60 ft., one creature. 4 (1d4 + 2) piercing damage."
+        ]
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Urstul Floxin",
+    "source": "WDH",
+    "sourceKey": "WDH",
+    "page": 216,
+    "size": "",
+    "type": "humanoid (human)",
+    "alignment": "lawful evil",
+    "armorClass": "",
+    "hitPoints": "",
+    "speed": "",
+    "abilities": {},
+    "savingThrows": "",
+    "skills": "",
+    "senses": "",
+    "languages": "Common, Orc, Thieves' cant",
+    "challengeRating": "",
+    "traits": [],
+    "spellcasting": [],
+    "actions": [],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Vajra Safahr",
+    "source": "WDH",
+    "sourceKey": "WDH",
+    "page": 217,
+    "size": "Medium",
+    "type": "humanoid (human)",
+    "alignment": "lawful neutral",
+    "armorClass": "14, 17 with mage armor",
+    "hitPoints": "126 (23d8 + 23)",
+    "speed": "walk 30 ft.",
+    "abilities": {
+      "str": 10,
+      "dex": 14,
+      "con": 12,
+      "int": 20,
+      "wis": 11,
+      "cha": 16
+    },
+    "savingThrows": "str: +2, dex: +4, con: +3, int: +12, wis: +7, cha: +5",
+    "skills": "arcana: +10, history: +10",
+    "senses": "passive Perception 10",
+    "languages": "Common, Dwarvish, Elvish, Giant, Halfling, Undercommon",
+    "challengeRating": "13",
+    "traits": [
+      {
+        "name": "Special Equipment",
+        "entries": [
+          "Vajra wields the Blackstaff, accounted for in her statistics. Roll 2d10 to determine how many charges the staff has remaining."
+        ]
+      },
+      {
+        "name": "Magic Resistance",
+        "entries": [
+          "Vajra has advantage on saving throws against spells and other magical effects."
+        ]
+      },
+      {
+        "name": "Staff Spells",
+        "entries": [
+          "While holding the Blackstaff, Vajra can use an action to expend 1 or more of its charges to cast one of the following spells from it, using her spell save DC and spell attack bonus: cone of cold (5 charges), fireball (5th-level version, 5 charges), globe of invulnerability (6 charges), hold monster (5 charges), levitate (2 charges), lightning bolt (5th-level version, 5 charges), magic missile (1 charge), ray of enfeeblement (1 charge), or wall of force (5 charges)."
+        ]
+      }
+    ],
+    "spellcasting": [
+      {
+        "name": "Spellcasting",
+        "entries": [
+          "Vajra is an 18th-level spellcaster. Her spellcasting ability is Intelligence (spell save DC 18, 12 to hit with spell attacks). She has the following wizard spells prepared:",
+          "0: fire bolt, light, mage hand, message, prestidigitation",
+          "1 (4 slots): detect magic, identify, mage armor, thunderwave",
+          "2 (3 slots): invisibility, misty step, web",
+          "3 (3 slots): counterspell, fly, sending",
+          "4 (3 slots): banishment, fire shield, stoneskin",
+          "5 (3 slots): Bigby's hand, geas, telekinesis",
+          "6 (1 slots): chain lightning, globe of invulnerability",
+          "7 (1 slots): forcecage, prismatic spray",
+          "8 (1 slots): antimagic field, power word stun",
+          "9 (1 slots): imprisonment"
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "name": "Blackstaff",
+        "entries": [
+          "Melee Weapon Attack: 7 to hit, reach 5 ft., one target. 5 (1d6 + 2) bludgeoning, magic damage, or 6 (1d8 + 2) bludgeoning, magic damage when used with two hands. Vajra can expend 1 of the staff's charges to deal an extra 3 (1d6) force damage on a hit."
+        ]
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Valetta",
+    "source": "WDH",
+    "sourceKey": "WDH",
+    "page": 47,
+    "size": "Medium",
+    "type": "humanoid (dragonborn)",
+    "alignment": "neutral",
+    "armorClass": "13 (chain shirt)",
+    "hitPoints": "27 (5d8 + 5)",
+    "speed": "walk 25 ft.",
+    "abilities": {
+      "str": 10,
+      "dex": 10,
+      "con": 12,
+      "int": 13,
+      "wis": 16,
+      "cha": 13
+    },
+    "savingThrows": "",
+    "skills": "medicine: +7, persuasion: +3, religion: +5",
+    "senses": "passive Perception 13",
+    "languages": "Common, Draconic",
+    "challengeRating": "2",
+    "traits": [
+      {
+        "name": "Divine Eminence",
+        "entries": [
+          "As a bonus action, Valetta can expend a spell slot to cause her melee weapon attacks to magically deal an extra 10 (3d6) radiant damage to a target on a hit. This benefit lasts until the end of the turn. If Valetta expends a spell slot of 2nd level or higher, the extra damage increases by 1d6 for each level above 1st."
+        ]
+      }
+    ],
+    "spellcasting": [
+      {
+        "name": "Spellcasting",
+        "entries": [
+          "Valetta is a 5th-level spellcaster. Her spellcasting ability is Wisdom. Valetta has the following cleric spells prepared:",
+          "0: light, sacred flame, thaumaturgy",
+          "1 (4 slots): cure wounds, guiding bolt, sanctuary",
+          "2 (3 slots): lesser restoration, spiritual weapon",
+          "3 (2 slots): dispel magic, spirit guardians"
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "name": "Breathe Weapon",
+        "entries": [
+          "Valetta can use her action to exhale a 5-foot-wide, 30-foot line of lightning (but can't do this again until she finishes a short or long rest); each creature in the line must make a DC 11 Dexterity saving throw, taking 2d6 lightning damage on a failed save, or half as much damage on a successful one."
+        ]
+      },
+      {
+        "name": "Mace",
+        "entries": [
+          "Melee Weapon Attack: 2 to hit, reach 5 ft., one target. 3 (1d6) bludgeoning damage."
+        ]
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Victoro Cassalanter",
+    "source": "WDH",
+    "sourceKey": "WDH",
+    "page": 218,
+    "size": "Medium",
+    "type": "humanoid (half-elf)",
+    "alignment": "lawful evil",
+    "armorClass": "15 (glamoured studded leather, ring of protection)",
+    "hitPoints": "97 (15d8 + 30)",
+    "speed": "walk 30 ft.",
+    "abilities": {
+      "str": 13,
+      "dex": 13,
+      "con": 14,
+      "int": 16,
+      "wis": 17,
+      "cha": 18
+    },
+    "savingThrows": "con: +6, wis: +7",
+    "skills": "history: +7, insight: +7, persuasion: +8, religion: +7",
+    "senses": "darkvision 60 ft., passive Perception 13",
+    "languages": "Common, Draconic, Elvish, Infernal",
+    "challengeRating": "10",
+    "traits": [
+      {
+        "name": "Special Equipment",
+        "entries": [
+          "Victoro wears a ring of protection and glamoured studded leather disguised to look like fine clothing. He carries a rod of rulership shaped like a ruby-tipped cane."
+        ]
+      },
+      {
+        "name": "Fey Ancestry",
+        "entries": [
+          "Victoro has advantage on saving throws against being charmed, and magic can't put him to sleep."
+        ]
+      },
+      {
+        "name": "Rod of Rulership",
+        "entries": [
+          "Victoro can use an action to present the rod and command obedience from each creature of his choice that he can see within 120 feet of him. Each target must succeed on a DC 15 Wisdom saving throw or be charmed for 8 hours by Victoro. While charmed in this way, the creature regards Victoro as its trusted leader. If harmed by Victoro or his companions, or commanded to do something contrary to its nature, a target ceases to be charmed in this way. The rod can't be used again until the next dawn."
+        ]
+      }
+    ],
+    "spellcasting": [
+      {
+        "name": "Spellcasting",
+        "entries": [
+          "Victoro is a 15th-level spellcaster. His spellcasting ability is Wisdom (spell save DC 15, 7 to hit with spell attacks). Victoro has the following cleric spells prepared:",
+          "0: guidance, light, mending, spare the dying, thaumaturgy",
+          "1 (4 slots): charm person, command, detect magic, disguise self, protection from evil and good, sanctuary",
+          "2 (3 slots): augury, lesser restoration, mirror image, pass without trace, spiritual weapon",
+          "3 (3 slots): blink, clairvoyance, dispel magic, magic circle, protection from energy",
+          "4 (3 slots): banishment, dimension door, divination, freedom of movement, polymorph",
+          "5 (2 slots): dominate person, flame strike, modify memory, insect plague",
+          "6 (1 slots): heal",
+          "7 (1 slots): divine word",
+          "8 (1 slots): earthquake"
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "entries": [
+          "Victoro makes two attacks with his rapier."
+        ]
+      },
+      {
+        "name": "Rapier",
+        "entries": [
+          "Melee Weapon Attack: 5 to hit, reach 5 ft., one target. 5 (1d8 + 1) piercing damage."
+        ]
+      },
+      {
+        "name": "Cloak of Shadows (2/Day)",
+        "entries": [
+          "Victoro becomes invisible until the end of his next turn. He becomes visible early immediately after he attacks or casts a spell."
+        ]
+      },
+      {
+        "name": "Summon Devil (Recharges after 9 Days)",
+        "entries": [
+          "Victoro summons a barbed devil. The devil appears in an unoccupied space within 30 feet of Victoro, acts as Victoro's ally, and can't summon other devils. It remains for 1 minute, until it or Victoro dies, or until Victoro dismisses it as an action."
+        ]
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Vincent Trench",
+    "source": "WDH",
+    "sourceKey": "WDH",
+    "page": 32,
+    "size": "",
+    "type": "",
+    "alignment": "",
+    "armorClass": "",
+    "hitPoints": "",
+    "speed": "",
+    "abilities": {},
+    "savingThrows": "",
+    "skills": "",
+    "senses": "",
+    "languages": "",
+    "challengeRating": "",
+    "traits": [],
+    "spellcasting": [],
+    "actions": [],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Walking Statue of Waterdeep",
+    "source": "WDH",
+    "sourceKey": "WDH",
+    "page": 219,
+    "size": "Gargantuan",
+    "type": "construct",
+    "alignment": "unaligned",
+    "armorClass": "17 (natural armor)",
+    "hitPoints": "314 (17d20 + 136)",
+    "speed": "walk 60 ft.",
+    "abilities": {
+      "str": 30,
+      "dex": 8,
+      "con": 27,
+      "int": 1,
+      "wis": 10,
+      "cha": 1
+    },
+    "savingThrows": "con: +14",
+    "skills": "",
+    "senses": "truesight 120 ft., passive Perception 10",
+    "languages": "",
+    "challengeRating": "18",
+    "traits": [
+      {
+        "name": "Crumbling Colossus",
+        "entries": [
+          "When the statue drops to 0 hit points, it crumbles and is destroyed. Any creature on the ground within 30 feet of the crumbling statue must make a DC 22 Dexterity saving throw, taking 22 (4d10) bludgeoning damage on a failed save, or half as much damage on a successful one."
+        ]
+      },
+      {
+        "name": "Immutable Form",
+        "entries": [
+          "The statue is immune to any spell or effect that would alter its form."
+        ]
+      },
+      {
+        "name": "Magic Resistance",
+        "entries": [
+          "The statue has advantage on saving throws against spells and other magical effects."
+        ]
+      },
+      {
+        "name": "Siege Monster",
+        "entries": [
+          "The statue deals double damage to objects and structures."
+        ]
+      }
+    ],
+    "spellcasting": [],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "entries": [
+          "The statue makes two melee attacks."
+        ]
+      },
+      {
+        "name": "Slam",
+        "entries": [
+          "Melee Weapon Attack: 16 to hit, reach 5 ft., one target. 29 (3d12 + 10) bludgeoning damage."
+        ]
+      },
+      {
+        "name": "Hurled Stone",
+        "entries": [
+          "Ranged Weapon Attack: 16 to hit, range 200/800 ft., one target. 43 (6d10 + 10) bludgeoning damage."
+        ]
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Willifort Crowelle",
+    "source": "WDH",
+    "sourceKey": "WDH",
+    "page": 62,
+    "size": "",
+    "type": "",
+    "alignment": "",
+    "armorClass": "",
+    "hitPoints": "",
+    "speed": "",
+    "abilities": {},
+    "savingThrows": "",
+    "skills": "",
+    "senses": "",
+    "languages": "",
+    "challengeRating": "",
+    "traits": [],
+    "spellcasting": [],
+    "actions": [],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Xanathar",
+    "source": "WDH",
+    "sourceKey": "WDH",
+    "page": 220,
+    "size": "",
+    "type": "",
+    "alignment": "",
+    "armorClass": "",
+    "hitPoints": "",
+    "speed": "",
+    "abilities": {},
+    "savingThrows": "",
+    "skills": "",
+    "senses": "",
+    "languages": "",
+    "challengeRating": "",
+    "traits": [],
+    "spellcasting": [],
+    "actions": [],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Yagra Stonefist",
+    "source": "WDH",
+    "sourceKey": "WDH",
+    "page": 20,
+    "size": "Medium",
+    "type": "humanoid (half-orc)",
+    "alignment": "neutral",
+    "armorClass": "11 (leather armor)",
+    "hitPoints": "32 (5d8 + 10)",
+    "speed": "walk 30 ft.",
+    "abilities": {
+      "str": 15,
+      "dex": 11,
+      "con": 14,
+      "int": 10,
+      "wis": 10,
+      "cha": 11
+    },
+    "savingThrows": "",
+    "skills": "intimidation: +2",
+    "senses": "darkvision 60 ft., passive Perception 10",
+    "languages": "Common, Orc",
+    "challengeRating": "1/2",
+    "traits": [
+      {
+        "name": "Relentless Endurance",
+        "entries": [
+          "When reduced to 0 hit points, Yagra drops to 1 hit point instead (but can't do this again until she finishes a long rest)."
+        ]
+      },
+      {
+        "name": "Pack Tactics",
+        "entries": [
+          "Yagra has advantage on an attack roll against a creature if at least one of her allies is within 5 feet of the creature and the ally isn't incapacitated."
+        ]
+      },
+      {
+        "name": "Savage Attacks",
+        "entries": [
+          "When she scores a critical hit Yagra can roll one of the weapon's damage dice and add it to the extra damage of the critical hit."
+        ]
+      }
+    ],
+    "spellcasting": [],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "entries": [
+          "Yagra makes two melee attacks."
+        ]
+      },
+      {
+        "name": "Mace",
+        "entries": [
+          "Melee Weapon Attack: 4 to hit, reach 5 ft., one creature. 5 (1d6 + 2) bludgeoning damage."
+        ]
+      },
+      {
+        "name": "Heavy Crossbow",
+        "entries": [
+          "Ranged Weapon Attack: 2 to hit, range 100/400 ft., one target. 5 (1d10) piercing damage."
+        ]
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Yalah Gralhund",
+    "source": "WDH",
+    "sourceKey": "WDH",
+    "page": 220,
+    "size": "",
+    "type": "humanoid (human)",
+    "alignment": "",
+    "armorClass": "",
+    "hitPoints": "",
+    "speed": "",
+    "abilities": {
+      "int": 16
+    },
+    "savingThrows": "",
+    "skills": "",
+    "senses": "",
+    "languages": "Common, Infernal",
+    "challengeRating": "",
+    "traits": [],
+    "spellcasting": [],
+    "actions": [],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Yorn",
+    "source": "WDH",
+    "sourceKey": "WDH",
+    "page": 150,
+    "size": "Medium",
+    "type": "humanoid (half-orc)",
+    "alignment": "lawful evil",
+    "armorClass": "11 (leather armor)",
+    "hitPoints": "32 (5d8 + 10)",
+    "speed": "walk 30 ft.",
+    "abilities": {
+      "str": 15,
+      "dex": 11,
+      "con": 14,
+      "int": 10,
+      "wis": 10,
+      "cha": 11
+    },
+    "savingThrows": "",
+    "skills": "intimidation: +2",
+    "senses": "darkvision 60 ft., passive Perception 10",
+    "languages": "Common, Orc",
+    "challengeRating": "1/2",
+    "traits": [
+      {
+        "name": "Pack Tactics",
+        "entries": [
+          "The thug has advantage on an attack roll against a creature if at least one of the thug's allies is within 5 feet of the creature and the ally isn't incapacitated."
+        ]
+      },
+      {
+        "name": "Relentless Endurance (1/Day)",
+        "entries": [
+          "When reduced to 0 hit points Yorn drops to 1 hit point instead."
+        ]
+      }
+    ],
+    "spellcasting": [],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "entries": [
+          "The thug makes two melee attacks."
+        ]
+      },
+      {
+        "name": "Mace",
+        "entries": [
+          "Melee Weapon Attack: 4 to hit, reach 5 ft., one creature. 5 (1d6 + 2) bludgeoning damage."
+        ]
+      },
+      {
+        "name": "Heavy Crossbow",
+        "entries": [
+          "Ranged Weapon Attack: 2 to hit, range 100/400 ft., one target. 5 (1d10) piercing damage."
+        ]
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Zhent Martial Arts Adept",
+    "source": "WDH",
+    "sourceKey": "WDH",
+    "page": 160,
+    "size": "",
+    "type": "",
+    "alignment": "lawful evil",
+    "armorClass": "",
+    "hitPoints": "49 (11d6 + 11)",
+    "speed": "",
+    "abilities": {},
+    "savingThrows": "",
+    "skills": "",
+    "senses": "",
+    "languages": "Common, Halfling",
+    "challengeRating": "",
+    "traits": [],
+    "spellcasting": [],
+    "actions": [],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Ziraj the Hunter",
+    "source": "WDH",
+    "sourceKey": "WDH",
+    "page": 201,
+    "size": "Medium",
+    "type": "humanoid (half-orc)",
+    "alignment": "lawful evil",
+    "armorClass": "17 (+2 leather armor)",
+    "hitPoints": "153 (18d8 + 72)",
+    "speed": "walk 30 ft.",
+    "abilities": {
+      "str": 18,
+      "dex": 18,
+      "con": 18,
+      "int": 11,
+      "wis": 14,
+      "cha": 15
+    },
+    "savingThrows": "wis: +5, cha: +5",
+    "skills": "athletics: +7, intimidation: +5, stealth: +7, survival: +5",
+    "senses": "darkvision 60 ft., passive Perception 12",
+    "languages": "Common, Orc",
+    "challengeRating": "8",
+    "traits": [],
+    "spellcasting": [
+      {
+        "name": "Spellcasting",
+        "entries": [
+          "Ziraj is a 10th-level spellcaster. His spellcasting ability is Charisma. He has the following paladin spells prepared:",
+          "1 (4 slots): command, protection from evil and good, thunderous smite",
+          "2 (3 slots): branding smite, find steed",
+          "3 (2 slots): blinding smite, dispel magic"
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "entries": [
+          "Ziraj makes three attacks with his glaive or with his oversized longbow."
+        ]
+      },
+      {
+        "name": "Glaive",
+        "entries": [
+          "Melee Weapon Attack: 7 to hit, reach 5 ft., one target. 9 (1d10 + 4) slashing damage."
+        ]
+      },
+      {
+        "name": "Oversized Longbow",
+        "entries": [
+          "Ranged Weapon Attack: 7 to hit, range 150/600 ft., one target. 11 (2d6 + 4) piercing damage."
+        ]
+      },
+      {
+        "name": "Dreadful Aspect (Recharges after a Short or Long Rest)",
+        "entries": [
+          "Ziraj exudes magical menace. Each enemy within 30 feet of him must succeed on a DC 13 Wisdom saving throw or be frightened for 1 minute of Ziraj. If a frightened enemy ends its turn more than 30 feet away from Ziraj, the enemy can repeat the saving throw, ending the effect on itself on a success."
+        ]
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  }
+]

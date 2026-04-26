@@ -1,0 +1,135 @@
+[
+  {
+    "name": "Exul",
+    "source": "AitFR-ISF",
+    "sourceKey": "AITFR-ISF",
+    "page": 12,
+    "size": "Large",
+    "type": "elemental",
+    "alignment": "neutral evil",
+    "armorClass": "17 (natural armor)",
+    "hitPoints": "200 (16d10 + 112)",
+    "speed": "walk 40 ft., fly 60 ft.",
+    "abilities": {
+      "str": 22,
+      "dex": 12,
+      "con": 24,
+      "int": 16,
+      "wis": 15,
+      "cha": 16
+    },
+    "savingThrows": "int: +7, cha: +7",
+    "skills": "",
+    "senses": "darkvision 120 ft., passive Perception 12",
+    "languages": "Common, Ignan, Terran",
+    "challengeRating": "11",
+    "traits": [
+      {
+        "name": "Elemental Demise",
+        "entries": [
+          "If Exul dies, his body disintegrates in a flash of fire and puff of smoke, leaving behind only the equipment he was wearing or carrying."
+        ]
+      }
+    ],
+    "spellcasting": [
+      {
+        "name": "Innate Spellcasting",
+        "entries": [
+          "Exul's innate spellcasting ability is Charisma (spell save DC 15, 7 to hit with spell attacks). He can innately cast the following spells, requiring no material components:",
+          "At will: detect magic",
+          "3e/day: comprehend languages, tongues",
+          "1e/day: conjure elemental (earth or fire elemental only), invisibility, major image, plane shift, wall of fire"
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "entries": [
+          "Exul makes two handaxe attacks or uses his Hurl Flame twice."
+        ]
+      },
+      {
+        "name": "Handaxe",
+        "entries": [
+          "Melee Weapon Attack: 10 to hit, reach 5 ft., one target. 13 (2d6 + 6) slashing damage plus 3 (1d6) fire damage."
+        ]
+      },
+      {
+        "name": "Hurl Flame",
+        "entries": [
+          "Ranged Spell Attack: 7 to hit, range 120 ft., one target. 17 (5d6) fire damage."
+        ]
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Malivar",
+    "source": "AitFR-ISF",
+    "sourceKey": "AITFR-ISF",
+    "page": 12,
+    "size": "Medium",
+    "type": "humanoid (human)",
+    "alignment": "chaotic evil",
+    "armorClass": "12",
+    "hitPoints": "40 (9d8)",
+    "speed": "walk 30 ft.",
+    "abilities": {
+      "str": 9,
+      "dex": 14,
+      "con": 11,
+      "int": 17,
+      "wis": 12,
+      "cha": 17
+    },
+    "savingThrows": "int: +6, wis: +4",
+    "skills": "arcana: +6, history: +6",
+    "senses": "passive Perception 11",
+    "languages": "Common, Draconic, Ignan, Infernal",
+    "challengeRating": "6",
+    "traits": [
+      {
+        "name": "Benign Transportation (Recharges after Malivar Casts a Conjuration Spell of 1st Level or Higher)",
+        "entries": [
+          "As a bonus action, Malivar teleports up to 30 feet to an unoccupied space that he can see.",
+          "If he instead chooses a space within range that is occupied by a willing Small or Medium creature, they both teleport, swapping places."
+        ]
+      }
+    ],
+    "spellcasting": [
+      {
+        "name": "Spellcasting",
+        "entries": [
+          "Malivar is a 9th-level spellcaster. His spellcasting ability is Intelligence (spell save DC 14, 6 to hit with spell attacks). He has the following wizard spells prepared:",
+          "0: acid splash, mage hand, poison spray, prestidigitation",
+          "1 (4 slots): mage armor, magic missile, unseen servant*",
+          "2 (3 slots): cloud of daggers*, misty step*, web*",
+          "3 (3 slots): fireball, thunder step*",
+          "4 (3 slots): Evard's black tentacles*, stoneskin",
+          "5 (2 slots): cone of cold*, conjure elemental*",
+          "*Conjuration spell of 1st level or higher"
+        ]
+      }
+    ],
+    "actions": [
+      {
+        "name": "Dagger",
+        "entries": [
+          "Melee Weapon or Ranged Weapon Attack: 5 to hit, reach 5 ft. or range 20/60 ft., one target. 4 (1d4 + 2) piercing damage."
+        ]
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  }
+]

@@ -1,0 +1,90 @@
+[
+  {
+    "name": "Avatar of Death",
+    "source": "XDMG",
+    "sourceKey": "XDMG",
+    "page": 252,
+    "size": "Medium",
+    "type": "undead",
+    "alignment": "neutral evil",
+    "armorClass": "20",
+    "hitPoints": "Half the HP maximum of its summoner",
+    "speed": "walk 60 ft., fly 60 ft. (hover) (hover)",
+    "abilities": {
+      "str": 16,
+      "dex": 16,
+      "con": 16,
+      "int": 16,
+      "wis": 16,
+      "cha": 16
+    },
+    "savingThrows": "",
+    "skills": "",
+    "senses": "Truesight 60 ft., passive Perception 13",
+    "languages": "all languages known to its summoner",
+    "challengeRating": "",
+    "traits": [
+      {
+        "name": "Incorporeal Movement",
+        "entries": [
+          "The avatar can move through other creatures and objects as if they were Difficult Terrain. It takes 5 (1d10) Force damage if it ends its turn inside an object."
+        ]
+      }
+    ],
+    "spellcasting": [],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "entries": [
+          "The avatar makes a number of Reaping Scythe attacks equal to half the summoner's Proficiency Bonus (rounded up)."
+        ]
+      },
+      {
+        "name": "Reaping Scythe",
+        "entries": [
+          "Melee Weapon Attack: Automatic hit, reach 5 ft. 7 (1d8 + 3) Slashing damage plus 4 (1d8) Necrotic damage."
+        ]
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Giant Fly",
+    "source": "XDMG",
+    "sourceKey": "XDMG",
+    "page": 261,
+    "size": "Large",
+    "type": "beast",
+    "alignment": "unaligned",
+    "armorClass": "11",
+    "hitPoints": "19 (3d10 + 3)",
+    "speed": "walk 30 ft., fly 60 ft.",
+    "abilities": {
+      "str": 14,
+      "dex": 13,
+      "con": 13,
+      "int": 2,
+      "wis": 10,
+      "cha": 3
+    },
+    "savingThrows": "",
+    "skills": "",
+    "senses": "Darkvision 60 ft., passive Perception 10",
+    "languages": "",
+    "challengeRating": "0",
+    "traits": [],
+    "spellcasting": [],
+    "actions": [],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  }
+]

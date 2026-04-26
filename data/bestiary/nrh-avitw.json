@@ -1,0 +1,116 @@
+[
+  {
+    "name": "Chimeric Fox",
+    "source": "NRH-AVitW",
+    "sourceKey": "NRH-AVITW",
+    "page": 8,
+    "size": "Tiny",
+    "type": "beast",
+    "alignment": "unaligned",
+    "armorClass": "13",
+    "hitPoints": "2 (1d4)",
+    "speed": "walk 30 ft., burrow 5 ft.",
+    "abilities": {
+      "str": 2,
+      "dex": 16,
+      "con": 11,
+      "int": 3,
+      "wis": 12,
+      "cha": 6
+    },
+    "savingThrows": "",
+    "skills": "perception: +3, stealth: +5",
+    "senses": "darkvision 60 ft., passive Perception 13",
+    "languages": "",
+    "challengeRating": "0",
+    "traits": [
+      {
+        "name": "Chimeric Creation",
+        "entries": [
+          "The fox has fur that changes color to match its surroundings, giving it advantage on Dexterity (Stealth) checks."
+        ]
+      },
+      {
+        "name": "Keen Hearing",
+        "entries": [
+          "The fox has advantage on Wisdom (Perception) checks that rely on hearing."
+        ]
+      }
+    ],
+    "spellcasting": [],
+    "actions": [
+      {
+        "name": "Bite",
+        "entries": [
+          "Melee Weapon Attack: 5 to hit, reach 5 ft., one creature. 1 piercing damage."
+        ]
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Scarlet Sentinel",
+    "source": "NRH-AVitW",
+    "sourceKey": "NRH-AVITW",
+    "page": 10,
+    "size": "Medium",
+    "type": "construct",
+    "alignment": "unaligned",
+    "armorClass": "8",
+    "hitPoints": "39 (6d8 + 12)",
+    "speed": "walk 30 ft.",
+    "abilities": {
+      "str": 15,
+      "dex": 6,
+      "con": 14,
+      "int": 1,
+      "wis": 6,
+      "cha": 1
+    },
+    "savingThrows": "",
+    "skills": "",
+    "senses": "darkvision 60 ft., passive Perception 8",
+    "languages": "",
+    "challengeRating": "1",
+    "traits": [
+      {
+        "name": "Immutable Form",
+        "entries": [
+          "The Scarlet Sentinel is immune to any spell or effect that would alter its form."
+        ]
+      },
+      {
+        "name": "Magic Resistance",
+        "entries": [
+          "The Scarlet Sentinel has advantage on saving throws against spells and other magical effects."
+        ]
+      },
+      {
+        "name": "Magic Weapons",
+        "entries": [
+          "The Scarlet Sentinel's weapon attacks are magical."
+        ]
+      }
+    ],
+    "spellcasting": [],
+    "actions": [
+      {
+        "name": "Slam",
+        "entries": [
+          "Melee Weapon Attack: 4 to hit, reach 5 ft., one target. 11 (2d8 + 2) bludgeoning damage."
+        ]
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  }
+]

@@ -1,0 +1,541 @@
+[
+  {
+    "name": "Incarnation of Transience",
+    "source": "LFL",
+    "sourceKey": "LFL",
+    "size": "Huge",
+    "type": "fey",
+    "alignment": "neutral",
+    "armorClass": "16",
+    "hitPoints": "142 (15d12 + 45)",
+    "speed": "walk 40 ft., swim 40 ft.",
+    "abilities": {
+      "str": 21,
+      "dex": 20,
+      "con": 17,
+      "int": 10,
+      "wis": 14,
+      "cha": 16
+    },
+    "savingThrows": "dex: +8, con: +6",
+    "skills": "",
+    "senses": "Darkvision 60 ft., passive Perception 12",
+    "languages": "Sylvan; telepathy 120 ft.",
+    "challengeRating": "7",
+    "traits": [
+      {
+        "name": "Ephemeral Movement",
+        "entries": [
+          "The incarnation can move through other creatures and objects as if they were Difficult Terrain, and its movement doesn't provoke Opportunity Attacks. It takes 5 (1d10) Force damage if it ends its turn inside an object."
+        ]
+      },
+      {
+        "name": "Magic Resistance",
+        "entries": [
+          "The incarnation has Advantage on saving throws against spells and other magical effects."
+        ]
+      }
+    ],
+    "spellcasting": [],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "entries": [
+          "The incarnation makes three attacks, using Bite or Miasmic Globule in any combination."
+        ]
+      },
+      {
+        "name": "Bite",
+        "entries": [
+          "Melee Weapon Attack: 8, reach 5 ft. 14 (2d8 + 5) Piercing damage."
+        ]
+      },
+      {
+        "name": "Miasmic Globule",
+        "entries": [
+          "Ranged Weapon Attack: 8, range 60/120 ft. 15 (6d4) Acid damage, and the target's Speed is reduced by 10 feet until the end of the incarnation's next turn."
+        ]
+      },
+      {
+        "name": "Spectral Stampede",
+        "entries": [
+          "The incarnation moves up to 80 feet in a straight line. Each creature whose space the incarnation enters is targeted once by the following effect. dex DC 16. 18 (4d8) Force damage. If the target is the incarnation's size or smaller, it has the Prone condition. {@actSaveSuccess Half damage only."
+        ]
+      }
+    ],
+    "bonusActions": [
+      {
+        "name": "Shape-Shift",
+        "entries": [
+          "The incarnation changes its size to Medium, Large, or Huge."
+        ]
+      }
+    ],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": [
+      "planar, feywild"
+    ]
+  },
+  {
+    "name": "Incarnation of Vibrance",
+    "source": "LFL",
+    "sourceKey": "LFL",
+    "size": "Huge",
+    "type": "fey",
+    "alignment": "neutral",
+    "armorClass": "14",
+    "hitPoints": "230 (20d12 + 100)",
+    "speed": "walk 40 ft.",
+    "abilities": {
+      "str": 20,
+      "dex": 17,
+      "con": 20,
+      "int": 10,
+      "wis": 16,
+      "cha": 21
+    },
+    "savingThrows": "con: +9, cha: +9",
+    "skills": "",
+    "senses": "Darkvision 60 ft., passive Perception 13",
+    "languages": "Sylvan; telepathy 120 ft.",
+    "challengeRating": "10",
+    "traits": [
+      {
+        "name": "Magic Resistance",
+        "entries": [
+          "The incarnation has Advantage on saving throws against spells and other magical effects."
+        ]
+      }
+    ],
+    "spellcasting": [
+      {
+        "name": "Spellcasting",
+        "entries": [
+          "The incarnation casts one of the following spells, requiring no spell components and using Charisma as the spellcasting ability:",
+          "At will: Daylight, Druidcraft, Plant Growth",
+          "1/day: Blindness/Deafness"
+        ],
+        "displayAs": "action"
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "entries": [
+          "The incarnation makes two Vine attacks and uses Radiant Blast. It can replace one vine attack with a use of Spellcasting to cast Blindness/Deafness if available."
+        ]
+      },
+      {
+        "name": "Vine",
+        "entries": [
+          "Melee Weapon Attack: 9, reach 20 ft. 18 (3d8 + 5) Bludgeoning damage. If the target is the incarnation's size or smaller, it has the Grappled condition (escape DC 15) from one of two vines."
+        ]
+      },
+      {
+        "name": "Radiant Blast",
+        "entries": [
+          "con DC 17, each creature of the incarnation's choice in a 20-foot Emanation [Area of Effect] originating from the incarnation. The creature takes 14 (2d8 + 5) Radiant damage. {@actSaveSuccess Half damage."
+        ]
+      }
+    ],
+    "bonusActions": [
+      {
+        "name": "Shape-Shift",
+        "entries": [
+          "The incarnation changes its size to Medium, Large, or Huge."
+        ]
+      },
+      {
+        "name": "Teleport",
+        "entries": [
+          "The incarnation teleports up to 60 feet to an unoccupied space it can see. The incarnation can't teleport while it has a creature Grappled."
+        ]
+      }
+    ],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": [
+      "planar, feywild"
+    ]
+  },
+  {
+    "name": "Lorwyn Giant",
+    "source": "LFL",
+    "sourceKey": "LFL",
+    "size": "Huge",
+    "type": "giant",
+    "alignment": "chaotic neutral",
+    "armorClass": "13",
+    "hitPoints": "115 (11d12 + 44)",
+    "speed": "walk 40 ft.",
+    "abilities": {
+      "str": 21,
+      "dex": 13,
+      "con": 18,
+      "int": 9,
+      "wis": 16,
+      "cha": 8
+    },
+    "savingThrows": "con: +7, wis: +6",
+    "skills": "",
+    "senses": "passive Perception 13",
+    "languages": "Common, Giant",
+    "challengeRating": "6",
+    "traits": [],
+    "spellcasting": [],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "entries": [
+          "The giant makes two attacks, using Stone Sword or Boulder in any combination."
+        ]
+      },
+      {
+        "name": "Stone Sword",
+        "entries": [
+          "Melee Weapon Attack: 8, reach 15 ft. 21 (3d10 + 5) Slashing damage."
+        ]
+      },
+      {
+        "name": "Boulder",
+        "entries": [
+          "Ranged Weapon Attack: 8, range 60/240 ft. 14 (2d8 + 5) Bludgeoning damage. If the target is a Large or smaller creature, it has the Prone condition."
+        ]
+      }
+    ],
+    "bonusActions": [
+      {
+        "name": "Name Sleep 5",
+        "entries": [
+          "The giant falls into a deep, restorative slumber. The giant gains 20 Temporary Hit Points and has the Unconscious condition until it takes damage or the end of its next turn. The giant has Advantage on ability checks and saving throws for 1 minute."
+        ]
+      }
+    ],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": [
+      "planar, feywild"
+    ]
+  },
+  {
+    "name": "Merrow Doublespeaker",
+    "source": "LFL",
+    "sourceKey": "LFL",
+    "size": "Medium",
+    "type": "monstrosity",
+    "alignment": "lawful evil",
+    "armorClass": "14",
+    "hitPoints": "67 (9d8 + 27)",
+    "speed": "walk 20 ft., swim 40 ft.",
+    "abilities": {
+      "str": 18,
+      "dex": 17,
+      "con": 16,
+      "int": 12,
+      "wis": 13,
+      "cha": 16
+    },
+    "savingThrows": "dex: +5, cha: +5",
+    "skills": "deception: +5, stealth: +5",
+    "senses": "Darkvision 120 ft., passive Perception 11",
+    "languages": "Common, Primordial (Aquan)",
+    "challengeRating": "4",
+    "traits": [
+      {
+        "name": "Amphibious",
+        "entries": [
+          "The merrow can breathe air and water."
+        ]
+      },
+      {
+        "name": "Mimicry",
+        "entries": [
+          "The merrow can mimic voices and animal sounds. A creature that hears the mimicries can tell they are imitations with a successful DC 15 Wisdom (Insight) check."
+        ]
+      }
+    ],
+    "spellcasting": [
+      {
+        "name": "Spellcasting",
+        "entries": [
+          "The merrow casts one of the following spells, requiring no Material components and using Charisma as the spellcasting ability (spell save DC 13):",
+          "At will: Command, Mage Hand, Minor Illusion"
+        ],
+        "displayAs": "action"
+      }
+    ],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "entries": [
+          "The merrow makes three Spined Tail attacks. It can replace one of these attacks with a use of Spellcasting to cast Command."
+        ]
+      },
+      {
+        "name": "Spined Tail",
+        "entries": [
+          "Melee Weapon or Ranged Weapon Attack: 6, reach 5 ft. or range 20/60 ft. 14 (3d6 + 4) Piercing damage."
+        ]
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": [
+      "planar, feywild"
+    ]
+  },
+  {
+    "name": "Merrow Haranguer",
+    "source": "LFL",
+    "sourceKey": "LFL",
+    "size": "Medium",
+    "type": "monstrosity",
+    "alignment": "lawful neutral",
+    "armorClass": "14",
+    "hitPoints": "90 (12d8 + 36)",
+    "speed": "walk 5 ft., swim 40 ft.",
+    "abilities": {
+      "str": 18,
+      "dex": 18,
+      "con": 16,
+      "int": 14,
+      "wis": 15,
+      "cha": 19
+    },
+    "savingThrows": "dex: +7, cha: +7",
+    "skills": "performance: +7, persuasion: +7",
+    "senses": "passive Perception 12",
+    "languages": "Common, Primordial (Aquan)",
+    "challengeRating": "5",
+    "traits": [
+      {
+        "name": "Amphibious",
+        "entries": [
+          "The merrow can breathe air and water."
+        ]
+      }
+    ],
+    "spellcasting": [],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "entries": [
+          "The merrow makes three attacks, using Coral Scepter and Poisoned Longbow in any combination."
+        ]
+      },
+      {
+        "name": "Coral Scepter",
+        "entries": [
+          "Melee Weapon Attack: 7, reach 5 ft. 14 (2d10 + 4) Bludgeoning damage."
+        ]
+      },
+      {
+        "name": "Poisoned Longbow",
+        "entries": [
+          "Ranged Weapon Attack: 7, range 150/600 ft. 8 (1d8 + 4) Piercing damage plus 7 (2d6) Poison damage."
+        ]
+      },
+      {
+        "name": "Invective",
+        "entries": [
+          "wis DC 15, up to three creatures the merrow can see within 60 feet. 14 (4d6) Psychic damage, and the creature has Disadvantage on its next attack roll before the end of the merrow's next turn. {@actSaveSuccess Half damage only."
+        ]
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": [
+      "planar, feywild"
+    ]
+  },
+  {
+    "name": "Noggle Ransacker",
+    "source": "LFL",
+    "sourceKey": "LFL",
+    "size": "Small",
+    "type": "fey",
+    "alignment": "chaotic neutral",
+    "armorClass": "12",
+    "hitPoints": "13 (3d6 + 3)",
+    "speed": "walk 30 ft.",
+    "abilities": {
+      "str": 14,
+      "dex": 15,
+      "con": 13,
+      "int": 8,
+      "wis": 10,
+      "cha": 12
+    },
+    "savingThrows": "",
+    "skills": "stealth: +4",
+    "senses": "Darkvision 60 ft., passive Perception 10",
+    "languages": "Common, Sylvan",
+    "challengeRating": "1/4",
+    "traits": [
+      {
+        "name": "Siege Monster",
+        "entries": [
+          "The noggle deals double damage to objects and structures."
+        ]
+      }
+    ],
+    "spellcasting": [],
+    "actions": [
+      {
+        "name": "Sabotaging Swipe",
+        "entries": [
+          "Melee Weapon Attack: 4, reach 5 ft. 6 (1d8 + 2) Slashing damage. If the target is wearing armor, it is subjected to the following effect. dex DC 12. The armor takes a -1 penalty to the AC it offers. The target can take an action to remove the penalty from its armor."
+        ]
+      }
+    ],
+    "bonusActions": [
+      {
+        "name": "Nimble Escape",
+        "entries": [
+          "The noggle takes the Disengage or Hide action."
+        ]
+      }
+    ],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": [
+      "planar, feywild"
+    ]
+  },
+  {
+    "name": "Noggle Wild Mage",
+    "source": "LFL",
+    "sourceKey": "LFL",
+    "size": "Small",
+    "type": "fey",
+    "alignment": "chaotic neutral",
+    "armorClass": "13",
+    "hitPoints": "22 (4d6 + 8)",
+    "speed": "walk 30 ft.",
+    "abilities": {
+      "str": 11,
+      "dex": 16,
+      "con": 14,
+      "int": 10,
+      "wis": 12,
+      "cha": 17
+    },
+    "savingThrows": "con: +4, cha: +5",
+    "skills": "",
+    "senses": "Darkvision 60 ft., passive Perception 11",
+    "languages": "Common, Sylvan",
+    "challengeRating": "1",
+    "traits": [
+      {
+        "name": "Bloodied Wild Magic",
+        "entries": [
+          "While Bloodied, the noggle has a Fly Speed of 30 feet and it can choose for any damage it deals to be Force damage."
+        ]
+      }
+    ],
+    "spellcasting": [],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "entries": [
+          "The noggle makes two attacks, using Noggling Stick or Befuddling Ray in any combination."
+        ]
+      },
+      {
+        "name": "Noggling Stick",
+        "entries": [
+          "Melee Weapon Attack: 5, reach 5 ft. 5 (1d4 + 3) Bludgeoning damage plus 2 (1d4) Psychic damage."
+        ]
+      },
+      {
+        "name": "Befuddling Ray",
+        "entries": [
+          "Ranged Weapon Attack: 5, range 60 ft. 6 (1d6 + 3) Psychic damage, and the target subtracts 1d4 from the next saving throw it makes before the end of the noggle's next turn."
+        ]
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": [
+      "planar, feywild"
+    ]
+  },
+  {
+    "name": "Shadowmoor Giant",
+    "source": "LFL",
+    "sourceKey": "LFL",
+    "size": "Huge",
+    "type": "giant",
+    "alignment": "chaotic evil",
+    "armorClass": "14",
+    "hitPoints": "172 (15d12 + 75)",
+    "speed": "walk 40 ft.",
+    "abilities": {
+      "str": 22,
+      "dex": 14,
+      "con": 20,
+      "int": 7,
+      "wis": 19,
+      "cha": 8
+    },
+    "savingThrows": "con: +8, wis: +7",
+    "skills": "",
+    "senses": "Darkvision 120 ft., passive Perception 14",
+    "languages": "Giant",
+    "challengeRating": "8",
+    "traits": [],
+    "spellcasting": [],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "entries": [
+          "The giant makes three attacks, using Tree Club or Boulder in any combination."
+        ]
+      },
+      {
+        "name": "Tree Club",
+        "entries": [
+          "Melee Weapon Attack: 9, reach 15 ft. 17 (2d10 + 6) Bludgeoning damage."
+        ]
+      },
+      {
+        "name": "Boulder",
+        "entries": [
+          "Ranged Weapon Attack: 9, range 60/240 ft. 13 (2d6 + 6) Bludgeoning damage. If the target is a Large or smaller creature, it has the Prone condition."
+        ]
+      },
+      {
+        "name": "Wild Magic Cataclysm 5",
+        "entries": [
+          "dex DC 15, each creature in a 20-foot-radius Sphere [Area of Effect] centered on a point within 120 feet. 28 (8d6) damage (roll 1d4 to determine damage type: 1—Acid; 2—Fire; 3—Lightning; 4—Thunder). {@actSaveSuccess Half damage."
+        ]
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": [
+      "planar, feywild"
+    ]
+  }
+]

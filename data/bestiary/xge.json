@@ -1,0 +1,70 @@
+[
+  {
+    "name": "Hound of Ill Omen",
+    "source": "XGE",
+    "sourceKey": "XGE",
+    "page": 50,
+    "size": "Medium",
+    "type": "monstrosity",
+    "alignment": "",
+    "armorClass": "",
+    "hitPoints": "",
+    "speed": "",
+    "abilities": {},
+    "savingThrows": "",
+    "skills": "",
+    "senses": "",
+    "languages": "",
+    "challengeRating": "",
+    "traits": [],
+    "spellcasting": [],
+    "actions": [],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Tiny Servant",
+    "source": "XGE",
+    "sourceKey": "XGE",
+    "page": 169,
+    "size": "Tiny",
+    "type": "construct",
+    "alignment": "unaligned",
+    "armorClass": "15 (natural armor)",
+    "hitPoints": "10 (4d4)",
+    "speed": "walk 30 ft., climb 30 ft.",
+    "abilities": {
+      "str": 4,
+      "dex": 16,
+      "con": 10,
+      "int": 2,
+      "wis": 10,
+      "cha": 1
+    },
+    "savingThrows": "",
+    "skills": "",
+    "senses": "blindsight 60 ft. (blind beyond this radius), passive Perception 10",
+    "languages": "",
+    "challengeRating": "",
+    "traits": [],
+    "spellcasting": [],
+    "actions": [
+      {
+        "name": "Slam",
+        "entries": [
+          "Melee Weapon Attack: 5 to hit, reach 5 ft., one target. 5 (1d4 + 3) bludgeoning damage."
+        ]
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  }
+]

@@ -245,7 +245,7 @@ class ToolkitSettingTab extends PluginSettingTab {
       .forEach(([sourceKey, source]) => {
         const normalizedSourceKey = normalizeSourceKey(sourceKey);
         new Setting(containerEl)
-          .setName(`${source.short} - ${source.full}`)
+          .setName(`${source.full} (${source.short})`)
           .addToggle((toggle) => {
             toggle
               .setValue(includedSources.has(normalizedSourceKey))
@@ -295,6 +295,7 @@ class TypeSelectionModal extends FuzzySuggestModal<{ label: string; value: strin
     return [
       { label: "Insert book", value: "books" },
       { label: "Insert movie", value: "movies" },
+      { label: "Insert monster", value: "monsters" },
       { label: "Insert spell", value: "spells" },
     ];
   }

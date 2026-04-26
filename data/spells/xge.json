@@ -155,7 +155,7 @@
     "duration": "Instantaneous",
     "entries": [
       "You perform a special religious ceremony that is infused with magic. When you cast the spell, choose one of the following rites, the target of which must be within 10 feet of you throughout the casting.",
-      "**Atonement**\n\nYou touch one willing creature whose alignment has changed, and you make a 20 Wisdom (Insight) check. On a successful check, you restore the target to its original alignment.",
+      "**Atonement**\n\nYou touch one willing creature whose alignment has changed, and you make a DC 20 Wisdom (Insight) check. On a successful check, you restore the target to its original alignment.",
       "**Bless Water**\n\nYou touch one vial of water and cause it to become Holy Water (flask).",
       "**Coming of Age**\n\nYou touch one humanoid who is a young adult. For the next 24 hours, whenever the target makes an ability check, it can roll a d4 and add the number rolled to the ability check. A creature can benefit from this rite only once.",
       "**Dedication**\n\nYou touch one humanoid who wishes to be dedicated to your god's service. For the next 24 hours, whenever the target makes a saving throw, it can roll a d4 and add the number rolled to the save. A creature can benefit from this rite only once.",
@@ -1441,7 +1441,7 @@
     "entries": [
       "You endow yourself with endurance and martial prowess fueled by magic. Until the spell ends, you can't cast spells, and you gain the following benefits:",
       "- You gain 50 temporary hit points. If any of these remain when the spell ends, they are lost.\n- You have advantage on attack rolls that you make with simple and martial weapons.\n- When you hit a target with a weapon attack, that target takes an extra 2d12 force damage.\n- You have proficiency with all armor, shields, simple weapons, and martial weapons.\n- You have proficiency in Strength and Constitution saving throws.\n- You can attack twice, instead of once, when you take the Attack action on your turn. You ignore this benefit if you already have a feature, like Extra Attack, that gives you extra attacks.",
-      "Immediately after the spell ends, you must succeed on a 15 Constitution saving throw or suffer one level of exhaustion."
+      "Immediately after the spell ends, you must succeed on a DC 15 Constitution saving throw or suffer one level of exhaustion."
     ],
     "higherLevel": []
   },
@@ -1550,7 +1550,7 @@
       "**Transmute Rock to Mud**\n\nNonmagical rock of any sort in the area becomes an equal volume of thick, flowing mud that remains for the spell's duration.",
       "The ground in the spell's area becomes muddy enough that creatures can sink into it. Each foot that a creature moves through the mud costs 4 feet of movement, and any creature on the ground when you cast the spell must make a Strength saving throw. A creature must also make the saving throw when it moves into the area for the first time on a turn or ends its turn there. On a failed save, a creature sinks into the mud and is restrained, though it can use an action to end the restrained condition on itself by pulling itself free of the mud.",
       "If you cast the spell on a ceiling, the mud falls. Any creature under the mud when it falls must make a Dexterity saving throw. A creature takes 4d8 bludgeoning damage on a failed save, or half as much damage on a successful one.",
-      "**Transmute Mud to Rock**\n\nNonmagical mud or quicksand in the area no more than 10 feet deep transforms into soft stone for the spell's duration. Any creature in the mud when it transforms must make a Dexterity saving throw. On a successful save, a creature is shunted safely to the surface in an unoccupied space. On a failed save, a creature becomes restrained by the rock. A restrained creature, or another creature within reach, can use an action to try to break the rock by succeeding on a 20 Strength check or by dealing damage to it. The rock has AC 15 and 25 hit points, and it is immune to poison and psychic damage."
+      "**Transmute Mud to Rock**\n\nNonmagical mud or quicksand in the area no more than 10 feet deep transforms into soft stone for the spell's duration. Any creature in the mud when it transforms must make a Dexterity saving throw. On a successful save, a creature is shunted safely to the surface in an unoccupied space. On a failed save, a creature becomes restrained by the rock. A restrained creature, or another creature within reach, can use an action to try to break the rock by succeeding on a DC 20 Strength check or by dealing damage to it. The rock has AC 15 and 25 hit points, and it is immune to poison and psychic damage."
     ],
     "higherLevel": []
   },

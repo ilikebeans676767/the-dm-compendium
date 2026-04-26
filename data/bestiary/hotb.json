@@ -1,0 +1,648 @@
+[
+  {
+    "name": "Curate",
+    "source": "HotB",
+    "sourceKey": "HOTB",
+    "page": 15,
+    "size": "Medium",
+    "type": "humanoid",
+    "alignment": "lawful good",
+    "armorClass": "12",
+    "hitPoints": "97 (15d8 + 30)",
+    "speed": "walk 30 ft.",
+    "abilities": {
+      "str": 8,
+      "dex": 14,
+      "con": 14,
+      "int": 14,
+      "wis": 18,
+      "cha": 14
+    },
+    "savingThrows": "int: +5, wis: +7, cha: +5",
+    "skills": "persuasion: +5, religion: +5",
+    "senses": "passive Perception 14",
+    "languages": "Celestial, Common",
+    "challengeRating": "6",
+    "traits": [
+      {
+        "name": "Magic Resistance",
+        "entries": [
+          "The curate has Advantage on saving throws against spells and other magical effects."
+        ]
+      },
+      {
+        "name": "Raise the Dead (1/Day)",
+        "entries": [
+          "In a ritual that takes 8 hours, the curate touches a creature that has died within the past 7 days. That creature returns to life with 1 Hit Points. The curate can't revive a creature that died of old age."
+        ]
+      }
+    ],
+    "spellcasting": [],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "entries": [
+          "The curate makes three Celestial Radiance attacks."
+        ]
+      },
+      {
+        "name": "Celestial Radiance",
+        "entries": [
+          "Melee Weapon or Ranged Weapon Attack: 7, reach 5 ft. or range 60 ft. 18 (4d8) Radiant damage."
+        ]
+      },
+      {
+        "name": "Healer's Touch (2/Day)",
+        "entries": [
+          "The curate touches another creature. That creature regains 13 (2d8 + 4) Hit Points."
+        ]
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Gray Ooze Glob",
+    "source": "HotB",
+    "sourceKey": "HOTB",
+    "page": 18,
+    "size": "Small",
+    "type": "ooze",
+    "alignment": "unaligned",
+    "armorClass": "9",
+    "hitPoints": "19 (3d6 + 9)",
+    "speed": "walk 10 ft., climb 10 ft.",
+    "abilities": {
+      "str": 12,
+      "dex": 6,
+      "con": 16,
+      "int": 1,
+      "wis": 6,
+      "cha": 2
+    },
+    "savingThrows": "",
+    "skills": "stealth: +2",
+    "senses": "Blindsight 60 ft., passive Perception 8",
+    "languages": "",
+    "challengeRating": "1/2",
+    "traits": [
+      {
+        "name": "Amorphous",
+        "entries": [
+          "The ooze can move through a space as narrow as 1 inch without expending extra movement to do so."
+        ]
+      },
+      {
+        "name": "Corrosive Form",
+        "entries": [
+          "Whenever a creature hits the ooze with a melee attack, that creature takes 2 Acid damage."
+        ]
+      }
+    ],
+    "spellcasting": [],
+    "actions": [
+      {
+        "name": "Pseudopod",
+        "entries": [
+          "Melee Weapon Attack: 3, reach 5 ft. 10 (2d8 + 1) Acid damage."
+        ]
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Ivlis",
+    "source": "HotB",
+    "sourceKey": "HOTB",
+    "page": 26,
+    "size": "Medium",
+    "type": "humanoid (human)",
+    "alignment": "chaotic evil",
+    "armorClass": "13",
+    "hitPoints": "49 (10d8 + 10)",
+    "speed": "walk 30 ft.",
+    "abilities": {
+      "str": 11,
+      "dex": 14,
+      "con": 12,
+      "int": 10,
+      "wis": 14,
+      "cha": 14
+    },
+    "savingThrows": "",
+    "skills": "deception: +4, persuasion: +4",
+    "senses": "passive Perception 12",
+    "languages": "Common",
+    "challengeRating": "2",
+    "traits": [],
+    "spellcasting": [],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "entries": [
+          "Ivlis makes three Chaos Blast attacks. She can replace one attack with a use of Sinister Command if available."
+        ]
+      },
+      {
+        "name": "Chaos Blast",
+        "entries": [
+          "Melee Weapon or Ranged Weapon Attack: 4, reach 5 ft. or range 60 ft. 7 (2d6) damage. Roll 1d4 to determine the damage type: 1, Acid; 2, Cold; 3, Fire; 4, Lightning."
+        ]
+      },
+      {
+        "name": "Sinister Command 5",
+        "entries": [
+          "wis DC 12, one creature Ivlis can see within 60 feet. The target has the Charmed condition until the end of its next turn. While Charmed, the target has the Incapacitated condition."
+        ]
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Jacko",
+    "source": "HotB",
+    "sourceKey": "HOTB",
+    "page": 11,
+    "size": "Small",
+    "type": "humanoid (halfling)",
+    "alignment": "chaotic neutral",
+    "armorClass": "13",
+    "hitPoints": "22 (5d8)",
+    "speed": "walk 30 ft.",
+    "abilities": {
+      "str": 10,
+      "dex": 16,
+      "con": 10,
+      "int": 12,
+      "wis": 14,
+      "cha": 16
+    },
+    "savingThrows": "",
+    "skills": "perception: +6, stealth: +5",
+    "senses": "passive Perception 16",
+    "languages": "Common, Halfling",
+    "challengeRating": "1",
+    "traits": [
+      {
+        "name": "Quick Disguise",
+        "entries": [
+          "Jacko spends 1 minute to disguise himself as a different Humanoid of approximately his height and weight. While Jacko is disguised, a creature that takes the Study action to inspect Jacko's appearance can make a DC 13 Intelligence (Investigation) check, discerning his disguise on a successful check."
+        ]
+      }
+    ],
+    "spellcasting": [],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "entries": [
+          "Jacko makes two Poison Dagger attacks."
+        ]
+      },
+      {
+        "name": "Poison Dagger",
+        "entries": [
+          "Melee Weapon or Ranged Weapon Attack: 5, reach 5 ft. or range 20/60 ft. 5 (1d4 + 3) Piercing damage plus 3 (1d6) Poison damage."
+        ]
+      }
+    ],
+    "bonusActions": [
+      {
+        "name": "Cunning Action",
+        "entries": [
+          "Jacko takes the Dash, Disengage, or Hide action."
+        ]
+      }
+    ],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Kuo-toa Marauder",
+    "source": "HotB",
+    "sourceKey": "HOTB",
+    "page": 8,
+    "size": "Medium",
+    "type": "aberration",
+    "alignment": "neutral evil",
+    "armorClass": "12",
+    "hitPoints": "22 (4d8 + 4)",
+    "speed": "walk 30 ft., swim 30 ft.",
+    "abilities": {
+      "str": 14,
+      "dex": 10,
+      "con": 12,
+      "int": 10,
+      "wis": 11,
+      "cha": 10
+    },
+    "savingThrows": "",
+    "skills": "perception: +4",
+    "senses": "Darkvision 120 ft., Truesight 30 ft., passive Perception 14",
+    "languages": "Common, Undercommon",
+    "challengeRating": "1/2",
+    "traits": [
+      {
+        "name": "Amphibious",
+        "entries": [
+          "The kuo-toa can breathe air and water."
+        ]
+      },
+      {
+        "name": "Sunlight Sensitivity",
+        "entries": [
+          "While in sunlight, the kuo-toa has Disadvantage on ability checks and attack rolls."
+        ]
+      }
+    ],
+    "spellcasting": [],
+    "actions": [
+      {
+        "name": "Brine Slicer",
+        "entries": [
+          "Melee Weapon Attack: 4, reach 5 ft. 9 (2d6 + 2) Slashing damage."
+        ]
+      }
+    ],
+    "bonusActions": [
+      {
+        "name": "Slippery",
+        "entries": [
+          "The kuo-toa takes the Disengage action."
+        ]
+      }
+    ],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Lizardfolk Warden",
+    "source": "HotB",
+    "sourceKey": "HOTB",
+    "page": 10,
+    "size": "Medium",
+    "type": "elemental",
+    "alignment": "neutral",
+    "armorClass": "15",
+    "hitPoints": "32 (5d8 + 10)",
+    "speed": "walk 30 ft., swim 30 ft.",
+    "abilities": {
+      "str": 15,
+      "dex": 12,
+      "con": 14,
+      "int": 10,
+      "wis": 12,
+      "cha": 8
+    },
+    "savingThrows": "",
+    "skills": "stealth: +5, survival: +5",
+    "senses": "passive Perception 11",
+    "languages": "Common, Draconic",
+    "challengeRating": "1",
+    "traits": [
+      {
+        "name": "Hold Breath",
+        "entries": [
+          "The lizardfolk can hold its breath for 15 minutes."
+        ]
+      }
+    ],
+    "spellcasting": [],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "entries": [
+          "The lizardfolk makes one Bite attack and one Bone Pike attack."
+        ]
+      },
+      {
+        "name": "Bite",
+        "entries": [
+          "Melee Weapon Attack: 4, reach 5 ft. 5 (1d6 + 2) Piercing damage plus 3 (1d6) Poison damage."
+        ]
+      },
+      {
+        "name": "Bone Pike",
+        "entries": [
+          "Melee Weapon Attack: 4, reach 10 ft. 7 (1d10 + 2) Piercing damage."
+        ]
+      },
+      {
+        "name": "Poison Spit",
+        "entries": [
+          "Ranged Weapon Attack: 4, range 60 ft. 12 (3d6 + 2) Poison damage."
+        ]
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Narthus",
+    "source": "HotB",
+    "sourceKey": "HOTB",
+    "page": 26,
+    "size": "Medium",
+    "type": "humanoid (human)",
+    "alignment": "chaotic evil",
+    "armorClass": "13",
+    "hitPoints": "22 (4d8 + 4)",
+    "speed": "walk 30 ft.",
+    "abilities": {
+      "str": 14,
+      "dex": 11,
+      "con": 12,
+      "int": 10,
+      "wis": 14,
+      "cha": 10
+    },
+    "savingThrows": "",
+    "skills": "medicine: +4, religion: +2",
+    "senses": "passive Perception 12",
+    "languages": "Common",
+    "challengeRating": "1",
+    "traits": [],
+    "spellcasting": [],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "entries": [
+          "Narthus makes two attacks using Vile Mace or Fateful Bolt in any combination."
+        ]
+      },
+      {
+        "name": "Vile Mace",
+        "entries": [
+          "Melee Weapon Attack: 4, reach 5 ft. 5 (1d6 + 2) Bludgeoning damage plus 3 (1d6) Necrotic damage."
+        ]
+      },
+      {
+        "name": "Fateful Bolt",
+        "entries": [
+          "Ranged Weapon Attack: 4, range 120 ft. 8 (1d12 + 2) Necrotic damage, and the next attack roll made against the target before the end of Narthus's next turn has Advantage."
+        ]
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Pral",
+    "source": "HotB",
+    "sourceKey": "HOTB",
+    "page": 6,
+    "size": "Medium",
+    "type": "humanoid (human)",
+    "alignment": "lawful evil",
+    "armorClass": "14",
+    "hitPoints": "52 (8d8 + 16)",
+    "speed": "walk 30 ft.",
+    "abilities": {
+      "str": 15,
+      "dex": 16,
+      "con": 14,
+      "int": 14,
+      "wis": 11,
+      "cha": 14
+    },
+    "savingThrows": "dex: +5",
+    "skills": "athletics: +4, deception: +4",
+    "senses": "passive Perception 10",
+    "languages": "Common",
+    "challengeRating": "1",
+    "traits": [],
+    "spellcasting": [],
+    "actions": [
+      {
+        "name": "Rapier",
+        "entries": [
+          "Melee Weapon Attack: 5, reach 5 ft. 7 (1d8 + 3) Piercing damage."
+        ]
+      },
+      {
+        "name": "Light Crossbow",
+        "entries": [
+          "Ranged Weapon Attack: 5, range 80/320 ft. 7 (1d8 + 3) Piercing damage."
+        ]
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [
+      {
+        "name": "Parry",
+        "entries": [
+          "Pral is hit with a melee attack roll while holding a weapon. {@actResponse Pral adds 2 to his AC against that attack, potentially causing the attack to miss."
+        ]
+      }
+    ],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Sprite Skirmisher",
+    "source": "HotB",
+    "sourceKey": "HOTB",
+    "page": 9,
+    "size": "Tiny",
+    "type": "fey",
+    "alignment": "neutral good",
+    "armorClass": "15",
+    "hitPoints": "10 (4d4)",
+    "speed": "walk 10 ft., fly 40 ft.",
+    "abilities": {
+      "str": 3,
+      "dex": 18,
+      "con": 10,
+      "int": 14,
+      "wis": 13,
+      "cha": 11
+    },
+    "savingThrows": "",
+    "skills": "perception: +3, stealth: +8",
+    "senses": "passive Perception 13",
+    "languages": "Common, Elvish, Sylvan",
+    "challengeRating": "1/4",
+    "traits": [],
+    "spellcasting": [],
+    "actions": [
+      {
+        "name": "Needle Sword",
+        "entries": [
+          "Melee Weapon Attack: 6, reach 5 ft. 6 (1d4 + 4) Piercing damage."
+        ]
+      },
+      {
+        "name": "Enchanting Bow",
+        "entries": [
+          "Ranged Weapon Attack: 6, range 40/160 ft. 1 Piercing damage, and the target has the Charmed condition until the start of the sprite's next turn."
+        ]
+      },
+      {
+        "name": "Heart Sight",
+        "entries": [
+          "cha DC 10, one creature within 5 feet the sprite can see (Celestials, Fiends, Undead automatically fail the save). The sprite knows the target's emotions."
+        ]
+      },
+      {
+        "name": "Invisibility",
+        "entries": [
+          "The sprite has the Invisible condition for 1 minute. This effect ends early immediately after the sprite makes an attack roll or deals damage, or if the sprite has the Incapacitated condition."
+        ]
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Vinx",
+    "source": "HotB",
+    "sourceKey": "HOTB",
+    "page": 12,
+    "size": "Medium",
+    "type": "humanoid (dwarf)",
+    "alignment": "chaotic good",
+    "armorClass": "13",
+    "hitPoints": "11 (2d8 + 2)",
+    "speed": "walk 30 ft.",
+    "abilities": {
+      "str": 11,
+      "dex": 14,
+      "con": 12,
+      "int": 11,
+      "wis": 13,
+      "cha": 11
+    },
+    "savingThrows": "",
+    "skills": "perception: +5, stealth: +6, survival: +5",
+    "senses": "passive Perception 15",
+    "languages": "Common, Dwarvish",
+    "challengeRating": "1/4",
+    "traits": [],
+    "spellcasting": [],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "entries": [
+          "Vinx makes two attacks, using Shortsword and Sling in any combination."
+        ]
+      },
+      {
+        "name": "Shortsword",
+        "entries": [
+          "Melee Weapon Attack: 4, reach 5 ft. 5 (1d6 + 2) Piercing damage."
+        ]
+      },
+      {
+        "name": "Sling",
+        "entries": [
+          "Ranged Weapon Attack: 4, range 30/120 ft. 4 (1d4 + 2) Bludgeoning damage."
+        ]
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Wight Lifedrinker",
+    "source": "HotB",
+    "sourceKey": "HOTB",
+    "page": 19,
+    "size": "Medium",
+    "type": "undead",
+    "alignment": "neutral evil",
+    "armorClass": "14",
+    "hitPoints": "82 (11d8 + 33)",
+    "speed": "walk 30 ft.",
+    "abilities": {
+      "str": 15,
+      "dex": 14,
+      "con": 16,
+      "int": 10,
+      "wis": 13,
+      "cha": 15
+    },
+    "savingThrows": "",
+    "skills": "perception: +3, stealth: +4",
+    "senses": "Darkvision 60 ft., passive Perception 13",
+    "languages": "Common plus one other language",
+    "challengeRating": "3",
+    "traits": [
+      {
+        "name": "Sunlight Sensitivity",
+        "entries": [
+          "While in sunlight, the wight has Disadvantage on ability checks and attack rolls."
+        ]
+      }
+    ],
+    "spellcasting": [],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "entries": [
+          "The wight makes two attacks, using Necrotic Sword or Necrotic Bow in any combination. It can replace one attack with a use of Drink Life."
+        ]
+      },
+      {
+        "name": "Necrotic Sword",
+        "entries": [
+          "Melee Weapon Attack: 4, reach 5 ft. 6 (1d8 + 2) Slashing damage plus 4 (1d8) Necrotic damage."
+        ]
+      },
+      {
+        "name": "Necrotic Bow",
+        "entries": [
+          "Ranged Weapon Attack: 4, range 150/600 ft. 6 (1d8 + 2) Piercing damage plus 4 (1d8) Necrotic damage."
+        ]
+      },
+      {
+        "name": "Drink Life 5",
+        "entries": [
+          "con DC 13, one creature within 5 feet. 6 (1d8 + 2) Necrotic damage, and the wight regains a number of Hit Points equal to the Necrotic damage taken."
+        ]
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  }
+]

@@ -1,0 +1,77 @@
+[
+  {
+    "name": "Mr. Honeycutt",
+    "source": "NRH-TCMC",
+    "sourceKey": "NRH-TCMC",
+    "page": 10,
+    "size": "",
+    "type": "",
+    "alignment": "",
+    "armorClass": "",
+    "hitPoints": "",
+    "speed": "",
+    "abilities": {},
+    "savingThrows": "",
+    "skills": "",
+    "senses": "",
+    "languages": "",
+    "challengeRating": "",
+    "traits": [],
+    "spellcasting": [],
+    "actions": [],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Slurmy",
+    "source": "NRH-TCMC",
+    "sourceKey": "NRH-TCMC",
+    "page": 10,
+    "size": "Small",
+    "type": "humanoid (goblinoid)",
+    "alignment": "neutral evil",
+    "armorClass": "14 (natural armor)",
+    "hitPoints": "11 (2d8 + 2)",
+    "speed": "walk 30 ft.",
+    "abilities": {
+      "str": 8,
+      "dex": 14,
+      "con": 12,
+      "int": 8,
+      "wis": 14,
+      "cha": 8
+    },
+    "savingThrows": "",
+    "skills": "perception: +4",
+    "senses": "passive Perception 12",
+    "languages": "Common",
+    "challengeRating": "1/8",
+    "traits": [
+      {
+        "name": "Nimble Escape",
+        "entries": [
+          "Slurmy can take the Disengage or Hide action as a bonus action on each of their turns."
+        ]
+      }
+    ],
+    "spellcasting": [],
+    "actions": [
+      {
+        "name": "Claw",
+        "entries": [
+          "Melee Weapon Attack: 4 to hit, reach 5 ft., one target. 5 (1d6 + 2) slashing damage."
+        ]
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  }
+]

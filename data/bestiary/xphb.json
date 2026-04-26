@@ -1,0 +1,916 @@
+[
+  {
+    "name": "Aberrant Spirit",
+    "source": "XPHB",
+    "sourceKey": "XPHB",
+    "page": 322,
+    "size": "Medium",
+    "type": "aberration",
+    "alignment": "neutral",
+    "armorClass": "",
+    "hitPoints": "40 + 10 for each spell level above 4",
+    "speed": "walk 30 ft., fly 30 ft. (hover; Beholderkin only) (hover)",
+    "abilities": {
+      "str": 16,
+      "dex": 10,
+      "con": 15,
+      "int": 16,
+      "wis": 10,
+      "cha": 6
+    },
+    "savingThrows": "",
+    "skills": "",
+    "senses": "Darkvision 60 ft., passive Perception 10",
+    "languages": "Deep Speech, understands the languages you know",
+    "challengeRating": "",
+    "traits": [
+      {
+        "name": "Regeneration (Slaad Only)",
+        "entries": [
+          "The spirit regains 5 Hit Points at the start of its turn if it has at least 1 Hit Point."
+        ]
+      },
+      {
+        "name": "Whispering Aura (Mind Flayer Only)",
+        "entries": [
+          "At the start of each of the spirit's turns, the spirit emits psionic energy if it doesn't have the Incapacitated condition. wis DC equals your spell save DC, each creature (other than you) within 5 feet of the spirit. 2d6 Psychic damage."
+        ]
+      }
+    ],
+    "spellcasting": [],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "entries": [
+          "The spirit makes a number of attacks equal to half this spell's level (round down)."
+        ]
+      },
+      {
+        "name": "Claw (Slaad Only)",
+        "entries": [
+          "Melee Weapon Attack: Bonus equals your spell attack modifier, reach 5 ft. 1d10 + 3 + summonSpellLevel Slashing damage, and the target can't regain Hit Points until the start of the spirit's next turn."
+        ]
+      },
+      {
+        "name": "Eye Ray (Beholderkin Only)",
+        "entries": [
+          "Ranged Weapon Attack: Bonus equals your spell attack modifier, range 150 ft. 1d8 + 3 + summonSpellLevel Psychic damage."
+        ]
+      },
+      {
+        "name": "Psychic Slam (Mind Flayer Only)",
+        "entries": [
+          "Melee Weapon Attack: Bonus equals your spell attack modifier, reach 5 ft. 1d8 + 3 + summonSpellLevel Psychic damage."
+        ]
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Animated Object",
+    "source": "XPHB",
+    "sourceKey": "XPHB",
+    "page": 240,
+    "size": "Tiny, Small, Medium, Large, Huge",
+    "type": "construct",
+    "alignment": "unaligned",
+    "armorClass": "15",
+    "hitPoints": "10 (Medium or smaller), 20 (Large), 40 (Huge)",
+    "speed": "walk 30 ft.",
+    "abilities": {
+      "str": 16,
+      "dex": 10,
+      "con": 10,
+      "int": 3,
+      "wis": 3,
+      "cha": 1
+    },
+    "savingThrows": "",
+    "skills": "",
+    "senses": "Blindsight 30 ft., passive Perception 6",
+    "languages": "understands the languages you know",
+    "challengeRating": "",
+    "traits": [],
+    "spellcasting": [],
+    "actions": [
+      {
+        "name": "Slam",
+        "entries": [
+          "Melee Weapon Attack: Bonus equals your spell attack modifier, reach 5 ft. Force damage equal to (summonSpellLevel - 4)d4 + 3, (summonSpellLevel - 3)d6 + 3 + your spellcasting ability modifier (Large), or (summonSpellLevel - 3)d12 + 3 + your spellcasting ability modifier (Huge)."
+        ]
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Beast of the Land",
+    "source": "XPHB",
+    "sourceKey": "XPHB",
+    "page": 123,
+    "size": "Medium",
+    "type": "beast",
+    "alignment": "neutral",
+    "armorClass": "",
+    "hitPoints": "5 plus five times your Ranger level (the beast has a number of Hit Dice [d8s] equal to your Ranger level)",
+    "speed": "walk 40 ft., climb 40 ft.",
+    "abilities": {
+      "str": 14,
+      "dex": 14,
+      "con": 15,
+      "int": 8,
+      "wis": 14,
+      "cha": 11
+    },
+    "savingThrows": "",
+    "skills": "",
+    "senses": "Darkvision 60 ft., passive Perception 12",
+    "languages": "understands the languages you know",
+    "challengeRating": "",
+    "traits": [
+      {
+        "name": "Primal Bond",
+        "entries": [
+          "Add your Proficiency Bonus to any ability check or saving throw the beast makes."
+        ]
+      }
+    ],
+    "spellcasting": [],
+    "actions": [
+      {
+        "name": "Beast's Strike",
+        "entries": [
+          "Melee Weapon Attack: Bonus equals your spell attack modifier, reach 5 ft. 1d8 + 2 plus your Wisdom modifier Bludgeoning, Piercing, or Slashing damage (your choice when you summon the beast). If the beast moved at least 20 feet straight toward the target before the hit, the target takes an extra 1d6 damage of the same type, and the target has the Prone condition if it is a Large or smaller creature."
+        ]
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Beast of the Sea",
+    "source": "XPHB",
+    "sourceKey": "XPHB",
+    "page": 124,
+    "size": "Medium",
+    "type": "beast",
+    "alignment": "neutral",
+    "armorClass": "",
+    "hitPoints": "5 plus five times your Ranger level (the beast has a number of Hit Dice [d8s] equal to your Ranger level)",
+    "speed": "walk 5 ft., swim 60 ft.",
+    "abilities": {
+      "str": 14,
+      "dex": 14,
+      "con": 15,
+      "int": 8,
+      "wis": 14,
+      "cha": 11
+    },
+    "savingThrows": "",
+    "skills": "",
+    "senses": "Darkvision 90 ft., passive Perception 12",
+    "languages": "understands the languages you know",
+    "challengeRating": "",
+    "traits": [
+      {
+        "name": "Amphibious",
+        "entries": [
+          "The beast can breathe air and water."
+        ]
+      },
+      {
+        "name": "Primal Bond",
+        "entries": [
+          "Add your Proficiency Bonus to any ability check or saving throw the beast makes."
+        ]
+      }
+    ],
+    "spellcasting": [],
+    "actions": [
+      {
+        "name": "Beast's Strike",
+        "entries": [
+          "Melee Weapon Attack: Bonus equals your spell attack modifier, reach 5 ft. 1d6 + 2 plus your Wisdom modifier Bludgeoning or Piercing damage (your choice when you summon the beast), and the target has the Grappled condition (escape DC equals your spell save DC)."
+        ]
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Beast of the Sky",
+    "source": "XPHB",
+    "sourceKey": "XPHB",
+    "page": 124,
+    "size": "Small",
+    "type": "beast",
+    "alignment": "neutral",
+    "armorClass": "",
+    "hitPoints": "4 plus four times your Ranger level (the beast has a number of Hit Dice [d6s] equal to your Ranger level)",
+    "speed": "walk 10 ft., fly 60 ft.",
+    "abilities": {
+      "str": 6,
+      "dex": 16,
+      "con": 13,
+      "int": 8,
+      "wis": 14,
+      "cha": 11
+    },
+    "savingThrows": "",
+    "skills": "",
+    "senses": "Darkvision 60 ft., passive Perception 12",
+    "languages": "understands the languages you know",
+    "challengeRating": "",
+    "traits": [
+      {
+        "name": "Flyby",
+        "entries": [
+          "The beast doesn't provoke Opportunity Attack when it flies out of an enemy's reach."
+        ]
+      },
+      {
+        "name": "Primal Bond",
+        "entries": [
+          "Add your Proficiency Bonus to any ability check or saving throw the beast makes."
+        ]
+      }
+    ],
+    "spellcasting": [],
+    "actions": [
+      {
+        "name": "Beast's Strike",
+        "entries": [
+          "Melee Weapon Attack: Bonus equals your spell attack modifier, reach 5 ft. 1d4 + 3 plus your Wisdom modifier Slashing damage."
+        ]
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Bestial Spirit",
+    "source": "XPHB",
+    "sourceKey": "XPHB",
+    "page": 323,
+    "size": "Small",
+    "type": "beast",
+    "alignment": "neutral",
+    "armorClass": "",
+    "hitPoints": "20 (Air only) or 30 (Land and Water only) + 5 for each spell level above 2",
+    "speed": "walk 30 ft., climb 30 ft. (Land only), fly 60 ft. (Air only), swim 30 ft. (Water only)",
+    "abilities": {
+      "str": 18,
+      "dex": 11,
+      "con": 16,
+      "int": 4,
+      "wis": 14,
+      "cha": 5
+    },
+    "savingThrows": "",
+    "skills": "",
+    "senses": "Darkvision 60 ft., passive Perception 12",
+    "languages": "understands the languages you know",
+    "challengeRating": "",
+    "traits": [
+      {
+        "name": "Flyby (Air Only)",
+        "entries": [
+          "The spirit doesn't provoke Opportunity Attack when it flies out of an enemy's reach."
+        ]
+      },
+      {
+        "name": "Pack Tactics (Land and Water Only)",
+        "entries": [
+          "The spirit has Advantage on an attack roll against a creature if at least one of the spirit's allies is within 5 feet of the creature and the ally doesn't have the Incapacitated condition."
+        ]
+      },
+      {
+        "name": "Water Breathing (Water Only)",
+        "entries": [
+          "The spirit can breathe only underwater."
+        ]
+      }
+    ],
+    "spellcasting": [],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "entries": [
+          "The spirit makes a number of Rend attacks equal to half this spell's level (round down)."
+        ]
+      },
+      {
+        "name": "Rend",
+        "entries": [
+          "Melee Weapon Attack: Bonus equals your spell attack modifier, reach 5 ft. 1d8 + 4 + summonSpellLevel Piercing damage."
+        ]
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Celestial Spirit",
+    "source": "XPHB",
+    "sourceKey": "XPHB",
+    "page": 323,
+    "size": "Large",
+    "type": "celestial",
+    "alignment": "neutral",
+    "armorClass": "",
+    "hitPoints": "40 + 10 for each spell level above 5",
+    "speed": "walk 30 ft., fly 40 ft.",
+    "abilities": {
+      "str": 16,
+      "dex": 14,
+      "con": 16,
+      "int": 10,
+      "wis": 14,
+      "cha": 16
+    },
+    "savingThrows": "",
+    "skills": "",
+    "senses": "Darkvision 60 ft., passive Perception 12",
+    "languages": "Celestial, understands the languages you know",
+    "challengeRating": "",
+    "traits": [],
+    "spellcasting": [],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "entries": [
+          "The spirit makes a number of attacks equal to half this spell's level (round down)."
+        ]
+      },
+      {
+        "name": "Radiant Bow (Avenger Only)",
+        "entries": [
+          "Ranged Weapon Attack: Bonus equals your spell attack modifier, range 600 ft. 2d6 + 2 + summonSpellLevel Radiant damage."
+        ]
+      },
+      {
+        "name": "Radiant Mace (Defender Only)",
+        "entries": [
+          "Melee Weapon Attack: Bonus equals your spell attack modifier, reach 5 ft. 1d10 + 3 + summonSpellLevel Radiant damage, and the spirit can choose itself or another creature it can see within 10 feet of the target. The chosen creature gains 1d10 Temporary Hit Points."
+        ]
+      },
+      {
+        "name": "Healing Touch (1/Day)",
+        "entries": [
+          "The spirit touches another creature. The target regains Hit Points equal to 2d8 + summonSpellLevel."
+        ]
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Construct Spirit",
+    "source": "XPHB",
+    "sourceKey": "XPHB",
+    "page": 324,
+    "size": "Medium",
+    "type": "construct",
+    "alignment": "neutral",
+    "armorClass": "",
+    "hitPoints": "40 + 15 for each spell level above 4",
+    "speed": "walk 30 ft.",
+    "abilities": {
+      "str": 18,
+      "dex": 10,
+      "con": 18,
+      "int": 14,
+      "wis": 11,
+      "cha": 5
+    },
+    "savingThrows": "",
+    "skills": "",
+    "senses": "Darkvision 60 ft., passive Perception 10",
+    "languages": "Understands the languages you know",
+    "challengeRating": "",
+    "traits": [
+      {
+        "name": "Heated Body (Metal Only)",
+        "entries": [
+          "A creature that hits the spirit with a melee attack or that starts its turn in a grapple with the spirit takes 1d10 Fire damage."
+        ]
+      },
+      {
+        "name": "Stony Lethargy (Stone Only)",
+        "entries": [
+          "When a creature starts its turn within 10 feet of the spirit, the spirit can target it with magical energy if the spirit can see it. wis DC equals your spell save DC, the target. Until the start of its next turn, the target can't make Opportunity Attack, and its Speed is halved."
+        ]
+      }
+    ],
+    "spellcasting": [],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "entries": [
+          "The spirit makes a number of Slam attacks equal to half this spell's level (round down)."
+        ]
+      },
+      {
+        "name": "Slam",
+        "entries": [
+          "Melee Weapon Attack: Bonus equals your spell attack modifier, reach 5 ft. 1d8 + 4 + summonSpellLevel Bludgeoning damage."
+        ]
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [
+      {
+        "name": "Berserk Lashing (Clay Only)",
+        "entries": [
+          "The spirit takes damage from a creature. {@actResponse The spirit makes a Slam attack against that creature if possible, or the spirit moves up to half its Speed toward that creature without provoking Opportunity Attack."
+        ]
+      }
+    ],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Draconic Spirit",
+    "source": "XPHB",
+    "sourceKey": "XPHB",
+    "page": 325,
+    "size": "Large",
+    "type": "dragon",
+    "alignment": "neutral",
+    "armorClass": "",
+    "hitPoints": "50 + 10 for each spell level above 5",
+    "speed": "walk 30 ft., fly 60 ft., swim 30 ft.",
+    "abilities": {
+      "str": 19,
+      "dex": 14,
+      "con": 17,
+      "int": 10,
+      "wis": 14,
+      "cha": 14
+    },
+    "savingThrows": "",
+    "skills": "",
+    "senses": "Blindsight 30 ft., Darkvision 60 ft., passive Perception 12",
+    "languages": "Draconic, understands the languages you know",
+    "challengeRating": "",
+    "traits": [
+      {
+        "name": "Shared Resistances",
+        "entries": [
+          "When you summon the spirit, choose one of its Resistances. You have Resistance to the chosen damage type until the spell ends."
+        ]
+      }
+    ],
+    "spellcasting": [],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "entries": [
+          "The spirit makes a number of Rend attacks equal to half the spell's level (round down), and it uses Breath Weapon."
+        ]
+      },
+      {
+        "name": "Rend",
+        "entries": [
+          "Melee Weapon Attack: Bonus equals your spell attack modifier, reach 10 feet. 1d6 + 4 + summonSpellLevel Piercing damage."
+        ]
+      },
+      {
+        "name": "Breath Weapon",
+        "entries": [
+          "dex DC equals your spell save DC, each creature in a 30-foot Cone. 2d6 damage of a type this spirit has Resistance to (your choice when you cast the spell). {@actSaveSuccess Half damage."
+        ]
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Elemental Spirit",
+    "source": "XPHB",
+    "sourceKey": "XPHB",
+    "page": 325,
+    "size": "Medium",
+    "type": "elemental",
+    "alignment": "neutral",
+    "armorClass": "",
+    "hitPoints": "50 + 10 for each spell level above 4",
+    "speed": "walk 40 ft., burrow 40 ft. (Earth only), fly 40 ft. (hover; Air only) (hover), swim 40 ft. (Water only)",
+    "abilities": {
+      "str": 18,
+      "dex": 15,
+      "con": 17,
+      "int": 4,
+      "wis": 10,
+      "cha": 16
+    },
+    "savingThrows": "",
+    "skills": "",
+    "senses": "Darkvision 60 ft., passive Perception 10",
+    "languages": "Primordial, understands the languages you know",
+    "challengeRating": "",
+    "traits": [
+      {
+        "name": "Amorphous Form (Air, Fire, and Water Only)",
+        "entries": [
+          "The spirit can move through a space as narrow as 1 inch wide without it counting as Difficult Terrain."
+        ]
+      }
+    ],
+    "spellcasting": [],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "entries": [
+          "The spirit makes a number of Slam attacks equal to half this spell's level (round down)."
+        ]
+      },
+      {
+        "name": "Slam",
+        "entries": [
+          "Melee Weapon Attack: Bonus equals your spell attack modifier, reach 5 ft. 1d10 + 4 + summonSpellLevel Bludgeoning (Earth only), Cold (Water only), Lightning (Air only), or Fire (Fire only) damage."
+        ]
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Fey Spirit",
+    "source": "XPHB",
+    "sourceKey": "XPHB",
+    "page": 326,
+    "size": "Small",
+    "type": "fey",
+    "alignment": "neutral",
+    "armorClass": "",
+    "hitPoints": "30 + 10 for each spell level above 3",
+    "speed": "walk 30 ft., fly 30 ft.",
+    "abilities": {
+      "str": 13,
+      "dex": 16,
+      "con": 14,
+      "int": 14,
+      "wis": 11,
+      "cha": 16
+    },
+    "savingThrows": "",
+    "skills": "",
+    "senses": "Darkvision 60 ft., passive Perception 10",
+    "languages": "Sylvan, understands the languages you know",
+    "challengeRating": "",
+    "traits": [],
+    "spellcasting": [],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "entries": [
+          "The spirit makes a number of Fey Blade attacks equal to half this spell's level (round down)."
+        ]
+      },
+      {
+        "name": "Fey Blade",
+        "entries": [
+          "Melee Weapon Attack: Bonus equals your spell attack modifier, reach 5 ft. 2d6 + 3 + summonSpellLevel Force damage."
+        ]
+      }
+    ],
+    "bonusActions": [
+      {
+        "name": "Fey Step",
+        "entries": [
+          "The spirit magically teleports up to 30 feet to an unoccupied space it can see. Then one of the following effects occurs, based on the spirit's chosen mood:",
+          "- Fuming\n- Mirthful\n- Tricksy"
+        ]
+      }
+    ],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Fiendish Spirit",
+    "source": "XPHB",
+    "sourceKey": "XPHB",
+    "page": 327,
+    "size": "Large",
+    "type": "fiend",
+    "alignment": "neutral",
+    "armorClass": "",
+    "hitPoints": "50 (Demon only) or 40 (Devil only) or 60 (Yugoloth only) + 15 for each spell level above 6",
+    "speed": "walk 40 ft., climb 40 ft. (Demon only), fly 60 ft. (Devil only)",
+    "abilities": {
+      "str": 13,
+      "dex": 16,
+      "con": 15,
+      "int": 10,
+      "wis": 10,
+      "cha": 16
+    },
+    "savingThrows": "",
+    "skills": "",
+    "senses": "Darkvision 60 ft., passive Perception 10",
+    "languages": "Abyssal, Infernal, Telepathy 60 ft.",
+    "challengeRating": "",
+    "traits": [
+      {
+        "name": "Death Throes (Demon Only)",
+        "entries": [
+          "When the spirit drops to 0 Hit Points or the spell ends, the spirit explodes. dex DC equals your spell save DC, each creature in a 10-foot Emanation originating from the spirit. 2d10 plus this spell's level Fire damage. {@actSaveSuccess Half damage."
+        ]
+      },
+      {
+        "name": "Devil's Sight (Devil Only)",
+        "entries": [
+          "Magical Darkness doesn't impede the spirit's Darkvision."
+        ]
+      },
+      {
+        "name": "Magic Resistance",
+        "entries": [
+          "The spirit has Advantage on saving throws against spells and other magical effects."
+        ]
+      }
+    ],
+    "spellcasting": [],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "entries": [
+          "The spirit makes a number of attacks equal to half this spell's level (round down)."
+        ]
+      },
+      {
+        "name": "Bite (Demon Only)",
+        "entries": [
+          "Melee Weapon Attack: Bonus equals your spell attack modifier, reach 5 ft. 1d12 + 3 + summonSpellLevel Necrotic damage."
+        ]
+      },
+      {
+        "name": "Claws (Yugoloth Only)",
+        "entries": [
+          "Melee Weapon Attack: Bonus equals your spell attack modifier, reach 5 ft. 1d8 + 3 + summonSpellLevel Slashing damage. Immediately after the attack hits or misses, the spirit can teleport up to 30 feet to an unoccupied space it can see."
+        ]
+      },
+      {
+        "name": "Fiery Strike (Devil Only)",
+        "entries": [
+          "Melee Weapon or Ranged Weapon Attack: Bonus equals your spell attack modifier, reach 5 ft. or range 150 ft. 2d6 + 3 + summonSpellLevel Fire damage."
+        ]
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Giant Insect",
+    "source": "XPHB",
+    "sourceKey": "XPHB",
+    "page": 279,
+    "size": "Large",
+    "type": "beast",
+    "alignment": "unaligned",
+    "armorClass": "",
+    "hitPoints": "30 + 10 for each spell level above 4",
+    "speed": "walk 40 ft., climb 40 ft., fly 40 ft. (Wasp only)",
+    "abilities": {
+      "str": 17,
+      "dex": 13,
+      "con": 15,
+      "int": 4,
+      "wis": 14,
+      "cha": 3
+    },
+    "savingThrows": "",
+    "skills": "",
+    "senses": "Darkvision 60 ft., passive Perception 12",
+    "languages": "understands the languages you know",
+    "challengeRating": "",
+    "traits": [
+      {
+        "name": "Spider Climb",
+        "entries": [
+          "The insect can climb difficult surfaces, including along ceilings, without needing to make an ability check."
+        ]
+      }
+    ],
+    "spellcasting": [],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "entries": [
+          "The insect makes a number of attacks equal to half this spell's level (round down)."
+        ]
+      },
+      {
+        "name": "Poison Jab",
+        "entries": [
+          "Melee Weapon Attack: Bonus equals your spell attack modifier, reach 10 ft. 1d6 + 3 + summonSpellLevel Piercing damage plus 1d4 Poison damage."
+        ]
+      },
+      {
+        "name": "Web Bolt (Spider Only)",
+        "entries": [
+          "Ranged Weapon Attack: Bonus equals your spell attack modifier, range 60 ft. 1d10 + 3 + summonSpellLevel Bludgeoning damage, and the target's Speed is reduced to 0 until the start of the insect's next turn."
+        ]
+      }
+    ],
+    "bonusActions": [
+      {
+        "name": "Venomous Spew (Centipede Only)",
+        "entries": [
+          "con Your spell save DC, one creature the insect can see within 10 feet. The target has the Poisoned condition until the start of the insect's next turn."
+        ]
+      }
+    ],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Otherworldly Steed",
+    "source": "XPHB",
+    "sourceKey": "XPHB",
+    "page": 273,
+    "size": "Large",
+    "type": "[object Object]",
+    "alignment": "neutral",
+    "armorClass": "",
+    "hitPoints": "5 + 10 per spell level (the steed has a number of Hit Dice [d10s] equal to the spell's level)",
+    "speed": "walk 60 ft., fly 60 ft. (requires level 4+ spell)",
+    "abilities": {
+      "str": 18,
+      "dex": 12,
+      "con": 14,
+      "int": 6,
+      "wis": 12,
+      "cha": 8
+    },
+    "savingThrows": "",
+    "skills": "",
+    "senses": "passive Perception 11",
+    "languages": "telepathy 1 mile (works only with you)",
+    "challengeRating": "",
+    "traits": [
+      {
+        "name": "Life Bond",
+        "entries": [
+          "When you regain Hit Points from a level 1+ spell, the steed regains the same number of Hit Points if you're within 5 feet of it."
+        ]
+      }
+    ],
+    "spellcasting": [],
+    "actions": [
+      {
+        "name": "Otherworldly Slam",
+        "entries": [
+          "Melee Weapon Attack: Bonus equals your spell attack modifier, reach 5 ft. 1d8 + summonSpellLevel of Radiant (Celestial), Psychic (Fey), or Necrotic (Fiend) damage."
+        ]
+      }
+    ],
+    "bonusActions": [
+      {
+        "name": "Fell Glare (Fiend Only; Recharges after a Long Rest)",
+        "entries": [
+          "wis DC equals your spell save DC, one creature within 60 feet the steed can see. The target has the Frightened condition until the end of your next turn."
+        ]
+      },
+      {
+        "name": "Fey Step (Fey Only; Recharges after a Long Rest)",
+        "entries": [
+          "The steed teleports, along with its rider, to an unoccupied space of your choice up to 60 feet away from itself."
+        ]
+      },
+      {
+        "name": "Healing Touch (Celestial Only; Recharges after a Long Rest)",
+        "entries": [
+          "One creature within 5 feet of the steed regains a number of Hit Points equal to 2d8 + summonSpellLevel."
+        ]
+      }
+    ],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Undead Spirit",
+    "source": "XPHB",
+    "sourceKey": "XPHB",
+    "page": 328,
+    "size": "Medium",
+    "type": "undead",
+    "alignment": "neutral",
+    "armorClass": "",
+    "hitPoints": "30 (Ghostly and Putrid only) or 20 (Skeletal only) + 10 for each spell level above 3",
+    "speed": "walk 30 ft., fly 40 ft. (hover; Ghostly only) (hover)",
+    "abilities": {
+      "str": 12,
+      "dex": 16,
+      "con": 15,
+      "int": 4,
+      "wis": 10,
+      "cha": 9
+    },
+    "savingThrows": "",
+    "skills": "",
+    "senses": "Darkvision 60 ft., passive Perception 10",
+    "languages": "understands the languages you know",
+    "challengeRating": "",
+    "traits": [
+      {
+        "name": "Festering Aura (Putrid Only)",
+        "entries": [
+          "con DC equals your spell save DC, any creature (other than you) that starts its turn within a 5-foot Emanation originating from the spirit. The creature has the Poisoned condition until the start of its next turn."
+        ]
+      },
+      {
+        "name": "Incorporeal Passage (Ghostly Only)",
+        "entries": [
+          "The spirit can move through other creatures and objects as if they were Difficult Terrain. If it ends its turn inside an object, it is shunted to the nearest unoccupied space and takes 1d10 Force damage for every 5 feet traveled."
+        ]
+      }
+    ],
+    "spellcasting": [],
+    "actions": [
+      {
+        "name": "Multiattack",
+        "entries": [
+          "The spirit makes a number of attacks equal to half this spell's level (round down)."
+        ]
+      },
+      {
+        "name": "Deathly Touch (Ghostly Only)",
+        "entries": [
+          "Melee Weapon Attack: Bonus equals your spell attack modifier, reach 5 ft. 1d8 + 3 + summonSpellLevel Necrotic damage, and the target has the Frightened condition until the end of its next turn."
+        ]
+      },
+      {
+        "name": "Grave Bolt (Skeletal Only)",
+        "entries": [
+          "Ranged Weapon Attack: Bonus equals your spell attack modifier, range 150 ft. 2d4 + 3 + summonSpellLevel Necrotic damage."
+        ]
+      },
+      {
+        "name": "Rotting Claw (Putrid Only)",
+        "entries": [
+          "Melee Weapon Attack: Bonus equals your spell attack modifier, reach 5 ft. 1d6 + 3 + summonSpellLevel Slashing damage. If the target has the Poisoned condition, it has the Paralyzed condition until the end of its next turn."
+        ]
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  }
+]

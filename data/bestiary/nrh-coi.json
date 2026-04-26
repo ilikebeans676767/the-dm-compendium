@@ -1,0 +1,145 @@
+[
+  {
+    "name": "Clown",
+    "source": "NRH-CoI",
+    "sourceKey": "NRH-COI",
+    "page": 7,
+    "size": "Medium",
+    "type": "humanoid (any race)",
+    "alignment": "any alignment",
+    "armorClass": "13 (puffy shirt)",
+    "hitPoints": "11 (2d8 + 2)",
+    "speed": "walk 30 ft.",
+    "abilities": {
+      "str": 13,
+      "dex": 12,
+      "con": 12,
+      "int": 10,
+      "wis": 11,
+      "cha": 10
+    },
+    "savingThrows": "",
+    "skills": "perception: +2",
+    "senses": "passive Perception 12",
+    "languages": "Common",
+    "challengeRating": "1/8",
+    "traits": [],
+    "spellcasting": [],
+    "actions": [
+      {
+        "name": "Colorful Club",
+        "entries": [
+          "Melee Weapon Attack: 3 to hit, reach 5 ft., one target. 3 (1d4 + 1) bludgeoning damage."
+        ]
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Imelda",
+    "source": "NRH-CoI",
+    "sourceKey": "NRH-COI",
+    "page": 11,
+    "size": "Medium",
+    "type": "humanoid (human)",
+    "alignment": "chaotic good",
+    "armorClass": "13 (hide armor)",
+    "hitPoints": "49 (9d8 + 9)",
+    "speed": "walk 30 ft.",
+    "abilities": {
+      "str": 18,
+      "dex": 12,
+      "con": 12,
+      "int": 10,
+      "wis": 11,
+      "cha": 10
+    },
+    "savingThrows": "",
+    "skills": "athletics: +6",
+    "senses": "passive Perception 10",
+    "languages": "Common",
+    "challengeRating": "2",
+    "traits": [
+      {
+        "name": "Reckless",
+        "entries": [
+          "At the start of her turn, Imelda can gain advantage on all melee weapon attack rolls during that turn, but attack rolls against her have advantage until the start of her next turn."
+        ]
+      }
+    ],
+    "spellcasting": [],
+    "actions": [
+      {
+        "name": "Fist",
+        "entries": [
+          "Melee Weapon Attack: 6 to hit, reach 5 ft., one target. 6 (1d4 + 4) bludgeoning damage."
+        ]
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  },
+  {
+    "name": "Magnifico",
+    "source": "NRH-CoI",
+    "sourceKey": "NRH-COI",
+    "page": 9,
+    "size": "Medium",
+    "type": "humanoid (human)",
+    "alignment": "chaotic neutral",
+    "armorClass": "12",
+    "hitPoints": "27 (6d8)",
+    "speed": "walk 30 ft.",
+    "abilities": {
+      "str": 10,
+      "dex": 15,
+      "con": 10,
+      "int": 12,
+      "wis": 14,
+      "cha": 16
+    },
+    "savingThrows": "",
+    "skills": "deception: +5, insight: +4, investigation: +3, perception: +6, persuasion: +5, sleight of hand: +6, stealth: +4",
+    "senses": "passive Perception 16",
+    "languages": "Common",
+    "challengeRating": "1/2",
+    "traits": [
+      {
+        "name": "Cunning Action",
+        "entries": [
+          "On each of his turns, Magnifico can use a bonus action to take the Dash, Disengage, or Hide action."
+        ]
+      }
+    ],
+    "spellcasting": [],
+    "actions": [
+      {
+        "name": "Shortsword",
+        "entries": [
+          "Melee Weapon Attack: 4 to hit, reach 5 ft., one target. 5 (1d6 + 2) piercing damage."
+        ]
+      },
+      {
+        "name": "Hand Crossbow",
+        "entries": [
+          "Ranged Weapon Attack: 4 to hit, range 30/120 ft., one target. 5 (1d6 + 2) piercing damage."
+        ]
+      }
+    ],
+    "bonusActions": [],
+    "reactions": [],
+    "legendaryActions": [],
+    "mythicActions": [],
+    "lairActions": [],
+    "environment": []
+  }
+]
