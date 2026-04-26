@@ -42,7 +42,7 @@
       {
         "name": "Slam",
         "entries": [
-          "*Melee Weapon Attack:* 4, reach 5 ft. *Hit:* 4 (1d4 + 2) Bludgeoning damage."
+          "*Melee Attack Roll:* +4, reach 5 ft. *Hit:* 4 (1d4 + 2) Bludgeoning damage."
         ]
       },
       {
@@ -116,13 +116,13 @@
       {
         "name": "Infernal Blade",
         "entries": [
-          "*Melee Weapon Attack:* 5, reach 5 ft. *Hit:* 6 (1d6 + 3) Slashing damage and 7 (2d6) Fire damage."
+          "*Melee Attack Roll:* +5, reach 5 ft. *Hit:* 6 (1d6 + 3) Slashing damage and 7 (2d6) Fire damage."
         ]
       },
       {
         "name": "Confounding Ray",
         "entries": [
-          "*Ranged Weapon Attack:* 5, range 120 ft. *Hit:* 13 (2d12) Psychic damage. If the target is a creature, it can't make Opportunity Attacks until the start of the devil's next turn."
+          "*Ranged Attack Roll:* +5, range 120 ft. *Hit:* 13 (2d12) Psychic damage. If the target is a creature, it can't make Opportunity Attacks until the start of the devil's next turn."
         ]
       },
       {
@@ -200,7 +200,7 @@
       {
         "name": "Thundering Halberd",
         "entries": [
-          "*Melee Weapon Attack:* 9, reach 10 ft. *Hit:* 16 (2d10 + 5) Slashing damage plus 14 (4d6) Thunder damage."
+          "*Melee Attack Roll:* +9, reach 10 ft. *Hit:* 16 (2d10 + 5) Slashing damage plus 14 (4d6) Thunder damage."
         ]
       }
     ],
@@ -294,7 +294,7 @@
       {
         "name": "Hellfire Claw (Vampire Form Only)",
         "entries": [
-          "*Melee Weapon Attack:* 9, reach 5 ft. *Hit:* 13 (2d8 + 4) Slashing damage plus 10 (3d6) Fire damage. If the target is a Medium or smaller creature, it has the Grappled condition (escape DC 17) from one of two claws."
+          "*Melee Attack Roll:* +9, reach 5 ft. *Hit:* 13 (2d8 + 4) Slashing damage plus 10 (3d6) Fire damage. If the target is a Medium or smaller creature, it has the Grappled condition (escape DC 17) from one of two claws."
         ]
       },
       {
@@ -402,7 +402,7 @@
       {
         "name": "Claw",
         "entries": [
-          "*Melee Weapon Attack:* 9, reach 5 ft. *Hit:* 14 (2d8 + 5) Slashing damage plus 7 (2d6) Necrotic damage. If the target is a Large or smaller creature, it has the Grappled condition (escape DC 16) from one of two claws."
+          "*Melee Attack Roll:* +9, reach 5 ft. *Hit:* 14 (2d8 + 5) Slashing damage plus 7 (2d6) Necrotic damage. If the target is a Large or smaller creature, it has the Grappled condition (escape DC 16) from one of two claws."
         ]
       },
       {

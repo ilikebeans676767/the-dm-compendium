@@ -54,13 +54,13 @@
       {
         "name": "Vine Lash",
         "entries": [
-          "*Melee Weapon Attack:* 7 to hit, reach 20 ft., one target. *Hit:* 11 (2d6 + 4) slashing damage. If the target is a creature, it is grappled (escape DC 15). Until the grapple ends, the target is restrained. The plant has four vines, each of which can grapple one target."
+          "*Melee Weapon Attack:* +7 to hit, reach 20 ft., one target. *Hit:* 11 (2d6 + 4) slashing damage. If the target is a creature, it is grappled (escape DC 15). Until the grapple ends, the target is restrained. The plant has four vines, each of which can grapple one target."
         ]
       },
       {
         "name": "Entrapping Pod",
         "entries": [
-          "*Melee Weapon Attack:* 7 to hit, reach 5 ft., one Medium or smaller creature grappled by the plant. *Hit:* 22 (4d8 + 4) acid damage, and the target is pulled into the plant's space and enveloped by the pod, and the grapple ends. While enveloped, the target is restrained, and it has Cover against attacks and effects originating outside the pod. The enveloped target must also immediately succeed on a DC 16 Constitution saving throw or be stunned by the plant's sapping enzymes until it is removed from the pod or the plant dies. The enveloped target doesn't require air and gains 1 level of exhaustion for each hour it spends in the pod. If the target dies while enveloped, it immediately emerges from the pod as a living podling, wearing or carrying all of the original creature's equipment.",
+          "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one Medium or smaller creature grappled by the plant. *Hit:* 22 (4d8 + 4) acid damage, and the target is pulled into the plant's space and enveloped by the pod, and the grapple ends. While enveloped, the target is restrained, and it has Cover against attacks and effects originating outside the pod. The enveloped target must also immediately succeed on a DC 16 Constitution saving throw or be stunned by the plant's sapping enzymes until it is removed from the pod or the plant dies. The enveloped target doesn't require air and gains 1 level of exhaustion for each hour it spends in the pod. If the target dies while enveloped, it immediately emerges from the pod as a living podling, wearing or carrying all of the original creature's equipment.",
           "As an action, a creature within 5 feet of the bodytaker plant that is outside the pod can open the pod and pull the target free with a successful DC 15 Strength check. If the plant dies, the target is no longer restrained and can escape from the pod by spending 10 feet of movement, exiting prone. The plant has one pod, which can envelop one creature at a time."
         ]
       }
@@ -121,7 +121,7 @@
       {
         "name": "Slam",
         "entries": [
-          "*Melee Weapon Attack:* 5 to hit, reach 5 ft., one target. *Hit:* 5 (1d4 + 3) bludgeoning damage."
+          "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 5 (1d4 + 3) bludgeoning damage."
         ]
       },
       {
@@ -186,7 +186,7 @@
       {
         "name": "Innate Spellcasting (Psionics)",
         "entries": [
-          "The brain's innate spellcasting ability is Intelligence (spell save DC 14, 6 to hit with spell attacks). It can innately cast the following spells, requiring no components:",
+          "The brain's innate spellcasting ability is Intelligence (spell save DC 14, +6 to hit with spell attacks). It can innately cast the following spells, requiring no components:",
           "At will: chill touch (see \"Actions\" below), detect thoughts, mage hand, zone of truth",
           "3e/day: charm person, hold person",
           "1e/day: compulsion, hold monster, sleep (3rd-level version), Tasha's hideous laughter"
@@ -197,7 +197,7 @@
       {
         "name": "Chill Touch (Cantrip)",
         "entries": [
-          "*Ranged Spell Attack:* 6 to hit, range 120 ft., one creature. *Hit:* 13 (3d8) necrotic damage, and the target can't regain hit points until the start of the brain's next turn. If the target is undead, it also has disadvantage on attack rolls against the brain until the end of the brain's next turn."
+          "*Ranged Spell Attack:* +6 to hit, range 120 ft., one creature. *Hit:* 13 (3d8) necrotic damage, and the target can't regain hit points until the start of the brain's next turn. If the target is undead, it also has disadvantage on attack rolls against the brain until the end of the brain's next turn."
         ]
       },
       {
@@ -250,7 +250,7 @@
       {
         "name": "Tentacle",
         "entries": [
-          "*Melee Weapon Attack:* 5 to hit, reach 5 ft., one creature. *Hit:* 5 (1d4 + 3) piercing damage, and the carrion stalker attaches to the target and pulls itself into the target's space. While attached, the carrion stalker moves with the target and has advantage on attack rolls against it.",
+          "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one creature. *Hit:* 5 (1d4 + 3) piercing damage, and the carrion stalker attaches to the target and pulls itself into the target's space. While attached, the carrion stalker moves with the target and has advantage on attack rolls against it.",
           "A creature can use its action to try to detach the carrion stalker and force it to move into the nearest unoccupied space, doing so with a successful DC 11 Strength check. On its turn, the carrion stalker can detach itself from the target by using 5 feet of movement. When it dies, the carrion stalker detaches from any creature it is attached to."
         ]
       },
@@ -312,7 +312,7 @@
       {
         "name": "Silver Needle",
         "entries": [
-          "*Melee Weapon Attack:* 4 to hit, reach 5 ft., one creature. *Hit:* 1 piercing damage plus 3 (1d6) necrotic damage, and the target must succeed on a DC 12 Charisma saving throw or become cursed for 1 minute. While cursed in this way, the target's speed is reduced by 10 feet, and it must roll a 1d4 and subtract the number rolled from each ability check or attack roll it makes."
+          "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one creature. *Hit:* 1 piercing damage plus 3 (1d6) necrotic damage, and the target must succeed on a DC 12 Charisma saving throw or become cursed for 1 minute. While cursed in this way, the target's speed is reduced by 10 feet, and it must roll a 1d4 and subtract the number rolled from each ability check or attack roll it makes."
         ]
       },
       {
@@ -373,19 +373,19 @@
       {
         "name": "Gnashing Bite (Gnashing Head Only)",
         "entries": [
-          "*Melee Weapon Attack:* 3 to hit, reach 5 ft., one target. *Hit:* 4 (1d6 + 1) piercing damage plus 7 (2d6) necrotic damage."
+          "*Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 4 (1d6 + 1) piercing damage plus 7 (2d6) necrotic damage."
         ]
       },
       {
         "name": "Mind-Bending Bite (Aberrant Head Only)",
         "entries": [
-          "*Melee Weapon Attack:* 3 to hit, reach 5 ft., one target. *Hit:* 4 (1d6 + 1) piercing damage plus 5 (1d10) necrotic damage, and the target must succeed on a DC 10 Intelligence saving throw or it can't take a reaction until the end of its next turn. Moreover, on its next turn, the target must choose whether it gets a move, an action, or a bonus action; it gets only one of the three."
+          "*Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 4 (1d6 + 1) piercing damage plus 5 (1d10) necrotic damage, and the target must succeed on a DC 10 Intelligence saving throw or it can't take a reaction until the end of its next turn. Moreover, on its next turn, the target must choose whether it gets a move, an action, or a bonus action; it gets only one of the three."
         ]
       },
       {
         "name": "Petrifying Bite (Petrifying Head Only)",
         "entries": [
-          "*Melee Weapon Attack:* 3 to hit, reach 5 ft., one target. *Hit:* 3 (1d4 + 1) piercing damage, and the target must succeed on a DC 10 Constitution saving throw or be restrained as it begins to turn to stone. The target must repeat the saving throw at the end of its next turn. On a success, the effect ends. On a failure, the target is petrified for 10 minutes."
+          "*Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 3 (1d4 + 1) piercing damage, and the target must succeed on a DC 10 Constitution saving throw or be restrained as it begins to turn to stone. The target must repeat the saving throw at the end of its next turn. On a success, the effect ends. On a failure, the target is petrified for 10 minutes."
         ]
       }
     ],
@@ -451,13 +451,13 @@
       {
         "name": "Battleaxe",
         "entries": [
-          "*Melee Weapon Attack:* 8 to hit, reach 5 ft., one target. *Hit:* 8 (1d8 + 4) slashing damage, or 9 (1d10 + 4) slashing damage if used with two hands, plus 11 (2d10) necrotic damage. If the dullahan scores a critical hit against a creature, the target must succeed on a DC 15 Constitution saving throw or the dullahan cuts off the target's head. The target dies if it can't survive without the lost head. A creature that doesn't have or need a head, or has legendary actions, instead takes an extra 27 (6d8) slashing damage."
+          "*Melee Weapon Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 8 (1d8 + 4) slashing damage, or 9 (1d10 + 4) slashing damage if used with two hands, plus 11 (2d10) necrotic damage. If the dullahan scores a critical hit against a creature, the target must succeed on a DC 15 Constitution saving throw or the dullahan cuts off the target's head. The target dies if it can't survive without the lost head. A creature that doesn't have or need a head, or has legendary actions, instead takes an extra 27 (6d8) slashing damage."
         ]
       },
       {
         "name": "Fiery Skull",
         "entries": [
-          "*Ranged Spell Attack:* 7 to hit, range 120 ft., one target. *Hit:* 14 (2d10 + 3) fire damage."
+          "*Ranged Spell Attack:* +7 to hit, range 120 ft., one target. *Hit:* 14 (2d10 + 3) fire damage."
         ]
       }
     ],
@@ -561,7 +561,7 @@
       {
         "name": "Slam",
         "entries": [
-          "*Melee Weapon Attack:* 7 to hit, reach 5 ft., one target. *Hit:* 13 (2d8 + 4) bludgeoning damage."
+          "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 13 (2d8 + 4) bludgeoning damage."
         ]
       }
     ],
@@ -621,7 +621,7 @@
       {
         "name": "Foretelling Touch",
         "entries": [
-          "*Melee Spell Attack:* 7 to hit, reach 5 ft., one creature. *Hit:* 15 (2d10 + 4) psychic damage, and the target must roll a d4 and subtract the number rolled from the next attack roll or saving throw it makes before the start of the gallows speaker's next turn."
+          "*Melee Spell Attack:* +7 to hit, reach 5 ft., one creature. *Hit:* 15 (2d10 + 4) psychic damage, and the target must roll a d4 and subtract the number rolled from the next attack roll or saving throw it makes before the start of the gallows speaker's next turn."
         ]
       },
       {
@@ -687,13 +687,13 @@
       {
         "name": "Lashing Maw",
         "entries": [
-          "*Melee Weapon Attack:* 14 to hit, reach 15 ft., one target. *Hit:* 20 (2d10 + 7) piercing damage plus 13 (3d8) acid damage."
+          "*Melee Weapon Attack:* +14 to hit, reach 15 ft., one target. *Hit:* 20 (2d10 + 7) piercing damage plus 13 (3d8) acid damage."
         ]
       },
       {
         "name": "Psychic Orb",
         "entries": [
-          "*Ranged Spell Attack:* 15 to hit, range 120 ft., one creature. *Hit:* 27 (3d12 + 8) psychic damage."
+          "*Ranged Spell Attack:* +15 to hit, range 120 ft., one creature. *Hit:* 27 (3d12 + 8) psychic damage."
         ]
       },
       {
@@ -759,7 +759,7 @@
       {
         "name": "Bite",
         "entries": [
-          "*Melee Weapon Attack:* 4 to hit, reach 5 ft., one target. *Hit:* 2 (1d4 + 2) piercing damage plus 3 (1d6) force damage."
+          "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 2 (1d4 + 2) piercing damage plus 3 (1d6) force damage."
         ]
       }
     ],
@@ -824,7 +824,7 @@
       {
         "name": "Silver Longsword",
         "entries": [
-          "*Melee Weapon Attack:* 7 to hit, reach 5 ft., one target. *Hit:* 8 (1d8 + 4) slashing damage, or 9 (1d10 + 4) if used with two hands, plus 18 (4d8) force damage."
+          "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 8 (1d8 + 4) slashing damage, or 9 (1d10 + 4) if used with two hands, plus 18 (4d8) force damage."
         ]
       },
       {
@@ -900,7 +900,7 @@
       {
         "name": "Silver Longsword",
         "entries": [
-          "*Melee Weapon Attack:* 7 to hit, reach 5 ft., one target. *Hit:* 8 (1d8 + 4) slashing damage, or 9 (1d10 + 4) if used with two hands, plus 18 (4d8) force damage."
+          "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 8 (1d8 + 4) slashing damage, or 9 (1d10 + 4) if used with two hands, plus 18 (4d8) force damage."
         ]
       }
     ],
@@ -964,13 +964,13 @@
       {
         "name": "Force Bolt",
         "entries": [
-          "*Ranged Spell Attack:* 7 to hit, range 120 ft., one target. *Hit:* 22 (4d8 + 4) force damage, and if the target is a Large or smaller creature, the inquisitor can push it up to 10 feet away."
+          "*Ranged Spell Attack:* +7 to hit, range 120 ft., one target. *Hit:* 22 (4d8 + 4) force damage, and if the target is a Large or smaller creature, the inquisitor can push it up to 10 feet away."
         ]
       },
       {
         "name": "Silver Longsword",
         "entries": [
-          "*Melee Weapon Attack:* 7 to hit, reach 5 ft., one target. *Hit:* 8 (1d8 + 4) slashing damage, or 9 (1d10 + 4) if used with two hands, plus 18 (4d8) force damage."
+          "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 8 (1d8 + 4) slashing damage, or 9 (1d10 + 4) if used with two hands, plus 18 (4d8) force damage."
         ]
       },
       {
@@ -1052,13 +1052,13 @@
       {
         "name": "Nepenthe",
         "entries": [
-          "*Melee Weapon Attack:* 10 to hit, reach 5 ft.., one target. *Hit:* 11 (1d8 + 7) slashing damage, or 12 (1d10 + 7) slashing damage if used with two hands to make a melee attack. If the target is a fiend or an undead, it takes an extra 11 (2d10) radiant damage."
+          "*Melee Weapon Attack:* +10 to hit, reach 5 ft.., one target. *Hit:* 11 (1d8 + 7) slashing damage, or 12 (1d10 + 7) slashing damage if used with two hands to make a melee attack. If the target is a fiend or an undead, it takes an extra 11 (2d10) radiant damage."
         ]
       },
       {
         "name": "Fire Ray",
         "entries": [
-          "*Ranged Spell Attack:* 7 to hit, range 120 ft., one target. *Hit:* 10 (3d6) fire damage."
+          "*Ranged Spell Attack:* +7 to hit, range 120 ft., one target. *Hit:* 10 (3d6) fire damage."
         ]
       },
       {
@@ -1126,7 +1126,7 @@
       {
         "name": "Slam",
         "entries": [
-          "*Melee Weapon Attack:* 8 to hit, reach 5 ft., one target. *Hit:* 13 (2d8 + 4) bludgeoning damage."
+          "*Melee Weapon Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 13 (2d8 + 4) bludgeoning damage."
         ]
       },
       {
@@ -1205,13 +1205,13 @@
       {
         "name": "Lashing Maw",
         "entries": [
-          "*Melee Weapon Attack:* 11 to hit, reach 15 ft., one target. *Hit:* 16 (2d10 + 5) piercing damage plus 13 (3d8) acid damage."
+          "*Melee Weapon Attack:* +11 to hit, reach 15 ft., one target. *Hit:* 16 (2d10 + 5) piercing damage plus 13 (3d8) acid damage."
         ]
       },
       {
         "name": "Psychic Orb",
         "entries": [
-          "*Ranged Spell Attack:* 13 to hit, range 120 ft., one creature. *Hit:* 18 (2d10 + 7) psychic damage."
+          "*Ranged Spell Attack:* +13 to hit, range 120 ft., one creature. *Hit:* 18 (2d10 + 7) psychic damage."
         ]
       },
       {
@@ -1302,19 +1302,19 @@
       {
         "name": "Bite (Dire Wolf or Hybrid Form Only)",
         "entries": [
-          "*Melee Weapon Attack:* 9 to hit, reach 5 ft., one target. *Hit:* 13 (2d8 + 4) piercing damage plus 14 (4d6) necrotic damage. If the target is a Humanoid, it must succeed on a DC 17 Constitution saving throw or be cursed with loup garou lycanthropy."
+          "*Melee Weapon Attack:* +9 to hit, reach 5 ft., one target. *Hit:* 13 (2d8 + 4) piercing damage plus 14 (4d6) necrotic damage. If the target is a Humanoid, it must succeed on a DC 17 Constitution saving throw or be cursed with loup garou lycanthropy."
         ]
       },
       {
         "name": "Claws (Dire Wolf or Hybrid Form Only)",
         "entries": [
-          "*Melee Weapon Attack:* 9 to hit, reach 5 ft., one target. *Hit:* 11 (2d6 + 4) slashing damage. If the target is a creature, it must succeed on a DC 17 Strength saving throw or be knocked prone."
+          "*Melee Weapon Attack:* +9 to hit, reach 5 ft., one target. *Hit:* 11 (2d6 + 4) slashing damage. If the target is a creature, it must succeed on a DC 17 Strength saving throw or be knocked prone."
         ]
       },
       {
         "name": "Longsword (Humanoid Form Only)",
         "entries": [
-          "*Melee Weapon Attack:* 9 to hit, reach 5 ft., one target. *Hit:* 13 (2d8 + 4) slashing damage, or 15 (2d10 + 4) slashing damage if used with two hands."
+          "*Melee Weapon Attack:* +9 to hit, reach 5 ft., one target. *Hit:* 13 (2d8 + 4) slashing damage, or 15 (2d10 + 4) slashing damage if used with two hands."
         ]
       }
     ],
@@ -1412,13 +1412,13 @@
       {
         "name": "Pseudopod",
         "entries": [
-          "*Melee Weapon Attack:* 5 to hit, reach 10 ft., one target. *Hit:* 5 (1d6 + 2) necrotic damage, and the target must succeed on a DC 14 Constitution saving throw or be paralyzed until the start of the necrichor's next turn."
+          "*Melee Weapon Attack:* +5 to hit, reach 10 ft., one target. *Hit:* 5 (1d6 + 2) necrotic damage, and the target must succeed on a DC 14 Constitution saving throw or be paralyzed until the start of the necrichor's next turn."
         ]
       },
       {
         "name": "Necrotic Bolt",
         "entries": [
-          "*Ranged Spell Attack:* 6 to hit, range 120 ft., one creature. *Hit:* 12 (2d8 + 3) necrotic damage, and the target can't regain hit points until the start of the necrichor's next turn."
+          "*Ranged Spell Attack:* +6 to hit, range 120 ft., one creature. *Hit:* 12 (2d8 + 3) necrotic damage, and the target can't regain hit points until the start of the necrichor's next turn."
         ]
       },
       {
@@ -1497,13 +1497,13 @@
       {
         "name": "Claw",
         "entries": [
-          "*Melee Weapon Attack:* 8 to hit, reach 5 ft., one target. *Hit:* 9 (1d8 + 5) slashing damage."
+          "*Melee Weapon Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 9 (1d8 + 5) slashing damage."
         ]
       },
       {
         "name": "Bite",
         "entries": [
-          "*Melee Weapon Attack:* 8 to hit, reach 5 ft., one creature. *Hit:* 9 (1d8 + 5) piercing damage plus 7 (2d6) necrotic damage. If the target is missing any of its hit points, it instead takes 11 (2d10) necrotic damage.",
+          "*Melee Weapon Attack:* +8 to hit, reach 5 ft., one creature. *Hit:* 9 (1d8 + 5) piercing damage plus 7 (2d6) necrotic damage. If the target is missing any of its hit points, it instead takes 11 (2d10) necrotic damage.",
           "The target's hit point maximum is reduced by an amount equal to the necrotic damage taken, and the nosferatu regains hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if its hit point maximum is reduced to 0. A Humanoid slain in this way and then buried in the ground rises as a nosferatu after 1d10 days."
         ]
       },
@@ -1564,7 +1564,7 @@
       {
         "name": "Slam",
         "entries": [
-          "*Melee Weapon Attack:* 4 to hit, reach 5 ft., one target. *Hit:* 5 (1d6 + 2) bludgeoning damage."
+          "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 5 (1d6 + 2) bludgeoning damage."
         ]
       }
     ],
@@ -1619,13 +1619,13 @@
       {
         "name": "Soul Blade",
         "entries": [
-          "*Melee Weapon Attack:* 5 to hit, reach 5 ft., one target. *Hit:* 7 (2d4 + 2) piercing damage, and if the target is a creature, it is paralyzed until the start of the priest's next turn. If this damage reduces a Medium or smaller creature to 0 hit points, the creature dies, and its soul is trapped in the priest's body, manifesting as a shadowy Soul Tattoo on the priest. The soul is freed if the priest dies."
+          "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 7 (2d4 + 2) piercing damage, and if the target is a creature, it is paralyzed until the start of the priest's next turn. If this damage reduces a Medium or smaller creature to 0 hit points, the creature dies, and its soul is trapped in the priest's body, manifesting as a shadowy Soul Tattoo on the priest. The soul is freed if the priest dies."
         ]
       },
       {
         "name": "Necrotic Bolt",
         "entries": [
-          "*Ranged Spell Attack:* 7 to hit, range 120 ft., one target. *Hit:* 17 (3d8 + 4) necrotic damage, and the target can't regain hit points until the start of the priest's next turn."
+          "*Ranged Spell Attack:* +7 to hit, range 120 ft., one target. *Hit:* 17 (3d8 + 4) necrotic damage, and the target can't regain hit points until the start of the priest's next turn."
         ]
       }
     ],
@@ -1699,13 +1699,13 @@
       {
         "name": "Executioner's Pick",
         "entries": [
-          "*Melee Weapon Attack:* 10 to hit, reach 5 ft., one target. *Hit:* 17 (2d10 + 6) piercing damage, and if the target is a creature, its speed is reduced by 10 feet until the start of the juggernaut's next turn."
+          "*Melee Weapon Attack:* +10 to hit, reach 5 ft., one target. *Hit:* 17 (2d10 + 6) piercing damage, and if the target is a creature, its speed is reduced by 10 feet until the start of the juggernaut's next turn."
         ]
       },
       {
         "name": "Fist",
         "entries": [
-          "*Melee Weapon Attack:* 10 to hit, reach 5 ft., one target. *Hit:* 11 (1d10 + 6) bludgeoning damage, and if the target is a Large or smaller creature, it must succeed on a DC 18 Strength saving throw or be knocked prone."
+          "*Melee Weapon Attack:* +10 to hit, reach 5 ft., one target. *Hit:* 11 (1d10 + 6) bludgeoning damage, and if the target is a Large or smaller creature, it must succeed on a DC 18 Strength saving throw or be knocked prone."
         ]
       },
       {
@@ -1796,7 +1796,7 @@
       {
         "name": "Slasher's Knife",
         "entries": [
-          "*Melee Weapon or Ranged Weapon Attack:* 7 to hit, reach 5 ft. or range 30/60 ft., one target. *Hit:* 6 (1d4 + 4) slashing damage plus 21 (6d6) necrotic damage. If the target is a creature, it suffers a lingering wound that causes it to take 7 (2d6) necrotic damage at the start of each of its turns. Each time the slasher hits the wounded target with this attack, the damage dealt by the wound increases by 3 (1d6). The wound ends if the target regains hit points or if a creature uses an action to stanch the wound, which requires a successful DC 15 Wisdom (Medicine) check."
+          "*Melee Weapon or Ranged Weapon Attack:* +7 to hit, reach 5 ft. or range 30/60 ft., one target. *Hit:* 6 (1d4 + 4) slashing damage plus 21 (6d6) necrotic damage. If the target is a creature, it suffers a lingering wound that causes it to take 7 (2d6) necrotic damage at the start of each of its turns. Each time the slasher hits the wounded target with this attack, the damage dealt by the wound increases by 3 (1d6). The wound ends if the target regains hit points or if a creature uses an action to stanch the wound, which requires a successful DC 15 Wisdom (Medicine) check."
         ]
       }
     ],
@@ -1806,7 +1806,7 @@
       {
         "name": "Slice",
         "entries": [
-          "*Melee Weapon or Ranged Weapon Attack:* 7 to hit, reach 5 ft. or range 30/60 ft., one target. *Hit:* 7 (1d6 + 4) slashing damage."
+          "*Melee Weapon or Ranged Weapon Attack:* +7 to hit, reach 5 ft. or range 30/60 ft., one target. *Hit:* 7 (1d6 + 4) slashing damage."
         ]
       },
       {
@@ -1863,13 +1863,13 @@
       {
         "name": "Claw",
         "entries": [
-          "*Melee Weapon Attack:* 5 to hit, reach 5 ft., one target. *Hit:* 7 (1d8 + 3) slashing damage plus 6 (1d12) acid damage."
+          "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 7 (1d8 + 3) slashing damage plus 6 (1d12) acid damage."
         ]
       },
       {
         "name": "Proboscis",
         "entries": [
-          "*Melee Weapon Attack:* 5 to hit, reach 5 ft., one creature. *Hit:* 8 (1d10 + 3) piercing damage plus 10 (3d6) necrotic damage, and the strigoi regains hit points equal to the amount of necrotic damage dealt. A creature reduced to 0 hit points from this attack dies and leaves nothing behind except its skin and its equipment."
+          "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one creature. *Hit:* 8 (1d10 + 3) piercing damage plus 10 (3d6) necrotic damage, and the strigoi regains hit points equal to the amount of necrotic damage dealt. A creature reduced to 0 hit points from this attack dies and leaves nothing behind except its skin and its equipment."
         ]
       },
       {
@@ -1929,7 +1929,7 @@
       {
         "name": "Bites",
         "entries": [
-          "*Melee Weapon Attack:* 4 to hit, reach 0 ft., one target in the swarm's space. *Hit:* 12 (3d6 + 2) piercing damage, or 5 (1d6 + 2) piercing damage if the swarm has half of its hit points or fewer, plus 7 (2d6) force damage."
+          "*Melee Weapon Attack:* +4 to hit, reach 0 ft., one target in the swarm's space. *Hit:* 12 (3d6 + 2) piercing damage, or 5 (1d6 + 2) piercing damage if the swarm has half of its hit points or fewer, plus 7 (2d6) force damage."
         ]
       }
     ],
@@ -1984,7 +1984,7 @@
       {
         "name": "Infestation",
         "entries": [
-          "*Melee Weapon Attack:* 3 to hit, reach 0 ft., one target in the swarm's space. *Hit:* 10 (4d4) piercing damage, or 5 (2d4) piercing damage if the swarm has half of its hit points or fewer. A creature damaged by the swarm must succeed on a DC 12 Constitution saving throw or contract a disease.",
+          "*Melee Weapon Attack:* +3 to hit, reach 0 ft., one target in the swarm's space. *Hit:* 10 (4d4) piercing damage, or 5 (2d4) piercing damage if the swarm has half of its hit points or fewer. A creature damaged by the swarm must succeed on a DC 12 Constitution saving throw or contract a disease.",
           "Each time the diseased creature finishes a long rest, roll a d6 to determine the disease's effect:",
           "- 1-2\n- 3-4\n- 5-6"
         ]
@@ -2046,7 +2046,7 @@
       {
         "name": "Ravenous Bites",
         "entries": [
-          "*Melee Weapon Attack:* 4 to hit, reach 0 ft., one target in the swarm's space. *Hit:* 14 (4d6) piercing damage, or 7 (2d6) piercing damage if the swarm has half of its hit points or fewer. If the target is a creature, scarabs burrow into its body, and the creature takes 3 (1d6) piercing damage at the start of each of its turns. Any creature can use an action to kill or remove the scarabs with fire or a weapon that deals piercing damage, causing 1 damage of the appropriate type to the target. A creature reduced to 0 hit points by the swarm's piercing damage dies."
+          "*Melee Weapon Attack:* +4 to hit, reach 0 ft., one target in the swarm's space. *Hit:* 14 (4d6) piercing damage, or 7 (2d6) piercing damage if the swarm has half of its hit points or fewer. If the target is a creature, scarabs burrow into its body, and the creature takes 3 (1d6) piercing damage at the start of each of its turns. Any creature can use an action to kill or remove the scarabs with fire or a weapon that deals piercing damage, causing 1 damage of the appropriate type to the target. A creature reduced to 0 hit points by the swarm's piercing damage dies."
         ]
       }
     ],
@@ -2106,13 +2106,13 @@
       {
         "name": "Undead Mass",
         "entries": [
-          "*Melee Weapon Attack:* 4 to hit, reach 0 ft., one target in the swarm's space. *Hit:* 5 (1d6 + 2) bludgeoning damage, or 4 (1d4 + 2) bludgeoning damage if the swarm has half of its hit points or fewer."
+          "*Melee Weapon Attack:* +4 to hit, reach 0 ft., one target in the swarm's space. *Hit:* 5 (1d6 + 2) bludgeoning damage, or 4 (1d4 + 2) bludgeoning damage if the swarm has half of its hit points or fewer."
         ]
       },
       {
         "name": "Grasping Limbs",
         "entries": [
-          "*Melee Weapon Attack:* 4 to hit, reach 0 ft., one creature in the swarm's space. *Hit:* 7 (2d6) necrotic damage, and the creature must succeed on a DC 12 Strength saving throw or be restrained. The creature can repeat the saving throw at the end of each of its turns, taking 7 (2d6) necrotic damage on a failed save. The creature is freed if it succeeds on this saving throw, the swarm moves out of the creature's space, or the swarm dies."
+          "*Melee Weapon Attack:* +4 to hit, reach 0 ft., one creature in the swarm's space. *Hit:* 7 (2d6) necrotic damage, and the creature must succeed on a DC 12 Strength saving throw or be restrained. The creature can repeat the saving throw at the end of each of its turns, taking 7 (2d6) necrotic damage on a failed save. The creature is freed if it succeeds on this saving throw, the swarm moves out of the creature's space, or the swarm dies."
         ]
       }
     ],
@@ -2211,7 +2211,7 @@
       {
         "name": "Limbs",
         "entries": [
-          "*Melee Weapon Attack:* 8 to hit, reach 5 ft., one target. *Hit:* 21 (3d10 + 5) bludgeoning damage."
+          "*Melee Weapon Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 21 (3d10 + 5) bludgeoning damage."
         ]
       },
       {
@@ -2283,13 +2283,13 @@
       {
         "name": "Claw",
         "entries": [
-          "*Melee Weapon Attack:* 7 to hit, reach 5 ft., one target. *Hit:* 8 (1d8 + 4) slashing damage plus 10 (3d6) necrotic damage."
+          "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 8 (1d8 + 4) slashing damage plus 10 (3d6) necrotic damage."
         ]
       },
       {
         "name": "Tentacles",
         "entries": [
-          "*Melee Weapon Attack:* 7 to hit, reach 5 ft., one creature. *Hit:* 7 (1d6 + 4) piercing damage, and if the target is a creature, it is grappled (escape DC 15)."
+          "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one creature. *Hit:* 7 (1d6 + 4) piercing damage, and if the target is a creature, it is grappled (escape DC 15)."
         ]
       },
       {
@@ -2368,19 +2368,19 @@
       {
         "name": "Beak (Raven or Hybrid Form Only)",
         "entries": [
-          "*Melee Weapon Attack:* 4 to hit, reach 5 ft., one target. *Hit:* 1 piercing damage in raven form, or 4 (1d4 + 2) piercing damage in hybrid form. If the target is humanoid, it must succeed on a DC 10 Constitution saving throw or be cursed with wereraven lycanthropy."
+          "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 1 piercing damage in raven form, or 4 (1d4 + 2) piercing damage in hybrid form. If the target is humanoid, it must succeed on a DC 10 Constitution saving throw or be cursed with wereraven lycanthropy."
         ]
       },
       {
         "name": "Shortsword (Human or Hybrid Form Only)",
         "entries": [
-          "*Melee Weapon Attack:* 4 to hit, reach 5 ft., one target. *Hit:* 5 (1d6 + 2) piercing damage."
+          "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 5 (1d6 + 2) piercing damage."
         ]
       },
       {
         "name": "Hand Crossbow (Human or Hybrid Form Only)",
         "entries": [
-          "*Ranged Weapon Attack:* 4 to hit, range 30/120 ft., one target. *Hit:* 5 (1d6 + 2) piercing damage."
+          "*Ranged Weapon Attack:* +4 to hit, range 30/120 ft., one target. *Hit:* 5 (1d6 + 2) piercing damage."
         ]
       }
     ],
@@ -2446,7 +2446,7 @@
       {
         "name": "Slam",
         "entries": [
-          "*Melee Weapon Attack:* 8 to hit, reach 10 ft., one target. *Hit:* 18 (3d8 + 5) bludgeoning damage."
+          "*Melee Weapon Attack:* +8 to hit, reach 10 ft., one target. *Hit:* 18 (3d8 + 5) bludgeoning damage."
         ]
       },
       {
@@ -2519,7 +2519,7 @@
       {
         "name": "Slam",
         "entries": [
-          "*Melee Weapon Attack:* 5 to hit, reach 5 ft., one target. *Hit:* 6 (1d6 + 3) bludgeoning damage plus 9 (2d8) necrotic damage."
+          "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 6 (1d6 + 3) bludgeoning damage plus 9 (2d8) necrotic damage."
         ]
       },
       {

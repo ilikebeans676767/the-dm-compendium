@@ -48,13 +48,13 @@
       {
         "name": "Longsword",
         "entries": [
-          "*Melee Weapon Attack:* 4 to hit, reach 5 ft., one target. *Hit:* 6 (1d8 + 2) slashing damage."
+          "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 6 (1d8 + 2) slashing damage."
         ]
       },
       {
         "name": "Heavy Crossbow",
         "entries": [
-          "*Ranged Weapon Attack:* 4 to hit, range",
+          "*Ranged Weapon Attack:* +4 to hit, range",
           "100/400 ft., one target. *Hit:* 7 (1d10 + 2) piercing damage."
         ]
       }
@@ -115,7 +115,7 @@
       {
         "name": "Spellcasting",
         "entries": [
-          "Tyreus is a 16th-level spellcaster. His spellcasting ability is Intelligence (spell save DC 18, 10 to hit with spell attacks). He has the following wizard spells prepared.",
+          "Tyreus is a 16th-level spellcaster. His spellcasting ability is Intelligence (spell save DC 18, +10 to hit with spell attacks). He has the following wizard spells prepared.",
           "0: fire bolt, light, mage hand, minor illusion, shocking grasp",
           "1 (4 slots): mage armor, magic missile, shield, thunderwave",
           "2 (3 slots): invisibility*, mirror image*, phantasmal force*",
@@ -133,7 +133,7 @@
       {
         "name": "Dagger",
         "entries": [
-          "*Melee Weapon or Ranged Weapon Attack:* 8 to hit, reach 5 ft. or range 20/60 ft., one target. *Hit:* 5 (1d4 + 3) piercing damage."
+          "*Melee Weapon or Ranged Weapon Attack:* +8 to hit, reach 5 ft. or range 20/60 ft., one target. *Hit:* 5 (1d4 + 3) piercing damage."
         ]
       },
       {

@@ -110,7 +110,7 @@
       {
         "name": "Constrict",
         "entries": [
-          "*Melee Weapon Attack:* 6 to hit, reach 35 ft., one creature. *Hit:* 13 (2d8 + 4) bludgeoning damage, and the target is grappled (escape DC 16). Until this grapple ends, the creature is restrained, and the tentacle can't constrict another target."
+          "*Melee Weapon Attack:* +6 to hit, reach 35 ft., one creature. *Hit:* 13 (2d8 + 4) bludgeoning damage, and the target is grappled (escape DC 16). Until this grapple ends, the creature is restrained, and the tentacle can't constrict another target."
         ]
       }
     ],
@@ -255,7 +255,7 @@
       {
         "name": "Claws",
         "entries": [
-          "*Melee Weapon Attack:* 7 to hit, reach 20 ft., one target. *Hit:* 11 (2d10) slashing damage."
+          "*Melee Weapon Attack:* +7 to hit, reach 20 ft., one target. *Hit:* 11 (2d10) slashing damage."
         ]
       }
     ],
@@ -424,7 +424,7 @@
       {
         "name": "Stomp",
         "entries": [
-          "*Melee Weapon Attack:* 3 to hit, reach 5 ft., one target. *Hit:* 3 (1d4 + 1) bludgeoning damage."
+          "*Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 3 (1d4 + 1) bludgeoning damage."
         ]
       }
     ],

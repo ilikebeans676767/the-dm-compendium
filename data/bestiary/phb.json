@@ -38,7 +38,7 @@
       {
         "name": "Slam",
         "entries": [
-          "*Melee Weapon Attack:* 8 to hit, reach 5 ft., one target. *Hit:* 16 (2d12 + 4) bludgeoning damage."
+          "*Melee Weapon Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 16 (2d12 + 4) bludgeoning damage."
         ]
       }
     ],
@@ -88,7 +88,7 @@
       {
         "name": "Slam",
         "entries": [
-          "*Melee Weapon Attack:* 6 to hit, reach 5 ft., one target. *Hit:* 12 (2d10 + 2) bludgeoning damage."
+          "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 12 (2d10 + 2) bludgeoning damage."
         ]
       }
     ],
@@ -138,7 +138,7 @@
       {
         "name": "Slam",
         "entries": [
-          "*Melee Weapon Attack:* 5 to hit, reach 5 ft., one target. *Hit:* 7 (2d6 + 1) bludgeoning damage."
+          "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 7 (2d6 + 1) bludgeoning damage."
         ]
       }
     ],
@@ -188,7 +188,7 @@
       {
         "name": "Slam",
         "entries": [
-          "*Melee Weapon Attack:* 6 to hit, reach 5 ft., one target. *Hit:* 6 (1d8 + 2) bludgeoning damage."
+          "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 6 (1d8 + 2) bludgeoning damage."
         ]
       }
     ],
@@ -238,7 +238,7 @@
       {
         "name": "Slam",
         "entries": [
-          "*Melee Weapon Attack:* 8 to hit, reach 5 ft., one target. *Hit:* 6 (1d4 + 4) bludgeoning damage."
+          "*Melee Weapon Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 6 (1d4 + 4) bludgeoning damage."
         ]
       }
     ],

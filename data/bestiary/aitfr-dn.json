@@ -48,13 +48,13 @@
       {
         "name": "Bite",
         "entries": [
-          "*Melee Weapon Attack:* 7 to hit, reach 10 ft., one target. *Hit:* 17 (3d8 + 4) piercing damage, and the target must make a DC 15 Constitution saving throw, taking 17 (5d6) poison damage on a failed save, or half as much damage on a successful one."
+          "*Melee Weapon Attack:* +7 to hit, reach 10 ft., one target. *Hit:* 17 (3d8 + 4) piercing damage, and the target must make a DC 15 Constitution saving throw, taking 17 (5d6) poison damage on a failed save, or half as much damage on a successful one."
         ]
       },
       {
         "name": "Constrict",
         "entries": [
-          "*Melee Weapon Attack:* 7 to hit, reach 5 ft., one target. *Hit:* 17 (3d8 + 4) bludgeoning damage, and the target is grappled (escape DC 16). Until this grapple ends, the creature is restrained and the snake cannot constrict another target."
+          "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 17 (3d8 + 4) bludgeoning damage, and the target is grappled (escape DC 16). Until this grapple ends, the creature is restrained and the snake cannot constrict another target."
         ]
       }
     ],
@@ -101,13 +101,13 @@
       {
         "name": "Axe",
         "entries": [
-          "*Melee Weapon Attack:* 9 to hit, reach 5 ft., one target. *Hit:* 17 (2d10 + 6) slashing damage."
+          "*Melee Weapon Attack:* +9 to hit, reach 5 ft., one target. *Hit:* 17 (2d10 + 6) slashing damage."
         ]
       },
       {
         "name": "Rock",
         "entries": [
-          "*Ranged Weapon Attack:* 9 to hit, range 60/240 ft., one target. *Hit:* 17 (2d10 + 6) bludgeoning damage."
+          "*Ranged Weapon Attack:* +9 to hit, range 60/240 ft., one target. *Hit:* 17 (2d10 + 6) bludgeoning damage."
         ]
       }
     ],
@@ -188,19 +188,19 @@
       {
         "name": "Claw",
         "entries": [
-          "*Melee Weapon Attack:* 7 to hit, reach 5 ft., one target. *Hit:* 13 (3d6 + 3) slashing damage."
+          "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 13 (3d6 + 3) slashing damage."
         ]
       },
       {
         "name": "Constrict",
         "entries": [
-          "*Melee Weapon Attack:* 4 to hit, reach 10 ft., one target. *Hit:* 10 (3d6) bludgeoning damage, and the target is grappled (escape DC 13) if it is a Large or smaller creature. Until this grapple ends, the target is restrained, and Kyrilla can't constrict another target."
+          "*Melee Weapon Attack:* +4 to hit, reach 10 ft., one target. *Hit:* 10 (3d6) bludgeoning damage, and the target is grappled (escape DC 13) if it is a Large or smaller creature. Until this grapple ends, the target is restrained, and Kyrilla can't constrict another target."
         ]
       },
       {
         "name": "Longbow",
         "entries": [
-          "*Ranged Weapon Attack:* 7 to hit, range 150/600 ft., one target. *Hit:* 16 (3d8 + 3) piercing damage."
+          "*Ranged Weapon Attack:* +7 to hit, range 150/600 ft., one target. *Hit:* 16 (3d8 + 3) piercing damage."
         ]
       },
       {
@@ -273,7 +273,7 @@
       {
         "name": "Claw",
         "entries": [
-          "*Melee Weapon Attack:* 6 to hit, reach 5 ft., one target. *Hit:* 19 (3d10 + 3) slashing damage."
+          "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 19 (3d10 + 3) slashing damage."
         ]
       },
       {

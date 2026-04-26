@@ -65,7 +65,7 @@
       {
         "name": "Fortified Pickaxe",
         "entries": [
-          "*Melee Weapon Attack:* 6 to hit, reach 5 ft., one target. *Hit:* 11 (2d6 + 4) force damage. If the target is a Construct or an object, the attack is automatically a critical hit."
+          "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 11 (2d6 + 4) force damage. If the target is a Construct or an object, the attack is automatically a critical hit."
         ]
       }
     ],

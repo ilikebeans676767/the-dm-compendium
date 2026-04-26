@@ -35,7 +35,7 @@
       {
         "name": "Spellcasting",
         "entries": [
-          "The abjurer is a 13th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 16, 8 to hit with spell attacks). The abjurer has the following wizard spells prepared:",
+          "The abjurer is a 13th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 16, +8 to hit with spell attacks). The abjurer has the following wizard spells prepared:",
           "0: blade ward, dancing lights, mending, message, ray of frost",
           "1 (4 slots): alarm*, mage armor*, magic missile, shield*",
           "2 (3 slots): arcane lock*, invisibility",
@@ -52,7 +52,7 @@
       {
         "name": "Quarterstaff",
         "entries": [
-          "*Melee Weapon Attack:* 3 to hit, reach 5 ft., one target. *Hit:* 2 (1d6 - 1) bludgeoning damage, or 3 (1d8 - 1) bludgeoning damage if used with two hands."
+          "*Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 2 (1d6 - 1) bludgeoning damage, or 3 (1d8 - 1) bludgeoning damage if used with two hands."
         ]
       }
     ],
@@ -115,7 +115,7 @@
       {
         "name": "Spellcasting",
         "entries": [
-          "The alhoon is a 12th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 16, 8 to hit with spell attacks). The alhoon has the following wizard spells prepared:",
+          "The alhoon is a 12th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 16, +8 to hit with spell attacks). The alhoon has the following wizard spells prepared:",
           "0: chill touch, dancing lights, mage hand, prestidigitation, shocking grasp",
           "1 (4 slots): detect magic, disguise self, magic missile, shield",
           "2 (3 slots): invisibility, mirror image, scorching ray",
@@ -130,7 +130,7 @@
       {
         "name": "Chilling Grasp",
         "entries": [
-          "*Melee Spell Attack:* 8 to hit, reach 5 ft., one target. *Hit:* 10 (3d6) cold damage."
+          "*Melee Spell Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 10 (3d6) cold damage."
         ]
       },
       {
@@ -193,19 +193,19 @@
       {
         "name": "Bite",
         "entries": [
-          "*Melee Weapon Attack:* 8 to hit, reach 5 ft., one target. *Hit:* 15 (3d6 + 5) piercing damage."
+          "*Melee Weapon Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 15 (3d6 + 5) piercing damage."
         ]
       },
       {
         "name": "Claw",
         "entries": [
-          "*Melee Weapon Attack:* 8 to hit, reach 5 ft., one target. *Hit:* 15 (3d6 + 5) slashing damage."
+          "*Melee Weapon Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 15 (3d6 + 5) slashing damage."
         ]
       },
       {
         "name": "Crushing Hug",
         "entries": [
-          "*Melee Weapon Attack:* 8 to hit, reach 5 ft., one target. *Hit:* 36 (9d6 + 5) bludgeoning damage, and the target is grappled (escape DC 15) if it is a Large or smaller creature. Until the grapple ends, the target takes 36 (9d6 + 5) bludgeoning damage at the start of each of the hag's turns. The hag can't make attacks while grappling a creature in this way."
+          "*Melee Weapon Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 36 (9d6 + 5) bludgeoning damage, and the target is grappled (escape DC 15) if it is a Large or smaller creature. Until the grapple ends, the target takes 36 (9d6 + 5) bludgeoning damage at the start of each of the hag's turns. The hag can't make attacks while grappling a creature in this way."
         ]
       }
     ],
@@ -248,7 +248,7 @@
       {
         "name": "Spellcasting",
         "entries": [
-          "The apprentice is a 1st-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 12, 4 to hit with spell attacks). It has the following wizard spells prepared:",
+          "The apprentice is a 1st-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 12, +4 to hit with spell attacks). It has the following wizard spells prepared:",
           "0: fire bolt, mending, prestidigitation",
           "1 (2 slots): burning hands, disguise self, shield"
         ]
@@ -258,7 +258,7 @@
       {
         "name": "Dagger",
         "entries": [
-          "*Melee Weapon or Ranged Weapon Attack:* 2 to hit, reach 5 ft. or range 20/60 ft., one target. *Hit:* 2 (1d4) piercing damage."
+          "*Melee Weapon or Ranged Weapon Attack:* +2 to hit, reach 5 ft. or range 20/60 ft., one target. *Hit:* 2 (1d4) piercing damage."
         ]
       }
     ],
@@ -300,7 +300,7 @@
       {
         "name": "Spellcasting",
         "entries": [
-          "The archdruid is an 18th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 17, 9 to hit with spell attacks). It has the following druid spells prepared:",
+          "The archdruid is an 18th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 17, +9 to hit with spell attacks). It has the following druid spells prepared:",
           "0: druidcraft, mending, poison spray, produce flame",
           "1 (4 slots): cure wounds, entangle, faerie fire, speak with animals",
           "2 (3 slots): animal messenger, beast sense, hold person",
@@ -318,7 +318,7 @@
       {
         "name": "Scimitar",
         "entries": [
-          "*Melee Weapon Attack:* 6 to hit, reach 5 ft., one target. *Hit:* 5 (1d6 + 2) slashing damage."
+          "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 5 (1d6 + 2) slashing damage."
         ]
       },
       {
@@ -384,13 +384,13 @@
       {
         "name": "Shortsword",
         "entries": [
-          "*Melee Weapon Attack:* 6 to hit, reach 5 ft., one target. *Hit:* 7 (1d6 + 4) piercing damage."
+          "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 7 (1d6 + 4) piercing damage."
         ]
       },
       {
         "name": "Longbow",
         "entries": [
-          "*Ranged Weapon Attack:* 6 to hit, range 150/600 ft., one target. *Hit:* 8 (1d8 + 4) piercing damage."
+          "*Ranged Weapon Attack:* +6 to hit, range 150/600 ft., one target. *Hit:* 8 (1d8 + 4) piercing damage."
         ]
       }
     ],
@@ -441,7 +441,7 @@
       {
         "name": "Gore",
         "entries": [
-          "*Melee Weapon Attack:* 7 to hit, reach 5 ft., one target. *Hit:* 14 (2d8 + 5) piercing damage."
+          "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 14 (2d8 + 5) piercing damage."
         ]
       }
     ],
@@ -500,13 +500,13 @@
       {
         "name": "Claw",
         "entries": [
-          "*Melee Weapon Attack:* 6 to hit, reach 5 ft., one target. *Hit:* 8 (1d8 + 4) slashing damage."
+          "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 8 (1d8 + 4) slashing damage."
         ]
       },
       {
         "name": "Spear",
         "entries": [
-          "*Melee Weapon or Ranged Weapon Attack:* 6 to hit, reach 5 ft. or range 20/60 ft., one target. *Hit:* 7 (1d6 + 4) piercing damage, or 8 (1d8 + 4) piercing damage when used with two hands to make a melee attack."
+          "*Melee Weapon or Ranged Weapon Attack:* +6 to hit, reach 5 ft. or range 20/60 ft., one target. *Hit:* 7 (1d6 + 4) piercing damage, or 8 (1d8 + 4) piercing damage when used with two hands to make a melee attack."
         ]
       },
       {
@@ -569,13 +569,13 @@
       {
         "name": "Bite",
         "entries": [
-          "*Melee Weapon Attack:* 8 to hit, reach 5 ft., one target. *Hit:* 22 (5d6 + 5) piercing damage, and the target is grappled (escape DC 15) if it is a Large or smaller creature. Until this grapple ends, the target is restrained, and the banderhobb can't use its bite attack or tongue attack on another target."
+          "*Melee Weapon Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 22 (5d6 + 5) piercing damage, and the target is grappled (escape DC 15) if it is a Large or smaller creature. Until this grapple ends, the target is restrained, and the banderhobb can't use its bite attack or tongue attack on another target."
         ]
       },
       {
         "name": "Tongue",
         "entries": [
-          "*Melee Weapon Attack:* 8 to hit, reach 15 ft., one target. *Hit:* 10 (3d6) necrotic damage, and the target must make a DC 15 Strength saving throw. On a failed save, the target is pulled to a space within 5 feet of the banderhobb, which can use a bonus action to make a bite attack against the target."
+          "*Melee Weapon Attack:* +8 to hit, reach 15 ft., one target. *Hit:* 10 (3d6) necrotic damage, and the target must make a DC 15 Strength saving throw. On a failed save, the target is pulled to a space within 5 feet of the banderhobb, which can use a bonus action to make a bite attack against the target."
         ]
       },
       {
@@ -643,7 +643,7 @@
       {
         "name": "Spellcasting",
         "entries": [
-          "The bard is a 4th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 12, 4 to hit with spell attacks). It has the following bard spells prepared:",
+          "The bard is a 4th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 12, +4 to hit with spell attacks). It has the following bard spells prepared:",
           "0: friends, mage hand, vicious mockery",
           "1 (4 slots): charm person, healing word, heroism, sleep, thunderwave",
           "2 (3 slots): invisibility, shatter"
@@ -654,13 +654,13 @@
       {
         "name": "Shortsword",
         "entries": [
-          "*Melee Weapon Attack:* 4 to hit, reach 5 ft., one target. *Hit:* 5 (1d6 + 2) piercing damage."
+          "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 5 (1d6 + 2) piercing damage."
         ]
       },
       {
         "name": "Shortbow",
         "entries": [
-          "*Ranged Weapon Attack:* 4 to hit, range 80/320 ft., one target. *Hit:* 5 (1d6 + 2) piercing damage."
+          "*Ranged Weapon Attack:* +4 to hit, range 80/320 ft., one target. *Hit:* 5 (1d6 + 2) piercing damage."
         ]
       }
     ],
@@ -738,13 +738,13 @@
       {
         "name": "Bite",
         "entries": [
-          "*Melee Weapon Attack:* 6 to hit, reach 5 ft., one target. *Hit:* 13 (2d8 + 4) piercing damage."
+          "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 13 (2d8 + 4) piercing damage."
         ]
       },
       {
         "name": "Claws",
         "entries": [
-          "*Melee Weapon Attack:* 6 to hit, reach 5 ft., one target. *Hit:* 8 (1d8 + 4) slashing damage."
+          "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 8 (1d8 + 4) slashing damage."
         ]
       }
     ],
@@ -803,7 +803,7 @@
       {
         "name": "Innate Spellcasting",
         "entries": [
-          "The hag's innate spellcasting ability is Charisma (spell save DC 14, 6 to hit with spell attacks). She can innately cast the following spells, requiring no material components:",
+          "The hag's innate spellcasting ability is Charisma (spell save DC 14, +6 to hit with spell attacks). She can innately cast the following spells, requiring no material components:",
           "At will: hold person*, ray of frost",
           "3e/day: cone of cold*, ice storm*, wall of ice*",
           "1e/day: control weather"
@@ -814,7 +814,7 @@
       {
         "name": "Slam",
         "entries": [
-          "*Melee Weapon Attack:* 4 to hit, reach 5 ft., one target. *Hit:* 10 (2d8 + 1) bludgeoning damage plus 3 (1d6) cold damage."
+          "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 10 (2d8 + 1) bludgeoning damage plus 3 (1d6) cold damage."
         ]
       },
       {
@@ -876,13 +876,13 @@
       {
         "name": "Bite",
         "entries": [
-          "*Melee Weapon Attack:* 5 to hit, reach 5 ft., one target. *Hit:* 7 (1d8 + 3) piercing damage."
+          "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 7 (1d8 + 3) piercing damage."
         ]
       },
       {
         "name": "Tail",
         "entries": [
-          "*Melee Weapon Attack:* 5 to hit, reach 5 ft., one target. *Hit:* 6 (1d6 + 3) bludgeoning damage."
+          "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 6 (1d6 + 3) bludgeoning damage."
         ]
       }
     ],
@@ -925,7 +925,7 @@
       {
         "name": "Spellcasting",
         "entries": [
-          "The blackguard is a 10th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 13, 5 to hit with spell attacks). It has the following paladin spells prepared:",
+          "The blackguard is a 10th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 13, +5 to hit with spell attacks). It has the following paladin spells prepared:",
           "1 (4 slots): command, protection from evil and good, thunderous smite",
           "2 (3 slots): branding smite, find steed",
           "3 (2 slots): blinding smite, dispel magic"
@@ -942,13 +942,13 @@
       {
         "name": "Glaive",
         "entries": [
-          "*Melee Weapon Attack:* 7 to hit, reach 10 ft., one target. *Hit:* 9 (1d10 + 4) slashing damage."
+          "*Melee Weapon Attack:* +7 to hit, reach 10 ft., one target. *Hit:* 9 (1d10 + 4) slashing damage."
         ]
       },
       {
         "name": "Shortbow",
         "entries": [
-          "*Ranged Weapon Attack:* 3 to hit, range 80/320 ft., one target. *Hit:* 5 (1d6 + 2) piercing damage."
+          "*Ranged Weapon Attack:* +3 to hit, range 80/320 ft., one target. *Hit:* 5 (1d6 + 2) piercing damage."
         ]
       },
       {
@@ -1004,13 +1004,13 @@
       {
         "name": "Bite",
         "entries": [
-          "*Melee Weapon Attack:* 5 to hit, reach 5 ft., one target. *Hit:* 7 (1d8 + 3) piercing damage."
+          "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 7 (1d8 + 3) piercing damage."
         ]
       },
       {
         "name": "Tail",
         "entries": [
-          "*Melee Weapon Attack:* 5 to hit, reach 5 ft., one target. *Hit:* 6 (1d6 + 3) bludgeoning damage."
+          "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 6 (1d6 + 3) bludgeoning damage."
         ]
       }
     ],
@@ -1074,7 +1074,7 @@
       {
         "name": "Fist",
         "entries": [
-          "*Melee Weapon Attack:* 5 to hit, reach 5 ft., one target. *Hit:* 4 (1d4 + 2) bludgeoning damage plus 9 (2d8) necrotic damage."
+          "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 4 (1d4 + 2) bludgeoning damage plus 9 (2d8) necrotic damage."
         ]
       },
       {
@@ -1146,7 +1146,7 @@
       {
         "name": "Pummel",
         "entries": [
-          "*Melee Weapon Attack:* 1 to hit, reach 5 ft., one target. *Hit:* 2 (1d6 - 1) bludgeoning damage."
+          "*Melee Weapon Attack:* +1 to hit, reach 5 ft., one target. *Hit:* 2 (1d6 - 1) bludgeoning damage."
         ]
       },
       {
@@ -1219,7 +1219,7 @@
       {
         "name": "Spellcasting",
         "entries": [
-          "The goblin can cast a randomly determined 1st-level wizard spell once per day. Intelligence is its spellcasting ability (spell save DC 10, 2 to hit with spell attacks)."
+          "The goblin can cast a randomly determined 1st-level wizard spell once per day. Intelligence is its spellcasting ability (spell save DC 10, +2 to hit with spell attacks)."
         ]
       }
     ],
@@ -1396,13 +1396,13 @@
       {
         "name": "Stomp",
         "entries": [
-          "*Melee Weapon Attack:* 8 to hit, reach 20 ft., one target. *Hit:* 27 (5d8 + 5) bludgeoning damage, and the target must succeed on a DC 14 Strength saving throw or be knocked prone."
+          "*Melee Weapon Attack:* +8 to hit, reach 20 ft., one target. *Hit:* 27 (5d8 + 5) bludgeoning damage, and the target must succeed on a DC 14 Strength saving throw or be knocked prone."
         ]
       },
       {
         "name": "Tail",
         "entries": [
-          "*Melee Weapon Attack:* 8 to hit, reach 20 ft., one target. *Hit:* 32 (6d8 + 5) bludgeoning damage."
+          "*Melee Weapon Attack:* +8 to hit, reach 20 ft., one target. *Hit:* 32 (6d8 + 5) bludgeoning damage."
         ]
       }
     ],
@@ -1459,7 +1459,7 @@
       {
         "name": "Tail",
         "entries": [
-          "*Melee Weapon Attack:* 7 to hit, reach 10 ft., one target. *Hit:* 21 (5d6 + 4) bludgeoning damage, and the target must succeed on a DC 16 Constitution saving throw or be stunned until the start of the catoblepas's next turn."
+          "*Melee Weapon Attack:* +7 to hit, reach 10 ft., one target. *Hit:* 21 (5d6 + 4) bludgeoning damage, and the target must succeed on a DC 16 Constitution saving throw or be stunned until the start of the catoblepas's next turn."
         ]
       },
       {
@@ -1533,7 +1533,7 @@
       {
         "name": "Claw",
         "entries": [
-          "*Melee Weapon Attack:* 5 to hit, reach 5 ft., one target. *Hit:* 10 (2d6 + 3) slashing damage."
+          "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 10 (2d6 + 3) slashing damage."
         ]
       },
       {
@@ -1601,13 +1601,13 @@
       {
         "name": "Greatsword",
         "entries": [
-          "*Melee Weapon Attack:* 9 to hit, reach 5 ft., one target. *Hit:* 12 (2d6 + 5) slashing damage, plus 7 (2d6) slashing damage if the champion has more than half of its total hit points remaining."
+          "*Melee Weapon Attack:* +9 to hit, reach 5 ft., one target. *Hit:* 12 (2d6 + 5) slashing damage, plus 7 (2d6) slashing damage if the champion has more than half of its total hit points remaining."
         ]
       },
       {
         "name": "Shortbow",
         "entries": [
-          "*Ranged Weapon Attack:* 6 to hit, range 80/320 ft., one target. *Hit:* 5 (1d6 + 2) piercing damage, plus 7 (2d6) piercing damage if the champion has more than half of its total hit points remaining."
+          "*Ranged Weapon Attack:* +6 to hit, range 80/320 ft., one target. *Hit:* 5 (1d6 + 2) piercing damage, plus 7 (2d6) piercing damage if the champion has more than half of its total hit points remaining."
         ]
       }
     ],
@@ -1682,7 +1682,7 @@
       {
         "name": "Dagger",
         "entries": [
-          "*Melee Weapon or Ranged Weapon Attack:* 4 to hit, reach 5 ft. or range 20/60 ft., one target. *Hit:* 4 (1d4 + 2) piercing damage."
+          "*Melee Weapon or Ranged Weapon Attack:* +4 to hit, reach 5 ft. or range 20/60 ft., one target. *Hit:* 4 (1d4 + 2) piercing damage."
         ]
       }
     ],
@@ -1755,7 +1755,7 @@
       {
         "name": "Spellcasting",
         "entries": [
-          "The choldrith is a 4th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12, 4 to hit with spell attacks). The choldrith has the following cleric spells prepared:",
+          "The choldrith is a 4th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). The choldrith has the following cleric spells prepared:",
           "0: guidance, mending, resistance, thaumaturgy",
           "1 (4 slots): bane, healing word, sanctuary, shield of faith",
           "2 (3 slots): hold person, spiritual weapon (dagger)"
@@ -1766,13 +1766,13 @@
       {
         "name": "Dagger",
         "entries": [
-          "*Melee Weapon or Ranged Weapon Attack:* 5 to hit, reach 5 ft. or range 20/60 ft., one target. *Hit:* 5 (1d4 + 3) piercing damage plus 10 (3d6) poison damage."
+          "*Melee Weapon or Ranged Weapon Attack:* +5 to hit, reach 5 ft. or range 20/60 ft., one target. *Hit:* 5 (1d4 + 3) piercing damage plus 10 (3d6) poison damage."
         ]
       },
       {
         "name": "Web 5",
         "entries": [
-          "*Ranged Weapon Attack:* 5 to hit, range 30/60 ft., one Large or smaller creature. *Hit:* The target is restrained by webbing. As an action, the restrained target can make a DC 11 Strength check, bursting the webbing on a success. The webbing can also be attacked and destroyed (AC 10; 5 hit points; vulnerability to fire damage; immunity to bludgeoning, poison, and psychic damage)."
+          "*Ranged Weapon Attack:* +5 to hit, range 30/60 ft., one Large or smaller creature. *Hit:* The target is restrained by webbing. As an action, the restrained target can make a DC 11 Strength check, bursting the webbing on a success. The webbing can also be attacked and destroyed (AC 10; 5 hit points; vulnerability to fire damage; immunity to bludgeoning, poison, and psychic damage)."
         ]
       }
     ],
@@ -1830,7 +1830,7 @@
       {
         "name": "Spellcasting",
         "entries": [
-          "The giant is a 5th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 15, 7 to hit with spell attacks). The giant has the following bard spells prepared:",
+          "The giant is a 5th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 15, +7 to hit with spell attacks). The giant has the following bard spells prepared:",
           "0: minor illusion, prestidigitation, vicious mockery",
           "1 (4 slots): cure wounds, disguise self, silent image, Tasha's hideous laughter",
           "2 (3 slots): invisibility, suggestion",
@@ -1848,13 +1848,13 @@
       {
         "name": "Morningstar",
         "entries": [
-          "*Melee Weapon Attack:* 12 to hit, reach 10 ft., one target. *Hit:* 21 (3d8 + 8) bludgeoning damage. The attack deals an extra 14 (4d6) damage if the giant has advantage on the attack roll."
+          "*Melee Weapon Attack:* +12 to hit, reach 10 ft., one target. *Hit:* 21 (3d8 + 8) bludgeoning damage. The attack deals an extra 14 (4d6) damage if the giant has advantage on the attack roll."
         ]
       },
       {
         "name": "Rock",
         "entries": [
-          "*Ranged Weapon Attack:* 12 to hit, range 60/240 ft., one target. *Hit:* 30 (4d10 + 8) bludgeoning damage. The attack deals an extra 14 (4d6) damage if the giant has advantage on the attack roll."
+          "*Ranged Weapon Attack:* +12 to hit, range 60/240 ft., one target. *Hit:* 30 (4d10 + 8) bludgeoning damage. The attack deals an extra 14 (4d6) damage if the giant has advantage on the attack roll."
         ]
       },
       {
@@ -1909,7 +1909,7 @@
       {
         "name": "Spellcasting",
         "entries": [
-          "The conjurer is a 9th-level spellcaster. Its spellcasting ability is intelligence (spell save DC 14, 6 to hit with spell attacks). The conjurer has the following wizard spells prepared:",
+          "The conjurer is a 9th-level spellcaster. Its spellcasting ability is intelligence (spell save DC 14, +6 to hit with spell attacks). The conjurer has the following wizard spells prepared:",
           "0: acid splash, mage hand, poison spray, prestidigitation",
           "1 (4 slots): mage armor, magic missile, unseen servant*",
           "2 (3 slots): cloud of daggers*, misty step*, web*",
@@ -1924,7 +1924,7 @@
       {
         "name": "Dagger",
         "entries": [
-          "*Melee Weapon or Ranged Weapon Attack:* 5 to hit, reach 5 ft. or range 20/60 ft., one target. *Hit:* 4 (1d4 + 2) piercing damage."
+          "*Melee Weapon or Ranged Weapon Attack:* +5 to hit, reach 5 ft. or range 20/60 ft., one target. *Hit:* 4 (1d4 + 2) piercing damage."
         ]
       }
     ],
@@ -1974,7 +1974,7 @@
       {
         "name": "Gore",
         "entries": [
-          "*Melee Weapon Attack:* 6 to hit, reach 5 ft., one target. *Hit:* 7 (1d6 + 4) piercing damage."
+          "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 7 (1d6 + 4) piercing damage."
         ]
       }
     ],
@@ -2030,7 +2030,7 @@
       {
         "name": "Bite",
         "entries": [
-          "*Melee Weapon Attack:* 4 to hit, reach 5 ft., one target. *Hit:* 1 piercing damage."
+          "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 1 piercing damage."
         ]
       }
     ],
@@ -2087,7 +2087,7 @@
       {
         "name": "Dagger",
         "entries": [
-          "*Melee Weapon or Ranged Weapon Attack:* 5 to hit, reach 5 ft. or range 20/60 ft., one target. *Hit:* 5 (1d4 + 3) piercing damage. If the darkling has advantage on the attack roll, the attack deals an extra 7 (2d6) piercing damage."
+          "*Melee Weapon or Ranged Weapon Attack:* +5 to hit, reach 5 ft. or range 20/60 ft., one target. *Hit:* 5 (1d4 + 3) piercing damage. If the darkling has advantage on the attack roll, the attack deals an extra 7 (2d6) piercing damage."
         ]
       }
     ],
@@ -2146,7 +2146,7 @@
       {
         "name": "Shortsword",
         "entries": [
-          "*Melee Weapon Attack:* 5 to hit, reach 5 ft., one target. *Hit:* 6 (1d6 + 3) piercing damage. If the darkling elder had advantage on the attack roll, the attack deals as: extra 10 (3d6) piercing damage."
+          "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 6 (1d6 + 3) piercing damage. If the darkling elder had advantage on the attack roll, the attack deals as: extra 10 (3d6) piercing damage."
         ]
       },
       {
@@ -2211,7 +2211,7 @@
       {
         "name": "Tentacle",
         "entries": [
-          "*Melee Weapon Attack:* 8 to hit, reach 20 ft., one target. *Hit:* 14 (3d6 + 4) piercing damage, and the target is grappled (escape DC 14) if it is a Huge or smaller creature. Until this grapple ends, the target is restrained, and the death kiss can't use the same tentacle on another target. The death kiss has ten tentacles."
+          "*Melee Weapon Attack:* +8 to hit, reach 20 ft., one target. *Hit:* 14 (3d6 + 4) piercing damage, and the target is grappled (escape DC 14) if it is a Huge or smaller creature. Until this grapple ends, the target is restrained, and the death kiss can't use the same tentacle on another target. The death kiss has ten tentacles."
         ]
       },
       {
@@ -2275,7 +2275,7 @@
       {
         "name": "Gore",
         "entries": [
-          "*Melee Weapon Attack:* 6 to hit, reach 5 ft., one target. *Hit:* 7 (1d6 + 4) piercing damage."
+          "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 7 (1d6 + 4) piercing damage."
         ]
       }
     ],
@@ -2337,19 +2337,19 @@
       {
         "name": "Battleaxe (Humanoid Form Only)",
         "entries": [
-          "*Melee Weapon Attack:* 6 to hit, reach 5 ft., one target. *Hit:* 8 (1d8 + 4) slashing damage, or 9 (1d10 + 4) slashing damage if used with two hands."
+          "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 8 (1d8 + 4) slashing damage, or 9 (1d10 + 4) slashing damage if used with two hands."
         ]
       },
       {
         "name": "Bite (Hybrid Form Only)",
         "entries": [
-          "*Melee Weapon Attack:* 6 to hit, reach 5 ft., one creature. *Hit:* 6 (1d4 + 4) piercing damage."
+          "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one creature. *Hit:* 6 (1d4 + 4) piercing damage."
         ]
       },
       {
         "name": "Claw (Hybrid Form Only)",
         "entries": [
-          "*Melee Weapon Attack:* 6 to hit, reach 5 ft., one target. *Hit:* 7 (1d6 + 4) slashing damage."
+          "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 7 (1d6 + 4) slashing damage."
         ]
       },
       {
@@ -2412,13 +2412,13 @@
       {
         "name": "Bite",
         "entries": [
-          "*Melee Weapon Attack:* 4 to hit, reach 5 ft., one target. *Hit:* 6 (1d8 + 2) piercing damage."
+          "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 6 (1d8 + 2) piercing damage."
         ]
       },
       {
         "name": "Claw",
         "entries": [
-          "*Melee Weapon Attack:* 4 to hit, reach 5 ft., one target. *Hit:* 6 (1d8 + 2) slashing damage."
+          "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 6 (1d8 + 2) slashing damage."
         ]
       }
     ],
@@ -2469,7 +2469,7 @@
       {
         "name": "Claw",
         "entries": [
-          "*Melee Weapon Attack:* 10 to hit, reach 5 ft., one target. *Hit:* 12 (2d6 + 5) slashing damage plus 21 (6d6) necrotic damage."
+          "*Melee Weapon Attack:* +10 to hit, reach 5 ft., one target. *Hit:* 12 (2d6 + 5) slashing damage plus 21 (6d6) necrotic damage."
         ]
       },
       {
@@ -2524,7 +2524,7 @@
       {
         "name": "Bite",
         "entries": [
-          "*Melee Weapon Attack:* 4 to hit, reach 5 ft., one target. *Hit:* 9 (2d6 + 2) piercing damage."
+          "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 9 (2d6 + 2) piercing damage."
         ]
       }
     ],
@@ -2574,7 +2574,7 @@
       {
         "name": "Spellcasting",
         "entries": [
-          "The diviner is a 15th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 15, 7 to hit with spell attacks). The diviner has the following wizard spells prepared:",
+          "The diviner is a 15th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 15, +7 to hit with spell attacks). The diviner has the following wizard spells prepared:",
           "0: fire bolt, light, mage hand, message, true strike",
           "1 (4 slots): detect magic*, feather fall, mage armor",
           "2 (3 slots): detect thoughts*, locate object*, scorching ray",
@@ -2592,7 +2592,7 @@
       {
         "name": "Quarterstaff",
         "entries": [
-          "*Melee Weapon Attack:* 2 to hit, reach 5 ft., one target. *Hit:* 2 (1d6 - 1) bludgeoning damage, or 3 (1d8 - 1) bludgeoning damage if used with two hands."
+          "*Melee Weapon Attack:* +2 to hit, reach 5 ft., one target. *Hit:* 2 (1d6 - 1) bludgeoning damage, or 3 (1d8 - 1) bludgeoning damage if used with two hands."
         ]
       }
     ],
@@ -2648,7 +2648,7 @@
       {
         "name": "Slam",
         "entries": [
-          "*Melee Weapon Attack:* 4 to hit, reach 5 ft., one target. *Hit:* 5 (1d6 + 2) bludgeoning damage."
+          "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 5 (1d6 + 2) bludgeoning damage."
         ]
       }
     ],
@@ -2714,13 +2714,13 @@
       {
         "name": "Bite",
         "entries": [
-          "*Melee Weapon Attack:* 8 to hit, reach 5 ft., one creature. *Hit:* 16 (2d10 + 5) piercing damage."
+          "*Melee Weapon Attack:* +8 to hit, reach 5 ft., one creature. *Hit:* 16 (2d10 + 5) piercing damage."
         ]
       },
       {
         "name": "Claws",
         "entries": [
-          "*Melee Weapon Attack:* 8 to hit, reach 10 ft., one target. *Hit:* 16 (2d10 + 5) slashing damage."
+          "*Melee Weapon Attack:* +8 to hit, reach 10 ft., one target. *Hit:* 16 (2d10 + 5) slashing damage."
         ]
       }
     ],
@@ -2797,7 +2797,7 @@
       {
         "name": "Tentacle",
         "entries": [
-          "*Melee Weapon Attack:* 7 to hit, reach 30 ft., one target. *Hit:* 20 (4d8 + 2) bludgeoning damage. If the target is a Huge or smaller creature, it is grappled (escape DC 15) and takes 9 (1d8 + 5) psychic damage at the start of each of its turns until the grapple ends. The elder brain can have up to four targets grappled at a time."
+          "*Melee Weapon Attack:* +7 to hit, reach 30 ft., one target. *Hit:* 20 (4d8 + 2) bludgeoning damage. If the target is a Huge or smaller creature, it is grappled (escape DC 15) and takes 9 (1d8 + 5) psychic damage at the start of each of its turns until the grapple ends. The elder brain can have up to four targets grappled at a time."
         ]
       },
       {
@@ -2882,7 +2882,7 @@
       {
         "name": "Spellcasting",
         "entries": [
-          "The enchanter is a 9th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 14, 6 to hit with spell attacks). The enchanter has the following wizard spells prepared:",
+          "The enchanter is a 9th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 14, +6 to hit with spell attacks). The enchanter has the following wizard spells prepared:",
           "0: friends, mage hand, mending, message",
           "1 (4 slots): charm person*, mage armor, magic missile",
           "2 (3 slots): hold person*, invisibility, suggestion*",
@@ -2897,7 +2897,7 @@
       {
         "name": "Quarterstaff",
         "entries": [
-          "*Melee Weapon Attack:* 2 to hit, reach 5 ft., one target. *Hit:* 2 (1d6 - 1) bludgeoning damage, or 3 (1d8 - 1) bludgeoning damage if used with two hands."
+          "*Melee Weapon Attack:* +2 to hit, reach 5 ft., one target. *Hit:* 2 (1d6 - 1) bludgeoning damage, or 3 (1d8 - 1) bludgeoning damage if used with two hands."
         ]
       }
     ],
@@ -2954,7 +2954,7 @@
       {
         "name": "Spellcasting",
         "entries": [
-          "The evoker is a 12th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 15, 7 to hit with spell attacks). The evoker has the following wizard spells prepared:",
+          "The evoker is a 12th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 15, +7 to hit with spell attacks). The evoker has the following wizard spells prepared:",
           "0: fire bolt*, light*, prestidigitation, ray of frost*",
           "1 (4 slots): burning hands*, mage armor, magic missile*",
           "2 (3 slots): mirror image, misty step, shatter*",
@@ -2970,7 +2970,7 @@
       {
         "name": "Quarterstaff",
         "entries": [
-          "*Melee Weapon Attack:* 3 to hit, reach 5 ft., one target. *Hit:* 2 (1d6 - 1) bludgeoning damage, or 3 (1d8 - 1) bludgeoning damage if used with two hands."
+          "*Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 2 (1d6 - 1) bludgeoning damage, or 3 (1d8 - 1) bludgeoning damage if used with two hands."
         ]
       }
     ],
@@ -3026,13 +3026,13 @@
       {
         "name": "Fireshield",
         "entries": [
-          "*Melee Weapon Attack:* 13 to hit, reach 5 ft., one target. *Hit:* 22 (4d6 + 8) bludgeoning damage plus 7 (2d6) fire damage plus 7 (2d6) piercing damage."
+          "*Melee Weapon Attack:* +13 to hit, reach 5 ft., one target. *Hit:* 22 (4d6 + 8) bludgeoning damage plus 7 (2d6) fire damage plus 7 (2d6) piercing damage."
         ]
       },
       {
         "name": "Rock",
         "entries": [
-          "*Ranged Weapon Attack:* 13 to hit, range 60/240 ft., one target. *Hit:* 30 (4d10 + 8) bludgeoning damage."
+          "*Ranged Weapon Attack:* +13 to hit, range 60/240 ft., one target. *Hit:* 30 (4d10 + 8) bludgeoning damage."
         ]
       },
       {
@@ -3101,7 +3101,7 @@
       {
         "name": "Spellcasting",
         "entries": [
-          "The firenewt is a 3rd-level spellcaster. Its spellcasting ability is Charisma (spell save DC 12, 4 to hit with spell attacks). It regains its expended spell slots when it finishes a short or long rest. It knows the following warlock spells:",
+          "The firenewt is a 3rd-level spellcaster. Its spellcasting ability is Charisma (spell save DC 12, +4 to hit with spell attacks). It regains its expended spell slots when it finishes a short or long rest. It knows the following warlock spells:",
           "0: fire bolt, guidance, light, mage hand, prestidigitation",
           "2 (2 slots): burning hands, flaming sphere, hellish rebuke, scorching ray"
         ]
@@ -3111,7 +3111,7 @@
       {
         "name": "Morningstar",
         "entries": [
-          "*Melee Weapon Attack:* 3 to hit, reach 5 ft., one target. *Hit:* 5 (1d8 + 1) piercing damage."
+          "*Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 5 (1d8 + 1) piercing damage."
         ]
       }
     ],
@@ -3170,7 +3170,7 @@
       {
         "name": "Scimitar",
         "entries": [
-          "*Melee Weapon Attack:* 3 to hit, reach 5 ft., one target. *Hit:* 4 (1d6 + 1) slashing damage."
+          "*Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 4 (1d6 + 1) slashing damage."
         ]
       },
       {
@@ -3242,7 +3242,7 @@
       {
         "name": "Flail Tentacle",
         "entries": [
-          "*Melee Weapon Attack:* 5 to hit, reach 10 ft., one target. *Hit:* 6 (1d6 + 3) bludgeoning damage."
+          "*Melee Weapon Attack:* +5 to hit, reach 10 ft., one target. *Hit:* 6 (1d6 + 3) bludgeoning damage."
         ]
       },
       {
@@ -3312,25 +3312,25 @@
       {
         "name": "Flail of Madness",
         "entries": [
-          "*Melee Weapon Attack:* 9 to hit, reach 5 ft., one target. *Hit:* 10 (1d10 + 5) bludgeoning damage, and the target must make a DC 16 Wisdom saving throw. On a failed save, the target must make a melee attack against a random target within its reach on its next turn. If it has no targets within its reach even after moving, it loses its action on that turn."
+          "*Melee Weapon Attack:* +9 to hit, reach 5 ft., one target. *Hit:* 10 (1d10 + 5) bludgeoning damage, and the target must make a DC 16 Wisdom saving throw. On a failed save, the target must make a melee attack against a random target within its reach on its next turn. If it has no targets within its reach even after moving, it loses its action on that turn."
         ]
       },
       {
         "name": "Flail of Pain",
         "entries": [
-          "*Melee Weapon Attack:* 9 to hit, reach 5 ft., one target. *Hit:* 10 (1d10 + 5) bludgeoning damage plus 22 (4d10) psychic damage."
+          "*Melee Weapon Attack:* +9 to hit, reach 5 ft., one target. *Hit:* 10 (1d10 + 5) bludgeoning damage plus 22 (4d10) psychic damage."
         ]
       },
       {
         "name": "Flail of Paralysis",
         "entries": [
-          "*Melee Weapon Attack:* 9 to hit, reach 5 ft., one target. *Hit:* 10 (1d10 + 5) bludgeoning damage, and the target must succeed on a DC 16 Constitution saving throw or be paralyzed until the end of its next turn."
+          "*Melee Weapon Attack:* +9 to hit, reach 5 ft., one target. *Hit:* 10 (1d10 + 5) bludgeoning damage, and the target must succeed on a DC 16 Constitution saving throw or be paralyzed until the end of its next turn."
         ]
       },
       {
         "name": "Longbow",
         "entries": [
-          "*Ranged Weapon Attack:* 4 to hit, range 150/600 ft., one target. *Hit:* 4 (1d8) piercing damage."
+          "*Ranged Weapon Attack:* +4 to hit, range 150/600 ft., one target. *Hit:* 4 (1d8) piercing damage."
         ]
       }
     ],
@@ -3395,13 +3395,13 @@
       {
         "name": "Tentacle",
         "entries": [
-          "*Melee Weapon Attack:* 10 to hit, reach 20 ft., one target. *Hit:* 19 (3d8 + 6) bludgeoning damage, and the target is grappled (escape DC 16) if it is a Huge or smaller creature. Until the grapple ends, the froghemoth can't use this tentacle on another target. The froghemoth has four tentacles."
+          "*Melee Weapon Attack:* +10 to hit, reach 20 ft., one target. *Hit:* 19 (3d8 + 6) bludgeoning damage, and the target is grappled (escape DC 16) if it is a Huge or smaller creature. Until the grapple ends, the froghemoth can't use this tentacle on another target. The froghemoth has four tentacles."
         ]
       },
       {
         "name": "Bite",
         "entries": [
-          "*Melee Weapon Attack:* 10 to hit, reach 5 ft., one target. *Hit:* 22 (3d10 + 6) piercing damage, and the target is swallowed if it is a Medium or smaller creature. A swallowed creature is blinded and restrained, has Cover against attacks and other effects outside the froghemoth, and takes 10 (3d6) acid damage at the start of each of the froghemoth's turns.",
+          "*Melee Weapon Attack:* +10 to hit, reach 5 ft., one target. *Hit:* 22 (3d10 + 6) piercing damage, and the target is swallowed if it is a Medium or smaller creature. A swallowed creature is blinded and restrained, has Cover against attacks and other effects outside the froghemoth, and takes 10 (3d6) acid damage at the start of each of the froghemoth's turns.",
           "The froghemoth's gullet can hold up to two creatures at a time. If the Froghemoth takes 20 damage or more on a single turn from a creature inside it, the Froghemoth must succeed on a DC 20 Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, each of which falls prone in a space within 10 feet of the froghemoth. If the froghemoth dies, a swallowed creature is no longer restrained by it and can escape from the corpse using 10 feet of movement, exiting prone."
         ]
       },
@@ -3480,13 +3480,13 @@
       {
         "name": "Greataxe",
         "entries": [
-          "*Melee Weapon Attack:* 11 to hit, reach 10 ft., one target. *Hit:* 26 (3d12 + 7) slashing damage, or 30 (3d12 + 11) slashing damage while raging."
+          "*Melee Weapon Attack:* +11 to hit, reach 10 ft., one target. *Hit:* 26 (3d12 + 7) slashing damage, or 30 (3d12 + 11) slashing damage while raging."
         ]
       },
       {
         "name": "Rock",
         "entries": [
-          "*Ranged Weapon Attack:* 11 to hit, range 60/240 ft., one target. *Hit:* 29 (4d10 + 7) bludgeoning damage."
+          "*Ranged Weapon Attack:* +11 to hit, range 60/240 ft., one target. *Hit:* 29 (4d10 + 7) bludgeoning damage."
         ]
       }
     ],
@@ -3543,7 +3543,7 @@
       {
         "name": "Bite",
         "entries": [
-          "*Melee Weapon Attack:* 8 to hit, reach 5 ft., one target. *Hit:* 9 (2d8) piercing damage."
+          "*Melee Weapon Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 9 (2d8) piercing damage."
         ]
       },
       {
@@ -3606,7 +3606,7 @@
       {
         "name": "Bite",
         "entries": [
-          "*Melee Weapon Attack:* 5 to hit, reach 5 ft., one target. *Hit:* 1 piercing damage."
+          "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 1 piercing damage."
         ]
       },
       {
@@ -3663,7 +3663,7 @@
       {
         "name": "Bite",
         "entries": [
-          "*Melee Weapon Attack:* 6 to hit, reach 5 ft., one target. *Hit:* 8 (1d8 + 4) piercing damage."
+          "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 8 (1d8 + 4) piercing damage."
         ]
       },
       {
@@ -3733,13 +3733,13 @@
       {
         "name": "Bite",
         "entries": [
-          "*Melee Weapon Attack:* 6 to hit, reach 5 ft., one creature. *Hit:* 7 (1d6 + 4) piercing damage."
+          "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one creature. *Hit:* 7 (1d6 + 4) piercing damage."
         ]
       },
       {
         "name": "Claw",
         "entries": [
-          "*Melee Weapon Attack:* 6 to hit. reach 10 ft., one target. *Hit:* 7 (1d6 + 4) slashing damage."
+          "*Melee Weapon Attack:* +6 to hit. reach 10 ft., one target. *Hit:* 7 (1d6 + 4) slashing damage."
         ]
       }
     ],
@@ -3795,13 +3795,13 @@
       {
         "name": "Bite",
         "entries": [
-          "*Melee Weapon Attack:* 4 to hit, reach 5 ft., one target. *Hit:* 4 (1d4 + 2) piercing damage."
+          "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 4 (1d4 + 2) piercing damage."
         ]
       },
       {
         "name": "Shortsword",
         "entries": [
-          "*Melee Weapon Attack:* 4 to hit, reach 5 ft., one target. *Hit:* 5 (1d6 + 2) piercing damage."
+          "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 5 (1d6 + 2) piercing damage."
         ]
       },
       {
@@ -3866,19 +3866,19 @@
       {
         "name": "Bite",
         "entries": [
-          "*Melee Weapon Attack:* 4 to hit, reach 5 ft., one target. *Hit:* 4 (1d4 + 2) piercing damage."
+          "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 4 (1d4 + 2) piercing damage."
         ]
       },
       {
         "name": "Spear",
         "entries": [
-          "*Melee Weapon or Ranged Weapon Attack:* 4 to hit, reach 5 ft. or range 20/60 ft., one target. *Hit:* 5 (1d6 + 2) piercing damage, or 6 (1d8 + 2) piercing damage when used with two hands to make a melee attack."
+          "*Melee Weapon or Ranged Weapon Attack:* +4 to hit, reach 5 ft. or range 20/60 ft., one target. *Hit:* 5 (1d6 + 2) piercing damage, or 6 (1d8 + 2) piercing damage when used with two hands to make a melee attack."
         ]
       },
       {
         "name": "Longbow",
         "entries": [
-          "*Ranged Weapon Attack:* 4 to hit, range 150/600 ft., one target. *Hit:* 6 (1d8 + 2) piercing damage, and the target's speed is reduced by 10 feet until the end of its next turn."
+          "*Ranged Weapon Attack:* +4 to hit, range 150/600 ft., one target. *Hit:* 6 (1d8 + 2) piercing damage, and the target's speed is reduced by 10 feet until the end of its next turn."
         ]
       }
     ],
@@ -3937,13 +3937,13 @@
       {
         "name": "Bite",
         "entries": [
-          "*Melee Weapon Attack:* 4 to hit, reach 5 ft., one target. *Hit:* 4 (1d4 + 2) piercing damage."
+          "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 4 (1d4 + 2) piercing damage."
         ]
       },
       {
         "name": "Club",
         "entries": [
-          "*Melee Weapon Attack:* 4 to hit, reach 5 ft., one target. *Hit:* 4 (1d4 + 2) bludgeoning damage."
+          "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 4 (1d4 + 2) bludgeoning damage."
         ]
       }
     ],
@@ -4009,13 +4009,13 @@
       {
         "name": "Bite",
         "entries": [
-          "*Melee Weapon Attack:* 5 to hit, reach 5 ft., one target. *Hit:* 7 (1d8 + 3) piercing damage."
+          "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 7 (1d8 + 3) piercing damage."
         ]
       },
       {
         "name": "Tail",
         "entries": [
-          "*Melee Weapon Attack:* 5 to hit, reach 5 ft., one target. *Hit:* 6 (1d6 + 3) bludgeoning damage."
+          "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 6 (1d6 + 3) bludgeoning damage."
         ]
       }
     ],
@@ -4078,7 +4078,7 @@
       {
         "name": "Dagger",
         "entries": [
-          "*Melee Weapon or Ranged Weapon Attack:* 4 to hit, reach 5 ft. or range 20/60 ft., one target. *Hit:* 4 (1d4 + 2) piercing damage, and the target must succeed on a DC 12 Constitution saving throw or take 5 (2d4) poison damage."
+          "*Melee Weapon or Ranged Weapon Attack:* +4 to hit, reach 5 ft. or range 20/60 ft., one target. *Hit:* 4 (1d4 + 2) piercing damage, and the target must succeed on a DC 12 Constitution saving throw or take 5 (2d4) poison damage."
         ]
       }
     ],
@@ -4140,13 +4140,13 @@
       {
         "name": "Dagger",
         "entries": [
-          "*Melee Weapon or Ranged Weapon Attack:* 5 to hit, reach 5 ft. or range 20/60 ft., one target. *Hit:* 5 (1d4 + 3) piercing damage, and the target must succeed on a DC 12 Constitution saving throw or take 5 (2d4) poison damage."
+          "*Melee Weapon or Ranged Weapon Attack:* +5 to hit, reach 5 ft. or range 20/60 ft., one target. *Hit:* 5 (1d4 + 3) piercing damage, and the target must succeed on a DC 12 Constitution saving throw or take 5 (2d4) poison damage."
         ]
       },
       {
         "name": "Shortbow",
         "entries": [
-          "*Ranged Weapon Attack:* 5 to hit, range 80/320 ft., one target. *Hit:* 6 (1d6 + 3) piercing damage, and the target must succeed on a DC 12 Constitution saving throw or take 5 (2d4) poison damage."
+          "*Ranged Weapon Attack:* +5 to hit, range 80/320 ft., one target. *Hit:* 6 (1d6 + 3) piercing damage, and the target must succeed on a DC 12 Constitution saving throw or take 5 (2d4) poison damage."
         ]
       },
       {
@@ -4213,7 +4213,7 @@
       {
         "name": "Spellcasting",
         "entries": [
-          "The grung is a 9th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12, 4 to hit with spell attacks). It knows the following ranger spells:",
+          "The grung is a 9th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). It knows the following ranger spells:",
           "1 (4 slots): cure wounds, jump",
           "2 (3 slots): barkskin, spike growth",
           "3 (2 slots): plant growth"
@@ -4224,13 +4224,13 @@
       {
         "name": "Dagger",
         "entries": [
-          "*Melee Weapon or Ranged Weapon Attack:* 5 to hit, reach 5 ft. or range 20/60 ft., one target. *Hit:* 5 (1d4 + 3) piercing damage, and the target must succeed on a DC 12 Constitution saving throw or take 5 (2d4) poison damage."
+          "*Melee Weapon or Ranged Weapon Attack:* +5 to hit, reach 5 ft. or range 20/60 ft., one target. *Hit:* 5 (1d4 + 3) piercing damage, and the target must succeed on a DC 12 Constitution saving throw or take 5 (2d4) poison damage."
         ]
       },
       {
         "name": "Shortbow",
         "entries": [
-          "*Ranged Weapon Attack:* 5 to hit, range 80/320 ft., one target. *Hit:* 6 (1d6 + 3) piercing damage, and the target must succeed on a DC 12 Constitution saving throw or take 5 (2d4) poison damage."
+          "*Ranged Weapon Attack:* +5 to hit, range 80/320 ft., one target. *Hit:* 6 (1d6 + 3) piercing damage, and the target must succeed on a DC 12 Constitution saving throw or take 5 (2d4) poison damage."
         ]
       }
     ],
@@ -4273,7 +4273,7 @@
       {
         "name": "Tail",
         "entries": [
-          "*Melee Weapon Attack:* 4 to hit, reach 5 ft., one target. *Hit:* 7 (1d10 + 2) bludgeoning damage."
+          "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 7 (1d10 + 2) bludgeoning damage."
         ]
       }
     ],
@@ -4329,7 +4329,7 @@
       {
         "name": "Spellcasting",
         "entries": [
-          "The hobgoblin is a 7th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 13, 5 to hit with spell attacks). It has the following wizard spells prepared:",
+          "The hobgoblin is a 7th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 13, +5 to hit with spell attacks). It has the following wizard spells prepared:",
           "0: acid splash, fire bolt, ray of frost, shocking grasp",
           "1 (4 slots): fog cloud, magic missile, thunderwave",
           "2 (3 slots): gust of wind, Melf's acid arrow, scorching ray",
@@ -4342,7 +4342,7 @@
       {
         "name": "Quarterstaff",
         "entries": [
-          "*Melee Weapon Attack:* 3 to hit, reach 5 ft., one target. *Hit:* 4 (1d6 + 1) bludgeoning damage, or 5 (1d8 + 1) bludgeoning damage if used with two hands."
+          "*Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 4 (1d6 + 1) bludgeoning damage, or 5 (1d8 + 1) bludgeoning damage if used with two hands."
         ]
       }
     ],
@@ -4393,7 +4393,7 @@
       {
         "name": "Spellcasting",
         "entries": [
-          "The hobgoblin is a 2nd-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 12, 4 to hit with spell attacks). It has the following wizard spells prepared:",
+          "The hobgoblin is a 2nd-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 12, +4 to hit with spell attacks). It has the following wizard spells prepared:",
           "0: minor illusion, prestidigitation, true strike",
           "1 (3 slots): charm person, disguise self, expeditious retreat, silent image"
         ]
@@ -4409,13 +4409,13 @@
       {
         "name": "Unarmed Strike",
         "entries": [
-          "*Melee Weapon Attack:* 5 to hit, reach 5 ft., one target. *Hit:* 5 (1d4 + 3) bludgeoning damage."
+          "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 5 (1d4 + 3) bludgeoning damage."
         ]
       },
       {
         "name": "Dart",
         "entries": [
-          "*Ranged Weapon Attack:* 5 to hit, range 20/60 ft., one target. *Hit:* 5 (1d4 + 3) piercing damage."
+          "*Ranged Weapon Attack:* +5 to hit, range 20/60 ft., one target. *Hit:* 5 (1d4 + 3) piercing damage."
         ]
       },
       {
@@ -4498,7 +4498,7 @@
       {
         "name": "Spellcasting",
         "entries": [
-          "The illithilich is an 18th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 20, 12 to hit with spell attacks). The lich has the following wizard spells prepared:",
+          "The illithilich is an 18th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 20, +12 to hit with spell attacks). The lich has the following wizard spells prepared:",
           "0: mage hand, prestidigitation, ray of frost",
           "1 (4 slots): detect magic, magic missile, shield, thunderwave",
           "2 (3 slots): detect thoughts, invisibility, Melf's acid arrow, mirror image",
@@ -4516,19 +4516,19 @@
       {
         "name": "Paralyzing Touch",
         "entries": [
-          "*Melee Spell Attack:* 12 to hit, reach 5 ft., one creature. *Hit:* 10 (3d6) cold damage. The target must succeed on a DC 18 Constitution saving throw or be paralyzed for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+          "*Melee Spell Attack:* +12 to hit, reach 5 ft., one creature. *Hit:* 10 (3d6) cold damage. The target must succeed on a DC 18 Constitution saving throw or be paralyzed for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
         ]
       },
       {
         "name": "Tentacles",
         "entries": [
-          "*Melee Weapon Attack:* 12 to hit, reach 5 ft., one creature. *Hit:* 21 (3d10 + 5) psychic damage. If the target is Large or smaller, it is grappled (escape DC 15) and must succeed on a DC 20 Intelligence saving throw or be stunned until this grapple ends."
+          "*Melee Weapon Attack:* +12 to hit, reach 5 ft., one creature. *Hit:* 21 (3d10 + 5) psychic damage. If the target is Large or smaller, it is grappled (escape DC 15) and must succeed on a DC 20 Intelligence saving throw or be stunned until this grapple ends."
         ]
       },
       {
         "name": "Extract Brain",
         "entries": [
-          "*Melee Weapon Attack:* 12 to hit, reach 5 ft., one incapacitated humanoid grappled by the lich. *Hit:* 55 (10d10) piercing damage. If this damage reduces the target to 0 hit points, the lich kills the target by extracting and devouring its brain."
+          "*Melee Weapon Attack:* +12 to hit, reach 5 ft., one incapacitated humanoid grappled by the lich. *Hit:* 55 (10d10) piercing damage. If this damage reduces the target to 0 hit points, the lich kills the target by extracting and devouring its brain."
         ]
       },
       {
@@ -4608,7 +4608,7 @@
       {
         "name": "Spellcasting",
         "entries": [
-          "The illusionist is a 7th-level spellcaster. its spellcasting ability is Intelligence (spell save DC 13, 5 to hit with spell attacks). The illusionist has the following wizard spells prepared:",
+          "The illusionist is a 7th-level spellcaster. its spellcasting ability is Intelligence (spell save DC 13, +5 to hit with spell attacks). The illusionist has the following wizard spells prepared:",
           "0: dancing lights, mage hand, minor illusion, poison spray",
           "1 (4 slots): color spray*, disguise self*, mage armor, magic missile",
           "2 (3 slots): invisibility*, mirror image*, phantasmal force*",
@@ -4622,7 +4622,7 @@
       {
         "name": "Quarterstaff",
         "entries": [
-          "*Melee Weapon Attack:* 1 to hit, reach 5 ft., one target. *Hit:* 2 (1d6 - 1) bludgeoning damage, or 3 (1d8 - 1) bludgeoning damage if used with two hands."
+          "*Melee Weapon Attack:* +1 to hit, reach 5 ft., one target. *Hit:* 2 (1d6 - 1) bludgeoning damage, or 3 (1d8 - 1) bludgeoning damage if used with two hands."
         ]
       }
     ],
@@ -4691,7 +4691,7 @@
       {
         "name": "Spellcasting",
         "entries": [
-          "The ki-rin is a 18th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 17, 9 to hit with spell attacks). It has the following cleric spells prepared:",
+          "The ki-rin is a 18th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 17, +9 to hit with spell attacks). It has the following cleric spells prepared:",
           "0: light, mending, sacred flame, spare the dying, thaumaturgy",
           "1 (4 slots): command, cure wounds, detect evil and good, protection from evil and good, sanctuary",
           "2 (3 slots): calm emotions, lesser restoration, silence",
@@ -4715,13 +4715,13 @@
       {
         "name": "Hoof",
         "entries": [
-          "*Melee Weapon Attack:* 9 to hit, reach 15 ft., one target. *Hit:* 10 (2d4 + 5) bludgeoning damage."
+          "*Melee Weapon Attack:* +9 to hit, reach 15 ft., one target. *Hit:* 10 (2d4 + 5) bludgeoning damage."
         ]
       },
       {
         "name": "Horn",
         "entries": [
-          "*Melee Weapon Attack:* 9 to hit, reach 5 ft., one target. *Hit:* 14 (2d8 + 5) piercing damage."
+          "*Melee Weapon Attack:* +9 to hit, reach 5 ft., one target. *Hit:* 14 (2d8 + 5) piercing damage."
         ]
       }
     ],
@@ -4817,7 +4817,7 @@
       {
         "name": "Spear",
         "entries": [
-          "*Melee Weapon or Ranged Weapon Attack:* 3 to hit, reach 5 ft. or range 20/60 ft., one target. *Hit:* 4 (1d6 + 1) piercing damage, or 5 (1d8 + 1) piercing damage if used with two hands to make a melee attack."
+          "*Melee Weapon or Ranged Weapon Attack:* +3 to hit, reach 5 ft. or range 20/60 ft., one target. *Hit:* 4 (1d6 + 1) piercing damage, or 5 (1d8 + 1) piercing damage if used with two hands to make a melee attack."
         ]
       }
     ],
@@ -4876,20 +4876,20 @@
       {
         "name": "Dagger",
         "entries": [
-          "*Melee Weapon or Ranged Weapon Attack:* 4 to hit, reach 5 ft. or range 20/60 ft., one target. *Hit:* 4 (1d4 + 2) piercing damage."
+          "*Melee Weapon or Ranged Weapon Attack:* +4 to hit, reach 5 ft. or range 20/60 ft., one target. *Hit:* 4 (1d4 + 2) piercing damage."
         ]
       },
       {
         "name": "Sling",
         "entries": [
-          "*Ranged Weapon Attack:* 4 to hit, range 30/120 ft., one target. *Hit:* 4 (1d4 + 2) bludgeoning damage."
+          "*Ranged Weapon Attack:* +4 to hit, range 30/120 ft., one target. *Hit:* 4 (1d4 + 2) bludgeoning damage."
         ]
       },
       {
         "name": "Weapon Invention",
         "entries": [
           "The kobold uses one of the following options (roll a d8 or choose one); the kobold can use each one no more than once per day:",
-          "- The kobold hurls a flask of Acid (vial). *Ranged Weapon Attack:* 4 to hit, range 5/20 ft., one target. *Hit:* 7 (2d6) acid damage.\n- The kobold throws a flask of Alchemist's Fire (flask). *Ranged Weapon Attack:* 4 to hit, range 5/20 ft., one target. *Hit:* 2 (1d4) fire damage at the start of each of the target's turns. A creature can end this damage by using its action to make a DC 10 Dexterity check to extinguish the flames.\n- The kobold throws a small basket into a 5-foot-square space within 20 feet of it. A swarm of centipedes with 11 hit points emerges from the basket and rolls initiative. At the end of each of the swarm's turns, there's a 50 chance that the swarm disperses.\n- The kobold throws a clay pot full of green slime at the target, and it breaks open on impact. *Ranged Weapon Attack:* 4 to hit, range 5/20 ft., one target. *Hit:* The target is covered in a patch of green slime (see chapter 5 of the Dungeon Master's Guide). Miss: A patch of green slime covers a randomly determined 5-foot-square section of wall or floor within 5 feet of the target.\n- The kobold throws a clay pot into a 5-foot-square space within 20 feet of it, and it breaks open on impact. A swarm of rot grubs (see appendix A) emerges from the shattered pot and remains a hazard in that square.\n- The kobold makes a melee attack with a scorpion tied to the end of a 5-foot-long pole. *Melee Weapon Attack:* 4 to hit, reach 5 ft., one target. *Hit:* 1 piercing damage, and the target must make a DC 9 Constitution saving throw, taking 4 (1d8) poison damage on a failed save, or half as much damage on a successful one.\n- The kobold releases a skunk into an unoccupied space within 5 feet of it. The skunk has a walking speed of 20 feet, AC 10, 1 hit point, and no effective attacks. It rolls initiative and, on its turn, uses its action to spray musk at a random creature within 5 feet of it. The target must make a DC 9 Constitution saving throw. On a failed save, the target retches and can't take actions for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. A creature that doesn't need to breathe or is immune to poison automatically succeeds on the saving throw. Once the skunk has sprayed its musk, it can't do so again until it finishes a short or long rest.\n- The kobold throws a small bag into a 5-foot-square space within 20 feet of it. A swarm of wasps with 11 hit points emerges from the bag and rolls initiative. At the end of each of the swarm's turns, there's a 50 chance that the swarm disperses."
+          "- The kobold hurls a flask of Acid (vial). *Ranged Weapon Attack:* +4 to hit, range 5/20 ft., one target. *Hit:* 7 (2d6) acid damage.\n- The kobold throws a flask of Alchemist's Fire (flask). *Ranged Weapon Attack:* +4 to hit, range 5/20 ft., one target. *Hit:* 2 (1d4) fire damage at the start of each of the target's turns. A creature can end this damage by using its action to make a DC 10 Dexterity check to extinguish the flames.\n- The kobold throws a small basket into a 5-foot-square space within 20 feet of it. A swarm of centipedes with 11 hit points emerges from the basket and rolls initiative. At the end of each of the swarm's turns, there's a 50 chance that the swarm disperses.\n- The kobold throws a clay pot full of green slime at the target, and it breaks open on impact. *Ranged Weapon Attack:* +4 to hit, range 5/20 ft., one target. *Hit:* The target is covered in a patch of green slime (see chapter 5 of the Dungeon Master's Guide). Miss: A patch of green slime covers a randomly determined 5-foot-square section of wall or floor within 5 feet of the target.\n- The kobold throws a clay pot into a 5-foot-square space within 20 feet of it, and it breaks open on impact. A swarm of rot grubs (see appendix A) emerges from the shattered pot and remains a hazard in that square.\n- The kobold makes a melee attack with a scorpion tied to the end of a 5-foot-long pole. *Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 1 piercing damage, and the target must make a DC 9 Constitution saving throw, taking 4 (1d8) poison damage on a failed save, or half as much damage on a successful one.\n- The kobold releases a skunk into an unoccupied space within 5 feet of it. The skunk has a walking speed of 20 feet, AC 10, 1 hit point, and no effective attacks. It rolls initiative and, on its turn, uses its action to spray musk at a random creature within 5 feet of it. The target must make a DC 9 Constitution saving throw. On a failed save, the target retches and can't take actions for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. A creature that doesn't need to breathe or is immune to poison automatically succeeds on the saving throw. Once the skunk has sprayed its musk, it can't do so again until it finishes a short or long rest.\n- The kobold throws a small bag into a 5-foot-square space within 20 feet of it. A swarm of wasps with 11 hit points emerges from the bag and rolls initiative. At the end of each of the swarm's turns, there's a 50 chance that the swarm disperses."
         ]
       }
     ],
@@ -4956,7 +4956,7 @@
       {
         "name": "Spellcasting",
         "entries": [
-          "The kobold is a 3rd-level spellcaster. Its spellcasting ability is Charisma (spell save DC 12, 4 to hit with spell attacks). It has the following sorcerer spells prepared:",
+          "The kobold is a 3rd-level spellcaster. Its spellcasting ability is Charisma (spell save DC 12, +4 to hit with spell attacks). It has the following sorcerer spells prepared:",
           "0: fire bolt, mage hand, mending, poison spray",
           "1 (4 slots): charm person, chromatic orb, expeditious retreat",
           "2 (2 slots): scorching ray"
@@ -4967,7 +4967,7 @@
       {
         "name": "Dagger",
         "entries": [
-          "*Melee Weapon or Ranged Weapon Attack:* 4 to hit, reach 5 ft. or range 20/60 ft., one target. *Hit:* 4 (1d4 + 2) piercing damage."
+          "*Melee Weapon or Ranged Weapon Attack:* +4 to hit, reach 5 ft. or range 20/60 ft., one target. *Hit:* 4 (1d4 + 2) piercing damage."
         ]
       }
     ],
@@ -5049,13 +5049,13 @@
       {
         "name": "Greatclub",
         "entries": [
-          "*Melee Weapon Attack:* 9 to hit, reach 5 ft., one target. *Hit:* 10 (1d8 + 6) bludgeoning damage, or 19 (3d8 + 6) bludgeoning damage if the korred is on the ground."
+          "*Melee Weapon Attack:* +9 to hit, reach 5 ft., one target. *Hit:* 10 (1d8 + 6) bludgeoning damage, or 19 (3d8 + 6) bludgeoning damage if the korred is on the ground."
         ]
       },
       {
         "name": "Rock",
         "entries": [
-          "*Ranged Weapon Attack:* 9 to hit, range 60/120 ft., one target. *Hit:* 15 (2d8 + 6) bludgeoning damage, or 24 (4d8 + 6) bludgeoning damage if the korred is on the ground."
+          "*Ranged Weapon Attack:* +9 to hit, range 60/120 ft., one target. *Hit:* 15 (2d8 + 6) bludgeoning damage, or 24 (4d8 + 6) bludgeoning damage if the korred is on the ground."
         ]
       }
     ],
@@ -5104,7 +5104,7 @@
       {
         "name": "Innate Spellcasting",
         "entries": [
-          "The priest's spellcasting ability is Wisdom (spell save DC 13, 5 to hit with spell attacks). It can innately cast the following spells, requiring no material components:",
+          "The priest's spellcasting ability is Wisdom (spell save DC 13, +5 to hit with spell attacks). It can innately cast the following spells, requiring no material components:",
           "At will: command, create or destroy water",
           "3e/day: control water, darkness, water breathing, water walk",
           "1e/day: call lightning, Evard's black tentacles"
@@ -5115,7 +5115,7 @@
       {
         "name": "Thunderous Touch",
         "entries": [
-          "*Melee Spell Attack:* 5 to hit, reach 5 ft., one creature. *Hit:* 27 (5d10) thunder damage."
+          "*Melee Spell Attack:* +5 to hit, reach 5 ft., one creature. *Hit:* 27 (5d10) thunder damage."
         ]
       },
       {
@@ -5196,13 +5196,13 @@
       {
         "name": "Bite",
         "entries": [
-          "*Melee Weapon Attack:* 6 to hit, reach 5 ft., one target. *Hit:* 8 (1d8 + 4) piercing damage. If the leucrotta scores a critical hit, it rolls the damage dice three times, instead of twice."
+          "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 8 (1d8 + 4) piercing damage. If the leucrotta scores a critical hit, it rolls the damage dice three times, instead of twice."
         ]
       },
       {
         "name": "Hooves",
         "entries": [
-          "*Melee Weapon Attack:* 6 to hit, reach 5 ft., one target. *Hit:* 11 (2d6 + 4) bludgeoning damage."
+          "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 11 (2d6 + 4) bludgeoning damage."
         ]
       }
     ],
@@ -5259,14 +5259,14 @@
       {
         "name": "Unarmed Strike",
         "entries": [
-          "*Melee Weapon Attack:* 5 to hit, reach 5 ft., one target. *Hit:* 7 (1d8 + 3) bludgeoning damage. If the target is a creature, the adept can choose one of the following additional effects:",
+          "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 7 (1d8 + 3) bludgeoning damage. If the target is a creature, the adept can choose one of the following additional effects:",
           "- The target must succeed on a DC 13 Strength saving throw or drop one item it is holding (adept's choice).\n- The target must succeed on a DC 13 Dexterity saving throw or be knocked prone.\n- The target must succeed on a DC 13 Constitution saving throw or be stunned until the end of the adept's next turn."
         ]
       },
       {
         "name": "Dart",
         "entries": [
-          "*Ranged Weapon Attack:* 5 to hit, range 20/60 ft., one target. *Hit:* 5 (1d4 + 3) piercing damage."
+          "*Ranged Weapon Attack:* +5 to hit, range 20/60 ft., one target. *Hit:* 5 (1d4 + 3) piercing damage."
         ]
       }
     ],
@@ -5341,13 +5341,13 @@
       {
         "name": "Shortsword",
         "entries": [
-          "*Melee Weapon Attack:* 7 to hit, reach 5 ft., one target. *Hit:* 7 (1d6 + 4) piercing damage."
+          "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 7 (1d6 + 4) piercing damage."
         ]
       },
       {
         "name": "Light Crossbow",
         "entries": [
-          "*Ranged Weapon Attack:* 7 to hit, range 80/320 ft., one target. *Hit:* 8 (1d8 + 4) piercing damage."
+          "*Ranged Weapon Attack:* +7 to hit, range 80/320 ft., one target. *Hit:* 8 (1d8 + 4) piercing damage."
         ]
       }
     ],
@@ -5404,7 +5404,7 @@
       {
         "name": "Bite",
         "entries": [
-          "*Melee Weapon Attack:* 4 to hit, reach 5 ft., one target. *Hit:* 11 (2d8 + 2) piercing damage."
+          "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 11 (2d8 + 2) piercing damage."
         ]
       }
     ],
@@ -5466,7 +5466,7 @@
       {
         "name": "Claws",
         "entries": [
-          "*Melee Weapon Attack:* 4 to hit, reach 5 ft., one target. *Hit:* 7 (2d4 + 2) slashing damage, and the target must succeed on a DC 11 Constitution saving throw or be paralyzed for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+          "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 7 (2d4 + 2) slashing damage, and the target must succeed on a DC 11 Constitution saving throw or be paralyzed for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
         ]
       }
     ],
@@ -5517,7 +5517,7 @@
       {
         "name": "Innate Spellcasting (Psionics)",
         "entries": [
-          "The mind flayer is a 10th-level spellcaster. Its innate spellcasting ability is Intelligence (spell save DC 15; 7 to hit with spell attacks). It can innately cast the following spells, requiring no components:",
+          "The mind flayer is a 10th-level spellcaster. Its innate spellcasting ability is Intelligence (spell save DC 15; +7 to hit with spell attacks). It can innately cast the following spells, requiring no components:",
           "At will: guidance, mage hand, vicious mockery, true strike, detect thoughts, levitate",
           "1e/day: dominate monster, plane shift (self only)",
           "1 (4 slots): charm person, command, comprehend languages, sanctuary",
@@ -5532,13 +5532,13 @@
       {
         "name": "Tentacles",
         "entries": [
-          "*Melee Weapon Attack:* 7 to hit, reach 5 ft., one creature. *Hit:* 15 (2d10 + 4) psychic damage. If the target is Medium or smaller, it is grappled (escape DC 15) and must succeed on a DC 15 Intelligence saving throw or be stunned until this grapple ends."
+          "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one creature. *Hit:* 15 (2d10 + 4) psychic damage. If the target is Medium or smaller, it is grappled (escape DC 15) and must succeed on a DC 15 Intelligence saving throw or be stunned until this grapple ends."
         ]
       },
       {
         "name": "Extract Brain",
         "entries": [
-          "*Melee Weapon Attack:* 7 to hit, reach 5 ft., one incapacitated humanoid grappled by the mind flayer. *Hit:* The target takes 55 (10d10) piercing damage. If this damage reduces the target to 0 hit points, the mind flayer kills the target by extracting and devouring its brain."
+          "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one incapacitated humanoid grappled by the mind flayer. *Hit:* The target takes 55 (10d10) piercing damage. If this damage reduces the target to 0 hit points, the mind flayer kills the target by extracting and devouring its brain."
         ]
       },
       {
@@ -5600,13 +5600,13 @@
       {
         "name": "Bite",
         "entries": [
-          "*Melee Weapon Attack:* 5 to hit, reach 5 ft., one creature. *Hit:* 16 (4d6 + 2) piercing damage."
+          "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one creature. *Hit:* 16 (4d6 + 2) piercing damage."
         ]
       },
       {
         "name": "Tentacles",
         "entries": [
-          "*Melee Weapon Attack:* 5 to hit, reach 5 ft., one creature. *Hit:* 20 (4d8 + 2) psychic damage. if the target is Large or smaller, it is grappled (escape DC 13) and must succeed on a DC 13 Intelligence saving throw or be stunned until this grapple ends."
+          "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one creature. *Hit:* 20 (4d8 + 2) psychic damage. if the target is Large or smaller, it is grappled (escape DC 13) and must succeed on a DC 13 Intelligence saving throw or be stunned until this grapple ends."
         ]
       },
       {
@@ -5662,7 +5662,7 @@
       {
         "name": "Spellcasting",
         "entries": [
-          "The morkoth is an 11th-level spellcaster. Its spellcasting ability is Intelligence (save DC 17, 9 to hit with spell attacks). The morkoth has the following wizard spells prepared:",
+          "The morkoth is an 11th-level spellcaster. Its spellcasting ability is Intelligence (save DC 17, +9 to hit with spell attacks). The morkoth has the following wizard spells prepared:",
           "0: acid splash, mage hand, mending, ray of frost, shocking grasp",
           "1 (4 slots): detect magic, identify, shield, witch bolt",
           "2 (3 slots): darkness, detect thoughts, shatter",
@@ -5683,13 +5683,13 @@
       {
         "name": "Bite",
         "entries": [
-          "*Melee Weapon Attack:* 6 to hit, reach 5 ft., one target. *Hit:* 9 (2d6 + 2) slashing damage."
+          "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 9 (2d6 + 2) slashing damage."
         ]
       },
       {
         "name": "Tentacles",
         "entries": [
-          "*Melee Weapon Attack:* 6 to hit, reach 15 ft., one target. *Hit:* 15 (3d8 + 2) bludgeoning damage, and the target is grappled (escape DC 14) if it is a Large or smaller creature. Until this grapple ends. the target is restrained and takes 15 (3d8 + 2) bludgeoning damage at the start of each of the morkoth's turns. and the morkoth can't use its tentacles on another target."
+          "*Melee Weapon Attack:* +6 to hit, reach 15 ft., one target. *Hit:* 15 (3d8 + 2) bludgeoning damage, and the target is grappled (escape DC 14) if it is a Large or smaller creature. Until this grapple ends. the target is restrained and takes 15 (3d8 + 2) bludgeoning damage at the start of each of the morkoth's turns. and the morkoth can't use its tentacles on another target."
         ]
       },
       {
@@ -5758,13 +5758,13 @@
       {
         "name": "Bite",
         "entries": [
-          "*Melee Weapon Attack:* 8 to hit, reach 5 ft., one creature. *Hit:* 15 (3d6 + 5) piercing damage, and the giant magically regains hit points equal to the damage dealt."
+          "*Melee Weapon Attack:* +8 to hit, reach 5 ft., one creature. *Hit:* 15 (3d6 + 5) piercing damage, and the giant magically regains hit points equal to the damage dealt."
         ]
       },
       {
         "name": "Fist",
         "entries": [
-          "*Melee Weapon Attack:* 8 to hit, reach 10 ft., one target. *Hit:* 18 (3d8 + 5) bludgeoning damage."
+          "*Melee Weapon Attack:* +8 to hit, reach 10 ft., one target. *Hit:* 18 (3d8 + 5) bludgeoning damage."
         ]
       }
     ],
@@ -5814,7 +5814,7 @@
       {
         "name": "Spellcasting",
         "entries": [
-          "The necromancer is a 12th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 15, 7 to hit with spell attacks). The necromancer has the following wizard spells prepared:",
+          "The necromancer is a 12th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 15, +7 to hit with spell attacks). The necromancer has the following wizard spells prepared:",
           "0: chill touch, dancing lights, mage hand, mending",
           "1 (4 slots): false life*, mage armor, ray of sickness*",
           "2 (3 slots): blindness/deafness*, ray of enfeeblement*, web",
@@ -5830,7 +5830,7 @@
       {
         "name": "Withering Touch",
         "entries": [
-          "*Melee Spell Attack:* 7 to hit, reach 5 ft., one creature. *Hit:* 5 (2d4) necrotic damage."
+          "*Melee Spell Attack:* +7 to hit, reach 5 ft., one creature. *Hit:* 5 (2d4) necrotic damage."
         ]
       }
     ],
@@ -5893,13 +5893,13 @@
       {
         "name": "Bite",
         "entries": [
-          "*Melee Weapon Attack:* 5 to hit, reach 5 ft., one target. *Hit:* 6 (1d6 + 3) piercing damage plus 14 (4d6) poison damage, and the target must succeed on a DC 12 Constitution saving throw or become poisoned for 1 minute. A target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+          "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 6 (1d6 + 3) piercing damage plus 14 (4d6) poison damage, and the target must succeed on a DC 12 Constitution saving throw or become poisoned for 1 minute. A target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
         ]
       },
       {
         "name": "Claws",
         "entries": [
-          "*Melee Weapon Attack:* 5 to hit, reach 5 ft., one target. *Hit:* 8 (2d4 + 3) slashing damage."
+          "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 8 (2d4 + 3) slashing damage."
         ]
       },
       {
@@ -5962,7 +5962,7 @@
       {
         "name": "Bite",
         "entries": [
-          "*Melee Weapon Attack:* 3 to hit, reach 5 ft., one target. *Hit:* 3 (1d4 + 1) piercing damage plus 7 (2d6) poison damage, and the target must succeed on a DC 10 Constitution saving throw or become poisoned for 1 minute. A target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+          "*Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 3 (1d4 + 1) piercing damage plus 7 (2d6) poison damage, and the target must succeed on a DC 10 Constitution saving throw or become poisoned for 1 minute. A target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
         ]
       }
     ],
@@ -6018,7 +6018,7 @@
       {
         "name": "Spellcasting",
         "entries": [
-          "The neogi is a 7th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 14, 6 to hit with spell attacks). It regains its expended spell slots when it finishes a short or long rest. It knows the following warlock spells:",
+          "The neogi is a 7th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 14, +6 to hit with spell attacks). It regains its expended spell slots when it finishes a short or long rest. It knows the following warlock spells:",
           "0: eldritch blast (range 300 ft., +4 bonus to each damage roll), guidance, mage hand, minor illusion, prestidigitation, vicious mockery",
           "4 (2 slots): arms of Hadar, counterspell, dimension door, fear, hold person, hunger of Hadar, invisibility, unseen servant"
         ]
@@ -6034,13 +6034,13 @@
       {
         "name": "Bite",
         "entries": [
-          "*Melee Weapon Attack:* 5 to hit, reach 5 ft., one target. *Hit:* 6 (1d6 + 3) piercing damage plus 14 (4d6) poison damage, and the target must succeed on a DC 12 Constitution saving throw or become poisoned for 1 minute. A target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+          "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 6 (1d6 + 3) piercing damage plus 14 (4d6) poison damage, and the target must succeed on a DC 12 Constitution saving throw or become poisoned for 1 minute. A target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
         ]
       },
       {
         "name": "Claws",
         "entries": [
-          "*Melee Weapon Attack:* 5 to hit, reach 5 ft., one target. *Hit:* 8 (2d4 + 3) slashing damage."
+          "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 8 (2d4 + 3) slashing damage."
         ]
       },
       {
@@ -6112,7 +6112,7 @@
       {
         "name": "Tentacles",
         "entries": [
-          "*Melee Weapon Attack:* 13 to hit, reach 15 ft., one target. *Hit:* 21 (3d8 + 8) bludgeoning damage plus 13 (3d8) psychic damage. If the target is a Large or smaller creature, it must succeed on a DC 18 Strength saving throw or be swallowed by the neothelid. A swallowed creature is blinded and restrained, it has Cover against attacks and other effects outside the neothelid, and it takes 35 (10d6) acid damage at the start of each of the neothelid's turns.",
+          "*Melee Weapon Attack:* +13 to hit, reach 15 ft., one target. *Hit:* 21 (3d8 + 8) bludgeoning damage plus 13 (3d8) psychic damage. If the target is a Large or smaller creature, it must succeed on a DC 18 Strength saving throw or be swallowed by the neothelid. A swallowed creature is blinded and restrained, it has Cover against attacks and other effects outside the neothelid, and it takes 35 (10d6) acid damage at the start of each of the neothelid's turns.",
           "If the neothelid takes 30 damage or more on a single turn from a creature inside it, the neothelid must succeed on a DC 18 Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall prone in a space within 10 feet of the neothelid. If the neothelid dies, a swallowed creature is no longer restrained by it and can escape from the corpse by using 20 feet of movement, exiting prone."
         ]
       },
@@ -6184,13 +6184,13 @@
       {
         "name": "Fool's Scepter",
         "entries": [
-          "*Melee Weapon Attack:* 4 to hit, reach 5 ft., one target. *Hit:* 5 (1d6 + 2) bludgeoning damage."
+          "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 5 (1d6 + 2) bludgeoning damage."
         ]
       },
       {
         "name": "Shortbow",
         "entries": [
-          "*Ranged Weapon Attack:* 4 to hit, range 80/320 ft., one target. *Hit:* 5 (1d6 + 2) piercing damage."
+          "*Ranged Weapon Attack:* +4 to hit, range 80/320 ft., one target. *Hit:* 5 (1d6 + 2) piercing damage."
         ]
       }
     ],
@@ -6261,13 +6261,13 @@
       {
         "name": "Longsword",
         "entries": [
-          "*Melee Weapon Attack:* 5 to hit, reach 5 ft., one target. *Hit:* 12 (2d8 + 3) slashing damage, or 14 (2d10 + 3) slashing damage when used with two hands."
+          "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 12 (2d8 + 3) slashing damage, or 14 (2d10 + 3) slashing damage when used with two hands."
         ]
       },
       {
         "name": "Javelin",
         "entries": [
-          "*Melee Weapon or Ranged Weapon Attack:* 5 to hit, reach 5 ft. or range 30/120 ft., one target. *Hit:* 6 (1d6 + 3) piercing damage."
+          "*Melee Weapon or Ranged Weapon Attack:* +5 to hit, reach 5 ft. or range 30/120 ft., one target. *Hit:* 6 (1d6 + 3) piercing damage."
         ]
       },
       {
@@ -6326,7 +6326,7 @@
       {
         "name": "Spellcasting",
         "entries": [
-          "The orc is a 5th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12, 4 to hit with spell attacks). The orc has the following cleric spells prepared:",
+          "The orc is a 5th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). The orc has the following cleric spells prepared:",
           "0: guidance, mending, resistance, thaumaturgy",
           "1 (4 slots): bane, cure wounds, guiding bolt",
           "2 (3 slots): augury, warding bond",
@@ -6344,7 +6344,7 @@
       {
         "name": "Claw",
         "entries": [
-          "*Melee Weapon Attack:* 4 to hit, reach 5 ft., one target. *Hit:* 6 (1d8 + 2) slashing damage."
+          "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 6 (1d8 + 2) slashing damage."
         ]
       }
     ],
@@ -6394,7 +6394,7 @@
       {
         "name": "Spellcasting",
         "entries": [
-          "The orc is a 4th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12, 4 to hit with spell attacks). It requires no verbal components to cast its spells. The orc has the following cleric spells prepared:",
+          "The orc is a 4th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). It requires no verbal components to cast its spells. The orc has the following cleric spells prepared:",
           "0: guidance, mending, resistance, thaumaturgy",
           "1 (4 slots): bane, detect magic, inflict wounds, protection from evil and good",
           "2 (3 slots): blindness/deafness, silence"
@@ -6405,7 +6405,7 @@
       {
         "name": "Touch of the White Hand",
         "entries": [
-          "*Melee Weapon Attack:* 3 to hit, reach 5 ft., one target. *Hit:* 9 (2d8) necrotic damage."
+          "*Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 9 (2d8) necrotic damage."
         ]
       }
     ],
@@ -6471,7 +6471,7 @@
       {
         "name": "Claws",
         "entries": [
-          "*Melee Weapon Attack:* 4 to hit, reach 5 ft., one target. *Hit:* 4 (1d4 + 2) slashing damage plus 2 (1d4) necrotic damage."
+          "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 4 (1d4 + 2) slashing damage plus 2 (1d4) necrotic damage."
         ]
       },
       {
@@ -6555,13 +6555,13 @@
       {
         "name": "Scimitar",
         "entries": [
-          "*Melee Weapon Attack:* 5 to hit, reach 5 ft., one target. *Hit:* 13 (3d6 + 3) slashing damage."
+          "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 13 (3d6 + 3) slashing damage."
         ]
       },
       {
         "name": "Dart",
         "entries": [
-          "*Ranged Weapon Attack:* 5 to hit, range 20/60 ft., one target. *Hit:* 10 (3d4 + 3) piercing damage."
+          "*Ranged Weapon Attack:* +5 to hit, range 20/60 ft., one target. *Hit:* 10 (3d4 + 3) piercing damage."
         ]
       },
       {
@@ -6627,7 +6627,7 @@
       {
         "name": "Gore",
         "entries": [
-          "*Melee Weapon Attack:* 6 to hit, reach 5 ft., one target. *Hit:* 7 (1d6 + 4) piercing damage."
+          "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 7 (1d6 + 4) piercing damage."
         ]
       }
     ],
@@ -6683,7 +6683,7 @@
       {
         "name": "Bite",
         "entries": [
-          "*Melee Weapon Attack:* 4 to hit, reach 10 ft., one creature. *Hit:* 12 (3d6 + 2) piercing damage."
+          "*Melee Weapon Attack:* +4 to hit, reach 10 ft., one creature. *Hit:* 12 (3d6 + 2) piercing damage."
         ]
       }
     ],
@@ -6747,7 +6747,7 @@
       {
         "name": "Dagger",
         "entries": [
-          "*Melee Weapon or Ranged Weapon Attack:* 8 to hit, reach 5 ft. or range 20/60 ft., one target. *Hit:* 8 (1d4 + 6) piercing damage."
+          "*Melee Weapon or Ranged Weapon Attack:* +8 to hit, reach 5 ft. or range 20/60 ft., one target. *Hit:* 8 (1d4 + 6) piercing damage."
         ]
       }
     ],
@@ -6796,13 +6796,13 @@
       {
         "name": "Bite",
         "entries": [
-          "*Melee Weapon Attack:* 5 to hit, reach 5 ft., one target. *Hit:* 7 (1d8 + 3) piercing damage."
+          "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 7 (1d8 + 3) piercing damage."
         ]
       },
       {
         "name": "Tail",
         "entries": [
-          "*Melee Weapon Attack:* 5 to hit, reach 5 ft., one target. *Hit:* 6 (1d6 + 3) bludgeoning damage."
+          "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 6 (1d6 + 3) bludgeoning damage."
         ]
       }
     ],
@@ -6866,7 +6866,7 @@
       {
         "name": "Wicked Sickle",
         "entries": [
-          "*Melee Weapon Attack:* 6 to hit, reach 5 ft., one target. *Hit:* 9 (2d4 + 4) slashing damage."
+          "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 9 (2d4 + 4) slashing damage."
         ]
       },
       {
@@ -6924,7 +6924,7 @@
       {
         "name": "Gore",
         "entries": [
-          "*Melee Weapon Attack:* 6 to hit, reach 5 ft., one target. *Hit:* 7 (1d6 + 4) piercing damage."
+          "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 7 (1d6 + 4) piercing damage."
         ]
       }
     ],
@@ -6980,14 +6980,14 @@
       {
         "name": "Unarmed Strike",
         "entries": [
-          "*Melee Weapon Attack:* 4 to hit, reach 5 ft., one target. *Hit:* 4 (1d4 + 2) bludgeoning damage."
+          "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 4 (1d4 + 2) bludgeoning damage."
         ]
       },
       {
         "name": "Piscine Anatomy",
         "entries": [
           "The sea spawn has one or more of the following attack options, provided it has the appropriate anatomy:",
-          "- Bite *Melee Weapon Attack:* 5 to hit, reach 5 ft., one target. *Hit:* 4 (1d4 + 2) piercing damage.\n- Poison Quills *Melee Weapon Attack:* 5 to hit, reach 5 ft., one creature. *Hit:* 3 (1d6) poison damage, and the target must succeed on a DC 12 Constitution saving throw or be poisoned for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.\n- Tentacle *Melee Weapon Attack:* 5 to hit, reach 10 ft., one target. *Hit:* 5 (1d6 + 2) bludgeoning damage, and the target is grappled (escape DC 12) if it is a Medium or smaller creature. Until this grapple ends, the sea spawn can't use this tentacle on another target."
+          "- Bite *Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 4 (1d4 + 2) piercing damage.\n- Poison Quills *Melee Weapon Attack:* +5 to hit, reach 5 ft., one creature. *Hit:* 3 (1d6) poison damage, and the target must succeed on a DC 12 Constitution saving throw or be poisoned for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.\n- Tentacle *Melee Weapon Attack:* +5 to hit, reach 10 ft., one target. *Hit:* 5 (1d6 + 2) bludgeoning damage, and the target is grappled (escape DC 12) if it is a Medium or smaller creature. Until this grapple ends, the sea spawn can't use this tentacle on another target."
         ]
       }
     ],
@@ -7056,7 +7056,7 @@
       {
         "name": "Bite",
         "entries": [
-          "*Melee Weapon Attack:* 5 to hit, reach 5 ft., one target. *Hit:* 10 (2d6 + 3) piercing damage. If the target is a creature, it must succeed on a DC 13 Strength saving throw or be knocked prone."
+          "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 10 (2d6 + 3) piercing damage. If the target is a creature, it must succeed on a DC 13 Strength saving throw or be knocked prone."
         ]
       }
     ],
@@ -7114,13 +7114,13 @@
       {
         "name": "Bite",
         "entries": [
-          "*Melee Weapon Attack:* 7 to hit, reach 5 ft., one target. *Hit:* 26 (4d10 + 4) piercing damage."
+          "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 26 (4d10 + 4) piercing damage."
         ]
       },
       {
         "name": "Tail Stinger",
         "entries": [
-          "*Melee Weapon Attack:* 7 to hit, reach 15 ft., one creature. *Hit:* 13 (2d8 + 4) piercing damage, and the target must succeed on a DC 14 Constitution saving throw or become poisoned. While poisoned, the target is also paralyzed. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+          "*Melee Weapon Attack:* +7 to hit, reach 15 ft., one creature. *Hit:* 13 (2d8 + 4) piercing damage, and the target must succeed on a DC 14 Constitution saving throw or become poisoned. While poisoned, the target is also paralyzed. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
         ]
       }
     ],
@@ -7209,7 +7209,7 @@
       {
         "name": "Slam",
         "entries": [
-          "*Melee Weapon Attack:* 5 to hit, reach 5 ft., one target. *Hit:* 8 (1d10 + 3) bludgeoning damage."
+          "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 8 (1d10 + 3) bludgeoning damage."
         ]
       },
       {
@@ -7284,7 +7284,7 @@
       {
         "name": "Claw",
         "entries": [
-          "*Melee Weapon Attack:* 6 to hit, reach 5 ft., one target. *Hit:* 6 (1d6 + 3) slashing damage plus 7 (2d6) necrotic damage."
+          "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 6 (1d6 + 3) slashing damage plus 7 (2d6) necrotic damage."
         ]
       }
     ],
@@ -7328,7 +7328,7 @@
       {
         "name": "Tail",
         "entries": [
-          "*Melee Weapon Attack:* 7 to hit, reach 10 ft., one target. *Hit:* 26 (6d6 + 5) piercing damage."
+          "*Melee Weapon Attack:* +7 to hit, reach 10 ft., one target. *Hit:* 26 (6d6 + 5) piercing damage."
         ]
       }
     ],
@@ -7385,7 +7385,7 @@
       {
         "name": "Gore",
         "entries": [
-          "*Melee Weapon Attack:* 6 to hit, reach 5 ft., one target. *Hit:* 7 (1d6 + 4) piercing damage."
+          "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 7 (1d6 + 4) piercing damage."
         ]
       }
     ],
@@ -7439,7 +7439,7 @@
       {
         "name": "Greatclub",
         "entries": [
-          "*Melee Weapon Attack:* 10 to hit, reach 15 ft., one target. *Hit:* 19 (3d8 + 6) bludgeoning damage."
+          "*Melee Weapon Attack:* +10 to hit, reach 15 ft., one target. *Hit:* 19 (3d8 + 6) bludgeoning damage."
         ]
       },
       {
@@ -7451,7 +7451,7 @@
       {
         "name": "Rock",
         "entries": [
-          "*Ranged Weapon Attack:* 10 to hit, range 60/240 ft., one target. *Hit:* 28 (4d10 + 6) bludgeoning damage. If the target is a creature, it must succeed on a DC 17 Strength saving throw or be knocked prone."
+          "*Ranged Weapon Attack:* +10 to hit, range 60/240 ft., one target. *Hit:* 28 (4d10 + 6) bludgeoning damage. If the target is a creature, it must succeed on a DC 17 Strength saving throw or be knocked prone."
         ]
       }
     ],
@@ -7509,7 +7509,7 @@
       {
         "name": "Lightning Sword",
         "entries": [
-          "*Melee Weapon Attack:* 14 to hit, reach 15 ft., one target. *Hit:* 40 (9d6 + 9) lightning damage."
+          "*Melee Weapon Attack:* +14 to hit, reach 15 ft., one target. *Hit:* 40 (9d6 + 9) lightning damage."
         ]
       },
       {
@@ -7609,7 +7609,7 @@
       {
         "name": "Bites",
         "entries": [
-          "*Melee Weapon Attack:* 5 to hit, reach 0 ft., one target in the swarm's space. *Hit:* 14 (4d6) piercing damage, or 7 (2d6) piercing damage if the swarm has half of its hit points or fewer."
+          "*Melee Weapon Attack:* +5 to hit, reach 0 ft., one target in the swarm's space. *Hit:* 14 (4d6) piercing damage, or 7 (2d6) piercing damage if the swarm has half of its hit points or fewer."
         ]
       }
     ],
@@ -7660,7 +7660,7 @@
       {
         "name": "Bites",
         "entries": [
-          "*Melee Weapon Attack:* 0 to hit, reach 0 ft., one creature in the swarm's space. *Hit:* The target is infested by 1d4 rot grubs. At the start of each of the target's turns, the target takes 1d6 piercing damage per rot grub infesting it. Applying fire to the bite wound before the end of the target's next turn deals 1 fire damage to the target and kills these rot grubs. After this time, these rot grubs are too far under the skin to be burned. If a target infested by rot grubs ends its turn with 0 hit points, it dies as the rot grubs burrow into its heart and kill it. Any effect that cures disease kills all rot grubs infesting the target."
+          "*Melee Weapon Attack:* +0 to hit, reach 0 ft., one creature in the swarm's space. *Hit:* The target is infested by 1d4 rot grubs. At the start of each of the target's turns, the target takes 1d6 piercing damage per rot grub infesting it. Applying fire to the bite wound before the end of the target's next turn deals 1 fire damage to the target and kills these rot grubs. After this time, these rot grubs are too far under the skin to be burned. If a target infested by rot grubs ends its turn with 0 hit points, it dies as the rot grubs burrow into its heart and kill it. Any effect that cures disease kills all rot grubs infesting the target."
         ]
       }
     ],
@@ -7723,13 +7723,13 @@
       {
         "name": "Dagger",
         "entries": [
-          "*Melee Weapon or Ranged Weapon Attack:* 6 to hit, reach 5 ft. or range 20/60 ft., one target. *Hit:* 6 (1d4 + 4) piercing damage."
+          "*Melee Weapon or Ranged Weapon Attack:* +6 to hit, reach 5 ft. or range 20/60 ft., one target. *Hit:* 6 (1d4 + 4) piercing damage."
         ]
       },
       {
         "name": "Rapier",
         "entries": [
-          "*Melee Weapon Attack:* 6 to hit, reach 5 ft., one target. *Hit:* 8 (1d8 + 4) piercing damage."
+          "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 8 (1d8 + 4) piercing damage."
         ]
       }
     ],
@@ -7792,13 +7792,13 @@
       {
         "name": "Bite",
         "entries": [
-          "*Melee Weapon Attack:* 7 to hit, reach 5 ft., one target. *Hit:* 8 (1d8 + 4) piercing damage."
+          "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 8 (1d8 + 4) piercing damage."
         ]
       },
       {
         "name": "Greatsword",
         "entries": [
-          "*Melee Weapon Attack:* 7 to hit, reach 5 ft., one target. *Hit:* 11 (2d6 + 4) slashing damage."
+          "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 11 (2d6 + 4) slashing damage."
         ]
       }
     ],
@@ -7869,7 +7869,7 @@
       {
         "name": "Bite",
         "entries": [
-          "*Melee Weapon Attack:* 3 to hit, reach 5 ft., one target. *Hit:* 8 (2d6 + 1) piercing damage."
+          "*Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 8 (2d6 + 1) piercing damage."
         ]
       }
     ],
@@ -7919,19 +7919,19 @@
       {
         "name": "Longsword",
         "entries": [
-          "*Melee Weapon Attack:* 6 to hit, reach 5 ft., one target. *Hit:* 7 (1d8 + 3) slashing damage, or 8 (1d10 + 3) slashing damage if used with two hands."
+          "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 7 (1d8 + 3) slashing damage, or 8 (1d10 + 3) slashing damage if used with two hands."
         ]
       },
       {
         "name": "Spiked Chain",
         "entries": [
-          "*Melee Weapon Attack:* 6 to hit, reach 10 ft., one target. *Hit:* 6 (1d6 + 3) piercing damage, and the target is grappled (escape DC 11) if it is a Large or smaller creature. Until this grapple ends, the target is restrained, and the tlincalli can't use the spiked chain against another target."
+          "*Melee Weapon Attack:* +6 to hit, reach 10 ft., one target. *Hit:* 6 (1d6 + 3) piercing damage, and the target is grappled (escape DC 11) if it is a Large or smaller creature. Until this grapple ends, the target is restrained, and the tlincalli can't use the spiked chain against another target."
         ]
       },
       {
         "name": "Sting",
         "entries": [
-          "*Melee Weapon Attack:* 6 to hit, reach 5 ft., one creature. *Hit:* 6 (1d6 + 3) piercing damage plus 14 (4d6) poison damage, and the target must succeed on a DC 14 Constitution saving throw or be poisoned for 1 minute. If it fails the saving throw by 5 or more, the target is also paralyzed while poisoned. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+          "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one creature. *Hit:* 6 (1d6 + 3) piercing damage plus 14 (4d6) poison damage, and the target must succeed on a DC 14 Constitution saving throw or be poisoned for 1 minute. If it fails the saving throw by 5 or more, the target is also paralyzed while poisoned. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
         ]
       }
     ],
@@ -7985,7 +7985,7 @@
       {
         "name": "Spellcasting",
         "entries": [
-          "The transmuter is a 9th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 14, 6 to hit with spell attacks). The transmuter has the following wizard spells prepared:",
+          "The transmuter is a 9th-level spellcaster. Its spellcasting ability is Intelligence (spell save DC 14, +6 to hit with spell attacks). The transmuter has the following wizard spells prepared:",
           "0: light, mending, prestidigitation, ray of frost",
           "1 (4 slots): chromatic orb, expeditious retreat*, mage armor",
           "2 (3 slots): alter self*, hold person, knock*",
@@ -8000,7 +8000,7 @@
       {
         "name": "Quarterstaff",
         "entries": [
-          "*Melee Weapon Attack:* 2 to hit, reach 5 ft., one target. *Hit:* 2 (1d6 - 1) bludgeoning damage, or 3 (1d8 - 1) bludgeoning damage if used with two hands."
+          "*Melee Weapon Attack:* +2 to hit, reach 5 ft., one target. *Hit:* 2 (1d6 - 1) bludgeoning damage, or 3 (1d8 - 1) bludgeoning damage if used with two hands."
         ]
       }
     ],
@@ -8127,13 +8127,13 @@
       {
         "name": "Tentacles",
         "entries": [
-          "*Melee Weapon Attack:* 9 to hit, reach 10 ft., one creature. *Hit:* 27 (4d10 + 5) psychic damage. If the target is Large or smaller, it is grappled (escape DC 14) and must succeed on a DC 17 Intelligence saving throw or be stunned until this grapple ends."
+          "*Melee Weapon Attack:* +9 to hit, reach 10 ft., one creature. *Hit:* 27 (4d10 + 5) psychic damage. If the target is Large or smaller, it is grappled (escape DC 14) and must succeed on a DC 17 Intelligence saving throw or be stunned until this grapple ends."
         ]
       },
       {
         "name": "Extract Brain",
         "entries": [
-          "*Melee Weapon Attack:* 9 to hit, reach 5 ft., one incapacitated humanoid grappled by the ulitharid. *Hit:* 55 (10d10) piercing damage. If this damage reduces the target to 0 hit points, the ulitharid kills the target by extracting and devouring its brain."
+          "*Melee Weapon Attack:* +9 to hit, reach 5 ft., one incapacitated humanoid grappled by the ulitharid. *Hit:* 55 (10d10) piercing damage. If this damage reduces the target to 0 hit points, the ulitharid kills the target by extracting and devouring its brain."
         ]
       },
       {
@@ -8182,7 +8182,7 @@
       {
         "name": "Bite",
         "entries": [
-          "*Melee Weapon Attack:* 4 to hit, reach 5 ft., one target. *Hit:* 5 (1d6 + 2) piercing damage plus 10 (3d6) poison damage."
+          "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 5 (1d6 + 2) piercing damage plus 10 (3d6) poison damage."
         ]
       },
       {
@@ -8252,13 +8252,13 @@
       {
         "name": "Claws",
         "entries": [
-          "*Melee Weapon Attack:* 4 to hit, reach 5 ft., one target. *Hit:* 5 (1d6 + 2) slashing damage."
+          "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 5 (1d6 + 2) slashing damage."
         ]
       },
       {
         "name": "Sling",
         "entries": [
-          "*Ranged Weapon Attack:* 4 to hit, range 30/120 ft., one target. *Hit:* 4 (1d4 + 2) bludgeoning damage."
+          "*Ranged Weapon Attack:* +4 to hit, range 30/120 ft., one target. *Hit:* 4 (1d4 + 2) bludgeoning damage."
         ]
       }
     ],
@@ -8321,13 +8321,13 @@
       {
         "name": "Claws",
         "entries": [
-          "*Melee Weapon Attack:* 4 to hit, reach 5 ft., one target. *Hit:* 5 (1d6 + 2) slashing damage."
+          "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 5 (1d6 + 2) slashing damage."
         ]
       },
       {
         "name": "Spear",
         "entries": [
-          "*Melee Weapon or Ranged Weapon Attack:* 4 to hit, reach 5 ft. or range 20/60 ft., one target. *Hit:* 5 (1d6 + 2) piercing damage, or 6 (1d8 + 2) piercing damage if used with two hands to make a melee attack."
+          "*Melee Weapon or Ranged Weapon Attack:* +4 to hit, reach 5 ft. or range 20/60 ft., one target. *Hit:* 5 (1d6 + 2) piercing damage, or 6 (1d8 + 2) piercing damage if used with two hands to make a melee attack."
         ]
       },
       {
@@ -8390,13 +8390,13 @@
       {
         "name": "Bite",
         "entries": [
-          "*Melee Weapon Attack:* 4 to hit, reach 5 ft., one creature. *Hit:* 5 (1d6 + 2) piercing damage."
+          "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one creature. *Hit:* 5 (1d6 + 2) piercing damage."
         ]
       },
       {
         "name": "Claws",
         "entries": [
-          "*Melee Weapon Attack:* 4 to hit, reach 5 ft., one target. *Hit:* 4 (1d4 + 2) slashing damage."
+          "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 4 (1d4 + 2) slashing damage."
         ]
       }
     ],
@@ -8439,7 +8439,7 @@
       {
         "name": "Spellcasting",
         "entries": [
-          "The priest is a 9th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 15, 7 to hit with spell attacks). It has the following cleric spells prepared:",
+          "The priest is a 9th-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 15, +7 to hit with spell attacks). It has the following cleric spells prepared:",
           "0: light, mending, sacred flame, spare the dying",
           "1 (4 slots): divine favor, guiding bolt, healing word, shield of faith",
           "2 (3 slots): lesser restoration, magic weapon, prayer of healing, silence, spiritual weapon",
@@ -8459,7 +8459,7 @@
       {
         "name": "Maul",
         "entries": [
-          "*Melee Weapon Attack:* 7 to hit, reach 5 ft., one target. *Hit:* 10 (2d6 + 3) bludgeoning damage."
+          "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 10 (2d6 + 3) bludgeoning damage."
         ]
       }
     ],
@@ -8517,7 +8517,7 @@
       {
         "name": "Spellcasting",
         "entries": [
-          "The warlock is an 11th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 14, 6 to hit with spell attacks). It regains its expended spell slots when it finishes a short or long rest. It knows the following warlock spells:",
+          "The warlock is an 11th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 14, +6 to hit with spell attacks). It regains its expended spell slots when it finishes a short or long rest. It knows the following warlock spells:",
           "0: dancing lights, eldritch blast, friends, mage hand, minor illusion, prestidigitation, vicious mockery",
           "5 (3 slots): blink, charm person, dimension door, dominate beast, faerie fire, fear, hold monster, misty step, phantasmal force, seeming, sleep"
         ]
@@ -8527,7 +8527,7 @@
       {
         "name": "Dagger",
         "entries": [
-          "*Melee Weapon or Ranged Weapon Attack:* 3 to hit, reach 5 ft. or range 20/60 ft., one target. *Hit:* 4 (1d4 + 2) piercing damage."
+          "*Melee Weapon or Ranged Weapon Attack:* +3 to hit, reach 5 ft. or range 20/60 ft., one target. *Hit:* 4 (1d4 + 2) piercing damage."
         ]
       }
     ],
@@ -8595,7 +8595,7 @@
       {
         "name": "Spellcasting",
         "entries": [
-          "The warlock is a 17th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 15, 7 to hit with spell attacks). It regains its expended spell slots when it finishes a short or long rest. It knows the following warlock spells:",
+          "The warlock is a 17th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 15, +7 to hit with spell attacks). It regains its expended spell slots when it finishes a short or long rest. It knows the following warlock spells:",
           "0: eldritch blast, fire bolt, friends, mage hand, minor illusion, prestidigitation, shocking grasp",
           "5 (4 slots): banishment, burning hands, flame strike, hellish rebuke, magic circle, scorching ray, scrying, stinking cloud, suggestion, wall of fire"
         ]
@@ -8605,7 +8605,7 @@
       {
         "name": "Mace",
         "entries": [
-          "*Melee Weapon Attack:* 3 to hit, reach 5 ft., one target. *Hit:* 3 (1d6) bludgeoning damage plus 10 (3d6) fire damage."
+          "*Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 3 (1d6) bludgeoning damage plus 10 (3d6) fire damage."
         ]
       }
     ],
@@ -8665,7 +8665,7 @@
       {
         "name": "Spellcasting",
         "entries": [
-          "The warlock is a 14th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 15, 7 to hit with spell attacks). It regains its expended spell slots when it finishes a short or long rest. It knows the following warlock spells:",
+          "The warlock is a 14th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 15, +7 to hit with spell attacks). It regains its expended spell slots when it finishes a short or long rest. It knows the following warlock spells:",
           "0: chill touch, eldritch blast, guidance, mage hand, minor illusion, prestidigitation, shocking grasp",
           "5 (3 slots): armor of Agathys, arms of Hadar, crown of madness, clairvoyance, contact other plane, detect thoughts, dimension door, dissonant whispers, dominate beast, telekinesis, vampiric touch"
         ]
@@ -8675,7 +8675,7 @@
       {
         "name": "Dagger",
         "entries": [
-          "*Melee Weapon or Ranged Weapon Attack:* 5 to hit, reach 5 ft. or range 20/60 ft., one target. *Hit:* 4 (1d4 + 2) piercing damage."
+          "*Melee Weapon or Ranged Weapon Attack:* +5 to hit, reach 5 ft. or range 20/60 ft., one target. *Hit:* 4 (1d4 + 2) piercing damage."
         ]
       }
     ],
@@ -8741,13 +8741,13 @@
       {
         "name": "Greatsword",
         "entries": [
-          "*Melee Weapon Attack:* 9 to hit, reach 5 ft., one target. *Hit:* 12 (2d6 + 5) slashing damage."
+          "*Melee Weapon Attack:* +9 to hit, reach 5 ft., one target. *Hit:* 12 (2d6 + 5) slashing damage."
         ]
       },
       {
         "name": "Shortbow",
         "entries": [
-          "*Ranged Weapon Attack:* 7 to hit, range 80/320 ft., one target. *Hit:* 6 (1d6 + 3) piercing damage."
+          "*Ranged Weapon Attack:* +7 to hit, range 80/320 ft., one target. *Hit:* 6 (1d6 + 3) piercing damage."
         ]
       }
     ],
@@ -8815,13 +8815,13 @@
       {
         "name": "Bite",
         "entries": [
-          "*Melee Weapon Attack:* 5 to hit, reach 5 ft., one target. *Hit:* 7 (1d8 + 3) piercing damage."
+          "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 7 (1d8 + 3) piercing damage."
         ]
       },
       {
         "name": "Tail",
         "entries": [
-          "*Melee Weapon Attack:* 5 to hit, reach 5 ft., one target. *Hit:* 6 (1d6 + 3) bludgeoning damage."
+          "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 6 (1d6 + 3) bludgeoning damage."
         ]
       }
     ],
@@ -8896,7 +8896,7 @@
       {
         "name": "Club",
         "entries": [
-          "*Melee Weapon Attack:* 7 to hit, reach 5 ft., one target. *Hit:* 14 (4d4 + 4) bludgeoning damage."
+          "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 14 (4d4 + 4) bludgeoning damage."
         ]
       }
     ],
@@ -8958,13 +8958,13 @@
       {
         "name": "Shortsword",
         "entries": [
-          "*Melee Weapon Attack:* 4 to hit, reach 5 ft., one target. *Hit:* 5 (1d6 + 2) piercing damage."
+          "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 5 (1d6 + 2) piercing damage."
         ]
       },
       {
         "name": "Sling",
         "entries": [
-          "*Ranged Weapon Attack:* 4 to hit, range 30/120 ft., one target. *Hit:* 4 (1d4 + 2) bludgeoning damage."
+          "*Ranged Weapon Attack:* +4 to hit, range 30/120 ft., one target. *Hit:* 4 (1d4 + 2) bludgeoning damage."
         ]
       }
     ],
@@ -9027,13 +9027,13 @@
       {
         "name": "Shortsword",
         "entries": [
-          "*Melee Weapon Attack:* 4 to hit, reach 5 ft., one target. *Hit:* 5 (1d6 + 2) piercing damage."
+          "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 5 (1d6 + 2) piercing damage."
         ]
       },
       {
         "name": "Sling",
         "entries": [
-          "*Ranged Weapon Attack:* 4 to hit, range 30/120 ft., one target. *Hit:* 4 (1d4 + 2) bludgeoning damage."
+          "*Ranged Weapon Attack:* +4 to hit, range 30/120 ft., one target. *Hit:* 4 (1d4 + 2) bludgeoning damage."
         ]
       }
     ],
@@ -9102,7 +9102,7 @@
       {
         "name": "Spellcasting",
         "entries": [
-          "The xvart is a 3rd-level spellcaster. Its spellcasting ability is Charisma (spell save DC 11, 3 to hit with spell attacks). It regains its expended spell slots when it finishes a short or long rest. It knows the following warlock spells:",
+          "The xvart is a 3rd-level spellcaster. Its spellcasting ability is Charisma (spell save DC 11, +3 to hit with spell attacks). It regains its expended spell slots when it finishes a short or long rest. It knows the following warlock spells:",
           "0: eldritch blast, mage hand, minor illusion, poison spray, prestidigitation",
           "2 (2 slots): burning hands, expeditious retreat, invisibility, scorching ray"
         ]
@@ -9112,7 +9112,7 @@
       {
         "name": "Scimitar",
         "entries": [
-          "*Melee Weapon Attack:* 4 to hit, reach 5 ft., one target. *Hit:* 5 (1d6 + 2) slashing damage."
+          "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 5 (1d6 + 2) slashing damage."
         ]
       }
     ],
@@ -9175,7 +9175,7 @@
       {
         "name": "Bite",
         "entries": [
-          "*Melee Weapon Attack:* 6 to hit, reach 5 ft., one target. *Hit:* 11 (2d6 + 4) piercing damage, plus 14 (4d6) psychic damage if the target is frightened."
+          "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 11 (2d6 + 4) piercing damage, plus 14 (4d6) psychic damage if the target is frightened."
         ]
       },
       {
@@ -9267,19 +9267,19 @@
       {
         "name": "Claw (Anathema Form Only)",
         "entries": [
-          "*Melee Weapon Attack:* 10 to hit, reach 10 ft., one target. *Hit:* 13 (2d6 + 6) slashing damage."
+          "*Melee Weapon Attack:* +10 to hit, reach 10 ft., one target. *Hit:* 13 (2d6 + 6) slashing damage."
         ]
       },
       {
         "name": "Constrict",
         "entries": [
-          "*Melee Weapon Attack:* 10 to hit, reach 15 ft., one Large or smaller creature. *Hit:* 16 (3d6 + 6) bludgeoning damage plus 7 (2d6) acid damage, and the target is grappled (escape DC 16). Until this grapple ends, the target is restrained and takes 16 (3d6 + 6) bludgeoning damage plus 7 (2d6) acid damage at the start of each of its turns, and the anathema can't constrict another target."
+          "*Melee Weapon Attack:* +10 to hit, reach 15 ft., one Large or smaller creature. *Hit:* 16 (3d6 + 6) bludgeoning damage plus 7 (2d6) acid damage, and the target is grappled (escape DC 16). Until this grapple ends, the target is restrained and takes 16 (3d6 + 6) bludgeoning damage plus 7 (2d6) acid damage at the start of each of its turns, and the anathema can't constrict another target."
         ]
       },
       {
         "name": "Flurry of Bites",
         "entries": [
-          "*Melee Weapon Attack:* 10 to hit, reach 10 ft., one creature. *Hit:* 27 (6d6 + 6) piercing damage plus 14 (4d6) poison damage."
+          "*Melee Weapon Attack:* +10 to hit, reach 10 ft., one creature. *Hit:* 27 (6d6 + 6) piercing damage plus 14 (4d6) poison damage."
         ]
       }
     ],
@@ -9343,13 +9343,13 @@
       {
         "name": "Bite",
         "entries": [
-          "*Melee Weapon Attack:* 4 to hit, reach 5 ft., one target. *Hit:* 6 (1d8 + 2) piercing damage."
+          "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 6 (1d8 + 2) piercing damage."
         ]
       },
       {
         "name": "Claws",
         "entries": [
-          "*Melee Weapon Attack:* 4 to hit, reach 5 ft., one target. *Hit:* 5 (1d6 + 2) slashing damage."
+          "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 5 (1d6 + 2) slashing damage."
         ]
       }
     ],
@@ -9429,19 +9429,19 @@
       {
         "name": "Bite (Snake Form Only)",
         "entries": [
-          "*Melee Weapon Attack:* 5 to hit, reach 5 ft., one creature. *Hit:* 5 (1d4 + 3) piercing damage plus 7 (2d6) poison damage."
+          "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one creature. *Hit:* 5 (1d4 + 3) piercing damage plus 7 (2d6) poison damage."
         ]
       },
       {
         "name": "Scimitar (Yuan-ti Form Only)",
         "entries": [
-          "*Melee Weapon Attack:* 5 to hit, reach 5 ft., one target. *Hit:* 6 (1d6 + 3) slashing damage."
+          "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 6 (1d6 + 3) slashing damage."
         ]
       },
       {
         "name": "Longbow (Yuan-ti Form Only)",
         "entries": [
-          "*Ranged Weapon Attack:* 4 to hit, range 150/600 ft., one target. *Hit:* 6 (1d8 + 2) piercing damage."
+          "*Ranged Weapon Attack:* +4 to hit, range 150/600 ft., one target. *Hit:* 6 (1d8 + 2) piercing damage."
         ]
       }
     ],
@@ -9521,19 +9521,19 @@
       {
         "name": "Bite (Snake Form Only)",
         "entries": [
-          "*Melee Weapon Attack:* 5 to hit, reach 5 ft., one creature. *Hit:* 5 (1d4 + 3) piercing damage plus 7 (2d6) poison damage."
+          "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one creature. *Hit:* 5 (1d4 + 3) piercing damage plus 7 (2d6) poison damage."
         ]
       },
       {
         "name": "Scimitar (Yuan-ti Form Only)",
         "entries": [
-          "*Melee Weapon Attack:* 5 to hit, reach 5 ft., one target. *Hit:* 6 (1d6 + 3) slashing damage."
+          "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 6 (1d6 + 3) slashing damage."
         ]
       },
       {
         "name": "Longbow (Yuan-ti Form Only)",
         "entries": [
-          "*Ranged Weapon Attack:* 4 to hit, range 150/600 ft., one target. *Hit:* 6 (1d8 + 2) piercing damage."
+          "*Ranged Weapon Attack:* +4 to hit, range 150/600 ft., one target. *Hit:* 6 (1d8 + 2) piercing damage."
         ]
       }
     ],
@@ -9610,7 +9610,7 @@
       {
         "name": "Spellcasting (Yuan-ti Form Only)",
         "entries": [
-          "The yuan-ti is a 6th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 13, 5 to hit with spell attacks). It regains its expended spell slots when it finishes a short or long rest. It knows the following warlock spells:",
+          "The yuan-ti is a 6th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 13, +5 to hit with spell attacks). It regains its expended spell slots when it finishes a short or long rest. It knows the following warlock spells:",
           "0: eldritch blast (range 300 ft., +3 bonus to each damage roll), friends, message, minor illusion, poison spray, prestidigitation",
           "3 (2 slots): charm person, crown of madness, detect thoughts, expeditious retreat, fly, hypnotic pattern, illusory script"
         ]
@@ -9626,13 +9626,13 @@
       {
         "name": "Bite",
         "entries": [
-          "*Melee Weapon Attack:* 5 to hit, reach 5 ft., one target. *Hit:* 5 (1d4 + 3) piercing damage plus 7 (2d6) poison damage."
+          "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 5 (1d4 + 3) piercing damage plus 7 (2d6) poison damage."
         ]
       },
       {
         "name": "Scimitar (Yuan-ti Form Only)",
         "entries": [
-          "*Melee Weapon Attack:* 5 to hit, reach 5 ft., one target. *Hit:* 6 (1d6 + 3) slashing damage."
+          "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 6 (1d6 + 3) slashing damage."
         ]
       }
     ],
@@ -9703,7 +9703,7 @@
       {
         "name": "Spellcasting (Yuan-ti Form Only)",
         "entries": [
-          "The yuan-ti is a 6th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 13, 5 to hit with spell attacks). It regains its expended spell slots when it finishes a short or long rest. It knows the following warlock spells:",
+          "The yuan-ti is a 6th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 13, +5 to hit with spell attacks). It regains its expended spell slots when it finishes a short or long rest. It knows the following warlock spells:",
           "0: chill touch, eldritch blast (range 300 ft., +3 bonus to each damage roll), mage hand, message, poison spray, prestidigitation",
           "3 (2 slots): arms of Hadar, darkness, fear, hex, hold person, hunger of Hadar, witch bolt"
         ]
@@ -9719,13 +9719,13 @@
       {
         "name": "Constrict",
         "entries": [
-          "*Melee Weapon Attack:* 5 to hit, reach 10 ft., one target. *Hit:* 10 (2d6 + 3) bludgeoning damage, and the target is grappled (escape DC 14) if it is a Large or smaller creature. Until this grapple ends, the target is restrained, and the yuan-ti can't constrict another target."
+          "*Melee Weapon Attack:* +5 to hit, reach 10 ft., one target. *Hit:* 10 (2d6 + 3) bludgeoning damage, and the target is grappled (escape DC 14) if it is a Large or smaller creature. Until this grapple ends, the target is restrained, and the yuan-ti can't constrict another target."
         ]
       },
       {
         "name": "Scimitar (Yuan-ti Form Only)",
         "entries": [
-          "*Melee Weapon Attack:* 5 to hit, reach 5 ft., one target. *Hit:* 6 (1d6 + 3) slashing damage."
+          "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 6 (1d6 + 3) slashing damage."
         ]
       },
       {
@@ -9802,7 +9802,7 @@
       {
         "name": "Spellcasting (Yuan-ti Form Only)",
         "entries": [
-          "The yuan-ti is a 6th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 13, 5 to hit with spell attacks). It regains its expended spell slots when it finishes a short or long rest. It knows the following warlock spells:",
+          "The yuan-ti is a 6th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 13, +5 to hit with spell attacks). It regains its expended spell slots when it finishes a short or long rest. It knows the following warlock spells:",
           "0: eldritch blast (range 300 ft., +3 bonus to each damage roll), friends, guidance, mage hand, message, poison spray",
           "3 (2 slots): command, counterspell, hellish rebuke, invisibility, misty step, unseen servant, vampiric touch"
         ]
@@ -9818,7 +9818,7 @@
       {
         "name": "Bite",
         "entries": [
-          "*Melee Weapon Attack:* 5 to hit, reach 5 ft., one target. *Hit:* 5 (1d4 + 3) piercing damage plus 7 (2d6) poison damage."
+          "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 5 (1d4 + 3) piercing damage plus 7 (2d6) poison damage."
         ]
       },
       {

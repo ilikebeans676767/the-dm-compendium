@@ -42,13 +42,13 @@
       {
         "name": "Bite",
         "entries": [
-          "*Melee Weapon Attack:* 4 to hit, reach 5 ft., one creature. *Hit:* 7 (1d10 + 2) piercing damage, and the target must succeed on a DC 11 Constitution saving throw or be poisoned for 1 minute. While poisoned this way, the target is paralyzed. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+          "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one creature. *Hit:* 7 (1d10 + 2) piercing damage, and the target must succeed on a DC 11 Constitution saving throw or be poisoned for 1 minute. While poisoned this way, the target is paralyzed. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
         ]
       },
       {
         "name": "Ovipositor",
         "entries": [
-          "*Melee Weapon Attack:* 4 to hit, reach 5 ft., one target. *Hit:* The target is infested with 1d3 assassin bug eggs, which immediately hatch into assassin bug maggots. At the start of each of the target's turns, the target takes 1d6 piercing damage per maggot infesting it. Applying fire to the bite wound before the end of the target's next turn deals 1 fire damage to the target and kills these assassin bug maggots. After this time, the maggots are too far under the skin to be burned.",
+          "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* The target is infested with 1d3 assassin bug eggs, which immediately hatch into assassin bug maggots. At the start of each of the target's turns, the target takes 1d6 piercing damage per maggot infesting it. Applying fire to the bite wound before the end of the target's next turn deals 1 fire damage to the target and kills these assassin bug maggots. After this time, the maggots are too far under the skin to be burned.",
           "If a target infested by assassin bug maggots ends its turn with 0 hit points, it dies as the maggots burrow into its heart and kill it. Any effect that cures disease kills all assassin bug maggots infesting the target."
         ]
       }
@@ -97,7 +97,7 @@
       {
         "name": "Bite",
         "entries": [
-          "*Melee Weapon Attack:* 4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage."
+          "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage."
         ]
       },
       {
@@ -157,7 +157,7 @@
       {
         "name": "Claw",
         "entries": [
-          "*Melee Weapon Attack:* 6 to hit, reach 10 ft., one target. *Hit:* 7 (1d6 + 4) bludgeoning damage and the target is grappled (escape DC 14). Until this grapple ends, the crab folk can automatically hit the target with its claw, and the crab folk can't make attacks with that claw against other targets. The crab folk has two claws, each of which can grapple only one target."
+          "*Melee Weapon Attack:* +6 to hit, reach 10 ft., one target. *Hit:* 7 (1d6 + 4) bludgeoning damage and the target is grappled (escape DC 14). Until this grapple ends, the crab folk can automatically hit the target with its claw, and the crab folk can't make attacks with that claw against other targets. The crab folk has two claws, each of which can grapple only one target."
         ]
       }
     ],
@@ -217,7 +217,7 @@
       {
         "name": "Claw",
         "entries": [
-          "*Melee Weapon Attack:* 4 to hit, reach 5 ft., one target. *Hit:* 6 (1d8 + 2) slashing damage."
+          "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 6 (1d8 + 2) slashing damage."
         ]
       }
     ],
@@ -280,7 +280,7 @@
       {
         "name": "Claw",
         "entries": [
-          "*Melee Weapon Attack:* 7 to hit, reach 5 ft., one target. *Hit:* 9 (1d12 + 3) slashing damage."
+          "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 9 (1d12 + 3) slashing damage."
         ]
       },
       {
@@ -356,13 +356,13 @@
       {
         "name": "Greatsword",
         "entries": [
-          "*Melee Weapon Attack:* 12 to hit, reach 10 ft., one target. *Hit:* 29 (6d6 + 8) slashing damage."
+          "*Melee Weapon Attack:* +12 to hit, reach 10 ft., one target. *Hit:* 29 (6d6 + 8) slashing damage."
         ]
       },
       {
         "name": "Rock",
         "entries": [
-          "*Ranged Weapon Attack:* 12 to hit, range 60/240 ft., one target. *Hit:* 30 (4d10 + 8) bludgeoning damage."
+          "*Ranged Weapon Attack:* +12 to hit, range 60/240 ft., one target. *Hit:* 30 (4d10 + 8) bludgeoning damage."
         ]
       },
       {
@@ -432,19 +432,19 @@
       {
         "name": "Claw",
         "entries": [
-          "*Melee Weapon Attack:* 5 to hit, reach 5 ft., one target. *Hit:* 6 (1d6 + 3) slashing damage."
+          "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 6 (1d6 + 3) slashing damage."
         ]
       },
       {
         "name": "Gore",
         "entries": [
-          "*Melee Weapon Attack:* 5 to hit, reach 5 ft., one target. *Hit:* 7 (1d8 + 3) piercing damage."
+          "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 7 (1d8 + 3) piercing damage."
         ]
       },
       {
         "name": "Chromatic Ray",
         "entries": [
-          "*Ranged Spell Attack:* 6 to hit, range 60 ft., one target. *Hit:* 3 (1d6) lightning damage plus 3 (1d6) fire damage plus 3 (1d6) cold damage."
+          "*Ranged Spell Attack:* +6 to hit, range 60 ft., one target. *Hit:* 3 (1d6) lightning damage plus 3 (1d6) fire damage plus 3 (1d6) cold damage."
         ]
       }
     ],
@@ -516,7 +516,7 @@
       {
         "name": "Dart",
         "entries": [
-          "*Ranged Weapon Attack:* 3 to hit, range 20/60 ft., one target. *Hit:* 3 (1d4 + 1) piercing damage."
+          "*Ranged Weapon Attack:* +3 to hit, range 20/60 ft., one target. *Hit:* 3 (1d4 + 1) piercing damage."
         ]
       }
     ],
@@ -564,7 +564,7 @@
       {
         "name": "Bite",
         "entries": [
-          "*Melee Weapon Attack:* 3 to hit, reach 5 ft., one target. *Hit:* 3 (1d4 + 1) piercing damage, and if the target is wearing metal armor or carrying a metal shield, the khargra attaches to that armor or shield. While attached, the khargra doesn't attack. Instead, at the start of each of the khargra's turns, roll a d20. On a 10 or higher, the armor or shield takes a permanent and cumulative -1 penalty to the AC it offers. Armor reduced to an AC of 10 or a shield that drops to a +0 bonus is destroyed.",
+          "*Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 3 (1d4 + 1) piercing damage, and if the target is wearing metal armor or carrying a metal shield, the khargra attaches to that armor or shield. While attached, the khargra doesn't attack. Instead, at the start of each of the khargra's turns, roll a d20. On a 10 or higher, the armor or shield takes a permanent and cumulative -1 penalty to the AC it offers. Armor reduced to an AC of 10 or a shield that drops to a +0 bonus is destroyed.",
           "The khargra can detach itself by spending 5 feet of its movement. A creature, including the target, can use its action to detach the khargra."
         ]
       },
@@ -679,7 +679,7 @@
       {
         "name": "Dagger",
         "entries": [
-          "*Melee Weapon or Ranged Weapon Attack:* 4 to hit, reach 5 ft. or range 20/60 ft., one target. *Hit:* 4 (1d4 + 2) piercing damage."
+          "*Melee Weapon or Ranged Weapon Attack:* +4 to hit, reach 5 ft. or range 20/60 ft., one target. *Hit:* 4 (1d4 + 2) piercing damage."
         ]
       },
       {
@@ -745,13 +745,13 @@
       {
         "name": "Raking Vine",
         "entries": [
-          "*Melee Weapon Attack:* 6 to hit, reach 10 ft., one target. *Hit:* 11 (2d6 + 4) piercing damage, and the target is grappled (escape DC 14). Until this grapple ends, the target takes 11 piercing damage at the start of each of its turns. The needle lord has two raking vines, each of which can grapple only one target."
+          "*Melee Weapon Attack:* +6 to hit, reach 10 ft., one target. *Hit:* 11 (2d6 + 4) piercing damage, and the target is grappled (escape DC 14). Until this grapple ends, the target takes 11 piercing damage at the start of each of its turns. The needle lord has two raking vines, each of which can grapple only one target."
         ]
       },
       {
         "name": "Needle",
         "entries": [
-          "*Ranged Weapon Attack:* 2 to hit, range 60 ft., one target. *Hit:* 2 (1d4) piercing damage."
+          "*Ranged Weapon Attack:* +2 to hit, range 60 ft., one target. *Hit:* 2 (1d4) piercing damage."
         ]
       }
     ],
@@ -805,13 +805,13 @@
       {
         "name": "Claw",
         "entries": [
-          "*Melee Weapon Attack:* 5 to hit, reach 5 ft., one target. *Hit:* 6 (1d6 + 3) slashing damage."
+          "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 6 (1d6 + 3) slashing damage."
         ]
       },
       {
         "name": "Needle",
         "entries": [
-          "*Ranged Weapon Attack:* 5 to hit, range 60 ft., one target. *Hit:* 5 (1d4 + 3) piercing damage."
+          "*Ranged Weapon Attack:* +5 to hit, range 60 ft., one target. *Hit:* 5 (1d4 + 3) piercing damage."
         ]
       }
     ],
@@ -858,13 +858,13 @@
       {
         "name": "Bite",
         "entries": [
-          "*Melee Weapon Attack:* 3 to hit, reach 5 ft., one target. *Hit:* 4 (1d6 + 1) piercing damage."
+          "*Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 4 (1d6 + 1) piercing damage."
         ]
       },
       {
         "name": "Mace",
         "entries": [
-          "*Melee Weapon Attack:* 3 to hit, reach 5 ft., one target. *Hit:* 4 (1d6 + 1) bludgeoning damage."
+          "*Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 4 (1d6 + 1) bludgeoning damage."
         ]
       }
     ],
@@ -918,13 +918,13 @@
       {
         "name": "Bite",
         "entries": [
-          "*Melee Weapon Attack:* 5 to hit, reach 5 ft., one target. *Hit:* 6 (1d6 + 3) piercing damage."
+          "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 6 (1d6 + 3) piercing damage."
         ]
       },
       {
         "name": "Greataxe",
         "entries": [
-          "*Melee Weapon Attack:* 5 to hit, reach 5 ft., one target. *Hit:* 9 (1d12 + 3) slashing damage."
+          "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 9 (1d12 + 3) slashing damage."
         ]
       },
       {
@@ -998,7 +998,7 @@
       {
         "name": "Barbed Tail",
         "entries": [
-          "*Melee Weapon Attack:* 5 to hit, reach 5 ft., one target. *Hit:* 5 (1d4 + 3) piercing damage."
+          "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 5 (1d4 + 3) piercing damage."
         ]
       }
     ],
@@ -1058,7 +1058,7 @@
       {
         "name": "Claw",
         "entries": [
-          "*Melee Weapon Attack:* 6 to hit, reach 5 ft., one target. *Hit:* 6 (1d4 + 4) piercing damage."
+          "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 6 (1d4 + 4) piercing damage."
         ]
       }
     ],
@@ -1117,7 +1117,7 @@
       {
         "name": "Innate Spellcasting",
         "entries": [
-          "Ygorl's innate spellcasting ability is Charisma (spell save DC 23, 15 to hit with spell attacks). It can innately cast the following spells, requiring no material components:",
+          "Ygorl's innate spellcasting ability is Charisma (spell save DC 23, +15 to hit with spell attacks). It can innately cast the following spells, requiring no material components:",
           "At will: blight, blink, chaos bolt*, detect magic, fly, shield",
           "3e/day: circle of death, enervation*, symbol (discord only)",
           "2e/day: finger of death, harm, mental prison*",
@@ -1136,13 +1136,13 @@
       {
         "name": "Scythe",
         "entries": [
-          "*Melee Weapon Attack:* 14 to hit, reach 10 ft., one creature. *Hit:* 18 (2d10 + 7) slashing damage plus 19 (3d12) necrotic damage. Any creature reduced to 0 hit points by this attack dies, with its body and everything it is wearing and carrying, except magic items, exploding into a cloud of ash. The creature can be restored to life only by means of a wish spell."
+          "*Melee Weapon Attack:* +14 to hit, reach 10 ft., one creature. *Hit:* 18 (2d10 + 7) slashing damage plus 19 (3d12) necrotic damage. Any creature reduced to 0 hit points by this attack dies, with its body and everything it is wearing and carrying, except magic items, exploding into a cloud of ash. The creature can be restored to life only by means of a wish spell."
         ]
       },
       {
         "name": "Entropic Touch",
         "entries": [
-          "*Melee Weapon Attack:* 14 to hit, reach 5 ft., one target. *Hit:* 16 (2d8 + 7) necrotic damage, and the target must succeed on a DC 22 Constitution saving throw or gain one level of exhaustion."
+          "*Melee Weapon Attack:* +14 to hit, reach 5 ft., one target. *Hit:* 16 (2d8 + 7) necrotic damage, and the target must succeed on a DC 22 Constitution saving throw or gain one level of exhaustion."
         ]
       },
       {

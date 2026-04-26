@@ -44,13 +44,13 @@
       {
         "name": "Shaped Claw",
         "entries": [
-          "*Melee Spell Attack:* 7 to hit, reach 5 ft., one target. *Hit:* 8 (1d8 + 4) slashing damage."
+          "*Melee Spell Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 8 (1d8 + 4) slashing damage."
         ]
       },
       {
         "name": "Sling",
         "entries": [
-          "*Ranged Weapon Attack:* 6 to hit, range 30/120 ft., one target. *Hit:* 8 (2d4 + 3) bludgeoning damage."
+          "*Ranged Weapon Attack:* +6 to hit, range 30/120 ft., one target. *Hit:* 8 (2d4 + 3) bludgeoning damage."
         ]
       }
     ],
@@ -123,13 +123,13 @@
       {
         "name": "Reinforced Lute",
         "entries": [
-          "*Melee Weapon Attack:* 5 to hit, reach 5 ft., one target. *Hit:* 6 (1d8 + 2) bludgeoning damage plus 11 (2d10) thunder damage."
+          "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 6 (1d8 + 2) bludgeoning damage plus 11 (2d10) thunder damage."
         ]
       },
       {
         "name": "Shortsword",
         "entries": [
-          "*Melee Weapon Attack:* 6 to hit, reach 5 ft., one target. *Hit:* 6 (1d6 + 3) piercing damage plus 11 (2d10) thunder damage."
+          "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 6 (1d6 + 3) piercing damage plus 11 (2d10) thunder damage."
         ]
       },
       {
@@ -207,13 +207,13 @@
       {
         "name": "Dagger",
         "entries": [
-          "*Melee Weapon or Ranged Weapon Attack:* 5 to hit, reach 5 ft. or range 20/60 ft., one target. *Hit:* 4 (1d4 + 2) piercing damage plus 24 (7d6) poison damage, and the target is poisoned until the end of its next turn."
+          "*Melee Weapon or Ranged Weapon Attack:* +5 to hit, reach 5 ft. or range 20/60 ft., one target. *Hit:* 4 (1d4 + 2) piercing damage plus 24 (7d6) poison damage, and the target is poisoned until the end of its next turn."
         ]
       },
       {
         "name": "Heavy Crossbow",
         "entries": [
-          "*Ranged Weapon Attack:* 5 to hit, range 100/400 ft., one target. *Hit:* 7 (1d10 + 2) piercing damage plus 24 (7d6) poison damage. If the target is a creature, it has disadvantage on the next attack roll it makes before the start of Forge's next turn."
+          "*Ranged Weapon Attack:* +5 to hit, range 100/400 ft., one target. *Hit:* 7 (1d10 + 2) piercing damage plus 24 (7d6) poison damage. If the target is a creature, it has disadvantage on the next attack roll it makes before the start of Forge's next turn."
         ]
       }
     ],
@@ -292,13 +292,13 @@
       {
         "name": "Darksteel Greataxe",
         "entries": [
-          "*Melee Weapon Attack:* 7 to hit, reach 5 ft., one target. *Hit:* 10 (1d12 + 4) slashing damage."
+          "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 10 (1d12 + 4) slashing damage."
         ]
       },
       {
         "name": "Improvised Weapon",
         "entries": [
-          "*Melee Weapon or Ranged Weapon Attack:* 7 to hit, reach 5 ft., or range 20/60 ft., one target. *Hit:* 7 (1d6 + 4) bludgeoning damage."
+          "*Melee Weapon or Ranged Weapon Attack:* +7 to hit, reach 5 ft., or range 20/60 ft., one target. *Hit:* 7 (1d6 + 4) bludgeoning damage."
         ]
       }
     ],
@@ -381,13 +381,13 @@
       {
         "name": "Quarterstaff",
         "entries": [
-          "*Melee Weapon Attack:* 2 to hit, reach 5 ft., one target. *Hit:* 2 (1d6 - 1) bludgeoning damage, or 3 (1d8 - 1) bludgeoning damage if used with two hands, plus 11 (2d10) force damage."
+          "*Melee Weapon Attack:* +2 to hit, reach 5 ft., one target. *Hit:* 2 (1d6 - 1) bludgeoning damage, or 3 (1d8 - 1) bludgeoning damage if used with two hands, plus 11 (2d10) force damage."
         ]
       },
       {
         "name": "Chaos Bolt",
         "entries": [
-          "*Ranged Spell Attack:* 6 to hit, range 60 ft., one target. *Hit:* 14 (2d10 + 3) damage of a random type determined by rolling a d8: 1, acid; 2, cold; 3, fire; 4, force; 5, lightning; 6, poison; 7, psychic; 8, thunder."
+          "*Ranged Spell Attack:* +6 to hit, range 60 ft., one target. *Hit:* 14 (2d10 + 3) damage of a random type determined by rolling a d8: 1, acid; 2, cold; 3, fire; 4, force; 5, lightning; 6, poison; 7, psychic; 8, thunder."
         ]
       }
     ],
@@ -458,7 +458,7 @@
       {
         "name": "Necrotic Strike",
         "entries": [
-          "*Melee Spell or Ranged Spell Attack:* 10 to hit, reach 5 ft. or range 120 ft., one target. *Hit:* 32 (5d10 + 5) necrotic damage."
+          "*Melee Spell or Ranged Spell Attack:* +10 to hit, reach 5 ft. or range 120 ft., one target. *Hit:* 32 (5d10 + 5) necrotic damage."
         ]
       },
       {
@@ -530,13 +530,13 @@
       {
         "name": "Longsword",
         "entries": [
-          "*Melee Weapon Attack:* 8 to hit, reach 5 ft., one target. *Hit:* 8 (1d8 + 4) slashing damage, or 9 (1d10 + 4) slashing damage if used with two hands, plus 6 (1d12) radiant damage."
+          "*Melee Weapon Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 8 (1d8 + 4) slashing damage, or 9 (1d10 + 4) slashing damage if used with two hands, plus 6 (1d12) radiant damage."
         ]
       },
       {
         "name": "Shortsword and Dagger",
         "entries": [
-          "*Melee Weapon Attack:* 8 to hit, reach 5 ft., one target. *Hit:* 7 (1d6 + 4) piercing damage plus 6 (1d12) radiant damage."
+          "*Melee Weapon Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 7 (1d6 + 4) piercing damage plus 6 (1d12) radiant damage."
         ]
       },
       {

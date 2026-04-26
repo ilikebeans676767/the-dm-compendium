@@ -791,7 +791,7 @@
       {
         "name": "Bite",
         "entries": [
-          "*Melee Weapon Attack:* 3 to hit, reach 5 ft., one target. *Hit:* 1 piercing damage plus 2 (1d4) acid damage."
+          "*Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 1 piercing damage plus 2 (1d4) acid damage."
         ]
       },
       {
@@ -869,7 +869,7 @@
       {
         "name": "Destructive Fist",
         "entries": [
-          "*Melee Weapon Attack:* 17 to hit, reach 10 ft., one target. *Hit:* 36 (4d12 + 10) force damage. Or Ranged Weapon Attack: 17 to hit, range 120 ft., one target. *Hit:* 36 (4d12 + 10) force damage. If the target is an object, it takes triple damage."
+          "*Melee Weapon Attack:* +17 to hit, reach 10 ft., one target. *Hit:* 36 (4d12 + 10) force damage. Or Ranged Weapon Attack: +17 to hit, range 120 ft., one target. *Hit:* 36 (4d12 + 10) force damage. If the target is an object, it takes triple damage."
         ]
       },
       {

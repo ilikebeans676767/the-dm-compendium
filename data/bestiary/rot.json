@@ -104,7 +104,7 @@
       {
         "name": "Spellcasting",
         "entries": [
-          "Diderius is a 10th-level spellcaster. His spellcasting ability is Intelligence (spell save DC 17, 9 to hit with spell attacks). He has the following wizard spells prepared:",
+          "Diderius is a 10th-level spellcaster. His spellcasting ability is Intelligence (spell save DC 17, +9 to hit with spell attacks). He has the following wizard spells prepared:",
           "0: minor illusion, ray of frost",
           "1 (4 slots): charm person, detect magic, shield, thunderwave",
           "2 (3 slots): cloud of daggers, hold person, see invisibility",
@@ -183,13 +183,13 @@
       {
         "name": "Shortsword",
         "entries": [
-          "*Melee Weapon Attack:* 6 to hit, reach 5 ft., one target. *Hit:* 6 (1d6 + 3) piercing damage plus 7 (2d6) damage of the type to which the dragonfang has resistance."
+          "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 6 (1d6 + 3) piercing damage plus 7 (2d6) damage of the type to which the dragonfang has resistance."
         ]
       },
       {
         "name": "Orb of Dragon's Breath (2/Day)",
         "entries": [
-          "*Ranged Spell Attack:* 5 to hit, range 50 ft., one target. *Hit:* 22 (5d8) damage of the type to which the dragonfang has damage resistance."
+          "*Ranged Spell Attack:* +5 to hit, range 50 ft., one target. *Hit:* 22 (5d8) damage of the type to which the dragonfang has damage resistance."
         ]
       }
     ],
@@ -261,13 +261,13 @@
       {
         "name": "Shortsword",
         "entries": [
-          "*Melee Weapon Attack:* 7 to hit, reach 5 ft., one target. *Hit:* 6 (1d6 + 3) piercing damage plus 10 (3d6) damage of the type to which the dragonsoul has resistance."
+          "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 6 (1d6 + 3) piercing damage plus 10 (3d6) damage of the type to which the dragonsoul has resistance."
         ]
       },
       {
         "name": "Orb of Dragon's Breath (3/Day)",
         "entries": [
-          "*Ranged Spell Attack:* 7 to hit, range 90 ft., one target. *Hit:* 27 (6d8) damage of the type to which the dragonsoul has damage resistance."
+          "*Ranged Spell Attack:* +7 to hit, range 90 ft., one target. *Hit:* 27 (6d8) damage of the type to which the dragonsoul has damage resistance."
         ]
       }
     ],
@@ -435,7 +435,7 @@
       {
         "name": "Bite",
         "entries": [
-          "*Melee Weapon Attack:* 3 to hit, reach 5 ft., one target. *Hit:* 4 (1d8) cold damage. If the target is a Medium or smaller creature it is grappled (escape DC 11). Until this grapple ends, the toad can't bite another target."
+          "*Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 4 (1d8) cold damage. If the target is a Medium or smaller creature it is grappled (escape DC 11). Until this grapple ends, the toad can't bite another target."
         ]
       }
     ],
@@ -626,19 +626,19 @@
       {
         "name": "Life Drain",
         "entries": [
-          "*Melee Weapon Attack:* 9 to hit, reach 5 ft., one target. *Hit:* 20 (5d6 + 3) necrotic damage. The target must succeed on a DC 15 Constitution saving throw or its hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0."
+          "*Melee Weapon Attack:* +9 to hit, reach 5 ft., one target. *Hit:* 20 (5d6 + 3) necrotic damage. The target must succeed on a DC 15 Constitution saving throw or its hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0."
         ]
       },
       {
         "name": "Longsword",
         "entries": [
-          "*Melee Weapon Attack:* 9 to hit, reach 5 ft., one target. *Hit:* 9 (1d8 + 5) slashing damage, or 10 (1d10 + 5) if used with two hands, plus 10 (3d6) necrotic damage."
+          "*Melee Weapon Attack:* +9 to hit, reach 5 ft., one target. *Hit:* 9 (1d8 + 5) slashing damage, or 10 (1d10 + 5) if used with two hands, plus 10 (3d6) necrotic damage."
         ]
       },
       {
         "name": "Longbow",
         "entries": [
-          "*Ranged Weapon Attack:* 5 to hit, range 150/600 ft., one target. *Hit:* 5 (1d8 + 1) piercing damage plus 10 (3d6) necrotic damage."
+          "*Ranged Weapon Attack:* +5 to hit, range 150/600 ft., one target. *Hit:* 5 (1d8 + 1) piercing damage plus 10 (3d6) necrotic damage."
         ]
       }
     ],
@@ -698,13 +698,13 @@
       {
         "name": "Shortsword",
         "entries": [
-          "*Melee Weapon Attack:* 7 to hit, reach 5 ft., one target. *Hit:* 6 (1d6 + 3) piercing damage plus 13 (3d8) poison damage."
+          "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 6 (1d6 + 3) piercing damage plus 13 (3d8) poison damage."
         ]
       },
       {
         "name": "Eldritch Arrow",
         "entries": [
-          "*Ranged Spell Attack:* 7 to hit, range 120 ft., one target. *Hit:* 11 (2d10) force damage plus 9 (2d8) poison damage."
+          "*Ranged Spell Attack:* +7 to hit, range 120 ft., one target. *Hit:* 11 (2d10) force damage plus 9 (2d8) poison damage."
         ]
       },
       {
@@ -830,13 +830,13 @@
       {
         "name": "Burning Touch",
         "entries": [
-          "*Melee Spell Attack:* 9 to hit, reach 5 ft., one target. *Hit:* 18 (4d8) fire damage."
+          "*Melee Spell Attack:* +9 to hit, reach 5 ft., one target. *Hit:* 18 (4d8) fire damage."
         ]
       },
       {
         "name": "Flaming Orb",
         "entries": [
-          "*Ranged Spell Attack:* 9 to hit, range 90 ft., one target. *Hit:* 40 (9d8) fire damage."
+          "*Ranged Spell Attack:* +9 to hit, range 90 ft., one target. *Hit:* 40 (9d8) fire damage."
         ]
       },
       {
@@ -1007,13 +1007,13 @@
       {
         "name": "Claw",
         "entries": [
-          "*Melee Weapon Attack:* 19 to hit, reach 15 ft., one target. *Hit:* 24 (4d6 + 10) slashing damage."
+          "*Melee Weapon Attack:* +19 to hit, reach 15 ft., one target. *Hit:* 24 (4d6 + 10) slashing damage."
         ]
       },
       {
         "name": "Tail",
         "entries": [
-          "*Melee Weapon Attack:* 19 to hit, reach 25 ft., one target. *Hit:* 28 (4d8 + 10) piercing damage."
+          "*Melee Weapon Attack:* +19 to hit, reach 25 ft., one target. *Hit:* 28 (4d8 + 10) piercing damage."
         ]
       },
       {
@@ -1029,7 +1029,7 @@
       {
         "name": "Bite",
         "entries": [
-          "*Melee Weapon Attack:* 19 to hit, reach 20 ft., one target. *Hit:* 32 (4d10 + 10) slashing damage plus 14 (4d6) acid damage (black dragon head), lightning damage (blue dragon head), poison damage (green dragon head), fire damage (red dragon head), or cold damage (white dragon head)."
+          "*Melee Weapon Attack:* +19 to hit, reach 20 ft., one target. *Hit:* 32 (4d10 + 10) slashing damage plus 14 (4d6) acid damage (black dragon head), lightning damage (blue dragon head), poison damage (green dragon head), fire damage (red dragon head), or cold damage (white dragon head)."
         ]
       },
       {

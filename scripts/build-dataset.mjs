@@ -23,7 +23,7 @@ const SPELL_SCHOOL_NAMES = {
 function cleanTagText(value) {
   return String(value)
     .replace(/{@atk ([^}]+)}/g, (_, attackTypes) => formatAttackTag(attackTypes))
-    .replace(/{@atkr ([^}]+)}/g, (_, attackTypes) => formatAttackTag(attackTypes))
+    .replace(/{@atkr ([^}]+)}/g, (_, attackTypes) => formatAttackRollTag(attackTypes))
     .replace(/{@actSave ([a-z]+)}\s*{@dc ([^}|]+)(?:\|[^}]*)?}/g, (_, ability, dc) => `*${formatSavingThrowAbility(ability)} Saving Throw:* DC ${dc}`)
     .replace(/{@actSave ([a-z]+)}/g, (_, ability) => `*${formatSavingThrowAbility(ability)} Saving Throw:*`)
     .replace(/{@actSaveFailt?(?: ([^}]+))?}/g, (_, suffix) => `*Failure${suffix ? ` ${suffix}` : ""}:*`)
@@ -32,7 +32,8 @@ function cleanTagText(value) {
     .replace(/{@hitYourSpellAttack}/g, "your spell attack modifier")
     .replace(/{@h}/g, "*Hit:* ")
     .replace(/{@dc ([^}|]+)(?:\|[^}]*)?}/g, "DC $1")
-    .replace(/{@(?:damage|dice|scaledamage|scaledice|hit|d20) ([^}|]+)(?:\|[^}]*)?}/g, "$1")
+    .replace(/{@hit ([^}|]+)(?:\|[^}]*)?}/g, (_, hitBonus) => formatHitBonus(hitBonus))
+    .replace(/{@(?:damage|dice|scaledamage|scaledice|d20) ([^}|]+)(?:\|[^}]*)?}/g, "$1")
     .replace(/{@(?:spell|item|creature|condition|disease|status|skill|action|feat|class|filter|book|adventure|variantrule) ([^}|]+)(?:\|[^}]*)?}/g, "$1")
     .replace(/{@(?:chance|recharge|coinflip|note|quickref|sense|actSave|actSaveFail|actSaveSuccess|actSaveSuccessOrFail|actTrigger) ([^}|]+)(?:\|[^}]*)?}/g, "$1")
     .replace(/{@b ([^}]+)}/g, "**$1**")
@@ -63,6 +64,30 @@ function formatAttackTag(attackTypes) {
   }).filter(Boolean);
 
   return `*${Array.from(new Set(labels)).join(" or ")} Attack:*`;
+}
+
+function formatAttackRollTag(attackTypes) {
+  const labels = String(attackTypes).split(",").map((attackType) => {
+    switch (attackType.trim()) {
+      case "m":
+      case "mw":
+      case "ms":
+        return "Melee";
+      case "r":
+      case "rw":
+      case "rs":
+        return "Ranged";
+      default:
+        return "";
+    }
+  }).filter(Boolean);
+
+  return `*${Array.from(new Set(labels)).join(" or ")} Attack Roll:*`;
+}
+
+function formatHitBonus(hitBonus) {
+  const value = String(hitBonus).trim();
+  return value.startsWith("+") || value.startsWith("-") ? value : `+${value}`;
 }
 
 function formatSavingThrowAbility(ability) {

@@ -78,7 +78,7 @@
       {
         "name": "Bite",
         "entries": [
-          "*Melee Weapon Attack:* 11 to hit, reach 10 ft., one target. *Hit:* 17 (3d6 + 7) piercing damage plus 11 (2d10) poison damage."
+          "*Melee Weapon Attack:* +11 to hit, reach 10 ft., one target. *Hit:* 17 (3d6 + 7) piercing damage plus 11 (2d10) poison damage."
         ]
       },
       {

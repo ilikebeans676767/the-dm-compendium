@@ -35,13 +35,13 @@
       {
         "name": "Bite",
         "entries": [
-          "*Melee Weapon Attack:* 4 to hit, reach 5 ft., one creature grappled by the decapus. *Hit:* 7 (2d4 + 2) piercing damage."
+          "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one creature grappled by the decapus. *Hit:* 7 (2d4 + 2) piercing damage."
         ]
       },
       {
         "name": "Tentacles",
         "entries": [
-          "*Melee Weapon Attack:* 4 to hit, reach 10 ft., one target. *Hit:* 24 (9d4 + 2) bludgeoning damage or 14 (5d4 + 2) bludgeoning damage if the decapus is grappling a creature other than the target or if the decapus is on the ground or floor. The target is also grappled (escape DC 14) unless the decapus is already grappling a creature. Until this grapple ends, the target is restrained."
+          "*Melee Weapon Attack:* +4 to hit, reach 10 ft., one target. *Hit:* 24 (9d4 + 2) bludgeoning damage or 14 (5d4 + 2) bludgeoning damage if the decapus is grappling a creature other than the target or if the decapus is on the ground or floor. The target is also grappled (escape DC 14) unless the decapus is already grappling a creature. Until this grapple ends, the target is restrained."
         ]
       }
     ],
@@ -89,7 +89,7 @@
       {
         "name": "Club",
         "entries": [
-          "*Melee Weapon Attack:* 3 to hit, reach 5 ft., one target. *Hit:* 3 (1d4 + 1) bludgeoning damage."
+          "*Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 3 (1d4 + 1) bludgeoning damage."
         ]
       },
       {
@@ -148,7 +148,7 @@
       {
         "name": "Innate Spellcasting",
         "entries": [
-          "The slug's innate spellcasting ability is Wisdom (spell save DC 11, 3 to hit with spell attacks). It can innately cast the following spells, requiring no material components:",
+          "The slug's innate spellcasting ability is Wisdom (spell save DC 11, +3 to hit with spell attacks). It can innately cast the following spells, requiring no material components:",
           "1e/day: guiding bolt, sanctuary, spiritual weapon"
         ]
       }
@@ -163,13 +163,13 @@
       {
         "name": "Tentacles",
         "entries": [
-          "*Melee Weapon Attack:* 8 to hit, reach 10 ft., one creature. *Hit:* 4 (1d4 + 2) poison damage, and the target must succeed on a DC 13 Constitution saving throw or be poisoned for 1 minute. Until this poison ends, the target is paralyzed. The target can repeat the saving throw at the end of each of its turns, ending the poison on itself on a success."
+          "*Melee Weapon Attack:* +8 to hit, reach 10 ft., one creature. *Hit:* 4 (1d4 + 2) poison damage, and the target must succeed on a DC 13 Constitution saving throw or be poisoned for 1 minute. Until this poison ends, the target is paralyzed. The target can repeat the saving throw at the end of each of its turns, ending the poison on itself on a success."
         ]
       },
       {
         "name": "Bite",
         "entries": [
-          "*Melee Weapon Attack:* 4 to hit, reach 5 ft., one target. *Hit:* 7 (2d4 + 2) piercing damage."
+          "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 7 (2d4 + 2) piercing damage."
         ]
       }
     ],
@@ -178,7 +178,7 @@
       {
         "name": "Animate Tentacle",
         "entries": [
-          "When the slug takes damage in this cave (Shrine of Umberlee), it can use its reaction to animate one of the tentacles of the kraken statue and cause it to make a melee weapon attack (3 to hit) against one creature within 20 feet of the statue that the slug can see. The tentacle deals 8 (1d8 + 4) bludgeoning damage on a hit."
+          "When the slug takes damage in this cave (Shrine of Umberlee), it can use its reaction to animate one of the tentacles of the kraken statue and cause it to make a melee weapon attack (+3 to hit) against one creature within 20 feet of the statue that the slug can see. The tentacle deals 8 (1d8 + 4) bludgeoning damage on a hit."
         ]
       }
     ],
@@ -230,7 +230,7 @@
       {
         "name": "Venomous Claws",
         "entries": [
-          "*Melee Weapon Attack:* 4 to hit, reach 5 ft., one target. *Hit:* 4 (1d4 + 2) slashing damage plus 2 (1d4) poison damage, and the target must succeed on a DC 11 Constitution saving throw or be poisoned until the end of the target's next turn."
+          "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 4 (1d4 + 2) slashing damage plus 2 (1d4) poison damage, and the target must succeed on a DC 11 Constitution saving throw or be poisoned until the end of the target's next turn."
         ]
       }
     ],

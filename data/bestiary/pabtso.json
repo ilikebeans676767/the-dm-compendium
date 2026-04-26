@@ -58,13 +58,13 @@
       {
         "name": "Psychic Rend",
         "entries": [
-          "*Melee Spell or Ranged Spell Attack:* 7 to hit, reach 15 ft. or range 120 ft., one target. *Hit:* 14 (3d6 + 4) psychic damage, and the target must succeed on a DC 15 Wisdom saving throw or have the stunned condition until the start of the zealot's next turn."
+          "*Melee Spell or Ranged Spell Attack:* +7 to hit, reach 15 ft. or range 120 ft., one target. *Hit:* 14 (3d6 + 4) psychic damage, and the target must succeed on a DC 15 Wisdom saving throw or have the stunned condition until the start of the zealot's next turn."
         ]
       },
       {
         "name": "Shortsword",
         "entries": [
-          "*Melee Weapon Attack:* 7 to hit, reach 15 ft., one target. *Hit:* 7 (1d6 + 4) piercing damage plus 7 (2d6) psychic damage."
+          "*Melee Weapon Attack:* +7 to hit, reach 15 ft., one target. *Hit:* 7 (1d6 + 4) piercing damage plus 7 (2d6) psychic damage."
         ]
       }
     ],
@@ -266,13 +266,13 @@
       {
         "name": "Corpse Swipe",
         "entries": [
-          "*Melee Weapon Attack:* 8 to hit, reach 5 ft., one target. *Hit:* 20 (3d10 + 4) bludgeoning damage. If the target is a creature, it must succeed on a DC 16 Constitution saving throw or have the poisoned condition for 1 minute. While poisoned in this way, a creature can't regain hit points."
+          "*Melee Weapon Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 20 (3d10 + 4) bludgeoning damage. If the target is a creature, it must succeed on a DC 16 Constitution saving throw or have the poisoned condition for 1 minute. While poisoned in this way, a creature can't regain hit points."
         ]
       },
       {
         "name": "Tail",
         "entries": [
-          "*Melee Weapon Attack:* 8 to hit, reach 10 ft., one target. *Hit:* 13 (2d8 + 4) slashing damage."
+          "*Melee Weapon Attack:* +8 to hit, reach 10 ft., one target. *Hit:* 13 (2d8 + 4) slashing damage."
         ]
       }
     ],
@@ -333,7 +333,7 @@
       {
         "name": "Battleaxe",
         "entries": [
-          "*Melee Weapon Attack:* 5 to hit, reach 5 ft., one target. *Hit:* 7 (1d8 + 3) slashing damage, or 8 (1d10 + 3) slashing damage if used with two hands."
+          "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 7 (1d8 + 3) slashing damage, or 8 (1d10 + 3) slashing damage if used with two hands."
         ]
       }
     ],
@@ -393,7 +393,7 @@
       {
         "name": "Slam",
         "entries": [
-          "*Melee Weapon Attack:* 10 to hit, reach 5 ft., one target. *Hit:* 17 (2d10 + 6) bludgeoning damage plus 10 (3d6) psychic damage, and if the target is a creature, the target must succeed on a DC 18 Strength saving throw or have the prone condition. If this attack reduces the target to 0 hit points, the target immediately dies and is consumed by the cluster."
+          "*Melee Weapon Attack:* +10 to hit, reach 5 ft., one target. *Hit:* 17 (2d10 + 6) bludgeoning damage plus 10 (3d6) psychic damage, and if the target is a creature, the target must succeed on a DC 18 Strength saving throw or have the prone condition. If this attack reduces the target to 0 hit points, the target immediately dies and is consumed by the cluster."
         ]
       },
       {
@@ -460,7 +460,7 @@
       {
         "name": "Psychic Slam",
         "entries": [
-          "*Melee Weapon Attack:* 6 to hit, reach 5 ft., one target. *Hit:* 16 (3d10) psychic damage."
+          "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 16 (3d10) psychic damage."
         ]
       }
     ],
@@ -514,7 +514,7 @@
       {
         "name": "Necrotic Shard",
         "entries": [
-          "*Melee Weapon or Ranged Weapon Attack:* 7 to hit, reach 5 ft. or range 60 ft., one target. *Hit:* 7 (1d6 + 4) necrotic damage. If the target is a creature, it has disadvantage on the next attack roll it makes before the end of its next turn."
+          "*Melee Weapon or Ranged Weapon Attack:* +7 to hit, reach 5 ft. or range 60 ft., one target. *Hit:* 7 (1d6 + 4) necrotic damage. If the target is a creature, it has disadvantage on the next attack roll it makes before the end of its next turn."
         ]
       }
     ],
@@ -568,7 +568,7 @@
       {
         "name": "Flaming Drill",
         "entries": [
-          "*Melee Weapon Attack:* 9 to hit, reach 5 ft., one target. *Hit:* 17 (2d10 + 6) piercing damage plus 7 (2d6) fire damage. If the auger moves at least 20 feet in a straight line toward the target immediately before the hit, the target takes an additional 11 (2d10) piercing damage, and if the target is a creature, it must succeed on a DC 17 Strength saving throw or have the prone condition."
+          "*Melee Weapon Attack:* +9 to hit, reach 5 ft., one target. *Hit:* 17 (2d10 + 6) piercing damage plus 7 (2d6) fire damage. If the auger moves at least 20 feet in a straight line toward the target immediately before the hit, the target takes an additional 11 (2d10) piercing damage, and if the target is a creature, it must succeed on a DC 17 Strength saving throw or have the prone condition."
         ]
       }
     ],
@@ -647,7 +647,7 @@
       {
         "name": "Bite",
         "entries": [
-          "*Melee Weapon Attack:* 8 to hit, reach 30 ft., one target. *Hit:* 16 (2d10 + 5) piercing damage, and if the target is a Large or smaller creature, it has the grappled condition (escape DC 15) and is pulled up to 15 feet toward the flesh meld."
+          "*Melee Weapon Attack:* +8 to hit, reach 30 ft., one target. *Hit:* 16 (2d10 + 5) piercing damage, and if the target is a Large or smaller creature, it has the grappled condition (escape DC 15) and is pulled up to 15 feet toward the flesh meld."
         ]
       }
     ],
@@ -743,7 +743,7 @@
       {
         "name": "Unarmed Strike",
         "entries": [
-          "*Melee Weapon Attack:* 5 to hit, reach 5 ft., one target. *Hit:* 5 (1d4 + 3) bludgeoning damage plus 3 (1d6) psychic damage."
+          "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 5 (1d4 + 3) bludgeoning damage plus 3 (1d6) psychic damage."
         ]
       }
     ],
@@ -826,7 +826,7 @@
       {
         "name": "Psychic Blade",
         "entries": [
-          "*Melee Weapon or Ranged Weapon Attack:* 6 to hit, reach 5 ft. or range 60 ft., one creature. *Hit:* 11 (2d6 + 4) psychic damage, and the target must subtract 1d4 from the next attack roll or saving throw it makes before the end of the goblin's next turn."
+          "*Melee Weapon or Ranged Weapon Attack:* +6 to hit, reach 5 ft. or range 60 ft., one creature. *Hit:* 11 (2d6 + 4) psychic damage, and the target must subtract 1d4 from the next attack roll or saving throw it makes before the end of the goblin's next turn."
         ]
       },
       {
@@ -930,13 +930,13 @@
       {
         "name": "Beak",
         "entries": [
-          "*Melee Weapon Attack:* 5 to hit, reach 5 ft., one target. *Hit:* 10 (3d4 + 3) piercing damage."
+          "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 10 (3d4 + 3) piercing damage."
         ]
       },
       {
         "name": "Tentacle",
         "entries": [
-          "*Melee Weapon Attack:* 5 to hit, reach 10 ft., one target. *Hit:* 8 (1d10 + 3) piercing damage, and the target must succeed on a DC 11 Constitution saving throw or have the poisoned condition for 1 minute. While the target is poisoned, it also has the paralyzed condition. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. The target also has the grappled condition (escape DC 16). While grappling the target, the grell can't make Tentacle attacks against other targets. When the grell moves, any Medium or smaller target it is grappling moves with it."
+          "*Melee Weapon Attack:* +5 to hit, reach 10 ft., one target. *Hit:* 8 (1d10 + 3) piercing damage, and the target must succeed on a DC 11 Constitution saving throw or have the poisoned condition for 1 minute. While the target is poisoned, it also has the paralyzed condition. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. The target also has the grappled condition (escape DC 16). While grappling the target, the grell can't make Tentacle attacks against other targets. When the grell moves, any Medium or smaller target it is grappling moves with it."
         ]
       }
     ],
@@ -1125,13 +1125,13 @@
       {
         "name": "Unarmed Strike",
         "entries": [
-          "*Melee Weapon Attack:* 6 to hit, reach 5 ft., one target. *Hit:* 7 (1d6 + 4) bludgeoning damage plus 10 (3d6) psychic damage."
+          "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 7 (1d6 + 4) bludgeoning damage plus 10 (3d6) psychic damage."
         ]
       },
       {
         "name": "Nightmare Blast",
         "entries": [
-          "*Ranged Weapon Attack:* 6 to hit, range 60 ft., one creature. *Hit:* 7 (2d6) psychic damage, and the target must succeed on a DC 12 Wisdom saving throw or have the frightened condition until the start of the mutate's next turn."
+          "*Ranged Weapon Attack:* +6 to hit, range 60 ft., one creature. *Hit:* 7 (2d6) psychic damage, and the target must succeed on a DC 12 Wisdom saving throw or have the frightened condition until the start of the mutate's next turn."
         ]
       }
     ],
@@ -1202,7 +1202,7 @@
       {
         "name": "Shocking Burst",
         "entries": [
-          "*Melee Spell or Ranged Spell Attack:* 5 to hit, reach 5 ft. or range 120 ft., one target. *Hit:* 6 (1d6 + 3) lightning damage."
+          "*Melee Spell or Ranged Spell Attack:* +5 to hit, reach 5 ft. or range 120 ft., one target. *Hit:* 6 (1d6 + 3) lightning damage."
         ]
       }
     ],
@@ -1284,7 +1284,7 @@
       {
         "name": "Tentacle",
         "entries": [
-          "*Melee Weapon Attack:* 6 to hit, reach 30 ft., one target. *Hit:* 15 (3d8 + 2) bludgeoning damage. If the target is a Huge or smaller creature, it has the grappled condition (escape DC 14) and takes 9 (1d8 + 5) psychic damage at the start of each of its turns until the grapple ends. The elder brain can have up to four targets grappled at a time."
+          "*Melee Weapon Attack:* +6 to hit, reach 30 ft., one target. *Hit:* 15 (3d8 + 2) bludgeoning damage. If the target is a Huge or smaller creature, it has the grappled condition (escape DC 14) and takes 9 (1d8 + 5) psychic damage at the start of each of its turns until the grapple ends. The elder brain can have up to four targets grappled at a time."
         ]
       },
       {
@@ -1384,7 +1384,7 @@
       {
         "name": "Tentacle",
         "entries": [
-          "*Melee Weapon Attack:* 9 to hit, reach 15 ft., one target. *Hit:* 10 (1d8 + 6) force damage, and if the target is a Medium or smaller creature, the target has the grappled condition (escape DC 17)."
+          "*Melee Weapon Attack:* +9 to hit, reach 15 ft., one target. *Hit:* 10 (1d8 + 6) force damage, and if the target is a Medium or smaller creature, the target has the grappled condition (escape DC 17)."
         ]
       }
     ],
@@ -1481,13 +1481,13 @@
       {
         "name": "Bite",
         "entries": [
-          "*Melee Weapon Attack:* 9 to hit, reach 10 ft., one target. *Hit:* 16 (2d10 + 5) piercing damage plus 4 (1d8) force damage."
+          "*Melee Weapon Attack:* +9 to hit, reach 10 ft., one target. *Hit:* 16 (2d10 + 5) piercing damage plus 4 (1d8) force damage."
         ]
       },
       {
         "name": "Claw",
         "entries": [
-          "*Melee Weapon Attack:* 9 to hit, reach 5 ft., one target. *Hit:* 9 (1d8 + 5) slashing damage."
+          "*Melee Weapon Attack:* +9 to hit, reach 5 ft., one target. *Hit:* 9 (1d8 + 5) slashing damage."
         ]
       },
       {
@@ -1598,13 +1598,13 @@
       {
         "name": "Tentacle",
         "entries": [
-          "*Melee Weapon Attack:* 9 to hit, reach 5 ft., one creature. *Hit:* 21 (3d10 + 5) psychic damage. If the target is Medium or smaller, it has the grappled condition (escape DC 17) and must succeed on a DC 17 Intelligence saving throw or have the incapacitated condition until the grapple ends."
+          "*Melee Weapon Attack:* +9 to hit, reach 5 ft., one creature. *Hit:* 21 (3d10 + 5) psychic damage. If the target is Medium or smaller, it has the grappled condition (escape DC 17) and must succeed on a DC 17 Intelligence saving throw or have the incapacitated condition until the grapple ends."
         ]
       },
       {
         "name": "Extract Brain",
         "entries": [
-          "*Melee Weapon Attack:* 9 to hit, reach 5 ft., one incapacitated Humanoid grappled by the mind flayer. *Hit:* 55 (10d10) piercing damage. If this damage reduces the target to 0 hit points, the mind flayer kills it by extracting and devouring its brain."
+          "*Melee Weapon Attack:* +9 to hit, reach 5 ft., one incapacitated Humanoid grappled by the mind flayer. *Hit:* 55 (10d10) piercing damage. If this damage reduces the target to 0 hit points, the mind flayer kills it by extracting and devouring its brain."
         ]
       },
       {
@@ -1708,13 +1708,13 @@
       {
         "name": "Tentacles",
         "entries": [
-          "*Melee Weapon Attack:* 8 to hit, reach 5 ft., one creature. *Hit:* 16 (2d10 + 5) psychic damage. If the target is Medium or smaller, it has the grappled condition (escape DC 16) and must succeed on a DC 16 Intelligence saving throw or have the stunned condition until the grapple ends."
+          "*Melee Weapon Attack:* +8 to hit, reach 5 ft., one creature. *Hit:* 16 (2d10 + 5) psychic damage. If the target is Medium or smaller, it has the grappled condition (escape DC 16) and must succeed on a DC 16 Intelligence saving throw or have the stunned condition until the grapple ends."
         ]
       },
       {
         "name": "Extract Brain",
         "entries": [
-          "*Melee Weapon Attack:* 8 to hit, reach 5 ft., one Humanoid grappled by the mind flayer. *Hit:* 55 (10d10) piercing damage. If this damage reduces the target to 0 hit points, the mind flayer kills it by extracting and devouring its brain."
+          "*Melee Weapon Attack:* +8 to hit, reach 5 ft., one Humanoid grappled by the mind flayer. *Hit:* 55 (10d10) piercing damage. If this damage reduces the target to 0 hit points, the mind flayer kills it by extracting and devouring its brain."
         ]
       },
       {
@@ -1850,7 +1850,7 @@
       {
         "name": "Poison Blast",
         "entries": [
-          "*Melee Spell or Ranged Spell Attack:* 5 to hit, reach 5 ft. or range 120 ft., one creature. *Hit:* 9 (2d8) poison damage."
+          "*Melee Spell or Ranged Spell Attack:* +5 to hit, reach 5 ft. or range 120 ft., one creature. *Hit:* 9 (2d8) poison damage."
         ]
       }
     ],
@@ -1964,13 +1964,13 @@
       {
         "name": "Dreadful Contact",
         "entries": [
-          "*Melee Weapon Attack:* 5 to hit, reach 5 ft., one creature. *Hit:* 14 (3d6 + 4) psychic damage, or 25 (6d6 + 4) psychic damage if the target has the frightened condition."
+          "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one creature. *Hit:* 14 (3d6 + 4) psychic damage, or 25 (6d6 + 4) psychic damage if the target has the frightened condition."
         ]
       },
       {
         "name": "Eye Beam",
         "entries": [
-          "*Ranged Spell Attack:* 8 to hit, range 120 ft., one creature. *Hit:* 14 (3d6 + 4) psychic damage."
+          "*Ranged Spell Attack:* +8 to hit, range 120 ft., one creature. *Hit:* 14 (3d6 + 4) psychic damage."
         ]
       },
       {
@@ -2086,13 +2086,13 @@
       {
         "name": "Chilling Grasp",
         "entries": [
-          "*Melee Spell Attack:* 8 to hit, reach 5 ft., one target. *Hit:* 14 (4d6) cold damage, and Oshundo regains 14 hit points if the target is a creature."
+          "*Melee Spell Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 14 (4d6) cold damage, and Oshundo regains 14 hit points if the target is a creature."
         ]
       },
       {
         "name": "Arcane Bolt",
         "entries": [
-          "*Ranged Spell Attack:* 8 to hit, range 120 ft., one target. *Hit:* 28 (8d6) force damage."
+          "*Ranged Spell Attack:* +8 to hit, range 120 ft., one target. *Hit:* 28 (8d6) force damage."
         ]
       },
       {
@@ -2159,13 +2159,13 @@
       {
         "name": "Bite",
         "entries": [
-          "*Melee Weapon Attack:* 7 to hit, reach 5 ft., one target. *Hit:* 13 (2d8 + 4) piercing damage. If the target is a creature, it must succeed on a DC 15 Constitution saving throw or have the poisoned condition. Every 24 hours that elapse, the target must repeat the saving throw, reducing its hit point maximum by 5 (1d10) on a failure. On a successful save, the target is no longer poisoned. The target dies if its hit point maximum is reduced to 0. This reduction to the target's hit point maximum lasts until it no longer has the poisoned condition."
+          "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 13 (2d8 + 4) piercing damage. If the target is a creature, it must succeed on a DC 15 Constitution saving throw or have the poisoned condition. Every 24 hours that elapse, the target must repeat the saving throw, reducing its hit point maximum by 5 (1d10) on a failure. On a successful save, the target is no longer poisoned. The target dies if its hit point maximum is reduced to 0. This reduction to the target's hit point maximum lasts until it no longer has the poisoned condition."
         ]
       },
       {
         "name": "Tentacle",
         "entries": [
-          "*Melee Weapon Attack:* 7 to hit, reach 10 ft., one target. *Hit:* 13 (2d8 + 4) bludgeoning damage, and if the target is a Medium or smaller creature, it has the grappled condition (escape DC 15) and the restrained condition until this grapple ends. The mutate has two tentacles that can grapple one target each."
+          "*Melee Weapon Attack:* +7 to hit, reach 10 ft., one target. *Hit:* 13 (2d8 + 4) bludgeoning damage, and if the target is a Medium or smaller creature, it has the grappled condition (escape DC 15) and the restrained condition until this grapple ends. The mutate has two tentacles that can grapple one target each."
         ]
       },
       {
@@ -2228,7 +2228,7 @@
       {
         "name": "Necrotic Shard",
         "entries": [
-          "*Melee Weapon or Ranged Weapon Attack:* 7 to hit, reach 5 ft. or range 60 ft., one target. *Hit:* 7 (1d6 + 4) piercing damage plus 9 (2d8) necrotic damage. If the target is a creature, it has disadvantage on the next attack roll it makes before the end of its next turn."
+          "*Melee Weapon or Ranged Weapon Attack:* +7 to hit, reach 5 ft. or range 60 ft., one target. *Hit:* 7 (1d6 + 4) piercing damage plus 9 (2d8) necrotic damage. If the target is a creature, it has disadvantage on the next attack roll it makes before the end of its next turn."
         ]
       },
       {
@@ -2336,19 +2336,19 @@
       {
         "name": "Tentacle",
         "entries": [
-          "*Melee Weapon Attack:* 8 to hit, reach 5 ft., one creature. *Hit:* 15 (2d10 + 4) psychic damage. If the target is Medium or smaller, it has the grappled condition (escape DC 16) and must succeed on a DC 16 Intelligence saving throw or have the stunned condition until the grapple ends."
+          "*Melee Weapon Attack:* +8 to hit, reach 5 ft., one creature. *Hit:* 15 (2d10 + 4) psychic damage. If the target is Medium or smaller, it has the grappled condition (escape DC 16) and must succeed on a DC 16 Intelligence saving throw or have the stunned condition until the grapple ends."
         ]
       },
       {
         "name": "Eldritch Bolt",
         "entries": [
-          "*Ranged Spell Attack:* 8 to hit, range 120 ft., one target. *Hit:* 20 (3d10 + 4) force damage."
+          "*Ranged Spell Attack:* +8 to hit, range 120 ft., one target. *Hit:* 20 (3d10 + 4) force damage."
         ]
       },
       {
         "name": "Extract Brain",
         "entries": [
-          "*Melee Weapon Attack:* 8 to hit, reach 5 ft., one Humanoid with the stunned condition who is grappled by Qunbraxel. *Hit:* 55 (10d10) piercing damage. If this damage reduces the target to 0 hit points, Qunbraxel kills it by extracting and devouring its brain."
+          "*Melee Weapon Attack:* +8 to hit, reach 5 ft., one Humanoid with the stunned condition who is grappled by Qunbraxel. *Hit:* 55 (10d10) piercing damage. If this damage reduces the target to 0 hit points, Qunbraxel kills it by extracting and devouring its brain."
         ]
       },
       {
@@ -2395,7 +2395,7 @@
       {
         "name": "Shortsword",
         "entries": [
-          "*Melee Weapon Attack:* 4 to hit, reach 5 ft., one target. *Hit:* 5 (1d6 + 2) piercing damage."
+          "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 5 (1d6 + 2) piercing damage."
         ]
       }
     ],
@@ -2478,7 +2478,7 @@
       {
         "name": "Dissonant Claw",
         "entries": [
-          "*Melee Weapon Attack:* 11 to hit, reach 10 ft. or range 120 ft., one creature. *Hit:* 25 (3d12 + 6) psychic damage. If the target is a creature concentration on a spell, its concentration is broken."
+          "*Melee Weapon Attack:* +11 to hit, reach 10 ft. or range 120 ft., one creature. *Hit:* 25 (3d12 + 6) psychic damage. If the target is a creature concentration on a spell, its concentration is broken."
         ]
       },
       {
@@ -2590,7 +2590,7 @@
       {
         "name": "Psi-Charged Scimitar",
         "entries": [
-          "*Melee Weapon Attack:* 7 to hit, reach 5 ft., one target. *Hit:* 11 (2d6 + 4) slashing damage plus 7 (2d6) psychic damage."
+          "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 11 (2d6 + 4) slashing damage plus 7 (2d6) psychic damage."
         ]
       }
     ],
@@ -2677,13 +2677,13 @@
       {
         "name": "Longsword",
         "entries": [
-          "*Melee Weapon Attack:* 3 to hit, reach 5 ft., one target. *Hit:* 5 (1d8 + 1) slashing damage, or 6 (1d10 + 1) slashing damage if used with two hands."
+          "*Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 5 (1d8 + 1) slashing damage, or 6 (1d10 + 1) slashing damage if used with two hands."
         ]
       },
       {
         "name": "Heavy Crossbow",
         "entries": [
-          "*Ranged Weapon Attack:* 2 to hit, range 100/400 ft., one target. *Hit:* 5 (1d10) piercing damage."
+          "*Ranged Weapon Attack:* +2 to hit, range 100/400 ft., one target. *Hit:* 5 (1d10) piercing damage."
         ]
       }
     ],

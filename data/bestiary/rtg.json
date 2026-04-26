@@ -67,7 +67,7 @@
       {
         "name": "Spellcasting",
         "entries": [
-          "Dirt-Under-Nails is a 17th level spellcaster. His spellcasting ability is Charisma (spell save DC 17, 9 to hit with spell attacks). He regains his expended spell slots when he finishes a short or long rest. He knows the following warlock spells:",
+          "Dirt-Under-Nails is a 17th level spellcaster. His spellcasting ability is Charisma (spell save DC 17, +9 to hit with spell attacks). He regains his expended spell slots when he finishes a short or long rest. He knows the following warlock spells:",
           "0: chill touch, eldritch blast, friends, mage hand, minor illusion, prestidigitation, shocking grasp",
           "5 (4 slots): armor of Agathys, banishment, burning hands, cloudkill, flame strike, magic circle, scorching ray, scrying, stinking cloud, suggestion"
         ]
@@ -77,7 +77,7 @@
       {
         "name": "Mace",
         "entries": [
-          "*Melee Weapon Attack:* 3 to hit, reach 5 ft., one target. *Hit:* 3 (1d6) bludgeoning damage plus 10 (3d6) fire damage."
+          "*Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 3 (1d6) bludgeoning damage plus 10 (3d6) fire damage."
         ]
       }
     ],
@@ -155,7 +155,7 @@
       {
         "name": "Club",
         "entries": [
-          "*Melee Weapon Attack:* 7 to hit, reach 5 ft., one target. *Hit:* 14 (4d4 + 4) bludgeoning damage."
+          "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 14 (4d4 + 4) bludgeoning damage."
         ]
       }
     ],

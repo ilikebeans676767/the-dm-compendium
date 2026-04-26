@@ -45,7 +45,7 @@
       {
         "name": "Fire Strike",
         "entries": [
-          "*Melee Spell or Ranged Spell Attack:* 5 to hit, reach 5 ft. or range 60 ft., one target. *Hit:* 10 (2d6 + 3) fire damage."
+          "*Melee Spell or Ranged Spell Attack:* +5 to hit, reach 5 ft. or range 60 ft., one target. *Hit:* 10 (2d6 + 3) fire damage."
         ]
       },
       {
@@ -109,7 +109,7 @@
       {
         "name": "Arcane Blast",
         "entries": [
-          "*Melee Spell or Ranged Spell Attack:* 6 to hit, reach 5 ft. or range 120 ft., one target. *Hit:* 13 (3d6 + 3) force damage."
+          "*Melee Spell or Ranged Spell Attack:* +6 to hit, reach 5 ft. or range 120 ft., one target. *Hit:* 13 (3d6 + 3) force damage."
         ]
       },
       {

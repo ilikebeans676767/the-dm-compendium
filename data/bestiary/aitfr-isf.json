@@ -35,7 +35,7 @@
       {
         "name": "Innate Spellcasting",
         "entries": [
-          "Exul's innate spellcasting ability is Charisma (spell save DC 15, 7 to hit with spell attacks). He can innately cast the following spells, requiring no material components:",
+          "Exul's innate spellcasting ability is Charisma (spell save DC 15, +7 to hit with spell attacks). He can innately cast the following spells, requiring no material components:",
           "At will: detect magic",
           "3e/day: comprehend languages, tongues",
           "1e/day: conjure elemental (earth or fire elemental only), invisibility, major image, plane shift, wall of fire"
@@ -52,13 +52,13 @@
       {
         "name": "Handaxe",
         "entries": [
-          "*Melee Weapon Attack:* 10 to hit, reach 5 ft., one target. *Hit:* 13 (2d6 + 6) slashing damage plus 3 (1d6) fire damage."
+          "*Melee Weapon Attack:* +10 to hit, reach 5 ft., one target. *Hit:* 13 (2d6 + 6) slashing damage plus 3 (1d6) fire damage."
         ]
       },
       {
         "name": "Hurl Flame",
         "entries": [
-          "*Ranged Spell Attack:* 7 to hit, range 120 ft., one target. *Hit:* 17 (5d6) fire damage."
+          "*Ranged Spell Attack:* +7 to hit, range 120 ft., one target. *Hit:* 17 (5d6) fire damage."
         ]
       }
     ],
@@ -106,7 +106,7 @@
       {
         "name": "Spellcasting",
         "entries": [
-          "Malivar is a 9th-level spellcaster. His spellcasting ability is Intelligence (spell save DC 14, 6 to hit with spell attacks). He has the following wizard spells prepared:",
+          "Malivar is a 9th-level spellcaster. His spellcasting ability is Intelligence (spell save DC 14, +6 to hit with spell attacks). He has the following wizard spells prepared:",
           "0: acid splash, mage hand, poison spray, prestidigitation",
           "1 (4 slots): mage armor, magic missile, unseen servant*",
           "2 (3 slots): cloud of daggers*, misty step*, web*",
@@ -121,7 +121,7 @@
       {
         "name": "Dagger",
         "entries": [
-          "*Melee Weapon or Ranged Weapon Attack:* 5 to hit, reach 5 ft. or range 20/60 ft., one target. *Hit:* 4 (1d4 + 2) piercing damage."
+          "*Melee Weapon or Ranged Weapon Attack:* +5 to hit, reach 5 ft. or range 20/60 ft., one target. *Hit:* 4 (1d4 + 2) piercing damage."
         ]
       }
     ],

@@ -57,13 +57,13 @@
       {
         "name": "Bite",
         "entries": [
-          "*Melee Weapon Attack:* 12 to hit, reach 10 ft., one target. *Hit:* 18 (2d10 + 7) piercing damage plus 9 (2d8) force damage."
+          "*Melee Weapon Attack:* +12 to hit, reach 10 ft., one target. *Hit:* 18 (2d10 + 7) piercing damage plus 9 (2d8) force damage."
         ]
       },
       {
         "name": "Claw",
         "entries": [
-          "*Melee Weapon Attack:* 12 to hit, reach 10 ft., one target. *Hit:* 11 (1d8 + 7) slashing damage."
+          "*Melee Weapon Attack:* +12 to hit, reach 10 ft., one target. *Hit:* 11 (1d8 + 7) slashing damage."
         ]
       },
       {
@@ -165,13 +165,13 @@
       {
         "name": "Bite",
         "entries": [
-          "*Melee Weapon Attack:* 9 to hit, reach 10 ft., one target. *Hit:* 16 (2d10 + 5) piercing damage plus 4 (1d8) radiant damage."
+          "*Melee Weapon Attack:* +9 to hit, reach 10 ft., one target. *Hit:* 16 (2d10 + 5) piercing damage plus 4 (1d8) radiant damage."
         ]
       },
       {
         "name": "Claw",
         "entries": [
-          "*Melee Weapon Attack:* 9 to hit, reach 5 ft., one target. *Hit:* 9 (1d8 + 5) slashing damage."
+          "*Melee Weapon Attack:* +9 to hit, reach 5 ft., one target. *Hit:* 9 (1d8 + 5) slashing damage."
         ]
       },
       {
@@ -263,19 +263,19 @@
       {
         "name": "Bite",
         "entries": [
-          "*Melee Weapon Attack:* 9 to hit, reach 10 ft., one target. *Hit:* 16 (2d10 + 5) piercing damage plus 5 (1d10) poison damage."
+          "*Melee Weapon Attack:* +9 to hit, reach 10 ft., one target. *Hit:* 16 (2d10 + 5) piercing damage plus 5 (1d10) poison damage."
         ]
       },
       {
         "name": "Claw",
         "entries": [
-          "*Melee Weapon Attack:* 9 to hit, reach 5 ft., one target. *Hit:* 8 (1d6 + 5) slashing damage."
+          "*Melee Weapon Attack:* +9 to hit, reach 5 ft., one target. *Hit:* 8 (1d6 + 5) slashing damage."
         ]
       },
       {
         "name": "Tail",
         "entries": [
-          "*Melee Weapon Attack:* 9 to hit, reach 15 ft., one target. *Hit:* 9 (1d8 + 5) bludgeoning damage. If the target is a creature, it must succeed on a DC 17 Strength saving throw or be knocked prone."
+          "*Melee Weapon Attack:* +9 to hit, reach 15 ft., one target. *Hit:* 9 (1d8 + 5) bludgeoning damage. If the target is a creature, it must succeed on a DC 17 Strength saving throw or be knocked prone."
         ]
       },
       {
@@ -382,13 +382,13 @@
       {
         "name": "Bite",
         "entries": [
-          "*Melee Weapon Attack:* 11 to hit, reach 10 ft., one target. *Hit:* 17 (2d10 + 6) piercing damage plus 7 (2d6) psychic damage."
+          "*Melee Weapon Attack:* +11 to hit, reach 10 ft., one target. *Hit:* 17 (2d10 + 6) piercing damage plus 7 (2d6) psychic damage."
         ]
       },
       {
         "name": "Claw",
         "entries": [
-          "*Melee Weapon Attack:* 11 to hit, reach 5 ft., one target. *Hit:* 10 (1d8 + 6) slashing damage."
+          "*Melee Weapon Attack:* +11 to hit, reach 5 ft., one target. *Hit:* 10 (1d8 + 6) slashing damage."
         ]
       },
       {
@@ -490,19 +490,19 @@
       {
         "name": "Bite",
         "entries": [
-          "*Melee Weapon Attack:* 10 to hit, reach 10 ft., one target. *Hit:* 16 (2d10 + 5) piercing damage plus 7 (2d6) radiant damage."
+          "*Melee Weapon Attack:* +10 to hit, reach 10 ft., one target. *Hit:* 16 (2d10 + 5) piercing damage plus 7 (2d6) radiant damage."
         ]
       },
       {
         "name": "Claw",
         "entries": [
-          "*Melee Weapon Attack:* 10 to hit, reach 5 ft., one target. *Hit:* 12 (2d6 + 5) slashing damage."
+          "*Melee Weapon Attack:* +10 to hit, reach 5 ft., one target. *Hit:* 12 (2d6 + 5) slashing damage."
         ]
       },
       {
         "name": "Tail",
         "entries": [
-          "*Melee Weapon Attack:* 10 to hit, reach 15 ft., one target. *Hit:* 9 (1d8 + 5) bludgeoning damage. If the target is a creature, it must succeed on a DC 18 Strength saving throw or be knocked prone."
+          "*Melee Weapon Attack:* +10 to hit, reach 15 ft., one target. *Hit:* 9 (1d8 + 5) bludgeoning damage. If the target is a creature, it must succeed on a DC 18 Strength saving throw or be knocked prone."
         ]
       },
       {
@@ -597,13 +597,13 @@
       {
         "name": "Bite",
         "entries": [
-          "*Melee Weapon Attack:* 11 to hit, reach 10 ft., one target. *Hit:* 17 (2d10 + 6) piercing damage plus 5 (1d10) thunder damage."
+          "*Melee Weapon Attack:* +11 to hit, reach 10 ft., one target. *Hit:* 17 (2d10 + 6) piercing damage plus 5 (1d10) thunder damage."
         ]
       },
       {
         "name": "Claw",
         "entries": [
-          "*Melee Weapon Attack:* 11 to hit, reach 5 ft., one target. *Hit:* 10 (1d8 + 6) slashing damage."
+          "*Melee Weapon Attack:* +11 to hit, reach 5 ft., one target. *Hit:* 10 (1d8 + 6) slashing damage."
         ]
       },
       {
@@ -716,13 +716,13 @@
       {
         "name": "Bite",
         "entries": [
-          "*Melee Weapon Attack:* 9 to hit, reach 10 ft., one target. *Hit:* 15 (2d10 + 4) piercing damage plus 3 (1d6) necrotic damage."
+          "*Melee Weapon Attack:* +9 to hit, reach 10 ft., one target. *Hit:* 15 (2d10 + 4) piercing damage plus 3 (1d6) necrotic damage."
         ]
       },
       {
         "name": "Claw",
         "entries": [
-          "*Melee Weapon Attack:* 9 to hit, reach 5 ft., one target. *Hit:* 8 (1d8 + 4) slashing damage."
+          "*Melee Weapon Attack:* +9 to hit, reach 5 ft., one target. *Hit:* 8 (1d8 + 4) slashing damage."
         ]
       },
       {
@@ -817,7 +817,7 @@
       {
         "name": "Bite",
         "entries": [
-          "*Melee Weapon Attack:* 6 to hit, reach 5 ft., one target. *Hit:* 9 (1d10 + 4) piercing damage plus 4 (1d8) force damage."
+          "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 9 (1d10 + 4) piercing damage plus 4 (1d8) force damage."
         ]
       },
       {
@@ -882,7 +882,7 @@
       {
         "name": "Spellcasting (Psionics)",
         "entries": [
-          "The greatwyrm casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save DC 26, 18 to hit with spell attack):",
+          "The greatwyrm casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save DC 26, +18 to hit with spell attack):",
           "1e/day: dispel magic, forcecage, plane shift, reverse gravity, time stop"
         ],
         "displayAs": "action"
@@ -898,13 +898,13 @@
       {
         "name": "Bite",
         "entries": [
-          "*Melee Weapon Attack:* 17 to hit, reach 15 ft., one target. *Hit:* 20 (2d10 + 9) piercing damage plus 16 (3d10) force damage."
+          "*Melee Weapon Attack:* +17 to hit, reach 15 ft., one target. *Hit:* 20 (2d10 + 9) piercing damage plus 16 (3d10) force damage."
         ]
       },
       {
         "name": "Claw",
         "entries": [
-          "*Melee Weapon Attack:* 17 to hit, reach 10 ft., one target. *Hit:* 18 (2d8 + 9) slashing damage. If the target is a Huge or smaller creature, it is grappled (escape DC 19) and is restrained until this grapple ends. The greatwyrm can have only one creature grappled in this way at a time."
+          "*Melee Weapon Attack:* +17 to hit, reach 10 ft., one target. *Hit:* 18 (2d8 + 9) slashing damage. If the target is a Huge or smaller creature, it is grappled (escape DC 19) and is restrained until this grapple ends. The greatwyrm can have only one creature grappled in this way at a time."
         ]
       },
       {
@@ -1002,7 +1002,7 @@
       {
         "name": "Spellcasting (Psionics)",
         "entries": [
-          "The dragon casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save DC 23, 15 to hit with spell attacks):",
+          "The dragon casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save DC 23, +15 to hit with spell attacks):",
           "1e/day: blink, control water, dispel magic, freedom of movement, globe of invulnerability, plane shift, protection from evil and good, sending"
         ],
         "displayAs": "action"
@@ -1018,13 +1018,13 @@
       {
         "name": "Bite",
         "entries": [
-          "*Melee Weapon Attack:* 15 to hit, reach 15 ft., one target. *Hit:* 19 (2d10 + 8) piercing damage plus 13 (3d8) force damage."
+          "*Melee Weapon Attack:* +15 to hit, reach 15 ft., one target. *Hit:* 19 (2d10 + 8) piercing damage plus 13 (3d8) force damage."
         ]
       },
       {
         "name": "Claw",
         "entries": [
-          "*Melee Weapon Attack:* 15 to hit, reach 10 ft., one target. *Hit:* 15 (2d6 + 8) slashing damage."
+          "*Melee Weapon Attack:* +15 to hit, reach 10 ft., one target. *Hit:* 15 (2d6 + 8) slashing damage."
         ]
       },
       {
@@ -1126,13 +1126,13 @@
       {
         "name": "Bite",
         "entries": [
-          "*Melee Weapon Attack:* 13 to hit, reach 15 ft., one target. *Hit:* 18 (2d10 + 7) piercing damage plus 9 (2d8) radiant damage."
+          "*Melee Weapon Attack:* +13 to hit, reach 15 ft., one target. *Hit:* 18 (2d10 + 7) piercing damage plus 9 (2d8) radiant damage."
         ]
       },
       {
         "name": "Claw",
         "entries": [
-          "*Melee Weapon Attack:* 13 to hit, reach 10 ft., one target. *Hit:* 14 (2d6 + 7) slashing damage."
+          "*Melee Weapon Attack:* +13 to hit, reach 10 ft., one target. *Hit:* 14 (2d6 + 7) slashing damage."
         ]
       },
       {
@@ -1224,19 +1224,19 @@
       {
         "name": "Bite",
         "entries": [
-          "*Melee Weapon Attack:* 12 to hit, reach 10 ft., one target. *Hit:* 17 (2d10 + 6) piercing damage plus 11 (2d10) poison damage."
+          "*Melee Weapon Attack:* +12 to hit, reach 10 ft., one target. *Hit:* 17 (2d10 + 6) piercing damage plus 11 (2d10) poison damage."
         ]
       },
       {
         "name": "Claw",
         "entries": [
-          "*Melee Weapon Attack:* 12 to hit, reach 5 ft., one target. *Hit:* 13 (2d6 + 6) slashing damage."
+          "*Melee Weapon Attack:* +12 to hit, reach 5 ft., one target. *Hit:* 13 (2d6 + 6) slashing damage."
         ]
       },
       {
         "name": "Tail",
         "entries": [
-          "*Melee Weapon Attack:* 12 to hit, reach 15 ft., one target. *Hit:* 10 (1d8 + 6) bludgeoning damage. If the target is a creature, it must succeed on a DC 20 Strength saving throw or be knocked prone."
+          "*Melee Weapon Attack:* +12 to hit, reach 15 ft., one target. *Hit:* 10 (1d8 + 6) bludgeoning damage. If the target is a creature, it must succeed on a DC 20 Strength saving throw or be knocked prone."
         ]
       },
       {
@@ -1339,19 +1339,19 @@
       {
         "name": "Bite",
         "entries": [
-          "*Melee Weapon Attack:* 16 to hit, reach 15 ft., one target. *Hit:* 15 (1d12 + 9) piercing damage plus 13 (2d12) lightning damage."
+          "*Melee Weapon Attack:* +16 to hit, reach 15 ft., one target. *Hit:* 15 (1d12 + 9) piercing damage plus 13 (2d12) lightning damage."
         ]
       },
       {
         "name": "Claw",
         "entries": [
-          "*Melee Weapon Attack:* 16 to hit, reach 15 ft., one target. *Hit:* 18 (2d8 + 9) slashing damage."
+          "*Melee Weapon Attack:* +16 to hit, reach 15 ft., one target. *Hit:* 18 (2d8 + 9) slashing damage."
         ]
       },
       {
         "name": "Tail",
         "entries": [
-          "*Melee Weapon Attack:* 16 to hit, reach 15 ft., one target. *Hit:* 20 (2d10 + 9) bludgeoning damage. If the target is a creature, it must succeed on a DC 24 Strength saving throw or be knocked prone."
+          "*Melee Weapon Attack:* +16 to hit, reach 15 ft., one target. *Hit:* 20 (2d10 + 9) bludgeoning damage. If the target is a creature, it must succeed on a DC 24 Strength saving throw or be knocked prone."
         ]
       },
       {
@@ -1465,13 +1465,13 @@
       {
         "name": "Bite",
         "entries": [
-          "*Melee Weapon Attack:* 14 to hit, reach 15 ft., one target. *Hit:* 18 (2d10 + 7) piercing damage plus 10 (3d6) psychic damage."
+          "*Melee Weapon Attack:* +14 to hit, reach 15 ft., one target. *Hit:* 18 (2d10 + 7) piercing damage plus 10 (3d6) psychic damage."
         ]
       },
       {
         "name": "Claw",
         "entries": [
-          "*Melee Weapon Attack:* 14 to hit, reach 10 ft., one target. *Hit:* 14 (2d6 + 7) slashing damage."
+          "*Melee Weapon Attack:* +14 to hit, reach 10 ft., one target. *Hit:* 14 (2d6 + 7) slashing damage."
         ]
       },
       {
@@ -1573,19 +1573,19 @@
       {
         "name": "Bite",
         "entries": [
-          "*Melee Weapon Attack:* 13 to hit, reach 15 ft., one target. *Hit:* 17 (2d10 + 6) piercing damage plus 11 (2d10) radiant damage."
+          "*Melee Weapon Attack:* +13 to hit, reach 15 ft., one target. *Hit:* 17 (2d10 + 6) piercing damage plus 11 (2d10) radiant damage."
         ]
       },
       {
         "name": "Claw",
         "entries": [
-          "*Melee Weapon Attack:* 13 to hit, reach 10 ft., one target. *Hit:* 13 (2d6 + 6) slashing damage."
+          "*Melee Weapon Attack:* +13 to hit, reach 10 ft., one target. *Hit:* 13 (2d6 + 6) slashing damage."
         ]
       },
       {
         "name": "Tail",
         "entries": [
-          "*Melee Weapon Attack:* 13 to hit, reach 20 ft., one target. *Hit:* 10 (1d8 + 6) bludgeoning damage. If the target is a creature, it must succeed on a DC 21 Strength saving throw or be knocked prone."
+          "*Melee Weapon Attack:* +13 to hit, reach 20 ft., one target. *Hit:* 10 (1d8 + 6) bludgeoning damage. If the target is a creature, it must succeed on a DC 21 Strength saving throw or be knocked prone."
         ]
       },
       {
@@ -1680,13 +1680,13 @@
       {
         "name": "Bite",
         "entries": [
-          "*Melee Weapon Attack:* 15 to hit, reach 15 ft., one target. *Hit:* 19 (2d10 + 8) piercing damage plus 11 (2d10) thunder damage."
+          "*Melee Weapon Attack:* +15 to hit, reach 15 ft., one target. *Hit:* 19 (2d10 + 8) piercing damage plus 11 (2d10) thunder damage."
         ]
       },
       {
         "name": "Claw",
         "entries": [
-          "*Melee Weapon Attack:* 15 to hit, reach 10 ft., one target. *Hit:* 15 (2d6 + 8) slashing damage."
+          "*Melee Weapon Attack:* +15 to hit, reach 10 ft., one target. *Hit:* 15 (2d6 + 8) slashing damage."
         ]
       },
       {
@@ -1790,19 +1790,19 @@
       {
         "name": "Bite",
         "entries": [
-          "*Melee Weapon Attack:* 12 to hit, reach 15 ft., one target. *Hit:* 20 (2d12 + 7) piercing damage plus 6 (1d12) cold damage."
+          "*Melee Weapon Attack:* +12 to hit, reach 15 ft., one target. *Hit:* 20 (2d12 + 7) piercing damage plus 6 (1d12) cold damage."
         ]
       },
       {
         "name": "Constrict",
         "entries": [
-          "*Melee Weapon Attack:* 12 to hit, reach 20 ft., one creature. *Hit:* 29 (4d10 + 7) bludgeoning damage, and the target is grappled (escape DC 20). Until this grapple ends, the target is restrained, and the sea serpent can't constrict another target."
+          "*Melee Weapon Attack:* +12 to hit, reach 20 ft., one creature. *Hit:* 29 (4d10 + 7) bludgeoning damage, and the target is grappled (escape DC 20). Until this grapple ends, the target is restrained, and the sea serpent can't constrict another target."
         ]
       },
       {
         "name": "Tail",
         "entries": [
-          "*Melee Weapon Attack:* 12 to hit, reach 20 ft., one target. *Hit:* 13 (1d12 + 7) bludgeoning damage. If the target is a creature, it must succeed on a DC 20 Strength saving throw or be pushed up to 30 feet away from the sea serpent and knocked prone."
+          "*Melee Weapon Attack:* +12 to hit, reach 20 ft., one target. *Hit:* 13 (1d12 + 7) bludgeoning damage. If the target is a creature, it must succeed on a DC 20 Strength saving throw or be pushed up to 30 feet away from the sea serpent and knocked prone."
         ]
       },
       {
@@ -1896,13 +1896,13 @@
       {
         "name": "Bite",
         "entries": [
-          "*Melee Weapon Attack:* 12 to hit, reach 15 ft., one target. *Hit:* 17 (2d10 + 6) piercing damage plus 10 (3d6) necrotic damage."
+          "*Melee Weapon Attack:* +12 to hit, reach 15 ft., one target. *Hit:* 17 (2d10 + 6) piercing damage plus 10 (3d6) necrotic damage."
         ]
       },
       {
         "name": "Claw",
         "entries": [
-          "*Melee Weapon Attack:* 12 to hit, reach 10 ft., one target. *Hit:* 13 (2d6 + 6) slashing damage."
+          "*Melee Weapon Attack:* +12 to hit, reach 10 ft., one target. *Hit:* 13 (2d6 + 6) slashing damage."
         ]
       },
       {
@@ -2006,7 +2006,7 @@
       {
         "name": "Slam",
         "entries": [
-          "*Melee Weapon Attack:* 7 to hit, reach 5 ft., one target. *Hit:* 13 (2d8 + 4) bludgeoning damage plus 11 (2d10) damage of a type determined by the animated breath's form: acid, cold, fire, lightning, or poison."
+          "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 13 (2d8 + 4) bludgeoning damage plus 11 (2d10) damage of a type determined by the animated breath's form: acid, cold, fire, lightning, or poison."
         ]
       }
     ],
@@ -2073,19 +2073,19 @@
       {
         "name": "Bite",
         "entries": [
-          "*Melee Weapon Attack:* 19 to hit, reach 20 ft., one target. *Hit:* 23 (2d12 + 10) piercing damage plus 22 (4d10) force damage."
+          "*Melee Weapon Attack:* +19 to hit, reach 20 ft., one target. *Hit:* 23 (2d12 + 10) piercing damage plus 22 (4d10) force damage."
         ]
       },
       {
         "name": "Claw",
         "entries": [
-          "*Melee Weapon Attack:* 19 to hit, reach 15 ft., one target. *Hit:* 21 (2d10 + 10) slashing damage. If the target is a Huge or smaller creature, it is grappled (escape DC 20) and is restrained until this grapple ends. The aspect can have only one creature grappled this way at a time."
+          "*Melee Weapon Attack:* +19 to hit, reach 15 ft., one target. *Hit:* 21 (2d10 + 10) slashing damage. If the target is a Huge or smaller creature, it is grappled (escape DC 20) and is restrained until this grapple ends. The aspect can have only one creature grappled this way at a time."
         ]
       },
       {
         "name": "Tail",
         "entries": [
-          "*Melee Weapon Attack:* 19 to hit, reach 15 ft., one target. *Hit:* 23 (2d12 + 10) bludgeoning damage. If the target is a creature, it must succeed on a DC 27 Strength saving throw or be knocked prone."
+          "*Melee Weapon Attack:* +19 to hit, reach 15 ft., one target. *Hit:* 23 (2d12 + 10) bludgeoning damage. If the target is a creature, it must succeed on a DC 27 Strength saving throw or be knocked prone."
         ]
       },
       {
@@ -2185,19 +2185,19 @@
       {
         "name": "Bite",
         "entries": [
-          "*Melee Weapon Attack:* 19 to hit, reach 20 ft., one target. *Hit:* 23 (2d12 + 10) piercing damage plus 19 (3d12) force damage."
+          "*Melee Weapon Attack:* +19 to hit, reach 20 ft., one target. *Hit:* 23 (2d12 + 10) piercing damage plus 19 (3d12) force damage."
         ]
       },
       {
         "name": "Claw",
         "entries": [
-          "*Melee Weapon Attack:* 19 to hit, reach 15 ft., one target. *Hit:* 21 (2d10 + 10) slashing damage. If the target is a Huge or smaller creature, it is grappled (escape DC 20) and is restrained until this grapple ends. The aspect can have only one creature grappled this way at a time."
+          "*Melee Weapon Attack:* +19 to hit, reach 15 ft., one target. *Hit:* 21 (2d10 + 10) slashing damage. If the target is a Huge or smaller creature, it is grappled (escape DC 20) and is restrained until this grapple ends. The aspect can have only one creature grappled this way at a time."
         ]
       },
       {
         "name": "Tail",
         "entries": [
-          "*Melee Weapon Attack:* 19 to hit, reach 15 ft., one target. *Hit:* 23 (2d12 + 10) bludgeoning damage. If the target is a creature, it must succeed on a DC 27 Strength saving throw or be knocked prone."
+          "*Melee Weapon Attack:* +19 to hit, reach 15 ft., one target. *Hit:* 23 (2d12 + 10) bludgeoning damage. If the target is a creature, it must succeed on a DC 27 Strength saving throw or be knocked prone."
         ]
       },
       {
@@ -2295,19 +2295,19 @@
       {
         "name": "Bite",
         "entries": [
-          "*Melee Weapon Attack:* 18 to hit, reach 15 ft., one target. *Hit:* 21 (2d10 + 10) piercing damage plus 13 (2d12) force damage."
+          "*Melee Weapon Attack:* +18 to hit, reach 15 ft., one target. *Hit:* 21 (2d10 + 10) piercing damage plus 13 (2d12) force damage."
         ]
       },
       {
         "name": "Claw",
         "entries": [
-          "*Melee Weapon Attack:* 18 to hit, reach 10 ft., one target. *Hit:* 19 (2d8 + 10) slashing damage. If the target is a Huge or smaller creature, it is grappled (escape DC 20) and is restrained until this grapple ends. The greatwyrm can have only one creature grappled this way at a time."
+          "*Melee Weapon Attack:* +18 to hit, reach 10 ft., one target. *Hit:* 19 (2d8 + 10) slashing damage. If the target is a Huge or smaller creature, it is grappled (escape DC 20) and is restrained until this grapple ends. The greatwyrm can have only one creature grappled this way at a time."
         ]
       },
       {
         "name": "Tail",
         "entries": [
-          "*Melee Weapon Attack:* 18 to hit, reach 20 ft., one target. *Hit:* 19 (2d8 + 10) bludgeoning damage. If the target is a creature, it must succeed on a DC 26 Strength saving throw or be knocked prone."
+          "*Melee Weapon Attack:* +18 to hit, reach 20 ft., one target. *Hit:* 19 (2d8 + 10) bludgeoning damage. If the target is a creature, it must succeed on a DC 26 Strength saving throw or be knocked prone."
         ]
       },
       {
@@ -2411,19 +2411,19 @@
       {
         "name": "Bite",
         "entries": [
-          "*Melee Weapon Attack:* 18 to hit, reach 15 ft., one target. *Hit:* 21 (2d10 + 10) piercing damage plus 13 (2d12) force damage."
+          "*Melee Weapon Attack:* +18 to hit, reach 15 ft., one target. *Hit:* 21 (2d10 + 10) piercing damage plus 13 (2d12) force damage."
         ]
       },
       {
         "name": "Claw",
         "entries": [
-          "*Melee Weapon Attack:* 18 to hit, reach 10 ft., one target. *Hit:* 19 (2d8 + 10) slashing damage. If the target is a Huge or smaller creature, it is grappled (escape DC 20) and is restrained until this grapple ends. The greatwyrm can have only one creature grappled this way at a time."
+          "*Melee Weapon Attack:* +18 to hit, reach 10 ft., one target. *Hit:* 19 (2d8 + 10) slashing damage. If the target is a Huge or smaller creature, it is grappled (escape DC 20) and is restrained until this grapple ends. The greatwyrm can have only one creature grappled this way at a time."
         ]
       },
       {
         "name": "Tail",
         "entries": [
-          "*Melee Weapon Attack:* 18 to hit, reach 20 ft., one target. *Hit:* 19 (2d8 + 10) bludgeoning damage. If the target is a creature, it must succeed on a DC 26 Strength saving throw or be knocked prone."
+          "*Melee Weapon Attack:* +18 to hit, reach 20 ft., one target. *Hit:* 19 (2d8 + 10) bludgeoning damage. If the target is a creature, it must succeed on a DC 26 Strength saving throw or be knocked prone."
         ]
       },
       {
@@ -2527,19 +2527,19 @@
       {
         "name": "Bite",
         "entries": [
-          "*Melee Weapon Attack:* 18 to hit, reach 15 ft., one target. *Hit:* 21 (2d10 + 10) piercing damage plus 13 (2d12) force damage."
+          "*Melee Weapon Attack:* +18 to hit, reach 15 ft., one target. *Hit:* 21 (2d10 + 10) piercing damage plus 13 (2d12) force damage."
         ]
       },
       {
         "name": "Claw",
         "entries": [
-          "*Melee Weapon Attack:* 18 to hit, reach 10 ft., one target. *Hit:* 19 (2d8 + 10) slashing damage. If the target is a Huge or smaller creature, it is grappled (escape DC 20) and is restrained until this grapple ends. The greatwyrm can have only one creature grappled in this way at a time."
+          "*Melee Weapon Attack:* +18 to hit, reach 10 ft., one target. *Hit:* 19 (2d8 + 10) slashing damage. If the target is a Huge or smaller creature, it is grappled (escape DC 20) and is restrained until this grapple ends. The greatwyrm can have only one creature grappled in this way at a time."
         ]
       },
       {
         "name": "Tail",
         "entries": [
-          "*Melee Weapon Attack:* 18 to hit, reach 20 ft., one target. *Hit:* 21 (2d10 + 10) bludgeoning damage. If the target is a creature, it must succeed on a DC 26 Strength saving throw or be knocked prone."
+          "*Melee Weapon Attack:* +18 to hit, reach 20 ft., one target. *Hit:* 21 (2d10 + 10) bludgeoning damage. If the target is a creature, it must succeed on a DC 26 Strength saving throw or be knocked prone."
         ]
       },
       {
@@ -2644,19 +2644,19 @@
       {
         "name": "Bite",
         "entries": [
-          "*Melee Weapon Attack:* 18 to hit, reach 15 ft., one target. *Hit:* 21 (2d10 + 10) piercing damage plus 13 (2d12) force damage."
+          "*Melee Weapon Attack:* +18 to hit, reach 15 ft., one target. *Hit:* 21 (2d10 + 10) piercing damage plus 13 (2d12) force damage."
         ]
       },
       {
         "name": "Claw",
         "entries": [
-          "*Melee Weapon Attack:* 18 to hit, reach 10 ft., one target. *Hit:* 19 (2d8 + 10) slashing damage. If the target is a Huge or smaller creature, it is grappled (escape DC 20) and is restrained until this grapple ends. The greatwyrm can have only one creature grappled in this way at a time."
+          "*Melee Weapon Attack:* +18 to hit, reach 10 ft., one target. *Hit:* 19 (2d8 + 10) slashing damage. If the target is a Huge or smaller creature, it is grappled (escape DC 20) and is restrained until this grapple ends. The greatwyrm can have only one creature grappled in this way at a time."
         ]
       },
       {
         "name": "Tail",
         "entries": [
-          "*Melee Weapon Attack:* 18 to hit, reach 20 ft., one target. *Hit:* 21 (2d10 + 10) bludgeoning damage. If the target is a creature, it must succeed on a DC 26 Strength saving throw or be knocked prone."
+          "*Melee Weapon Attack:* +18 to hit, reach 20 ft., one target. *Hit:* 21 (2d10 + 10) bludgeoning damage. If the target is a creature, it must succeed on a DC 26 Strength saving throw or be knocked prone."
         ]
       },
       {
@@ -2761,19 +2761,19 @@
       {
         "name": "Bite",
         "entries": [
-          "*Melee Weapon Attack:* 18 to hit, reach 15 ft., one target. *Hit:* 21 (2d10 + 10) piercing damage plus 13 (2d12) force damage."
+          "*Melee Weapon Attack:* +18 to hit, reach 15 ft., one target. *Hit:* 21 (2d10 + 10) piercing damage plus 13 (2d12) force damage."
         ]
       },
       {
         "name": "Claw",
         "entries": [
-          "*Melee Weapon Attack:* 18 to hit, reach 10 ft., one target. *Hit:* 19 (2d8 + 10) slashing damage. If the target is a Huge or smaller creature, it is grappled (escape DC 20) and is restrained until this grapple ends. The greatwyrm can have only one creature grappled in this way at a time."
+          "*Melee Weapon Attack:* +18 to hit, reach 10 ft., one target. *Hit:* 19 (2d8 + 10) slashing damage. If the target is a Huge or smaller creature, it is grappled (escape DC 20) and is restrained until this grapple ends. The greatwyrm can have only one creature grappled in this way at a time."
         ]
       },
       {
         "name": "Tail",
         "entries": [
-          "*Melee Weapon Attack:* 18 to hit, reach 20 ft., one target. *Hit:* 21 (2d10 + 10) bludgeoning damage. If the target is a creature, it must succeed on a DC 26 Strength saving throw or be knocked prone."
+          "*Melee Weapon Attack:* +18 to hit, reach 20 ft., one target. *Hit:* 21 (2d10 + 10) bludgeoning damage. If the target is a creature, it must succeed on a DC 26 Strength saving throw or be knocked prone."
         ]
       },
       {
@@ -2862,7 +2862,7 @@
       {
         "name": "Bite",
         "entries": [
-          "*Melee Weapon Attack:* 4 to hit, reach 10 ft., one target. *Hit:* 7 (1d10 + 2) piercing damage plus 2 (1d4) radiant damage."
+          "*Melee Weapon Attack:* +4 to hit, reach 10 ft., one target. *Hit:* 7 (1d10 + 2) piercing damage plus 2 (1d4) radiant damage."
         ]
       },
       {
@@ -2927,7 +2927,7 @@
       {
         "name": "Spellcasting (Psionics)",
         "entries": [
-          "The greatwyrm casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save DC 26, 18 to hit with spell attack):",
+          "The greatwyrm casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save DC 26, +18 to hit with spell attack):",
           "1e/day: dispel magic, forcecage, plane shift, reverse gravity, time stop"
         ],
         "displayAs": "action"
@@ -2943,13 +2943,13 @@
       {
         "name": "Bite",
         "entries": [
-          "*Melee Weapon Attack:* 17 to hit, reach 15 ft., one target. *Hit:* 20 (2d10 + 9) piercing damage plus 16 (3d10) force damage."
+          "*Melee Weapon Attack:* +17 to hit, reach 15 ft., one target. *Hit:* 20 (2d10 + 9) piercing damage plus 16 (3d10) force damage."
         ]
       },
       {
         "name": "Claw",
         "entries": [
-          "*Melee Weapon Attack:* 17 to hit, reach 10 ft., one target. *Hit:* 18 (2d8 + 9) slashing damage. If the target is a Huge or smaller creature, it is grappled (escape DC 19) and is restrained until this grapple ends. The greatwyrm can have only one creature grappled in this way at a time."
+          "*Melee Weapon Attack:* +17 to hit, reach 10 ft., one target. *Hit:* 18 (2d8 + 9) slashing damage. If the target is a Huge or smaller creature, it is grappled (escape DC 19) and is restrained until this grapple ends. The greatwyrm can have only one creature grappled in this way at a time."
         ]
       },
       {
@@ -3035,7 +3035,7 @@
       {
         "name": "Bite",
         "entries": [
-          "*Melee Weapon Attack:* 4 to hit, reach 5 ft., one target. *Hit:* 7 (1d10 + 2) piercing damage."
+          "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 7 (1d10 + 2) piercing damage."
         ]
       },
       {
@@ -3109,7 +3109,7 @@
       {
         "name": "Bite",
         "entries": [
-          "*Melee Weapon Attack:* 9 to hit, reach 10 ft., one target. *Hit:* 10 (1d10 + 5) damage of a type chosen by the dracohydra: acid, cold, fire, lightning, or poison."
+          "*Melee Weapon Attack:* +9 to hit, reach 10 ft., one target. *Hit:* 10 (1d10 + 5) damage of a type chosen by the dracohydra: acid, cold, fire, lightning, or poison."
         ]
       },
       {
@@ -3169,13 +3169,13 @@
       {
         "name": "Serrated Sword",
         "entries": [
-          "*Melee Weapon Attack:* 6 to hit, reach 5 ft., one target. *Hit:* 13 (2d8 + 4) slashing damage."
+          "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 13 (2d8 + 4) slashing damage."
         ]
       },
       {
         "name": "Tail",
         "entries": [
-          "*Melee Weapon Attack:* 6 to hit, reach 5 ft., one target. *Hit:* 8 (1d8 + 4) bludgeoning damage. If the target is a Large or smaller creature, it must succeed on a DC 14 Strength saving throw or be knocked prone."
+          "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 8 (1d8 + 4) bludgeoning damage. If the target is a Large or smaller creature, it must succeed on a DC 14 Strength saving throw or be knocked prone."
         ]
       }
     ],
@@ -3242,7 +3242,7 @@
       {
         "name": "Shortsword",
         "entries": [
-          "*Melee Weapon Attack:* 3 to hit, reach 5 ft., one target. *Hit:* 4 (1d6 + 1) piercing damage."
+          "*Melee Weapon Attack:* +3 to hit, reach 5 ft., one target. *Hit:* 4 (1d6 + 1) piercing damage."
         ]
       }
     ],
@@ -3302,7 +3302,7 @@
       {
         "name": "Dagger",
         "entries": [
-          "*Melee Weapon or Ranged Weapon Attack:* 5 to hit, reach 5 ft. or range 20/60 ft., one target. *Hit:* 5 (1d4 + 3) piercing damage plus 7 (2d6) poison damage."
+          "*Melee Weapon or Ranged Weapon Attack:* +5 to hit, reach 5 ft. or range 20/60 ft., one target. *Hit:* 5 (1d4 + 3) piercing damage plus 7 (2d6) poison damage."
         ]
       }
     ],
@@ -3371,13 +3371,13 @@
       {
         "name": "Trident",
         "entries": [
-          "*Melee Weapon or Ranged Weapon Attack:* 4 to hit, reach 5 ft. or range 20/60 ft., one target. *Hit:* 5 (1d6 + 2) piercing damage, or 6 (1d8 + 2) piercing damage if used with two hands to make a melee attack."
+          "*Melee Weapon or Ranged Weapon Attack:* +4 to hit, reach 5 ft. or range 20/60 ft., one target. *Hit:* 5 (1d6 + 2) piercing damage, or 6 (1d8 + 2) piercing damage if used with two hands to make a melee attack."
         ]
       },
       {
         "name": "Necrotic Ray",
         "entries": [
-          "*Ranged Spell Attack:* 4 to hit, range 60 ft., one target. *Hit:* 10 (3d6) necrotic damage."
+          "*Ranged Spell Attack:* +4 to hit, range 60 ft., one target. *Hit:* 10 (3d6) necrotic damage."
         ]
       }
     ],
@@ -3441,13 +3441,13 @@
       {
         "name": "Rend",
         "entries": [
-          "*Melee Weapon Attack:* 5 to hit, reach 5 ft., one target. *Hit:* 5 (1d6 + 2) slashing damage."
+          "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 5 (1d6 + 2) slashing damage."
         ]
       },
       {
         "name": "Energy Ray",
         "entries": [
-          "*Ranged Spell Attack:* 6 to hit, range 60 ft., one target. *Hit:* 8 (1d10 + 3) force damage."
+          "*Ranged Spell Attack:* +6 to hit, range 60 ft., one target. *Hit:* 8 (1d10 + 3) force damage."
         ]
       },
       {
@@ -3547,7 +3547,7 @@
       {
         "name": "Telekinetic Rend",
         "entries": [
-          "*Melee Spell or Ranged Spell Attack:* 12 to hit, reach 10 ft. or range 120 ft., one target. *Hit:* 15 (2d8 + 6) force damage."
+          "*Melee Spell or Ranged Spell Attack:* +12 to hit, reach 10 ft. or range 120 ft., one target. *Hit:* 15 (2d8 + 6) force damage."
         ]
       },
       {
@@ -3699,13 +3699,13 @@
       {
         "name": "Mace",
         "entries": [
-          "*Melee Weapon Attack:* 4 to hit, reach 5 ft., one target. *Hit:* 4 (1d6 + 1) bludgeoning damage plus 18 (4d8) radiant damage."
+          "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 4 (1d6 + 1) bludgeoning damage plus 18 (4d8) radiant damage."
         ]
       },
       {
         "name": "Radiant Bolt",
         "entries": [
-          "*Ranged Spell Attack:* 6 to hit, range 120 ft., one target. *Hit:* 22 (5d8) radiant damage, and the blessed regains 5 (1d10) hit points."
+          "*Ranged Spell Attack:* +6 to hit, range 120 ft., one target. *Hit:* 22 (5d8) radiant damage, and the blessed regains 5 (1d10) hit points."
         ]
       }
     ],
@@ -3752,13 +3752,13 @@
       {
         "name": "Handaxe",
         "entries": [
-          "*Melee Weapon or Ranged Weapon Attack:* 6 to hit, reach 5 ft. or range 20/60 ft., one target. *Hit:* 7 (1d6 + 4) slashing damage. The handaxe magically returns to the chosen's hand immediately after a ranged attack."
+          "*Melee Weapon or Ranged Weapon Attack:* +6 to hit, reach 5 ft. or range 20/60 ft., one target. *Hit:* 7 (1d6 + 4) slashing damage. The handaxe magically returns to the chosen's hand immediately after a ranged attack."
         ]
       },
       {
         "name": "Shortsword",
         "entries": [
-          "*Melee Weapon Attack:* 6 to hit, reach 5 ft., one target. *Hit:* 7 (1d6 + 4) piercing damage."
+          "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 7 (1d6 + 4) piercing damage."
         ]
       }
     ],
@@ -3822,7 +3822,7 @@
       {
         "name": "Thunder Bolt",
         "entries": [
-          "*Melee Spell or Ranged Spell Attack:* 5 to hit, reach 5 ft. or range 60 ft., one target. *Hit:* 13 (3d8) thunder damage, and the target is pushed horizontally up to 10 feet away from the speaker."
+          "*Melee Spell or Ranged Spell Attack:* +5 to hit, reach 5 ft. or range 60 ft., one target. *Hit:* 13 (3d8) thunder damage, and the target is pushed horizontally up to 10 feet away from the speaker."
         ]
       }
     ],
@@ -3877,7 +3877,7 @@
       {
         "name": "Bite",
         "entries": [
-          "*Melee Weapon Attack:* 5 to hit, reach 10 ft., one target. *Hit:* 11 (1d12 + 3) piercing damage."
+          "*Melee Weapon Attack:* +5 to hit, reach 10 ft., one target. *Hit:* 11 (1d12 + 3) piercing damage."
         ]
       },
       {
@@ -3943,7 +3943,7 @@
       {
         "name": "Pseudopod",
         "entries": [
-          "*Melee Weapon Attack:* 7 to hit, reach 10 ft., one target. *Hit:* 9 (1d10 + 4) bludgeoning damage plus 14 (4d6) acid damage. If the target is a Large or smaller creature, it is grappled (escape DC 15). Until this grapple ends, the target takes 7 (2d6) acid damage at the start of each of its turns."
+          "*Melee Weapon Attack:* +7 to hit, reach 10 ft., one target. *Hit:* 9 (1d10 + 4) bludgeoning damage plus 14 (4d6) acid damage. If the target is a Large or smaller creature, it is grappled (escape DC 15). Until this grapple ends, the target takes 7 (2d6) acid damage at the start of each of its turns."
         ]
       },
       {
@@ -4015,13 +4015,13 @@
       {
         "name": "Pinion",
         "entries": [
-          "*Melee Weapon Attack:* 9 to hit, reach 5 ft., one target. *Hit:* 12 (2d6 + 5) piercing damage. If the target is a Medium or smaller creature, it is pinned beneath the bony pinion and restrained. The golem has two pinions, each of which can restrain one target. If a creature is restrained by one of the pinions, the golem can't attack with it. Any creature restrained by a pinion can free itself at the start of its turn with a successful DC 17 Strength (Athletics) check."
+          "*Melee Weapon Attack:* +9 to hit, reach 5 ft., one target. *Hit:* 12 (2d6 + 5) piercing damage. If the target is a Medium or smaller creature, it is pinned beneath the bony pinion and restrained. The golem has two pinions, each of which can restrain one target. If a creature is restrained by one of the pinions, the golem can't attack with it. Any creature restrained by a pinion can free itself at the start of its turn with a successful DC 17 Strength (Athletics) check."
         ]
       },
       {
         "name": "Rend",
         "entries": [
-          "*Melee Weapon Attack:* 9 to hit, reach 5 ft., one target. *Hit:* 12 (2d6 + 5) piercing damage plus 5 (1d10) necrotic damage."
+          "*Melee Weapon Attack:* +9 to hit, reach 5 ft., one target. *Hit:* 12 (2d6 + 5) piercing damage plus 5 (1d10) necrotic damage."
         ]
       },
       {
@@ -4081,7 +4081,7 @@
       {
         "name": "Longsword",
         "entries": [
-          "*Melee Weapon Attack:* 7 to hit, reach 5 ft., one target. *Hit:* 8 (1d8 + 4) slashing damage, or 9 (1d10 + 4) slashing damage if used with two hands, plus 13 (3d8) radiant damage. The dragonborn can cause the sword to flare with bright light, and the target must succeed on a DC 14 Constitution saving throw or be blinded until the start of the dragonborn's next turn. The sword can flare in this way only once per turn."
+          "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 8 (1d8 + 4) slashing damage, or 9 (1d10 + 4) slashing damage if used with two hands, plus 13 (3d8) radiant damage. The dragonborn can cause the sword to flare with bright light, and the target must succeed on a DC 14 Constitution saving throw or be blinded until the start of the dragonborn's next turn. The sword can flare in this way only once per turn."
         ]
       },
       {
@@ -4146,7 +4146,7 @@
       {
         "name": "Spellcasting (Psionics)",
         "entries": [
-          "The dragonborn casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save DC 15, 7 to hit with spell attacks):",
+          "The dragonborn casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save DC 15, +7 to hit with spell attacks):",
           "1e/day: Bigby's hand, hypnotic pattern, telekinesis"
         ],
         "displayAs": "action"
@@ -4162,7 +4162,7 @@
       {
         "name": "Mind Blade",
         "entries": [
-          "*Melee Weapon or Ranged Weapon Attack:* 7 to hit, reach 5 ft. or range 20/60 ft., one target. *Hit:* 6 (1d4 + 4) piercing damage plus 10 (3d6) psychic damage."
+          "*Melee Weapon or Ranged Weapon Attack:* +7 to hit, reach 5 ft. or range 20/60 ft., one target. *Hit:* 6 (1d4 + 4) piercing damage plus 10 (3d6) psychic damage."
         ]
       },
       {
@@ -4222,7 +4222,7 @@
       {
         "name": "Greataxe",
         "entries": [
-          "*Melee Weapon Attack:* 8 to hit, reach 5 ft., one target. *Hit:* 11 (1d12 + 5) slashing damage plus 13 (3d8) necrotic damage."
+          "*Melee Weapon Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 11 (1d12 + 5) slashing damage plus 13 (3d8) necrotic damage."
         ]
       },
       {
@@ -4288,19 +4288,19 @@
       {
         "name": "Claw",
         "entries": [
-          "*Melee Weapon Attack:* 7 to hit, reach 10 ft., one target. *Hit:* 8 (1d8 + 4) slashing damage plus 5 (1d10) poison damage."
+          "*Melee Weapon Attack:* +7 to hit, reach 10 ft., one target. *Hit:* 8 (1d8 + 4) slashing damage plus 5 (1d10) poison damage."
         ]
       },
       {
         "name": "Tail",
         "entries": [
-          "*Melee Weapon Attack:* 7 to hit, reach 15 ft., one target. *Hit:* 10 (1d12 + 4) bludgeoning damage. If the target is a creature, it must succeed on a DC 15 Strength saving throw or be knocked prone."
+          "*Melee Weapon Attack:* +7 to hit, reach 15 ft., one target. *Hit:* 10 (1d12 + 4) bludgeoning damage. If the target is a creature, it must succeed on a DC 15 Strength saving throw or be knocked prone."
         ]
       },
       {
         "name": "Acidic Spit",
         "entries": [
-          "*Ranged Weapon Attack:* 5 to hit, range 60 ft., one target. *Hit:* 10 (3d6) acid damage."
+          "*Ranged Weapon Attack:* +5 to hit, range 60 ft., one target. *Hit:* 10 (3d6) acid damage."
         ]
       },
       {
@@ -4353,13 +4353,13 @@
       {
         "name": "Claw",
         "entries": [
-          "*Melee Weapon Attack:* 5 to hit, reach 10 ft., one target. *Hit:* 7 (1d8 + 3) slashing damage plus 5 (1d10) poison damage."
+          "*Melee Weapon Attack:* +5 to hit, reach 10 ft., one target. *Hit:* 7 (1d8 + 3) slashing damage plus 5 (1d10) poison damage."
         ]
       },
       {
         "name": "Greatclub",
         "entries": [
-          "*Melee Weapon Attack:* 5 to hit, reach 10 ft., one target. *Hit:* 12 (2d8 + 3) bludgeoning damage."
+          "*Melee Weapon Attack:* +5 to hit, reach 10 ft., one target. *Hit:* 12 (2d8 + 3) bludgeoning damage."
         ]
       },
       {
@@ -4419,7 +4419,7 @@
       {
         "name": "Rend",
         "entries": [
-          "*Melee Weapon Attack:* 5 to hit, reach 5 ft., one target. *Hit:* 10 (2d6 + 3) slashing damage."
+          "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 10 (2d6 + 3) slashing damage."
         ]
       }
     ],
@@ -4467,7 +4467,7 @@
       {
         "name": "Bite",
         "entries": [
-          "*Melee Weapon Attack:* 3 plus PB to hit, reach 5 ft., one target. *Hit:* 1d6 plus PB piercing damage."
+          "*Melee Weapon Attack:* +3 plus PB to hit, reach 5 ft., one target. *Hit:* 1d6 plus PB piercing damage."
         ]
       }
     ],
@@ -4534,7 +4534,7 @@
       {
         "name": "Barbed Proboscis",
         "entries": [
-          "*Melee Weapon Attack:* 8 to hit, reach 5 ft., one target. *Hit:* 8 (1d6 + 5) piercing damage plus 9 (2d8) necrotic damage, and the egg hunter regains hit points equal to the necrotic damage dealt."
+          "*Melee Weapon Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 8 (1d6 + 5) piercing damage plus 9 (2d8) necrotic damage, and the egg hunter regains hit points equal to the necrotic damage dealt."
         ]
       },
       {
@@ -4601,7 +4601,7 @@
       {
         "name": "Egg Tooth",
         "entries": [
-          "*Melee Weapon Attack:* 5 to hit, reach 5 ft., one target. *Hit:* 10 (2d6 + 3) piercing damage, or 17 (4d6 + 3) piercing damage if the target is an object."
+          "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 10 (2d6 + 3) piercing damage, or 17 (4d6 + 3) piercing damage if the target is an object."
         ]
       }
     ],
@@ -4674,19 +4674,19 @@
       {
         "name": "Bite",
         "entries": [
-          "*Melee Weapon Attack:* 15 to hit, reach 15 ft., one target. *Hit:* 19 (2d10 + 8) piercing damage plus 11 (2d10) psychic damage."
+          "*Melee Weapon Attack:* +15 to hit, reach 15 ft., one target. *Hit:* 19 (2d10 + 8) piercing damage plus 11 (2d10) psychic damage."
         ]
       },
       {
         "name": "Claw",
         "entries": [
-          "*Melee Weapon Attack:* 15 to hit, reach 10 ft., one target. *Hit:* 11 (1d6 + 8) slashing damage."
+          "*Melee Weapon Attack:* +15 to hit, reach 10 ft., one target. *Hit:* 11 (1d6 + 8) slashing damage."
         ]
       },
       {
         "name": "Tentacle",
         "entries": [
-          "*Melee Weapon Attack:* 15 to hit, reach 15 ft., one creature. *Hit:* 12 (1d8 + 8) psychic damage. If the target is Huge or smaller, it is grappled (escape DC 18). The dragon can have up to four targets grappled at a time."
+          "*Melee Weapon Attack:* +15 to hit, reach 15 ft., one creature. *Hit:* 12 (1d8 + 8) psychic damage. If the target is Huge or smaller, it is grappled (escape DC 18). The dragon can have up to four targets grappled at a time."
         ]
       },
       {
@@ -4764,7 +4764,7 @@
       {
         "name": "Bite",
         "entries": [
-          "*Melee Weapon Attack:* 4 to hit, reach 10 ft., one target. *Hit:* 7 (1d10 + 2) piercing damage plus 3 (1d6) psychic damage."
+          "*Melee Weapon Attack:* +4 to hit, reach 10 ft., one target. *Hit:* 7 (1d10 + 2) piercing damage plus 3 (1d6) psychic damage."
         ]
       },
       {
@@ -4829,7 +4829,7 @@
       {
         "name": "Spellcasting (Psionics)",
         "entries": [
-          "The greatwyrm casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save DC 26, 18 to hit with spell attack):",
+          "The greatwyrm casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save DC 26, +18 to hit with spell attack):",
           "1e/day: dispel magic, forcecage, plane shift, reverse gravity, time stop"
         ],
         "displayAs": "action"
@@ -4845,13 +4845,13 @@
       {
         "name": "Bite",
         "entries": [
-          "*Melee Weapon Attack:* 17 to hit, reach 15 ft., one target. *Hit:* 20 (2d10 + 9) piercing damage plus 16 (3d10) force damage."
+          "*Melee Weapon Attack:* +17 to hit, reach 15 ft., one target. *Hit:* 20 (2d10 + 9) piercing damage plus 16 (3d10) force damage."
         ]
       },
       {
         "name": "Claw",
         "entries": [
-          "*Melee Weapon Attack:* 17 to hit, reach 10 ft., one target. *Hit:* 18 (2d8 + 9) slashing damage. If the target is a Huge or smaller creature, it is grappled (escape DC 19) and is restrained until this grapple ends. The greatwyrm can have only one creature grappled in this way at a time."
+          "*Melee Weapon Attack:* +17 to hit, reach 10 ft., one target. *Hit:* 18 (2d8 + 9) slashing damage. If the target is a Huge or smaller creature, it is grappled (escape DC 19) and is restrained until this grapple ends. The greatwyrm can have only one creature grappled in this way at a time."
         ]
       },
       {
@@ -4944,7 +4944,7 @@
       {
         "name": "Bite",
         "entries": [
-          "*Melee Weapon Attack:* 6 to hit, reach 10 ft., one target. *Hit:* 13 (3d6 + 3) piercing damage."
+          "*Melee Weapon Attack:* +6 to hit, reach 10 ft., one target. *Hit:* 13 (3d6 + 3) piercing damage."
         ]
       },
       {
@@ -5017,7 +5017,7 @@
       {
         "name": "Claw",
         "entries": [
-          "*Melee Weapon Attack:* 6 to hit, reach 5 ft., one target. *Hit:* 10 (2d6 + 3) slashing damage."
+          "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 10 (2d6 + 3) slashing damage."
         ]
       }
     ],
@@ -5025,7 +5025,7 @@
       {
         "name": "Crystal Dart",
         "entries": [
-          "*Ranged Spell Attack:* 5 to hit, range 30 ft., one target. *Hit:* 7 (1d10 + 2) force damage, and one of the following effects occurs, determined by the kind of dragon that created the gem stalker:"
+          "*Ranged Spell Attack:* +5 to hit, range 30 ft., one target. *Hit:* 7 (1d10 + 2) force damage, and one of the following effects occurs, determined by the kind of dragon that created the gem stalker:"
         ]
       },
       {
@@ -5127,13 +5127,13 @@
       {
         "name": "Bite",
         "entries": [
-          "*Melee Weapon Attack:* 11 to hit, reach 10 ft., one target. *Hit:* 32 (6d8 + 5) cold damage, and the target's speed is halved until the start of the dragon's next turn."
+          "*Melee Weapon Attack:* +11 to hit, reach 10 ft., one target. *Hit:* 32 (6d8 + 5) cold damage, and the target's speed is halved until the start of the dragon's next turn."
         ]
       },
       {
         "name": "Claw",
         "entries": [
-          "*Melee Weapon Attack:* 11 to hit, reach 5 ft., one target. *Hit:* 14 (2d8 + 5) necrotic damage."
+          "*Melee Weapon Attack:* +11 to hit, reach 5 ft., one target. *Hit:* 14 (2d8 + 5) necrotic damage."
         ]
       },
       {
@@ -5182,7 +5182,7 @@
       {
         "name": "Peck",
         "entries": [
-          "*Melee Weapon Attack:* 4 to hit, reach 5 ft., one target. *Hit:* 7 (1d10 + 2) piercing damage."
+          "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 7 (1d10 + 2) piercing damage."
         ]
       }
     ],
@@ -5248,19 +5248,19 @@
       {
         "name": "Bite",
         "entries": [
-          "*Melee Weapon Attack:* 18 to hit, reach 15 ft., one target. *Hit:* 21 (2d10 + 10) piercing damage plus 13 (2d12) force damage."
+          "*Melee Weapon Attack:* +18 to hit, reach 15 ft., one target. *Hit:* 21 (2d10 + 10) piercing damage plus 13 (2d12) force damage."
         ]
       },
       {
         "name": "Claw",
         "entries": [
-          "*Melee Weapon Attack:* 18 to hit, reach 10 ft., one target. *Hit:* 19 (2d8 + 10) slashing damage. If the target is a Huge or smaller creature, it is grappled (escape DC 20) and is restrained until this grapple ends. The greatwyrm can have only one creature grappled in this way at a time."
+          "*Melee Weapon Attack:* +18 to hit, reach 10 ft., one target. *Hit:* 19 (2d8 + 10) slashing damage. If the target is a Huge or smaller creature, it is grappled (escape DC 20) and is restrained until this grapple ends. The greatwyrm can have only one creature grappled in this way at a time."
         ]
       },
       {
         "name": "Tail",
         "entries": [
-          "*Melee Weapon Attack:* 18 to hit, reach 20 ft., one target. *Hit:* 21 (2d10 + 10) bludgeoning damage. If the target is a creature, it must succeed on a DC 26 Strength saving throw or be knocked prone."
+          "*Melee Weapon Attack:* +18 to hit, reach 20 ft., one target. *Hit:* 21 (2d10 + 10) bludgeoning damage. If the target is a creature, it must succeed on a DC 26 Strength saving throw or be knocked prone."
         ]
       },
       {
@@ -5365,19 +5365,19 @@
       {
         "name": "Bite",
         "entries": [
-          "*Melee Weapon Attack:* 18 to hit, reach 15 ft., one target. *Hit:* 21 (2d10 + 10) piercing damage plus 13 (2d12) force damage."
+          "*Melee Weapon Attack:* +18 to hit, reach 15 ft., one target. *Hit:* 21 (2d10 + 10) piercing damage plus 13 (2d12) force damage."
         ]
       },
       {
         "name": "Claw",
         "entries": [
-          "*Melee Weapon Attack:* 18 to hit, reach 10 ft., one target. *Hit:* 19 (2d8 + 10) slashing damage. If the target is a Huge or smaller creature, it is grappled (escape DC 20) and is restrained until this grapple ends. The greatwyrm can have only one creature grappled this way at a time."
+          "*Melee Weapon Attack:* +18 to hit, reach 10 ft., one target. *Hit:* 19 (2d8 + 10) slashing damage. If the target is a Huge or smaller creature, it is grappled (escape DC 20) and is restrained until this grapple ends. The greatwyrm can have only one creature grappled this way at a time."
         ]
       },
       {
         "name": "Tail",
         "entries": [
-          "*Melee Weapon Attack:* 18 to hit, reach 20 ft., one target. *Hit:* 19 (2d8 + 10) bludgeoning damage. If the target is a creature, it must succeed on a DC 26 Strength saving throw or be knocked prone."
+          "*Melee Weapon Attack:* +18 to hit, reach 20 ft., one target. *Hit:* 19 (2d8 + 10) bludgeoning damage. If the target is a creature, it must succeed on a DC 26 Strength saving throw or be knocked prone."
         ]
       },
       {
@@ -5469,13 +5469,13 @@
       {
         "name": "Bite",
         "entries": [
-          "*Melee Weapon Attack:* 8 to hit, reach 5 ft., one creature. *Hit:* 16 (2d10 + 5) piercing damage plus 7 (2d6) acid damage."
+          "*Melee Weapon Attack:* +8 to hit, reach 5 ft., one creature. *Hit:* 16 (2d10 + 5) piercing damage plus 7 (2d6) acid damage."
         ]
       },
       {
         "name": "Pseudopod",
         "entries": [
-          "*Melee Weapon Attack:* 8 to hit, reach 10 ft., one target. *Hit:* 12 (2d6 + 5) bludgeoning damage, and the mimic adheres to the target. A creature adhered to the mimic is also grappled by it (escape DC 16). Until this grapple ends, the target is restrained. Ability checks made to escape this grapple have disadvantage."
+          "*Melee Weapon Attack:* +8 to hit, reach 10 ft., one target. *Hit:* 12 (2d6 + 5) bludgeoning damage, and the mimic adheres to the target. A creature adhered to the mimic is also grappled by it (escape DC 16). Until this grapple ends, the target is restrained. Ability checks made to escape this grapple have disadvantage."
         ]
       },
       {
@@ -5535,7 +5535,7 @@
       {
         "name": "Bite",
         "entries": [
-          "*Melee Weapon Attack:* 5 to hit, reach 5 ft., one target. *Hit:* 5 (1d4 + 3) piercing damage. If the target is a creature, it has disadvantage on attack rolls until the start of its next turn."
+          "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 5 (1d4 + 3) piercing damage. If the target is a creature, it has disadvantage on attack rolls until the start of its next turn."
         ]
       }
     ],
@@ -5602,13 +5602,13 @@
       {
         "name": "Bite",
         "entries": [
-          "*Melee Weapon Attack:* 12 to hit, reach 10 ft., one target. *Hit:* 17 (2d10 + 6) piercing damage plus 9 (2d8) radiant damage."
+          "*Melee Weapon Attack:* +12 to hit, reach 10 ft., one target. *Hit:* 17 (2d10 + 6) piercing damage plus 9 (2d8) radiant damage."
         ]
       },
       {
         "name": "Claw",
         "entries": [
-          "*Melee Weapon Attack:* 12 to hit, reach 5 ft., one target. *Hit:* 13 (2d6 + 6) slashing damage."
+          "*Melee Weapon Attack:* +12 to hit, reach 5 ft., one target. *Hit:* 13 (2d6 + 6) slashing damage."
         ]
       },
       {
@@ -5686,13 +5686,13 @@
       {
         "name": "Bite",
         "entries": [
-          "*Melee Weapon Attack:* 7 to hit, reach 5 ft., one target. *Hit:* 15 (2d10 + 4) piercing damage. If the target is a Medium or smaller creature, it must succeed on a DC 15 Strength saving throw or be knocked prone."
+          "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 15 (2d10 + 4) piercing damage. If the target is a Medium or smaller creature, it must succeed on a DC 15 Strength saving throw or be knocked prone."
         ]
       },
       {
         "name": "Claw",
         "entries": [
-          "*Melee Weapon Attack:* 7 to hit, reach 5 ft., one target. *Hit:* 11 (2d6 + 4) slashing damage."
+          "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 11 (2d6 + 4) slashing damage."
         ]
       },
       {
@@ -5758,7 +5758,7 @@
       {
         "name": "Slam",
         "entries": [
-          "*Melee Weapon Attack:* 5 to hit, reach 5 ft., one target. *Hit:* 16 (3d8 + 3) bludgeoning damage."
+          "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 16 (3d8 + 3) bludgeoning damage."
         ]
       },
       {
@@ -5818,7 +5818,7 @@
       {
         "name": "Claw",
         "entries": [
-          "*Melee Weapon Attack:* 4 to hit, reach 5 ft., one target. *Hit:* 4 (1d4 + 2) slashing damage."
+          "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 4 (1d4 + 2) slashing damage."
         ]
       },
       {
@@ -5865,7 +5865,7 @@
       {
         "name": "Bite",
         "entries": [
-          "*Melee Weapon Attack:* 5 to hit, reach 10 ft., one target. *Hit:* 12 (2d8 + 3) piercing damage plus 3 (1d6) radiant damage."
+          "*Melee Weapon Attack:* +5 to hit, reach 10 ft., one target. *Hit:* 12 (2d8 + 3) piercing damage plus 3 (1d6) radiant damage."
         ]
       },
       {
@@ -5938,19 +5938,19 @@
       {
         "name": "Bite",
         "entries": [
-          "*Melee Weapon Attack:* 18 to hit, reach 15 ft., one target. *Hit:* 21 (2d10 + 10) piercing damage plus 13 (2d12) force damage."
+          "*Melee Weapon Attack:* +18 to hit, reach 15 ft., one target. *Hit:* 21 (2d10 + 10) piercing damage plus 13 (2d12) force damage."
         ]
       },
       {
         "name": "Claw",
         "entries": [
-          "*Melee Weapon Attack:* 18 to hit, reach 10 ft., one target. *Hit:* 19 (2d8 + 10) slashing damage. If the target is a Huge or smaller creature, it is grappled (escape DC 20) and is restrained until this grapple ends. The greatwyrm can have only one creature grappled this way at a time."
+          "*Melee Weapon Attack:* +18 to hit, reach 10 ft., one target. *Hit:* 19 (2d8 + 10) slashing damage. If the target is a Huge or smaller creature, it is grappled (escape DC 20) and is restrained until this grapple ends. The greatwyrm can have only one creature grappled this way at a time."
         ]
       },
       {
         "name": "Tail",
         "entries": [
-          "*Melee Weapon Attack:* 18 to hit, reach 20 ft., one target. *Hit:* 19 (2d8 + 10) bludgeoning damage. If the target is a creature, it must succeed on a DC 26 Strength saving throw or be knocked prone."
+          "*Melee Weapon Attack:* +18 to hit, reach 20 ft., one target. *Hit:* 19 (2d8 + 10) bludgeoning damage. If the target is a creature, it must succeed on a DC 26 Strength saving throw or be knocked prone."
         ]
       },
       {
@@ -6051,7 +6051,7 @@
       {
         "name": "Bite",
         "entries": [
-          "*Melee Weapon Attack:* 5 to hit, reach 5 ft., one target. *Hit:* 8 (1d10 + 3) piercing damage plus 3 (1d6) thunder damage."
+          "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 8 (1d10 + 3) piercing damage plus 3 (1d6) thunder damage."
         ]
       },
       {
@@ -6116,7 +6116,7 @@
       {
         "name": "Spellcasting (Psionics)",
         "entries": [
-          "The greatwyrm casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save DC 26, 18 to hit with spell attack):",
+          "The greatwyrm casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save DC 26, +18 to hit with spell attack):",
           "1e/day: dispel magic, forcecage, plane shift, reverse gravity, time stop"
         ],
         "displayAs": "action"
@@ -6132,13 +6132,13 @@
       {
         "name": "Bite",
         "entries": [
-          "*Melee Weapon Attack:* 17 to hit, reach 15 ft., one target. *Hit:* 20 (2d10 + 9) piercing damage plus 16 (3d10) force damage."
+          "*Melee Weapon Attack:* +17 to hit, reach 15 ft., one target. *Hit:* 20 (2d10 + 9) piercing damage plus 16 (3d10) force damage."
         ]
       },
       {
         "name": "Claw",
         "entries": [
-          "*Melee Weapon Attack:* 17 to hit, reach 10 ft., one target. *Hit:* 18 (2d8 + 9) slashing damage. If the target is a Huge or smaller creature, it is grappled (escape DC 19) and is restrained until this grapple ends. The greatwyrm can have only one creature grappled in this way at a time."
+          "*Melee Weapon Attack:* +17 to hit, reach 10 ft., one target. *Hit:* 18 (2d8 + 9) slashing damage. If the target is a Huge or smaller creature, it is grappled (escape DC 19) and is restrained until this grapple ends. The greatwyrm can have only one creature grappled in this way at a time."
         ]
       },
       {
@@ -6249,19 +6249,19 @@
       {
         "name": "Bite",
         "entries": [
-          "*Melee Weapon Attack:* 18 to hit, reach 15 ft., one target. *Hit:* 21 (2d10 + 10) piercing damage plus 13 (2d12) force damage."
+          "*Melee Weapon Attack:* +18 to hit, reach 15 ft., one target. *Hit:* 21 (2d10 + 10) piercing damage plus 13 (2d12) force damage."
         ]
       },
       {
         "name": "Claw",
         "entries": [
-          "*Melee Weapon Attack:* 18 to hit, reach 10 ft., one target. *Hit:* 19 (2d8 + 10) slashing damage. If the target is a Huge or smaller creature, it is grappled (escape DC 20) and is restrained until this grapple ends. The greatwyrm can have only one creature grappled in this way at a time."
+          "*Melee Weapon Attack:* +18 to hit, reach 10 ft., one target. *Hit:* 19 (2d8 + 10) slashing damage. If the target is a Huge or smaller creature, it is grappled (escape DC 20) and is restrained until this grapple ends. The greatwyrm can have only one creature grappled in this way at a time."
         ]
       },
       {
         "name": "Tail",
         "entries": [
-          "*Melee Weapon Attack:* 18 to hit, reach 20 ft., one target. *Hit:* 21 (2d10 + 10) bludgeoning damage. If the target is a creature, it must succeed on a DC 26 Strength saving throw or be knocked prone."
+          "*Melee Weapon Attack:* +18 to hit, reach 20 ft., one target. *Hit:* 21 (2d10 + 10) bludgeoning damage. If the target is a creature, it must succeed on a DC 26 Strength saving throw or be knocked prone."
         ]
       },
       {
@@ -6354,7 +6354,7 @@
       {
         "name": "Swarm of Bites",
         "entries": [
-          "*Melee Weapon Attack:* 5 to hit, reach 0 ft., one creature in the swarm's space. *Hit:* 13 (3d6 + 3) piercing damage, or 6 (1d6 + 3) piercing damage if the swarm is at half of its hit points or fewer, and the target has disadvantage on attack rolls until the start of its next turn."
+          "*Melee Weapon Attack:* +5 to hit, reach 0 ft., one creature in the swarm's space. *Hit:* 13 (3d6 + 3) piercing damage, or 6 (1d6 + 3) piercing damage if the swarm is at half of its hit points or fewer, and the target has disadvantage on attack rolls until the start of its next turn."
         ]
       }
     ],
@@ -6418,7 +6418,7 @@
       {
         "name": "Bite",
         "entries": [
-          "*Melee Weapon Attack:* 4 to hit, reach 5 ft., one target. *Hit:* 7 (1d10 + 2) piercing damage plus 2 (1d4) necrotic damage."
+          "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 7 (1d10 + 2) piercing damage plus 2 (1d4) necrotic damage."
         ]
       },
       {
@@ -6483,7 +6483,7 @@
       {
         "name": "Spellcasting (Psionics)",
         "entries": [
-          "The greatwyrm casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save DC 26, 18 to hit with spell attack):",
+          "The greatwyrm casts one of the following spells, requiring no spell components and using Intelligence as the spellcasting ability (spell save DC 26, +18 to hit with spell attack):",
           "1e/day: dispel magic, forcecage, plane shift, reverse gravity, time stop"
         ],
         "displayAs": "action"
@@ -6499,13 +6499,13 @@
       {
         "name": "Bite",
         "entries": [
-          "*Melee Weapon Attack:* 17 to hit, reach 15 ft., one target. *Hit:* 20 (2d10 + 9) piercing damage plus 16 (3d10) force damage."
+          "*Melee Weapon Attack:* +17 to hit, reach 15 ft., one target. *Hit:* 20 (2d10 + 9) piercing damage plus 16 (3d10) force damage."
         ]
       },
       {
         "name": "Claw",
         "entries": [
-          "*Melee Weapon Attack:* 17 to hit, reach 10 ft., one target. *Hit:* 18 (2d8 + 9) slashing damage. If the target is a Huge or smaller creature, it is grappled (escape DC 19) and is restrained until this grapple ends. The greatwyrm can have only one creature grappled in this way at a time."
+          "*Melee Weapon Attack:* +17 to hit, reach 10 ft., one target. *Hit:* 18 (2d8 + 9) slashing damage. If the target is a Huge or smaller creature, it is grappled (escape DC 19) and is restrained until this grapple ends. The greatwyrm can have only one creature grappled in this way at a time."
         ]
       },
       {
@@ -6616,19 +6616,19 @@
       {
         "name": "Bite",
         "entries": [
-          "*Melee Weapon Attack:* 18 to hit, reach 15 ft., one target. *Hit:* 21 (2d10 + 10) piercing damage plus 13 (2d12) force damage."
+          "*Melee Weapon Attack:* +18 to hit, reach 15 ft., one target. *Hit:* 21 (2d10 + 10) piercing damage plus 13 (2d12) force damage."
         ]
       },
       {
         "name": "Claw",
         "entries": [
-          "*Melee Weapon Attack:* 18 to hit, reach 10 ft., one target. *Hit:* 19 (2d8 + 10) slashing damage. If the target is a Huge or smaller creature, it is grappled (escape DC 20) and is restrained until this grapple ends. The greatwyrm can have only one creature grappled this way at a time."
+          "*Melee Weapon Attack:* +18 to hit, reach 10 ft., one target. *Hit:* 19 (2d8 + 10) slashing damage. If the target is a Huge or smaller creature, it is grappled (escape DC 20) and is restrained until this grapple ends. The greatwyrm can have only one creature grappled this way at a time."
         ]
       },
       {
         "name": "Tail",
         "entries": [
-          "*Melee Weapon Attack:* 18 to hit, reach 20 ft., one target. *Hit:* 19 (2d8 + 10) bludgeoning damage. If the target is a creature, it must succeed on a DC 26 Strength saving throw or be knocked prone."
+          "*Melee Weapon Attack:* +18 to hit, reach 20 ft., one target. *Hit:* 19 (2d8 + 10) bludgeoning damage. If the target is a creature, it must succeed on a DC 26 Strength saving throw or be knocked prone."
         ]
       },
       {
@@ -6729,13 +6729,13 @@
       {
         "name": "Bite",
         "entries": [
-          "*Melee Weapon Attack:* 9 to hit, reach 10 ft., one target. *Hit:* 16 (2d10 + 5) piercing damage plus 4 (1d8) force damage."
+          "*Melee Weapon Attack:* +9 to hit, reach 10 ft., one target. *Hit:* 16 (2d10 + 5) piercing damage plus 4 (1d8) force damage."
         ]
       },
       {
         "name": "Claw",
         "entries": [
-          "*Melee Weapon Attack:* 9 to hit, reach 5 ft., one target. *Hit:* 9 (1d8 + 5) slashing damage."
+          "*Melee Weapon Attack:* +9 to hit, reach 5 ft., one target. *Hit:* 9 (1d8 + 5) slashing damage."
         ]
       },
       {
@@ -6798,13 +6798,13 @@
       {
         "name": "Bite",
         "entries": [
-          "*Melee Weapon Attack:* 6 to hit, reach 10 ft., one target. *Hit:* 14 (2d10 + 3) piercing damage plus 4 (1d8) radiant damage."
+          "*Melee Weapon Attack:* +6 to hit, reach 10 ft., one target. *Hit:* 14 (2d10 + 3) piercing damage plus 4 (1d8) radiant damage."
         ]
       },
       {
         "name": "Claw",
         "entries": [
-          "*Melee Weapon Attack:* 6 to hit, reach 5 ft., one target. *Hit:* 6 (1d6 + 3) slashing damage."
+          "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 6 (1d6 + 3) slashing damage."
         ]
       },
       {
@@ -6857,13 +6857,13 @@
       {
         "name": "Bite",
         "entries": [
-          "*Melee Weapon Attack:* 7 to hit, reach 10 ft., one target. *Hit:* 9 (1d10 + 4) piercing damage plus 3 (1d6) poison damage."
+          "*Melee Weapon Attack:* +7 to hit, reach 10 ft., one target. *Hit:* 9 (1d10 + 4) piercing damage plus 3 (1d6) poison damage."
         ]
       },
       {
         "name": "Claw",
         "entries": [
-          "*Melee Weapon Attack:* 7 to hit, reach 5 ft., one target. *Hit:* 7 (1d6 + 4) slashing damage."
+          "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 7 (1d6 + 4) slashing damage."
         ]
       },
       {
@@ -6923,13 +6923,13 @@
       {
         "name": "Bite",
         "entries": [
-          "*Melee Weapon Attack:* 9 to hit, reach 10 ft., one target. *Hit:* 11 (1d12 + 5) piercing damage plus 6 (1d12) lightning damage."
+          "*Melee Weapon Attack:* +9 to hit, reach 10 ft., one target. *Hit:* 11 (1d12 + 5) piercing damage plus 6 (1d12) lightning damage."
         ]
       },
       {
         "name": "Claw",
         "entries": [
-          "*Melee Weapon Attack:* 9 to hit, reach 5 ft., one target. *Hit:* 9 (1d8 + 5) slashing damage."
+          "*Melee Weapon Attack:* +9 to hit, reach 5 ft., one target. *Hit:* 9 (1d8 + 5) slashing damage."
         ]
       },
       {
@@ -6999,13 +6999,13 @@
       {
         "name": "Bite",
         "entries": [
-          "*Melee Weapon Attack:* 8 to hit, reach 10 ft., one target. *Hit:* 16 (2d10 + 5) piercing damage plus 3 (1d6) psychic damage."
+          "*Melee Weapon Attack:* +8 to hit, reach 10 ft., one target. *Hit:* 16 (2d10 + 5) piercing damage plus 3 (1d6) psychic damage."
         ]
       },
       {
         "name": "Claw",
         "entries": [
-          "*Melee Weapon Attack:* 8 to hit, reach 5 ft., one target. *Hit:* 8 (1d6 + 5) slashing damage."
+          "*Melee Weapon Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 8 (1d6 + 5) slashing damage."
         ]
       },
       {
@@ -7067,13 +7067,13 @@
       {
         "name": "Bite",
         "entries": [
-          "*Melee Weapon Attack:* 7 to hit, reach 10 ft., one target. *Hit:* 15 (2d10 + 4) piercing damage plus 5 (1d10) radiant damage."
+          "*Melee Weapon Attack:* +7 to hit, reach 10 ft., one target. *Hit:* 15 (2d10 + 4) piercing damage plus 5 (1d10) radiant damage."
         ]
       },
       {
         "name": "Claw",
         "entries": [
-          "*Melee Weapon Attack:* 7 to hit, reach 5 ft., one target. *Hit:* 11 (2d6 + 4) slashing damage."
+          "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 11 (2d6 + 4) slashing damage."
         ]
       },
       {
@@ -7149,13 +7149,13 @@
       {
         "name": "Bite",
         "entries": [
-          "*Melee Weapon Attack:* 9 to hit, reach 10 ft., one target. *Hit:* 16 (2d10 + 5) piercing damage plus 4 (1d8) thunder damage."
+          "*Melee Weapon Attack:* +9 to hit, reach 10 ft., one target. *Hit:* 16 (2d10 + 5) piercing damage plus 4 (1d8) thunder damage."
         ]
       },
       {
         "name": "Claw",
         "entries": [
-          "*Melee Weapon Attack:* 9 to hit, reach 5 ft., one target. *Hit:* 8 (1d6 + 5) slashing damage."
+          "*Melee Weapon Attack:* +9 to hit, reach 5 ft., one target. *Hit:* 8 (1d6 + 5) slashing damage."
         ]
       },
       {
@@ -7221,19 +7221,19 @@
       {
         "name": "Bite",
         "entries": [
-          "*Melee Weapon Attack:* 7 to hit, reach 10 ft., one target. *Hit:* 15 (2d10 + 4) piercing damage plus 5 (1d10) cold damage."
+          "*Melee Weapon Attack:* +7 to hit, reach 10 ft., one target. *Hit:* 15 (2d10 + 4) piercing damage plus 5 (1d10) cold damage."
         ]
       },
       {
         "name": "Constrict",
         "entries": [
-          "*Melee Weapon Attack:* 7 to hit, reach 20 ft., one creature. *Hit:* 22 (4d8 + 4) bludgeoning damage. If the target is Large or smaller, it is grappled (escape DC 15). Until this grapple ends, the target is restrained, and the sea serpent can't constrict another target."
+          "*Melee Weapon Attack:* +7 to hit, reach 20 ft., one creature. *Hit:* 22 (4d8 + 4) bludgeoning damage. If the target is Large or smaller, it is grappled (escape DC 15). Until this grapple ends, the target is restrained, and the sea serpent can't constrict another target."
         ]
       },
       {
         "name": "Tail",
         "entries": [
-          "*Melee Weapon Attack:* 7 to hit, reach 15 ft., one target. *Hit:* 9 (1d10 + 4) bludgeoning damage. If the target is a creature, it must succeed on a DC 15 Strength saving throw or be pushed up to 20 feet away and knocked prone."
+          "*Melee Weapon Attack:* +7 to hit, reach 15 ft., one target. *Hit:* 9 (1d10 + 4) bludgeoning damage. If the target is a creature, it must succeed on a DC 15 Strength saving throw or be pushed up to 20 feet away and knocked prone."
         ]
       },
       {
@@ -7302,13 +7302,13 @@
       {
         "name": "Bite",
         "entries": [
-          "*Melee Weapon Attack:* 6 to hit, reach 10 ft., one target. *Hit:* 14 (2d10 + 3) piercing damage plus 3 (1d6) necrotic damage."
+          "*Melee Weapon Attack:* +6 to hit, reach 10 ft., one target. *Hit:* 14 (2d10 + 3) piercing damage plus 3 (1d6) necrotic damage."
         ]
       },
       {
         "name": "Claw",
         "entries": [
-          "*Melee Weapon Attack:* 6 to hit, reach 5 ft., one target. *Hit:* 6 (1d6 + 3) slashing damage."
+          "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 6 (1d6 + 3) slashing damage."
         ]
       },
       {

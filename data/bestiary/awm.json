@@ -42,7 +42,7 @@
       {
         "name": "Constrict",
         "entries": [
-          "*Melee Weapon Attack:* 5 to hit, one target. *Hit:* 13 (3d6+3) bludgeoning damage. If the target is Medium or smaller, it is grappled (escape DC 13) and pulled 5 feet toward the big water slurpent. Until this grapple ends, the target is restrained, the big water slurpent tries to drown it, and the big water slurpent can't constrict another target."
+          "*Melee Weapon Attack:* +5 to hit, one target. *Hit:* 13 (3d6+3) bludgeoning damage. If the target is Medium or smaller, it is grappled (escape DC 13) and pulled 5 feet toward the big water slurpent. Until this grapple ends, the target is restrained, the big water slurpent tries to drown it, and the big water slurpent can't constrict another target."
         ]
       }
     ],
@@ -96,13 +96,13 @@
       {
         "name": "Bite",
         "entries": [
-          "*Melee Weapon Attack:* 4 to hit, reach 5 ft., one target. *Hit:* 5 (1d6+2) piercing damage."
+          "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 5 (1d6+2) piercing damage."
         ]
       },
       {
         "name": "Claws",
         "entries": [
-          "*Melee Weapon Attack:* 4 to hit, reach 5 ft., one target. *Hit:* 4 (1d4+2) slashing damage."
+          "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 4 (1d4+2) slashing damage."
         ]
       }
     ],
@@ -150,7 +150,7 @@
       {
         "name": "Bite",
         "entries": [
-          "*Melee Weapon Attack:* 1 to hit, reach 5 ft., one target. *Hit:* 1 (1d4 - 1) piercing damage."
+          "*Melee Weapon Attack:* +1 to hit, reach 5 ft., one target. *Hit:* 1 (1d4 - 1) piercing damage."
         ]
       }
     ],
@@ -204,7 +204,7 @@
       {
         "name": "Bite",
         "entries": [
-          "*Melee Weapon Attack:* 2 to hit, one target. *Hit:* 3 (1d6) piercing damage."
+          "*Melee Weapon Attack:* +2 to hit, one target. *Hit:* 3 (1d6) piercing damage."
         ]
       }
     ],
@@ -278,7 +278,7 @@
       {
         "name": "Claws",
         "entries": [
-          "*Melee Weapon Attack:* 6 to hit, one target. *Hit:* 17 (2d8 + 4) slashing damage."
+          "*Melee Weapon Attack:* +6 to hit, one target. *Hit:* 17 (2d8 + 4) slashing damage."
         ]
       }
     ],
@@ -332,13 +332,13 @@
       {
         "name": "Scimitar",
         "entries": [
-          "*Melee Weapon Attack:* 4 to hit, one target. *Hit:* 3 (1d6 +2) slashing damage."
+          "*Melee Weapon Attack:* +4 to hit, one target. *Hit:* 3 (1d6 +2) slashing damage."
         ]
       },
       {
         "name": "Shortbow",
         "entries": [
-          "*Ranged Weapon Attack:* 4 to hit, one target. *Hit:* 6 (1d6 + 2) piercing damage."
+          "*Ranged Weapon Attack:* +4 to hit, one target. *Hit:* 6 (1d6 + 2) piercing damage."
         ]
       }
     ],
@@ -386,7 +386,7 @@
       {
         "name": "Shortbow",
         "entries": [
-          "*Melee Weapon Attack:* 3 to hit, one target. *Hit:* 4 (1d6 + 1) slashing damage."
+          "*Melee Weapon Attack:* +3 to hit, one target. *Hit:* 4 (1d6 + 1) slashing damage."
         ]
       }
     ],
@@ -440,13 +440,13 @@
       {
         "name": "Bite",
         "entries": [
-          "*Melee Weapon Attack:* 14 to hit, one target. *Hit:* 22 (3d8) piercing damage. Target must make a DC 19 Dexterity save, or be swallowed by the worm!"
+          "*Melee Weapon Attack:* +14 to hit, one target. *Hit:* 22 (3d8) piercing damage. Target must make a DC 19 Dexterity save, or be swallowed by the worm!"
         ]
       },
       {
         "name": "Tail Stinger",
         "entries": [
-          "*Melee Weapon Attack:* 14 to hit, one creature. *Hit:* 19 (3d6 + 9) piercing damage Target must make a DC 19 Constitution save, or take 42 (12d6) poison damage."
+          "*Melee Weapon Attack:* +14 to hit, one creature. *Hit:* 19 (3d6 + 9) piercing damage Target must make a DC 19 Constitution save, or take 42 (12d6) poison damage."
         ]
       }
     ],
@@ -500,13 +500,13 @@
       {
         "name": "Bite",
         "entries": [
-          "*Melee Weapon Attack:* 6 to hit, reach 5 ft., one target. *Hit:* 12 (2d8 + 3) piercing damage. Target must make a DC 15 Constitution save, or take 6 (1d10) poison damage until cured."
+          "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 12 (2d8 + 3) piercing damage. Target must make a DC 15 Constitution save, or take 6 (1d10) poison damage until cured."
         ]
       },
       {
         "name": "Tentacle",
         "entries": [
-          "*Melee Weapon Attack:* 6 to hit, reach 10 ft., one target. *Hit:* 7 (1d8 + 3) bludgeoning damage. Target must make a DC 19 Constitution save, or take 42 (12d6) poison damage."
+          "*Melee Weapon Attack:* +6 to hit, reach 10 ft., one target. *Hit:* 7 (1d8 + 3) bludgeoning damage. Target must make a DC 19 Constitution save, or take 42 (12d6) poison damage."
         ]
       },
       {
@@ -561,13 +561,13 @@
       {
         "name": "Greatclub",
         "entries": [
-          "*Melee Weapon Attack:* 8 to hit, one target. *Hit:* 18 (3d8 + 5) bludgeoning damage."
+          "*Melee Weapon Attack:* +8 to hit, one target. *Hit:* 18 (3d8 + 5) bludgeoning damage."
         ]
       },
       {
         "name": "Rock",
         "entries": [
-          "*Ranged Weapon Attack:* 8 to hit, one target. *Hit:* 21 (3d10 + 5) bludgeoning damage."
+          "*Ranged Weapon Attack:* +8 to hit, one target. *Hit:* 21 (3d10 + 5) bludgeoning damage."
         ]
       }
     ],
@@ -631,13 +631,13 @@
       {
         "name": "Bite",
         "entries": [
-          "*Melee Weapon Attack:* 8 to hit, reach 5 ft., one creature. *Hit:* 8 (1d6 + 5) piercing damage. Target must make a DC 13 Constitution save, or fall unconscious. Another creature can use an action to shake the target awake."
+          "*Melee Weapon Attack:* +8 to hit, reach 5 ft., one creature. *Hit:* 8 (1d6 + 5) piercing damage. Target must make a DC 13 Constitution save, or fall unconscious. Another creature can use an action to shake the target awake."
         ]
       },
       {
         "name": "Constrict",
         "entries": [
-          "*Melee Weapon Attack:* 6 to hit, reach 10 ft., one Medium or smaller creature. *Hit:* 10 (2d6 + 3) bludgeoning damage. Target is grappled (escape DC 15). The couatl can constrain only one target at a time."
+          "*Melee Weapon Attack:* +6 to hit, reach 10 ft., one Medium or smaller creature. *Hit:* 10 (2d6 + 3) bludgeoning damage. Target is grappled (escape DC 15). The couatl can constrain only one target at a time."
         ]
       },
       {

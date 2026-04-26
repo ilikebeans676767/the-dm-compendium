@@ -47,13 +47,13 @@
       {
         "name": "Extended Fist",
         "entries": [
-          "*Melee Weapon Attack:* 6, reach 15 ft. *Hit:* 8 (1d8 + 4) Bludgeoning damage plus 5 (1d10) Acid damage. If the target is a Medium or smaller creature, it has the Grappled condition (escape DC 14) from one of two fists."
+          "*Melee Attack Roll:* +6, reach 15 ft. *Hit:* 8 (1d8 + 4) Bludgeoning damage plus 5 (1d10) Acid damage. If the target is a Medium or smaller creature, it has the Grappled condition (escape DC 14) from one of two fists."
         ]
       },
       {
         "name": "Acid Spittle",
         "entries": [
-          "*Ranged Weapon Attack:* 6, range 60 ft. *Hit:* 13 (2d8 + 4) Acid damage."
+          "*Ranged Attack Roll:* +6, range 60 ft. *Hit:* 13 (2d8 + 4) Acid damage."
         ]
       }
     ],
@@ -108,13 +108,13 @@
       {
         "name": "Searing Swipe",
         "entries": [
-          "*Melee Weapon Attack:* 6, reach 10 ft. *Hit:* 13 (3d6 + 3) Fire or Lightning damage (eddy's choice)."
+          "*Melee Attack Roll:* +6, reach 10 ft. *Hit:* 13 (3d6 + 3) Fire or Lightning damage (eddy's choice)."
         ]
       },
       {
         "name": "Arcane Bolt",
         "entries": [
-          "*Ranged Weapon Attack:* 6, range 120 ft. *Hit:* 14 (2d10 + 3) Force damage."
+          "*Ranged Attack Roll:* +6, range 120 ft. *Hit:* 14 (2d10 + 3) Force damage."
         ]
       }
     ],
@@ -194,13 +194,13 @@
       {
         "name": "Mind Lash",
         "entries": [
-          "*Melee Weapon or Ranged Weapon Attack:* 9, reach 10 ft. or range 120 ft. *Hit:* 32 (6d8 + 4) Psychic damage."
+          "*Melee or Ranged Attack Roll:* +9, reach 10 ft. or range 120 ft. *Hit:* 32 (6d8 + 4) Psychic damage."
         ]
       },
       {
         "name": "Vicious Stinger",
         "entries": [
-          "*Melee Weapon Attack:* 9, reach 5 ft. *Hit:* 11 (2d6 + 4) Piercing damage plus 26 (4d12) Poison damage, and the target's Speed is reduced to 0 feet until the start of the phaerimm's next turn."
+          "*Melee Attack Roll:* +9, reach 5 ft. *Hit:* 11 (2d6 + 4) Piercing damage plus 26 (4d12) Poison damage, and the target's Speed is reduced to 0 feet until the start of the phaerimm's next turn."
         ]
       },
       {
@@ -279,13 +279,13 @@
       {
         "name": "Stinger",
         "entries": [
-          "*Melee Weapon Attack:* 3, reach 5 ft. *Hit:* 4 (1d6 + 1) Piercing damage plus 9 (2d8) Poison damage."
+          "*Melee Attack Roll:* +3, reach 5 ft. *Hit:* 4 (1d6 + 1) Piercing damage plus 9 (2d8) Poison damage."
         ]
       },
       {
         "name": "Mindwarp Ray",
         "entries": [
-          "*Ranged Weapon Attack:* 5, range 120 ft. *Hit:* 6 (1d6 + 3) Psychic damage, and the target has the Charmed condition until the start of the phaerimm's next turn."
+          "*Ranged Attack Roll:* +5, range 120 ft. *Hit:* 6 (1d6 + 3) Psychic damage, and the target has the Charmed condition until the start of the phaerimm's next turn."
         ]
       }
     ],
@@ -364,13 +364,13 @@
       {
         "name": "Hammer Fist",
         "entries": [
-          "*Melee Weapon Attack:* 6, reach 5 ft. *Hit:* 16 (3d8 + 3) Bludgeoning damage plus 13 (3d8) Force damage."
+          "*Melee Attack Roll:* +6, reach 5 ft. *Hit:* 16 (3d8 + 3) Bludgeoning damage plus 13 (3d8) Force damage."
         ]
       },
       {
         "name": "Thunderous Boom",
         "entries": [
-          "*Ranged Weapon Attack:* 7, range 60 ft. *Hit:* 28 (8d6) Thunder damage."
+          "*Ranged Attack Roll:* +7, range 60 ft. *Hit:* 28 (8d6) Thunder damage."
         ]
       }
     ],
@@ -441,7 +441,7 @@
       {
         "name": "Psychic Blast",
         "entries": [
-          "*Melee Weapon or Ranged Weapon Attack:* 6, reach 5 ft. or range 60 ft. *Hit:* 21 (6d6) Psychic damage."
+          "*Melee or Ranged Attack Roll:* +6, reach 5 ft. or range 60 ft. *Hit:* 21 (6d6) Psychic damage."
         ]
       }
     ],

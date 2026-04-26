@@ -48,19 +48,19 @@
       {
         "name": "Claw (Slaad Only)",
         "entries": [
-          "*Melee Weapon Attack:* Bonus equals your spell attack modifier, reach 5 ft. *Hit:* 1d10 + 3 + summonSpellLevel Slashing damage, and the target can't regain Hit Points until the start of the spirit's next turn."
+          "*Melee Attack Roll:* Bonus equals your spell attack modifier, reach 5 ft. *Hit:* 1d10 + 3 + summonSpellLevel Slashing damage, and the target can't regain Hit Points until the start of the spirit's next turn."
         ]
       },
       {
         "name": "Eye Ray (Beholderkin Only)",
         "entries": [
-          "*Ranged Weapon Attack:* Bonus equals your spell attack modifier, range 150 ft. *Hit:* 1d8 + 3 + summonSpellLevel Psychic damage."
+          "*Ranged Attack Roll:* Bonus equals your spell attack modifier, range 150 ft. *Hit:* 1d8 + 3 + summonSpellLevel Psychic damage."
         ]
       },
       {
         "name": "Psychic Slam (Mind Flayer Only)",
         "entries": [
-          "*Melee Weapon Attack:* Bonus equals your spell attack modifier, reach 5 ft. *Hit:* 1d8 + 3 + summonSpellLevel Psychic damage."
+          "*Melee Attack Roll:* Bonus equals your spell attack modifier, reach 5 ft. *Hit:* 1d8 + 3 + summonSpellLevel Psychic damage."
         ]
       }
     ],
@@ -101,7 +101,7 @@
       {
         "name": "Slam",
         "entries": [
-          "*Melee Weapon Attack:* Bonus equals your spell attack modifier, reach 5 ft. *Hit:* Force damage equal to (summonSpellLevel - 4)d4 + 3, (summonSpellLevel - 3)d6 + 3 + your spellcasting ability modifier (Large), or (summonSpellLevel - 3)d12 + 3 + your spellcasting ability modifier (Huge)."
+          "*Melee Attack Roll:* Bonus equals your spell attack modifier, reach 5 ft. *Hit:* Force damage equal to (summonSpellLevel - 4)d4 + 3, (summonSpellLevel - 3)d6 + 3 + your spellcasting ability modifier (Large), or (summonSpellLevel - 3)d12 + 3 + your spellcasting ability modifier (Huge)."
         ]
       }
     ],
@@ -149,7 +149,7 @@
       {
         "name": "Beast's Strike",
         "entries": [
-          "*Melee Weapon Attack:* Bonus equals your spell attack modifier, reach 5 ft. *Hit:* 1d8 + 2 plus your Wisdom modifier Bludgeoning, Piercing, or Slashing damage (your choice when you summon the beast). If the beast moved at least 20 feet straight toward the target before the hit, the target takes an extra 1d6 damage of the same type, and the target has the Prone condition if it is a Large or smaller creature."
+          "*Melee Attack Roll:* Bonus equals your spell attack modifier, reach 5 ft. *Hit:* 1d8 + 2 plus your Wisdom modifier Bludgeoning, Piercing, or Slashing damage (your choice when you summon the beast). If the beast moved at least 20 feet straight toward the target before the hit, the target takes an extra 1d6 damage of the same type, and the target has the Prone condition if it is a Large or smaller creature."
         ]
       }
     ],
@@ -203,7 +203,7 @@
       {
         "name": "Beast's Strike",
         "entries": [
-          "*Melee Weapon Attack:* Bonus equals your spell attack modifier, reach 5 ft. *Hit:* 1d6 + 2 plus your Wisdom modifier Bludgeoning or Piercing damage (your choice when you summon the beast), and the target has the Grappled condition (escape DC equals your spell save DC)."
+          "*Melee Attack Roll:* Bonus equals your spell attack modifier, reach 5 ft. *Hit:* 1d6 + 2 plus your Wisdom modifier Bludgeoning or Piercing damage (your choice when you summon the beast), and the target has the Grappled condition (escape DC equals your spell save DC)."
         ]
       }
     ],
@@ -257,7 +257,7 @@
       {
         "name": "Beast's Strike",
         "entries": [
-          "*Melee Weapon Attack:* Bonus equals your spell attack modifier, reach 5 ft. *Hit:* 1d4 + 3 plus your Wisdom modifier Slashing damage."
+          "*Melee Attack Roll:* Bonus equals your spell attack modifier, reach 5 ft. *Hit:* 1d4 + 3 plus your Wisdom modifier Slashing damage."
         ]
       }
     ],
@@ -323,7 +323,7 @@
       {
         "name": "Rend",
         "entries": [
-          "*Melee Weapon Attack:* Bonus equals your spell attack modifier, reach 5 ft. *Hit:* 1d8 + 4 + summonSpellLevel Piercing damage."
+          "*Melee Attack Roll:* Bonus equals your spell attack modifier, reach 5 ft. *Hit:* 1d8 + 4 + summonSpellLevel Piercing damage."
         ]
       }
     ],
@@ -370,13 +370,13 @@
       {
         "name": "Radiant Bow (Avenger Only)",
         "entries": [
-          "*Ranged Weapon Attack:* Bonus equals your spell attack modifier, range 600 ft. *Hit:* 2d6 + 2 + summonSpellLevel Radiant damage."
+          "*Ranged Attack Roll:* Bonus equals your spell attack modifier, range 600 ft. *Hit:* 2d6 + 2 + summonSpellLevel Radiant damage."
         ]
       },
       {
         "name": "Radiant Mace (Defender Only)",
         "entries": [
-          "*Melee Weapon Attack:* Bonus equals your spell attack modifier, reach 5 ft. *Hit:* 1d10 + 3 + summonSpellLevel Radiant damage, and the spirit can choose itself or another creature it can see within 10 feet of the target. The chosen creature gains 1d10 Temporary Hit Points."
+          "*Melee Attack Roll:* Bonus equals your spell attack modifier, reach 5 ft. *Hit:* 1d10 + 3 + summonSpellLevel Radiant damage, and the spirit can choose itself or another creature it can see within 10 feet of the target. The chosen creature gains 1d10 Temporary Hit Points."
         ]
       },
       {
@@ -442,7 +442,7 @@
       {
         "name": "Slam",
         "entries": [
-          "*Melee Weapon Attack:* Bonus equals your spell attack modifier, reach 5 ft. *Hit:* 1d8 + 4 + summonSpellLevel Bludgeoning damage."
+          "*Melee Attack Roll:* Bonus equals your spell attack modifier, reach 5 ft. *Hit:* 1d8 + 4 + summonSpellLevel Bludgeoning damage."
         ]
       }
     ],
@@ -563,7 +563,7 @@
       {
         "name": "Slam",
         "entries": [
-          "*Melee Weapon Attack:* Bonus equals your spell attack modifier, reach 5 ft. *Hit:* 1d10 + 4 + summonSpellLevel Bludgeoning (Earth only), Cold (Water only), Lightning (Air only), or Fire (Fire only) damage."
+          "*Melee Attack Roll:* Bonus equals your spell attack modifier, reach 5 ft. *Hit:* 1d10 + 4 + summonSpellLevel Bludgeoning (Earth only), Cold (Water only), Lightning (Air only), or Fire (Fire only) damage."
         ]
       }
     ],
@@ -610,7 +610,7 @@
       {
         "name": "Fey Blade",
         "entries": [
-          "*Melee Weapon Attack:* Bonus equals your spell attack modifier, reach 5 ft. *Hit:* 2d6 + 3 + summonSpellLevel Force damage."
+          "*Melee Attack Roll:* Bonus equals your spell attack modifier, reach 5 ft. *Hit:* 2d6 + 3 + summonSpellLevel Force damage."
         ]
       }
     ],
@@ -684,19 +684,19 @@
       {
         "name": "Bite (Demon Only)",
         "entries": [
-          "*Melee Weapon Attack:* Bonus equals your spell attack modifier, reach 5 ft. *Hit:* 1d12 + 3 + summonSpellLevel Necrotic damage."
+          "*Melee Attack Roll:* Bonus equals your spell attack modifier, reach 5 ft. *Hit:* 1d12 + 3 + summonSpellLevel Necrotic damage."
         ]
       },
       {
         "name": "Claws (Yugoloth Only)",
         "entries": [
-          "*Melee Weapon Attack:* Bonus equals your spell attack modifier, reach 5 ft. *Hit:* 1d8 + 3 + summonSpellLevel Slashing damage. Immediately after the attack hits or misses, the spirit can teleport up to 30 feet to an unoccupied space it can see."
+          "*Melee Attack Roll:* Bonus equals your spell attack modifier, reach 5 ft. *Hit:* 1d8 + 3 + summonSpellLevel Slashing damage. Immediately after the attack hits or misses, the spirit can teleport up to 30 feet to an unoccupied space it can see."
         ]
       },
       {
         "name": "Fiery Strike (Devil Only)",
         "entries": [
-          "*Melee Weapon or Ranged Weapon Attack:* Bonus equals your spell attack modifier, reach 5 ft. or range 150 ft. *Hit:* 2d6 + 3 + summonSpellLevel Fire damage."
+          "*Melee or Ranged Attack Roll:* Bonus equals your spell attack modifier, reach 5 ft. or range 150 ft. *Hit:* 2d6 + 3 + summonSpellLevel Fire damage."
         ]
       }
     ],
@@ -750,13 +750,13 @@
       {
         "name": "Poison Jab",
         "entries": [
-          "*Melee Weapon Attack:* Bonus equals your spell attack modifier, reach 10 ft. *Hit:* 1d6 + 3 + summonSpellLevel Piercing damage plus 1d4 Poison damage."
+          "*Melee Attack Roll:* Bonus equals your spell attack modifier, reach 10 ft. *Hit:* 1d6 + 3 + summonSpellLevel Piercing damage plus 1d4 Poison damage."
         ]
       },
       {
         "name": "Web Bolt (Spider Only)",
         "entries": [
-          "*Ranged Weapon Attack:* Bonus equals your spell attack modifier, range 60 ft. *Hit:* 1d10 + 3 + summonSpellLevel Bludgeoning damage, and the target's Speed is reduced to 0 until the start of the insect's next turn."
+          "*Ranged Attack Roll:* Bonus equals your spell attack modifier, range 60 ft. *Hit:* 1d10 + 3 + summonSpellLevel Bludgeoning damage, and the target's Speed is reduced to 0 until the start of the insect's next turn."
         ]
       }
     ],
@@ -811,7 +811,7 @@
       {
         "name": "Otherworldly Slam",
         "entries": [
-          "*Melee Weapon Attack:* Bonus equals your spell attack modifier, reach 5 ft. *Hit:* 1d8 + summonSpellLevel of Radiant (Celestial), Psychic (Fey), or Necrotic (Fiend) damage."
+          "*Melee Attack Roll:* Bonus equals your spell attack modifier, reach 5 ft. *Hit:* 1d8 + summonSpellLevel of Radiant (Celestial), Psychic (Fey), or Necrotic (Fiend) damage."
         ]
       }
     ],
@@ -890,19 +890,19 @@
       {
         "name": "Deathly Touch (Ghostly Only)",
         "entries": [
-          "*Melee Weapon Attack:* Bonus equals your spell attack modifier, reach 5 ft. *Hit:* 1d8 + 3 + summonSpellLevel Necrotic damage, and the target has the Frightened condition until the end of its next turn."
+          "*Melee Attack Roll:* Bonus equals your spell attack modifier, reach 5 ft. *Hit:* 1d8 + 3 + summonSpellLevel Necrotic damage, and the target has the Frightened condition until the end of its next turn."
         ]
       },
       {
         "name": "Grave Bolt (Skeletal Only)",
         "entries": [
-          "*Ranged Weapon Attack:* Bonus equals your spell attack modifier, range 150 ft. *Hit:* 2d4 + 3 + summonSpellLevel Necrotic damage."
+          "*Ranged Attack Roll:* Bonus equals your spell attack modifier, range 150 ft. *Hit:* 2d4 + 3 + summonSpellLevel Necrotic damage."
         ]
       },
       {
         "name": "Rotting Claw (Putrid Only)",
         "entries": [
-          "*Melee Weapon Attack:* Bonus equals your spell attack modifier, reach 5 ft. *Hit:* 1d6 + 3 + summonSpellLevel Slashing damage. If the target has the Poisoned condition, it has the Paralyzed condition until the end of its next turn."
+          "*Melee Attack Roll:* Bonus equals your spell attack modifier, reach 5 ft. *Hit:* 1d6 + 3 + summonSpellLevel Slashing damage. If the target has the Poisoned condition, it has the Paralyzed condition until the end of its next turn."
         ]
       }
     ],

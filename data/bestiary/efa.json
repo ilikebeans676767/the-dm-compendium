@@ -36,13 +36,13 @@
       {
         "name": "Shortsword",
         "entries": [
-          "*Melee Weapon Attack:* 4, reach 5 ft. *Hit:* 5 (1d6 + 2) Piercing damage plus 2 (1d4) Poison damage."
+          "*Melee Attack Roll:* +4, reach 5 ft. *Hit:* 5 (1d6 + 2) Piercing damage plus 2 (1d4) Poison damage."
         ]
       },
       {
         "name": "Pistol",
         "entries": [
-          "*Ranged Weapon Attack:* 4, range 30/90 ft. *Hit:* 7 (1d10 + 2) Piercing damage."
+          "*Ranged Attack Roll:* +4, range 30/90 ft. *Hit:* 7 (1d10 + 2) Piercing damage."
         ]
       }
     ],
@@ -96,13 +96,13 @@
       {
         "name": "Poisoned Blade",
         "entries": [
-          "*Melee Weapon Attack:* 7, reach 5 ft. *Hit:* 13 (2d8 + 4) Slashing damage plus 7 (2d6) Poison damage, and the target has the Poisoned condition until the start of the underboss's next turn. If the target is already Poisoned, it instead takes an extra 7 (2d6) Poison damage."
+          "*Melee Attack Roll:* +7, reach 5 ft. *Hit:* 13 (2d8 + 4) Slashing damage plus 7 (2d6) Poison damage, and the target has the Poisoned condition until the start of the underboss's next turn. If the target is already Poisoned, it instead takes an extra 7 (2d6) Poison damage."
         ]
       },
       {
         "name": "Arcane Firearm",
         "entries": [
-          "*Ranged Weapon Attack:* 7, range 30/90 ft. *Hit:* 26 (4d10 + 4) Force damage."
+          "*Ranged Attack Roll:* +7, range 30/90 ft. *Hit:* 26 (4d10 + 4) Force damage."
         ]
       }
     ],
@@ -166,13 +166,13 @@
       {
         "name": "Battering Mace",
         "entries": [
-          "*Melee Weapon Attack:* 6, reach 5 ft. *Hit:* 14 (3d6 + 4) Bludgeoning damage, and if the target is a Large or smaller creature, it has the Prone condition."
+          "*Melee Attack Roll:* +6, reach 5 ft. *Hit:* 14 (3d6 + 4) Bludgeoning damage, and if the target is a Large or smaller creature, it has the Prone condition."
         ]
       },
       {
         "name": "Artillery Strike",
         "entries": [
-          "*Ranged Weapon Attack:* 6, range 120 ft. *Hit:* 22 (4d8 + 4) Force damage."
+          "*Ranged Attack Roll:* +6, range 120 ft. *Hit:* 22 (4d8 + 4) Force damage."
         ]
       }
     ],
@@ -226,7 +226,7 @@
       {
         "name": "Pummel",
         "entries": [
-          "*Melee Weapon Attack:* 9, reach 5 ft. *Hit:* 12 (2d6 + 5) Bludgeoning damage."
+          "*Melee Attack Roll:* +9, reach 5 ft. *Hit:* 12 (2d6 + 5) Bludgeoning damage."
         ]
       },
       {
@@ -287,7 +287,7 @@
       {
         "name": "Pummel",
         "entries": [
-          "*Melee Weapon Attack:* 5, reach 5 ft. *Hit:* 5 (1d4 + 3) Bludgeoning damage."
+          "*Melee Attack Roll:* +5, reach 5 ft. *Hit:* 5 (1d4 + 3) Bludgeoning damage."
         ]
       }
     ],
@@ -351,7 +351,7 @@
       {
         "name": "Mind Blade",
         "entries": [
-          "*Melee Weapon or Ranged Weapon Attack:* 7, reach 5 ft. or range 30 ft. *Hit:* 14 (3d6 + 4) Psychic damage."
+          "*Melee or Ranged Attack Roll:* +7, reach 5 ft. or range 30 ft. *Hit:* 14 (3d6 + 4) Psychic damage."
         ]
       }
     ],
@@ -414,7 +414,7 @@
       {
         "name": "Nightmare Whisper",
         "entries": [
-          "*Melee Weapon or Ranged Weapon Attack:* 9, reach 5 ft. or range 30 ft. *Hit:* 27 (5d8 + 5) Psychic damage, and the target has the Frightened condition until the start of the mindkiller's next turn. If the target is already Frightened, it instead takes an extra 10 (3d6) Psychic damage."
+          "*Melee or Ranged Attack Roll:* +9, reach 5 ft. or range 30 ft. *Hit:* 27 (5d8 + 5) Psychic damage, and the target has the Frightened condition until the start of the mindkiller's next turn. If the target is already Frightened, it instead takes an extra 10 (3d6) Psychic damage."
         ]
       },
       {
@@ -474,13 +474,13 @@
       {
         "name": "Flail",
         "entries": [
-          "*Melee Weapon Attack:* 6, reach 5 ft. *Hit:* 8 (1d8 + 4) Bludgeoning damage—plus 7 (2d6) Necrotic damage if the commander is Bloodied—and the target has Disadvantage on its next attack roll before the start of the commander's next turn."
+          "*Melee Attack Roll:* +6, reach 5 ft. *Hit:* 8 (1d8 + 4) Bludgeoning damage—plus 7 (2d6) Necrotic damage if the commander is Bloodied—and the target has Disadvantage on its next attack roll before the start of the commander's next turn."
         ]
       },
       {
         "name": "Javelin",
         "entries": [
-          "*Melee Weapon or Ranged Weapon Attack:* 6, reach 5 ft. or range 30/120 ft. *Hit:* 7 (1d6 + 4) Piercing damage—plus 7 (2d6) Necrotic damage if the commander is Bloodied."
+          "*Melee or Ranged Attack Roll:* +6, reach 5 ft. or range 30/120 ft. *Hit:* 7 (1d6 + 4) Piercing damage—plus 7 (2d6) Necrotic damage if the commander is Bloodied."
         ]
       }
     ],
@@ -527,13 +527,13 @@
       {
         "name": "Flail",
         "entries": [
-          "*Melee Weapon Attack:* 5, reach 5 ft. *Hit:* 7 (1d8 + 3) Bludgeoning damage—plus 4 (1d8) Necrotic damage if the knight is Bloodied—and the target has Disadvantage on its next attack roll before the start of the knight's next turn."
+          "*Melee Attack Roll:* +5, reach 5 ft. *Hit:* 7 (1d8 + 3) Bludgeoning damage—plus 4 (1d8) Necrotic damage if the knight is Bloodied—and the target has Disadvantage on its next attack roll before the start of the knight's next turn."
         ]
       },
       {
         "name": "Javelin",
         "entries": [
-          "*Melee Weapon or Ranged Weapon Attack:* 5, reach 5 ft. or range 30/120 ft. *Hit:* 6 (1d6 + 3) Piercing damage—plus 4 (1d8) Necrotic damage if the knight is Bloodied."
+          "*Melee or Ranged Attack Roll:* +5, reach 5 ft. or range 30/120 ft. *Hit:* 6 (1d6 + 3) Piercing damage—plus 4 (1d8) Necrotic damage if the knight is Bloodied."
         ]
       }
     ],
@@ -596,7 +596,7 @@
       {
         "name": "Poisoned Dagger",
         "entries": [
-          "*Melee Weapon or Ranged Weapon Attack:* 5, reach 5 ft. or range 20/60 ft. *Hit:* 5 (1d4 + 3) Piercing damage, and the target has the Poisoned condition until the start of the troubleshooter's next turn."
+          "*Melee or Ranged Attack Roll:* +5, reach 5 ft. or range 20/60 ft. *Hit:* 5 (1d4 + 3) Piercing damage, and the target has the Poisoned condition until the start of the troubleshooter's next turn."
         ]
       }
     ],
@@ -657,7 +657,7 @@
       {
         "name": "Force Strike",
         "entries": [
-          "*Melee Weapon or Ranged Weapon Attack:* Bonus equals your spell attack modifier, reach 5 ft. or range 30 ft. *Hit:* 1d6 + summonSpellLevel Force damage."
+          "*Melee or Ranged Attack Roll:* Bonus equals your spell attack modifier, reach 5 ft. or range 30 ft. *Hit:* 1d6 + summonSpellLevel Force damage."
         ]
       }
     ],
@@ -727,7 +727,7 @@
       {
         "name": "Radiant Burst",
         "entries": [
-          "*Melee Weapon or Ranged Weapon Attack:* 5, reach 5 ft. or range 30 ft. *Hit:* 7 (2d6) Radiant damage, and the creature has the Blinded condition until the start of the medic's next turn."
+          "*Melee or Ranged Attack Roll:* +5, reach 5 ft. or range 30 ft. *Hit:* 7 (2d6) Radiant damage, and the creature has the Blinded condition until the start of the medic's next turn."
         ]
       }
     ],
@@ -799,7 +799,7 @@
       {
         "name": "Arcane Whip",
         "entries": [
-          "*Melee Weapon Attack:* 6, reach 10 ft. *Hit:* 13 (3d6 + 3) Force damage, and if the target is a Medium or smaller creature, it has the Prone condition. If the target already has the Prone condition, the attack deals an extra 7 (2d6) Force damage."
+          "*Melee Attack Roll:* +6, reach 10 ft. *Hit:* 13 (3d6 + 3) Force damage, and if the target is a Medium or smaller creature, it has the Prone condition. If the target already has the Prone condition, the attack deals an extra 7 (2d6) Force damage."
         ]
       },
       {
@@ -877,7 +877,7 @@
       {
         "name": "Thunderbolt",
         "entries": [
-          "*Melee Weapon or Ranged Weapon Attack:* 6, reach 5 ft. or range 30 ft. *Hit:* 11 (2d6 + 4) Lightning damage plus 9 (2d8) Thunder damage. Critical *Hit:* The creature also has the Deafened condition for 1 minute."
+          "*Melee or Ranged Attack Roll:* +6, reach 5 ft. or range 30 ft. *Hit:* 11 (2d6 + 4) Lightning damage plus 9 (2d8) Thunder damage. Critical *Hit:* The creature also has the Deafened condition for 1 minute."
         ]
       }
     ],
@@ -934,7 +934,7 @@
       {
         "name": "Crooked Staff",
         "entries": [
-          "*Melee Weapon Attack:* 4, reach 5 ft. *Hit:* 6 (1d8 + 2) Bludgeoning damage. If the target is a Medium or smaller creature, it has the Prone condition. If the target already has the Prone condition, the attack deals an extra 7 (2d6) Radiant damage."
+          "*Melee Attack Roll:* +4, reach 5 ft. *Hit:* 6 (1d8 + 2) Bludgeoning damage. If the target is a Medium or smaller creature, it has the Prone condition. If the target already has the Prone condition, the attack deals an extra 7 (2d6) Radiant damage."
         ]
       },
       {
@@ -1003,7 +1003,7 @@
       {
         "name": "Dagger",
         "entries": [
-          "*Melee Weapon or Ranged Weapon Attack:* 6, reach 5 ft. or range 20/60 ft. *Hit:* 9 (2d4 + 4) Piercing damage plus 7 (2d6) Poison damage."
+          "*Melee or Ranged Attack Roll:* +6, reach 5 ft. or range 20/60 ft. *Hit:* 9 (2d4 + 4) Piercing damage plus 7 (2d6) Poison damage."
         ]
       },
       {
@@ -1072,13 +1072,13 @@
       {
         "name": "Longsword",
         "entries": [
-          "*Melee Weapon Attack:* 7, reach 5 ft. *Hit:* 13 (2d8 + 4) Slashing damage, and the target has Disadvantage on the next attack roll it makes before the start of the marshal's next turn."
+          "*Melee Attack Roll:* +7, reach 5 ft. *Hit:* 13 (2d8 + 4) Slashing damage, and the target has Disadvantage on the next attack roll it makes before the start of the marshal's next turn."
         ]
       },
       {
         "name": "Pistol",
         "entries": [
-          "*Ranged Weapon Attack:* 7, range 30/90 ft. *Hit:* 15 (2d10 + 4) Piercing damage."
+          "*Ranged Attack Roll:* +7, range 30/90 ft. *Hit:* 15 (2d10 + 4) Piercing damage."
         ]
       }
     ],
@@ -1135,7 +1135,7 @@
       {
         "name": "Shadow Knife",
         "entries": [
-          "*Melee Weapon or Ranged Weapon Attack:* 8, reach 5 ft. or range 20/60 ft. *Hit:* 10 (2d4 + 5) Piercing damage plus 14 (4d6) Necrotic damage, and the target's Speed is reduced by 10 feet until the end of its next turn."
+          "*Melee or Ranged Attack Roll:* +8, reach 5 ft. or range 20/60 ft. *Hit:* 10 (2d4 + 5) Piercing damage plus 14 (4d6) Necrotic damage, and the target's Speed is reduced by 10 feet until the end of its next turn."
         ]
       }
     ],
@@ -1206,7 +1206,7 @@
       {
         "name": "Bursting Sigil",
         "entries": [
-          "*Melee Weapon or Ranged Weapon Attack:* 5, reach 5 ft. or range 60 ft. *Hit:* 13 (3d6 + 3) Radiant damage."
+          "*Melee or Ranged Attack Roll:* +5, reach 5 ft. or range 60 ft. *Hit:* 13 (3d6 + 3) Radiant damage."
         ]
       }
     ],
@@ -1261,7 +1261,7 @@
       {
         "name": "Force-Empowered Rend",
         "entries": [
-          "*Melee Weapon Attack:* Bonus equals your spell attack modifier, reach 5 ft. *Hit:* 1d8 + 2 plus your Intelligence modifier Force damage."
+          "*Melee Attack Roll:* Bonus equals your spell attack modifier, reach 5 ft. *Hit:* 1d8 + 2 plus your Intelligence modifier Force damage."
         ]
       },
       {
@@ -1338,7 +1338,7 @@
       {
         "name": "Aberrant Strike",
         "entries": [
-          "*Melee Weapon Attack:* 7, reach 5 ft. *Hit:* 13 (3d6 + 3) Piercing damage, plus 21 (6d6) Force damage if the marauder had Advantage on the attack roll."
+          "*Melee Attack Roll:* +7, reach 5 ft. *Hit:* 13 (3d6 + 3) Piercing damage, plus 21 (6d6) Force damage if the marauder had Advantage on the attack roll."
         ]
       }
     ],
@@ -1392,7 +1392,7 @@
       {
         "name": "Spellcasting",
         "entries": [
-          "The ruffian casts one of the following spells, requiring no Material components and using Constitution as the spellcasting ability (spell save DC 12, 4 to hit with spell attacks):",
+          "The ruffian casts one of the following spells, requiring no Material components and using Constitution as the spellcasting ability (spell save DC 12, +4 to hit with spell attacks):",
           "At will: Thaumaturgy",
           "1/day: Witch Bolt"
         ],
@@ -1403,7 +1403,7 @@
       {
         "name": "Spear",
         "entries": [
-          "*Melee Weapon or Ranged Weapon Attack:* 4, reach 5 ft. or range 20/60 ft. *Hit:* 6 (1d8 + 2) Piercing damage."
+          "*Melee or Ranged Attack Roll:* +4, reach 5 ft. or range 20/60 ft. *Hit:* 6 (1d8 + 2) Piercing damage."
         ]
       }
     ],
@@ -1450,13 +1450,13 @@
       {
         "name": "Shortsword",
         "entries": [
-          "*Melee Weapon Attack:* 7, reach 5 ft. *Hit:* 11 (2d6 + 4) Piercing damage, and the target has Disadvantage on attack rolls and ability checks until the end of its next turn."
+          "*Melee Attack Roll:* +7, reach 5 ft. *Hit:* 11 (2d6 + 4) Piercing damage, and the target has Disadvantage on attack rolls and ability checks until the end of its next turn."
         ]
       },
       {
         "name": "Longbow",
         "entries": [
-          "*Ranged Weapon Attack:* 7, range 150/600 ft. *Hit:* 17 (3d8 + 4) Piercing damage, and the target's Speed is reduced by 10 feet until the end of its next turn."
+          "*Ranged Attack Roll:* +7, range 150/600 ft. *Hit:* 17 (3d8 + 4) Piercing damage, and the target's Speed is reduced by 10 feet until the end of its next turn."
         ]
       }
     ],
@@ -1539,7 +1539,7 @@
       {
         "name": "Gloom Burst",
         "entries": [
-          "*Melee Weapon or Ranged Weapon Attack:* 9, reach 5 ft. or range 120 ft. *Hit:* 14 (2d8 + 5) Psychic damage."
+          "*Melee or Ranged Attack Roll:* +9, reach 5 ft. or range 120 ft. *Hit:* 14 (2d8 + 5) Psychic damage."
         ]
       },
       {
@@ -1610,13 +1610,13 @@
       {
         "name": "Scimitar",
         "entries": [
-          "*Melee Weapon Attack:* 5, reach 5 ft. *Hit:* 6 (1d6 + 3) Slashing damage plus 3 (1d6) Poison damage."
+          "*Melee Attack Roll:* +5, reach 5 ft. *Hit:* 6 (1d6 + 3) Slashing damage plus 3 (1d6) Poison damage."
         ]
       },
       {
         "name": "Lunar Wisp",
         "entries": [
-          "*Ranged Weapon Attack:* 5, range 60 ft. *Hit:* 9 (2d8) Radiant damage, and the target emits Dim Light in a 10-foot radius and can't benefit from the Invisible condition until the end of the heir's next turn."
+          "*Ranged Attack Roll:* +5, range 60 ft. *Hit:* 9 (2d8) Radiant damage, and the target emits Dim Light in a 10-foot radius and can't benefit from the Invisible condition until the end of the heir's next turn."
         ]
       }
     ],
@@ -1671,13 +1671,13 @@
       {
         "name": "Stingblade",
         "entries": [
-          "*Melee Weapon Attack:* 4, reach 5 ft. *Hit:* 5 (1d6 + 2) Piercing damage plus 2 (1d4) Poison damage."
+          "*Melee Attack Roll:* +4, reach 5 ft. *Hit:* 5 (1d6 + 2) Piercing damage plus 2 (1d4) Poison damage."
         ]
       },
       {
         "name": "Boomerang",
         "entries": [
-          "*Ranged Weapon Attack:* 4, reach 30/120 ft. *Hit:* 7 (2d4 + 2) Bludgeoning damage."
+          "*Ranged Attack Roll:* +4, reach 30/120 ft. *Hit:* 7 (2d4 + 2) Bludgeoning damage."
         ]
       }
     ],
@@ -1724,7 +1724,7 @@
       {
         "name": "Spellcasting",
         "entries": [
-          "The priest casts one of the following spells, using Wisdom as the spellcasting ability (spell save DC 13, 5 to hit with spell attacks):",
+          "The priest casts one of the following spells, using Wisdom as the spellcasting ability (spell save DC 13, +5 to hit with spell attacks):",
           "At will: Dancing Lights, Ray of Sickness, Thaumaturgy",
           "1e/day: Cure Wounds, Hold Person, Protection from Poison"
         ],
@@ -1735,7 +1735,7 @@
       {
         "name": "Venom Staff",
         "entries": [
-          "*Melee Weapon Attack:* 4, reach 5 ft. *Hit:* 9 (2d6 + 2) Bludgeoning damage, and the target has the Poisoned condition until the end of the priest's next turn."
+          "*Melee Attack Roll:* +4, reach 5 ft. *Hit:* 9 (2d6 + 2) Bludgeoning damage, and the target has the Poisoned condition until the end of the priest's next turn."
         ]
       }
     ],

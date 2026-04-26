@@ -48,13 +48,13 @@
       {
         "name": "Mandibles",
         "entries": [
-          "*Melee Weapon Attack:* 11 to hit, reach 10 ft., one target. *Hit:* 17 (2d10 + 6) piercing damage, and the target is grappled (escape DC 19). Until this grapple ends, the target is restrained, and the ancient deep crow can't use its mandibles on another target."
+          "*Melee Weapon Attack:* +11 to hit, reach 10 ft., one target. *Hit:* 17 (2d10 + 6) piercing damage, and the target is grappled (escape DC 19). Until this grapple ends, the target is restrained, and the ancient deep crow can't use its mandibles on another target."
         ]
       },
       {
         "name": "Claw",
         "entries": [
-          "*Melee Weapon Attack:* 11 to hit, reach 5 ft., one target. *Hit:* 13 (2d6 + 6) slashing damage."
+          "*Melee Weapon Attack:* +11 to hit, reach 5 ft., one target. *Hit:* 13 (2d6 + 6) slashing damage."
         ]
       },
       {
@@ -135,13 +135,13 @@
       {
         "name": "Longsword",
         "entries": [
-          "*Melee Weapon Attack:* 5 to hit, reach 5 ft., one target. *Hit:* 7 (1d8 + 3) slashing damage, or 8 (1d10 + 3) slashing damage if used with two hands."
+          "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 7 (1d8 + 3) slashing damage, or 8 (1d10 + 3) slashing damage if used with two hands."
         ]
       },
       {
         "name": "Light Crossbow",
         "entries": [
-          "*Ranged Weapon Attack:* 4 to hit, range 80/320 ft., one target. *Hit:* 6 (1d8 + 2) piercing damage."
+          "*Ranged Weapon Attack:* +4 to hit, range 80/320 ft., one target. *Hit:* 6 (1d8 + 2) piercing damage."
         ]
       }
     ],
@@ -194,7 +194,7 @@
       {
         "name": "Spellcasting",
         "entries": [
-          "Brahma is a 4th-level spellcaster. Her spellcasting ability is Charisma (spell save DC 13, 5 to hit with spell attacks). She has the following bard spells prepared:",
+          "Brahma is a 4th-level spellcaster. Her spellcasting ability is Charisma (spell save DC 13, +5 to hit with spell attacks). She has the following bard spells prepared:",
           "0: mage hand, message, vicious mockery",
           "1 (4 slots): charm person, heroism, illusory script, sleep, unseen servant",
           "2 (3 slots): cloud of daggers, invisibility"
@@ -205,7 +205,7 @@
       {
         "name": "War Lute",
         "entries": [
-          "*Melee Weapon Attack:* 4 to hit, reach 5 ft., one target. *Hit:* 5 (1d6 + 2) slashing damage."
+          "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 5 (1d6 + 2) slashing damage."
         ]
       },
       {
@@ -265,7 +265,7 @@
       {
         "name": "Tentacle",
         "entries": [
-          "*Melee Weapon Attack:* 6 to hit, reach 15 ft., one target. *Hit:* 11 (2d6 + 4) bludgeoning damage. If the target is a creature, it is grappled (escape DC 14). Until this grapple ends, the target is restrained. The chaos quadrapod can grapple no more than two targets at a time."
+          "*Melee Weapon Attack:* +6 to hit, reach 15 ft., one target. *Hit:* 11 (2d6 + 4) bludgeoning damage. If the target is a creature, it is grappled (escape DC 14). Until this grapple ends, the target is restrained. The chaos quadrapod can grapple no more than two targets at a time."
         ]
       },
       {
@@ -319,7 +319,7 @@
       {
         "name": "Bite",
         "entries": [
-          "*Melee Weapon Attack:* 4 to hit, reach 5 ft., one target. *Hit:* 7 (1d10 + 2) piercing damage."
+          "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 7 (1d10 + 2) piercing damage."
         ]
       },
       {
@@ -391,13 +391,13 @@
       {
         "name": "Mandibles",
         "entries": [
-          "*Melee Weapon Attack:* 9 to hit, reach 10 ft., one target. *Hit:* 16 (2d10 + 5) piercing damage, and the target is grappled (escape DC 17). Until this grapple ends, the target is restrained, and the deep crow can't use its mandibles on another target."
+          "*Melee Weapon Attack:* +9 to hit, reach 10 ft., one target. *Hit:* 16 (2d10 + 5) piercing damage, and the target is grappled (escape DC 17). Until this grapple ends, the target is restrained, and the deep crow can't use its mandibles on another target."
         ]
       },
       {
         "name": "Claw",
         "entries": [
-          "*Melee Weapon Attack:* 9 to hit, reach 5 ft., one target. *Hit:* 12 (2d6 + 5) slashing damage."
+          "*Melee Weapon Attack:* +9 to hit, reach 5 ft., one target. *Hit:* 12 (2d6 + 5) slashing damage."
         ]
       }
     ],
@@ -444,7 +444,7 @@
       {
         "name": "Spellcasting",
         "entries": [
-          "Donaar is a 5th-level spellcaster. His spellcasting ability is Charisma (spell save DC 13, 5 to hit with spell attacks). He has the following paladin spells prepared:",
+          "Donaar is a 5th-level spellcaster. His spellcasting ability is Charisma (spell save DC 13, +5 to hit with spell attacks). He has the following paladin spells prepared:",
           "1 (4 slots): command, compelled duel, cure wounds, wrathful smite",
           "2 (2 slots): aid, branding smite, lesser restoration, warding bond, zone of truth"
         ]
@@ -460,13 +460,13 @@
       {
         "name": "Greatsword",
         "entries": [
-          "*Melee Weapon Attack:* 5 to hit, reach 5 ft., one target. *Hit:* 10 (2d6 + 3) slashing damage. Whenever Donaar rolls a 1 or 2 on a damage die, he can reroll the die and must use the new roll."
+          "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 10 (2d6 + 3) slashing damage. Whenever Donaar rolls a 1 or 2 on a damage die, he can reroll the die and must use the new roll."
         ]
       },
       {
         "name": "Whip",
         "entries": [
-          "*Melee Weapon Attack:* 5 to hit, reach 10 ft., one target. *Hit:* 5 (1d4 + 3) slashing damage."
+          "*Melee Weapon Attack:* +5 to hit, reach 10 ft., one target. *Hit:* 5 (1d4 + 3) slashing damage."
         ]
       },
       {
@@ -512,7 +512,7 @@
       {
         "name": "Spellcasting",
         "entries": [
-          "Flabbergast is a 9th-level spellcaster. His spellcasting ability is Intelligence (spell save DC 13, 5 to hit with spell attacks). He has the following wizard spells prepared:",
+          "Flabbergast is a 9th-level spellcaster. His spellcasting ability is Intelligence (spell save DC 13, +5 to hit with spell attacks). He has the following wizard spells prepared:",
           "0: fire bolt, light, mage hand, prestidigitation",
           "1 (4 slots): detect magic, mage armor, distort value*",
           "2 (3 slots): gift of gab*, suggestion",
@@ -527,7 +527,7 @@
       {
         "name": "Dagger",
         "entries": [
-          "*Melee Weapon or Ranged Weapon Attack:* 4 to hit, reach 5 ft. or range 20/60 ft., one target. *Hit:* 4 (1d4 + 2) piercing damage."
+          "*Melee Weapon or Ranged Weapon Attack:* +4 to hit, reach 5 ft. or range 20/60 ft., one target. *Hit:* 4 (1d4 + 2) piercing damage."
         ]
       }
     ],
@@ -580,7 +580,7 @@
       {
         "name": "Spellcasting",
         "entries": [
-          "Jim is a 9th-level spellcaster. His spellcasting ability is Intelligence (spell save DC 15, 7 to hit with spell attacks). He has the following wizard spells prepared:",
+          "Jim is a 9th-level spellcaster. His spellcasting ability is Intelligence (spell save DC 15, +7 to hit with spell attacks). He has the following wizard spells prepared:",
           "0: fire bolt, friends, mage hand, minor illusion, prestidigitation",
           "1 (4 slots): disguise self, Jim's magic missile*, mage armor",
           "2 (3 slots): invisibility, Jim's glowing coin*",
@@ -595,7 +595,7 @@
       {
         "name": "Dagger",
         "entries": [
-          "*Melee Weapon or Ranged Weapon Attack:* 5 to hit, reach 5 ft. or range 20/60 ft., one target. *Hit:* 4 (1d4 + 2) piercing damage."
+          "*Melee Weapon or Ranged Weapon Attack:* +5 to hit, reach 5 ft. or range 20/60 ft., one target. *Hit:* 4 (1d4 + 2) piercing damage."
         ]
       },
       {
@@ -668,7 +668,7 @@
       {
         "name": "Spellcasting",
         "entries": [
-          "K'thriss is a 5th-level spellcaster. His spellcasting ability is Charisma (spell save DC 14, 6 to hit with spell attacks). He regains his expended spell slots when he finishes a short or long rest, and knows the following warlock spells:",
+          "K'thriss is a 5th-level spellcaster. His spellcasting ability is Charisma (spell save DC 14, +6 to hit with spell attacks). He regains his expended spell slots when he finishes a short or long rest, and knows the following warlock spells:",
           "0: chill touch, eldritch blast, mending, prestidigitation, thorn whip, vicious mockery",
           "3 (2 slots): dissonant whispers, fly, hex, misty step, sending, shatter"
         ]
@@ -684,7 +684,7 @@
       {
         "name": "Sickle",
         "entries": [
-          "*Melee Weapon Attack:* 4 to hit, reach 5 ft., one target. *Hit:* 4 (1d4 + 2) slashing damage."
+          "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 4 (1d4 + 2) slashing damage."
         ]
       }
     ],
@@ -732,13 +732,13 @@
       {
         "name": "Fist",
         "entries": [
-          "*Melee Weapon Attack:* 5 to hit, reach 5 ft., one target. *Hit:* 7 (1d8 + 3) bludgeoning damage."
+          "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 7 (1d8 + 3) bludgeoning damage."
         ]
       },
       {
         "name": "Acid Squirt",
         "entries": [
-          "*Ranged Weapon Attack:* 5 to hit, range 20/40 ft., one target. *Hit:* 7 (1d8 + 3) acid damage."
+          "*Ranged Weapon Attack:* +5 to hit, range 20/40 ft., one target. *Hit:* 7 (1d8 + 3) acid damage."
         ]
       },
       {
@@ -807,7 +807,7 @@
       {
         "name": "Spellcasting",
         "entries": [
-          "Môrgæn is a 9th-level spellcaster. Her spellcasting ability is Wisdom (spell save DC 12, 4 to hit with spell attacks). She has the following ranger spells prepared:",
+          "Môrgæn is a 9th-level spellcaster. Her spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). She has the following ranger spells prepared:",
           "1 (4 slots): alarm, animal friendship, hunter's mark",
           "2 (3 slots): pass without trace, spike growth",
           "3 (2 slots): conjure animals"
@@ -824,13 +824,13 @@
       {
         "name": "Scimitars",
         "entries": [
-          "*Melee Weapon Attack:* 6 to hit, reach 5 ft., one target. *Hit:* 7 (1d6 + 4) slashing damage."
+          "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 7 (1d6 + 4) slashing damage."
         ]
       },
       {
         "name": "Longbow",
         "entries": [
-          "*Ranged Weapon Attack:* 6 to hit, range 150/600 ft., one target. *Hit:* 8 (1d8 + 4) piercing damage."
+          "*Ranged Weapon Attack:* +6 to hit, range 150/600 ft., one target. *Hit:* 8 (1d8 + 4) piercing damage."
         ]
       }
     ],
@@ -890,13 +890,13 @@
       {
         "name": "Hooked Dagger",
         "entries": [
-          "*Melee Weapon Attack:* 5 to hit, reach 5 ft., one target. *Hit:* 5 (1d4 + 3) piercing damage."
+          "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 5 (1d4 + 3) piercing damage."
         ]
       },
       {
         "name": "Hand Crossbow",
         "entries": [
-          "*Ranged Weapon Attack:* 5 to hit, range 30/120 ft., one target. *Hit:* 6 (1d6 + 3) piercing damage."
+          "*Ranged Weapon Attack:* +5 to hit, range 30/120 ft., one target. *Hit:* 6 (1d6 + 3) piercing damage."
         ]
       }
     ],
@@ -956,7 +956,7 @@
       {
         "name": "Spellcasting",
         "entries": [
-          "Omin is a 9th-level spellcaster. His spellcasting ability is Wisdom (spell save DC 15, 7 to hit with spell attacks). He has the following cleric spells prepared:",
+          "Omin is a 9th-level spellcaster. His spellcasting ability is Wisdom (spell save DC 15, +7 to hit with spell attacks). He has the following cleric spells prepared:",
           "0: guidance, sacred flame, spare the dying, thaumaturgy",
           "1 (4 slots): bless, command, divine favor, shield of faith",
           "2 (3 slots): enhance ability, hold person, magic weapon, silence, spiritual weapon",
@@ -976,7 +976,7 @@
       {
         "name": "Maul",
         "entries": [
-          "*Melee Weapon Attack:* 6 to hit, reach 5 ft., one target. *Hit:* 10 (2d6 + 3) bludgeoning damage."
+          "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 10 (2d6 + 3) bludgeoning damage."
         ]
       }
     ],
@@ -1030,7 +1030,7 @@
       {
         "name": "Spellcasting",
         "entries": [
-          "Pendragon is a 4th-level spellcaster. His spellcasting ability is Intelligence (spell save DC 13, 5 to hit with spell attacks). He has the following wizard spells prepared:",
+          "Pendragon is a 4th-level spellcaster. His spellcasting ability is Intelligence (spell save DC 13, +5 to hit with spell attacks). He has the following wizard spells prepared:",
           "0: acid splash, light, mage hand, poison spray, shocking grasp",
           "1 (4 slots): detect magic, mage armor, magic missile, sleep",
           "2 (3 slots): blindness/deafness, cloud of daggers, scorching ray"
@@ -1041,7 +1041,7 @@
       {
         "name": "Shortsword",
         "entries": [
-          "*Melee Weapon Attack:* 4 to hit, reach 5 ft., one target. *Hit:* 5 (1d6 + 2) piercing damage."
+          "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 5 (1d6 + 2) piercing damage."
         ]
       }
     ],
@@ -1088,7 +1088,7 @@
       {
         "name": "Spellcasting",
         "entries": [
-          "Phoenix is a 4th-level spellcaster. His spellcasting ability is Wisdom (spell save DC 13, 5 to hit with spell attacks). He has the following cleric spells prepared:",
+          "Phoenix is a 4th-level spellcaster. His spellcasting ability is Wisdom (spell save DC 13, +5 to hit with spell attacks). He has the following cleric spells prepared:",
           "0: guidance, light, mending, sacred flame",
           "1 (4 slots): bane, cure wounds, guiding bolt",
           "2 (3 slots): hold person, spiritual weapon"
@@ -1105,7 +1105,7 @@
       {
         "name": "Warhammer",
         "entries": [
-          "*Melee Weapon Attack:* 4 to hit, reach 5 ft., one target. *Hit:* 6 (1d8 + 2) bludgeoning damage, and the target must succeed on a DC 12 Strength saving throw or be pushed 5 feet."
+          "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 6 (1d8 + 2) bludgeoning damage, and the target must succeed on a DC 12 Strength saving throw or be pushed 5 feet."
         ]
       }
     ],
@@ -1159,7 +1159,7 @@
       {
         "name": "Shortsword",
         "entries": [
-          "*Melee Weapon Attack:* 6 to hit, reach 5 ft., one target. *Hit:* 7 (1d6 + 4) slashing damage."
+          "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 7 (1d6 + 4) slashing damage."
         ]
       },
       {
@@ -1218,7 +1218,7 @@
       {
         "name": "Spellcasting",
         "entries": [
-          "Prophetess is a 5th-level spellcaster. Her spellcasting ability is Wisdom (spell save DC 13, 5 to hit with spell attacks). Prophetess has the following cleric spells prepared:",
+          "Prophetess is a 5th-level spellcaster. Her spellcasting ability is Wisdom (spell save DC 13, +5 to hit with spell attacks). Prophetess has the following cleric spells prepared:",
           "0: light, sacred flame, thaumaturgy",
           "1 (4 slots): cure wounds, guiding bolt, sanctuary",
           "2 (3 slots): lesser restoration, spiritual weapon",
@@ -1230,7 +1230,7 @@
       {
         "name": "Maul",
         "entries": [
-          "*Melee Weapon Attack:* 4 to hit, reach 5 ft., one target. *Hit:* 9 (2d6 + 2) bludgeoning damage."
+          "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 9 (2d6 + 2) bludgeoning damage."
         ]
       }
     ],
@@ -1311,13 +1311,13 @@
       {
         "name": "Staff of the Master (+1 Quarterstaff)",
         "entries": [
-          "*Melee Weapon Attack:* 6 to hit, reach 5 ft., one target. *Hit:* 7 (1d6 + 4) bludgeoning damage, or 8 (1d8 + 4) bludgeoning damage if used with two hands."
+          "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 7 (1d6 + 4) bludgeoning damage, or 8 (1d8 + 4) bludgeoning damage if used with two hands."
         ]
       },
       {
         "name": "Unarmed Strike",
         "entries": [
-          "*Melee Weapon Attack:* 5 to hit, reach 5 ft., one target. *Hit:* 6 (1d6 + 3) bludgeoning damage. Rosie's unarmed strikes are magical."
+          "*Melee Weapon Attack:* +5 to hit, reach 5 ft., one target. *Hit:* 6 (1d6 + 3) bludgeoning damage. Rosie's unarmed strikes are magical."
         ]
       }
     ],
@@ -1390,7 +1390,7 @@
       {
         "name": "Dagger",
         "entries": [
-          "*Melee Weapon Attack:* 4 to hit, reach 5 ft., one target. *Hit:* 4 (1d4 + 2) slashing damage."
+          "*Melee Weapon Attack:* +4 to hit, reach 5 ft., one target. *Hit:* 4 (1d4 + 2) slashing damage."
         ]
       },
       {
@@ -1469,19 +1469,19 @@
       {
         "name": "+1 Shortsword",
         "entries": [
-          "*Melee Weapon Attack:* 9 to hit, reach 5 ft., one target. *Hit:* 9 (1d6 + 6) piercing damage."
+          "*Melee Weapon Attack:* +9 to hit, reach 5 ft., one target. *Hit:* 9 (1d6 + 6) piercing damage."
         ]
       },
       {
         "name": "Rapier",
         "entries": [
-          "*Melee Weapon Attack:* 8 to hit, reach 5 ft., one target. *Hit:* 9 (1d8 + 5) piercing damage."
+          "*Melee Weapon Attack:* +8 to hit, reach 5 ft., one target. *Hit:* 9 (1d8 + 5) piercing damage."
         ]
       },
       {
         "name": "Dagger",
         "entries": [
-          "*Melee Weapon or Ranged Weapon Attack:* 8 to hit, reach 5 ft. or range 20/60 ft., one target. *Hit:* 7 (1d4 + 5) piercing damage."
+          "*Melee Weapon or Ranged Weapon Attack:* +8 to hit, reach 5 ft. or range 20/60 ft., one target. *Hit:* 7 (1d4 + 5) piercing damage."
         ]
       }
     ],
@@ -1549,7 +1549,7 @@
       {
         "name": "Spellcasting",
         "entries": [
-          "Walnut is a 7th-level spellcaster. Her spellcasting ability is Wisdom (spell save DC 14, 6 to hit with spell attacks). She has the following druid spells prepared:",
+          "Walnut is a 7th-level spellcaster. Her spellcasting ability is Wisdom (spell save DC 14, +6 to hit with spell attacks). She has the following druid spells prepared:",
           "0: druidcraft, produce flame, thorn whip",
           "1 (4 slots): cure wounds, entangle, thunderwave",
           "2 (3 slots): flame blade, moonbeam, pass without trace",
@@ -1568,13 +1568,13 @@
       {
         "name": "Foremother (+1 Scimitar)",
         "entries": [
-          "*Melee Weapon Attack:* 6 to hit, reach 5 ft., one target. *Hit:* 7 (1d6 + 4) slashing damage."
+          "*Melee Weapon Attack:* +6 to hit, reach 5 ft., one target. *Hit:* 7 (1d6 + 4) slashing damage."
         ]
       },
       {
         "name": "Longbow",
         "entries": [
-          "*Ranged Weapon Attack:* 5 to hit, range 150/600 ft., one target. *Hit:* 7 (1d8 + 3) piercing damage."
+          "*Ranged Weapon Attack:* +5 to hit, range 150/600 ft., one target. *Hit:* 7 (1d8 + 3) piercing damage."
         ]
       }
     ],
