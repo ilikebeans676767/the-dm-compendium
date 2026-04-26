@@ -86,6 +86,10 @@
     margin-bottom: 0;
 }
 
+.toolkit-spell-card__entry + .toolkit-spell-card__entry {
+    margin-top: 0.85rem;
+}
+
 .toolkit-spell-card__body,
 .toolkit-spell-card__higher-body {
     line-height: 1.45;
@@ -201,6 +205,10 @@
 
 .toolkit-item-card__entry > :last-child {
     margin-bottom: 0;
+}
+
+.toolkit-item-card__entry + .toolkit-item-card__entry {
+    margin-top: 0.85rem;
 }
 
 .toolkit-item-card-error {
