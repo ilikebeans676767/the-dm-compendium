@@ -692,7 +692,7 @@
     "damage": "1d6 /1d8 bludgeoning",
     "range": "",
     "properties": [
-      "V"
+      "Versatile"
     ],
     "mastery": [],
     "entries": [
@@ -715,7 +715,7 @@
     "damage": "1d6 /1d8 bludgeoning",
     "range": "",
     "properties": [
-      "V"
+      "Versatile"
     ],
     "mastery": [],
     "entries": [
@@ -739,7 +739,7 @@
     "damage": "1d6 /1d8 bludgeoning",
     "range": "",
     "properties": [
-      "V"
+      "Versatile"
     ],
     "mastery": [],
     "entries": [

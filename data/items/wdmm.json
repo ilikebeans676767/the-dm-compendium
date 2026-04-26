@@ -101,9 +101,9 @@
     "damage": "1d4 piercing",
     "range": "20/60",
     "properties": [
-      "F",
-      "L",
-      "T"
+      "Finesse",
+      "Light",
+      "Thrown"
     ],
     "mastery": [],
     "entries": [
@@ -126,9 +126,9 @@
     "damage": "1d4 piercing",
     "range": "20/60",
     "properties": [
-      "F",
-      "L",
-      "T"
+      "Finesse",
+      "Light",
+      "Thrown"
     ],
     "mastery": [],
     "entries": [
@@ -503,7 +503,7 @@
     "damage": "1d8 /1d10 slashing",
     "range": "",
     "properties": [
-      "V"
+      "Versatile"
     ],
     "mastery": [],
     "entries": [

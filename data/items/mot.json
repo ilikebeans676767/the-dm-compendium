@@ -15,7 +15,7 @@
     "damage": "1d8 /1d10 bludgeoning",
     "range": "",
     "properties": [
-      "V"
+      "Versatile"
     ],
     "mastery": [],
     "entries": [
@@ -43,8 +43,8 @@
     "damage": "1d6 /1d8 piercing",
     "range": "20/60",
     "properties": [
-      "T",
-      "V"
+      "Thrown",
+      "Versatile"
     ],
     "mastery": [],
     "entries": [
@@ -72,8 +72,8 @@
     "damage": "1d6 piercing",
     "range": "80/320",
     "properties": [
-      "A",
-      "2H"
+      "Ammunition",
+      "Two-Handed"
     ],
     "mastery": [],
     "entries": [
@@ -147,8 +147,8 @@
     "damage": "1d6 /1d8 piercing",
     "range": "20/60",
     "properties": [
-      "T",
-      "V"
+      "Thrown",
+      "Versatile"
     ],
     "mastery": [],
     "entries": [
@@ -177,8 +177,8 @@
     "damage": "1d4 slashing",
     "range": "",
     "properties": [
-      "F",
-      "R"
+      "Finesse",
+      "Reach"
     ],
     "mastery": [],
     "entries": [
@@ -297,7 +297,7 @@
     "damage": "1d4 bludgeoning",
     "range": "30/120",
     "properties": [
-      "A"
+      "Ammunition"
     ],
     "mastery": [],
     "entries": [

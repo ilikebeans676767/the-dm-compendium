@@ -15,8 +15,8 @@
     "damage": "1d8 /1d10 radiant",
     "range": "",
     "properties": [
-      "F",
-      "V"
+      "Finesse",
+      "Versatile"
     ],
     "mastery": [],
     "entries": [
@@ -65,7 +65,7 @@
     "damage": "1d4 piercing",
     "range": "",
     "properties": [
-      "L"
+      "Light"
     ],
     "mastery": [],
     "entries": [
@@ -88,8 +88,8 @@
     "damage": "1d8 piercing",
     "range": "40/160",
     "properties": [
-      "A",
-      "2H"
+      "Ammunition",
+      "Two-Handed"
     ],
     "mastery": [],
     "entries": [

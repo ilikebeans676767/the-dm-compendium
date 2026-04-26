@@ -189,8 +189,8 @@
     "damage": "1d4 bludgeoning",
     "range": "120",
     "properties": [
-      "F",
-      "T"
+      "Finesse",
+      "Thrown"
     ],
     "mastery": [],
     "entries": [

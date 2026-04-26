@@ -453,6 +453,14 @@ const DAMAGE_TYPE_NAMES = {
 };
 
 function parseRef(value = "") {
+  if (value && typeof value === "object") {
+    return {
+      abbreviation: value.uid ? String(value.uid).split("|")[0] : "",
+      source: value.uid ? String(value.uid).split("|")[1] : "",
+      note: value.note ? cleanTagText(value.note) : "",
+    };
+  }
+
   const [abbreviation, source] = String(value).split("|");
   return { abbreviation, source };
 }
@@ -462,11 +470,11 @@ function buildReferenceNameMap(entries = []) {
   const byAbbreviation = new Map();
 
   for (const entry of entries) {
-    const abbreviation = String(entry.abbreviation ?? "");
+    const abbreviation = String(entry.abbreviation ?? entry.name ?? "");
     const source = String(entry.source ?? "").toUpperCase();
-    if (!abbreviation || !entry.name) continue;
+    const name = getReferenceDisplayName(entry);
+    if (!abbreviation || !name) continue;
 
-    const name = cleanTagText(entry.name);
     byKey.set(`${abbreviation}|${source}`, name);
     if (!byAbbreviation.has(abbreviation)) {
       byAbbreviation.set(abbreviation, name);
@@ -476,12 +484,34 @@ function buildReferenceNameMap(entries = []) {
   return { byKey, byAbbreviation };
 }
 
+function getReferenceDisplayName(entry) {
+  if (entry.name) return formatReferenceDisplayName(entry.name);
+
+  const namedEntry = (entry.entries ?? []).find((item) => item?.name);
+  if (namedEntry?.name) return formatReferenceDisplayName(namedEntry.name);
+
+  if (entry.template && !String(entry.template).includes("{{")) {
+    return formatReferenceDisplayName(entry.template);
+  }
+
+  return "";
+}
+
+function formatReferenceDisplayName(value) {
+  const text = cleanTagText(value);
+  return text && text === text.toLowerCase()
+    ? text.charAt(0).toUpperCase() + text.slice(1)
+    : text;
+}
+
 function lookupReferenceName(referenceMaps, rawReference, itemSource) {
-  const { abbreviation, source } = parseRef(rawReference);
+  const { abbreviation, source, note } = parseRef(rawReference);
   const sourceKey = String(source || itemSource || "").toUpperCase();
-  return referenceMaps.byKey.get(`${abbreviation}|${sourceKey}`)
+  const name = referenceMaps.byKey.get(`${abbreviation}|${sourceKey}`)
     ?? referenceMaps.byAbbreviation.get(abbreviation)
     ?? abbreviation;
+
+  return note ? `${name} (${note})` : name;
 }
 
 function formatItemType(item, typeMaps) {
@@ -540,7 +570,7 @@ function formatDamage(item) {
   return parts.join(" ");
 }
 
-function normalizeItem(item, typeMaps, propertyMaps) {
+function normalizeItem(item, typeMaps, propertyMaps, masteryMaps) {
   return {
     name: item.name,
     source: item.source,
@@ -557,7 +587,7 @@ function normalizeItem(item, typeMaps, propertyMaps) {
     damage: formatDamage(item),
     range: item.range ? cleanTagText(item.range) : "",
     properties: formatItemProperties(item.property, propertyMaps, item.source),
-    mastery: (item.mastery ?? []).map(cleanTagText),
+    mastery: (item.mastery ?? []).map((mastery) => lookupReferenceName(masteryMaps, mastery, item.source)),
     entries: [
       ...renderEntries(item.entries),
       ...renderEntries(item.additionalEntries),
@@ -644,12 +674,13 @@ function buildItems() {
   const itemsData = JSON.parse(fs.readFileSync(ITEMS_PATH, "utf-8"));
   const typeMaps = buildReferenceNameMap(baseData.itemType);
   const propertyMaps = buildReferenceNameMap(baseData.itemProperty);
+  const masteryMaps = buildReferenceNameMap(baseData.itemMastery);
 
   const items = [
     ...(baseData.baseitem ?? []),
     ...(itemsData.item ?? []),
   ]
-    .map((item) => normalizeItem(item, typeMaps, propertyMaps))
+    .map((item) => normalizeItem(item, typeMaps, propertyMaps, masteryMaps))
     .sort((left, right) => {
       const byName = left.name.localeCompare(right.name);
       return byName || left.source.localeCompare(right.source);

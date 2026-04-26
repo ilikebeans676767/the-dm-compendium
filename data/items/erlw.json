@@ -36,7 +36,7 @@
     "damage": "1d8 poison",
     "range": "20/60",
     "properties": [
-      "T"
+      "Thrown"
     ],
     "mastery": [],
     "entries": [
@@ -174,8 +174,8 @@
     "damage": "2d4 slashing",
     "range": "",
     "properties": [
-      "special",
-      "2H"
+      "Special",
+      "Two-Handed"
     ],
     "mastery": [],
     "entries": [
@@ -240,8 +240,8 @@
     "damage": "1d4 slashing",
     "range": "",
     "properties": [
-      "F",
-      "R"
+      "Finesse",
+      "Reach"
     ],
     "mastery": [],
     "entries": [

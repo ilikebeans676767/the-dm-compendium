@@ -461,7 +461,7 @@
     "damage": "2d6 necrotic",
     "range": "100/300",
     "properties": [
-      "2H"
+      "Two-Handed"
     ],
     "mastery": [],
     "entries": [

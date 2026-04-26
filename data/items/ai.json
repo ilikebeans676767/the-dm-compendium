@@ -306,8 +306,8 @@
     "damage": "1d6 piercing",
     "range": "",
     "properties": [
-      "F",
-      "L"
+      "Finesse",
+      "Light"
     ],
     "mastery": [],
     "entries": [

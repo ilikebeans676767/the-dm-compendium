@@ -328,10 +328,10 @@
     "damage": "1d8 /1d10 slashing",
     "range": "",
     "properties": [
-      "V"
+      "Versatile"
     ],
     "mastery": [
-      "Topple|XPHB"
+      "Topple"
     ],
     "entries": []
   },
@@ -435,11 +435,11 @@
     "damage": "1 piercing",
     "range": "25/100",
     "properties": [
-      "A",
-      "LD"
+      "Ammunition",
+      "Loading"
     ],
     "mastery": [
-      "Vex|XPHB"
+      "Vex"
     ],
     "entries": []
   },
@@ -947,10 +947,10 @@
     "damage": "1d4 bludgeoning",
     "range": "",
     "properties": [
-      "L"
+      "Light"
     ],
     "mastery": [
-      "Slow|XPHB"
+      "Slow"
     ],
     "entries": []
   },
@@ -1134,12 +1134,12 @@
     "damage": "1d4 piercing",
     "range": "20/60",
     "properties": [
-      "F",
-      "L",
-      "T"
+      "Finesse",
+      "Light",
+      "Thrown"
     ],
     "mastery": [
-      "Nick|XPHB"
+      "Nick"
     ],
     "entries": []
   },
@@ -1159,11 +1159,11 @@
     "damage": "1d4 piercing",
     "range": "20/60",
     "properties": [
-      "F",
-      "T"
+      "Finesse",
+      "Thrown"
     ],
     "mastery": [
-      "Vex|XPHB"
+      "Vex"
     ],
     "entries": []
   },
@@ -1554,7 +1554,7 @@
     "range": "",
     "properties": [],
     "mastery": [
-      "Sap|XPHB"
+      "Sap"
     ],
     "entries": []
   },
@@ -1656,12 +1656,12 @@
     "damage": "1d10 slashing",
     "range": "",
     "properties": [
-      "H",
-      "R",
-      "2H"
+      "Heavy",
+      "Reach",
+      "Two-Handed"
     ],
     "mastery": [
-      "Graze|XPHB"
+      "Graze"
     ],
     "entries": []
   },
@@ -1744,11 +1744,11 @@
     "damage": "1d12 slashing",
     "range": "",
     "properties": [
-      "H",
-      "2H"
+      "Heavy",
+      "Two-Handed"
     ],
     "mastery": [
-      "Cleave|XPHB"
+      "Cleave"
     ],
     "entries": []
   },
@@ -1768,10 +1768,10 @@
     "damage": "1d8 bludgeoning",
     "range": "",
     "properties": [
-      "2H"
+      "Two-Handed"
     ],
     "mastery": [
-      "Push|XPHB"
+      "Push"
     ],
     "entries": []
   },
@@ -1791,11 +1791,11 @@
     "damage": "2d6 slashing",
     "range": "",
     "properties": [
-      "H",
-      "2H"
+      "Heavy",
+      "Two-Handed"
     ],
     "mastery": [
-      "Graze|XPHB"
+      "Graze"
     ],
     "entries": []
   },
@@ -1815,12 +1815,12 @@
     "damage": "1d10 slashing",
     "range": "",
     "properties": [
-      "H",
-      "R",
-      "2H"
+      "Heavy",
+      "Reach",
+      "Two-Handed"
     ],
     "mastery": [
-      "Cleave|XPHB"
+      "Cleave"
     ],
     "entries": []
   },
@@ -1859,12 +1859,12 @@
     "damage": "1d6 piercing",
     "range": "30/120",
     "properties": [
-      "A",
-      "L",
-      "LD"
+      "Ammunition",
+      "Light",
+      "Loading"
     ],
     "mastery": [
-      "Vex|XPHB"
+      "Vex"
     ],
     "entries": []
   },
@@ -1884,11 +1884,11 @@
     "damage": "1d6 slashing",
     "range": "20/60",
     "properties": [
-      "L",
-      "T"
+      "Light",
+      "Thrown"
     ],
     "mastery": [
-      "Vex|XPHB"
+      "Vex"
     ],
     "entries": []
   },
@@ -1929,13 +1929,13 @@
     "damage": "1d10 piercing",
     "range": "100/400",
     "properties": [
-      "A",
-      "H",
-      "LD",
-      "2H"
+      "Ammunition",
+      "Heavy",
+      "Loading",
+      "Two-Handed"
     ],
     "mastery": [
-      "Push|XPHB"
+      "Push"
     ],
     "entries": []
   },
@@ -2184,10 +2184,10 @@
     "damage": "1d6 piercing",
     "range": "30/120",
     "properties": [
-      "T"
+      "Thrown"
     ],
     "mastery": [
-      "Slow|XPHB"
+      "Slow"
     ],
     "entries": []
   },
@@ -2310,12 +2310,12 @@
     "damage": "1d10 piercing",
     "range": "",
     "properties": [
-      "H",
-      "R",
-      "[object Object]"
+      "Heavy",
+      "Reach",
+      "Two-Handed (unless mounted)"
     ],
     "mastery": [
-      "Topple|XPHB"
+      "Topple"
     ],
     "entries": [
       "A Lance requires two hands to wield when you aren't mounted."
@@ -2377,12 +2377,12 @@
     "damage": "1d8 piercing",
     "range": "80/320",
     "properties": [
-      "A",
-      "LD",
-      "2H"
+      "Ammunition",
+      "Loading",
+      "Two-Handed"
     ],
     "mastery": [
-      "Slow|XPHB"
+      "Slow"
     ],
     "entries": []
   },
@@ -2402,11 +2402,11 @@
     "damage": "1d4 bludgeoning",
     "range": "20/60",
     "properties": [
-      "L",
-      "T"
+      "Light",
+      "Thrown"
     ],
     "mastery": [
-      "Nick|XPHB"
+      "Nick"
     ],
     "entries": []
   },
@@ -2447,12 +2447,12 @@
     "damage": "1d8 piercing",
     "range": "150/600",
     "properties": [
-      "A",
-      "H",
-      "2H"
+      "Ammunition",
+      "Heavy",
+      "Two-Handed"
     ],
     "mastery": [
-      "Slow|XPHB"
+      "Slow"
     ],
     "entries": []
   },
@@ -2491,10 +2491,10 @@
     "damage": "1d8 /1d10 slashing",
     "range": "",
     "properties": [
-      "V"
+      "Versatile"
     ],
     "mastery": [
-      "Sap|XPHB"
+      "Sap"
     ],
     "entries": []
   },
@@ -2557,7 +2557,7 @@
     "range": "",
     "properties": [],
     "mastery": [
-      "Sap|XPHB"
+      "Sap"
     ],
     "entries": []
   },
@@ -2702,11 +2702,11 @@
     "damage": "2d6 bludgeoning",
     "range": "",
     "properties": [
-      "H",
-      "2H"
+      "Heavy",
+      "Two-Handed"
     ],
     "mastery": [
-      "Topple|XPHB"
+      "Topple"
     ],
     "entries": []
   },
@@ -2769,7 +2769,7 @@
     "range": "",
     "properties": [],
     "mastery": [
-      "Sap|XPHB"
+      "Sap"
     ],
     "entries": []
   },
@@ -2808,12 +2808,12 @@
     "damage": "1d12 piercing",
     "range": "40/120",
     "properties": [
-      "A",
-      "LD",
-      "2H"
+      "Ammunition",
+      "Loading",
+      "Two-Handed"
     ],
     "mastery": [
-      "Slow|XPHB"
+      "Slow"
     ],
     "entries": []
   },
@@ -3087,12 +3087,12 @@
     "damage": "1d10 piercing",
     "range": "",
     "properties": [
-      "H",
-      "R",
-      "2H"
+      "Heavy",
+      "Reach",
+      "Two-Handed"
     ],
     "mastery": [
-      "Push|XPHB"
+      "Push"
     ],
     "entries": []
   },
@@ -3112,11 +3112,11 @@
     "damage": "1d10 piercing",
     "range": "30/90",
     "properties": [
-      "A",
-      "LD"
+      "Ammunition",
+      "Loading"
     ],
     "mastery": [
-      "Vex|XPHB"
+      "Vex"
     ],
     "entries": []
   },
@@ -3321,11 +3321,11 @@
     "damage": "1d6 psychic",
     "range": "60/120",
     "properties": [
-      "F",
-      "T"
+      "Finesse",
+      "Thrown"
     ],
     "mastery": [
-      "[object Object]"
+      "Vex (you can use this property, and it doesn't count against the number of properties you can use with Weapon Mastery)"
     ],
     "entries": []
   },
@@ -3345,10 +3345,10 @@
     "damage": "1d6 /1d8 bludgeoning",
     "range": "",
     "properties": [
-      "V"
+      "Versatile"
     ],
     "mastery": [
-      "Topple|XPHB"
+      "Topple"
     ],
     "entries": []
   },
@@ -3389,10 +3389,10 @@
     "damage": "1d8 piercing",
     "range": "",
     "properties": [
-      "F"
+      "Finesse"
     ],
     "mastery": [
-      "Vex|XPHB"
+      "Vex"
     ],
     "entries": []
   },
@@ -3674,11 +3674,11 @@
     "damage": "1d6 slashing",
     "range": "",
     "properties": [
-      "F",
-      "L"
+      "Finesse",
+      "Light"
     ],
     "mastery": [
-      "Nick|XPHB"
+      "Nick"
     ],
     "entries": []
   },
@@ -3738,11 +3738,11 @@
     "damage": "1d6 piercing",
     "range": "80/320",
     "properties": [
-      "A",
-      "2H"
+      "Ammunition",
+      "Two-Handed"
     ],
     "mastery": [
-      "Vex|XPHB"
+      "Vex"
     ],
     "entries": []
   },
@@ -3762,11 +3762,11 @@
     "damage": "1d6 piercing",
     "range": "",
     "properties": [
-      "F",
-      "L"
+      "Finesse",
+      "Light"
     ],
     "mastery": [
-      "Vex|XPHB"
+      "Vex"
     ],
     "entries": []
   },
@@ -3807,10 +3807,10 @@
     "damage": "1d4 slashing",
     "range": "",
     "properties": [
-      "L"
+      "Light"
     ],
     "mastery": [
-      "Nick|XPHB"
+      "Nick"
     ],
     "entries": []
   },
@@ -3870,10 +3870,10 @@
     "damage": "1d4 bludgeoning",
     "range": "30/120",
     "properties": [
-      "A"
+      "Ammunition"
     ],
     "mastery": [
-      "Slow|XPHB"
+      "Slow"
     ],
     "entries": []
   },
@@ -3958,11 +3958,11 @@
     "damage": "1d6 /1d8 piercing",
     "range": "20/60",
     "properties": [
-      "T",
-      "V"
+      "Thrown",
+      "Versatile"
     ],
     "mastery": [
-      "Sap|XPHB"
+      "Sap"
     ],
     "entries": []
   },
@@ -4060,10 +4060,10 @@
     "damage": "1d6 /1d8 bludgeoning",
     "range": "",
     "properties": [
-      "V"
+      "Versatile"
     ],
     "mastery": [
-      "Topple|XPHB"
+      "Topple"
     ],
     "entries": []
   },
@@ -4270,11 +4270,11 @@
     "damage": "1d8 /1d10 piercing",
     "range": "20/60",
     "properties": [
-      "T",
-      "V"
+      "Thrown",
+      "Versatile"
     ],
     "mastery": [
-      "Topple|XPHB"
+      "Topple"
     ],
     "entries": []
   },
@@ -4396,10 +4396,10 @@
     "damage": "1d8 /1d10 piercing",
     "range": "",
     "properties": [
-      "V"
+      "Versatile"
     ],
     "mastery": [
-      "Sap|XPHB"
+      "Sap"
     ],
     "entries": []
   },
@@ -4419,10 +4419,10 @@
     "damage": "1d8 /1d10 bludgeoning",
     "range": "",
     "properties": [
-      "V"
+      "Versatile"
     ],
     "mastery": [
-      "Push|XPHB"
+      "Push"
     ],
     "entries": []
   },
@@ -4522,11 +4522,11 @@
     "damage": "1d4 slashing",
     "range": "",
     "properties": [
-      "F",
-      "R"
+      "Finesse",
+      "Reach"
     ],
     "mastery": [
-      "Slow|XPHB"
+      "Slow"
     ],
     "entries": []
   },
@@ -4567,10 +4567,10 @@
     "damage": "1d6 /1d8 bludgeoning",
     "range": "",
     "properties": [
-      "V"
+      "Versatile"
     ],
     "mastery": [
-      "Topple|XPHB"
+      "Topple"
     ],
     "entries": []
   },

@@ -63,10 +63,10 @@
     "damage": "1d6 piercing",
     "range": "40/160",
     "properties": [
-      "A",
-      "F",
-      "special",
-      "2H"
+      "Ammunition",
+      "Finesse",
+      "Special",
+      "Two-Handed"
     ],
     "mastery": [],
     "entries": [

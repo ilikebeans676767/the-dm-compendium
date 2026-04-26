@@ -36,8 +36,8 @@
     "damage": "2d6 slashing",
     "range": "",
     "properties": [
-      "H",
-      "2H"
+      "Heavy",
+      "Two-Handed"
     ],
     "mastery": [],
     "entries": [
@@ -83,8 +83,8 @@
     "damage": "2d6 slashing",
     "range": "",
     "properties": [
-      "H",
-      "2H"
+      "Heavy",
+      "Two-Handed"
     ],
     "mastery": [],
     "entries": [

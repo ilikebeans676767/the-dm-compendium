@@ -129,7 +129,7 @@
     "damage": "1d8 bludgeoning",
     "range": "",
     "properties": [
-      "2H"
+      "Two-Handed"
     ],
     "mastery": [],
     "entries": [
@@ -200,8 +200,8 @@
     "damage": "3d12 slashing",
     "range": "",
     "properties": [
-      "H",
-      "2H"
+      "Heavy",
+      "Two-Handed"
     ],
     "mastery": [],
     "entries": [
@@ -251,7 +251,7 @@
     "damage": "1d4 bludgeoning",
     "range": "",
     "properties": [
-      "L"
+      "Light"
     ],
     "mastery": [],
     "entries": [

@@ -37,7 +37,7 @@
     "damage": "1d8 /1d10 slashing",
     "range": "",
     "properties": [
-      "V"
+      "Versatile"
     ],
     "mastery": [],
     "entries": [
@@ -81,7 +81,7 @@
     "damage": "1d6 /1d8 bludgeoning",
     "range": "",
     "properties": [
-      "V"
+      "Versatile"
     ],
     "mastery": [],
     "entries": [
@@ -106,7 +106,7 @@
     "damage": "1d6 /1d8 bludgeoning",
     "range": "",
     "properties": [
-      "V"
+      "Versatile"
     ],
     "mastery": [],
     "entries": [

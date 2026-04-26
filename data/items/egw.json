@@ -125,10 +125,10 @@
     "damage": "1d4 piercing",
     "range": "20/60",
     "properties": [
-      "F",
-      "L",
-      "T",
-      "Vst"
+      "Finesse",
+      "Light",
+      "Thrown",
+      "Vestige of Divergence"
     ],
     "mastery": [],
     "entries": [
@@ -216,8 +216,8 @@
     "damage": "1d12 slashing",
     "range": "",
     "properties": [
-      "H",
-      "2H"
+      "Heavy",
+      "Two-Handed"
     ],
     "mastery": [],
     "entries": [
@@ -345,7 +345,7 @@
     "damage": "",
     "range": "",
     "properties": [
-      "Vst"
+      "Vestige of Divergence"
     ],
     "mastery": [],
     "entries": [
@@ -408,7 +408,7 @@
     "damage": "1d8 /1d10 radiant",
     "range": "",
     "properties": [
-      "V"
+      "Versatile"
     ],
     "mastery": [],
     "entries": [
@@ -515,7 +515,7 @@
     "damage": "",
     "range": "",
     "properties": [
-      "Vst"
+      "Vestige of Divergence"
     ],
     "mastery": [],
     "entries": [
@@ -575,8 +575,8 @@
     "damage": "1d8 /1d10 bludgeoning",
     "range": "",
     "properties": [
-      "V",
-      "Vst"
+      "Versatile",
+      "Vestige of Divergence"
     ],
     "mastery": [],
     "entries": [
@@ -639,7 +639,7 @@
     "damage": "",
     "range": "",
     "properties": [
-      "Vst"
+      "Vestige of Divergence"
     ],
     "mastery": [],
     "entries": [
@@ -722,7 +722,7 @@
     "damage": "",
     "range": "",
     "properties": [
-      "Vst"
+      "Vestige of Divergence"
     ],
     "mastery": [],
     "entries": [
@@ -782,9 +782,9 @@
     "damage": "1d4 slashing",
     "range": "",
     "properties": [
-      "F",
-      "R",
-      "Vst"
+      "Finesse",
+      "Reach",
+      "Vestige of Divergence"
     ],
     "mastery": [],
     "entries": [
@@ -870,7 +870,7 @@
     "damage": "1d6 bludgeoning",
     "range": "",
     "properties": [
-      "Vst"
+      "Vestige of Divergence"
     ],
     "mastery": [],
     "entries": [
@@ -959,9 +959,9 @@
     "damage": "1d4 piercing",
     "range": "20/60",
     "properties": [
-      "F",
-      "L",
-      "T"
+      "Finesse",
+      "Light",
+      "Thrown"
     ],
     "mastery": [],
     "entries": [
@@ -1241,9 +1241,9 @@
     "damage": "1d6 /1d8 piercing",
     "range": "20/60",
     "properties": [
-      "T",
-      "V",
-      "Vst"
+      "Thrown",
+      "Versatile",
+      "Vestige of Divergence"
     ],
     "mastery": [],
     "entries": [
@@ -1306,8 +1306,8 @@
     "damage": "1d8 piercing",
     "range": "",
     "properties": [
-      "F",
-      "Vst"
+      "Finesse",
+      "Vestige of Divergence"
     ],
     "mastery": [],
     "entries": [
@@ -1417,7 +1417,7 @@
     "damage": "1d6 /1d8 bludgeoning",
     "range": "",
     "properties": [
-      "V"
+      "Versatile"
     ],
     "mastery": [],
     "entries": [
@@ -1442,7 +1442,7 @@
     "damage": "1d6 /1d8 bludgeoning",
     "range": "",
     "properties": [
-      "V"
+      "Versatile"
     ],
     "mastery": [],
     "entries": [
@@ -1483,7 +1483,7 @@
     "damage": "",
     "range": "",
     "properties": [
-      "Vst"
+      "Vestige of Divergence"
     ],
     "mastery": [],
     "entries": [
@@ -1543,7 +1543,7 @@
     "damage": "1d8 piercing",
     "range": "",
     "properties": [
-      "Vst"
+      "Vestige of Divergence"
     ],
     "mastery": [],
     "entries": [
@@ -1627,7 +1627,7 @@
     "damage": "",
     "range": "",
     "properties": [
-      "Vst"
+      "Vestige of Divergence"
     ],
     "mastery": [],
     "entries": [
@@ -1708,7 +1708,7 @@
     "damage": "1d8 piercing",
     "range": "",
     "properties": [
-      "Vst"
+      "Vestige of Divergence"
     ],
     "mastery": [],
     "entries": [
@@ -1793,7 +1793,7 @@
     "damage": "",
     "range": "",
     "properties": [
-      "Vst"
+      "Vestige of Divergence"
     ],
     "mastery": [],
     "entries": [
