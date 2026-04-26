@@ -22,6 +22,9 @@
     "skills": "athletics: +4, perception: +3",
     "senses": "passive Perception 13",
     "languages": "Common",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "1",
     "traits": [
       {
@@ -89,6 +92,9 @@
     "skills": "arcana: +12, deception: +8, history: +10, perception: +7",
     "senses": "passive Perception 17",
     "languages": "Common, Deep Speech, Draconic, Primordial, Sylvan",
+    "damageResistances": "damage from spells, nonmagical bludgeoning, piercing, slashing (from stoneskin)",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "13",
     "traits": [
       {

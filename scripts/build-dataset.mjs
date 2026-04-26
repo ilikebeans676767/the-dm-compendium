@@ -4,11 +4,15 @@ import * as path from "path";
 const ROOT_DIR = process.cwd();
 const SPELLS_DIR = path.join(ROOT_DIR, "5etools-src", "data", "spells");
 const BESTIARY_DIR = path.join(ROOT_DIR, "5etools-src", "data", "bestiary");
+const ITEMS_BASE_PATH = path.join(ROOT_DIR, "5etools-src", "data", "items-base.json");
+const ITEMS_PATH = path.join(ROOT_DIR, "5etools-src", "data", "items.json");
 const DATA_DIR = path.join(ROOT_DIR, "data");
 const GENERATED_SPELLS_DIR = path.join(DATA_DIR, "spells");
 const GENERATED_BESTIARY_DIR = path.join(DATA_DIR, "bestiary");
+const GENERATED_ITEMS_DIR = path.join(DATA_DIR, "items");
 const SPELL_SOURCE_LIST_PATH = path.join(ROOT_DIR, "src", "spell-source-list.json");
 const MONSTER_SOURCE_LIST_PATH = path.join(ROOT_DIR, "src", "monster-source-list.json");
+const ITEM_SOURCE_LIST_PATH = path.join(ROOT_DIR, "src", "item-source-list.json");
 const SPELL_SCHOOL_NAMES = {
   A: "abjuration",
   C: "conjuration",
@@ -127,7 +131,12 @@ function renderEntry(entry) {
 
   if (entry.type === "item") {
     const name = entry.name ? `${cleanTagText(entry.name)} ` : "";
-    return `${name}${renderEntry(entry.entry)}`.trim();
+    const body = entry.entry
+      ? renderEntry(entry.entry)
+      : Array.isArray(entry.entries)
+        ? entry.entries.map(renderEntry).filter(Boolean).join(" ")
+        : "";
+    return `${name}${body}`.trim();
   }
 
   if (entry.type === "entries" && Array.isArray(entry.entries)) {
@@ -427,6 +436,135 @@ function normalizeMonster(monster) {
   };
 }
 
+const DAMAGE_TYPE_NAMES = {
+  A: "acid",
+  B: "bludgeoning",
+  C: "cold",
+  F: "fire",
+  FC: "force",
+  L: "lightning",
+  N: "necrotic",
+  P: "piercing",
+  O: "poison",
+  R: "radiant",
+  S: "slashing",
+  T: "thunder",
+  Y: "psychic",
+};
+
+function parseRef(value = "") {
+  const [abbreviation, source] = String(value).split("|");
+  return { abbreviation, source };
+}
+
+function buildReferenceNameMap(entries = []) {
+  const byKey = new Map();
+  const byAbbreviation = new Map();
+
+  for (const entry of entries) {
+    const abbreviation = String(entry.abbreviation ?? "");
+    const source = String(entry.source ?? "").toUpperCase();
+    if (!abbreviation || !entry.name) continue;
+
+    const name = cleanTagText(entry.name);
+    byKey.set(`${abbreviation}|${source}`, name);
+    if (!byAbbreviation.has(abbreviation)) {
+      byAbbreviation.set(abbreviation, name);
+    }
+  }
+
+  return { byKey, byAbbreviation };
+}
+
+function lookupReferenceName(referenceMaps, rawReference, itemSource) {
+  const { abbreviation, source } = parseRef(rawReference);
+  const sourceKey = String(source || itemSource || "").toUpperCase();
+  return referenceMaps.byKey.get(`${abbreviation}|${sourceKey}`)
+    ?? referenceMaps.byAbbreviation.get(abbreviation)
+    ?? abbreviation;
+}
+
+function formatItemType(item, typeMaps) {
+  if (item.wondrous) return "Wondrous item";
+  if (!item.type) return "";
+  return lookupReferenceName(typeMaps, item.type, item.source);
+}
+
+function formatItemProperties(properties = [], propertyMaps, itemSource) {
+  return (properties ?? [])
+    .map((property) => lookupReferenceName(propertyMaps, property, itemSource))
+    .filter(Boolean);
+}
+
+function formatAttunement(item) {
+  if (!item.reqAttune) return "";
+  return item.reqAttune === true ? "Requires attunement" : `Requires attunement ${cleanTagText(item.reqAttune)}`;
+}
+
+function formatWeight(weight, weightNote) {
+  const parts = [];
+  if (weight !== undefined) {
+    parts.push(`${weight} lb.`);
+  }
+  if (weightNote) {
+    parts.push(cleanTagText(weightNote));
+  }
+  return parts.join(" ");
+}
+
+function formatCurrency(value) {
+  if (value === undefined || value === null) return "";
+  if (value === 0) return "0 gp";
+
+  const copper = Number(value);
+  if (!Number.isFinite(copper)) return "";
+  if (copper % 100 === 0) return `${copper / 100} gp`;
+  if (copper % 10 === 0) return `${copper / 10} sp`;
+
+  return `${copper} cp`;
+}
+
+function formatArmorClassItem(item) {
+  if (item.ac === undefined) return "";
+  const dexterity = item.dexterityMax !== undefined ? ` + Dex modifier (max ${item.dexterityMax})` : "";
+  const strength = item.strength !== undefined ? `; Str ${item.strength}` : "";
+  const stealth = item.stealth ? "; stealth disadvantage" : "";
+  return `${item.ac}${dexterity}${strength}${stealth}`;
+}
+
+function formatDamage(item) {
+  if (!item.dmg1) return "";
+  const parts = [item.dmg1];
+  if (item.dmg2) parts.push(`/${item.dmg2}`);
+  if (item.dmgType) parts.push(DAMAGE_TYPE_NAMES[item.dmgType] ?? item.dmgType);
+  return parts.join(" ");
+}
+
+function normalizeItem(item, typeMaps, propertyMaps) {
+  return {
+    name: item.name,
+    source: item.source,
+    sourceKey: String(item.source).toUpperCase(),
+    page: item.page,
+    type: formatItemType(item, typeMaps),
+    rarity: item.rarity && item.rarity !== "none" ? cleanTagText(item.rarity) : "",
+    attunement: formatAttunement(item),
+    weight: formatWeight(item.weight, item.weightNote),
+    value: formatCurrency(item.value),
+    valueRarity: item.valueRarity ? cleanTagText(item.valueRarity) : "",
+    weaponCategory: item.weaponCategory ? cleanTagText(item.weaponCategory) : "",
+    armorClass: formatArmorClassItem(item),
+    damage: formatDamage(item),
+    range: item.range ? cleanTagText(item.range) : "",
+    properties: formatItemProperties(item.property, propertyMaps, item.source),
+    mastery: (item.mastery ?? []).map(cleanTagText),
+    entries: [
+      ...renderEntries(item.entries),
+      ...renderEntries(item.additionalEntries),
+    ],
+  };
+}
+
 function buildSpells() {
   const spells = fs.readdirSync(SPELLS_DIR)
     .filter((fileName) => /^spells-.+\.json$/.test(fileName))
@@ -501,5 +639,46 @@ function buildMonsters() {
   console.log(`Built ${monsters.length} monsters across ${monstersBySource.size} source files.`);
 }
 
+function buildItems() {
+  const baseData = JSON.parse(fs.readFileSync(ITEMS_BASE_PATH, "utf-8"));
+  const itemsData = JSON.parse(fs.readFileSync(ITEMS_PATH, "utf-8"));
+  const typeMaps = buildReferenceNameMap(baseData.itemType);
+  const propertyMaps = buildReferenceNameMap(baseData.itemProperty);
+
+  const items = [
+    ...(baseData.baseitem ?? []),
+    ...(itemsData.item ?? []),
+  ]
+    .map((item) => normalizeItem(item, typeMaps, propertyMaps))
+    .sort((left, right) => {
+      const byName = left.name.localeCompare(right.name);
+      return byName || left.source.localeCompare(right.source);
+    });
+
+  fs.mkdirSync(DATA_DIR, { recursive: true });
+  fs.rmSync(GENERATED_ITEMS_DIR, { recursive: true, force: true });
+  fs.mkdirSync(GENERATED_ITEMS_DIR, { recursive: true });
+
+  const itemsBySource = new Map();
+  for (const item of items) {
+    const sourceItems = itemsBySource.get(item.sourceKey) ?? [];
+    sourceItems.push(item);
+    itemsBySource.set(item.sourceKey, sourceItems);
+  }
+
+  for (const [sourceKey, sourceItems] of itemsBySource) {
+    fs.writeFileSync(
+      path.join(GENERATED_ITEMS_DIR, `${sourceKey.toLowerCase()}.json`),
+      `${JSON.stringify(sourceItems, null, 2)}\n`
+    );
+  }
+  fs.writeFileSync(
+    ITEM_SOURCE_LIST_PATH,
+    `${JSON.stringify(Array.from(itemsBySource.keys()).sort(), null, 2)}\n`
+  );
+  console.log(`Built ${items.length} items across ${itemsBySource.size} source files.`);
+}
+
 buildSpells();
 buildMonsters();
+buildItems();

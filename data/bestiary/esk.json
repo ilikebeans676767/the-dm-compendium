@@ -22,6 +22,9 @@
     "skills": "acrobatics: +4, performance: +4, persuasion: +4, sleight of hand: +4, stealth: +4",
     "senses": "passive Perception 10",
     "languages": "Common, plus one of your choice",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "",
     "traits": [
       {
@@ -88,6 +91,9 @@
     "skills": "arcana: +4, investigation: +4, religion: +4",
     "senses": "passive Perception 12",
     "languages": "Common, plus one of your choice",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "",
     "traits": [
       {
@@ -153,6 +159,9 @@
     "skills": "athletics: +4, perception: +3, survival: +3",
     "senses": "passive Perception 13",
     "languages": "Common, plus one of your choice",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "",
     "traits": [
       {

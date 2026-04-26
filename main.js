@@ -529,6 +529,11 @@ var require_source_list = __commonJS({
         short: "SATO",
         include: false
       },
+      SCAG: {
+        full: "Sword Coast Adventurer's Guide",
+        short: "SCAG",
+        include: false
+      },
       SCC: {
         full: "Strixhaven: A Curriculum of Chaos",
         short: "SCC",
@@ -761,6 +766,91 @@ var require_monster_source_list = __commonJS({
   }
 });
 
+// src/item-source-list.json
+var require_item_source_list = __commonJS({
+  "src/item-source-list.json"(exports2, module2) {
+    module2.exports = [
+      "AAG",
+      "AI",
+      "AITFR-AVT",
+      "AITFR-THP",
+      "AZFYT",
+      "BAM",
+      "BGDIA",
+      "BGG",
+      "BMT",
+      "CM",
+      "COA",
+      "COS",
+      "CRCOTN",
+      "DC",
+      "DITLCOT",
+      "DMG",
+      "DSOTDQ",
+      "EET",
+      "EFA",
+      "EGW",
+      "ERLW",
+      "FRAIF",
+      "FRHOF",
+      "FTD",
+      "GGR",
+      "GOS",
+      "HAT-LMI",
+      "HFTT",
+      "HOTB",
+      "HOTDQ",
+      "IDROTF",
+      "IMR",
+      "JTTRC",
+      "KFTGV",
+      "LFL",
+      "LLK",
+      "LMOP",
+      "LOX",
+      "MCV2DC",
+      "MM",
+      "MOT",
+      "MTF",
+      "NF",
+      "NRH-AT",
+      "NRH-TLT",
+      "OGA",
+      "OOTA",
+      "PABTSO",
+      "PHB",
+      "POTA",
+      "PSX",
+      "QFTIS",
+      "RMBRE",
+      "ROT",
+      "ROTOS",
+      "SATO",
+      "SCAG",
+      "SCC",
+      "SDW",
+      "SKT",
+      "TCE",
+      "TFTYP",
+      "TOA",
+      "TTP",
+      "UTHFTLH",
+      "VEOR",
+      "VGM",
+      "VRGR",
+      "WBTW",
+      "WDH",
+      "WDMM",
+      "WTTHC",
+      "XDMG",
+      "XGE",
+      "XMM",
+      "XMTS",
+      "XPHB"
+    ];
+  }
+});
+
 // src/main.ts
 var main_exports = {};
 __export(main_exports, {
@@ -769,8 +859,8 @@ __export(main_exports, {
 module.exports = __toCommonJS(main_exports);
 
 // src/plugin/MyToolkitPlugin.ts
-var path5 = __toESM(require("path"));
-var import_obsidian5 = require("obsidian");
+var path6 = __toESM(require("path"));
+var import_obsidian6 = require("obsidian");
 
 // src/deployer.ts
 var fs = __toESM(require("fs"));
@@ -805,7 +895,7 @@ var Deployer = class {
   }
 };
 
-// src/formatters/MonsterFormatter.ts
+// src/formatters/ItemFormatter.ts
 var path2 = __toESM(require("path"));
 
 // src/formatters/BaseFormatter.ts
@@ -849,7 +939,60 @@ function getSourceLabel(source) {
   return sourceInfo?.short ?? source;
 }
 
+// src/formatters/ItemFormatter.ts
+var ItemFormatter = class extends BaseFormatter {
+  async load(dataDir) {
+    const items = await loadJsonData(
+      path2.join(dataDir, "cache", "items.json"),
+      "item"
+    );
+    return items.map((item) => this.format(item));
+  }
+  format(item) {
+    const sourceLabel = getSourceLabel(item.source);
+    return {
+      label: `${item.name} (${sourceLabel})`,
+      source: item.source,
+      body: `\`\`\`itemcard
+name: ${yamlScalar(item.name)}
+source: ${yamlScalar(sourceLabel)}
+${item.page ? `page: ${item.page}
+` : ""}type: ${yamlScalar(item.type)}
+rarity: ${yamlScalar(item.rarity)}
+attunement: ${yamlScalar(item.attunement)}
+weight: ${yamlScalar(item.weight)}
+value: ${yamlScalar(item.value)}
+valueRarity: ${yamlScalar(item.valueRarity)}
+weaponCategory: ${yamlScalar(item.weaponCategory)}
+armorClass: ${yamlScalar(item.armorClass)}
+damage: ${yamlScalar(item.damage)}
+range: ${yamlScalar(item.range)}
+properties:${formatYamlListValue(item.properties)}
+mastery:${formatYamlListValue(item.mastery)}
+entries:${formatYamlListValue(item.entries)}
+\`\`\``
+    };
+  }
+};
+function formatYamlListValue(items) {
+  if (!items?.length) {
+    return " []";
+  }
+  return `
+${items.map((item) => {
+    const lines = item.split(/\r?\n/);
+    return [`  - |-`, ...lines.map((line) => `    ${line}`)].join("\n");
+  }).join("\n")}`;
+}
+function yamlScalar(value) {
+  if (value === void 0 || value === null || value === "") {
+    return '""';
+  }
+  return JSON.stringify(String(value));
+}
+
 // src/formatters/MonsterFormatter.ts
+var path3 = __toESM(require("path"));
 var ABILITY_LABELS = ["str", "dex", "con", "int", "wis", "cha"];
 var SAVE_KEYS = {
   str: "strength",
@@ -862,7 +1005,7 @@ var SAVE_KEYS = {
 var MonsterFormatter = class extends BaseFormatter {
   async load(dataDir) {
     const monsters = await loadJsonData(
-      path2.join(dataDir, "cache", "bestiary.json"),
+      path3.join(dataDir, "cache", "bestiary.json"),
       "monster"
     );
     return monsters.map((monster) => this.format(monster));
@@ -875,25 +1018,25 @@ var MonsterFormatter = class extends BaseFormatter {
       source: monster.source,
       body: `\`\`\`statblock
 layout: Basic 5e Layout
-name: ${yamlScalar(monster.name)}
-image: [[${yamlScalar(monster.name)}.jpg]]
-size: ${yamlScalar(monster.size)}
-type: ${yamlScalar(typeParts.type)}
-subtype: ${yamlScalar(typeParts.subtype)}
-alignment: ${yamlScalar(monster.alignment)}
+name: ${yamlScalar2(monster.name)}
+image: [[${monster.name}.jpg]]
+size: ${yamlScalar2(monster.size)}
+type: ${yamlScalar2(typeParts.type)}
+subtype: ${yamlScalar2(typeParts.subtype)}
+alignment: ${yamlScalar2(monster.alignment)}
 ac: ${yamlValue(parseLeadingNumber(monster.armorClass) ?? monster.armorClass)}
 hp: ${yamlValue(parseLeadingNumber(monster.hitPoints) ?? monster.hitPoints)}
-hit_dice: ${yamlScalar(parseHitDice(monster.hitPoints))}
-speed: ${yamlScalar(formatStatblockSpeed(monster.speed))}
+hit_dice: ${yamlScalar2(parseHitDice(monster.hitPoints))}
+speed: ${yamlScalar2(formatStatblockSpeed(monster.speed))}
 stats: [${ABILITY_LABELS.map((ability) => monster.abilities[ability]).join(", ")}]
 saves:${formatKeyValueList(monster.savingThrows, SAVE_KEYS)}
 skillsaves:${formatKeyValueList(monster.skills)}
-senses: ${yamlScalar(monster.senses)}
-languages: ${yamlScalar(monster.languages)}
-damage_resistances: ${yamlScalar(monster.damageResistances)}
-damage_immunities: ${yamlScalar(monster.damageImmunities)}
-condition_immunities: ${yamlScalar(monster.conditionImmunities)}
-cr: ${yamlScalar(monster.challengeRating)}
+senses: ${yamlScalar2(monster.senses)}
+languages: ${yamlScalar2(monster.languages)}
+damage_resistances: ${yamlScalar2(monster.damageResistances)}
+damage_immunities: ${yamlScalar2(monster.damageImmunities)}
+condition_immunities: ${yamlScalar2(monster.conditionImmunities)}
+cr: ${yamlScalar2(monster.challengeRating)}
 traits:${formatNamedEntries(monster.traits)}
 actions:${formatNamedEntries([...monster.actions, ...monster.bonusActions])}
 reactions:${formatNamedEntries(monster.reactions)}
@@ -901,7 +1044,7 @@ legendary_actions:${formatNamedEntries(monster.legendaryActions)}
 mythic_actions:${formatNamedEntries(monster.mythicActions)}
 lair_actions:${formatNamedEntries(monster.lairActions)}
 spells:${formatSpellcasting(monster.spellcasting)}
-source: ${yamlScalar(sourceLabel)}
+source: ${yamlScalar2(sourceLabel)}
 page: ${yamlValue(monster.page ?? "")}
 \`\`\``
     };
@@ -958,7 +1101,7 @@ ${entries.map(formatNamedEntry).join("\n")}`;
 }
 function formatNamedEntry(entry) {
   return [
-    `  - name: ${yamlScalar(entry.name)}`,
+    `  - name: ${yamlScalar2(entry.name)}`,
     `    desc:${formatBlockText(joinEntries(entry.entries), 6)}`
   ].join("\n");
 }
@@ -983,9 +1126,9 @@ function formatBlockText(value, indent) {
 ${lines.map((line) => `${indentation}${line}`).join("\n")}`;
 }
 function yamlValue(value) {
-  return typeof value === "number" ? String(value) : yamlScalar(value);
+  return typeof value === "number" ? String(value) : yamlScalar2(value);
 }
-function yamlScalar(value) {
+function yamlScalar2(value) {
   if (value === void 0 || value === null || value === "") {
     return '""';
   }
@@ -993,8 +1136,8 @@ function yamlScalar(value) {
 }
 
 // src/formatters/SpellFormatter.ts
-var path3 = __toESM(require("path"));
-function formatYamlListValue(items) {
+var path4 = __toESM(require("path"));
+function formatYamlListValue2(items) {
   if (!items?.length) {
     return " []";
   }
@@ -1007,7 +1150,7 @@ ${items.map((item) => {
 var SpellFormatter = class extends BaseFormatter {
   async load(dataDir) {
     const spells = await loadJsonData(
-      path3.join(dataDir, "cache", "spells.json"),
+      path4.join(dataDir, "cache", "spells.json"),
       "spell"
     );
     return spells.map((spell) => this.format(spell));
@@ -1027,8 +1170,8 @@ castingTime: ${JSON.stringify(spell.castingTime)}
 range: ${JSON.stringify(spell.range)}
 components: ${JSON.stringify(spell.components)}
 duration: ${JSON.stringify(spell.duration)}
-entries:${formatYamlListValue(spell.entries)}
-higherLevel:${formatYamlListValue(spell.higherLevel)}
+entries:${formatYamlListValue2(spell.entries)}
+higherLevel:${formatYamlListValue2(spell.higherLevel)}
 \`\`\``
     };
   }
@@ -1037,6 +1180,7 @@ higherLevel:${formatYamlListValue(spell.higherLevel)}
 // src/registry.ts
 var registry = {
   bestiary: new MonsterFormatter(),
+  items: new ItemFormatter(),
   monsters: new MonsterFormatter(),
   spells: new SpellFormatter()
 };
@@ -1193,6 +1337,7 @@ var TypeSelectionModal = class extends import_obsidian2.FuzzySuggestModal {
   getItems() {
     return [
       { label: "Insert monster", value: "monsters" },
+      { label: "Insert item", value: "items" },
       { label: "Insert spell", value: "spells" }
     ];
   }
@@ -1222,8 +1367,132 @@ var ItemSelectionModal = class extends import_obsidian2.FuzzySuggestModal {
   }
 };
 
-// src/renderers/SpellCardRenderer.ts
+// src/renderers/ItemCardRenderer.ts
 var import_obsidian3 = require("obsidian");
+function registerItemCardProcessor(plugin) {
+  plugin.registerMarkdownCodeBlockProcessor("itemcard", async (source, el, ctx) => {
+    await renderItemCard(plugin, source, el, ctx);
+  });
+}
+async function renderItemCard(plugin, source, el, ctx) {
+  let item;
+  try {
+    item = normalizeItemCardData((0, import_obsidian3.parseYaml)(source));
+  } catch (error) {
+    renderError(el, error);
+    return;
+  }
+  el.empty();
+  const card = createElement("article", "toolkit-item-card");
+  el.appendChild(card);
+  const header = createElement("header", "toolkit-item-card__header");
+  card.appendChild(header);
+  header.appendChild(createElement("h2", "", item.name ?? "Unknown Item"));
+  header.appendChild(createElement("p", "", getItemSubtitle(item)));
+  const sourceText = getSourceText(item);
+  if (sourceText) {
+    header.appendChild(createElement("span", "", sourceText));
+  }
+  const facts = getItemFacts(item);
+  if (facts.length) {
+    const meta = createElement("section", "toolkit-item-card__meta");
+    card.appendChild(meta);
+    for (const [label, value] of facts) {
+      appendMeta(meta, label, value);
+    }
+  }
+  appendTagList(card, "Properties", item.properties);
+  appendTagList(card, "Mastery", item.mastery);
+  await appendMarkdownSection(plugin, card, ctx, "toolkit-item-card__body", item.entries);
+}
+function normalizeItemCardData(raw) {
+  if (!raw || typeof raw !== "object") {
+    throw new Error("Item card block must contain YAML fields.");
+  }
+  const item = raw;
+  return {
+    ...item,
+    properties: normalizeStringList(item.properties),
+    mastery: normalizeStringList(item.mastery),
+    entries: normalizeStringList(item.entries)
+  };
+}
+function normalizeStringList(value) {
+  if (!Array.isArray(value)) {
+    return [];
+  }
+  return value.map((item) => item == null ? "" : String(item).trim()).filter((item) => item.length > 0);
+}
+function getItemSubtitle(item) {
+  return [item.type, item.rarity, item.attunement].filter(Boolean).join(", ");
+}
+function getSourceText(item) {
+  if (!item.source && !item.page) {
+    return "";
+  }
+  return `${item.source ?? ""}${item.page ? `, p. ${item.page}` : ""}`;
+}
+function getItemFacts(item) {
+  const facts = [
+    ["Value", item.value || item.valueRarity],
+    ["Weight", item.weight],
+    ["Weapon", item.weaponCategory],
+    ["Armor Class", item.armorClass],
+    ["Damage", item.damage],
+    ["Range", item.range]
+  ];
+  return facts.filter(([, value]) => Boolean(value));
+}
+function appendMeta(parent, label, value) {
+  const item = createElement("div", "toolkit-item-card__meta-item");
+  item.appendChild(createElement("strong", "", label));
+  item.appendChild(createElement("span", "", value || "-"));
+  parent.appendChild(item);
+}
+function appendTagList(parent, label, values) {
+  if (!values?.length) {
+    return;
+  }
+  const section = createElement("section", "toolkit-item-card__tags");
+  section.appendChild(createElement("strong", "", label));
+  const list = createElement("div", "toolkit-item-card__tag-list");
+  section.appendChild(list);
+  for (const value of values) {
+    list.appendChild(createElement("span", "", value));
+  }
+  parent.appendChild(section);
+}
+async function appendMarkdownSection(plugin, parent, ctx, className, entries) {
+  if (!entries?.length) {
+    return;
+  }
+  const section = createElement("section", className);
+  parent.appendChild(section);
+  for (const entry of entries) {
+    const entryEl = createElement("div", "toolkit-item-card__entry");
+    section.appendChild(entryEl);
+    await import_obsidian3.MarkdownRenderer.render(plugin.app, entry, entryEl, ctx.sourcePath, plugin);
+  }
+}
+function renderError(el, error) {
+  el.empty();
+  const message = error instanceof Error ? error.message : "Unable to render item card.";
+  const errorEl = createElement("div", "toolkit-item-card-error", `Invalid itemcard YAML: ${message}`);
+  el.appendChild(errorEl);
+}
+function createElement(tagName, className = "", text = "") {
+  const element = document.createElement(tagName);
+  if (className) {
+    element.className = className;
+  }
+  if (text) {
+    element.textContent = text;
+  }
+  return element;
+}
+
+// src/renderers/SpellCardRenderer.ts
+var import_obsidian4 = require("obsidian");
 var LEVEL_NAMES = {
   0: "Cantrip",
   1: "1st-level",
@@ -1238,34 +1507,34 @@ function registerSpellCardProcessor(plugin) {
 async function renderSpellCard(plugin, source, el, ctx) {
   let spell;
   try {
-    spell = normalizeSpellCardData((0, import_obsidian3.parseYaml)(source));
+    spell = normalizeSpellCardData((0, import_obsidian4.parseYaml)(source));
   } catch (error) {
-    renderError(el, error);
+    renderError2(el, error);
     return;
   }
   el.empty();
-  const card = createElement("article", "toolkit-spell-card");
+  const card = createElement2("article", "toolkit-spell-card");
   el.appendChild(card);
-  const header = createElement("header", "toolkit-spell-card__header");
+  const header = createElement2("header", "toolkit-spell-card__header");
   card.appendChild(header);
-  header.appendChild(createElement("h2", "", spell.name ?? "Unknown Spell"));
-  header.appendChild(createElement("p", "", getSpellSubtitle(spell)));
-  const sourceText = getSourceText(spell);
+  header.appendChild(createElement2("h2", "", spell.name ?? "Unknown Spell"));
+  header.appendChild(createElement2("p", "", getSpellSubtitle(spell)));
+  const sourceText = getSourceText2(spell);
   if (sourceText) {
-    header.appendChild(createElement("span", "", sourceText));
+    header.appendChild(createElement2("span", "", sourceText));
   }
-  const meta = createElement("section", "toolkit-spell-card__meta");
+  const meta = createElement2("section", "toolkit-spell-card__meta");
   card.appendChild(meta);
-  appendMeta(meta, "Casting Time", spell.castingTime);
-  appendMeta(meta, "Range", spell.range);
-  appendMeta(meta, "Components", spell.components);
-  appendMeta(meta, "Duration", spell.duration);
-  await appendMarkdownSection(plugin, card, ctx, "toolkit-spell-card__body", spell.entries);
+  appendMeta2(meta, "Casting Time", spell.castingTime);
+  appendMeta2(meta, "Range", spell.range);
+  appendMeta2(meta, "Components", spell.components);
+  appendMeta2(meta, "Duration", spell.duration);
+  await appendMarkdownSection2(plugin, card, ctx, "toolkit-spell-card__body", spell.entries);
   if (spell.higherLevel?.length) {
-    const higher = createElement("section", "toolkit-spell-card__higher");
+    const higher = createElement2("section", "toolkit-spell-card__higher");
     card.appendChild(higher);
-    higher.appendChild(createElement("h3", "", "At Higher Levels"));
-    await appendMarkdownSection(plugin, higher, ctx, "toolkit-spell-card__higher-body", spell.higherLevel);
+    higher.appendChild(createElement2("h3", "", "At Higher Levels"));
+    await appendMarkdownSection2(plugin, higher, ctx, "toolkit-spell-card__higher-body", spell.higherLevel);
   }
 }
 function normalizeSpellCardData(raw) {
@@ -1275,11 +1544,11 @@ function normalizeSpellCardData(raw) {
   const spell = raw;
   return {
     ...spell,
-    entries: normalizeStringList(spell.entries),
-    higherLevel: normalizeStringList(spell.higherLevel)
+    entries: normalizeStringList2(spell.entries),
+    higherLevel: normalizeStringList2(spell.higherLevel)
   };
 }
-function normalizeStringList(value) {
+function normalizeStringList2(value) {
   if (!Array.isArray(value)) {
     return [];
   }
@@ -1290,37 +1559,37 @@ function getSpellSubtitle(spell) {
   const levelText = Number.isFinite(level) ? LEVEL_NAMES[level] ?? `${level}th-level` : "";
   return [levelText, spell.school].filter(Boolean).join(" ");
 }
-function getSourceText(spell) {
+function getSourceText2(spell) {
   if (!spell.source && !spell.page) {
     return "";
   }
   return `${spell.source ?? ""}${spell.page ? `, p. ${spell.page}` : ""}`;
 }
-function appendMeta(parent, label, value) {
-  const item = createElement("div", "toolkit-spell-card__meta-item");
-  item.appendChild(createElement("strong", "", label));
-  item.appendChild(createElement("span", "", value || "-"));
+function appendMeta2(parent, label, value) {
+  const item = createElement2("div", "toolkit-spell-card__meta-item");
+  item.appendChild(createElement2("strong", "", label));
+  item.appendChild(createElement2("span", "", value || "-"));
   parent.appendChild(item);
 }
-async function appendMarkdownSection(plugin, parent, ctx, className, entries) {
+async function appendMarkdownSection2(plugin, parent, ctx, className, entries) {
   if (!entries?.length) {
     return;
   }
-  const section = createElement("section", className);
+  const section = createElement2("section", className);
   parent.appendChild(section);
   for (const entry of entries) {
-    const entryEl = createElement("div", "toolkit-spell-card__entry");
+    const entryEl = createElement2("div", "toolkit-spell-card__entry");
     section.appendChild(entryEl);
-    await import_obsidian3.MarkdownRenderer.render(plugin.app, entry, entryEl, ctx.sourcePath, plugin);
+    await import_obsidian4.MarkdownRenderer.render(plugin.app, entry, entryEl, ctx.sourcePath, plugin);
   }
 }
-function renderError(el, error) {
+function renderError2(el, error) {
   el.empty();
   const message = error instanceof Error ? error.message : "Unable to render spell card.";
-  const errorEl = createElement("div", "toolkit-spell-card-error", `Invalid spellcard YAML: ${message}`);
+  const errorEl = createElement2("div", "toolkit-spell-card-error", `Invalid spellcard YAML: ${message}`);
   el.appendChild(errorEl);
 }
-function createElement(tagName, className = "", text = "") {
+function createElement2(tagName, className = "", text = "") {
   const element = document.createElement(tagName);
   if (className) {
     element.className = className;
@@ -1333,12 +1602,14 @@ function createElement(tagName, className = "", text = "") {
 
 // src/utils/databaseCache.ts
 var fs3 = __toESM(require("fs"));
-var path4 = __toESM(require("path"));
-var import_obsidian4 = require("obsidian");
+var path5 = __toESM(require("path"));
+var import_obsidian5 = require("obsidian");
 var SPELL_SOURCE_LIST = require_spell_source_list();
 var MONSTER_SOURCE_LIST = require_monster_source_list();
+var ITEM_SOURCE_LIST = require_item_source_list();
 var SPELL_SOURCE_SET = new Set(SPELL_SOURCE_LIST.map(normalizeSourceKey));
 var MONSTER_SOURCE_SET = new Set(MONSTER_SOURCE_LIST.map(normalizeSourceKey));
+var ITEM_SOURCE_SET = new Set(ITEM_SOURCE_LIST.map(normalizeSourceKey));
 var CACHE_METADATA_FILE = ".database-cache.json";
 var SOURCE_FILTERED_DATABASE_FILES = [
   {
@@ -1352,15 +1623,21 @@ var SOURCE_FILTERED_DATABASE_FILES = [
     description: "monsters",
     sourceSet: MONSTER_SOURCE_SET,
     getSourceUrl: getBestiarySourceUrl
+  },
+  {
+    name: "items.json",
+    description: "items",
+    sourceSet: ITEM_SOURCE_SET,
+    getSourceUrl: getItemSourceUrl
   }
 ];
 function getCacheDir(pluginDir) {
-  return path4.join(pluginDir, "cache");
+  return path5.join(pluginDir, "cache");
 }
 async function hasDatabaseCache(pluginDir, includedSources) {
   const cacheDir = getCacheDir(pluginDir);
   const results = await Promise.all(
-    SOURCE_FILTERED_DATABASE_FILES.map((file) => hasFile(path4.join(cacheDir, file.name)))
+    SOURCE_FILTERED_DATABASE_FILES.map((file) => hasFile(path5.join(cacheDir, file.name)))
   );
   return results.every(Boolean) && await hasMatchingCacheMetadata(cacheDir, includedSources);
 }
@@ -1396,7 +1673,7 @@ async function writeSourceFilteredJsonCacheFile(cacheDir, file, githubToken, inc
     return byName || String(left.source).localeCompare(String(right.source));
   });
   await fs3.promises.writeFile(
-    path4.join(cacheDir, file.name),
+    path5.join(cacheDir, file.name),
     JSON.stringify(data, null, 2),
     "utf-8"
   );
@@ -1409,7 +1686,7 @@ async function fetchJsonArrayFromGithub(sourceUrl, githubToken, description) {
   if (githubToken.trim()) {
     headers.Authorization = `Bearer ${githubToken.trim()}`;
   }
-  const response = await (0, import_obsidian4.requestUrl)({
+  const response = await (0, import_obsidian5.requestUrl)({
     url: sourceUrl,
     method: "GET",
     headers
@@ -1429,6 +1706,9 @@ function getSpellSourceUrl(sourceKey) {
 function getBestiarySourceUrl(sourceKey) {
   return `https://api.github.com/repos/guykahalani/my-toolkit-plugin/contents/data/bestiary/${sourceKey.toLowerCase()}.json?ref=main`;
 }
+function getItemSourceUrl(sourceKey) {
+  return `https://api.github.com/repos/guykahalani/my-toolkit-plugin/contents/data/items/${sourceKey.toLowerCase()}.json?ref=main`;
+}
 async function hasFile(filePath) {
   try {
     await fs3.promises.access(filePath, fs3.constants.R_OK);
@@ -1440,7 +1720,7 @@ async function hasFile(filePath) {
 async function hasMatchingCacheMetadata(cacheDir, includedSources) {
   try {
     const metadata = JSON.parse(
-      await fs3.promises.readFile(path4.join(cacheDir, CACHE_METADATA_FILE), "utf-8")
+      await fs3.promises.readFile(path5.join(cacheDir, CACHE_METADATA_FILE), "utf-8")
     );
     return sourcesMatch(metadata.includedSources ?? [], includedSources);
   } catch {
@@ -1449,7 +1729,7 @@ async function hasMatchingCacheMetadata(cacheDir, includedSources) {
 }
 async function writeCacheMetadata(cacheDir, includedSources) {
   await fs3.promises.writeFile(
-    path4.join(cacheDir, CACHE_METADATA_FILE),
+    path5.join(cacheDir, CACHE_METADATA_FILE),
     JSON.stringify({ includedSources: normalizeSources(includedSources) }, null, 2),
     "utf-8"
   );
@@ -1462,7 +1742,7 @@ function normalizeSources(sources) {
 }
 
 // src/plugin/MyToolkitPlugin.ts
-var MyToolkitPlugin = class extends import_obsidian5.Plugin {
+var MyToolkitPlugin = class extends import_obsidian6.Plugin {
   constructor() {
     super(...arguments);
     this.settings = DEFAULT_SETTINGS;
@@ -1473,14 +1753,15 @@ var MyToolkitPlugin = class extends import_obsidian5.Plugin {
     console.log("[Toolkit] Loading...");
     await this.loadSettings();
     const vaultPath = this.app.vault.adapter.getBasePath();
-    this.pluginDir = path5.join(vaultPath, this.app.vault.configDir, "plugins", this.manifest.id);
+    this.pluginDir = path6.join(vaultPath, this.app.vault.configDir, "plugins", this.manifest.id);
     await this.ensureDatabaseCache();
     this.addSettingTab(new ToolkitSettingTab(this.app, this));
     this.attachGlobalBridge();
+    registerItemCardProcessor(this);
     registerSpellCardProcessor(this);
     this.addCommands();
     this.deployVaultAssets(vaultPath);
-    new import_obsidian5.Notice("Toolkit Plugin loaded.");
+    new import_obsidian6.Notice("Toolkit Plugin loaded.");
     console.log("[Toolkit] Ready. Bridge attached, assets deployed.");
   }
   onunload() {
@@ -1553,12 +1834,12 @@ var MyToolkitPlugin = class extends import_obsidian5.Plugin {
     try {
       await refreshDatabaseCache(this.pluginDir, this.settings.githubToken, this.settings.includedSources);
       if (showSuccessNotice) {
-        new import_obsidian5.Notice("Toolkit database refreshed.");
+        new import_obsidian6.Notice("Toolkit database refreshed.");
       }
       console.log("[Toolkit] Database cache refreshed.");
     } catch (error) {
       console.error("[Toolkit] Failed to refresh database cache:", error);
-      new import_obsidian5.Notice("Toolkit database refresh failed. For a private repo, add a GitHub token in plugin settings.");
+      new import_obsidian6.Notice("Toolkit database refresh failed. For a private repo, add a GitHub token in plugin settings.");
     }
   }
   async refreshSourceFilteredCache() {
@@ -1571,7 +1852,7 @@ var MyToolkitPlugin = class extends import_obsidian5.Plugin {
       console.log("[Toolkit] Source-filtered database cache refreshed.");
     } catch (error) {
       console.error("[Toolkit] Failed to refresh source-filtered database cache:", error);
-      new import_obsidian5.Notice("Toolkit source cache refresh failed. Check the developer console.");
+      new import_obsidian6.Notice("Toolkit source cache refresh failed. Check the developer console.");
     }
   }
   filterItemsBySource(items) {

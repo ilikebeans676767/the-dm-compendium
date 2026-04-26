@@ -22,6 +22,9 @@
     "skills": "perception: +2",
     "senses": "passive Perception 12",
     "languages": "Common",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "1/8",
     "traits": [],
     "spellcasting": [],
@@ -63,6 +66,9 @@
     "skills": "athletics: +6",
     "senses": "passive Perception 10",
     "languages": "Common",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "2",
     "traits": [
       {
@@ -111,6 +117,9 @@
     "skills": "deception: +5, insight: +4, investigation: +3, perception: +6, persuasion: +5, sleight of hand: +6, stealth: +4",
     "senses": "passive Perception 16",
     "languages": "Common",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "1/2",
     "traits": [
       {

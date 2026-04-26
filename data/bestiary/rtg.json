@@ -22,6 +22,9 @@
     "skills": "arcana: +4, deception: +7, persuasion: +7, religion: +4",
     "senses": "darkvision 60 ft., passive Perception 11",
     "languages": "telepathy 60 ft.",
+    "damageResistances": "bludgeoning, piercing, slashing from nonmagical attacks that aren't silvered",
+    "damageImmunities": "poison",
+    "conditionImmunities": "poisoned",
     "challengeRating": "7",
     "traits": [
       {
@@ -111,6 +114,9 @@
     "skills": "athletics: +7, perception: +4, stealth: +4",
     "senses": "darkvision 60 ft., passive Perception 14",
     "languages": "telepathy 60 ft.",
+    "damageResistances": "bludgeoning, piercing",
+    "damageImmunities": "poison",
+    "conditionImmunities": "charmed, frightened, poisoned",
     "challengeRating": "5",
     "traits": [
       {

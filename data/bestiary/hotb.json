@@ -22,6 +22,9 @@
     "skills": "persuasion: +5, religion: +5",
     "senses": "passive Perception 14",
     "languages": "Celestial, Common",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "charmed, frightened",
     "challengeRating": "6",
     "traits": [
       {
@@ -88,6 +91,9 @@
     "skills": "stealth: +2",
     "senses": "Blindsight 60 ft., passive Perception 8",
     "languages": "",
+    "damageResistances": "acid, cold, fire",
+    "damageImmunities": "",
+    "conditionImmunities": "blinded, charmed, deafened, exhaustion, frightened, grappled, prone, restrained",
     "challengeRating": "1/2",
     "traits": [
       {
@@ -142,6 +148,9 @@
     "skills": "deception: +4, persuasion: +4",
     "senses": "passive Perception 12",
     "languages": "Common",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "2",
     "traits": [],
     "spellcasting": [],
@@ -195,6 +204,9 @@
     "skills": "perception: +6, stealth: +5",
     "senses": "passive Perception 16",
     "languages": "Common, Halfling",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "1",
     "traits": [
       {
@@ -256,6 +268,9 @@
     "skills": "perception: +4",
     "senses": "Darkvision 120 ft., Truesight 30 ft., passive Perception 14",
     "languages": "Common, Undercommon",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "1/2",
     "traits": [
       {
@@ -317,6 +332,9 @@
     "skills": "stealth: +5, survival: +5",
     "senses": "passive Perception 11",
     "languages": "Common, Draconic",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "1",
     "traits": [
       {
@@ -383,6 +401,9 @@
     "skills": "medicine: +4, religion: +2",
     "senses": "passive Perception 12",
     "languages": "Common",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "1",
     "traits": [],
     "spellcasting": [],
@@ -436,6 +457,9 @@
     "skills": "athletics: +4, deception: +4",
     "senses": "passive Perception 10",
     "languages": "Common",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "1",
     "traits": [],
     "spellcasting": [],
@@ -490,6 +514,9 @@
     "skills": "perception: +3, stealth: +8",
     "senses": "passive Perception 13",
     "languages": "Common, Elvish, Sylvan",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "1/4",
     "traits": [],
     "spellcasting": [],
@@ -549,6 +576,9 @@
     "skills": "perception: +5, stealth: +6, survival: +5",
     "senses": "passive Perception 15",
     "languages": "Common, Dwarvish",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "1/4",
     "traits": [],
     "spellcasting": [],
@@ -602,6 +632,9 @@
     "skills": "perception: +3, stealth: +4",
     "senses": "Darkvision 60 ft., passive Perception 13",
     "languages": "Common plus one other language",
+    "damageResistances": "necrotic",
+    "damageImmunities": "poison",
+    "conditionImmunities": "exhaustion, poisoned",
     "challengeRating": "3",
     "traits": [
       {

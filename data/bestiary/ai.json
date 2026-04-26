@@ -22,6 +22,9 @@
     "skills": "perception: +7, stealth: +13",
     "senses": "blindsight 60 ft., darkvision 120 ft., passive Perception 17",
     "languages": "Deep Crow",
+    "damageResistances": "bludgeoning, piercing, slashing from nonmagical attacks",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "15",
     "traits": [
       {
@@ -113,6 +116,9 @@
     "skills": "athletics: +5, perception: +3",
     "senses": "passive Perception 13",
     "languages": "Common, Elvish",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "2",
     "traits": [],
     "spellcasting": [
@@ -175,6 +181,9 @@
     "skills": "perception: +3, performance: +5, persuasion: +5",
     "senses": "passive Perception 13",
     "languages": "Common, Elvish",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "2",
     "traits": [
       {
@@ -245,6 +254,9 @@
     "skills": "acrobatics: +5, perception: +4",
     "senses": "blindsight 120 ft. (blind beyond this radius), passive Perception 14",
     "languages": "",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "4",
     "traits": [
       {
@@ -305,6 +317,9 @@
     "skills": "acrobatics: +2, perception: +4",
     "senses": "blindsight 60 ft., darkvision 60 ft., passive Perception 14",
     "languages": "Common, Draconic",
+    "damageResistances": "",
+    "damageImmunities": "poison, psychic",
+    "conditionImmunities": "blinded, charmed, deafened, exhaustion, frightened, paralyzed, petrified, poisoned",
     "challengeRating": "1",
     "traits": [
       {
@@ -359,6 +374,9 @@
     "skills": "perception: +6, stealth: +11",
     "senses": "blindsight 30 ft., darkvision 120 ft., passive Perception 16",
     "languages": "Deep Crow",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "9",
     "traits": [
       {
@@ -431,6 +449,9 @@
     "skills": "history: +2, insight: +2, intimidation: +5, persuasion: +5",
     "senses": "passive Perception 10",
     "languages": "Common, Draconic, Orc",
+    "damageResistances": "acid",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "3",
     "traits": [
       {
@@ -506,6 +527,9 @@
     "skills": "arcana: +5, persuasion: +3, history: +5, perception: +3",
     "senses": "passive Perception 13",
     "languages": "Common, Draconic, Elvish, Gnomish",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "4",
     "traits": [],
     "spellcasting": [
@@ -561,6 +585,9 @@
     "skills": "acrobatics: +5, animal handling: +4, arcana: +7, history: +7, performance: +5",
     "senses": "passive Perception 11",
     "languages": "Common",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "5",
     "traits": [
       {
@@ -635,6 +662,9 @@
     "skills": "arcana: +4, insight: +2, investigation: +4, perception: +2, religion: +4",
     "senses": "darkvision 120 ft., passive Perception 12",
     "languages": "Celestial, Common, Elvish, Undercommon; can read all writing",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "3",
     "traits": [
       {
@@ -718,6 +748,9 @@
     "skills": "perception: +1",
     "senses": "darkvision 60 ft., passive Perception 11",
     "languages": "understands Common but can't speak",
+    "damageResistances": "bludgeoning, piercing, slashing from nonmagical attacks",
+    "damageImmunities": "poison, psychic",
+    "conditionImmunities": "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
     "challengeRating": "2",
     "traits": [
       {
@@ -787,6 +820,9 @@
     "skills": "athletics: +3, insight: +4, nature: +3, perception: +4, stealth: +6, survival: +4",
     "senses": "darkvision 60 ft., passive Perception 14",
     "languages": "Common, Draconic, Dwarvish, Giant, Goblin",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "4",
     "traits": [
       {
@@ -864,6 +900,9 @@
     "skills": "nature: +4, perception: +3, performance: +2, stealth: +5, survival: +3",
     "senses": "passive Perception 13",
     "languages": "Common",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "2",
     "traits": [
       {
@@ -937,6 +976,9 @@
     "skills": "deception: +4, insight: +7, intimidation: +4, medicine: +7, perception: +7, persuasion: +4",
     "senses": "darkvision 60 ft., passive Perception 17",
     "languages": "Common, Dwarvish, Elvish, Goblin",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "5",
     "traits": [
       {
@@ -1017,6 +1059,9 @@
     "skills": "arcana: +5, investigation: +5, performance: +2",
     "senses": "passive Perception 10",
     "languages": "Common, Draconic, Elvish, Halfling",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "2",
     "traits": [
       {
@@ -1075,6 +1120,9 @@
     "skills": "athletics: +4, performance: +3, persuasion: +3, religion: +3",
     "senses": "passive Perception 13",
     "languages": "Common, Elvish",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "2",
     "traits": [
       {
@@ -1139,6 +1187,9 @@
     "skills": "deception: +6, insight: +3, perception: +3",
     "senses": "darkvision 60 ft., passive Perception 13",
     "languages": "Common, Elvish",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "charmed",
     "challengeRating": "3",
     "traits": [
       {
@@ -1199,6 +1250,9 @@
     "skills": "medicine: +5, persuasion: +3, religion: +5",
     "senses": "darkvision 60 ft., passive Perception 13",
     "languages": "Common, Elvish",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "2",
     "traits": [
       {
@@ -1264,6 +1318,9 @@
     "skills": "acrobatics: +5, history: +3, intimidation: +4, stealth: +5",
     "senses": "passive Perception 12",
     "languages": "Common, Draconic, Elvish, Halfling",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "3",
     "traits": [
       {
@@ -1358,6 +1415,9 @@
     "skills": "stealth: +6",
     "senses": "darkvision 60 ft., passive Perception 10",
     "languages": "Common, Draconic, Elvish, Goblin",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "2",
     "traits": [
       {
@@ -1437,6 +1497,9 @@
     "skills": "acrobatics: +11, athletics: +7, perception: +5, performance: +5, persuasion: +5, sleight of hand: +11, stealth: +8",
     "senses": "passive Perception 15",
     "languages": "Common, Draconic, Thieves' cant",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "5",
     "traits": [
       {
@@ -1522,6 +1585,9 @@
     "skills": "athletics: +1, insight: +6, perception: +6, stealth: +5, survival: +6",
     "senses": "darkvision 60 ft., passive Perception 16",
     "languages": "Common, Druidic, Elvish, Sylvan",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "3",
     "traits": [
       {

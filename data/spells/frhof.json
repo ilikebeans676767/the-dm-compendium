@@ -13,7 +13,7 @@
     "entries": [
       "For the duration, moonlight fills a 20-foot Emanation [Area of Effect] originating from you with Dim Light. While in that area, you and your allies have Cover and Resistance to Cold, Lightning, and Radiant damage.",
       "While the spell lasts, you can use one of the following options, ending the spell immediately:",
-      "- Liberation\n- Respite"
+      "- Liberation When you fail a saving throw to avoid or end the Frightened, Grappled, or Restrained condition, you can take a Reaction to succeed on the save instead.\n- Respite As a Magic action, you or an ally within the area regains Hit Points equal to 4d10 plus your spellcasting ability modifier."
     ],
     "higherLevel": []
   },
@@ -86,7 +86,7 @@
     "duration": "Concentration, up to 10 minutes",
     "entries": [
       "You conjure a group of intangible, orderly spirits that appear as a Medium group of modrons or other Constructs in an unoccupied space you can see within range. The spirits last for the duration. When you cast this spell and as a Magic action on subsequent turns, you can command the spirits to target one creature or object you can see within 5 feet of the spirits and create one of the following effects:",
-      "- Clockwork Force\n- Orderly Ward",
+      "- Clockwork Force The target makes a Dexterity saving throw, taking 3d6 Force damage on a failed save or half as much damage on a successful one.\n- Orderly Ward The target gains Temporary Hit Points equal to 1d6 plus your spellcasting ability modifier.",
       "When you move on your turn, you can also move the spirits up to 30 feet to an unoccupied space you can see."
     ],
     "higherLevel": [
@@ -177,7 +177,7 @@
     "entries": [
       "Six chromatic spheres orbit you for the duration.",
       "While the spheres are present, you can expend spheres to create the following effects:",
-      "- Absorb Energy\n- Energy Blast",
+      "- Absorb Energy When you take Acid, Cold, Fire, Lightning, or Thunder damage, you can take a Reaction to expend one sphere and give yourself Resistance to the triggering damage type until the start of your next turn.\n- Energy Blast As a Bonus Action, you send one sphere hurtling toward a target within 120 feet of yourself. Make a ranged spell attack. On a hit, the target takes 3d6 Acid, Cold, Fire, Lightning, or Thunder damage (your choice). Regardless of whether you hit, the sphere is expended.",
       "The spell ends early if you have no more spheres remaining."
     ],
     "higherLevel": [
@@ -265,7 +265,7 @@
     "duration": "Concentration, up to 1 minute",
     "entries": [
       "You imbue yourself with the elemental power of genies. You gain the following benefits until the spell ends:",
-      "- Elemental Immunity\n- Elemental Pulse\n- Flight",
+      "- Elemental Immunity When you cast this spell, choose one of the following damage types: Acid, Cold, Fire, Lightning, or Thunder. You have Resistance to the chosen damage type.\n- Elemental Pulse When you cast this spell and at the start of each of your subsequent turns, you release a burst of elemental energy in a 15-foot Emanation [Area of Effect] originating from yourself. Each creature of your choice in that area makes a Dexterity saving throw. On a failed save, a creature takes 2d6 Acid, Cold, Fire, Lightning, or Thunder damage (your choice) and has the Prone condition. On a successful save, a creature takes half as much damage only.\n- Flight You gain a Fly Speed of 30 feet and can hover.",
       "**Casting as a Circle Spell**\n\nIf the spell is cast as a Circle spell, its casting time increases to 1 minute, and its duration increases to Concentration, up to 10 minutes. For each secondary caster who participates in the casting, you can choose one additional creature, to a maximum of nine additional creatures. The chosen creatures also gain the benefits of the spell for its duration.\n\nWhen the spell is cast, each secondary caster must expend a level 2+ spell slot; otherwise, the spell fails."
     ],
     "higherLevel": []
@@ -323,7 +323,7 @@
     "entries": [
       "A shimmering, spectral snake encircles your body for the duration. You gain 15 Temporary Hit Points; the spell ends early if you have no Temporary Hit Points left.",
       "While the spell is active, you gain the following benefits:",
-      "- Climbing\n- Venomous Bite"
+      "- Climbing You gain a Climb Speed equal to your Speed.\n- Venomous Bite As a Magic action, you can make a ranged spell attack using the snake against one creature within 50 feet. On a hit, the target takes 1d6 Force damage and has the Poisoned condition until the start of your next turn. While Poisoned, the target has the Incapacitated condition."
     ],
     "higherLevel": [
       "**Using a Higher-Level Spell Slot**\n\nFor each spell slot level above 3, the number of Temporary Hit Points you gain from this spell increases by 5, and the damage of Venomous Bite increases by 1d6."

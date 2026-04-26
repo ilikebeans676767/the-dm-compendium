@@ -21,6 +21,9 @@
     "skills": "acrobatics: +12, performance: +6, persuasion: +6, sleight of hand: +8, stealth: +12",
     "senses": "passive Perception 10",
     "languages": "Common, plus one of your choice",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "",
     "traits": [
       {
@@ -98,6 +101,9 @@
     "skills": "perception: +3",
     "senses": "blindsight 60 ft., passive Perception 13",
     "languages": "",
+    "damageResistances": "",
+    "damageImmunities": "poison",
+    "conditionImmunities": "exhaustion, poisoned",
     "challengeRating": "5",
     "traits": [
       {
@@ -145,6 +151,9 @@
     "skills": "insight: +7, perception: +12, stealth: +5",
     "senses": "blindsight 60 ft., darkvision 120 ft., passive Perception 22",
     "languages": "Common, Draconic",
+    "damageResistances": "",
+    "damageImmunities": "lightning",
+    "conditionImmunities": "",
     "challengeRating": "16",
     "traits": [
       {
@@ -291,6 +300,9 @@
     "skills": "arcana: +6, investigation: +6, religion: +6",
     "senses": "passive Perception 14",
     "languages": "Common, plus one of your choice",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "",
     "traits": [
       {
@@ -351,6 +363,9 @@
     "skills": "arcana: +8, investigation: +8, religion: +8",
     "senses": "passive Perception 12",
     "languages": "Common, plus one of your choice",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "",
     "traits": [
       {
@@ -411,6 +426,9 @@
     "skills": "athletics: +8, perception: +5, survival: +5",
     "senses": "passive Perception 15",
     "languages": "Common, plus one of your choice",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "",
     "traits": [
       {
@@ -435,7 +453,7 @@
         "name": "Martial Role",
         "entries": [
           "The warrior has one of the following traits of your choice:",
-          "- Attacker\n- Defender"
+          "- Attacker The warrior gains a +2 bonus to attack rolls.\n- Defender The warrior gains the Protection reaction below."
         ]
       },
       {

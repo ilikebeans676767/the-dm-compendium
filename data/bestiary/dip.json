@@ -22,6 +22,9 @@
     "skills": "nature: +1, stealth: +3, survival: +4",
     "senses": "darkvision 60 ft., passive Perception 12",
     "languages": "Common, Orc",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "3",
     "traits": [
       {
@@ -85,6 +88,9 @@
     "skills": "deception: +4, persuasion: +4",
     "senses": "passive Perception 10",
     "languages": "Common, Dwarvish",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "1/2",
     "traits": [
       {
@@ -151,6 +157,9 @@
     "skills": "athletics: +4, perception: +7, survival: +5",
     "senses": "passive Perception 17",
     "languages": "Common",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "4",
     "traits": [
       {
@@ -217,6 +226,9 @@
     "skills": "",
     "senses": "darkvision 60 ft., passive Perception 10",
     "languages": "",
+    "damageResistances": "bludgeoning, piercing, slashing from nonmagical attacks",
+    "damageImmunities": "lightning, thunder",
+    "conditionImmunities": "",
     "challengeRating": "6",
     "traits": [
       {
@@ -283,6 +295,9 @@
     "skills": "arcana: +4, history: +4",
     "senses": "darkvision 60 ft., passive Perception 10",
     "languages": "Common, Gnomish",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "1/4",
     "traits": [
       {
@@ -339,6 +354,9 @@
     "skills": "",
     "senses": "",
     "languages": "",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "",
     "traits": [],
     "spellcasting": [],

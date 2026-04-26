@@ -22,6 +22,9 @@
     "skills": "perception: +7, stealth: +11",
     "senses": "darkvision 120 ft., passive Perception 17",
     "languages": "",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "frightened",
     "challengeRating": "12",
     "traits": [
       {
@@ -131,6 +134,9 @@
     "skills": "arcana: +6, history: +6",
     "senses": "passive Perception 10",
     "languages": "any four languages",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "5",
     "traits": [],
     "spellcasting": [
@@ -194,6 +200,9 @@
     "skills": "history: +5, insight: +8, perception: +8, performance: +7, stealth: +5",
     "senses": "darkvision 100 ft., passive Perception 18",
     "languages": "all, telepathy 30 ft.",
+    "damageResistances": "bludgeoning, piercing, slashing from nonmagical attacks",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "5",
     "traits": [
       {

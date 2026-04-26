@@ -21,6 +21,9 @@
     "skills": "",
     "senses": "blindsight 60 ft. (can't see beyond this radius), passive Perception 10",
     "languages": "understands the languages of its creator but can't speak",
+    "damageResistances": "",
+    "damageImmunities": "poison, psychic",
+    "conditionImmunities": "blinded, charmed, deafened, exhaustion, frightened, paralyzed, petrified, poisoned",
     "challengeRating": "3",
     "traits": [
       {
@@ -86,6 +89,9 @@
     "skills": "arcana: +17, history: +11, medicine: +8, perception: +8",
     "senses": "truesight 120 ft., passive Perception 18",
     "languages": "all",
+    "damageResistances": "cold, bludgeoning, piercing, slashing from nonmagical attacks",
+    "damageImmunities": "necrotic, poison",
+    "conditionImmunities": "charmed, exhaustion, frightened, paralyzed, poisoned, stunned",
     "challengeRating": "17",
     "traits": [
       {
@@ -200,6 +206,9 @@
     "skills": "arcana: +6, perception: +5, religion: +6",
     "senses": "truesight 60 ft., passive Perception 15",
     "languages": "Common plus three more languages",
+    "damageResistances": "necrotic",
+    "damageImmunities": "",
+    "conditionImmunities": "charmed, frightened",
     "challengeRating": "6",
     "traits": [
       {

@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Borderlands Tabard",
+    "source": "HotB",
+    "sourceKey": "HOTB",
+    "page": 16,
+    "type": "Adventuring Gear",
+    "rarity": "",
+    "attunement": "",
+    "weight": "",
+    "value": "",
+    "valueRarity": "",
+    "weaponCategory": "",
+    "armorClass": "",
+    "damage": "",
+    "range": "",
+    "properties": [],
+    "mastery": [],
+    "entries": [
+      "While you're wearing this tabard, NPCs in the Keep on the Borderlands are initially Friendly [Attitude] toward you."
+    ]
+  },
+  {
+    "name": "Cultist's Robe",
+    "source": "HotB",
+    "sourceKey": "HOTB",
+    "page": 19,
+    "type": "Adventuring Gear",
+    "rarity": "",
+    "attunement": "",
+    "weight": "",
+    "value": "",
+    "valueRarity": "",
+    "weaponCategory": "",
+    "armorClass": "",
+    "damage": "",
+    "range": "",
+    "properties": [],
+    "mastery": [],
+    "entries": [
+      "While wearing this occult outfit, you have Advantage on any ability check you make to impersonate a cultist in the Cult of Chaos."
+    ]
+  }
+]

@@ -22,6 +22,9 @@
     "skills": "athletics: +4, perception: +2, stealth: +4",
     "senses": "darkvision 60 ft., passive Perception 12",
     "languages": "",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "4",
     "traits": [],
     "spellcasting": [],
@@ -75,6 +78,9 @@
     "skills": "perception: +4, stealth: +2",
     "senses": "darkvision 60 ft., tremorsense 30 ft., passive Perception 14",
     "languages": "",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "1/4",
     "traits": [
       {
@@ -129,6 +135,9 @@
     "skills": "perception: +3",
     "senses": "darkvision 60 ft., passive Perception 13",
     "languages": "Abyssal, Aquan, Common",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "3",
     "traits": [
       {
@@ -210,6 +219,9 @@
     "skills": "",
     "senses": "darkvision 60 ft., passive Perception 10",
     "languages": "understands the languages it knew in life but can't speak",
+    "damageResistances": "bludgeoning",
+    "damageImmunities": "poison",
+    "conditionImmunities": "poisoned",
     "challengeRating": "1/2",
     "traits": [
       {
@@ -257,6 +269,9 @@
     "skills": "",
     "senses": "",
     "languages": "",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "4",
     "traits": [],
     "spellcasting": [],

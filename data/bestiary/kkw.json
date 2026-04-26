@@ -22,6 +22,9 @@
     "skills": "stealth: +5",
     "senses": "darkvision 60 ft., passive Perception 10",
     "languages": "Common, Goblin",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "1/4",
     "traits": [
       {
@@ -76,6 +79,9 @@
     "skills": "stealth: +6, deception: +4, persuasion: +4",
     "senses": "darkvision 60 ft., passive Perception 9",
     "languages": "Common, Goblin",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "1",
     "traits": [
       {
@@ -143,6 +149,9 @@
     "skills": "",
     "senses": "blindsight 60 ft. (blind beyond this radius), passive Perception 6",
     "languages": "",
+    "damageResistances": "",
+    "damageImmunities": "poison, psychic",
+    "conditionImmunities": "blinded, charmed, deafened, exhaustion, frightened, paralyzed, petrified, poisoned",
     "challengeRating": "1",
     "traits": [
       {

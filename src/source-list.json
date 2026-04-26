@@ -494,6 +494,11 @@
     "short": "SATO",
     "include": false
   },
+  "SCAG": {
+    "full": "Sword Coast Adventurer's Guide",
+    "short": "SCAG",
+    "include": false
+  },
   "SCC": {
     "full": "Strixhaven: A Curriculum of Chaos",
     "short": "SCC",

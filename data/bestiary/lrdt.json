@@ -22,6 +22,9 @@
     "skills": "animal handling: +5, survival: +5",
     "senses": "darkvision 60 ft., passive Perception 13",
     "languages": "Common, Draconic",
+    "damageResistances": "poison",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "2",
     "traits": [],
     "spellcasting": [
@@ -85,6 +88,9 @@
     "skills": "arcana: 3, deception: +6",
     "senses": "passive Perception 9",
     "languages": "Common, Draconic",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "5",
     "traits": [],
     "spellcasting": [

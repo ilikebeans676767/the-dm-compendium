@@ -22,6 +22,9 @@
     "skills": "",
     "senses": "darkvision 120 ft., passive Perception 10",
     "languages": "Dwarvish, Undercommon",
+    "damageResistances": "poison",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "2",
     "traits": [
       {
@@ -82,6 +85,9 @@
     "skills": "athletics: +2, intimidation: +4, perception: +2, stealth: +5",
     "senses": "passive Perception 12",
     "languages": "Grung",
+    "damageResistances": "",
+    "damageImmunities": "poison",
+    "conditionImmunities": "poisoned",
     "challengeRating": "1",
     "traits": [
       {
@@ -148,6 +154,9 @@
     "skills": "athletics: +2, intimidation: +4, perception: +2, stealth: +5",
     "senses": "passive Perception 12",
     "languages": "Grung",
+    "damageResistances": "",
+    "damageImmunities": "poison",
+    "conditionImmunities": "charmed, poisoned",
     "challengeRating": "2",
     "traits": [
       {
@@ -220,6 +229,9 @@
     "skills": "arcana: +3, deception: +4, perception: +4, stealth: +3",
     "senses": "darkvision 60 ft., passive Perception 14",
     "languages": "Common, Draconic, Sylvan",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "3",
     "traits": [
       {
@@ -288,6 +300,9 @@
     "skills": "perception: +3, stealth: +7",
     "senses": "blindsight 10 ft., darkvision 60 ft., passive Perception 13",
     "languages": "",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "1/4",
     "traits": [
       {
@@ -348,6 +363,9 @@
     "skills": "",
     "senses": "darkvision 60 ft., passive Perception 9",
     "languages": "understands Yeti but can't speak",
+    "damageResistances": "",
+    "damageImmunities": "cold",
+    "conditionImmunities": "",
     "challengeRating": "1/8",
     "traits": [
       {

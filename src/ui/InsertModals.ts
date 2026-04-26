@@ -41,6 +41,7 @@ class TypeSelectionModal extends FuzzySuggestModal<TypeSelectionItem> {
   getItems(): TypeSelectionItem[] {
     return [
       { label: "Insert monster", value: "monsters" },
+      { label: "Insert item", value: "items" },
       { label: "Insert spell", value: "spells" },
     ];
   }

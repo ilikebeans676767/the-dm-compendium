@@ -22,6 +22,9 @@
     "skills": "arcana: +15, perception: +13, persuasion: +10, stealth: +7",
     "senses": "blindsight 60 ft., darkvision 120 ft., passive Perception 23",
     "languages": "Common, Draconic, telepathy 120 ft.",
+    "damageResistances": "force, psychic",
+    "damageImmunities": "",
+    "conditionImmunities": "frightened, prone",
     "challengeRating": "16",
     "traits": [
       {
@@ -135,6 +138,9 @@
     "skills": "perception: +10, stealth: +9, survival: +6",
     "senses": "blindsight 60 ft., darkvision 120 ft., passive Perception 20",
     "languages": "Common, Draconic, telepathy 120 ft.",
+    "damageResistances": "cold, radiant",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "12",
     "traits": [
       {
@@ -243,6 +249,9 @@
     "skills": "perception: +7, persuasion: +12, stealth: +10",
     "senses": "blindsight 60 ft., darkvision 150 ft., passive Perception 17",
     "languages": "Common, Draconic, Undercommon",
+    "damageResistances": "poison, psychic",
+    "damageImmunities": "",
+    "conditionImmunities": "charmed, frightened, poisoned",
     "challengeRating": "11",
     "traits": [
       {
@@ -340,6 +349,9 @@
     "skills": "arcana: +9, deception: +9, perception: +13, stealth: +6",
     "senses": "blindsight 60 ft., darkvision 120 ft., passive Perception 23",
     "languages": "Common, Draconic, telepathy 120 ft.",
+    "damageResistances": "fire, psychic",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "14",
     "traits": [
       {
@@ -460,6 +472,9 @@
     "skills": "perception: +10, persuasion: +11, stealth: +9",
     "senses": "blindsight 60 ft., darkvision 120 ft., passive Perception 20",
     "languages": "Common, Draconic, Elvish, Gnomish, Sylvan",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "charmed",
     "challengeRating": "15",
     "traits": [
       {
@@ -509,7 +524,7 @@
         "name": "Breath Weapon 5",
         "entries": [
           "The dragon uses one of the following breath weapons:",
-          "- Dream Breath\n- Moonlight Breath"
+          "- Dream Breath The dragon exhales mist in a 90-foot cone. Each creature in that area must succeed on a DC 18 Constitution saving throw or fall unconscious for 10 minutes. This effect ends for a creature if the creature takes damage or someone uses an action to wake it.\n- Moonlight Breath The dragon exhales a beam of moonlight in a 90-foot line that is 10 feet wide. Each creature in that area must make a DC 18 Dexterity saving throw, taking 49 (9d10) radiant damage on a failed save, or half as much damage on a successful one."
         ]
       }
     ],
@@ -556,6 +571,9 @@
     "skills": "history: +9, perception: +13, persuasion: +14, stealth: +7",
     "senses": "blindsight 60 ft., darkvision 120 ft., passive Perception 23",
     "languages": "Common, Draconic, telepathy 120 ft.",
+    "damageResistances": "lightning, thunder",
+    "damageImmunities": "",
+    "conditionImmunities": "frightened",
     "challengeRating": "15",
     "traits": [
       {
@@ -675,6 +693,9 @@
     "skills": "intimidation: +14, perception: +13, stealth: +6",
     "senses": "blindsight 60 ft., darkvision 120 ft., passive Perception 23",
     "languages": "Common, Draconic, telepathy 120 ft.",
+    "damageResistances": "cold, necrotic",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "13",
     "traits": [
       {
@@ -794,6 +815,9 @@
     "skills": "arcana: +7, perception: +5, persuasion: +5, stealth: +2",
     "senses": "blindsight 10 ft., darkvision 120 ft., passive Perception 15",
     "languages": "Draconic, telepathy 120 ft.",
+    "damageResistances": "force, psychic",
+    "damageImmunities": "",
+    "conditionImmunities": "frightened, prone",
     "challengeRating": "4",
     "traits": [
       {
@@ -857,6 +881,9 @@
     "skills": "arcana: +26, history: +18, perception: +15",
     "senses": "truesight 120 ft., passive Perception 25",
     "languages": "Common, Draconic",
+    "damageResistances": "",
+    "damageImmunities": "force",
+    "conditionImmunities": "charmed, frightened, poisoned, prone",
     "challengeRating": "26",
     "traits": [
       {
@@ -983,6 +1010,9 @@
     "skills": "arcana: +22, perception: +18, persuasion: +13, stealth: +9",
     "senses": "blindsight 60 ft., darkvision 120 ft., passive Perception 28",
     "languages": "Common, Draconic, telepathy 120 ft.",
+    "damageResistances": "force, psychic",
+    "damageImmunities": "",
+    "conditionImmunities": "frightened, prone",
     "challengeRating": "23",
     "traits": [
       {
@@ -1096,6 +1126,9 @@
     "skills": "perception: +15, stealth: +13, survival: +9",
     "senses": "blindsight 60 ft., darkvision 120 ft., passive Perception 25",
     "languages": "Common, Draconic, telepathy 120 ft.",
+    "damageResistances": "cold, radiant",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "19",
     "traits": [
       {
@@ -1204,6 +1237,9 @@
     "skills": "perception: +10, persuasion: +17, stealth: +15",
     "senses": "blindsight 60 ft., darkvision 300 ft., passive Perception 20",
     "languages": "Common, Draconic, Undercommon",
+    "damageResistances": "poison, psychic",
+    "damageImmunities": "",
+    "conditionImmunities": "charmed, frightened, poisoned",
     "challengeRating": "18",
     "traits": [
       {
@@ -1301,6 +1337,9 @@
     "skills": "perception: +11",
     "senses": "truesight 120 ft., passive Perception 21",
     "languages": "Aquan, Draconic",
+    "damageResistances": "",
+    "damageImmunities": "cold, fire",
+    "conditionImmunities": "charmed, frightened, poisoned",
     "challengeRating": "24",
     "traits": [
       {
@@ -1423,6 +1462,9 @@
     "skills": "arcana: +12, deception: +12, perception: +18, stealth: +8",
     "senses": "blindsight 60 ft., darkvision 120 ft., passive Perception 28",
     "languages": "Common, Draconic, telepathy 120 ft.",
+    "damageResistances": "fire, psychic",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "21",
     "traits": [
       {
@@ -1543,6 +1585,9 @@
     "skills": "perception: +13, persuasion: +15, stealth: +11",
     "senses": "truesight 120 ft., passive Perception 23",
     "languages": "all, telepathy 120 ft.",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "charmed",
     "challengeRating": "21",
     "traits": [
       {
@@ -1592,7 +1637,7 @@
         "name": "Breath Weapon 5",
         "entries": [
           "The dragon uses one of the following breath weapons:",
-          "- Dream Breath\n- Moonlight Breath"
+          "- Dream Breath The dragon exhales mist in a 90-foot cone. Each creature in that area must succeed on a DC 21 Constitution saving throw or fall unconscious for 10 minutes. This effect ends for a creature if the creature takes damage or someone uses an action to wake it.\n- Moonlight Breath The dragon exhales a beam of moonlight in a 120-foot line that is 10 feet wide. Each creature in that area must make a DC 21 Dexterity saving throw, taking 60 (11d10) radiant damage on a failed save, or half as much damage on a successful one."
         ]
       }
     ],
@@ -1639,6 +1684,9 @@
     "skills": "history: +12, perception: +18, persuasion: +19, stealth: +9",
     "senses": "blindsight 60 ft., darkvision 120 ft., passive Perception 28",
     "languages": "Common, Draconic, telepathy 120 ft.",
+    "damageResistances": "lightning, thunder",
+    "damageImmunities": "",
+    "conditionImmunities": "frightened",
     "challengeRating": "22",
     "traits": [
       {
@@ -1758,6 +1806,9 @@
     "skills": "perception: +8, stealth: +7",
     "senses": "darkvision 120 ft., passive Perception 18",
     "languages": "Common, Draconic",
+    "damageResistances": "",
+    "damageImmunities": "cold",
+    "conditionImmunities": "",
     "challengeRating": "14",
     "traits": [
       {
@@ -1855,6 +1906,9 @@
     "skills": "intimidation: +17, perception: +16, stealth: +7",
     "senses": "blindsight 60 ft., darkvision 120 ft., passive Perception 26",
     "languages": "Common, Draconic, telepathy 120 ft.",
+    "damageResistances": "cold, necrotic",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "20",
     "traits": [
       {
@@ -1974,6 +2028,9 @@
     "skills": "",
     "senses": "darkvision 60 ft., passive Perception 10",
     "languages": "understands Draconic but can't speak",
+    "damageResistances": "damage of the type matching the animated breath's form (acid, cold, fire, lightning, or poison)",
+    "damageImmunities": "",
+    "conditionImmunities": "exhaustion, paralyzed, petrified, poisoned, restrained, unconscious",
     "challengeRating": "6",
     "traits": [
       {
@@ -2047,6 +2104,9 @@
     "skills": "insight: +18, perception: +18, persuasion: +19",
     "senses": "truesight 120 ft., passive Perception 28",
     "languages": "Common, Draconic",
+    "damageResistances": "",
+    "damageImmunities": "acid, cold, fire, lightning, radiant, bludgeoning, piercing, slashing from nonmagical attacks",
+    "conditionImmunities": "charmed, deafened, frightened, paralyzed, stunned",
     "challengeRating": "30",
     "traits": [
       {
@@ -2092,7 +2152,7 @@
         "name": "Breath Weapon 5",
         "entries": [
           "The aspect uses one of the following breath weapons:",
-          "- Exalting Breath\n- Platinum Breath"
+          "- Exalting Breath The aspect exhales the restoring winds of Mount Celestia in a 300-foot cone. Each creature in that area of the aspect's choice regains 71 (13d10) hit points, and each creature in that area of the aspect's choice that has been dead for no longer than 1 hour is restored to life with all its hit points.\n- Platinum Breath The aspect exhales radiant platinum flames in a 300-foot cone. Each creature in that area must make a DC 26 Dexterity saving throw, taking 66 (12d10) radiant damage on a failed save, or half as much damage on a successful one."
         ]
       }
     ],
@@ -2159,6 +2219,9 @@
     "skills": "intimidation: +26, perception: +23",
     "senses": "truesight 120 ft., passive Perception 33",
     "languages": "Common, Draconic, Infernal",
+    "damageResistances": "",
+    "damageImmunities": "acid, cold, fire, lightning, poison, bludgeoning, piercing, slashing from nonmagical attacks",
+    "conditionImmunities": "blinded, charmed, deafened, frightened, poisoned, stunned",
     "challengeRating": "30",
     "traits": [
       {
@@ -2263,6 +2326,9 @@
     "skills": "intimidation: +16, perception: +21, stealth: +10",
     "senses": "truesight 120 ft., passive Perception 31",
     "languages": "Common, Draconic",
+    "damageResistances": "",
+    "damageImmunities": "acid",
+    "conditionImmunities": "charmed, frightened, poisoned",
     "challengeRating": "27",
     "traits": [
       {
@@ -2379,6 +2445,9 @@
     "skills": "intimidation: +16, perception: +21, stealth: +10",
     "senses": "truesight 120 ft., passive Perception 31",
     "languages": "Common, Draconic",
+    "damageResistances": "",
+    "damageImmunities": "lightning",
+    "conditionImmunities": "charmed, frightened, poisoned",
     "challengeRating": "27",
     "traits": [
       {
@@ -2495,6 +2564,9 @@
     "skills": "insight: +14, perception: +22, persuasion: +18",
     "senses": "truesight 120 ft., passive Perception 32",
     "languages": "Common, Draconic",
+    "damageResistances": "",
+    "damageImmunities": "fire",
+    "conditionImmunities": "charmed, frightened, poisoned",
     "challengeRating": "28",
     "traits": [
       {
@@ -2546,7 +2618,7 @@
         "name": "Breath Weapon 5",
         "entries": [
           "The greatwyrm uses one of the following breath weapons:",
-          "- Elemental Breath\n- Sapping Breath"
+          "- Elemental Breath The greatwyrm exhales elemental energy in a 300-foot cone. Each creature in that area must make a DC 25 Dexterity saving throw, taking 84 (13d12) fire damage on a failed save, or half as much damage on a successful one.\n- Sapping Breath The greatwyrm exhales gas in a 300-foot cone. Each creature in that area must make a DC 25 Constitution saving throw. On a failed save, the creature falls unconscious for 1 minute. On a successful save, the creature has disadvantage on attack rolls and saving throws until the end of the greatwyrm's next turn. An unconscious creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
         ]
       },
       {
@@ -2612,6 +2684,9 @@
     "skills": "insight: +14, perception: +22, persuasion: +18",
     "senses": "truesight 120 ft., passive Perception 32",
     "languages": "Common, Draconic",
+    "damageResistances": "",
+    "damageImmunities": "lightning",
+    "conditionImmunities": "charmed, frightened, poisoned",
     "challengeRating": "28",
     "traits": [
       {
@@ -2663,7 +2738,7 @@
         "name": "Breath Weapon 5",
         "entries": [
           "The greatwyrm uses one of the following breath weapons:",
-          "- Elemental Breath\n- Sapping Breath"
+          "- Elemental Breath The greatwyrm exhales elemental energy in a 300-foot cone. Each creature in that area must make a DC 25 Dexterity saving throw, taking 84 (13d12) lightning damage on a failed save, or half as much damage on a successful one.\n- Sapping Breath The greatwyrm exhales gas in a 300-foot cone. Each creature in that area must make a DC 25 Constitution saving throw. On a failed save, the creature falls unconscious for 1 minute. On a successful save, the creature has disadvantage on attack rolls and saving throws until the end of the greatwyrm's next turn. An unconscious creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
         ]
       },
       {
@@ -2729,6 +2804,9 @@
     "skills": "insight: +14, perception: +22, persuasion: +18",
     "senses": "truesight 120 ft., passive Perception 32",
     "languages": "Common, Draconic",
+    "damageResistances": "",
+    "damageImmunities": "acid",
+    "conditionImmunities": "charmed, frightened, poisoned",
     "challengeRating": "28",
     "traits": [
       {
@@ -2780,7 +2858,7 @@
         "name": "Breath Weapon 5",
         "entries": [
           "The greatwyrm uses one of the following breath weapons:",
-          "- Elemental Breath\n- Sapping Breath"
+          "- Elemental Breath The greatwyrm exhales elemental energy in a 300-foot cone. Each creature in that area must make a DC 25 Dexterity saving throw, taking 84 (13d12) acid damage on a failed save, or half as much damage on a successful one.\n- Sapping Breath The greatwyrm exhales gas in a 300-foot cone. Each creature in that area must make a DC 25 Constitution saving throw. On a failed save, the creature falls unconscious for 1 minute. On a successful save, the creature has disadvantage on attack rolls and saving throws until the end of the greatwyrm's next turn. An unconscious creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
         ]
       },
       {
@@ -2846,6 +2924,9 @@
     "skills": "perception: +5, stealth: +5, survival: +3",
     "senses": "blindsight 10 ft., darkvision 60 ft., passive Perception 15",
     "languages": "Draconic, telepathy 120 ft.",
+    "damageResistances": "cold, radiant",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "2",
     "traits": [],
     "spellcasting": [
@@ -2902,6 +2983,9 @@
     "skills": "arcana: +26, history: +18, perception: +15",
     "senses": "truesight 120 ft., passive Perception 25",
     "languages": "Common, Draconic",
+    "damageResistances": "",
+    "damageImmunities": "radiant",
+    "conditionImmunities": "charmed, frightened, poisoned, prone",
     "challengeRating": "26",
     "traits": [
       {
@@ -3028,6 +3112,9 @@
     "skills": "perception: +3, persuasion: +3, stealth: +4",
     "senses": "blindsight 10 ft., darkvision 90 ft., passive Perception 13",
     "languages": "Draconic",
+    "damageResistances": "poison, psychic",
+    "damageImmunities": "",
+    "conditionImmunities": "charmed, frightened, poisoned",
     "challengeRating": "1",
     "traits": [],
     "spellcasting": [],
@@ -3075,6 +3162,9 @@
     "skills": "perception: +9",
     "senses": "darkvision 60 ft., passive Perception 19",
     "languages": "understands Draconic but can't speak",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "11",
     "traits": [
       {
@@ -3149,6 +3239,9 @@
     "skills": "",
     "senses": "darkvision 60 ft., passive Perception 10",
     "languages": "Common, Draconic",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "4",
     "traits": [
       {
@@ -3216,6 +3309,9 @@
     "skills": "",
     "senses": "darkvision 60 ft., passive Perception 9",
     "languages": "Common, Draconic",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "1/2",
     "traits": [
       {
@@ -3276,6 +3372,9 @@
     "skills": "perception: +3, stealth: +7",
     "senses": "darkvision 60 ft., passive Perception 13",
     "languages": "Common, Draconic",
+    "damageResistances": "",
+    "damageImmunities": "poison",
+    "conditionImmunities": "poisoned",
     "challengeRating": "3",
     "traits": [
       {
@@ -3336,6 +3435,9 @@
     "skills": "",
     "senses": "darkvision 60 ft., passive Perception 10",
     "languages": "Common, Draconic",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "2",
     "traits": [
       {
@@ -3411,6 +3513,9 @@
     "skills": "perception: +3",
     "senses": "truesight 60 ft., passive Perception 13",
     "languages": "Common, Draconic",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "charmed",
     "challengeRating": "6",
     "traits": [
       {
@@ -3494,6 +3599,9 @@
     "skills": "arcana: +12, history: +12, perception: +16, stealth: +7",
     "senses": "blindsight 60 ft., darkvision 120 ft., passive Perception 26",
     "languages": "Common, Draconic, telepathy 120 ft.",
+    "damageResistances": "acid, fire, bludgeoning, piercing, slashing from nonmagical attacks",
+    "damageImmunities": "cold, necrotic, poison, psychic",
+    "conditionImmunities": "charmed, exhaustion, frightened, grappled, paralyzed, petrified, poisoned, prone",
     "challengeRating": "17",
     "traits": [
       {
@@ -3616,6 +3724,9 @@
     "skills": "",
     "senses": "blindsight 30 ft., darkvision 60 ft., passive Perception 12",
     "languages": "Draconic, understands the languages you speak",
+    "damageResistances": "acid, cold, fire, lightning, poison (Chromatic and Metallic Only), force, necrotic, psychic, radiant, thunder (Gem Only)",
+    "damageImmunities": "",
+    "conditionImmunities": "charmed, frightened, poisoned",
     "challengeRating": "",
     "traits": [
       {
@@ -3676,6 +3787,9 @@
     "skills": "medicine: +6, religion: +5",
     "senses": "passive Perception 13",
     "languages": "Common, Draconic, and any two languages",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "frightened",
     "challengeRating": "5",
     "traits": [],
     "spellcasting": [
@@ -3739,6 +3853,9 @@
     "skills": "athletics: +6, perception: +3",
     "senses": "passive Perception 13",
     "languages": "Common, Draconic",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "frightened",
     "challengeRating": "3",
     "traits": [],
     "spellcasting": [],
@@ -3799,6 +3916,9 @@
     "skills": "persuasion: +5, religion: +3",
     "senses": "darkvision 60 ft., passive Perception 10",
     "languages": "Common, Draconic, and any two languages",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "charmed, frightened",
     "challengeRating": "2",
     "traits": [],
     "spellcasting": [
@@ -3863,6 +3983,9 @@
     "skills": "",
     "senses": "darkvision 120 ft., passive Perception 10",
     "languages": "Draconic",
+    "damageResistances": "fire",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "4",
     "traits": [
       {
@@ -3917,6 +4040,9 @@
     "skills": "perception: +4, stealth: +4",
     "senses": "blindsight 120 ft. (blind beyond this radius), passive Perception 14",
     "languages": "understands Draconic and the languages of its creator but can't speak",
+    "damageResistances": "acid, cold, fire, lightning, poison",
+    "damageImmunities": "",
+    "conditionImmunities": "blinded, charmed, deafened, exhaustion, frightened, grappled, prone, restrained",
     "challengeRating": "5",
     "traits": [
       {
@@ -3983,6 +4109,9 @@
     "skills": "",
     "senses": "darkvision 60 ft., passive Perception 10",
     "languages": "understands Draconic and the languages of its creator but can't speak",
+    "damageResistances": "",
+    "damageImmunities": "poison",
+    "conditionImmunities": "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
     "challengeRating": "11",
     "traits": [
       {
@@ -4061,6 +4190,9 @@
     "skills": "athletics: +7, perception: +5, persuasion: +6",
     "senses": "passive Perception 15",
     "languages": "Common, Draconic",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "frightened",
     "challengeRating": "8",
     "traits": [
       {
@@ -4127,6 +4259,9 @@
     "skills": "arcana: +7, history: +7, perception: +5",
     "senses": "passive Perception 15",
     "languages": "Common, Draconic",
+    "damageResistances": "psychic",
+    "damageImmunities": "",
+    "conditionImmunities": "frightened",
     "challengeRating": "6",
     "traits": [
       {
@@ -4202,6 +4337,9 @@
     "skills": "athletics: +8, intimidation: +6, perception: +4",
     "senses": "passive Perception 14",
     "languages": "Common, Draconic",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "frightened",
     "challengeRating": "7",
     "traits": [
       {
@@ -4262,6 +4400,9 @@
     "skills": "",
     "senses": "passive Perception 11",
     "languages": "understands Common and Draconic but can't speak",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "charmed, frightened, poisoned",
     "challengeRating": "6",
     "traits": [
       {
@@ -4340,6 +4481,9 @@
     "skills": "",
     "senses": "passive Perception 10",
     "languages": "Common, Draconic",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "3",
     "traits": [],
     "spellcasting": [],
@@ -4399,6 +4543,9 @@
     "skills": "perception: +3",
     "senses": "blindsight 30 ft., darkvision 120 ft., passive Perception 13",
     "languages": "understands Draconic and Common but can't speak",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "2",
     "traits": [
       {
@@ -4453,6 +4600,9 @@
     "skills": "",
     "senses": "darkvision 60 ft., passive Perception 12",
     "languages": "Draconic",
+    "damageResistances": "",
+    "damageImmunities": "determined by the drake's draconic essence trait",
+    "conditionImmunities": "",
     "challengeRating": "",
     "traits": [
       {
@@ -4508,6 +4658,9 @@
     "skills": "perception: +4, stealth: +11",
     "senses": "darkvision 120 ft., passive Perception 14",
     "languages": "",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "frightened, poisoned",
     "challengeRating": "5",
     "traits": [
       {
@@ -4581,6 +4734,9 @@
     "skills": "perception: +2, stealth: +7",
     "senses": "darkvision 60 ft., passive Perception 12",
     "languages": "",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "frightened",
     "challengeRating": "2",
     "traits": [
       {
@@ -4642,6 +4798,9 @@
     "skills": "arcana: +12, insight: +18, perception: +18",
     "senses": "blindsight 120 ft., passive Perception 28",
     "languages": "Deep Speech, Draconic, telepathy 5 miles",
+    "damageResistances": "",
+    "damageImmunities": "psychic",
+    "conditionImmunities": "charmed, frightened",
     "challengeRating": "22",
     "traits": [
       {
@@ -4741,6 +4900,9 @@
     "skills": "arcana: +4, deception: +4, perception: +5, stealth: +3",
     "senses": "blindsight 10 ft., darkvision 60 ft., passive Perception 15",
     "languages": "Draconic, telepathy 120 ft.",
+    "damageResistances": "fire, psychic",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "2",
     "traits": [
       {
@@ -4804,6 +4966,9 @@
     "skills": "arcana: +26, history: +18, perception: +15",
     "senses": "truesight 120 ft., passive Perception 25",
     "languages": "Common, Draconic",
+    "damageResistances": "",
+    "damageImmunities": "psychic",
+    "conditionImmunities": "charmed, frightened, poisoned, prone",
     "challengeRating": "26",
     "traits": [
       {
@@ -4930,6 +5095,9 @@
     "skills": "perception: +8, stealth: +6",
     "senses": "darkvision 120 ft., passive Perception 18",
     "languages": "Deep Speech, Draconic",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "prone",
     "challengeRating": "8",
     "traits": [
       {
@@ -4957,7 +5125,7 @@
         "name": "Eye Rays",
         "entries": [
           "The eyedrake shoots three of the following magical eye rays at random (reroll duplicates), each ray targeting one creature it can see within 60 feet of it:",
-          "- 1: Freezing Ray\n- 2: Debilitating Ray\n- 3: Repulsion Ray\n- 4: Fire Ray\n- 5: Paralyzing Ray\n- 6: Death Ray"
+          "- 1: Freezing Ray The target must make a DC 14 Constitution saving throw. On a failed save, the target takes 17 (5d6) cold damage, and its speed is halved until the end of its next turn. On a successful save, the target takes half as much damage with no additional effects.\n- 2: Debilitating Ray The target must succeed on a DC 14 Constitution saving throw or take 7 (2d6) thunder damage and become incapacitated until the end of its next turn.\n- 3: Repulsion Ray The target must succeed on a DC 14 Strength saving throw or take 14 (4d6) force damage and be pushed up to 60 feet away from the eyedrake.\n- 4: Fire Ray The target must make a DC 14 Dexterity saving throw, taking 21 (6d6) fire damage on a failed save, or half as much damage on a successful one.\n- 5: Paralyzing Ray The target must succeed on a DC 14 Constitution saving throw or be paralyzed for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.\n- 6: Death Ray The target must make a DC 14 Dexterity saving throw, taking 28 (8d6) necrotic damage on a failed save, or half as much damage on a successful one. The target dies if the ray reduces it to 0 hit points."
         ]
       }
     ],
@@ -4991,6 +5159,9 @@
     "skills": "perception: +3, stealth: +5",
     "senses": "darkvision 120 ft., passive Perception 13",
     "languages": "telepathy 60 ft. understands Draconic but can't speak",
+    "damageResistances": "psychic",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "5",
     "traits": [
       {
@@ -5095,6 +5266,9 @@
     "skills": "perception: +14, stealth: +12",
     "senses": "blindsight 60 ft., darkvision 120 ft., passive Perception 24",
     "languages": "Common, Draconic, telepathy 120 ft.",
+    "damageResistances": "bludgeoning, piercing, slashing",
+    "damageImmunities": "acid, cold, necrotic, poison",
+    "conditionImmunities": "charmed, exhaustion, frightened, grappled, paralyzed, petrified, poisoned, prone, restrained",
     "challengeRating": "17",
     "traits": [
       {
@@ -5175,6 +5349,9 @@
     "skills": "",
     "senses": "passive Perception 10",
     "languages": "",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "1/2",
     "traits": [],
     "spellcasting": [],
@@ -5216,6 +5393,9 @@
     "skills": "insight: +14, perception: +22, persuasion: +18",
     "senses": "truesight 120 ft., passive Perception 32",
     "languages": "Common, Draconic",
+    "damageResistances": "",
+    "damageImmunities": "fire",
+    "conditionImmunities": "charmed, frightened, poisoned",
     "challengeRating": "28",
     "traits": [
       {
@@ -5267,7 +5447,7 @@
         "name": "Breath Weapon 5",
         "entries": [
           "The greatwyrm uses one of the following breath weapons:",
-          "- Elemental Breath\n- Sapping Breath"
+          "- Elemental Breath The greatwyrm exhales elemental energy in a 300-foot cone. Each creature in that area must make a DC 25 Dexterity saving throw, taking 84 (13d12) fire damage on a failed save, or half as much damage on a successful one.\n- Sapping Breath The greatwyrm exhales gas in a 300-foot cone. Each creature in that area must make a DC 25 Constitution saving throw. On a failed save, the creature falls unconscious for 1 minute. On a successful save, the creature has disadvantage on attack rolls and saving throws until the end of the greatwyrm's next turn. An unconscious creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
         ]
       },
       {
@@ -5333,6 +5513,9 @@
     "skills": "intimidation: +16, perception: +21, stealth: +10",
     "senses": "truesight 120 ft., passive Perception 31",
     "languages": "Common, Draconic",
+    "damageResistances": "",
+    "damageImmunities": "poison",
+    "conditionImmunities": "charmed, frightened, poisoned",
     "challengeRating": "27",
     "traits": [
       {
@@ -5449,6 +5632,9 @@
     "skills": "persuasion: +3, stealth: +6",
     "senses": "darkvision 60 ft., passive Perception 13",
     "languages": "Common, Draconic, telepathy 120 ft.",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "prone",
     "challengeRating": "8",
     "traits": [
       {
@@ -5521,6 +5707,9 @@
     "skills": "",
     "senses": "darkvision 60 ft., tremorsense 60 ft., passive Perception 9",
     "languages": "",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "1/8",
     "traits": [
       {
@@ -5576,6 +5765,9 @@
     "skills": "arcana: +9, history: +15, perception: +13",
     "senses": "blindsight 60 ft., darkvision 120 ft., passive Perception 23",
     "languages": "Common, Draconic",
+    "damageResistances": "necrotic",
+    "damageImmunities": "poison, radiant",
+    "conditionImmunities": "charmed, deafened, exhaustion, frightened, paralyzed, poisoned",
     "challengeRating": "18",
     "traits": [
       {
@@ -5673,6 +5865,9 @@
     "skills": "perception: +7",
     "senses": "darkvision 60 ft., passive Perception 17",
     "languages": "Draconic",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "7",
     "traits": [],
     "spellcasting": [],
@@ -5732,6 +5927,9 @@
     "skills": "",
     "senses": "darkvision 60 ft., passive Perception 11",
     "languages": "Common, Draconic, telepathy 30 ft.",
+    "damageResistances": "",
+    "damageImmunities": "fire",
+    "conditionImmunities": "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
     "challengeRating": "4",
     "traits": [
       {
@@ -5798,6 +5996,9 @@
     "skills": "",
     "senses": "darkvision 60 ft., passive Perception 10",
     "languages": "understands Common and Draconic but can't speak",
+    "damageResistances": "",
+    "damageImmunities": "fire",
+    "conditionImmunities": "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
     "challengeRating": "1/4",
     "traits": [
       {
@@ -5858,6 +6059,9 @@
     "skills": "perception: +4, persuasion: +5, stealth: +4",
     "senses": "blindsight 10 ft., darkvision 60 ft., passive Perception 14",
     "languages": "Draconic",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "charmed",
     "challengeRating": "2",
     "traits": [],
     "spellcasting": [],
@@ -5872,7 +6076,7 @@
         "name": "Breath Weapon 5",
         "entries": [
           "The dragon uses one of the following breath weapons:",
-          "- Dream Breath\n- Moonlight Breath"
+          "- Dream Breath The dragon exhales mist in a 90-foot cone. Each creature in that area must succeed on a DC 12 Constitution saving throw or fall unconscious for 10 minutes. This effect ends for a creature if the creature takes damage or someone uses an action to wake it.\n- Moonlight Breath The dragon exhales a beam of moonlight in a 30-foot line that is 5 feet wide. Each creature in that area must make a DC 12 Dexterity saving throw, taking 14 (4d6) radiant damage on a failed save, or half as much damage on a successful one."
         ]
       }
     ],
@@ -5906,6 +6110,9 @@
     "skills": "intimidation: +16, perception: +21, stealth: +10",
     "senses": "truesight 120 ft., passive Perception 31",
     "languages": "Common, Draconic",
+    "damageResistances": "",
+    "damageImmunities": "fire",
+    "conditionImmunities": "charmed, frightened, poisoned",
     "challengeRating": "27",
     "traits": [
       {
@@ -6022,6 +6229,9 @@
     "skills": "history: +4, perception: +5, persuasion: +6, stealth: +4",
     "senses": "blindsight 30 ft., darkvision 120 ft., passive Perception 15",
     "languages": "Draconic, telepathy 120 ft.",
+    "damageResistances": "lightning, thunder",
+    "damageImmunities": "",
+    "conditionImmunities": "frightened",
     "challengeRating": "3",
     "traits": [
       {
@@ -6091,6 +6301,9 @@
     "skills": "arcana: +26, history: +18, perception: +15",
     "senses": "truesight 120 ft., passive Perception 25",
     "languages": "Common, Draconic",
+    "damageResistances": "",
+    "damageImmunities": "thunder",
+    "conditionImmunities": "charmed, frightened, poisoned, prone",
     "challengeRating": "26",
     "traits": [
       {
@@ -6217,6 +6430,9 @@
     "skills": "insight: +14, perception: +22, persuasion: +18",
     "senses": "truesight 120 ft., passive Perception 32",
     "languages": "Common, Draconic",
+    "damageResistances": "",
+    "damageImmunities": "cold",
+    "conditionImmunities": "charmed, frightened, poisoned",
     "challengeRating": "28",
     "traits": [
       {
@@ -6268,7 +6484,7 @@
         "name": "Breath Weapon 5",
         "entries": [
           "The greatwyrm uses one of the following breath weapons:",
-          "- Elemental Breath\n- Sapping Breath"
+          "- Elemental Breath The greatwyrm exhales elemental energy in a 300-foot cone. Each creature in that area must make a DC 25 Dexterity saving throw, taking 84 (13d12) cold damage on a failed save, or half as much damage on a successful one.\n- Sapping Breath The greatwyrm exhales gas in a 300-foot cone. Each creature in that area must make a DC 25 Constitution saving throw. On a failed save, the creature falls unconscious for 1 minute. On a successful save, the creature has disadvantage on attack rolls and saving throws until the end of the greatwyrm's next turn. An unconscious creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
         ]
       },
       {
@@ -6334,6 +6550,9 @@
     "skills": "",
     "senses": "darkvision 60 ft., tremorsense 60 ft., passive Perception 9",
     "languages": "",
+    "damageResistances": "bludgeoning, piercing, slashing",
+    "damageImmunities": "",
+    "conditionImmunities": "charmed, frightened, grappled, paralyzed, petrified, prone, restrained, stunned",
     "challengeRating": "2",
     "traits": [
       {
@@ -6395,6 +6614,9 @@
     "skills": "intimidation: +6, perception: +5, stealth: +3",
     "senses": "blindsight 10 ft., darkvision 120 ft., passive Perception 15",
     "languages": "Draconic",
+    "damageResistances": "cold, necrotic",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "2",
     "traits": [
       {
@@ -6458,6 +6680,9 @@
     "skills": "arcana: +26, history: +18, perception: +15",
     "senses": "truesight 120 ft., passive Perception 25",
     "languages": "Common, Draconic",
+    "damageResistances": "",
+    "damageImmunities": "necrotic",
+    "conditionImmunities": "charmed, frightened, poisoned, prone",
     "challengeRating": "26",
     "traits": [
       {
@@ -6584,6 +6809,9 @@
     "skills": "intimidation: +16, perception: +21, stealth: +10",
     "senses": "truesight 120 ft., passive Perception 31",
     "languages": "Common, Draconic",
+    "damageResistances": "",
+    "damageImmunities": "cold",
+    "conditionImmunities": "charmed, frightened, poisoned",
     "challengeRating": "27",
     "traits": [
       {
@@ -6700,6 +6928,9 @@
     "skills": "arcana: +12, perception: +10, persuasion: +8, stealth: +5",
     "senses": "blindsight 30 ft., darkvision 120 ft., passive Perception 20",
     "languages": "Common, Draconic, telepathy 120 ft.",
+    "damageResistances": "force, psychic",
+    "damageImmunities": "",
+    "conditionImmunities": "frightened, prone",
     "challengeRating": "9",
     "traits": [
       {
@@ -6775,6 +7006,9 @@
     "skills": "perception: +8, stealth: +7, survival: +5",
     "senses": "blindsight 30 ft., darkvision 120 ft., passive Perception 18",
     "languages": "Common, Draconic, telepathy 120 ft.",
+    "damageResistances": "cold, radiant",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "5",
     "traits": [],
     "spellcasting": [
@@ -6844,6 +7078,9 @@
     "skills": "perception: +5, persuasion: +6, stealth: +7",
     "senses": "blindsight 30 ft., darkvision 150 ft., passive Perception 15",
     "languages": "Common, Draconic, Undercommon",
+    "damageResistances": "poison, psychic",
+    "damageImmunities": "",
+    "conditionImmunities": "charmed, frightened, poisoned",
     "challengeRating": "5",
     "traits": [],
     "spellcasting": [],
@@ -6903,6 +7140,9 @@
     "skills": "",
     "senses": "darkvision 120 ft., passive Perception 11",
     "languages": "Aquan, Draconic",
+    "damageResistances": "fire",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "10",
     "traits": [
       {
@@ -6969,6 +7209,9 @@
     "skills": "arcana: +6, deception: +6, perception: +8, stealth: +4",
     "senses": "blindsight 30 ft., darkvision 120 ft., passive Perception 18",
     "languages": "Common, Draconic, telepathy 120 ft.",
+    "damageResistances": "fire, psychic",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "8",
     "traits": [
       {
@@ -7045,6 +7288,9 @@
     "skills": "perception: +6, persuasion: +7, stealth: +6",
     "senses": "blindsight 30 ft., darkvision 120 ft., passive Perception 16",
     "languages": "Common, Draconic, Sylvan",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "charmed",
     "challengeRating": "8",
     "traits": [],
     "spellcasting": [
@@ -7080,7 +7326,7 @@
         "name": "Breath Weapon 5",
         "entries": [
           "The dragon uses one of the following breath weapons:",
-          "- Dream Breath\n- Moonlight Breath"
+          "- Dream Breath The dragon exhales mist in a 90-foot cone. Each creature in that area must succeed on a DC 14 Constitution saving throw or fall unconscious for 10 minutes. This effect ends for a creature if the creature takes damage or someone uses an action to wake it.\n- Moonlight Breath The dragon exhales a beam of moonlight in a 60-foot line that is 5 feet wide. Each creature in that area must make a DC 14 Dexterity saving throw, taking 38 (7d10) radiant damage on a failed save, or half as much damage on a successful one."
         ]
       }
     ],
@@ -7114,6 +7360,9 @@
     "skills": "history: +7, perception: +10, persuasion: +11, stealth: +6",
     "senses": "blindsight 30 ft., darkvision 120 ft., passive Perception 20",
     "languages": "Common, Draconic, telepathy 120 ft.",
+    "damageResistances": "lightning, thunder",
+    "damageImmunities": "",
+    "conditionImmunities": "frightened",
     "challengeRating": "9",
     "traits": [
       {
@@ -7195,6 +7444,9 @@
     "skills": "perception: +4, stealth: +4",
     "senses": "darkvision 120 ft., passive Perception 14",
     "languages": "Common, Draconic",
+    "damageResistances": "",
+    "damageImmunities": "cold",
+    "conditionImmunities": "",
     "challengeRating": "8",
     "traits": [
       {
@@ -7273,6 +7525,9 @@
     "skills": "intimidation: +9, perception: +8, stealth: +4",
     "senses": "blindsight 30 ft., darkvision 120 ft., passive Perception 18",
     "languages": "Common, Draconic, telepathy 120 ft.",
+    "damageResistances": "cold, necrotic",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "7",
     "traits": [
       {

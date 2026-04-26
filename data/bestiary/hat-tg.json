@@ -21,6 +21,9 @@
     "skills": "insight: +7, nature: +6, perception: +7, survival: +7",
     "senses": "darkvision 60 ft., passive Perception 17",
     "languages": "Common, Druidic, Elvish, Infernal, Sylvan",
+    "damageResistances": "fire",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "5",
     "traits": [],
     "spellcasting": [
@@ -99,6 +102,9 @@
     "skills": "deception: +7, performance: +10, persuasion: +10, sleight of hand: +6",
     "senses": "passive Perception 13",
     "languages": "Common",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "5",
     "traits": [],
     "spellcasting": [
@@ -175,6 +181,9 @@
     "skills": "acrobatics: +5, deception: +11, investigation: +8, persuasion: +11, sleight of hand: +5, stealth: +8",
     "senses": "passive Perception 13",
     "languages": "Common, Thieves' cant",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "8",
     "traits": [
       {
@@ -260,6 +269,9 @@
     "skills": "athletics: +7, intimidation: +4, nature: +3, survival: +6",
     "senses": "passive Perception 13",
     "languages": "Common, Halfling",
+    "damageResistances": "lightning (granted by darksteel greataxe)",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "5",
     "traits": [
       {
@@ -338,6 +350,9 @@
     "skills": "arcana: +6, deception: +6, history: +6, religion: +6, survival: +4",
     "senses": "darkvision 60 ft., passive Perception 11",
     "languages": "Common, Draconic, Elvish",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "5",
     "traits": [
       {
@@ -427,6 +442,9 @@
     "skills": "arcana: +10, history: +10, insight: +7",
     "senses": "passive Perception 12",
     "languages": "Abyssal, Common, Draconic, Infernal, Thayan",
+    "damageResistances": "necrotic",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "15",
     "traits": [
       {
@@ -504,6 +522,9 @@
     "skills": "athletics: +8, history: +6, insight: +7, survival: +7",
     "senses": "darkvision 60 ft., passive Perception 13",
     "languages": "Common, Thayan, Undercommon",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "charmed, frightened, poisoned",
     "challengeRating": "10",
     "traits": [
       {

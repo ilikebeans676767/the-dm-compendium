@@ -1,0 +1,129 @@
+[
+  {
+    "name": "Boots of the Winding Path",
+    "source": "EFA",
+    "sourceKey": "EFA",
+    "page": 112,
+    "type": "Wondrous item",
+    "rarity": "uncommon",
+    "attunement": "Requires attunement",
+    "weight": "",
+    "value": "",
+    "valueRarity": "",
+    "weaponCategory": "",
+    "armorClass": "",
+    "damage": "",
+    "range": "",
+    "properties": [],
+    "mastery": [],
+    "entries": [
+      "While wearing these boots, you can take a Bonus Action to teleport up to 15 feet to an unoccupied space you can see. You must have occupied that space at some point during the current turn."
+    ]
+  },
+  {
+    "name": "Helm of Awareness",
+    "source": "EFA",
+    "sourceKey": "EFA",
+    "page": 112,
+    "type": "Wondrous item",
+    "rarity": "uncommon",
+    "attunement": "",
+    "weight": "",
+    "value": "",
+    "valueRarity": "",
+    "weaponCategory": "",
+    "armorClass": "",
+    "damage": "",
+    "range": "",
+    "properties": [],
+    "mastery": [],
+    "entries": [
+      "While wearing this helmet, you have Advantage on Initiative rolls."
+    ]
+  },
+  {
+    "name": "Manifold Tool",
+    "source": "EFA",
+    "sourceKey": "EFA",
+    "page": 112,
+    "type": "Wondrous item",
+    "rarity": "common",
+    "attunement": "Requires attunement",
+    "weight": "",
+    "value": "",
+    "valueRarity": "",
+    "weaponCategory": "",
+    "armorClass": "",
+    "damage": "",
+    "range": "",
+    "properties": [],
+    "mastery": [],
+    "entries": [
+      "This tool takes the form of a wrench, a screwdriver, or another basic tool. As a Magic action, you can touch the item and transform it into a type of Artisan's Tools of your choice. Whatever form the tool takes, you have proficiency with it when you use it."
+    ]
+  },
+  {
+    "name": "Mind Sharpener",
+    "source": "EFA",
+    "sourceKey": "EFA",
+    "page": 112,
+    "type": "Ring",
+    "rarity": "uncommon",
+    "attunement": "Requires attunement",
+    "weight": "",
+    "value": "",
+    "valueRarity": "",
+    "weaponCategory": "",
+    "armorClass": "",
+    "damage": "",
+    "range": "",
+    "properties": [],
+    "mastery": [],
+    "entries": [
+      "The item has 4 charges. When you fail a Constitution saving throw to maintain Concentration, you can take a Reaction and expend 1 of the item's charges to succeed instead. The item regains 1d4 expended charges daily at dawn."
+    ]
+  },
+  {
+    "name": "Repulsion Shield",
+    "source": "EFA",
+    "sourceKey": "EFA",
+    "page": 112,
+    "type": "Shield",
+    "rarity": "uncommon",
+    "attunement": "",
+    "weight": "6 lb.",
+    "value": "",
+    "valueRarity": "",
+    "weaponCategory": "",
+    "armorClass": "2",
+    "damage": "",
+    "range": "",
+    "properties": [],
+    "mastery": [],
+    "entries": [
+      "You gain a +1 bonus to Armor Class while wielding this shield.",
+      "The shield has 4 charges. While holding it, when a Large or smaller creature within 5 feet of you hits you with a melee attack roll, you can take a Reaction to expend 1 of the shield's charges and push the attacker up to 15 feet straight away. The shield regains 1d4 expended charges daily at dawn."
+    ]
+  },
+  {
+    "name": "Spell-Refueling Ring",
+    "source": "EFA",
+    "sourceKey": "EFA",
+    "page": 112,
+    "type": "Ring",
+    "rarity": "uncommon",
+    "attunement": "Requires attunement by a spellcaster",
+    "weight": "",
+    "value": "",
+    "valueRarity": "",
+    "weaponCategory": "",
+    "armorClass": "",
+    "damage": "",
+    "range": "",
+    "properties": [],
+    "mastery": [],
+    "entries": [
+      "While wearing this ring, you can recover one expended spell slot as a Bonus Action. The recovered slot can be of level 3 or lower. Once used, the ring can't be used again until the next dawn."
+    ]
+  }
+]

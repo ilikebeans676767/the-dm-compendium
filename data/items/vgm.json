@@ -1,0 +1,158 @@
+[
+  {
+    "name": "Flensing Claws (Huge)",
+    "source": "VGM",
+    "sourceKey": "VGM",
+    "page": 81,
+    "type": "Other",
+    "rarity": "unknown",
+    "attunement": "",
+    "weight": "",
+    "value": "",
+    "valueRarity": "",
+    "weaponCategory": "",
+    "armorClass": "",
+    "damage": "2d8 slashing",
+    "range": "",
+    "properties": [],
+    "mastery": [],
+    "entries": [
+      "Flensing claws take the form of articulated digits that extend into long metal blades. The claws are knitted into the flesh and bones of a creature's arms and can't be removed without surgical amputation.",
+      "Each set of flensing claws is designed for a specific creature and can't be used by anyone else. A creature equipped with flensing claws can use its action to make one melee weapon attack with the claws. The creature adds its proficiency bonus and Strength modifier to any attack roll made with the claws, and its Strength modifier to its damage roll when it hits a target with the claws."
+    ]
+  },
+  {
+    "name": "Flensing Claws (Large)",
+    "source": "VGM",
+    "sourceKey": "VGM",
+    "page": 81,
+    "type": "Other",
+    "rarity": "unknown",
+    "attunement": "",
+    "weight": "",
+    "value": "",
+    "valueRarity": "",
+    "weaponCategory": "",
+    "armorClass": "",
+    "damage": "1d12 slashing",
+    "range": "",
+    "properties": [],
+    "mastery": [],
+    "entries": [
+      "Flensing claws take the form of articulated digits that extend into long metal blades. The claws are knitted into the flesh and bones of a creature's arms and can't be removed without surgical amputation.",
+      "Each set of flensing claws is designed for a specific creature and can't be used by anyone else. A creature equipped with flensing claws can use its action to make one melee weapon attack with the claws. The creature adds its proficiency bonus and Strength modifier to any attack roll made with the claws, and its Strength modifier to its damage roll when it hits a target with the claws."
+    ]
+  },
+  {
+    "name": "Flensing Claws (Medium)",
+    "source": "VGM",
+    "sourceKey": "VGM",
+    "page": 81,
+    "type": "Other",
+    "rarity": "unknown",
+    "attunement": "",
+    "weight": "",
+    "value": "",
+    "valueRarity": "",
+    "weaponCategory": "",
+    "armorClass": "",
+    "damage": "1d10 slashing",
+    "range": "",
+    "properties": [],
+    "mastery": [],
+    "entries": [
+      "Flensing claws take the form of articulated digits that extend into long metal blades. The claws are knitted into the flesh and bones of a creature's arms and can't be removed without surgical amputation.",
+      "Each set of flensing claws is designed for a specific creature and can't be used by anyone else. A creature equipped with flensing claws can use its action to make one melee weapon attack with the claws. The creature adds its proficiency bonus and Strength modifier to any attack roll made with the claws, and its Strength modifier to its damage roll when it hits a target with the claws."
+    ]
+  },
+  {
+    "name": "Flensing Claws (Small)",
+    "source": "VGM",
+    "sourceKey": "VGM",
+    "page": 81,
+    "type": "Other",
+    "rarity": "unknown",
+    "attunement": "",
+    "weight": "",
+    "value": "",
+    "valueRarity": "",
+    "weaponCategory": "",
+    "armorClass": "",
+    "damage": "1d8 slashing",
+    "range": "",
+    "properties": [],
+    "mastery": [],
+    "entries": [
+      "Flensing claws take the form of articulated digits that extend into long metal blades. The claws are knitted into the flesh and bones of a creature's arms and can't be removed without surgical amputation.",
+      "Each set of flensing claws is designed for a specific creature and can't be used by anyone else. A creature equipped with flensing claws can use its action to make one melee weapon attack with the claws. The creature adds its proficiency bonus and Strength modifier to any attack roll made with the claws, and its Strength modifier to its damage roll when it hits a target with the claws."
+    ]
+  },
+  {
+    "name": "Mind Lash",
+    "source": "VGM",
+    "sourceKey": "VGM",
+    "page": 81,
+    "type": "Melee Weapon",
+    "rarity": "rare",
+    "attunement": "Requires attunement by a mind flayer",
+    "weight": "3 lb.",
+    "value": "",
+    "valueRarity": "",
+    "weaponCategory": "",
+    "armorClass": "",
+    "damage": "1d4 slashing",
+    "range": "",
+    "properties": [
+      "F",
+      "R"
+    ],
+    "mastery": [],
+    "entries": [
+      "In the hands of any creature other than a mind flayer, a mind lash functions as a normal whip. In the hands of an illithid, this magic weapon strips away a creature's will to survive as it also strips away flesh, dealing an extra 2d4 psychic damage to any target it hits. Any creature that takes psychic damage from the mind lash must also succeed on a DC 15 Wisdom saving throw or have disadvantage on Intelligence, Wisdom, and Charisma saving throws for 1 minute. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+    ]
+  },
+  {
+    "name": "Shield of Far Sight",
+    "source": "VGM",
+    "sourceKey": "VGM",
+    "page": 81,
+    "type": "Shield",
+    "rarity": "rare",
+    "attunement": "",
+    "weight": "6 lb.",
+    "value": "",
+    "valueRarity": "",
+    "weaponCategory": "",
+    "armorClass": "2",
+    "damage": "",
+    "range": "",
+    "properties": [],
+    "mastery": [],
+    "entries": [
+      "A mind flayer skilled at crafting magic items creates a shield of far sight by harvesting an eye from an intelligent humanoid and magically implanting it on the outer surface of a nonmagical shield. The shield becomes a magic item once the eyes is implanted, whereupon the mind flayer can give the shield to a thrall or hang it on a wall in its lair. As long as the shield is on the same plane of existence as its creator, the mind flayer can see through the shield's eye, which has darkvision out to a range of 60 feet. While peering through this magical eye, the mind flayer can use its Mind Blast action as though it were standing behind the shield.",
+      "If a shield of far sight is destroyed, the mind flayer that created it is blinded for 2d12 hours."
+    ]
+  },
+  {
+    "name": "Survival Mantle",
+    "source": "VGM",
+    "sourceKey": "VGM",
+    "page": 81,
+    "type": "Medium Armor",
+    "rarity": "unknown",
+    "attunement": "",
+    "weight": "40 lb.",
+    "value": "",
+    "valueRarity": "",
+    "weaponCategory": "",
+    "armorClass": "15; stealth disadvantage",
+    "damage": "",
+    "range": "",
+    "properties": [],
+    "mastery": [],
+    "entries": [
+      "This carapace-like augmentation encases portions of the wearer's shoulders, neck, and chest. A survival mantle is equivalent to a suit of nonmagical half plate armor and takes just as long to don or doff. It can't be worn with other kinds of armor.",
+      "A creature wearing a survival mantle can breathe normally in any environment (including a vacuum) and has advantage on saving throws against harmful gases (such as those created by a cloudkill spell, a stinking cloud spell, inhaled poisons, and the breath weapons of some dragons)."
+    ]
+  }
+]

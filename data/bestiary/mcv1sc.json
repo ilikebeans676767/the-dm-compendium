@@ -22,6 +22,9 @@
     "skills": "perception: +11, stealth: +5",
     "senses": "blindsight 120 ft. while the spider's eyes are closed, darkvision 120 ft., passive Perception 21",
     "languages": "",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "15",
     "traits": [
       {
@@ -107,6 +110,9 @@
     "skills": "perception: +6",
     "senses": "darkvision 120 ft., passive Perception 16",
     "languages": "Thri-kreen, Ziklight",
+    "damageResistances": "",
+    "damageImmunities": "lightning, poison",
+    "conditionImmunities": "blinded, charmed, deafened, exhaustion, frightened, paralyzed, petrified, poisoned",
     "challengeRating": "2",
     "traits": [
       {
@@ -185,6 +191,9 @@
     "skills": "arcana: +14, perception: +7",
     "senses": "truesight 120ft., passive Perception 17",
     "languages": "Common, Deep Speech, telepathy 120 ft.",
+    "damageResistances": "necrotic, poison",
+    "damageImmunities": "",
+    "conditionImmunities": "charmed, exhaustion, frightened, paralyzed, poisoned",
     "challengeRating": "15",
     "traits": [
       {
@@ -275,6 +284,9 @@
     "skills": "perception: +8",
     "senses": "blindsight 360 ft. (blind beyond this radius), passive Perception 18",
     "languages": "",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "blinded, charmed, deafened, exhaustion, frightened, grappled, paralyzed, petrified, poisoned, prone, restrained, stunned",
     "challengeRating": "9",
     "traits": [
       {
@@ -363,6 +375,9 @@
     "skills": "",
     "senses": "blindsight 10 ft. (blind beyond this radius), passive Perception 8",
     "languages": "",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "blinded, charmed, deafened, exhaustion, frightened, paralyzed, petrified",
     "challengeRating": "1/8",
     "traits": [
       {
@@ -429,6 +444,9 @@
     "skills": "perception: +6",
     "senses": "darkvision 60 ft., passive Perception 16",
     "languages": "Deep Speech",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "1/8",
     "traits": [
       {
@@ -502,6 +520,9 @@
     "skills": "",
     "senses": "darkvision 120 ft., passive Perception 11",
     "languages": "understands the languages of its creator but can't speak",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "16",
     "traits": [
       {
@@ -600,6 +621,9 @@
     "skills": "stealth: +4",
     "senses": "blindsight 60 ft. (blind beyond this radius), passive Perception 10",
     "languages": "telepathy 30 ft.",
+    "damageResistances": "fire, necrotic, poison",
+    "damageImmunities": "",
+    "conditionImmunities": "charmed, frightened, poisoned",
     "challengeRating": "3",
     "traits": [
       {
@@ -661,6 +685,9 @@
     "skills": "perception: +3, stealth: +4",
     "senses": "passive Perception 13",
     "languages": "Celestial, telepathy 120 ft.",
+    "damageResistances": "radiant",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "2",
     "traits": [
       {
@@ -715,6 +742,9 @@
     "skills": "",
     "senses": "blindsight 120 ft. (blind beyond this radius), passive Perception 10",
     "languages": "",
+    "damageResistances": "bludgeoning, piercing",
+    "damageImmunities": "lightning",
+    "conditionImmunities": "blinded, deafened, exhaustion",
     "challengeRating": "7",
     "traits": [
       {

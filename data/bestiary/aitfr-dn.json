@@ -22,6 +22,9 @@
     "skills": "perception: +5, stealth: +6",
     "senses": "blindsight 15 ft., darkvision 60 ft., passive Perception 15",
     "languages": "",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "8",
     "traits": [
       {
@@ -88,6 +91,9 @@
     "skills": "athletics: +9, history: +3, insight: +5, perception: +5",
     "senses": "passive Perception 15",
     "languages": "Common, Dwarvish, Giant",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "5",
     "traits": [],
     "spellcasting": [],
@@ -148,6 +154,9 @@
     "skills": "deception: +6, insight: +6, perception: +6, stealth: +7",
     "senses": "darkvision 60 ft., passive Perception 16",
     "languages": "Common, Draconic, Primordial",
+    "damageResistances": "bludgeoning, piercing, slashing from nonmagical attacks",
+    "damageImmunities": "poison",
+    "conditionImmunities": "charmed",
     "challengeRating": "10",
     "traits": [
       {
@@ -260,6 +269,9 @@
     "skills": "perception: +3",
     "senses": "darkvision 60 ft., passive Perception 16",
     "languages": "",
+    "damageResistances": "",
+    "damageImmunities": "poison",
+    "conditionImmunities": "exhaustion, poisoned",
     "challengeRating": "6",
     "traits": [],
     "spellcasting": [],

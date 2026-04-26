@@ -21,6 +21,9 @@
     "skills": "",
     "senses": "Darkvision 60 ft., passive Perception 12",
     "languages": "Sylvan; telepathy 120 ft.",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "grappled, paralyzed, petrified, prone, restrained",
     "challengeRating": "7",
     "traits": [
       {
@@ -101,6 +104,9 @@
     "skills": "",
     "senses": "Darkvision 60 ft., passive Perception 13",
     "languages": "Sylvan; telepathy 120 ft.",
+    "damageResistances": "radiant",
+    "damageImmunities": "",
+    "conditionImmunities": "blinded, charmed, deafened, frightened",
     "challengeRating": "10",
     "traits": [
       {
@@ -185,6 +191,9 @@
     "skills": "",
     "senses": "passive Perception 13",
     "languages": "Common, Giant",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "6",
     "traits": [],
     "spellcasting": [],
@@ -246,6 +255,9 @@
     "skills": "deception: +5, stealth: +5",
     "senses": "Darkvision 120 ft., passive Perception 11",
     "languages": "Common, Primordial (Aquan)",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "4",
     "traits": [
       {
@@ -316,6 +328,9 @@
     "skills": "performance: +7, persuasion: +7",
     "senses": "passive Perception 12",
     "languages": "Common, Primordial (Aquan)",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "5",
     "traits": [
       {
@@ -383,6 +398,9 @@
     "skills": "stealth: +4",
     "senses": "Darkvision 60 ft., passive Perception 10",
     "languages": "Common, Sylvan",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "1/4",
     "traits": [
       {
@@ -439,6 +457,9 @@
     "skills": "",
     "senses": "Darkvision 60 ft., passive Perception 11",
     "languages": "Common, Sylvan",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "1",
     "traits": [
       {
@@ -500,6 +521,9 @@
     "skills": "",
     "senses": "Darkvision 120 ft., passive Perception 14",
     "languages": "Giant",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "8",
     "traits": [],
     "spellcasting": [],

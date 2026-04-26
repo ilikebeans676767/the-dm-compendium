@@ -22,6 +22,9 @@
     "skills": "perception: +13, stealth: +7",
     "senses": "truesight 120 ft., passive Perception 23",
     "languages": "Common, Druidic, Sylvan",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "charmed, frightened",
     "challengeRating": "10",
     "traits": [
       {

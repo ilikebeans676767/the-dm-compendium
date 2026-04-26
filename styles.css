@@ -110,3 +110,103 @@
     color: var(--text-error);
     background: var(--background-primary);
 }
+
+.toolkit-item-card {
+    max-width: 460px;
+    padding: 1rem;
+    border: 2px solid var(--background-modifier-border);
+    border-radius: 8px;
+    background: var(--background-primary);
+    color: var(--text-normal);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.14);
+}
+
+.toolkit-item-card__header {
+    padding-bottom: 0.55rem;
+    margin-bottom: 0.8rem;
+    border-bottom: 2px solid var(--background-modifier-border);
+}
+
+.toolkit-item-card__header h2 {
+    margin: 0;
+    font-size: 1.45rem;
+}
+
+.toolkit-item-card__header p {
+    margin: 0.2rem 0;
+    color: var(--text-muted);
+    font-style: italic;
+    text-transform: capitalize;
+}
+
+.toolkit-item-card__header span {
+    color: var(--text-faint);
+    font-size: 0.8rem;
+}
+
+.toolkit-item-card__meta {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.5rem;
+    margin-bottom: 0.85rem;
+}
+
+.toolkit-item-card__meta-item {
+    padding: 0.45rem 0.55rem;
+    border: 1px solid var(--background-modifier-border);
+    border-radius: 8px;
+    background: var(--background-secondary);
+}
+
+.toolkit-item-card__meta-item strong,
+.toolkit-item-card__tags strong {
+    display: block;
+    margin-bottom: 0.15rem;
+    color: var(--text-muted);
+    font-size: 0.68rem;
+    text-transform: uppercase;
+}
+
+.toolkit-item-card__meta-item span {
+    font-size: 0.95rem;
+}
+
+.toolkit-item-card__tags {
+    margin: 0.7rem 0;
+}
+
+.toolkit-item-card__tag-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem;
+}
+
+.toolkit-item-card__tag-list span {
+    padding: 0.18rem 0.45rem;
+    border: 1px solid var(--background-modifier-border);
+    border-radius: 999px;
+    background: var(--background-secondary);
+    color: var(--text-muted);
+    font-size: 0.78rem;
+}
+
+.toolkit-item-card__body {
+    margin-top: 0.8rem;
+    line-height: 1.45;
+}
+
+.toolkit-item-card__entry > :first-child {
+    margin-top: 0;
+}
+
+.toolkit-item-card__entry > :last-child {
+    margin-bottom: 0;
+}
+
+.toolkit-item-card-error {
+    padding: 0.75rem;
+    border: 1px solid var(--text-error);
+    border-radius: 8px;
+    color: var(--text-error);
+    background: var(--background-primary);
+}

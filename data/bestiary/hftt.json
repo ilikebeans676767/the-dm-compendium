@@ -22,6 +22,9 @@
     "skills": "perception: +3, stealth: +5",
     "senses": "blindsight 60 ft., passive Perception 13",
     "languages": "",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "4",
     "traits": [
       {
@@ -94,6 +97,9 @@
     "skills": "arcana: +5, history: +5",
     "senses": "passive Perception 11",
     "languages": "Common, Draconic, Dwarvish, Elvish",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "1",
     "traits": [],
     "spellcasting": [
@@ -145,6 +151,9 @@
     "skills": "perception: +4",
     "senses": "darkvision 60 ft., passive Perception 14",
     "languages": "",
+    "damageResistances": "",
+    "damageImmunities": "acid",
+    "conditionImmunities": "blinded, charmed, deafened, frightened, stunned",
     "challengeRating": "4",
     "traits": [],
     "spellcasting": [],

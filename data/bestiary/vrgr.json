@@ -22,6 +22,9 @@
     "skills": "",
     "senses": "blindsight 120 ft. (blind beyond this radius), passive Perception 12",
     "languages": "Deep Speech, telepathy 120 ft.",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "blinded, charmed, frightened, prone",
     "challengeRating": "7",
     "traits": [
       {
@@ -95,6 +98,9 @@
     "skills": "stealth: +4",
     "senses": "darkvision 60 ft., passive Perception 10",
     "languages": "understands the languages it knew in life but can't speak",
+    "damageResistances": "bludgeoning, poison",
+    "damageImmunities": "",
+    "conditionImmunities": "charmed, exhaustion, frightened",
     "challengeRating": "1",
     "traits": [
       {
@@ -161,6 +167,9 @@
     "skills": "",
     "senses": "blindsight 120 ft. (blind beyond this radius); see also \"detect sentience\" below, passive Perception 10",
     "languages": "the languages it knew in life",
+    "damageResistances": "",
+    "damageImmunities": "poison",
+    "conditionImmunities": "exhaustion, paralyzed, poisoned, prone",
     "challengeRating": "3",
     "traits": [
       {
@@ -237,6 +246,9 @@
     "skills": "stealth: +7",
     "senses": "tremorsense 60 ft., passive Perception 11",
     "languages": "",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "blinded",
     "challengeRating": "3",
     "traits": [],
     "spellcasting": [],
@@ -292,6 +304,9 @@
     "skills": "",
     "senses": "passive Perception 12",
     "languages": "understands the languages of its creator",
+    "damageResistances": "poison, psychic",
+    "damageImmunities": "",
+    "conditionImmunities": "charmed, frightened, poisoned",
     "challengeRating": "1",
     "traits": [
       {
@@ -353,6 +368,9 @@
     "skills": "",
     "senses": "passive Perception 12",
     "languages": "",
+    "damageResistances": "necrotic",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "1/2",
     "traits": [
       {
@@ -419,6 +437,9 @@
     "skills": "perception: +6",
     "senses": "truesight 120 ft., passive Perception 16",
     "languages": "understands the languages it knew in life but can't speak",
+    "damageResistances": "cold, lightning, poison",
+    "damageImmunities": "",
+    "conditionImmunities": "charmed, frightened, poisoned",
     "challengeRating": "10",
     "traits": [
       {
@@ -523,6 +544,9 @@
     "skills": "",
     "senses": "darkvision 60 ft., passive Perception 10",
     "languages": "understands the languages of its creator but can't speak",
+    "damageResistances": "",
+    "damageImmunities": "cold, lightning, poison, bludgeoning, piercing, slashing from nonmagical attacks that aren't adamantine",
+    "conditionImmunities": "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
     "challengeRating": "5",
     "traits": [
       {
@@ -595,6 +619,9 @@
     "skills": "perception: +7",
     "senses": "truesight 60 ft., passive Perception 17",
     "languages": "any languages its component spirits knew in life",
+    "damageResistances": "bludgeoning, piercing, slashing from nonmagical attacks",
+    "damageImmunities": "necrotic, poison",
+    "conditionImmunities": "charmed, exhaustion, frightened, grappled, paralyzed, petrified, poisoned, prone, restrained",
     "challengeRating": "6",
     "traits": [
       {
@@ -661,6 +688,9 @@
     "skills": "arcana: +22, perception: +13",
     "senses": "truesight 120 ft., passive Perception 23",
     "languages": "all, telepathy 1,000 ft.",
+    "damageResistances": "acid, force, necrotic, psychic",
+    "damageImmunities": "",
+    "conditionImmunities": "charmed, frightened",
     "challengeRating": "21",
     "traits": [
       {
@@ -752,6 +782,9 @@
     "skills": "",
     "senses": "darkvision 30 ft., passive Perception 10",
     "languages": "understands Common but can't speak",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "1/8",
     "traits": [],
     "spellcasting": [],
@@ -801,6 +834,9 @@
     "skills": "insight: +6, perception: +6",
     "senses": "truesight 30 ft., passive Perception 16",
     "languages": "any three languages, telepathy 120 ft.",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "charmed, frightened",
     "challengeRating": "8",
     "traits": [],
     "spellcasting": [
@@ -870,6 +906,9 @@
     "skills": "acrobatics: +5, athletics: +4, insight: +7, perception: +7",
     "senses": "truesight 30 ft., passive Perception 17",
     "languages": "any two languages, telepathy 120 ft.",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "charmed, frightened",
     "challengeRating": "8",
     "traits": [
       {
@@ -941,6 +980,9 @@
     "skills": "arcana: +10, history: +7, nature: +7, religion: +10",
     "senses": "truesight 30 ft., passive Perception 13",
     "languages": "any four languages, telepathy 120 ft.",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "charmed, frightened",
     "challengeRating": "8",
     "traits": [],
     "spellcasting": [
@@ -1017,6 +1059,9 @@
     "skills": "deception: +6, intimidation: +6, perception: +4, stealth: +7",
     "senses": "darkvision 60 ft., passive Perception 14",
     "languages": "Abyssal, Common, Infernal",
+    "damageResistances": "cold, fire, lightning, poison, bludgeoning, piercing, slashing from nonmagical attacks",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "5",
     "traits": [
       {
@@ -1098,6 +1143,9 @@
     "skills": "",
     "senses": "darkvision 120 ft., passive Perception 12",
     "languages": "any languages it knew in life",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "charmed, exhaustion, frightened, paralyzed, poisoned",
     "challengeRating": "9",
     "traits": [
       {
@@ -1173,6 +1221,9 @@
     "skills": "arcana: +19, deception: +18, perception: +11",
     "senses": "truesight 120 ft., passive Perception 21",
     "languages": "all, telepathy 1,000 ft.",
+    "damageResistances": "acid, force, necrotic, psychic",
+    "damageImmunities": "",
+    "conditionImmunities": "charmed, frightened",
     "challengeRating": "19",
     "traits": [
       {
@@ -1270,6 +1321,9 @@
     "skills": "perception: +13, stealth: +9",
     "senses": "darkvision 120 ft., passive Perception 23",
     "languages": "Common (can't speak in wolf form)",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "charmed, frightened",
     "challengeRating": "13",
     "traits": [
       {
@@ -1374,6 +1428,9 @@
     "skills": "arcana: +9",
     "senses": "blindsight 120 ft. (blind beyond this radius), passive Perception 11",
     "languages": "any three languages, telepathy 120 ft.",
+    "damageResistances": "acid, necrotic",
+    "damageImmunities": "",
+    "conditionImmunities": "blinded, charmed, deafened, exhaustion, frightened, grappled, paralyzed, poisoned, prone, restrained",
     "challengeRating": "7",
     "traits": [
       {
@@ -1459,6 +1516,9 @@
     "skills": "perception: +6, stealth: +10",
     "senses": "darkvision 120 ft., passive Perception 16",
     "languages": "the languages it knew in life",
+    "damageResistances": "necrotic",
+    "damageImmunities": "",
+    "conditionImmunities": "charmed, frightened",
     "challengeRating": "8",
     "traits": [
       {
@@ -1544,6 +1604,9 @@
     "skills": "",
     "senses": "blindsight 30 ft., passive Perception 10",
     "languages": "Deep Speech, the languages the creature knew in life",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "charmed, frightened",
     "challengeRating": "1/2",
     "traits": [
       {
@@ -1598,6 +1661,9 @@
     "skills": "",
     "senses": "darkvision 120 ft., passive Perception 13",
     "languages": "any three languages",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "frightened",
     "challengeRating": "6",
     "traits": [
       {
@@ -1667,6 +1733,9 @@
     "skills": "perception: +6, survival: +6",
     "senses": "darkvision 120 ft., passive Perception 16",
     "languages": "understands all languages but can't speak",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "charmed, exhaustion, frightened",
     "challengeRating": "12",
     "traits": [
       {
@@ -1770,6 +1839,9 @@
     "skills": "athletics: +7, perception: +5, survival: +5",
     "senses": "darkvision 120 ft., passive Perception 15",
     "languages": "understands all languages but can't speak",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "charmed, frightened",
     "challengeRating": "8",
     "traits": [
       {
@@ -1843,6 +1915,9 @@
     "skills": "perception: +5, stealth: +6",
     "senses": "darkvision 120 ft., passive Perception 15",
     "languages": "Common",
+    "damageResistances": "necrotic",
+    "damageImmunities": "",
+    "conditionImmunities": "charmed, frightened",
     "challengeRating": "4",
     "traits": [
       {
@@ -1909,6 +1984,9 @@
     "skills": "perception: +4",
     "senses": "darkvision 30 ft., passive Perception 14",
     "languages": "understands Common but can't speak",
+    "damageResistances": "bludgeoning, piercing, slashing",
+    "damageImmunities": "",
+    "conditionImmunities": "charmed, frightened, grappled, paralyzed, petrified, prone, restrained, stunned",
     "challengeRating": "2",
     "traits": [
       {
@@ -1970,6 +2048,9 @@
     "skills": "",
     "senses": "blindsight 10 ft., passive Perception 8",
     "languages": "",
+    "damageResistances": "bludgeoning, piercing, slashing",
+    "damageImmunities": "",
+    "conditionImmunities": "charmed, frightened, grappled, paralyzed, petrified, prone, restrained, stunned",
     "challengeRating": "2",
     "traits": [
       {
@@ -1986,7 +2067,7 @@
         "entries": [
           "*Melee Weapon Attack:* +3 to hit, reach 0 ft., one target in the swarm's space. *Hit:* 10 (4d4) piercing damage, or 5 (2d4) piercing damage if the swarm has half of its hit points or fewer. A creature damaged by the swarm must succeed on a DC 12 Constitution saving throw or contract a disease.",
           "Each time the diseased creature finishes a long rest, roll a d6 to determine the disease's effect:",
-          "- 1-2\n- 3-4\n- 5-6"
+          "- 1-2 The creature is blinded until it finishes a long rest.\n- 3-4 The creature's hit point maximum decreases by 5 (2d4), and the reduction can't be removed until the disease ends. The creature dies if its hit point maximum drops to 0.\n- 5-6 The creature has disadvantage on ability checks and attack rolls until it finishes its next long rest. The disease lasts until it's removed by magic or until the creature rolls the same random effect for the disease two long rests in a row."
         ]
       }
     ],
@@ -2020,6 +2101,9 @@
     "skills": "",
     "senses": "tremorsense 60 ft., passive Perception 11",
     "languages": "",
+    "damageResistances": "bludgeoning, piercing, slashing",
+    "damageImmunities": "",
+    "conditionImmunities": "charmed, frightened, grappled, paralyzed, petrified, prone, restrained, stunned",
     "challengeRating": "3",
     "traits": [
       {
@@ -2080,6 +2164,9 @@
     "skills": "",
     "senses": "blindsight 30 ft. (blind beyond this radius), passive Perception 9",
     "languages": "",
+    "damageResistances": "bludgeoning, piercing, slashing",
+    "damageImmunities": "poison",
+    "conditionImmunities": "charmed, exhaustion, frightened, grappled, paralyzed, petrified, poisoned, prone, restrained, stunned",
     "challengeRating": "1",
     "traits": [
       {
@@ -2139,6 +2226,9 @@
     "skills": "",
     "senses": "",
     "languages": "",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "",
     "traits": [],
     "spellcasting": [],
@@ -2173,6 +2263,9 @@
     "skills": "perception: +5",
     "senses": "darkvision 60 ft., passive Perception 15",
     "languages": "",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "8",
     "traits": [
       {
@@ -2251,6 +2344,9 @@
     "skills": "perception: +5, stealth: +7",
     "senses": "darkvision 120 ft., passive Perception 15",
     "languages": "telepathy 120 ft. but can only project emotions",
+    "damageResistances": "necrotic, psychic",
+    "damageImmunities": "",
+    "conditionImmunities": "charmed, exhaustion, frightened",
     "challengeRating": "5",
     "traits": [
       {
@@ -2336,6 +2432,9 @@
     "skills": "insight: +4, perception: +6",
     "senses": "passive Perception 16",
     "languages": "Common (can't speak in raven form)",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "2",
     "traits": [
       {
@@ -2414,6 +2513,9 @@
     "skills": "",
     "senses": "darkvision 60 ft., passive Perception 9",
     "languages": "understands the languages it knew in life but can't speak",
+    "damageResistances": "",
+    "damageImmunities": "poison",
+    "conditionImmunities": "charmed, exhaustion, paralyzed, petrified, poisoned, stunned",
     "challengeRating": "6",
     "traits": [
       {
@@ -2487,6 +2589,9 @@
     "skills": "",
     "senses": "darkvision 60 ft., passive Perception 7",
     "languages": "understands the languages it knew in life but can't speak",
+    "damageResistances": "necrotic",
+    "damageImmunities": "poison",
+    "conditionImmunities": "charmed, exhaustion, poisoned",
     "challengeRating": "4",
     "traits": [
       {

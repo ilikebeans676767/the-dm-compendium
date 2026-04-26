@@ -22,6 +22,9 @@
     "skills": "animal handling: +8, insight: +8, medicine: +8, perception: +8, survival: +8",
     "senses": "passive Perception 18",
     "languages": "Aquan, Common, Druidic",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "10",
     "traits": [
       {
@@ -114,6 +117,9 @@
     "skills": "",
     "senses": "",
     "languages": "Common, Aquan",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "",
     "traits": [],
     "spellcasting": [],
@@ -148,6 +154,9 @@
     "skills": "nature: +11, perception: +10, survival: +10",
     "senses": "passive Perception 20",
     "languages": "Aquan, Common",
+    "damageResistances": "cold",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "15",
     "traits": [
       {
@@ -267,6 +276,9 @@
     "skills": "arcana: +6, deception: +8, insight: +4, persuasion: +8",
     "senses": "passive Perception 10",
     "languages": "Aquan, Common",
+    "damageResistances": "acid, lightning, thunder",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "4",
     "traits": [
       {
@@ -328,6 +340,9 @@
     "skills": "",
     "senses": "",
     "languages": "Common, Aquan",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "",
     "traits": [],
     "spellcasting": [],
@@ -362,6 +377,9 @@
     "skills": "",
     "senses": "truesight 120 ft., passive Perception 14",
     "languages": "Abyssal, Celestial, Infernal, Primordial, telepathy 60 ft. but can't speak",
+    "damageResistances": "",
+    "damageImmunities": "lightning, bludgeoning, piercing, slashing from nonmagical attacks",
+    "conditionImmunities": "frightened, paralyzed",
     "challengeRating": "14",
     "traits": [
       {

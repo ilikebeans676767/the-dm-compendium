@@ -1,0 +1,28 @@
+[
+  {
+    "name": "Nightbringer",
+    "source": "MCV2DC",
+    "sourceKey": "MCV2DC",
+    "page": 14,
+    "type": "Melee Weapon",
+    "rarity": "legendary",
+    "attunement": "Requires attunement",
+    "weight": "4 lb.",
+    "value": "",
+    "valueRarity": "",
+    "weaponCategory": "simple",
+    "armorClass": "",
+    "damage": "1d6 bludgeoning",
+    "range": "",
+    "properties": [],
+    "mastery": [],
+    "entries": [
+      "This heavy mace has a dark oaken handle and a head of blackened steel trimmed with gold. In combat, the mace's head is wreathed in inky black energy.",
+      "You gain a +3 bonus to attack and damage rolls made with this weapon. When you hit with an attack roll using it, the target takes an additional 4d4 radiant damage.",
+      "If you have an evil alignment, you also gain the following benefits when attuned to Nightbringer:",
+      "**Blessing of the Dragon Queen**\n\nYou are immune to the charmed and frightened conditions, and you gain immunity to one of the following damage types (choose when you attune to the weapon): acid, cold, fire, lightning, or poison.",
+      "**Eyes of Midnight**\n\nYou have darkvision with a range of 60 feet. If you already have darkvision, its range increases by 60 feet.",
+      "**Midnight Shroud**\n\nThe weapon has 6 charges. When you hit a creature with an attack using this weapon, you can expend one charge to force the creature to make a DC 20 Constitution saving throw. On a failed save, the creature is blinded until the start of your next turn. The weapon regains 1d6 expended charges daily at dawn."
+    ]
+  }
+]

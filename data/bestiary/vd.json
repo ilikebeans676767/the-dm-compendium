@@ -21,6 +21,9 @@
     "skills": "arcana: +22, history: +14, insight: +15, perception: +15",
     "senses": "truesight 120 ft., passive Perception 25",
     "languages": "Common, Draconic, Elvish, Infernal",
+    "damageResistances": "cold, lightning, necrotic",
+    "damageImmunities": "poison, bludgeoning, piercing, slashing from nonmagical attacks",
+    "conditionImmunities": "charmed, exhaustion, frightened, paralyzed, poisoned, stunned",
     "challengeRating": "26",
     "traits": [
       {

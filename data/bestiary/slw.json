@@ -21,6 +21,9 @@
     "skills": "acrobatics: +9, performance: +5, persuasion: +5, sleight of hand: +6, stealth: +9",
     "senses": "passive Perception 10",
     "languages": "Common, plus one of your choice",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "",
     "traits": [
       {
@@ -92,6 +95,9 @@
     "skills": "",
     "senses": "darkvision 60 ft., passive Perception 10",
     "languages": "",
+    "damageResistances": "",
+    "damageImmunities": "poison, psychic",
+    "conditionImmunities": "charmed, frightened, paralyzed, petrified, poisoned",
     "challengeRating": "1/2",
     "traits": [],
     "spellcasting": [],
@@ -132,6 +138,9 @@
     "skills": "arcana: +5, investigation: +5, religion: +5",
     "senses": "passive Perception 13",
     "languages": "Common, plus one of your choice",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "",
     "traits": [
       {
@@ -191,6 +200,9 @@
     "skills": "arcana: +6, investigation: +6, religion: +6",
     "senses": "passive Perception 12",
     "languages": "Common, plus one of your choice",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "",
     "traits": [
       {
@@ -250,6 +262,9 @@
     "skills": "perception: +4",
     "senses": "darkvision 60 ft., passive Perception 14",
     "languages": "Terran",
+    "damageResistances": "bludgeoning, piercing, slashing from nonmagical attacks that aren't adamantine",
+    "damageImmunities": "poison",
+    "conditionImmunities": "exhaustion, petrified, poisoned",
     "challengeRating": "10",
     "traits": [
       {
@@ -309,6 +324,9 @@
     "skills": "perception: +5",
     "senses": "darkvision 60 ft., passive Perception 15",
     "languages": "understands Infernal but can't speak it",
+    "damageResistances": "",
+    "damageImmunities": "cold",
+    "conditionImmunities": "",
     "challengeRating": "3",
     "traits": [
       {
@@ -368,6 +386,9 @@
     "skills": "athletics: +6, perception: +4, survival: +4",
     "senses": "passive Perception 14",
     "languages": "Common, plus one of your choice",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "",
     "traits": [
       {

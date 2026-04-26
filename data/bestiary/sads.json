@@ -22,6 +22,9 @@
     "skills": "history: +9, perception: +13, persuasion: +14, stealth: +8",
     "senses": "blindsight 60 ft., darkvision 120 ft., passive Perception 23",
     "languages": "telepathy 120 ft., Common, Draconic",
+    "damageResistances": "",
+    "damageImmunities": "thunder",
+    "conditionImmunities": "frightened",
     "challengeRating": "15",
     "traits": [
       {

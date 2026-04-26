@@ -21,6 +21,9 @@
     "skills": "",
     "senses": "darkvision 60 ft., passive Perception 11",
     "languages": "Any languages it knew in life",
+    "damageResistances": "acid, fire, lightning, thunder, bludgeoning, piercing, slashing from nonmagical attacks",
+    "damageImmunities": "cold, necrotic, poison",
+    "conditionImmunities": "charmed, exhaustion, frightened, grappled, paralyzed, petrified, poisoned, prone, restrained",
     "challengeRating": "4",
     "traits": [
       {
@@ -99,6 +102,9 @@
     "skills": "acrobatics: +13, performance: +6, persuasion: +6, sleight of hand: +9, stealth: +13",
     "senses": "passive Perception 10",
     "languages": "Common, plus one of your choice",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "",
     "traits": [
       {
@@ -182,6 +188,9 @@
     "skills": "arcana: +6, investigation: +6, religion: +6",
     "senses": "passive Perception 14",
     "languages": "Common, plus one of your choice",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "",
     "traits": [
       {
@@ -249,6 +258,9 @@
     "skills": "arcana: +8, investigation: +8, religion: +8",
     "senses": "passive Perception 12",
     "languages": "Common, plus one of your choice",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "",
     "traits": [
       {
@@ -316,6 +328,9 @@
     "skills": "athletics: +8, perception: +5, survival: +5",
     "senses": "passive Perception 15",
     "languages": "Common, plus one of your choice",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "",
     "traits": [
       {
@@ -346,7 +361,7 @@
         "name": "Martial Role",
         "entries": [
           "The warrior has one of the following traits of your choice:",
-          "- Attacker\n- Defender"
+          "- Attacker The warrior gains a +2 bonus to attack rolls.\n- Defender The warrior gains the Protection reaction below."
         ]
       },
       {

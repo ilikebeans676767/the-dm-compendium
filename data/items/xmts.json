@@ -1,0 +1,128 @@
+[
+  {
+    "name": "Dowsing Dagger",
+    "source": "XMtS",
+    "sourceKey": "XMTS",
+    "page": 19,
+    "type": "",
+    "rarity": "unknown (magic)",
+    "attunement": "",
+    "weight": "",
+    "value": "",
+    "valueRarity": "",
+    "weaponCategory": "",
+    "armorClass": "",
+    "damage": "",
+    "range": "",
+    "properties": [],
+    "mastery": [],
+    "entries": [
+      "A curved jade blade fashioned by the River Heralds, this +1 dagger can detect the presence of fresh water within 200 feet of the wielder."
+    ]
+  },
+  {
+    "name": "Pirate's Cutlass",
+    "source": "XMtS",
+    "sourceKey": "XMTS",
+    "page": 19,
+    "type": "",
+    "rarity": "unknown (magic)",
+    "attunement": "",
+    "weight": "",
+    "value": "",
+    "valueRarity": "",
+    "weaponCategory": "",
+    "armorClass": "",
+    "damage": "",
+    "range": "",
+    "properties": [],
+    "mastery": [],
+    "entries": [
+      "This +1 shortsword is a terrifying weapon with a serrated edge. It grants its wielder advantage on Charisma (Intimidation) checks when brandished."
+    ]
+  },
+  {
+    "name": "Primal Amulet",
+    "source": "XMtS",
+    "sourceKey": "XMTS",
+    "page": 19,
+    "type": "",
+    "rarity": "unknown (magic)",
+    "attunement": "",
+    "weight": "",
+    "value": "",
+    "valueRarity": "",
+    "weaponCategory": "",
+    "armorClass": "",
+    "damage": "",
+    "range": "",
+    "properties": [],
+    "mastery": [],
+    "entries": [
+      "This beaded jade necklace bears an ancient symbol of the River Heralds. When worn, the primal amulet allows its wearer to cast speak with animals, locate object, and pass without trace. Once the amulet has been used to cast a spell, it can't be used to cast that spell again until the next dawn."
+    ]
+  },
+  {
+    "name": "Prying Blade",
+    "source": "XMtS",
+    "sourceKey": "XMTS",
+    "page": 19,
+    "type": "",
+    "rarity": "unknown (magic)",
+    "attunement": "",
+    "weight": "",
+    "value": "",
+    "valueRarity": "",
+    "weaponCategory": "",
+    "armorClass": "",
+    "damage": "",
+    "range": "",
+    "properties": [],
+    "mastery": [],
+    "entries": [
+      "A hooked blade useful on board a ship or as a cutting tool in the wilderness, this +1 shortsword grants its wielder advantage on Strength (Athletics) checks to climb or to escape while restrained."
+    ]
+  },
+  {
+    "name": "Sorcerous Spyglass",
+    "source": "XMtS",
+    "sourceKey": "XMTS",
+    "page": 19,
+    "type": "",
+    "rarity": "unknown (magic)",
+    "attunement": "",
+    "weight": "",
+    "value": "",
+    "valueRarity": "",
+    "weaponCategory": "",
+    "armorClass": "",
+    "damage": "",
+    "range": "",
+    "properties": [],
+    "mastery": [],
+    "entries": [
+      "This elegant brass spyglass features an intricate lens mechanism. A creature looking through the sorcerous spyglass has advantage on Wisdom (Perception) checks to detect things that can be seen. In addition, the user can view magical auras while looking through the spyglass, as if under the effect of a detect magic spell."
+    ]
+  },
+  {
+    "name": "Vanquisher's Banner",
+    "source": "XMtS",
+    "sourceKey": "XMTS",
+    "page": 19,
+    "type": "",
+    "rarity": "unknown (magic)",
+    "attunement": "",
+    "weight": "",
+    "value": "",
+    "valueRarity": "",
+    "weaponCategory": "",
+    "armorClass": "",
+    "damage": "",
+    "range": "",
+    "properties": [],
+    "mastery": [],
+    "entries": [
+      "This battle-worn but unbroken standard bears the insignia of one of the forces of the Legion of Dusk. A creature that holds the vanquisher's banner can use a bonus action to grant an ally advantage on the ally's next attack roll, saving throw, or ability check."
+    ]
+  }
+]

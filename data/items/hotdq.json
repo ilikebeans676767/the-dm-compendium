@@ -1,0 +1,146 @@
+[
+  {
+    "name": "Black Dragon Mask",
+    "source": "HotDQ",
+    "sourceKey": "HOTDQ",
+    "page": 94,
+    "type": "Wondrous item",
+    "rarity": "legendary",
+    "attunement": "Requires attunement",
+    "weight": "",
+    "value": "",
+    "valueRarity": "",
+    "weaponCategory": "",
+    "armorClass": "",
+    "damage": "",
+    "range": "",
+    "properties": [],
+    "mastery": [],
+    "entries": [
+      "This horned mask of glossy ebony has horns and a skull-like mien. The mask reshapes to fit a wearer attuned to it. While you are wearing the mask and attuned to it, you can access the following properties.",
+      "**Damage Absorption**\n\nYou have resistance to acid damage. If you already have damage resistance to acid from another source, you gain immunity to acid damage. If you already have immunity to acid damage from another source, you regain hit points equal to half of any acid damage you are dealt.",
+      "**Draconic Majesty**\n\nWhile you are wearing no armor, you can add your Charisma bonus to your Armor Class.",
+      "**Dragon Breath**\n\nIf you have a breath weapon that requires rest to recharge, it gains a recharge of 6.",
+      "**Dragon Sight**\n\nYou gain darkvision with a radius of 60 feet, or an additional 60 feet of darkvision if you already have that sense. Once per day, you can gain blindsight out to a range of 30 feet for 5 minutes.",
+      "**Dragon Tongue**\n\nYou can speak and understand Draconic. You also have advantage on any Charisma check you make against Black dragons.",
+      "**Legendary Resistance**\n\n(1/Day) If you fail a saving throw, you can choose to succeed instead.",
+      "**Water Breathing**\n\nYou can breathe underwater."
+    ]
+  },
+  {
+    "name": "Dragongleam",
+    "source": "HotDQ",
+    "sourceKey": "HOTDQ",
+    "page": 84,
+    "type": "Melee Weapon",
+    "rarity": "unknown (magic)",
+    "attunement": "",
+    "weight": "3 lb.",
+    "value": "",
+    "valueRarity": "",
+    "weaponCategory": "simple",
+    "armorClass": "",
+    "damage": "1d6 /1d8 piercing",
+    "range": "20/60",
+    "properties": [
+      "T",
+      "V"
+    ],
+    "mastery": [],
+    "entries": [
+      "This spear is enchanted with 10 charges of a daylight spell for use in twilight or dark forest underbrush. The command phrase is \"Tiamat's eyes shine,\" written in Draconic runes on the spear's crossguard."
+    ]
+  },
+  {
+    "name": "Hazirawn",
+    "source": "HotDQ",
+    "sourceKey": "HOTDQ",
+    "page": 94,
+    "type": "Melee Weapon",
+    "rarity": "legendary",
+    "attunement": "Requires attunement",
+    "weight": "6 lb.",
+    "value": "",
+    "valueRarity": "",
+    "weaponCategory": "martial",
+    "armorClass": "",
+    "damage": "2d6 slashing",
+    "range": "",
+    "properties": [
+      "H",
+      "2H"
+    ],
+    "mastery": [],
+    "entries": [
+      "A sentient (neutral evil) greatsword, Hazirawn is capable of speech in Common and Netherese. Even if you aren't attuned to the sword, you gain a +1 bonus to attack and damage rolls made with this weapon. If you are not attuned to Hazirawn, you deal an extra 1d6 necrotic damage when you hit with the weapon.",
+      "**Increased Potency**\n\nWhile you are attuned to this weapon, its bonus on attack and damage rolls increases to +2, and a hit deals an extra 2d6 necrotic damage (instead of 1d6).",
+      "**Spells**\n\nHazirawn has 4 charges to cast spells. As long as the sword is attuned to you and you are holding it in your hand, you can cast detect magic (1 charge), detect evil and good (1 charge), or detect thoughts (2 charges). Each night at midnight, Hazirawn regains 1d4 expended charges.",
+      "**Wounding**\n\nWhile you are attuned to the weapon, any creature that you hit with Hazirawn can't regain hit points for 1 minute. The target can make a DC 15 Constitution saving throw at the end of each of its turns, ending this effect early on a success."
+    ]
+  },
+  {
+    "name": "Insignia of Claws",
+    "source": "HotDQ",
+    "sourceKey": "HOTDQ",
+    "page": 94,
+    "type": "Wondrous item",
+    "rarity": "uncommon",
+    "attunement": "",
+    "weight": "",
+    "value": "",
+    "valueRarity": "",
+    "weaponCategory": "",
+    "armorClass": "",
+    "damage": "",
+    "range": "",
+    "properties": [],
+    "mastery": [],
+    "entries": [
+      "The jewels in the insignia of the Cult of the Dragon flare with purple light when you enter combat, empowering your natural fists or natural weapons.",
+      "While wearing the insignia you gain a +1 bonus to the attack rolls and the damage rolls you make with unarmed strikes and natural weapons. Such attacks are considered to be magical."
+    ]
+  },
+  {
+    "name": "Tankard of Plenty",
+    "source": "HotDQ",
+    "sourceKey": "HOTDQ",
+    "page": 74,
+    "type": "Other",
+    "rarity": "unknown (magic)",
+    "attunement": "",
+    "weight": "",
+    "value": "",
+    "valueRarity": "",
+    "weaponCategory": "",
+    "armorClass": "",
+    "damage": "",
+    "range": "",
+    "properties": [],
+    "mastery": [],
+    "entries": [
+      "This golden stein is decorated with dancing dwarves and grain patterns. Speaking the command word (\"Illefarn\") while grasping the handle fills the tankard with three pints of rich dwarven ale. This power can be used up to three times per day."
+    ]
+  },
+  {
+    "name": "Wand of Winter",
+    "source": "HotDQ",
+    "sourceKey": "HOTDQ",
+    "page": 94,
+    "type": "Wand",
+    "rarity": "rare",
+    "attunement": "Requires attunement",
+    "weight": "1 lb.",
+    "value": "",
+    "valueRarity": "",
+    "weaponCategory": "",
+    "armorClass": "",
+    "damage": "",
+    "range": "",
+    "properties": [],
+    "mastery": [],
+    "entries": [
+      "This wand looks and feels like an icicle. You must be attuned to the wand to use it.",
+      "The wand has 7 charges, which are used to fuel the spells within it. With the wand in hand, you can use your action to cast one of the following spells from the wand, even if you are incapable of casting spells: ray of frost (no charges, or 1 charge to cast at 5th level; +5 to hit with ranged spell attack), sleet storm (3 charges; spell save DC 15), or ice storm (4 charges; spell save DC 15). No components are required. The wand regains 1d6 + 1 expended charges each day at dawn. If you expend the wand's last charge, roll a d20. On a 20, the wand melts away, forever destroyed."
+    ]
+  }
+]

@@ -22,6 +22,9 @@
     "skills": "",
     "senses": "darkvision 120 ft., passive Perception 9",
     "languages": "understands Abyssal but can't speak",
+    "damageResistances": "cold, fire, lightning",
+    "damageImmunities": "poison",
+    "conditionImmunities": "charmed, frightened, poisoned",
     "challengeRating": "1/4",
     "traits": [],
     "spellcasting": [],
@@ -63,6 +66,9 @@
     "skills": "",
     "senses": "darkvision 60 ft., tremorsense 60 ft., passive Perception 11",
     "languages": "Kruthik",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "2",
     "traits": [
       {
@@ -139,6 +145,9 @@
     "skills": "deception: +5, perception: +4, other: [object Object]",
     "senses": "blindsight 60 ft. (blind beyond this distance), passive Perception 14",
     "languages": "Common plus two more languages",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "blinded, charmed, deafened, exhaustion, prone",
     "challengeRating": "5",
     "traits": [
       {
@@ -225,6 +234,9 @@
     "skills": "",
     "senses": "darkvision 60 ft., passive Perception 10",
     "languages": "Auran, one language of its creator's choice",
+    "damageResistances": "lightning, thunder, bludgeoning, piercing, slashing from nonmagical attacks",
+    "damageImmunities": "poison",
+    "conditionImmunities": "paralyzed, petrified, poisoned, prone",
     "challengeRating": "7",
     "traits": [
       {
@@ -285,6 +297,9 @@
     "skills": "stealth: +8",
     "senses": "darkvision 120 ft., passive Perception 10",
     "languages": "understands Abyssal but can't speak",
+    "damageResistances": "acid, cold, fire, lightning, bludgeoning, piercing, slashing from nonmagical attacks",
+    "damageImmunities": "poison",
+    "conditionImmunities": "charmed, frightened, poisoned",
     "challengeRating": "11",
     "traits": [
       {
@@ -361,6 +376,9 @@
     "skills": "perception: +5, stealth: +6",
     "senses": "darkvision 60 ft., passive Perception 15",
     "languages": "the languages it knew in life",
+    "damageResistances": "acid, fire, lightning, thunder, bludgeoning, piercing, slashing from nonmagical attacks",
+    "damageImmunities": "cold, necrotic, poison",
+    "conditionImmunities": "charmed, exhaustion, frightened, grappled, paralyzed, petrified, poisoned, prone, restrained",
     "challengeRating": "5",
     "traits": [
       {
@@ -424,6 +442,9 @@
     "skills": "perception: +7",
     "senses": "darkvision 120 ft., passive Perception 17",
     "languages": "Common, Infernal, telepathy 1,000 ft.",
+    "damageResistances": "cold, bludgeoning, piercing, slashing from nonmagical attacks that aren't silvered",
+    "damageImmunities": "fire, poison",
+    "conditionImmunities": "charmed, poisoned",
     "challengeRating": "18",
     "traits": [
       {
@@ -519,6 +540,9 @@
     "skills": "",
     "senses": "darkvision 120 ft., passive Perception 11",
     "languages": "Abyssal, telepathy 120 ft.",
+    "damageResistances": "cold, fire, lightning",
+    "damageImmunities": "poison",
+    "conditionImmunities": "poisoned",
     "challengeRating": "7",
     "traits": [
       {
@@ -599,6 +623,9 @@
     "skills": "perception: +9",
     "senses": "darkvision 120 ft., passive Perception 19",
     "languages": "",
+    "damageResistances": "bludgeoning, piercing, slashing from nonmagical attacks",
+    "damageImmunities": "",
+    "conditionImmunities": "charmed, exhaustion, frightened, paralyzed, petrified, poisoned, prone, stunned",
     "challengeRating": "21",
     "traits": [
       {
@@ -709,6 +736,9 @@
     "skills": "insight: +7, medicine: +7",
     "senses": "darkvision 60 ft., passive Perception 13",
     "languages": "Common, Elvish, Sylvan",
+    "damageResistances": "bludgeoning, piercing, slashing from nonmagical attacks",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "10",
     "traits": [
       {
@@ -795,6 +825,9 @@
     "skills": "intimidation: +13, perception: +13, persuasion: +13",
     "senses": "truesight 120 ft., passive Perception 23",
     "languages": "all, telepathy 120 ft.",
+    "damageResistances": "cold, bludgeoning, piercing, slashing from nonmagical attacks that aren't silvered",
+    "damageImmunities": "fire, poison",
+    "conditionImmunities": "charmed, exhaustion, frightened, poisoned",
     "challengeRating": "19",
     "traits": [
       {
@@ -920,6 +953,9 @@
     "skills": "perception: +6",
     "senses": "blindsight 500 ft. (blind beyond this radius), passive Perception 16",
     "languages": "understands Deep Speech, telepathy 1 mile",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "blinded",
     "challengeRating": "11",
     "traits": [
       {
@@ -1003,6 +1039,9 @@
     "skills": "intimidation: +17, perception: +14",
     "senses": "truesight 120 ft., passive Perception 24",
     "languages": "all, telepathy 120 ft.",
+    "damageResistances": "cold, fire, lightning",
+    "damageImmunities": "poison, bludgeoning, piercing, slashing that is nonmagical",
+    "conditionImmunities": "charmed, exhaustion, frightened, poisoned",
     "challengeRating": "23",
     "traits": [
       {
@@ -1129,6 +1168,9 @@
     "skills": "arcana: +5, history: +5, insight: +2, perception: +2, religion: +5",
     "senses": "truesight 120 ft., passive Perception 12",
     "languages": "all but rarely speaks",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "2",
     "traits": [
       {
@@ -1201,6 +1243,9 @@
     "skills": "perception: +6, stealth: +6",
     "senses": "darkvision 120 ft., passive Perception 16",
     "languages": "Draconic, Infernal, telepathy 120 ft.",
+    "damageResistances": "cold, bludgeoning, piercing, slashing from nonmagical attacks that aren't silvered",
+    "damageImmunities": "acid, fire, poison",
+    "conditionImmunities": "poisoned",
     "challengeRating": "7",
     "traits": [
       {
@@ -1287,6 +1332,9 @@
     "skills": "arcana: +12",
     "senses": "darkvision 120 ft., passive Perception 16",
     "languages": "Draconic, Infernal, telepathy 120 ft.",
+    "damageResistances": "cold, bludgeoning, piercing, slashing from nonmagical attacks that aren't silvered",
+    "damageImmunities": "fire, lightning, poison",
+    "conditionImmunities": "poisoned",
     "challengeRating": "17",
     "traits": [
       {
@@ -1377,6 +1425,9 @@
     "skills": "perception: +6, stealth: +7",
     "senses": "darkvision 60 ft., passive Perception 16",
     "languages": "Common plus the main language of its master",
+    "damageResistances": "cold, necrotic, bludgeoning, piercing, slashing from nonmagical attacks",
+    "damageImmunities": "",
+    "conditionImmunities": "charmed, exhaustion, frightened, paralyzed, poisoned",
     "challengeRating": "12",
     "traits": [
       {
@@ -1455,6 +1506,9 @@
     "skills": "perception: +6, stealth: +7",
     "senses": "darkvision 60 ft., passive Perception 16",
     "languages": "understands one language of its creator but can't speak",
+    "damageResistances": "",
+    "damageImmunities": "poison, bludgeoning, piercing, slashing from nonmagical attacks that aren't adamantine",
+    "conditionImmunities": "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
     "challengeRating": "1",
     "traits": [
       {
@@ -1520,6 +1574,9 @@
     "skills": "",
     "senses": "darkvision 120 ft., passive Perception 9",
     "languages": "Abyssal, telepathy 60 ft.",
+    "damageResistances": "cold, fire, lightning",
+    "damageImmunities": "poison",
+    "conditionImmunities": "charmed, frightened, poisoned",
     "challengeRating": "3",
     "traits": [
       {
@@ -1580,6 +1637,9 @@
     "skills": "",
     "senses": "darkvision 60 ft., passive Perception 10",
     "languages": "understands all languages but can't speak",
+    "damageResistances": "",
+    "damageImmunities": "necrotic, poison, psychic, bludgeoning, piercing, slashing from nonmagical attacks that aren't adamantine",
+    "conditionImmunities": "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
     "challengeRating": "14",
     "traits": [
       {
@@ -1648,6 +1708,9 @@
     "skills": "investigation: +3, perception: +9",
     "senses": "darkvision 60 ft., truesight 120 ft., passive Perception 19",
     "languages": "Abyssal, Infernal, telepathy 60 ft.",
+    "damageResistances": "cold, fire, lightning, bludgeoning, piercing, slashing from nonmagical attacks",
+    "damageImmunities": "acid, poison",
+    "conditionImmunities": "poisoned",
     "challengeRating": "8",
     "traits": [
       {
@@ -1736,6 +1799,9 @@
     "skills": "stealth: +6",
     "senses": "darkvision 60 ft., passive Perception 11",
     "languages": "Deep Speech",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "1",
     "traits": [
       {
@@ -1806,6 +1872,9 @@
     "skills": "",
     "senses": "blindsight 120 ft. (blind beyond this radius), passive Perception 12",
     "languages": "",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "blinded, deafened",
     "challengeRating": "8",
     "traits": [
       {
@@ -1884,6 +1953,9 @@
     "skills": "arcana: +4, history: +4",
     "senses": "darkvision 60 ft., passive Perception 11",
     "languages": "the languages it knew in life",
+    "damageResistances": "necrotic, bludgeoning, piercing, slashing from nonmagical attacks that aren't silvered",
+    "damageImmunities": "poison",
+    "conditionImmunities": "exhaustion, poisoned",
     "challengeRating": "4",
     "traits": [
       {
@@ -1950,6 +2022,9 @@
     "skills": "arcana: +5, history: +5, perception: +4",
     "senses": "darkvision 120 ft. (including magical darkness), passive Perception 14",
     "languages": "the languages it knew in life",
+    "damageResistances": "necrotic, bludgeoning, piercing, slashing from nonmagical attacks that aren't silvered",
+    "damageImmunities": "poison",
+    "conditionImmunities": "exhaustion, poisoned",
     "challengeRating": "8",
     "traits": [
       {
@@ -2022,6 +2097,9 @@
     "skills": "arcana: +3, perception: +4",
     "senses": "darkvision 60 ft., passive Perception 14",
     "languages": "the languages it knew in life",
+    "damageResistances": "necrotic, bludgeoning, piercing, slashing from nonmagical attacks",
+    "damageImmunities": "poison",
+    "conditionImmunities": "exhaustion, poisoned",
     "challengeRating": "3",
     "traits": [
       {
@@ -2092,6 +2170,9 @@
     "skills": "insight: +11, perception: +19",
     "senses": "truesight 120 ft., passive Perception 29",
     "languages": "all, telepathy 120 ft.",
+    "damageResistances": "cold, fire, lightning",
+    "damageImmunities": "poison, bludgeoning, piercing, slashing that is nonmagical",
+    "conditionImmunities": "charmed, exhaustion, frightened, poisoned",
     "challengeRating": "26",
     "traits": [
       {
@@ -2197,6 +2278,9 @@
     "skills": "stealth: +4",
     "senses": "darkvision 120 ft., passive Perception 7",
     "languages": "Dwarvish, Undercommon",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "1/4",
     "traits": [
       {
@@ -2260,6 +2344,9 @@
     "skills": "stealth: +4",
     "senses": "darkvision 120 ft., passive Perception 7",
     "languages": "Dwarvish, Undercommon",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "3",
     "traits": [
       {
@@ -2327,6 +2414,9 @@
     "skills": "",
     "senses": "blindsight 60 ft., darkvision 60 ft., passive Perception 10",
     "languages": "Abyssal, Infernal, telepathy 60 ft.",
+    "damageResistances": "cold, fire, lightning, bludgeoning, piercing, slashing from nonmagical attacks",
+    "damageImmunities": "acid, poison",
+    "conditionImmunities": "poisoned",
     "challengeRating": "7",
     "traits": [
       {
@@ -2410,6 +2500,9 @@
     "skills": "perception: +5",
     "senses": "darkvision 60 ft., passive Perception 15",
     "languages": "Giant",
+    "damageResistances": "bludgeoning, piercing, slashing from nonmagical attacks",
+    "damageImmunities": "",
+    "conditionImmunities": "frightened, poisoned",
     "challengeRating": "13",
     "traits": [
       {
@@ -2488,6 +2581,9 @@
     "skills": "arcana: +9, nature: +9, perception: +7, stealth: +8",
     "senses": "blindsight 10 ft., darkvision 120 ft., passive Perception 17",
     "languages": "Elvish, Undercommon, can speak with spiders",
+    "damageResistances": "poison",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "13",
     "traits": [
       {
@@ -2598,6 +2694,9 @@
     "skills": "acrobatics: +11, athletics: +8, perception: +8, stealth: +11",
     "senses": "darkvision 120 ft., passive Perception 18",
     "languages": "Elvish, Undercommon",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "18",
     "traits": [
       {
@@ -2694,6 +2793,9 @@
     "skills": "perception: +6, stealth: +8",
     "senses": "darkvision 120 ft., passive Perception 16",
     "languages": "Elvish, Undercommon",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "9",
     "traits": [
       {
@@ -2790,6 +2892,9 @@
     "skills": "insight: +10, perception: +10, religion: +8, stealth: +7",
     "senses": "darkvision 120 ft., passive Perception 20",
     "languages": "Elvish, Undercommon",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "frightened",
     "challengeRating": "14",
     "traits": [
       {
@@ -2886,6 +2991,9 @@
     "skills": "insight: +11, perception: +11, religion: +9, stealth: +10",
     "senses": "darkvision 120 ft., passive Perception 21",
     "languages": "Elvish, Undercommon",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "charmed, frightened, poisoned",
     "challengeRating": "20",
     "traits": [
       {
@@ -3016,6 +3124,9 @@
     "skills": "perception: +6, stealth: +9",
     "senses": "darkvision 120 ft., passive Perception 16",
     "languages": "Elvish, Undercommon",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "11",
     "traits": [
       {
@@ -3099,6 +3210,9 @@
     "skills": "",
     "senses": "darkvision 120 ft., passive Perception 12",
     "languages": "Dwarvish, Undercommon",
+    "damageResistances": "",
+    "damageImmunities": "poison",
+    "conditionImmunities": "charmed, exhaustion, frightened, paralyzed, poisoned",
     "challengeRating": "12",
     "traits": [
       {
@@ -3189,6 +3303,9 @@
     "skills": "",
     "senses": "darkvision 60 ft., passive Perception 7",
     "languages": "understands Dwarvish but can't speak",
+    "damageResistances": "",
+    "damageImmunities": "poison",
+    "conditionImmunities": "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
     "challengeRating": "2",
     "traits": [
       {
@@ -3258,6 +3375,9 @@
     "skills": "",
     "senses": "darkvision 120 ft., passive Perception 10",
     "languages": "Dwarvish, Undercommon",
+    "damageResistances": "poison",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "2",
     "traits": [
       {
@@ -3339,6 +3459,9 @@
     "skills": "perception: +2, stealth: +5",
     "senses": "darkvision 120 ft., truesight 30 ft., passive Perception 12",
     "languages": "Dwarvish, Undercommon",
+    "damageResistances": "poison",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "2",
     "traits": [
       {
@@ -3420,6 +3543,9 @@
     "skills": "",
     "senses": "darkvision 60 ft., passive Perception 7",
     "languages": "understands Dwarvish but can't speak",
+    "damageResistances": "",
+    "damageImmunities": "poison",
+    "conditionImmunities": "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
     "challengeRating": "3",
     "traits": [
       {
@@ -3482,6 +3608,9 @@
     "skills": "",
     "senses": "darkvision 120 ft., passive Perception 10",
     "languages": "Dwarvish, Undercommon",
+    "damageResistances": "poison",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "1",
     "traits": [
       {
@@ -3566,6 +3695,9 @@
     "skills": "",
     "senses": "darkvision 120 ft., passive Perception 10",
     "languages": "Dwarvish, Undercommon",
+    "damageResistances": "poison",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "2",
     "traits": [
       {
@@ -3647,6 +3779,9 @@
     "skills": "",
     "senses": "darkvision 120 ft., passive Perception 11",
     "languages": "Dwarvish, Undercommon",
+    "damageResistances": "poison",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "6",
     "traits": [
       {
@@ -3741,6 +3876,9 @@
     "skills": "",
     "senses": "darkvision 120 ft., passive Perception 10",
     "languages": "Dwarvish, Undercommon",
+    "damageResistances": "poison",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "2",
     "traits": [
       {
@@ -3816,6 +3954,9 @@
     "skills": "deception: +6, intimidation: +4, perception: +4",
     "senses": "darkvision 120 ft., passive Perception 14",
     "languages": "Abyssal, Common, telepathy 120 ft.",
+    "damageResistances": "acid, cold, fire, lightning, thunder, bludgeoning, piercing, slashing from nonmagical attacks",
+    "damageImmunities": "poison",
+    "conditionImmunities": "charmed, exhaustion, frightened, grappled, paralyzed, petrified, poisoned, prone, restrained",
     "challengeRating": "4",
     "traits": [
       {
@@ -3896,6 +4037,9 @@
     "skills": "",
     "senses": "darkvision 60 ft., passive Perception 10",
     "languages": "Terran, one language of its creator's choice",
+    "damageResistances": "bludgeoning, piercing, slashing from nonmagical attacks",
+    "damageImmunities": "poison",
+    "conditionImmunities": "paralyzed, petrified, poisoned, prone",
     "challengeRating": "7",
     "traits": [
       {
@@ -3956,6 +4100,9 @@
     "skills": "perception: +8",
     "senses": "darkvision 60 ft., passive Perception 18",
     "languages": "the languages it knew in life",
+    "damageResistances": "acid, fire, lightning, thunder, bludgeoning, piercing, slashing from nonmagical attacks",
+    "damageImmunities": "cold, necrotic, poison",
+    "conditionImmunities": "charmed, exhaustion, frightened, grappled, paralyzed, petrified, poisoned, prone, restrained",
     "challengeRating": "12",
     "traits": [
       {
@@ -4023,6 +4170,9 @@
     "skills": "arcana: +10, deception: +8, history: +10, nature: +10, perception: +5, religion: +10",
     "senses": "blindsight 60 ft. (blind beyond this distance), passive Perception 15",
     "languages": "Common plus six more",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "blinded, charmed, deafened, exhaustion, prone",
     "challengeRating": "10",
     "traits": [
       {
@@ -4110,6 +4260,9 @@
     "skills": "",
     "senses": "darkvision 60 ft., passive Perception 15",
     "languages": "",
+    "damageResistances": "bludgeoning, piercing, slashing from nonmagical attacks",
+    "damageImmunities": "lightning, poison, thunder",
+    "conditionImmunities": "exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, stunned",
     "challengeRating": "23",
     "traits": [
       {
@@ -4220,6 +4373,9 @@
     "skills": "stealth: +7, perception: +4",
     "senses": "darkvision 120 ft., passive Perception 14",
     "languages": "",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "1",
     "traits": [
       {
@@ -4282,6 +4438,9 @@
     "skills": "",
     "senses": "darkvision 60 ft., passive Perception 10",
     "languages": "Ignan, one language of its creator's choice",
+    "damageResistances": "bludgeoning, piercing, slashing from nonmagical attacks",
+    "damageImmunities": "fire, poison",
+    "conditionImmunities": "paralyzed, petrified, poisoned, prone",
     "challengeRating": "7",
     "traits": [
       {
@@ -4354,6 +4513,9 @@
     "skills": "deception: +15, perception: +14, stealth: +8",
     "senses": "truesight 120 ft., passive Perception 24",
     "languages": "all, telepathy 120 ft.",
+    "damageResistances": "cold, fire, lightning",
+    "damageImmunities": "poison, bludgeoning, piercing, slashing that is nonmagical",
+    "conditionImmunities": "charmed, exhaustion, frightened, poisoned",
     "challengeRating": "23",
     "traits": [
       {
@@ -4455,6 +4617,9 @@
     "skills": "perception: +4",
     "senses": "darkvision 60 ft., tremorsense 60 ft., passive Perception 14",
     "languages": "Primordial",
+    "damageResistances": "",
+    "damageImmunities": "cold",
+    "conditionImmunities": "",
     "challengeRating": "9",
     "traits": [
       {
@@ -4523,6 +4688,9 @@
     "skills": "deception: +13, intimidation: +13, perception: +10",
     "senses": "truesight 120 ft., passive Perception 20",
     "languages": "all, telepathy 120 ft.",
+    "damageResistances": "bludgeoning, piercing, slashing from nonmagical attacks that aren't silvered",
+    "damageImmunities": "cold, fire, poison",
+    "conditionImmunities": "charmed, exhaustion, frightened, poisoned",
     "challengeRating": "22",
     "traits": [
       {
@@ -4635,6 +4803,9 @@
     "skills": "",
     "senses": "passive Perception 11",
     "languages": "Common",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "3",
     "traits": [
       {
@@ -4715,6 +4886,9 @@
     "skills": "insight: +6, perception: +6, stealth: +6",
     "senses": "passive Perception 16",
     "languages": "Gith",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "10",
     "traits": [
       {
@@ -4794,6 +4968,9 @@
     "skills": "intimidation: +7, perception: +6",
     "senses": "passive Perception 16",
     "languages": "Gith",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "12",
     "traits": [
       {
@@ -4869,6 +5046,9 @@
     "skills": "insight: +8, intimidation: +9, perception: +8",
     "senses": "passive Perception 18",
     "languages": "Gith",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "14",
     "traits": [],
     "spellcasting": [
@@ -4956,6 +5136,9 @@
     "skills": "arcana: +9, insight: +10, perception: +10",
     "senses": "passive Perception 20",
     "languages": "Gith",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "16",
     "traits": [
       {
@@ -5039,6 +5222,9 @@
     "skills": "arcana: +7, insight: +8, perception: +8",
     "senses": "passive Perception 18",
     "languages": "Gith",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "10",
     "traits": [
       {
@@ -5113,6 +5299,9 @@
     "skills": "",
     "senses": "darkvision 60 ft., passive Perception 11",
     "languages": "Common, Elvish",
+    "damageResistances": "",
+    "damageImmunities": "necrotic",
+    "conditionImmunities": "charmed, exhaustion",
     "challengeRating": "9",
     "traits": [
       {
@@ -5201,6 +5390,9 @@
     "skills": "perception: +2",
     "senses": "darkvision 60 ft., passive Perception 12",
     "languages": "",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "12",
     "traits": [],
     "spellcasting": [],
@@ -5264,6 +5456,9 @@
     "skills": "deception: +15, insight: +12, perception: +12, persuasion: +15",
     "senses": "truesight 120 ft., passive Perception 22",
     "languages": "all, telepathy 120 ft.",
+    "damageResistances": "cold, fire, lightning",
+    "damageImmunities": "poison, bludgeoning, piercing, slashing that is nonmagical",
+    "conditionImmunities": "charmed, exhaustion, frightened, poisoned",
     "challengeRating": "24",
     "traits": [
       {
@@ -5377,6 +5572,9 @@
     "skills": "deception: +9, insight: +6, perception: +6, persuasion: +9",
     "senses": "darkvision 120 ft., passive Perception 16",
     "languages": "Draconic, Infernal, telepathy 120 ft.",
+    "damageResistances": "cold, bludgeoning, piercing, slashing from nonmagical attacks that aren't silvered",
+    "damageImmunities": "fire, poison",
+    "conditionImmunities": "poisoned",
     "challengeRating": "15",
     "traits": [
       {
@@ -5461,6 +5659,9 @@
     "skills": "",
     "senses": "darkvision 120 ft., passive Perception 10",
     "languages": "understands Infernal but can't speak",
+    "damageResistances": "cold, psychic, bludgeoning, piercing, slashing from nonmagical attacks that aren't silvered",
+    "damageImmunities": "fire, poison",
+    "conditionImmunities": "charmed, deafened, exhaustion, frightened, paralyzed, poisoned, unconscious",
     "challengeRating": "16",
     "traits": [
       {
@@ -5524,6 +5725,9 @@
     "skills": "perception: +8",
     "senses": "darkvision 60 ft., passive Perception 15",
     "languages": "understands Abyssal but can't speak",
+    "damageResistances": "cold, fire, lightning, bludgeoning, piercing, slashing from nonmagical attacks",
+    "damageImmunities": "",
+    "conditionImmunities": "frightened",
     "challengeRating": "8",
     "traits": [
       {
@@ -5589,6 +5793,9 @@
     "skills": "intimidation: +14, perception: +11",
     "senses": "truesight 120 ft., passive Perception 21",
     "languages": "all, telepathy 120 ft.",
+    "damageResistances": "cold, bludgeoning, piercing, slashing from nonmagical attacks that aren't silvered",
+    "damageImmunities": "fire, poison",
+    "conditionImmunities": "charmed, exhaustion, frightened, poisoned",
     "challengeRating": "21",
     "traits": [
       {
@@ -5727,6 +5934,9 @@
     "skills": "insight: +4, perception: +4",
     "senses": "blindsight 60 ft., darkvision 60 ft., passive Perception 14",
     "languages": "Abyssal, Infernal, telepathy 60 ft.",
+    "damageResistances": "cold, lightning, bludgeoning, piercing, slashing from nonmagical attacks",
+    "damageImmunities": "acid, poison",
+    "conditionImmunities": "poisoned",
     "challengeRating": "9",
     "traits": [
       {
@@ -5832,6 +6042,9 @@
     "skills": "stealth: +7",
     "senses": "darkvision 60 ft., passive Perception 10",
     "languages": "understands one language of its creator but can't speak",
+    "damageResistances": "",
+    "damageImmunities": "poison, bludgeoning, piercing, slashing from nonmagical attacks that aren't adamantine",
+    "conditionImmunities": "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
     "challengeRating": "4",
     "traits": [
       {
@@ -5888,6 +6101,9 @@
     "skills": "perception: +12",
     "senses": "truesight 120 ft., passive Perception 22",
     "languages": "all, telepathy 120 ft.",
+    "damageResistances": "cold, fire, lightning",
+    "damageImmunities": "poison, bludgeoning, piercing, slashing that is nonmagical",
+    "conditionImmunities": "blinded, charmed, deafened, exhaustion, frightened, grappled, paralyzed, petrified, poisoned, prone, restrained, stunned, unconscious",
     "challengeRating": "23",
     "traits": [
       {
@@ -6006,6 +6222,9 @@
     "skills": "",
     "senses": "darkvision 60 ft., tremorsense 60 ft., passive Perception 12",
     "languages": "Kruthik",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "5",
     "traits": [
       {
@@ -6088,6 +6307,9 @@
     "skills": "",
     "senses": "darkvision 60 ft., passive Perception 14",
     "languages": "",
+    "damageResistances": "bludgeoning, piercing, slashing from nonmagical attacks",
+    "damageImmunities": "acid, poison",
+    "conditionImmunities": "exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, stunned",
     "challengeRating": "20",
     "traits": [
       {
@@ -6190,6 +6412,9 @@
     "skills": "stealth: +5, perception: +4",
     "senses": "darkvision 120 ft., passive Perception 14",
     "languages": "",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "1/4",
     "traits": [
       {
@@ -6252,6 +6477,9 @@
     "skills": "insight: +10, intimidation: +12, perception: +10",
     "senses": "darkvision 60 ft., passive Perception 20",
     "languages": "all but rarely speaks",
+    "damageResistances": "thunder, bludgeoning, piercing, slashing from nonmagical attacks",
+    "damageImmunities": "poison",
+    "conditionImmunities": "charmed, frightened, paralyzed, poisoned, unconscious",
     "challengeRating": "25",
     "traits": [
       {
@@ -6339,6 +6567,9 @@
     "skills": "deception: +5",
     "senses": "darkvision 120 ft., passive Perception 11",
     "languages": "Abyssal, Elvish, telepathy 120 ft.",
+    "damageResistances": "cold, fire, lightning, necrotic, bludgeoning, piercing, slashing from nonmagical attacks",
+    "damageImmunities": "poison",
+    "conditionImmunities": "charmed, exhaustion, poisoned",
     "challengeRating": "7",
     "traits": [
       {
@@ -6414,6 +6645,9 @@
     "skills": "perception: +3, stealth: +5",
     "senses": "darkvision 120 ft., passive Perception 13",
     "languages": "Common",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "1",
     "traits": [
       {
@@ -6484,6 +6718,9 @@
     "skills": "",
     "senses": "darkvision 60 ft., passive Perception 11",
     "languages": "understands Infernal but can't speak, telepathy 120 ft.",
+    "damageResistances": "cold, bludgeoning, piercing, slashing from nonmagical attacks that aren't silvered",
+    "damageImmunities": "fire, poison",
+    "conditionImmunities": "frightened, poisoned",
     "challengeRating": "4",
     "traits": [
       {
@@ -6557,6 +6794,9 @@
     "skills": "history: +5, nature: +5, perception: +4, survival: +4",
     "senses": "blindsight 60 ft., darkvision 60 ft., passive Perception 14",
     "languages": "Abyssal, Infernal, telepathy 60 ft.",
+    "damageResistances": "cold, fire, lightning, bludgeoning, piercing, slashing from nonmagical attacks",
+    "damageImmunities": "acid, poison",
+    "conditionImmunities": "poisoned",
     "challengeRating": "3",
     "traits": [
       {
@@ -6641,6 +6881,9 @@
     "skills": "deception: +13, intimidation: +13, perception: +11",
     "senses": "darkvision 120 ft., passive Perception 21",
     "languages": "all, telepathy 120 ft.",
+    "damageResistances": "cold, bludgeoning, piercing, slashing from nonmagical attacks that aren't silvered",
+    "damageImmunities": "fire, poison",
+    "conditionImmunities": "charmed, exhaustion, frightened, poisoned",
     "challengeRating": "21",
     "traits": [
       {
@@ -6765,6 +7008,9 @@
     "skills": "perception: +21",
     "senses": "truesight 120 ft., passive Perception 31",
     "languages": "Abyssal, telepathy 120 ft.",
+    "damageResistances": "cold, fire, lightning, bludgeoning, piercing, slashing from nonmagical attacks",
+    "damageImmunities": "poison",
+    "conditionImmunities": "blinded, charmed, deafened, frightened, poisoned, stunned",
     "challengeRating": "21",
     "traits": [
       {
@@ -6872,6 +7118,9 @@
     "skills": "perception: +7",
     "senses": "darkvision 60 ft., passive Perception 17",
     "languages": "Abyssal, telepathy 120 ft.",
+    "damageResistances": "cold, fire, lightning, bludgeoning, piercing, slashing from nonmagical attacks",
+    "damageImmunities": "poison",
+    "conditionImmunities": "poisoned",
     "challengeRating": "15",
     "traits": [
       {
@@ -6960,6 +7209,9 @@
     "skills": "arcana: +12, deception: +11, history: +12, insight: +10, perception: +10",
     "senses": "truesight 120 ft., passive Perception 20",
     "languages": "Common plus up to five other languages",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "17",
     "traits": [
       {
@@ -7037,6 +7289,9 @@
     "skills": "perception: +7",
     "senses": "darkvision 120 ft., passive Perception 17",
     "languages": "Common, Infernal, telepathy 120 ft.",
+    "damageResistances": "acid, cold, bludgeoning, piercing, slashing from nonmagical attacks that aren't silvered",
+    "damageImmunities": "fire, poison",
+    "conditionImmunities": "charmed, frightened, poisoned",
     "challengeRating": "13",
     "traits": [
       {
@@ -7123,6 +7378,9 @@
     "skills": "",
     "senses": "darkvision 120 ft., passive Perception 9",
     "languages": "",
+    "damageResistances": "acid, cold, fire, lightning, thunder, bludgeoning, piercing, slashing from nonmagical attacks",
+    "damageImmunities": "necrotic, poison",
+    "conditionImmunities": "exhaustion, frightened, grappled, paralyzed, petrified, poisoned, prone, restrained",
     "challengeRating": "20",
     "traits": [
       {
@@ -7194,6 +7452,9 @@
     "skills": "perception: +1",
     "senses": "blindsight 10 ft. (blind beyond this radius), passive Perception 11",
     "languages": "understands Infernal but can't speak",
+    "damageResistances": "acid, cold, bludgeoning, piercing, slashing from nonmagical attacks that aren't silvered",
+    "damageImmunities": "fire, poison",
+    "conditionImmunities": "blinded, charmed, frightened, poisoned",
     "challengeRating": "1/2",
     "traits": [
       {
@@ -7248,6 +7509,9 @@
     "skills": "",
     "senses": "darkvision 60 ft., passive Perception 10",
     "languages": "understands one language of its creator but can't speak",
+    "damageResistances": "",
+    "damageImmunities": "poison, bludgeoning, piercing, slashing from nonmagical attacks that aren't adamantine",
+    "conditionImmunities": "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
     "challengeRating": "5",
     "traits": [
       {
@@ -7319,6 +7583,9 @@
     "skills": "",
     "senses": "blindsight 60 ft. (blind beyond this distance), passive Perception 12",
     "languages": "",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "blinded, charmed, deafened, exhaustion, prone",
     "challengeRating": "1/4",
     "traits": [
       {
@@ -7377,6 +7644,9 @@
     "skills": "",
     "senses": "darkvision 60 ft., passive Perception 8",
     "languages": "Common, Giant",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "4",
     "traits": [
       {
@@ -7435,6 +7705,9 @@
     "skills": "",
     "senses": "darkvision 60 ft., passive Perception 8",
     "languages": "Common, Giant",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "2",
     "traits": [],
     "spellcasting": [],
@@ -7486,6 +7759,9 @@
     "skills": "",
     "senses": "darkvision 60 ft., passive Perception 8",
     "languages": "Common, Giant",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "3",
     "traits": [],
     "spellcasting": [],
@@ -7543,6 +7819,9 @@
     "skills": "",
     "senses": "darkvision 60 ft., passive Perception 8",
     "languages": "Common, Giant",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "2",
     "traits": [
       {
@@ -7594,6 +7873,9 @@
     "skills": "deception: +8, intimidation: +8, perception: +7",
     "senses": "blindsight 60 ft., darkvision 60 ft., passive Perception 17",
     "languages": "Abyssal, Infernal, telepathy 60 ft.",
+    "damageResistances": "cold, fire, lightning, bludgeoning, piercing, slashing from nonmagical attacks",
+    "damageImmunities": "acid, poison",
+    "conditionImmunities": "poisoned",
     "challengeRating": "12",
     "traits": [
       {
@@ -7692,6 +7974,9 @@
     "skills": "arcana: +13, perception: +13",
     "senses": "truesight 120 ft., passive Perception 22",
     "languages": "all, telepathy 120 ft.",
+    "damageResistances": "cold, fire, lightning",
+    "damageImmunities": "necrotic, poison, bludgeoning, piercing, slashing that is nonmagical",
+    "conditionImmunities": "charmed, exhaustion, frightened, poisoned",
     "challengeRating": "26",
     "traits": [
       {
@@ -7806,6 +8091,9 @@
     "skills": "perception: +10, stealth: +11, survival: +10",
     "senses": "darkvision 120 ft., truesight 30 ft., passive Perception 20",
     "languages": "Common, Infernal, telepathy 120 ft.",
+    "damageResistances": "cold, bludgeoning, piercing, slashing from nonmagical attacks that aren't silvered",
+    "damageImmunities": "fire, poison",
+    "conditionImmunities": "charmed, exhaustion, poisoned",
     "challengeRating": "10",
     "traits": [
       {
@@ -7878,6 +8166,9 @@
     "skills": "",
     "senses": "darkvision 60 ft., passive Perception 15",
     "languages": "",
+    "damageResistances": "bludgeoning, piercing, slashing from nonmagical attacks",
+    "damageImmunities": "fire, poison",
+    "conditionImmunities": "exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, stunned",
     "challengeRating": "16",
     "traits": [
       {
@@ -7991,6 +8282,9 @@
     "skills": "intimidation: +10, perception: +8",
     "senses": "darkvision 120 ft., passive Perception 18",
     "languages": "Draconic, Infernal, telepathy 120 ft.",
+    "damageResistances": "cold, bludgeoning, piercing, slashing from nonmagical attacks that aren't silvered",
+    "damageImmunities": "fire, poison",
+    "conditionImmunities": "poisoned",
     "challengeRating": "19",
     "traits": [
       {
@@ -8090,6 +8384,9 @@
     "skills": "perception: +5, stealth: +8",
     "senses": "blindsight 30 ft., darkvision 60 ft., passive Perception 15",
     "languages": "understands Abyssal, Elvish, and Undercommon but can't speak",
+    "damageResistances": "",
+    "damageImmunities": "necrotic, poison, psychic, bludgeoning, piercing, slashing from nonmagical attacks that aren't adamantine",
+    "conditionImmunities": "charmed, exhaustion, frightened, paralyzed, poisoned",
     "challengeRating": "14",
     "traits": [
       {
@@ -8169,6 +8466,9 @@
     "skills": "perception: +3",
     "senses": "darkvision 60 ft., passive Perception 13",
     "languages": "Giant",
+    "damageResistances": "",
+    "damageImmunities": "necrotic",
+    "conditionImmunities": "",
     "challengeRating": "9",
     "traits": [
       {
@@ -8234,6 +8534,9 @@
     "skills": "",
     "senses": "darkvision 120 ft., passive Perception 11",
     "languages": "understands Abyssal but can't speak",
+    "damageResistances": "cold, fire, lightning",
+    "damageImmunities": "poison",
+    "conditionImmunities": "charmed, frightened, poisoned",
     "challengeRating": "2",
     "traits": [
       {
@@ -8282,6 +8585,9 @@
     "skills": "",
     "senses": "darkvision 60 ft., passive Perception 14",
     "languages": "the languages the eidolon knew in life",
+    "damageResistances": "acid, fire, lightning, bludgeoning, piercing, slashing from nonmagical attacks",
+    "damageImmunities": "cold, necrotic, poison",
+    "conditionImmunities": "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
     "challengeRating": "",
     "traits": [
       {
@@ -8354,6 +8660,9 @@
     "skills": "stealth: +6",
     "senses": "darkvision 60 ft., passive Perception 11",
     "languages": "Common, Elvish",
+    "damageResistances": "necrotic",
+    "damageImmunities": "",
+    "conditionImmunities": "charmed, exhaustion",
     "challengeRating": "7",
     "traits": [
       {
@@ -8419,6 +8728,9 @@
     "skills": "arcana: +13, history: +13, perception: +13",
     "senses": "truesight 120 ft., passive Perception 23",
     "languages": "all, telepathy 120 ft.",
+    "damageResistances": "cold, fire, lightning, bludgeoning, piercing, slashing from nonmagical attacks",
+    "damageImmunities": "poison",
+    "conditionImmunities": "poisoned",
     "challengeRating": "18",
     "traits": [
       {
@@ -8533,6 +8845,9 @@
     "skills": "stealth: +8",
     "senses": "darkvision 120 ft., passive Perception 8",
     "languages": "understands Common but can't speak",
+    "damageResistances": "",
+    "damageImmunities": "radiant",
+    "conditionImmunities": "blinded",
     "challengeRating": "1/2",
     "traits": [
       {
@@ -8594,6 +8909,9 @@
     "skills": "athletics: +7, history: +8, perception: +12, stealth: +8",
     "senses": "darkvision 60 ft., passive Perception 22",
     "languages": "all the languages it knew in life",
+    "damageResistances": "cold, necrotic, bludgeoning, piercing, slashing from nonmagical attacks",
+    "damageImmunities": "poison",
+    "conditionImmunities": "blinded, charmed, deafened, exhaustion, frightened, poisoned, stunned, unconscious",
     "challengeRating": "15",
     "traits": [
       {
@@ -8704,6 +9022,9 @@
     "skills": "perception: +6",
     "senses": "darkvision 60 ft., passive Perception 17",
     "languages": "Common, Elvish",
+    "damageResistances": "",
+    "damageImmunities": "necrotic, psychic",
+    "conditionImmunities": "charmed, exhaustion, frightened",
     "challengeRating": "11",
     "traits": [
       {
@@ -8794,6 +9115,9 @@
     "skills": "perception: +3",
     "senses": "darkvision 60 ft., passive Perception 13",
     "languages": "Giant",
+    "damageResistances": "acid, cold, fire, lightning, thunder",
+    "damageImmunities": "bludgeoning, piercing, slashing from nonmagical attacks",
+    "conditionImmunities": "exhaustion, grappled, paralyzed, petrified, prone, restrained, unconscious",
     "challengeRating": "11",
     "traits": [
       {
@@ -8865,6 +9189,9 @@
     "skills": "deception: +8, persuasion: +8",
     "senses": "darkvision 60 ft., passive Perception 10",
     "languages": "Common, Elvish, Sylvan",
+    "damageResistances": "bludgeoning, piercing, slashing from nonmagical attacks",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "10",
     "traits": [
       {
@@ -8951,6 +9278,9 @@
     "skills": "",
     "senses": "darkvision 60 ft., passive Perception 10",
     "languages": "Deep Speech",
+    "damageResistances": "",
+    "damageImmunities": "psychic",
+    "conditionImmunities": "",
     "challengeRating": "1/4",
     "traits": [
       {
@@ -9002,6 +9332,9 @@
     "skills": "perception: +5",
     "senses": "darkvision 60 ft., passive Perception 15",
     "languages": "Deep Speech",
+    "damageResistances": "bludgeoning, piercing, slashing from nonmagical attacks",
+    "damageImmunities": "",
+    "conditionImmunities": "charmed, frightened",
     "challengeRating": "10",
     "traits": [
       {
@@ -9062,6 +9395,9 @@
     "skills": "perception: +6",
     "senses": "darkvision 60 ft., passive Perception 16",
     "languages": "Deep Speech",
+    "damageResistances": "cold, bludgeoning, piercing, slashing from nonmagical attacks",
+    "damageImmunities": "psychic",
+    "conditionImmunities": "charmed, frightened, paralyzed, petrified, poisoned, restrained",
     "challengeRating": "16",
     "traits": [
       {
@@ -9155,6 +9491,9 @@
     "skills": "stealth: +7",
     "senses": "darkvision 60 ft., passive Perception 11",
     "languages": "Deep Speech",
+    "damageResistances": "cold",
+    "damageImmunities": "psychic",
+    "conditionImmunities": "charmed, frightened, prone",
     "challengeRating": "5",
     "traits": [
       {
@@ -9221,6 +9560,9 @@
     "skills": "perception: +9",
     "senses": "darkvision 60 ft., passive Perception 19",
     "languages": "Common, Deep Speech, Undercommon",
+    "damageResistances": "cold, bludgeoning, piercing, slashing from nonmagical attacks",
+    "damageImmunities": "psychic",
+    "conditionImmunities": "charmed, frightened",
     "challengeRating": "13",
     "traits": [
       {
@@ -9298,6 +9640,9 @@
     "skills": "perception: +7, stealth: +8, survival: +7",
     "senses": "blindsight 30 ft., darkvision 60 ft., passive Perception 17",
     "languages": "understands Modron and the language of its owner but can't speak",
+    "damageResistances": "cold, lightning, necrotic, thunder",
+    "damageImmunities": "poison, psychic, bludgeoning, piercing, slashing from nonmagical attacks",
+    "conditionImmunities": "charmed, exhaustion, frightened, paralyzed, petrified, poisoned, stunned",
     "challengeRating": "16",
     "traits": [
       {
@@ -9380,6 +9725,9 @@
     "skills": "",
     "senses": "passive Perception 9",
     "languages": "the languages it knew in life",
+    "damageResistances": "",
+    "damageImmunities": "poison",
+    "conditionImmunities": "charmed, exhaustion, frightened, petrified, poisoned",
     "challengeRating": "1",
     "traits": [
       {
@@ -9438,6 +9786,9 @@
     "skills": "",
     "senses": "darkvision 60 ft., passive Perception 10",
     "languages": "understands one language of its creator but can't speak",
+    "damageResistances": "",
+    "damageImmunities": "poison, bludgeoning, piercing, slashing from nonmagical attacks that aren't adamantine",
+    "conditionImmunities": "charmed, exhaustion, frightened, paralyzed, petrified, poisoned",
     "challengeRating": "4",
     "traits": [
       {
@@ -9504,6 +9855,9 @@
     "skills": "athletics: +8, intimidation: +8",
     "senses": "darkvision 60 ft., passive Perception 11",
     "languages": "Common, Elvish, Sylvan",
+    "damageResistances": "bludgeoning, piercing, slashing from nonmagical attacks",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "10",
     "traits": [
       {
@@ -9586,6 +9940,9 @@
     "skills": "perception: +4",
     "senses": "darkvision 60 ft., passive Perception 14",
     "languages": "the languages it knew in life",
+    "damageResistances": "necrotic, bludgeoning, piercing, slashing from nonmagical attacks",
+    "damageImmunities": "poison",
+    "conditionImmunities": "exhaustion, frightened, poisoned, unconscious",
     "challengeRating": "8",
     "traits": [
       {
@@ -9661,6 +10018,9 @@
     "skills": "",
     "senses": "darkvision 60 ft., passive Perception 9",
     "languages": "the languages it knew in life",
+    "damageResistances": "necrotic, bludgeoning, piercing, slashing from nonmagical attacks",
+    "damageImmunities": "poison",
+    "conditionImmunities": "exhaustion, frightened, poisoned, unconscious",
     "challengeRating": "3",
     "traits": [
       {
@@ -9718,6 +10078,9 @@
     "skills": "perception: +6",
     "senses": "darkvision 60 ft., passive Perception 16",
     "languages": "Common",
+    "damageResistances": "bludgeoning, piercing, slashing while in dim light or darkness",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "13",
     "traits": [
       {
@@ -9782,6 +10145,9 @@
     "skills": "",
     "senses": "darkvision 60 ft., passive Perception 10",
     "languages": "Common",
+    "damageResistances": "bludgeoning, piercing, slashing while in dim light or darkness",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "11",
     "traits": [
       {
@@ -9846,6 +10212,9 @@
     "skills": "",
     "senses": "darkvision 60 ft., passive Perception 10",
     "languages": "Common",
+    "damageResistances": "bludgeoning, piercing, slashing while in dim light or darkness",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "9",
     "traits": [
       {
@@ -9919,6 +10288,9 @@
     "skills": "athletics: +6",
     "senses": "darkvision 60 ft., passive Perception 8",
     "languages": "Common",
+    "damageResistances": "bludgeoning, piercing, slashing while in dim light or darkness",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "7",
     "traits": [],
     "spellcasting": [],
@@ -9987,6 +10359,9 @@
     "skills": "",
     "senses": "darkvision 60 ft., passive Perception 8",
     "languages": "",
+    "damageResistances": "bludgeoning, piercing, slashing while in dim light or darkness",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "1/4",
     "traits": [
       {
@@ -10040,6 +10415,9 @@
     "skills": "deception: +13, insight: +11, intimidation: +13, persuasion: +13",
     "senses": "darkvision 120 ft., passive Perception 16",
     "languages": "all, telepathy 120 ft.",
+    "damageResistances": "cold, bludgeoning, piercing, slashing from nonmagical attacks that aren't silvered",
+    "damageImmunities": "fire, poison",
+    "conditionImmunities": "charmed, exhaustion, frightened, poisoned",
     "challengeRating": "16",
     "traits": [
       {
@@ -10165,6 +10543,9 @@
     "skills": "athletics: +4, survival: +3",
     "senses": "passive Perception 11",
     "languages": "Aquan, Common",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "1/4",
     "traits": [
       {
@@ -10233,6 +10614,9 @@
     "skills": "animal handling: +4, nature: +2, survival: +4",
     "senses": "passive Perception 12",
     "languages": "Aquan, Common",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "2",
     "traits": [
       {
@@ -10305,6 +10689,9 @@
     "skills": "",
     "senses": "darkvision 60 ft., passive Perception 11",
     "languages": "",
+    "damageResistances": "acid, cold, lightning, necrotic, thunder, bludgeoning, piercing, slashing from nonmagical attacks",
+    "damageImmunities": "poison",
+    "conditionImmunities": "charmed, exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained",
     "challengeRating": "3",
     "traits": [
       {
@@ -10380,6 +10767,9 @@
     "skills": "perception: +2",
     "senses": "darkvision 60 ft., passive Perception 12",
     "languages": "Giant",
+    "damageResistances": "",
+    "damageImmunities": "poison",
+    "conditionImmunities": "poisoned",
     "challengeRating": "7",
     "traits": [
       {
@@ -10462,6 +10852,9 @@
     "skills": "",
     "senses": "darkvision 120 ft., passive Perception 11",
     "languages": "Abyssal, telepathy 120 ft.",
+    "damageResistances": "cold, fire, lightning, bludgeoning, piercing, slashing from nonmagical attacks",
+    "damageImmunities": "poison",
+    "conditionImmunities": "poisoned",
     "challengeRating": "13",
     "traits": [
       {
@@ -10553,6 +10946,9 @@
     "skills": "",
     "senses": "darkvision 60 ft., passive Perception 10",
     "languages": "Aquan, one language of its creator's choice",
+    "damageResistances": "acid, bludgeoning, piercing, slashing from nonmagical attacks",
+    "damageImmunities": "poison",
+    "conditionImmunities": "paralyzed, petrified, poisoned, prone",
     "challengeRating": "7",
     "traits": [
       {
@@ -10613,6 +11009,9 @@
     "skills": "",
     "senses": "darkvision 120 ft., passive Perception 11",
     "languages": "Draconic, Infernal, telepathy 120 ft.",
+    "damageResistances": "bludgeoning, piercing, slashing from nonmagical attacks that aren't silvered",
+    "damageImmunities": "cold, fire, poison",
+    "conditionImmunities": "poisoned",
     "challengeRating": "6",
     "traits": [
       {
@@ -10706,6 +11105,9 @@
     "skills": "",
     "senses": "darkvision 60 ft., passive Perception 13",
     "languages": "Common, Elvish, Sylvan",
+    "damageResistances": "cold, bludgeoning, piercing, slashing from nonmagical attacks",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "10",
     "traits": [
       {
@@ -10792,6 +11194,9 @@
     "skills": "deception: +8, insight: +6, perception: +6, persuasion: +8",
     "senses": "blindsight 60 ft., darkvision 60 ft., passive Perception 16",
     "languages": "Abyssal, Infernal, telepathy 60 ft.",
+    "damageResistances": "cold, fire, lightning, bludgeoning, piercing, slashing from nonmagical attacks",
+    "damageImmunities": "acid, poison",
+    "conditionImmunities": "poisoned",
     "challengeRating": "11",
     "traits": [
       {
@@ -10887,6 +11292,9 @@
     "skills": "intimidation: +9, perception: +14",
     "senses": "truesight 120 ft., passive Perception 24",
     "languages": "all, telepathy 120 ft.",
+    "damageResistances": "cold, fire, lightning",
+    "damageImmunities": "poison, bludgeoning, piercing, slashing that is nonmagical",
+    "conditionImmunities": "charmed, exhaustion, frightened, poisoned",
     "challengeRating": "24",
     "traits": [
       {
@@ -10997,6 +11405,9 @@
     "skills": "",
     "senses": "darkvision 30 ft., tremorsense 60 ft., passive Perception 10",
     "languages": "Kruthik",
+    "damageResistances": "",
+    "damageImmunities": "",
+    "conditionImmunities": "",
     "challengeRating": "1/8",
     "traits": [
       {
@@ -11061,6 +11472,9 @@
     "skills": "",
     "senses": "darkvision 60 ft., tremorsense 60 ft., passive Perception 15",
     "languages": "",
+    "damageResistances": "cold, fire, lightning, bludgeoning, piercing, slashing from nonmagical attacks",
+    "damageImmunities": "poison",
+    "conditionImmunities": "exhaustion, paralyzed, petrified, poisoned, stunned",
     "challengeRating": "22",
     "traits": [
       {
@@ -11196,6 +11610,9 @@
     "skills": "intimidation: +18, perception: +16",
     "senses": "darkvision 120 ft., passive Perception 26",
     "languages": "all, telepathy 120 ft.",
+    "damageResistances": "cold, fire, radiant, bludgeoning, piercing, slashing from nonmagical attacks that aren't silvered",
+    "damageImmunities": "necrotic, poison",
+    "conditionImmunities": "charmed, exhaustion, frightened, poisoned",
     "challengeRating": "26",
     "traits": [
       {
@@ -11314,6 +11731,9 @@
     "skills": "perception: +11",
     "senses": "truesight 120 ft., passive Perception 21",
     "languages": "all, telepathy 120 ft.",
+    "damageResistances": "cold, fire, lightning",
+    "damageImmunities": "poison, bludgeoning, piercing, slashing that is nonmagical",
+    "conditionImmunities": "charmed, exhaustion, frightened, poisoned",
     "challengeRating": "23",
     "traits": [
       {

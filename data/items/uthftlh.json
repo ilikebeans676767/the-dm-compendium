@@ -1,0 +1,24 @@
+[
+  {
+    "name": "Niko's Mace",
+    "source": "UtHftLH",
+    "sourceKey": "UTHFTLH",
+    "type": "Melee Weapon",
+    "rarity": "very rare",
+    "attunement": "Requires attunement by a spellcaster",
+    "weight": "4 lb.",
+    "value": "",
+    "valueRarity": "",
+    "weaponCategory": "simple",
+    "armorClass": "",
+    "damage": "1d6 bludgeoning",
+    "range": "",
+    "properties": [],
+    "mastery": [
+      "Sap|XPHB"
+    ],
+    "entries": [
+      "This Mace has 6 charges and regains 1d6 expended charges daily at dawn. While holding the Mace, you can expend 1 of its charges to cast Summon Celestial (+9 to hit with spell attacks)."
+    ]
+  }
+]

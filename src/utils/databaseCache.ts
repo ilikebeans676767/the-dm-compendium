@@ -5,8 +5,10 @@ import { normalizeSourceKey } from "../settings";
 
 const SPELL_SOURCE_LIST = require("../spell-source-list.json") as string[];
 const MONSTER_SOURCE_LIST = require("../monster-source-list.json") as string[];
+const ITEM_SOURCE_LIST = require("../item-source-list.json") as string[];
 const SPELL_SOURCE_SET = new Set(SPELL_SOURCE_LIST.map(normalizeSourceKey));
 const MONSTER_SOURCE_SET = new Set(MONSTER_SOURCE_LIST.map(normalizeSourceKey));
+const ITEM_SOURCE_SET = new Set(ITEM_SOURCE_LIST.map(normalizeSourceKey));
 const CACHE_METADATA_FILE = ".database-cache.json";
 
 interface SourceFilteredDatabaseFile {
@@ -28,6 +30,12 @@ const SOURCE_FILTERED_DATABASE_FILES: SourceFilteredDatabaseFile[] = [
     description: "monsters",
     sourceSet: MONSTER_SOURCE_SET,
     getSourceUrl: getBestiarySourceUrl,
+  },
+  {
+    name: "items.json",
+    description: "items",
+    sourceSet: ITEM_SOURCE_SET,
+    getSourceUrl: getItemSourceUrl,
   },
 ];
 
@@ -140,6 +148,10 @@ function getSpellSourceUrl(sourceKey: string) {
 
 function getBestiarySourceUrl(sourceKey: string) {
   return `https://api.github.com/repos/guykahalani/my-toolkit-plugin/contents/data/bestiary/${sourceKey.toLowerCase()}.json?ref=main`;
+}
+
+function getItemSourceUrl(sourceKey: string) {
+  return `https://api.github.com/repos/guykahalani/my-toolkit-plugin/contents/data/items/${sourceKey.toLowerCase()}.json?ref=main`;
 }
 
 async function hasFile(filePath: string): Promise<boolean> {
