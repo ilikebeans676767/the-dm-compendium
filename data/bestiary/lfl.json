@@ -47,19 +47,19 @@
       {
         "name": "Bite",
         "entries": [
-          "Melee Weapon Attack: 8, reach 5 ft. 14 (2d8 + 5) Piercing damage."
+          "*Melee Weapon Attack:* 8, reach 5 ft. *Hit:* 14 (2d8 + 5) Piercing damage."
         ]
       },
       {
         "name": "Miasmic Globule",
         "entries": [
-          "Ranged Weapon Attack: 8, range 60/120 ft. 15 (6d4) Acid damage, and the target's Speed is reduced by 10 feet until the end of the incarnation's next turn."
+          "*Ranged Weapon Attack:* 8, range 60/120 ft. *Hit:* 15 (6d4) Acid damage, and the target's Speed is reduced by 10 feet until the end of the incarnation's next turn."
         ]
       },
       {
         "name": "Spectral Stampede",
         "entries": [
-          "The incarnation moves up to 80 feet in a straight line. Each creature whose space the incarnation enters is targeted once by the following effect. dex DC 16. 18 (4d8) Force damage. If the target is the incarnation's size or smaller, it has the Prone condition. {@actSaveSuccess Half damage only."
+          "The incarnation moves up to 80 feet in a straight line. Each creature whose space the incarnation enters is targeted once by the following effect. *Dexterity Saving Throw:* DC 16. *Failure:* 18 (4d8) Force damage. If the target is the incarnation's size or smaller, it has the Prone condition. *Success:* Half damage only."
         ]
       }
     ],
@@ -131,13 +131,13 @@
       {
         "name": "Vine",
         "entries": [
-          "Melee Weapon Attack: 9, reach 20 ft. 18 (3d8 + 5) Bludgeoning damage. If the target is the incarnation's size or smaller, it has the Grappled condition (escape DC 15) from one of two vines."
+          "*Melee Weapon Attack:* 9, reach 20 ft. *Hit:* 18 (3d8 + 5) Bludgeoning damage. If the target is the incarnation's size or smaller, it has the Grappled condition (escape DC 15) from one of two vines."
         ]
       },
       {
         "name": "Radiant Blast",
         "entries": [
-          "con DC 17, each creature of the incarnation's choice in a 20-foot Emanation [Area of Effect] originating from the incarnation. The creature takes 14 (2d8 + 5) Radiant damage. {@actSaveSuccess Half damage."
+          "*Constitution Saving Throw:* DC 17, each creature of the incarnation's choice in a 20-foot Emanation [Area of Effect] originating from the incarnation. *Failure:* The creature takes 14 (2d8 + 5) Radiant damage. *Success:* Half damage."
         ]
       }
     ],
@@ -198,13 +198,13 @@
       {
         "name": "Stone Sword",
         "entries": [
-          "Melee Weapon Attack: 8, reach 15 ft. 21 (3d10 + 5) Slashing damage."
+          "*Melee Weapon Attack:* 8, reach 15 ft. *Hit:* 21 (3d10 + 5) Slashing damage."
         ]
       },
       {
         "name": "Boulder",
         "entries": [
-          "Ranged Weapon Attack: 8, range 60/240 ft. 14 (2d8 + 5) Bludgeoning damage. If the target is a Large or smaller creature, it has the Prone condition."
+          "*Ranged Weapon Attack:* 8, range 60/240 ft. *Hit:* 14 (2d8 + 5) Bludgeoning damage. If the target is a Large or smaller creature, it has the Prone condition."
         ]
       }
     ],
@@ -281,7 +281,7 @@
       {
         "name": "Spined Tail",
         "entries": [
-          "Melee Weapon or Ranged Weapon Attack: 6, reach 5 ft. or range 20/60 ft. 14 (3d6 + 4) Piercing damage."
+          "*Melee Weapon or Ranged Weapon Attack:* 6, reach 5 ft. or range 20/60 ft. *Hit:* 14 (3d6 + 4) Piercing damage."
         ]
       }
     ],
@@ -336,19 +336,19 @@
       {
         "name": "Coral Scepter",
         "entries": [
-          "Melee Weapon Attack: 7, reach 5 ft. 14 (2d10 + 4) Bludgeoning damage."
+          "*Melee Weapon Attack:* 7, reach 5 ft. *Hit:* 14 (2d10 + 4) Bludgeoning damage."
         ]
       },
       {
         "name": "Poisoned Longbow",
         "entries": [
-          "Ranged Weapon Attack: 7, range 150/600 ft. 8 (1d8 + 4) Piercing damage plus 7 (2d6) Poison damage."
+          "*Ranged Weapon Attack:* 7, range 150/600 ft. *Hit:* 8 (1d8 + 4) Piercing damage plus 7 (2d6) Poison damage."
         ]
       },
       {
         "name": "Invective",
         "entries": [
-          "wis DC 15, up to three creatures the merrow can see within 60 feet. 14 (4d6) Psychic damage, and the creature has Disadvantage on its next attack roll before the end of the merrow's next turn. {@actSaveSuccess Half damage only."
+          "*Wisdom Saving Throw:* DC 15, up to three creatures the merrow can see within 60 feet. *Failure:* 14 (4d6) Psychic damage, and the creature has Disadvantage on its next attack roll before the end of the merrow's next turn. *Success:* Half damage only."
         ]
       }
     ],
@@ -397,7 +397,7 @@
       {
         "name": "Sabotaging Swipe",
         "entries": [
-          "Melee Weapon Attack: 4, reach 5 ft. 6 (1d8 + 2) Slashing damage. If the target is wearing armor, it is subjected to the following effect. dex DC 12. The armor takes a -1 penalty to the AC it offers. The target can take an action to remove the penalty from its armor."
+          "*Melee Weapon Attack:* 4, reach 5 ft. *Hit:* 6 (1d8 + 2) Slashing damage. If the target is wearing armor, it is subjected to the following effect. *Dexterity Saving Throw:* DC 12. *Failure:* The armor takes a -1 penalty to the AC it offers. The target can take an action to remove the penalty from its armor."
         ]
       }
     ],
@@ -459,13 +459,13 @@
       {
         "name": "Noggling Stick",
         "entries": [
-          "Melee Weapon Attack: 5, reach 5 ft. 5 (1d4 + 3) Bludgeoning damage plus 2 (1d4) Psychic damage."
+          "*Melee Weapon Attack:* 5, reach 5 ft. *Hit:* 5 (1d4 + 3) Bludgeoning damage plus 2 (1d4) Psychic damage."
         ]
       },
       {
         "name": "Befuddling Ray",
         "entries": [
-          "Ranged Weapon Attack: 5, range 60 ft. 6 (1d6 + 3) Psychic damage, and the target subtracts 1d4 from the next saving throw it makes before the end of the noggle's next turn."
+          "*Ranged Weapon Attack:* 5, range 60 ft. *Hit:* 6 (1d6 + 3) Psychic damage, and the target subtracts 1d4 from the next saving throw it makes before the end of the noggle's next turn."
         ]
       }
     ],
@@ -513,19 +513,19 @@
       {
         "name": "Tree Club",
         "entries": [
-          "Melee Weapon Attack: 9, reach 15 ft. 17 (2d10 + 6) Bludgeoning damage."
+          "*Melee Weapon Attack:* 9, reach 15 ft. *Hit:* 17 (2d10 + 6) Bludgeoning damage."
         ]
       },
       {
         "name": "Boulder",
         "entries": [
-          "Ranged Weapon Attack: 9, range 60/240 ft. 13 (2d6 + 6) Bludgeoning damage. If the target is a Large or smaller creature, it has the Prone condition."
+          "*Ranged Weapon Attack:* 9, range 60/240 ft. *Hit:* 13 (2d6 + 6) Bludgeoning damage. If the target is a Large or smaller creature, it has the Prone condition."
         ]
       },
       {
         "name": "Wild Magic Cataclysm 5",
         "entries": [
-          "dex DC 15, each creature in a 20-foot-radius Sphere [Area of Effect] centered on a point within 120 feet. 28 (8d6) damage (roll 1d4 to determine damage type: 1—Acid; 2—Fire; 3—Lightning; 4—Thunder). {@actSaveSuccess Half damage."
+          "*Dexterity Saving Throw:* DC 15, each creature in a 20-foot-radius Sphere [Area of Effect] centered on a point within 120 feet. *Failure:* 28 (8d6) damage (roll 1d4 to determine damage type: 1—Acid; 2—Fire; 3—Lightning; 4—Thunder). *Success:* Half damage."
         ]
       }
     ],

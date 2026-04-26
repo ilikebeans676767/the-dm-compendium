@@ -113,7 +113,7 @@
       {
         "name": "Tentacle Slam",
         "entries": [
-          "Melee Weapon Attack: 9 to hit, reach 5 ft., one target. 12 (2d6 + 5) bludgeoning damage."
+          "*Melee Weapon Attack:* 9 to hit, reach 5 ft., one target. *Hit:* 12 (2d6 + 5) bludgeoning damage."
         ]
       }
     ],
@@ -269,7 +269,7 @@
       {
         "name": "Shortsword",
         "entries": [
-          "Melee Weapon Attack: 4 to hit, reach 5 ft., one target. 5 (1d6 + 2) piercing damage."
+          "*Melee Weapon Attack:* 4 to hit, reach 5 ft., one target. *Hit:* 5 (1d6 + 2) piercing damage."
         ]
       }
     ],
@@ -409,7 +409,7 @@
       {
         "name": "Quarterstaff",
         "entries": [
-          "Melee Weapon Attack: 2 to hit, reach 5 ft., one target. 3 (1d6) bludgeoning damage."
+          "*Melee Weapon Attack:* 2 to hit, reach 5 ft., one target. *Hit:* 3 (1d6) bludgeoning damage."
         ]
       }
     ],
@@ -523,13 +523,13 @@
       {
         "name": "Glass Longsword",
         "entries": [
-          "Melee Weapon Attack: 4 to hit, reach 5 ft., one creature. 6 (1d8 + 2) slashing damage. If a 1 is rolled on an attack roll with a glass longsword, it shatters and can no longer be used."
+          "*Melee Weapon Attack:* 4 to hit, reach 5 ft., one creature. *Hit:* 6 (1d8 + 2) slashing damage. If a 1 is rolled on an attack roll with a glass longsword, it shatters and can no longer be used."
         ]
       },
       {
         "name": "Pseudopod",
         "entries": [
-          "Melee Weapon Attack: 4 to hit, reach 5 ft., one creature. 5 (1d6 + 2) acid damage."
+          "*Melee Weapon Attack:* 4 to hit, reach 5 ft., one creature. *Hit:* 5 (1d6 + 2) acid damage."
         ]
       }
     ],

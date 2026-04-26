@@ -48,13 +48,13 @@
       {
         "name": "Branding Iron",
         "entries": [
-          "Melee Weapon Attack: 7 to hit, reach 5 ft., one target. 10 (3d6) fire damage, and the target is magically branded. Agdon is invisible to creatures branded in this way. The brand disappears after 24 hours, or it can be removed from a creature or object by any spell that ends a curse."
+          "*Melee Weapon Attack:* 7 to hit, reach 5 ft., one target. *Hit:* 10 (3d6) fire damage, and the target is magically branded. Agdon is invisible to creatures branded in this way. The brand disappears after 24 hours, or it can be removed from a creature or object by any spell that ends a curse."
         ]
       },
       {
         "name": "Dagger",
         "entries": [
-          "Melee Weapon or Ranged Weapon Attack: 7 to hit, reach 5 ft. or range 20/60 ft., one target. 7 (1d4 + 5) piercing damage."
+          "*Melee Weapon or Ranged Weapon Attack:* 7 to hit, reach 5 ft. or range 20/60 ft., one target. *Hit:* 7 (1d4 + 5) piercing damage."
         ]
       }
     ],
@@ -128,7 +128,7 @@
       {
         "name": "Unarmed Strike",
         "entries": [
-          "Melee Weapon Attack: 5 to hit, reach 5 ft., one target. 4 bludgeoning damage."
+          "*Melee Weapon Attack:* 5 to hit, reach 5 ft., one target. *Hit:* 4 bludgeoning damage."
         ]
       },
       {
@@ -182,13 +182,13 @@
       {
         "name": "Rapier",
         "entries": [
-          "Melee Weapon Attack: 4 to hit, reach 5 ft., one target. 6 (1d8 + 2) piercing damage."
+          "*Melee Weapon Attack:* 4 to hit, reach 5 ft., one target. *Hit:* 6 (1d8 + 2) piercing damage."
         ]
       },
       {
         "name": "Seed Sling",
         "entries": [
-          "Ranged Weapon Attack: 4 to hit, range 30/120 ft., one target. 4 (1d4 + 2) bludgeoning damage."
+          "*Ranged Weapon Attack:* 4 to hit, range 30/120 ft., one target. *Hit:* 4 (1d4 + 2) bludgeoning damage."
         ]
       }
     ],
@@ -272,13 +272,13 @@
       {
         "name": "Bite",
         "entries": [
-          "Melee Weapon Attack: 9 to hit, reach 5 ft., one target. 13 (2d6 + 6) piercing damage, and the target is grappled (escape DC 16) if it is a Medium or smaller creature. Until the grapple ends, the target is restrained, and Bavlorna can't use her Bite attack on another target."
+          "*Melee Weapon Attack:* 9 to hit, reach 5 ft., one target. *Hit:* 13 (2d6 + 6) piercing damage, and the target is grappled (escape DC 16) if it is a Medium or smaller creature. Until the grapple ends, the target is restrained, and Bavlorna can't use her Bite attack on another target."
         ]
       },
       {
         "name": "Withering Ray",
         "entries": [
-          "Ranged Spell Attack: 6 to hit, range 60 ft., one target. 17 (4d6 + 3) necrotic damage."
+          "*Ranged Spell Attack:* 6 to hit, range 60 ft., one target. *Hit:* 17 (4d6 + 3) necrotic damage."
         ]
       },
       {
@@ -362,7 +362,7 @@
       {
         "name": "Pickaxe",
         "entries": [
-          "Melee Weapon Attack: 4 to hit, reach 5 ft., one target. 4 (1d4 + 2) piercing damage."
+          "*Melee Weapon Attack:* 4 to hit, reach 5 ft., one target. *Hit:* 4 (1d4 + 2) piercing damage."
         ]
       },
       {
@@ -441,7 +441,7 @@
       {
         "name": "Glaive",
         "entries": [
-          "Melee Weapon Attack: 5 to hit, reach 10 ft., one target. 8 (1d10 + 3) slashing damage."
+          "*Melee Weapon Attack:* 5 to hit, reach 10 ft., one target. *Hit:* 8 (1d10 + 3) slashing damage."
         ]
       }
     ],
@@ -496,7 +496,7 @@
       {
         "name": "Head Butt",
         "entries": [
-          "Melee Weapon Attack: 0 to hit, reach 5 ft., one target. 1 bludgeoning damage."
+          "*Melee Weapon Attack:* 0 to hit, reach 5 ft., one target. *Hit:* 1 bludgeoning damage."
         ]
       },
       {
@@ -550,7 +550,7 @@
       {
         "name": "Claws",
         "entries": [
-          "Melee Weapon Attack: 5 to hit, reach 5 ft., one target. 7 (2d4 + 2) slashing damage."
+          "*Melee Weapon Attack:* 5 to hit, reach 5 ft., one target. *Hit:* 7 (2d4 + 2) slashing damage."
         ]
       },
       {
@@ -597,7 +597,7 @@
       {
         "name": "Strength Drain",
         "entries": [
-          "Melee Weapon Attack: 4 to hit, reach 5 ft., one creature. 9 (2d6 + 2) necrotic damage, and the target's Strength score is reduced by 1d4. The target falls unconscious if this reduces its Strength to 0. The creature regains consciousness and the reduction to its Strength score disappears after it finishes a short or long rest."
+          "*Melee Weapon Attack:* 4 to hit, reach 5 ft., one creature. *Hit:* 9 (2d6 + 2) necrotic damage, and the target's Strength score is reduced by 1d4. The target falls unconscious if this reduces its Strength to 0. The creature regains consciousness and the reduction to its Strength score disappears after it finishes a short or long rest."
         ]
       }
     ],
@@ -645,7 +645,7 @@
       {
         "name": "Tentacles",
         "entries": [
-          "Melee Weapon Attack: 3 to hit, reach 5 ft., one target. 2 bludgeoning damage plus 2 piercing damage."
+          "*Melee Weapon Attack:* 3 to hit, reach 5 ft., one target. *Hit:* 2 bludgeoning damage plus 2 piercing damage."
         ]
       }
     ],
@@ -699,13 +699,13 @@
       {
         "name": "Dagger",
         "entries": [
-          "Melee Weapon or Ranged Weapon Attack: 3 to hit, reach 5 ft. or range 20/60 ft., one target. 3 (1d4 + 1) piercing damage. If the target is a creature that is Large or bigger, it takes an extra 5 (1d10) piercing damage."
+          "*Melee Weapon or Ranged Weapon Attack:* 3 to hit, reach 5 ft. or range 20/60 ft., one target. *Hit:* 3 (1d4 + 1) piercing damage. If the target is a creature that is Large or bigger, it takes an extra 5 (1d10) piercing damage."
         ]
       },
       {
         "name": "+1 Longsword",
         "entries": [
-          "Melee Weapon Attack: 2 to hit, reach 5 ft., one target. 4 (1d8) slashing damage, or 5 (1d10) slashing damage when used with two hands. If the target is a creature that is Large or bigger, it takes an extra 5 (1d10) slashing damage."
+          "*Melee Weapon Attack:* 2 to hit, reach 5 ft., one target. *Hit:* 4 (1d8) slashing damage, or 5 (1d10) slashing damage when used with two hands. If the target is a creature that is Large or bigger, it takes an extra 5 (1d10) slashing damage."
         ]
       }
     ],
@@ -795,7 +795,7 @@
       {
         "name": "Puppeteer's Lash",
         "entries": [
-          "Melee Spell or Ranged Spell Attack: 6 to hit, reach 5 ft. or range 60 ft., one creature. 17 (4d6 + 3) psychic damage, and if the target is Large or smaller, Endelyn telekinetically moves it up to 10 feet in any direction horizontally."
+          "*Melee Spell or Ranged Spell Attack:* 6 to hit, reach 5 ft. or range 60 ft., one creature. *Hit:* 17 (4d6 + 3) psychic damage, and if the target is Large or smaller, Endelyn telekinetically moves it up to 10 feet in any direction horizontally."
         ]
       }
     ],
@@ -843,13 +843,13 @@
       {
         "name": "Bite",
         "entries": [
-          "Melee Weapon Attack: 8 to hit, reach 5 ft., one target. 18 (2d12 + 5) piercing damage."
+          "*Melee Weapon Attack:* 8 to hit, reach 5 ft., one target. *Hit:* 18 (2d12 + 5) piercing damage."
         ]
       },
       {
         "name": "Claws",
         "entries": [
-          "Melee Weapon Attack: 8 to hit, reach 5 ft., one target. 16 (2d10 + 5) bludgeoning damage."
+          "*Melee Weapon Attack:* 8 to hit, reach 5 ft., one target. *Hit:* 16 (2d10 + 5) bludgeoning damage."
         ]
       },
       {
@@ -915,7 +915,7 @@
       {
         "name": "Head Butt",
         "entries": [
-          "Melee Weapon Attack: 2 to hit, reach 5 ft., one target. 3 (1d6) bludgeoning damage."
+          "*Melee Weapon Attack:* 2 to hit, reach 5 ft., one target. *Hit:* 3 (1d6) bludgeoning damage."
         ]
       }
     ],
@@ -963,7 +963,7 @@
       {
         "name": "Bite",
         "entries": [
-          "Melee Weapon Attack: 6 to hit, reach 5 ft., one target. 6 (1d4 + 4) piercing damage."
+          "*Melee Weapon Attack:* 6 to hit, reach 5 ft., one target. *Hit:* 6 (1d4 + 4) piercing damage."
         ]
       }
     ],
@@ -1018,7 +1018,7 @@
       {
         "name": "Slam",
         "entries": [
-          "Melee Weapon Attack: 4 to hit, reach 5 ft., one target. 5 (1d6 + 2) bludgeoning damage."
+          "*Melee Weapon Attack:* 4 to hit, reach 5 ft., one target. *Hit:* 5 (1d6 + 2) bludgeoning damage."
         ]
       },
       {
@@ -1078,7 +1078,7 @@
       {
         "name": "Beak",
         "entries": [
-          "Melee Weapon Attack: 5 to hit, reach 5 ft., one target. 6 (1d6 + 3) piercing damage."
+          "*Melee Weapon Attack:* 5 to hit, reach 5 ft., one target. *Hit:* 6 (1d6 + 3) piercing damage."
         ]
       }
     ],
@@ -1119,7 +1119,7 @@
       {
         "name": "Hooves",
         "entries": [
-          "Melee Weapon Attack: 6 to hit, reach 5 ft., one target. 11 (2d6 + 4) bludgeoning damage."
+          "*Melee Weapon Attack:* 6 to hit, reach 5 ft., one target. *Hit:* 11 (2d6 + 4) bludgeoning damage."
         ]
       }
     ],
@@ -1191,7 +1191,7 @@
       {
         "name": "Glass Sword",
         "entries": [
-          "Melee Weapon Attack: 3 to hit, reach 5 ft., one target. 5 (1d8 + 1) slashing damage."
+          "*Melee Weapon Attack:* 3 to hit, reach 5 ft., one target. *Hit:* 5 (1d8 + 1) slashing damage."
         ]
       }
     ],
@@ -1246,7 +1246,7 @@
       {
         "name": "Claws",
         "entries": [
-          "Melee Weapon Attack: 0 to hit, reach 5 ft., one target. 1 slashing damage."
+          "*Melee Weapon Attack:* 0 to hit, reach 5 ft., one target. *Hit:* 1 slashing damage."
         ]
       },
       {
@@ -1306,13 +1306,13 @@
       {
         "name": "Club",
         "entries": [
-          "Melee Weapon Attack: 4 to hit, reach 5 ft., one target. 4 (1d4 + 2) bludgeoning damage."
+          "*Melee Weapon Attack:* 4 to hit, reach 5 ft., one target. *Hit:* 4 (1d4 + 2) bludgeoning damage."
         ]
       },
       {
         "name": "Sling",
         "entries": [
-          "Ranged Weapon Attack: 5 to hit, range 30/120 ft., one target. 5 (1d4 + 3) bludgeoning damage."
+          "*Ranged Weapon Attack:* 5 to hit, range 30/120 ft., one target. *Hit:* 5 (1d4 + 3) bludgeoning damage."
         ]
       }
     ],
@@ -1360,13 +1360,13 @@
       {
         "name": "Club",
         "entries": [
-          "Melee Weapon Attack: 2 to hit, reach 5 ft., one target. 2 (1d4) bludgeoning damage."
+          "*Melee Weapon Attack:* 2 to hit, reach 5 ft., one target. *Hit:* 2 (1d4) bludgeoning damage."
         ]
       },
       {
         "name": "Light Crossbow",
         "entries": [
-          "Ranged Weapon Attack: 5 to hit (the target gains no benefit from less than Cover), range 320 ft., one target. 7 (1d8 + 3) piercing damage. Immediately after making this attack, the harengon can use the Hide action."
+          "*Ranged Weapon Attack:* 5 to hit (the target gains no benefit from less than Cover), range 320 ft., one target. *Hit:* 7 (1d8 + 3) piercing damage. Immediately after making this attack, the harengon can use the Hide action."
         ]
       }
     ],
@@ -1449,7 +1449,7 @@
       {
         "name": "Bewitching Bolt",
         "entries": [
-          "Melee Spell or Ranged Spell Attack: 16 to hit, reach 5 ft. or range 120 ft., one target. 25 (5d6 + 8) lightning damage, and if the target is a creature, it must succeed on a DC 22 Wisdom saving throw or be charmed by Iggwilv until the start of her next turn."
+          "*Melee Spell or Ranged Spell Attack:* 16 to hit, reach 5 ft. or range 120 ft., one target. *Hit:* 25 (5d6 + 8) lightning damage, and if the target is a creature, it must succeed on a DC 22 Wisdom saving throw or be charmed by Iggwilv until the start of her next turn."
         ]
       },
       {
@@ -1561,13 +1561,13 @@
       {
         "name": "Rend",
         "entries": [
-          "Melee Weapon Attack: 10 to hit, reach 10 ft., one target. 21 (3d10 + 5) slashing damage."
+          "*Melee Weapon Attack:* 10 to hit, reach 10 ft., one target. *Hit:* 21 (3d10 + 5) slashing damage."
         ]
       },
       {
         "name": "Tail",
         "entries": [
-          "Melee Weapon Attack: 10 to hit, reach 15 ft., one target. 10 (1d10 + 5) bludgeoning damage."
+          "*Melee Weapon Attack:* 10 to hit, reach 15 ft., one target. *Hit:* 10 (1d10 + 5) bludgeoning damage."
         ]
       },
       {
@@ -1640,7 +1640,7 @@
       {
         "name": "Flail of Locks",
         "entries": [
-          "Melee Weapon Attack: 5 to hit, reach 5 ft., one target. 7 (3d4) bludgeoning damage."
+          "*Melee Weapon Attack:* 5 to hit, reach 5 ft., one target. *Hit:* 7 (3d4) bludgeoning damage."
         ]
       }
     ],
@@ -1704,13 +1704,13 @@
       {
         "name": "Sorcerer's Bolt",
         "entries": [
-          "Melee Spell or Ranged Spell Attack: 6 to hit, reach 5 ft. or range 60 ft., one target. 13 (2d12) force damage."
+          "*Melee Spell or Ranged Spell Attack:* 6 to hit, reach 5 ft. or range 60 ft., one target. *Hit:* 13 (2d12) force damage."
         ]
       },
       {
         "name": "Staff of Striking",
         "entries": [
-          "Melee Weapon Attack: 8 to hit, reach 5 ft., one target. 8 (1d6 + 5) bludgeoning damage, or 9 (1d8 + 5) bludgeoning damage when used with two hands, and Kelek can expend up to 3 of the staff's charges, dealing an extra 3 (1d6) force damage for each expended charge."
+          "*Melee Weapon Attack:* 8 to hit, reach 5 ft., one target. *Hit:* 8 (1d6 + 5) bludgeoning damage, or 9 (1d8 + 5) bludgeoning damage when used with two hands, and Kelek can expend up to 3 of the staff's charges, dealing an extra 3 (1d6) force damage for each expended charge."
         ]
       },
       {
@@ -1787,7 +1787,7 @@
       {
         "name": "Dagger",
         "entries": [
-          "Melee Weapon or Ranged Weapon Attack: 5 to hit, reach 5 ft. or range 20/60 ft., one target. 5 (1d4 + 3) piercing damage."
+          "*Melee Weapon or Ranged Weapon Attack:* 5 to hit, reach 5 ft. or range 20/60 ft., one target. *Hit:* 5 (1d4 + 3) piercing damage."
         ]
       },
       {
@@ -1853,7 +1853,7 @@
       {
         "name": "Grabby Hands",
         "entries": [
-          "Melee Weapon Attack: 2 to hit, reach 5 ft., one creature. The target is grappled (escape DC 6) and takes 11 (2d10) psychic damage at the start of each of its turns until this grapple ends. The doll can grapple only one creature at a time."
+          "*Melee Weapon Attack:* 2 to hit, reach 5 ft., one creature. *Hit:* The target is grappled (escape DC 6) and takes 11 (2d10) psychic damage at the start of each of its turns until this grapple ends. The doll can grapple only one creature at a time."
         ]
       }
     ],
@@ -1925,13 +1925,13 @@
       {
         "name": "Divine Radiance",
         "entries": [
-          "Melee Spell or Ranged Spell Attack: 5 to hit, reach 5 ft. or range 60 ft., one target. 13 (3d8) radiant damage."
+          "*Melee Spell or Ranged Spell Attack:* 5 to hit, reach 5 ft. or range 60 ft., one target. *Hit:* 13 (3d8) radiant damage."
         ]
       },
       {
         "name": "+1 Quarterstaff",
         "entries": [
-          "Melee Weapon Attack: 4 to hit, reach 5 ft., one target. 6 (1d6 + 3) bludgeoning damage, or 7 (1d8 + 3) bludgeoning damage when used with two hands."
+          "*Melee Weapon Attack:* 4 to hit, reach 5 ft., one target. *Hit:* 6 (1d6 + 3) bludgeoning damage, or 7 (1d8 + 3) bludgeoning damage when used with two hands."
         ]
       },
       {
@@ -2006,7 +2006,7 @@
       {
         "name": "Witchlight Vane",
         "entries": [
-          "Melee Weapon Attack: 5 to hit, reach 5 ft., one target. 6 (1d6 + 3) bludgeoning damage plus 4 (1d8) radiant damage."
+          "*Melee Weapon Attack:* 5 to hit, reach 5 ft., one target. *Hit:* 6 (1d6 + 3) bludgeoning damage plus 4 (1d8) radiant damage."
         ]
       }
     ],
@@ -2082,7 +2082,7 @@
       {
         "name": "Cane",
         "entries": [
-          "Melee Weapon Attack: 4 to hit, reach 5 ft., one target. 4 (1d4 + 2) bludgeoning damage plus 6 (1d12) necrotic damage."
+          "*Melee Weapon Attack:* 4 to hit, reach 5 ft., one target. *Hit:* 4 (1d4 + 2) bludgeoning damage plus 6 (1d12) necrotic damage."
         ]
       }
     ],
@@ -2149,13 +2149,13 @@
       {
         "name": "Dagger",
         "entries": [
-          "Melee Weapon or Ranged Weapon Attack: 5 to hit, reach 5 ft. or range 20/60 ft., one target. 5 (1d4 + 3) piercing damage. The attack deals an extra 7 (2d6) piercing damage if Molliver has advantage on the attack roll or if the target is within 5 feet of one of Molliver's allies."
+          "*Melee Weapon or Ranged Weapon Attack:* 5 to hit, reach 5 ft. or range 20/60 ft., one target. *Hit:* 5 (1d4 + 3) piercing damage. The attack deals an extra 7 (2d6) piercing damage if Molliver has advantage on the attack roll or if the target is within 5 feet of one of Molliver's allies."
         ]
       },
       {
         "name": "Shortsword",
         "entries": [
-          "Melee Weapon Attack: 5 to hit, reach 5 ft., one creature. 6 (1d6 + 3) piercing damage. The attack deals an extra 7 (2d6) piercing damage if Molliver has advantage on the attack roll or if the target is within 5 feet of one of Molliver's allies."
+          "*Melee Weapon Attack:* 5 to hit, reach 5 ft., one creature. *Hit:* 6 (1d6 + 3) piercing damage. The attack deals an extra 7 (2d6) piercing damage if Molliver has advantage on the attack roll or if the target is within 5 feet of one of Molliver's allies."
         ]
       },
       {
@@ -2216,7 +2216,7 @@
       {
         "name": "Sharp Edges",
         "entries": [
-          "Melee Weapon Attack: 5 to hit, reach 5 ft., one target. 1 slashing damage."
+          "*Melee Weapon Attack:* 5 to hit, reach 5 ft., one target. *Hit:* 1 slashing damage."
         ]
       }
     ],
@@ -2257,7 +2257,7 @@
       {
         "name": "Sting",
         "entries": [
-          "Melee Weapon Attack: 5 to hit, reach 5 ft., one target. 3 piercing damage."
+          "*Melee Weapon Attack:* 5 to hit, reach 5 ft., one target. *Hit:* 3 piercing damage."
         ]
       }
     ],
@@ -2323,13 +2323,13 @@
       {
         "name": "Shortsword",
         "entries": [
-          "Melee Weapon Attack: 4 to hit, reach 5 ft., one target. 5 (1d6 + 2) piercing damage."
+          "*Melee Weapon Attack:* 4 to hit, reach 5 ft., one target. *Hit:* 5 (1d6 + 2) piercing damage."
         ]
       },
       {
         "name": "Hand Crossbow",
         "entries": [
-          "Ranged Weapon Attack: 4 to hit, range 30/120 ft., one target. 5 (1d6 + 2) piercing damage."
+          "*Ranged Weapon Attack:* 4 to hit, range 30/120 ft., one target. *Hit:* 5 (1d6 + 2) piercing damage."
         ]
       }
     ],
@@ -2394,13 +2394,13 @@
       {
         "name": "Staff of Power",
         "entries": [
-          "Melee Weapon Attack: 4 to hit, reach 5 ft., one target. 4 (1d6 + 1) bludgeoning damage, or 5 (1d8 + 1) bludgeoning damage when used with two hands, and Ringlerun can expend 1 of the staff's charges to deal an extra 3 (1d6) force damage."
+          "*Melee Weapon Attack:* 4 to hit, reach 5 ft., one target. *Hit:* 4 (1d6 + 1) bludgeoning damage, or 5 (1d8 + 1) bludgeoning damage when used with two hands, and Ringlerun can expend 1 of the staff's charges to deal an extra 3 (1d6) force damage."
         ]
       },
       {
         "name": "Freezing Ray",
         "entries": [
-          "Ranged Spell Attack: 8 to hit, range 120 ft., one creature. 27 (6d8) cold damage."
+          "*Ranged Spell Attack:* 8 to hit, range 120 ft., one creature. *Hit:* 27 (6d8) cold damage."
         ]
       },
       {
@@ -2466,19 +2466,19 @@
       {
         "name": "Dagger",
         "entries": [
-          "Melee Weapon or Ranged Weapon Attack: 6 to hit, reach 5 ft. or range 20/60 ft., one target. 6 (1d4 + 4) piercing damage."
+          "*Melee Weapon or Ranged Weapon Attack:* 6 to hit, reach 5 ft. or range 20/60 ft., one target. *Hit:* 6 (1d4 + 4) piercing damage."
         ]
       },
       {
         "name": "Moon Ray (Gleam Only; 3/Day)",
         "entries": [
-          "Ranged Spell Attack: 5 to hit, range 60 ft., one creature. 12 (2d8 + 3) radiant damage, and the target must succeed on a DC 13 Wisdom saving throw or be transformed into a bat for 1 minute, as though affected by a polymorph spell. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+          "*Ranged Spell Attack:* 5 to hit, range 60 ft., one creature. *Hit:* 12 (2d8 + 3) radiant damage, and the target must succeed on a DC 13 Wisdom saving throw or be transformed into a bat for 1 minute, as though affected by a polymorph spell. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
         ]
       },
       {
         "name": "Sun Ray (Glister Only; 3/Day)",
         "entries": [
-          "Ranged Spell Attack: 5 to hit, range 60 ft., one creature. 12 (2d8 + 3) radiant damage, and the target must succeed on a DC 13 Wisdom saving throw or be blinded for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+          "*Ranged Spell Attack:* 5 to hit, range 60 ft., one creature. *Hit:* 12 (2d8 + 3) radiant damage, and the target must succeed on a DC 13 Wisdom saving throw or be blinded for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
         ]
       },
       {
@@ -2553,13 +2553,13 @@
       {
         "name": "+1 Tiny Sword",
         "entries": [
-          "Melee Weapon Attack: 8 to hit, reach 5 ft., one target. 8 (1d4 + 6) piercing damage."
+          "*Melee Weapon Attack:* 8 to hit, reach 5 ft., one target. *Hit:* 8 (1d4 + 6) piercing damage."
         ]
       },
       {
         "name": "Bite",
         "entries": [
-          "Melee Weapon Attack: 7 to hit, reach 5 ft., one creature. 1 piercing damage."
+          "*Melee Weapon Attack:* 7 to hit, reach 5 ft., one creature. *Hit:* 1 piercing damage."
         ]
       },
       {
@@ -2637,7 +2637,7 @@
       {
         "name": "Claw",
         "entries": [
-          "Melee Weapon Attack: 7 to hit, reach 5 ft., one creature. 25 (6d6 + 4) poison damage."
+          "*Melee Weapon Attack:* 7 to hit, reach 5 ft., one creature. *Hit:* 25 (6d6 + 4) poison damage."
         ]
       }
     ],
@@ -2708,7 +2708,7 @@
       {
         "name": "Eldritch Staff",
         "entries": [
-          "Melee Weapon Attack: 2 to hit, reach 5 ft., one target. 3 (1d6) bludgeoning damage, or 4 (1d8) bludgeoning damage when used with two hands, and Skylla can expend up to 3 of the staff's charges, dealing an extra 4 (1d8) lightning damage for each expended charge."
+          "*Melee Weapon Attack:* 2 to hit, reach 5 ft., one target. *Hit:* 3 (1d6) bludgeoning damage, or 4 (1d8) bludgeoning damage when used with two hands, and Skylla can expend up to 3 of the staff's charges, dealing an extra 4 (1d8) lightning damage for each expended charge."
         ]
       }
     ],
@@ -2769,7 +2769,7 @@
       {
         "name": "Slam",
         "entries": [
-          "Melee Weapon Attack: 4 to hit, reach 5 ft., one target. 4 (1d4 + 2) bludgeoning damage."
+          "*Melee Weapon Attack:* 4 to hit, reach 5 ft., one target. *Hit:* 4 (1d4 + 2) bludgeoning damage."
         ]
       },
       {
@@ -2839,7 +2839,7 @@
       {
         "name": "Steel",
         "entries": [
-          "Melee Weapon Attack: 6 to hit, reach 5 ft., one target. 8 (1d8 + 4) slashing damage, or 9 (1d10 + 4) slashing damage when used with two hands. Once on each of his turns, Strongheart can also cause the blade to gleam with holy light. If he does so, the target is blinded until the start of Strongheart's next turn."
+          "*Melee Weapon Attack:* 6 to hit, reach 5 ft., one target. *Hit:* 8 (1d8 + 4) slashing damage, or 9 (1d10 + 4) slashing damage when used with two hands. Once on each of his turns, Strongheart can also cause the blade to gleam with holy light. If he does so, the target is blinded until the start of Strongheart's next turn."
         ]
       },
       {
@@ -2906,7 +2906,7 @@
       {
         "name": "Head Butts",
         "entries": [
-          "Melee Weapon Attack: 0 to hit, reach 5 ft., one target. 10 (4d4) bludgeoning damage, or 5 (2d4) bludgeoning damage if the swarm has half its hit points or fewer."
+          "*Melee Weapon Attack:* 0 to hit, reach 5 ft., one target. *Hit:* 10 (4d4) bludgeoning damage, or 5 (2d4) bludgeoning damage if the swarm has half its hit points or fewer."
         ]
       },
       {
@@ -2999,7 +2999,7 @@
       {
         "name": "Slam",
         "entries": [
-          "Melee Weapon Attack: 4 to hit, reach 5 ft., one target. 5 (1d6 + 2) bludgeoning damage."
+          "*Melee Weapon Attack:* 4 to hit, reach 5 ft., one target. *Hit:* 5 (1d6 + 2) bludgeoning damage."
         ]
       }
     ],
@@ -3053,13 +3053,13 @@
       {
         "name": "Slam",
         "entries": [
-          "Melee Weapon Attack: 5 to hit, reach 5 ft., one target. 8 (1d10 + 3) bludgeoning damage."
+          "*Melee Weapon Attack:* 5 to hit, reach 5 ft., one target. *Hit:* 8 (1d10 + 3) bludgeoning damage."
         ]
       },
       {
         "name": "Rock",
         "entries": [
-          "Ranged Weapon Attack: 5 to hit, range 20/60 ft., one target. 14 (2d10 + 3) bludgeoning damage."
+          "*Ranged Weapon Attack:* 5 to hit, range 20/60 ft., one target. *Hit:* 14 (2d10 + 3) bludgeoning damage."
         ]
       },
       {
@@ -3119,13 +3119,13 @@
       {
         "name": "Flame Tongue",
         "entries": [
-          "Melee Weapon Attack: 6 to hit, reach 5 ft., one target. 7 (1d8 + 3) slashing damage, or 8 (1d10 + 3) slashing damage when used with two hands, plus 7 (2d6) fire damage if the weapon is aflame."
+          "*Melee Weapon Attack:* 6 to hit, reach 5 ft., one target. *Hit:* 7 (1d8 + 3) slashing damage, or 8 (1d10 + 3) slashing damage when used with two hands, plus 7 (2d6) fire damage if the weapon is aflame."
         ]
       },
       {
         "name": "Dagger",
         "entries": [
-          "Melee Weapon or Ranged Weapon Attack: 6 to hit, reach 5 ft. or range 20/60 ft., one target. 5 (1d4 + 3) piercing damage."
+          "*Melee Weapon or Ranged Weapon Attack:* 6 to hit, reach 5 ft. or range 20/60 ft., one target. *Hit:* 5 (1d4 + 3) piercing damage."
         ]
       }
     ],
@@ -3222,7 +3222,7 @@
       {
         "name": "Dagger",
         "entries": [
-          "Melee Weapon or Ranged Weapon Attack: 4 to hit, reach 5 ft. or range 20/60 ft., one target. 4 (1d4 + 2) piercing damage."
+          "*Melee Weapon or Ranged Weapon Attack:* 4 to hit, reach 5 ft. or range 20/60 ft., one target. *Hit:* 4 (1d4 + 2) piercing damage."
         ]
       },
       {
@@ -3308,13 +3308,13 @@
       {
         "name": "Dagger",
         "entries": [
-          "Melee Weapon or Ranged Weapon Attack: 5 to hit, reach 5 ft. or range 20/60 ft., one target. 5 (1d4 + 3) piercing damage, plus an extra 5 (2d4) piercing damage if the target is a creature and Zarak has at least 18 hit points."
+          "*Melee Weapon or Ranged Weapon Attack:* 5 to hit, reach 5 ft. or range 20/60 ft., one target. *Hit:* 5 (1d4 + 3) piercing damage, plus an extra 5 (2d4) piercing damage if the target is a creature and Zarak has at least 18 hit points."
         ]
       },
       {
         "name": "Garrote",
         "entries": [
-          "Melee Weapon Attack: 5 to hit, reach 5 ft., one Humanoid. 8 (2d4 + 3) slashing damage, and the target is grappled (escape DC 11). Until this grapple ends, the target takes 8 (2d4 + 3) slashing damage at the start of each of its turns, and Zarak can't grapple another creature or use Assassin's Whim."
+          "*Melee Weapon Attack:* 5 to hit, reach 5 ft., one Humanoid. *Hit:* 8 (2d4 + 3) slashing damage, and the target is grappled (escape DC 11). Until this grapple ends, the target takes 8 (2d4 + 3) slashing damage at the start of each of its turns, and Zarak can't grapple another creature or use Assassin's Whim."
         ]
       }
     ],
@@ -3392,13 +3392,13 @@
       {
         "name": "Warhammer",
         "entries": [
-          "Melee Weapon Attack: 4 to hit, reach 5 ft., one target. 6 (1d8 + 2) bludgeoning damage, or 7 (1d10 + 2) bludgeoning damage when used with two hands."
+          "*Melee Weapon Attack:* 4 to hit, reach 5 ft., one target. *Hit:* 6 (1d8 + 2) bludgeoning damage, or 7 (1d10 + 2) bludgeoning damage when used with two hands."
         ]
       },
       {
         "name": "Deathly Ray",
         "entries": [
-          "Ranged Spell Attack: 5 to hit, range 60 ft., one creature. 25 (4d10 + 3) necrotic damage."
+          "*Ranged Spell Attack:* 5 to hit, range 60 ft., one creature. *Hit:* 25 (4d10 + 3) necrotic damage."
         ]
       }
     ],

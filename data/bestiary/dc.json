@@ -47,7 +47,7 @@
       {
         "name": "Withering Touch",
         "entries": [
-          "Melee Weapon Attack: 5 to hit, reach 5 ft., one target. 17 (4d6 + 3) necrotic damage."
+          "*Melee Weapon Attack:* 5 to hit, reach 5 ft., one target. *Hit:* 17 (4d6 + 3) necrotic damage."
         ]
       },
       {
@@ -137,19 +137,19 @@
       {
         "name": "Shortsword",
         "entries": [
-          "Melee Weapon Attack: 9 to hit, reach 5 ft., one target. 8 (1d6 + 5) piercing damage."
+          "*Melee Weapon Attack:* 9 to hit, reach 5 ft., one target. *Hit:* 8 (1d6 + 5) piercing damage."
         ]
       },
       {
         "name": "Dagger",
         "entries": [
-          "Melee Weapon or Ranged Weapon Attack: 9 to hit, reach 5 ft. or range 20/60 ft., one target. 7 (1d4 + 5) piercing damage."
+          "*Melee Weapon or Ranged Weapon Attack:* 9 to hit, reach 5 ft. or range 20/60 ft., one target. *Hit:* 7 (1d4 + 5) piercing damage."
         ]
       },
       {
         "name": "Shortbow",
         "entries": [
-          "Ranged Weapon Attack: 9 to hit, range 80/320 ft., one target. 8 (1d6 + 5) piercing damage."
+          "*Ranged Weapon Attack:* 9 to hit, range 80/320 ft., one target. *Hit:* 8 (1d6 + 5) piercing damage."
         ]
       }
     ],
@@ -216,7 +216,7 @@
       {
         "name": "Quarterstaff",
         "entries": [
-          "Melee Weapon Attack: 4 to hit, reach 5 ft., one target. 3 (1d6) bludgeoning damage, or 4 (1d8) bludgeoning damage if used with two hands."
+          "*Melee Weapon Attack:* 4 to hit, reach 5 ft., one target. *Hit:* 3 (1d6) bludgeoning damage, or 4 (1d8) bludgeoning damage if used with two hands."
         ]
       }
     ],
@@ -283,7 +283,7 @@
       {
         "name": "Quarterstaff",
         "entries": [
-          "Melee Weapon Attack: 4 to hit, reach 5 ft., one target. 3 (1d6) bludgeoning damage, or 4 (1d8) bludgeoning damage if used with two hands."
+          "*Melee Weapon Attack:* 4 to hit, reach 5 ft., one target. *Hit:* 3 (1d6) bludgeoning damage, or 4 (1d8) bludgeoning damage if used with two hands."
         ]
       }
     ],
@@ -367,13 +367,13 @@
       {
         "name": "Longsword",
         "entries": [
-          "Melee Weapon Attack: 8 to hit, reach 5 ft., one target. 8 (1d8 + 4) slashing damage, or 9 (1d10 + 4) slashing damage if used with two hands."
+          "*Melee Weapon Attack:* 8 to hit, reach 5 ft., one target. *Hit:* 8 (1d8 + 4) slashing damage, or 9 (1d10 + 4) slashing damage if used with two hands."
         ]
       },
       {
         "name": "Longbow",
         "entries": [
-          "Ranged Weapon Attack: 6 to hit, range 150/600 ft., one target. 6 (1d8 + 2) piercing damage."
+          "*Ranged Weapon Attack:* 6 to hit, range 150/600 ft., one target. *Hit:* 6 (1d8 + 2) piercing damage."
         ]
       }
     ],

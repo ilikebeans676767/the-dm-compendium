@@ -7,7 +7,7 @@
     "size": "Medium",
     "type": "aberration",
     "alignment": "unaligned",
-    "armorClass": "",
+    "armorClass": "11 + the level of the spell (natural armor)",
     "hitPoints": "40 + 10 for each spell level above 4th",
     "speed": "walk 30 ft., fly 30 ft. (beholderkin only; hover) (hover)",
     "abilities": {
@@ -48,19 +48,19 @@
       {
         "name": "Eye Ray (Beholderkin Only)",
         "entries": [
-          "Ranged Spell Attack: to hit, range 150 ft., one creature. 1d8 + 3 + summonSpellLevel psychic damage."
+          "*Ranged Spell Attack:* your spell attack modifier to hit, range 150 ft., one creature. *Hit:* 1d8 + 3 + summonSpellLevel psychic damage."
         ]
       },
       {
         "name": "Claws (Slaad Only)",
         "entries": [
-          "Melee Weapon Attack: to hit, reach 5 ft., one target. 1d10 + 3 + summonSpellLevel slashing damage. If the target is a creature, it can't regain hit points until the start of the aberration's next turn."
+          "*Melee Weapon Attack:* your spell attack modifier to hit, reach 5 ft., one target. *Hit:* 1d10 + 3 + summonSpellLevel slashing damage. If the target is a creature, it can't regain hit points until the start of the aberration's next turn."
         ]
       },
       {
         "name": "Psychic Slam (Star Spawn Only)",
         "entries": [
-          "Melee Spell Attack: to hit, reach 5 ft., one creature. 1d8 + 3 + summonSpellLevel psychic damage."
+          "*Melee Spell Attack:* your spell attack modifier to hit, reach 5 ft., one creature. *Hit:* 1d8 + 3 + summonSpellLevel psychic damage."
         ]
       }
     ],
@@ -106,7 +106,7 @@
     "size": "Medium",
     "type": "beast",
     "alignment": "unaligned",
-    "armorClass": "",
+    "armorClass": "13 + PB (natural armor)",
     "hitPoints": "5 + five times your ranger level (the beast has a number of Hit Dice [d8s] equal to your ranger level)",
     "speed": "walk 40 ft., climb 40 ft.",
     "abilities": {
@@ -141,7 +141,7 @@
       {
         "name": "Maul",
         "entries": [
-          "Melee Weapon Attack: to hit, reach 5 ft., one target. 1d8 + 2 + PB slashing damage."
+          "*Melee Weapon Attack:* your spell attack modifier to hit, reach 5 ft., one target. *Hit:* 1d8 + 2 + PB slashing damage."
         ]
       }
     ],
@@ -160,7 +160,7 @@
     "size": "Medium",
     "type": "beast",
     "alignment": "unaligned",
-    "armorClass": "",
+    "armorClass": "13 + PB (natural armor)",
     "hitPoints": "5 + five times your ranger level (the beast has a number of Hit Dice [d8s] equal to your ranger level)",
     "speed": "walk 5 ft., swim 60 ft.",
     "abilities": {
@@ -195,7 +195,7 @@
       {
         "name": "Binding Strike",
         "entries": [
-          "Melee Weapon Attack: to hit, reach 5 ft., one target. 1d6 + 2 + PB piercing damage or 1d6 + 2 + PB bludgeoning damage (your choice), and the target is grappled (escape DC equal to your spellcasting save DC). Until this grapple ends, the beast can't use this attack on another target."
+          "*Melee Weapon Attack:* your spell attack modifier to hit, reach 5 ft., one target. *Hit:* 1d6 + 2 + PB piercing damage or 1d6 + 2 + PB bludgeoning damage (your choice), and the target is grappled (escape DC equal to your spellcasting save DC). Until this grapple ends, the beast can't use this attack on another target."
         ]
       }
     ],
@@ -214,7 +214,7 @@
     "size": "Small",
     "type": "beast",
     "alignment": "neutral",
-    "armorClass": "",
+    "armorClass": "13 + PB (natural armor)",
     "hitPoints": "4 + four times your ranger level (the beast has a number of Hit Dice [d6s] equal to your ranger level)",
     "speed": "walk 10 ft., fly 60 ft.",
     "abilities": {
@@ -249,7 +249,7 @@
       {
         "name": "Shred",
         "entries": [
-          "Melee Weapon Attack: to hit, reach 5 ft., one target. 1d4 + 3 + PB slashing damage."
+          "*Melee Weapon Attack:* your spell attack modifier to hit, reach 5 ft., one target. *Hit:* 1d4 + 3 + PB slashing damage."
         ]
       }
     ],
@@ -268,7 +268,7 @@
     "size": "Small",
     "type": "beast",
     "alignment": "unaligned",
-    "armorClass": "",
+    "armorClass": "11 + the level of the spell (natural armor)",
     "hitPoints": "20 (Air only) or 30 (Land and Water only) + 5 for each spell level above 2nd",
     "speed": "walk 30 ft., climb 30 ft. (land only), fly 60 ft. (air only), swim 30 ft. (water only)",
     "abilities": {
@@ -315,7 +315,7 @@
       {
         "name": "Maul",
         "entries": [
-          "Melee Weapon Attack: to hit, reach 5 ft., one target. 1d8 + 4 + summonSpellLevel piercing damage."
+          "*Melee Weapon Attack:* your spell attack modifier to hit, reach 5 ft., one target. *Hit:* 1d8 + 4 + summonSpellLevel piercing damage."
         ]
       }
     ],
@@ -334,7 +334,7 @@
     "size": "Large",
     "type": "celestial",
     "alignment": "unaligned",
-    "armorClass": "",
+    "armorClass": "11 + the level of the spell (natural armor) + 2 (Defender only)",
     "hitPoints": "40 + 10 for each spell level above 5th",
     "speed": "walk 30 ft., fly 40 ft.",
     "abilities": {
@@ -362,13 +362,13 @@
       {
         "name": "Radiant Bow (Avenger Only)",
         "entries": [
-          "Ranged Weapon Attack: to hit, range 150/600 ft., one target. 2d6 + 2 + summonSpellLevel radiant damage."
+          "*Ranged Weapon Attack:* your spell attack modifier to hit, range 150/600 ft., one target. *Hit:* 2d6 + 2 + summonSpellLevel radiant damage."
         ]
       },
       {
         "name": "Radiant Mace (Defender Only)",
         "entries": [
-          "Melee Weapon Attack: to hit, reach 5 ft., one target. 1d10 + 3 + summonSpellLevel radiant damage, and the celestial can choose itself or another creature it can see within 10 feet of the target. The chosen creature gains 1d10 temporary hit points."
+          "*Melee Weapon Attack:* your spell attack modifier to hit, reach 5 ft., one target. *Hit:* 1d10 + 3 + summonSpellLevel radiant damage, and the celestial can choose itself or another creature it can see within 10 feet of the target. The chosen creature gains 1d10 temporary hit points."
         ]
       },
       {
@@ -393,7 +393,7 @@
     "size": "Medium",
     "type": "construct",
     "alignment": "unaligned",
-    "armorClass": "",
+    "armorClass": "13 + the level of the spell (natural armor)",
     "hitPoints": "40 + 15 for each spell level above 4th",
     "speed": "walk 30 ft.",
     "abilities": {
@@ -434,7 +434,7 @@
       {
         "name": "Slam",
         "entries": [
-          "Melee Weapon Attack: to hit, reach 5 ft., one target. 1d8 + 4 + summonSpellLevel bludgeoning damage."
+          "*Melee Weapon Attack:* your spell attack modifier to hit, reach 5 ft., one target. *Hit:* 1d8 + 4 + summonSpellLevel bludgeoning damage."
         ]
       }
     ],
@@ -495,7 +495,7 @@
       {
         "name": "Force-Empowered Slam",
         "entries": [
-          "Melee Weapon Attack: to hit, reach 5 ft., one target you can see. 1d10 + PB force damage."
+          "*Melee Weapon Attack:* your spell attack modifier to hit, reach 5 ft., one target you can see. *Hit:* 1d10 + PB force damage."
         ]
       }
     ],
@@ -514,7 +514,7 @@
     "size": "Medium",
     "type": "elemental",
     "alignment": "unaligned",
-    "armorClass": "",
+    "armorClass": "11 + the level of the spell (natural armor)",
     "hitPoints": "50 + 10 for each spell level above 4th",
     "speed": "walk 40 ft., fly 40 ft. (air only; hover) (hover), burrow 40 ft. (earth only), swim 40 ft. (water only)",
     "abilities": {
@@ -549,7 +549,7 @@
       {
         "name": "Slam",
         "entries": [
-          "Melee Weapon Attack: to hit, reach 5 ft., one target. 1d10 + 4 + summonSpellLevel bludgeoning damage (Air, Earth, and Water only) or fire damage (Fire only)."
+          "*Melee Weapon Attack:* your spell attack modifier to hit, reach 5 ft., one target. *Hit:* 1d10 + 4 + summonSpellLevel bludgeoning damage (Air, Earth, and Water only) or fire damage (Fire only)."
         ]
       }
     ],
@@ -568,7 +568,7 @@
     "size": "Small",
     "type": "fey",
     "alignment": "unaligned",
-    "armorClass": "",
+    "armorClass": "12 + the level of the spell (natural armor)",
     "hitPoints": "30 + 10 for each spell level above 3rd",
     "speed": "walk 40 ft.",
     "abilities": {
@@ -596,7 +596,7 @@
       {
         "name": "Shortsword",
         "entries": [
-          "Melee Weapon Attack: to hit, reach 5 ft., one target. 1d6 + 3 + summonSpellLevel piercing damage + 1d6 force damage."
+          "*Melee Weapon Attack:* your spell attack modifier to hit, reach 5 ft., one target. *Hit:* 1d6 + 3 + summonSpellLevel piercing damage + 1d6 force damage."
         ]
       }
     ],
@@ -623,7 +623,7 @@
     "size": "Large",
     "type": "fiend",
     "alignment": "unaligned",
-    "armorClass": "",
+    "armorClass": "12 + the level of the spell (natural armor)",
     "hitPoints": "50 (Demon only) or 40 (Devil only) or 60 (Yugoloth only) + 15 for each spell level above 6th",
     "speed": "walk 40 ft., climb 40 ft. (demon only), fly 60 ft. (devil only)",
     "abilities": {
@@ -670,19 +670,19 @@
       {
         "name": "Bite (Demon Only)",
         "entries": [
-          "Melee Weapon Attack: to hit, reach 5 ft., one target. 1d12 + 3 + summonSpellLevel necrotic damage."
+          "*Melee Weapon Attack:* your spell attack modifier to hit, reach 5 ft., one target. *Hit:* 1d12 + 3 + summonSpellLevel necrotic damage."
         ]
       },
       {
         "name": "Claws (Yugoloth Only)",
         "entries": [
-          "Melee Weapon Attack: to hit, reach 5 ft., one target. 1d8 + 3 + summonSpellLevel slashing damage. Immediately after the attack hits or misses, the fiend can magically teleport up to 30 feet to an unoccupied space it can see."
+          "*Melee Weapon Attack:* your spell attack modifier to hit, reach 5 ft., one target. *Hit:* 1d8 + 3 + summonSpellLevel slashing damage. Immediately after the attack hits or misses, the fiend can magically teleport up to 30 feet to an unoccupied space it can see."
         ]
       },
       {
         "name": "Hurl Flame (Devil Only)",
         "entries": [
-          "Ranged Spell Attack: to hit, range 150 ft., one target. 2d6 + 3 + summonSpellLevel fire damage. If the target is a flammable object that isn't being worn or carried, it also catches fire."
+          "*Ranged Spell Attack:* your spell attack modifier to hit, range 150 ft., one target. *Hit:* 2d6 + 3 + summonSpellLevel fire damage. If the target is a flammable object that isn't being worn or carried, it also catches fire."
         ]
       }
     ],
@@ -730,7 +730,7 @@
       {
         "name": "Force Strike",
         "entries": [
-          "Ranged Weapon Attack: to hit, range 30 ft., one target you can see. 1d4 + PB force damage."
+          "*Ranged Weapon Attack:* your spell attack modifier to hit, range 30 ft., one target you can see. *Hit:* 1d4 + PB force damage."
         ]
       }
     ],
@@ -791,7 +791,7 @@
       {
         "name": "Bite",
         "entries": [
-          "Melee Weapon Attack: 3 to hit, reach 5 ft., one target. 1 piercing damage plus 2 (1d4) acid damage."
+          "*Melee Weapon Attack:* 3 to hit, reach 5 ft., one target. *Hit:* 1 piercing damage plus 2 (1d4) acid damage."
         ]
       },
       {
@@ -869,7 +869,7 @@
       {
         "name": "Destructive Fist",
         "entries": [
-          "Melee Weapon Attack: 17 to hit, reach 10 ft., one target. 36 (4d12 + 10) force damage. Or Ranged Weapon Attack: 17 to hit, range 120 ft., one target. 36 (4d12 + 10) force damage. If the target is an object, it takes triple damage."
+          "*Melee Weapon Attack:* 17 to hit, reach 10 ft., one target. *Hit:* 36 (4d12 + 10) force damage. Or Ranged Weapon Attack: 17 to hit, range 120 ft., one target. *Hit:* 36 (4d12 + 10) force damage. If the target is an object, it takes triple damage."
         ]
       },
       {
@@ -921,7 +921,7 @@
     "size": "Medium",
     "type": "monstrosity",
     "alignment": "unaligned",
-    "armorClass": "",
+    "armorClass": "11 + the level of the spell (natural armor)",
     "hitPoints": "35 + 15 for each spell level above 3rd",
     "speed": "walk 40 ft.",
     "abilities": {
@@ -962,7 +962,7 @@
       {
         "name": "Chilling Rend",
         "entries": [
-          "Melee Weapon Attack: to hit, reach 5 ft., one target. 1d12 + 3 + summonSpellLevel cold damage."
+          "*Melee Weapon Attack:* your spell attack modifier to hit, reach 5 ft., one target. *Hit:* 1d12 + 3 + summonSpellLevel cold damage."
         ]
       },
       {
@@ -1023,7 +1023,7 @@
       {
         "name": "Force-Empowered Rend",
         "entries": [
-          "Melee Weapon Attack: to hit, reach 5 ft., one target you can see. 1d8 + PB force damage."
+          "*Melee Weapon Attack:* your spell attack modifier to hit, reach 5 ft., one target you can see. *Hit:* 1d8 + PB force damage."
         ]
       },
       {
@@ -1055,7 +1055,7 @@
     "size": "Medium",
     "type": "undead",
     "alignment": "unaligned",
-    "armorClass": "",
+    "armorClass": "11 + the level of the spell (natural armor)",
     "hitPoints": "30 (Ghostly and Putrid only) or 20 (Skeletal only) + 10 for each spell level above 3rd",
     "speed": "walk 30 ft., fly 40 ft. (ghostly only; hover) (hover)",
     "abilities": {
@@ -1096,19 +1096,19 @@
       {
         "name": "Deathly Touch (Ghostly Only)",
         "entries": [
-          "Melee Weapon Attack: to hit, reach 5 ft., one creature. 1d8 + 3 + summonSpellLevel necrotic damage, and the creature must succeed on a Wisdom saving throw against your spell save DC or be frightened of the undead until the end of the target's next turn."
+          "*Melee Weapon Attack:* your spell attack modifier to hit, reach 5 ft., one creature. *Hit:* 1d8 + 3 + summonSpellLevel necrotic damage, and the creature must succeed on a Wisdom saving throw against your spell save DC or be frightened of the undead until the end of the target's next turn."
         ]
       },
       {
         "name": "Grave Bolt (Skeletal Only)",
         "entries": [
-          "Ranged Spell Attack: to hit, range 150 ft., one target. 2d4 + 3 + summonSpellLevel necrotic damage."
+          "*Ranged Spell Attack:* your spell attack modifier to hit, range 150 ft., one target. *Hit:* 2d4 + 3 + summonSpellLevel necrotic damage."
         ]
       },
       {
         "name": "Rotting Claw (Putrid Only)",
         "entries": [
-          "Melee Weapon Attack: to hit, reach 5 ft., one target. 1d6 + 3 + summonSpellLevel slashing damage. If the target is poisoned, it must succeed on a Constitution saving throw against your spell save DC or be paralyzed until the end of its next turn."
+          "*Melee Weapon Attack:* your spell attack modifier to hit, reach 5 ft., one target. *Hit:* 1d6 + 3 + summonSpellLevel slashing damage. If the target is poisoned, it must succeed on a Constitution saving throw against your spell save DC or be paralyzed until the end of its next turn."
         ]
       }
     ],
@@ -1149,7 +1149,7 @@
       {
         "name": "Flame Seed",
         "entries": [
-          "Ranged Weapon Attack: to hit, range 60 ft., one target you can see. 1d6 + PB fire damage."
+          "*Ranged Weapon Attack:* your spell attack modifier to hit, range 60 ft., one target you can see. *Hit:* 1d6 + PB fire damage."
         ]
       },
       {

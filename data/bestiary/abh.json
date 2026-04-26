@@ -42,13 +42,13 @@
       {
         "name": "Slam",
         "entries": [
-          "Melee Weapon Attack: 4, reach 5 ft. 4 (1d4 + 2) Bludgeoning damage."
+          "*Melee Weapon Attack:* 4, reach 5 ft. *Hit:* 4 (1d4 + 2) Bludgeoning damage."
         ]
       },
       {
         "name": "Fiery Eruption",
         "entries": [
-          "dex DC 11, each creature in a 5-foot Emanation [Area of Effect] originating from the icon. 7 (2d6) Fire damage."
+          "*Dexterity Saving Throw:* DC 11, each creature in a 5-foot Emanation [Area of Effect] originating from the icon. *Failure:* 7 (2d6) Fire damage."
         ]
       }
     ],
@@ -116,19 +116,19 @@
       {
         "name": "Infernal Blade",
         "entries": [
-          "Melee Weapon Attack: 5, reach 5 ft. 6 (1d6 + 3) Slashing damage and 7 (2d6) Fire damage."
+          "*Melee Weapon Attack:* 5, reach 5 ft. *Hit:* 6 (1d6 + 3) Slashing damage and 7 (2d6) Fire damage."
         ]
       },
       {
         "name": "Confounding Ray",
         "entries": [
-          "Ranged Weapon Attack: 5, range 120 ft. 13 (2d12) Psychic damage. If the target is a creature, it can't make Opportunity Attacks until the start of the devil's next turn."
+          "*Ranged Weapon Attack:* 5, range 120 ft. *Hit:* 13 (2d12) Psychic damage. If the target is a creature, it can't make Opportunity Attacks until the start of the devil's next turn."
         ]
       },
       {
         "name": "Compelling Contract (1/Day)",
         "entries": [
-          "cha DC 14, one creature within 30 feet of the devil. The target has the Charmed condition. While it is Charmed, it has the Stunned condition, except the target can speak. If the target agrees to the devil's contract, the effect ends. Otherwise, the target repeats the save whenever it takes damage and at the end of each of its turns, ending the effect on itself on a success. After 1 minute, it succeeds automatically."
+          "*Charisma Saving Throw:* DC 14, one creature within 30 feet of the devil. *Failure:* The target has the Charmed condition. While it is Charmed, it has the Stunned condition, except the target can speak. If the target agrees to the devil's contract, the effect ends. Otherwise, the target repeats the save whenever it takes damage and at the end of each of its turns, ending the effect on itself on a success. After 1 minute, it succeeds automatically."
         ]
       }
     ],
@@ -200,7 +200,7 @@
       {
         "name": "Thundering Halberd",
         "entries": [
-          "Melee Weapon Attack: 9, reach 10 ft. 16 (2d10 + 5) Slashing damage plus 14 (4d6) Thunder damage."
+          "*Melee Weapon Attack:* 9, reach 10 ft. *Hit:* 16 (2d10 + 5) Slashing damage plus 14 (4d6) Thunder damage."
         ]
       }
     ],
@@ -208,13 +208,13 @@
       {
         "name": "Utterance of Pain",
         "entries": [
-          "wis DC 18, each creature in a 20-foot Emanation [Area of Effect] originating from the devil. The target has the Stunned condition until the end of the devil's next turn."
+          "*Wisdom Saving Throw:* DC 18, each creature in a 20-foot Emanation [Area of Effect] originating from the devil. *Failure:* The target has the Stunned condition until the end of the devil's next turn."
         ]
       },
       {
         "name": "Utterance of Unmaking",
         "entries": [
-          "con DC 18, each creature in a 20-foot Emanation [Area of Effect] originating from the devil. 22 (4d10) Force damage. {@actSaveSuccess Half damage."
+          "*Constitution Saving Throw:* DC 18, each creature in a 20-foot Emanation [Area of Effect] originating from the devil. *Failure:* 22 (4d10) Force damage. *Success:* Half damage."
         ]
       }
     ],
@@ -294,13 +294,13 @@
       {
         "name": "Hellfire Claw (Vampire Form Only)",
         "entries": [
-          "Melee Weapon Attack: 9, reach 5 ft. 13 (2d8 + 4) Slashing damage plus 10 (3d6) Fire damage. If the target is a Medium or smaller creature, it has the Grappled condition (escape DC 17) from one of two claws."
+          "*Melee Weapon Attack:* 9, reach 5 ft. *Hit:* 13 (2d8 + 4) Slashing damage plus 10 (3d6) Fire damage. If the target is a Medium or smaller creature, it has the Grappled condition (escape DC 17) from one of two claws."
         ]
       },
       {
         "name": "Bite (Imp or Vampire Form Only)",
         "entries": [
-          "con DC 18, one creature within 5 feet that is willing or that has the Grappled, Incapacitated, or Restrained condition. 6 (1d4 + 4) Piercing damage plus 16 (3d10) Necrotic damage and the creature loses its highest-level available spell slot (if any). The target's Hit Points maximum decreases by an amount equal to the Necrotic damage taken, and the vampire regains Hit Points equal to that amount. A Humanoid reduced to 0 Hit Points by this damage and then buried rises the following sunset as a Vampire Spawn under the vampire's control."
+          "*Constitution Saving Throw:* DC 18, one creature within 5 feet that is willing or that has the Grappled, Incapacitated, or Restrained condition. *Failure:* 6 (1d4 + 4) Piercing damage plus 16 (3d10) Necrotic damage and the creature loses its highest-level available spell slot (if any). The target's Hit Points maximum decreases by an amount equal to the Necrotic damage taken, and the vampire regains Hit Points equal to that amount. A Humanoid reduced to 0 Hit Points by this damage and then buried rises the following sunset as a Vampire Spawn under the vampire's control."
         ]
       }
     ],
@@ -325,7 +325,7 @@
       {
         "name": "Infernal Majesty",
         "entries": [
-          "cha DC 17, each creature in a 20-foot Emanation [Area of Effect] originating from the vampire. 9 (2d8) Psychic damage, and the target has the Frightened condition until the start of its next turn. The vampire can't take this action again until the start of its next turn."
+          "*Charisma Saving Throw:* DC 17, each creature in a 20-foot Emanation [Area of Effect] originating from the vampire. *Failure:* 9 (2d8) Psychic damage, and the target has the Frightened condition until the start of its next turn. *Success:* Half damage only. *Success or Failure:* The vampire can't take this action again until the start of its next turn."
         ]
       },
       {
@@ -402,13 +402,13 @@
       {
         "name": "Claw",
         "entries": [
-          "Melee Weapon Attack: 9, reach 5 ft. 14 (2d8 + 5) Slashing damage plus 7 (2d6) Necrotic damage. If the target is a Large or smaller creature, it has the Grappled condition (escape DC 16) from one of two claws."
+          "*Melee Weapon Attack:* 9, reach 5 ft. *Hit:* 14 (2d8 + 5) Slashing damage plus 7 (2d6) Necrotic damage. If the target is a Large or smaller creature, it has the Grappled condition (escape DC 16) from one of two claws."
         ]
       },
       {
         "name": "Bite",
         "entries": [
-          "con DC 16, one creature within 5 feet that is willing or that has the Grappled, Incapacitated, or Restrained condition. 7 (1d4 + 5) Piercing damage plus 7 (2d6) Necrotic damage. The target's Hit Points maximum decreases by an amount equal to the Necrotic damage taken, and the vampire regains Hit Points equal to that amount."
+          "*Constitution Saving Throw:* DC 16, one creature within 5 feet that is willing or that has the Grappled, Incapacitated, or Restrained condition. *Failure:* 7 (1d4 + 5) Piercing damage plus 7 (2d6) Necrotic damage. The target's Hit Points maximum decreases by an amount equal to the Necrotic damage taken, and the vampire regains Hit Points equal to that amount."
         ]
       }
     ],

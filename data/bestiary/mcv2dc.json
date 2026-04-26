@@ -54,7 +54,7 @@
       {
         "name": "Ensnaring Shriek",
         "entries": [
-          "Melee Spell or Ranged Spell Attack: 8 to hit, reach 15 ft. or range 60 ft., one target. 12 (2d6 + 5) psychic damage, and if the target is a Medium or smaller creature, the target must succeed on a DC 16 Charisma saving throw or be pulled up to 15 feet toward the dream eater."
+          "*Melee Spell or Ranged Spell Attack:* 8 to hit, reach 15 ft. or range 60 ft., one target. *Hit:* 12 (2d6 + 5) psychic damage, and if the target is a Medium or smaller creature, the target must succeed on a DC 16 Charisma saving throw or be pulled up to 15 feet toward the dream eater."
         ]
       }
     ],
@@ -129,13 +129,13 @@
       {
         "name": "Bite",
         "entries": [
-          "Melee Weapon Attack: 16 to hit, reach 10 ft., one target. 26 (2d10 + 15) piercing damage plus 13 (2d6 + 6) fire damage."
+          "*Melee Weapon Attack:* 16 to hit, reach 10 ft., one target. *Hit:* 26 (2d10 + 15) piercing damage plus 13 (2d6 + 6) fire damage."
         ]
       },
       {
         "name": "Claw",
         "entries": [
-          "Melee Weapon Attack: 16 to hit, reach 5 ft., one target. 22 (2d6 + 15) slashing damage."
+          "*Melee Weapon Attack:* 16 to hit, reach 5 ft., one target. *Hit:* 22 (2d6 + 15) slashing damage."
         ]
       },
       {
@@ -237,13 +237,13 @@
       {
         "name": "Hooves",
         "entries": [
-          "Melee Weapon Attack: 7 to hit, reach 5 ft., one target. 11 (2d6 + 4) bludgeoning damage."
+          "*Melee Weapon Attack:* 7 to hit, reach 5 ft., one target. *Hit:* 11 (2d6 + 4) bludgeoning damage."
         ]
       },
       {
         "name": "Moon Bolt",
         "entries": [
-          "Ranged Spell Attack: 7 to hit, range 60 ft., one target. 11 (2d6 + 4) radiant damage."
+          "*Ranged Spell Attack:* 7 to hit, range 60 ft., one target. *Hit:* 11 (2d6 + 4) radiant damage."
         ]
       }
     ],
@@ -334,7 +334,7 @@
       {
         "name": "Spectral Polearm",
         "entries": [
-          "Melee Weapon Attack: 8 to hit, reach 5 ft., one target. 12 (2d6 + 5) force damage."
+          "*Melee Weapon Attack:* 8 to hit, reach 5 ft., one target. *Hit:* 12 (2d6 + 5) force damage."
         ]
       }
     ],
@@ -388,7 +388,7 @@
       {
         "name": "Crystal Blade",
         "entries": [
-          "Melee Weapon Attack: 4 to hit, reach 5 ft., one target. 5 (1d6 + 2) force damage, plus 7 (2d6) force damage if the seeker is Large."
+          "*Melee Weapon Attack:* 4 to hit, reach 5 ft., one target. *Hit:* 5 (1d6 + 2) force damage, plus 7 (2d6) force damage if the seeker is Large."
         ]
       },
       {
@@ -465,7 +465,7 @@
       {
         "name": "Mirage Flare",
         "entries": [
-          "Melee Spell or Ranged Spell Attack: 6 to hit, reach 5 ft. or range 60 ft., one target. 11 (2d6 + 4) radiant damage, and the target must succeed on a DC 14 Wisdom saving throw or be charmed by the veil keeper until the start of the veil keeper's next turn. While charmed in this way, a creature is incapacitated as it is beset by hypnotic, illusory visions."
+          "*Melee Spell or Ranged Spell Attack:* 6 to hit, reach 5 ft. or range 60 ft., one target. *Hit:* 11 (2d6 + 4) radiant damage, and the target must succeed on a DC 14 Wisdom saving throw or be charmed by the veil keeper until the start of the veil keeper's next turn. While charmed in this way, a creature is incapacitated as it is beset by hypnotic, illusory visions."
         ]
       },
       {
@@ -538,7 +538,7 @@
       {
         "name": "Flying Fangtrap",
         "entries": [
-          "Melee Weapon or Ranged Weapon Attack: 5 to hit, reach 5 ft. or range 60 ft., one target. 8 (1d10 + 3) piercing damage, and the creature must succeed on a DC 14 Dexterity saving throw or have its speed reduced to 0 until the start of the inventor's next turn."
+          "*Melee Weapon or Ranged Weapon Attack:* 5 to hit, reach 5 ft. or range 60 ft., one target. *Hit:* 8 (1d10 + 3) piercing damage, and the creature must succeed on a DC 14 Dexterity saving throw or have its speed reduced to 0 until the start of the inventor's next turn."
         ]
       },
       {
@@ -611,7 +611,7 @@
       {
         "name": "Clockwork Claw",
         "entries": [
-          "Melee Weapon Attack: 7 to hit, reach 20 ft., one target. 11 (2d6 + 4) piercing damage, and if the target is a Medium or smaller creature, the target is grappled (escape DC 15). Until this grapple ends, the target takes 10 (3d6) piercing damage at the start of each of the mastermind's turns. The mastermind has two claws, each of which can grapple only one target."
+          "*Melee Weapon Attack:* 7 to hit, reach 20 ft., one target. *Hit:* 11 (2d6 + 4) piercing damage, and if the target is a Medium or smaller creature, the target is grappled (escape DC 15). Until this grapple ends, the target takes 10 (3d6) piercing damage at the start of each of the mastermind's turns. The mastermind has two claws, each of which can grapple only one target."
         ]
       },
       {
@@ -695,13 +695,13 @@
       {
         "name": "Bone Harpoon",
         "entries": [
-          "Melee Weapon or Ranged Weapon Attack: 6 to hit, reach 10 ft. or range 20/60 ft., one target. 8 (1d8 + 4) piercing damage. The harpoon returns to the hunter's hand."
+          "*Melee Weapon or Ranged Weapon Attack:* 6 to hit, reach 10 ft. or range 20/60 ft., one target. *Hit:* 8 (1d8 + 4) piercing damage. The harpoon returns to the hunter's hand."
         ]
       },
       {
         "name": "Tusk",
         "entries": [
-          "Melee Weapon Attack: 6 to hit, reach 5 ft., one target. 6 (1d4 + 4) slashing damage."
+          "*Melee Weapon Attack:* 6 to hit, reach 5 ft., one target. *Hit:* 6 (1d4 + 4) slashing damage."
         ]
       }
     ],
@@ -767,7 +767,7 @@
       {
         "name": "Claw",
         "entries": [
-          "Melee Weapon Attack: 8 to hit, reach 10 ft., one target. 14 (2d8 + 5) slashing damage."
+          "*Melee Weapon Attack:* 8 to hit, reach 10 ft., one target. *Hit:* 14 (2d8 + 5) slashing damage."
         ]
       },
       {
@@ -856,7 +856,7 @@
       {
         "name": "Nightbringer",
         "entries": [
-          "Melee Weapon Attack: 15 to hit, reach 5 ft., one target. 12 (1d6 + 9) bludgeoning damage plus 10 (4d4) radiant damage. If the target is a creature, the target must succeed on a DC 20 Constitution saving throw or be blinded until the start of Verminaard's next turn."
+          "*Melee Weapon Attack:* 15 to hit, reach 5 ft., one target. *Hit:* 12 (1d6 + 9) bludgeoning damage plus 10 (4d4) radiant damage. If the target is a creature, the target must succeed on a DC 20 Constitution saving throw or be blinded until the start of Verminaard's next turn."
         ]
       },
       {

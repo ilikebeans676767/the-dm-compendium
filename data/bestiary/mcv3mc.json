@@ -60,7 +60,7 @@
       {
         "name": "Fiery Doom",
         "entries": [
-          "Melee Spell or Ranged Spell Attack: 6 to hit; reach 5 ft. or ranged 60 ft., one target. 8 (1d10 + 3) fire damage, and the target catches fire if it's a creature or a flammable object. Until a creature takes an action to extinguish the fire, the burning target takes 3 (1d6) fire damage at the end of each of its turns."
+          "*Melee Spell or Ranged Spell Attack:* 6 to hit; reach 5 ft. or ranged 60 ft., one target. *Hit:* 8 (1d10 + 3) fire damage, and the target catches fire if it's a creature or a flammable object. Until a creature takes an action to extinguish the fire, the burning target takes 3 (1d6) fire damage at the end of each of its turns."
         ]
       }
     ],
@@ -187,7 +187,7 @@
       {
         "name": "Bite",
         "entries": [
-          "Melee Weapon Attack: 14 to hit; reach 15 ft., one target. 18 (3d6 + 8) piercing damage plus 7 (2d6) necrotic damage."
+          "*Melee Weapon Attack:* 14 to hit; reach 15 ft., one target. *Hit:* 18 (3d6 + 8) piercing damage plus 7 (2d6) necrotic damage."
         ]
       },
       {
@@ -271,7 +271,7 @@
       {
         "name": "Slam",
         "entries": [
-          "Melee Weapon Attack: 7 to hit; reach 10 ft., one target. 8 (1d8 + 4) bludgeoning damage plus 9 (2d8) necrotic damage."
+          "*Melee Weapon Attack:* 7 to hit; reach 10 ft., one target. *Hit:* 8 (1d8 + 4) bludgeoning damage plus 9 (2d8) necrotic damage."
         ]
       }
     ],
@@ -319,7 +319,7 @@
       {
         "name": "Bite",
         "entries": [
-          "Melee Weapon Attack: 4 to hit; reach 5 ft., one target. 7 (2d4 + 2) piercing damage. If the target is a creature, it must succeed on a DC 11 Strength saving throw or have the prone condition."
+          "*Melee Weapon Attack:* 4 to hit; reach 5 ft., one target. *Hit:* 7 (2d4 + 2) piercing damage. If the target is a creature, it must succeed on a DC 11 Strength saving throw or have the prone condition."
         ]
       }
     ],

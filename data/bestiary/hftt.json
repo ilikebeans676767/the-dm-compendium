@@ -54,13 +54,13 @@
       {
         "name": "Bite",
         "entries": [
-          "Melee Weapon Attack: 5 to hit, reach 5 ft., one target. 7 (1d8 + 3) piercing damage."
+          "*Melee Weapon Attack:* 5 to hit, reach 5 ft., one target. *Hit:* 7 (1d8 + 3) piercing damage."
         ]
       },
       {
         "name": "Claw",
         "entries": [
-          "Melee Weapon Attack: 5 to hit, reach 5 ft., one target. 12 (2d8 + 3) slashing damage."
+          "*Melee Weapon Attack:* 5 to hit, reach 5 ft., one target. *Hit:* 12 (2d8 + 3) slashing damage."
         ]
       }
     ],
@@ -111,7 +111,7 @@
       {
         "name": "Quarterstaff",
         "entries": [
-          "Melee Weapon Attack: 1 to hit, reach 5 ft., one target. 3 (1d8 -1) bludgeoning damage."
+          "*Melee Weapon Attack:* 1 to hit, reach 5 ft., one target. *Hit:* 3 (1d8 -1) bludgeoning damage."
         ]
       }
     ],
@@ -158,19 +158,19 @@
       {
         "name": "Flurry of Bites",
         "entries": [
-          "Melee Weapon Attack: 7 to hit, reach 10 ft., one target. 7 (1d6 + 4) piercing damage plus 10 (4d4) poison damage."
+          "*Melee Weapon Attack:* 7 to hit, reach 10 ft., one target. *Hit:* 7 (1d6 + 4) piercing damage plus 10 (4d4) poison damage."
         ]
       },
       {
         "name": "Maw",
         "entries": [
-          "Melee Weapon Attack: 7 to hit, reach 5 ft., one target. 9 (1d10 + 4) piercing damage plus 5 (1d10) acid damage."
+          "*Melee Weapon Attack:* 7 to hit, reach 5 ft., one target. *Hit:* 9 (1d10 + 4) piercing damage plus 5 (1d10) acid damage."
         ]
       },
       {
         "name": "Tail Pincer",
         "entries": [
-          "Melee Weapon Attack: 7 to hit, reach 10 ft., one target. 10 (1d12 + 4) slashing damage, and the target is grappled. As an action, the target can escape the grapple by succeeding on a DC 14 Strength (Athletics) or Dexterity (Acrobatics) check (its choice). Until this grapple ends, the thessalhydra can't use its tail pincer."
+          "*Melee Weapon Attack:* 7 to hit, reach 10 ft., one target. *Hit:* 10 (1d12 + 4) slashing damage, and the target is grappled. As an action, the target can escape the grapple by succeeding on a DC 14 Strength (Athletics) or Dexterity (Acrobatics) check (its choice). Until this grapple ends, the thessalhydra can't use its tail pincer."
         ]
       },
       {

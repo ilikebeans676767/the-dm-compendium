@@ -24,7 +24,13 @@ function cleanTagText(value) {
   return String(value)
     .replace(/{@atk ([^}]+)}/g, (_, attackTypes) => formatAttackTag(attackTypes))
     .replace(/{@atkr ([^}]+)}/g, (_, attackTypes) => formatAttackTag(attackTypes))
-    .replace(/{@h}/g, "")
+    .replace(/{@actSave ([a-z]+)}\s*{@dc ([^}|]+)(?:\|[^}]*)?}/g, (_, ability, dc) => `*${formatSavingThrowAbility(ability)} Saving Throw:* DC ${dc}`)
+    .replace(/{@actSave ([a-z]+)}/g, (_, ability) => `*${formatSavingThrowAbility(ability)} Saving Throw:*`)
+    .replace(/{@actSaveFailt?(?: ([^}]+))?}/g, (_, suffix) => `*Failure${suffix ? ` ${suffix}` : ""}:*`)
+    .replace(/{@actSaveSuccess(?: ([^}]+))?}/g, (_, suffix) => `*Success${suffix ? ` ${suffix}` : ""}:*`)
+    .replace(/{@actSaveSuccessOrFail(?: ([^}]+))?}/g, (_, suffix) => `*Success or Failure${suffix ? ` ${suffix}` : ""}:*`)
+    .replace(/{@hitYourSpellAttack}/g, "your spell attack modifier")
+    .replace(/{@h}/g, "*Hit:* ")
     .replace(/{@dc ([^}|]+)(?:\|[^}]*)?}/g, "DC $1")
     .replace(/{@(?:damage|dice|scaledamage|scaledice|hit|d20) ([^}|]+)(?:\|[^}]*)?}/g, "$1")
     .replace(/{@(?:spell|item|creature|condition|disease|status|skill|action|feat|class|filter|book|adventure|variantrule) ([^}|]+)(?:\|[^}]*)?}/g, "$1")
@@ -56,7 +62,26 @@ function formatAttackTag(attackTypes) {
     }
   }).filter(Boolean);
 
-  return `${Array.from(new Set(labels)).join(" or ")} Attack:`;
+  return `*${Array.from(new Set(labels)).join(" or ")} Attack:*`;
+}
+
+function formatSavingThrowAbility(ability) {
+  switch (String(ability).toLowerCase()) {
+    case "str":
+      return "Strength";
+    case "dex":
+      return "Dexterity";
+    case "con":
+      return "Constitution";
+    case "int":
+      return "Intelligence";
+    case "wis":
+      return "Wisdom";
+    case "cha":
+      return "Charisma";
+    default:
+      return ability;
+  }
 }
 
 function renderEntry(entry) {
@@ -245,6 +270,7 @@ function formatArmorClass(ac = []) {
   return ac.map((part) => {
     if (typeof part === "number") return String(part);
     if (!part || typeof part !== "object") return "";
+    if (part.special) return cleanTagText(part.special);
 
     const base = part.ac ? String(part.ac) : "";
     const from = Array.isArray(part.from) && part.from.length

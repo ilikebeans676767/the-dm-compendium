@@ -36,13 +36,13 @@
       {
         "name": "Shortsword",
         "entries": [
-          "Melee Weapon Attack: 4, reach 5 ft. 5 (1d6 + 2) Piercing damage plus 2 (1d4) Poison damage."
+          "*Melee Weapon Attack:* 4, reach 5 ft. *Hit:* 5 (1d6 + 2) Piercing damage plus 2 (1d4) Poison damage."
         ]
       },
       {
         "name": "Pistol",
         "entries": [
-          "Ranged Weapon Attack: 4, range 30/90 ft. 7 (1d10 + 2) Piercing damage."
+          "*Ranged Weapon Attack:* 4, range 30/90 ft. *Hit:* 7 (1d10 + 2) Piercing damage."
         ]
       }
     ],
@@ -96,13 +96,13 @@
       {
         "name": "Poisoned Blade",
         "entries": [
-          "Melee Weapon Attack: 7, reach 5 ft. 13 (2d8 + 4) Slashing damage plus 7 (2d6) Poison damage, and the target has the Poisoned condition until the start of the underboss's next turn. If the target is already Poisoned, it instead takes an extra 7 (2d6) Poison damage."
+          "*Melee Weapon Attack:* 7, reach 5 ft. *Hit:* 13 (2d8 + 4) Slashing damage plus 7 (2d6) Poison damage, and the target has the Poisoned condition until the start of the underboss's next turn. If the target is already Poisoned, it instead takes an extra 7 (2d6) Poison damage."
         ]
       },
       {
         "name": "Arcane Firearm",
         "entries": [
-          "Ranged Weapon Attack: 7, range 30/90 ft. 26 (4d10 + 4) Force damage."
+          "*Ranged Weapon Attack:* 7, range 30/90 ft. *Hit:* 26 (4d10 + 4) Force damage."
         ]
       }
     ],
@@ -166,13 +166,13 @@
       {
         "name": "Battering Mace",
         "entries": [
-          "Melee Weapon Attack: 6, reach 5 ft. 14 (3d6 + 4) Bludgeoning damage, and if the target is a Large or smaller creature, it has the Prone condition."
+          "*Melee Weapon Attack:* 6, reach 5 ft. *Hit:* 14 (3d6 + 4) Bludgeoning damage, and if the target is a Large or smaller creature, it has the Prone condition."
         ]
       },
       {
         "name": "Artillery Strike",
         "entries": [
-          "Ranged Weapon Attack: 6, range 120 ft. 22 (4d8 + 4) Force damage."
+          "*Ranged Weapon Attack:* 6, range 120 ft. *Hit:* 22 (4d8 + 4) Force damage."
         ]
       }
     ],
@@ -226,13 +226,13 @@
       {
         "name": "Pummel",
         "entries": [
-          "Melee Weapon Attack: 9, reach 5 ft. 12 (2d6 + 5) Bludgeoning damage."
+          "*Melee Weapon Attack:* 9, reach 5 ft. *Hit:* 12 (2d6 + 5) Bludgeoning damage."
         ]
       },
       {
         "name": "Glare",
         "entries": [
-          "wis DC 14, one creature the bruiser can see within 30 feet. The target has the Frightened condition until the start of the bruiser's next turn."
+          "*Wisdom Saving Throw:* DC 14, one creature the bruiser can see within 30 feet. *Failure:* The target has the Frightened condition until the start of the bruiser's next turn."
         ]
       }
     ],
@@ -287,7 +287,7 @@
       {
         "name": "Pummel",
         "entries": [
-          "Melee Weapon Attack: 5, reach 5 ft. 5 (1d4 + 3) Bludgeoning damage."
+          "*Melee Weapon Attack:* 5, reach 5 ft. *Hit:* 5 (1d4 + 3) Bludgeoning damage."
         ]
       }
     ],
@@ -351,7 +351,7 @@
       {
         "name": "Mind Blade",
         "entries": [
-          "Melee Weapon or Ranged Weapon Attack: 7, reach 5 ft. or range 30 ft. 14 (3d6 + 4) Psychic damage."
+          "*Melee Weapon or Ranged Weapon Attack:* 7, reach 5 ft. or range 30 ft. *Hit:* 14 (3d6 + 4) Psychic damage."
         ]
       }
     ],
@@ -359,7 +359,7 @@
       {
         "name": "Mind Curse",
         "entries": [
-          "wis DC 15, one creature hit by the infiltrator's Mind Blade attack this turn. The target takes 14 (4d6) Psychic damage and is cursed. While cursed in this way, it has Disadvantage on attack rolls against the infiltrator, and the infiltrator always knows its location while it and the infiltrator are on the same plane of existence. A cursed creature repeats the save whenever it finishes a Short Rest or Long Rest, ending the effect on itself on a success. {@actSaveSuccess Half damage only."
+          "*Wisdom Saving Throw:* DC 15, one creature hit by the infiltrator's Mind Blade attack this turn. *Failure:* The target takes 14 (4d6) Psychic damage and is cursed. While cursed in this way, it has Disadvantage on attack rolls against the infiltrator, and the infiltrator always knows its location while it and the infiltrator are on the same plane of existence. A cursed creature repeats the save whenever it finishes a Short Rest or Long Rest, ending the effect on itself on a success. *Success:* Half damage only."
         ]
       }
     ],
@@ -414,13 +414,13 @@
       {
         "name": "Nightmare Whisper",
         "entries": [
-          "Melee Weapon or Ranged Weapon Attack: 9, reach 5 ft. or range 30 ft. 27 (5d8 + 5) Psychic damage, and the target has the Frightened condition until the start of the mindkiller's next turn. If the target is already Frightened, it instead takes an extra 10 (3d6) Psychic damage."
+          "*Melee Weapon or Ranged Weapon Attack:* 9, reach 5 ft. or range 30 ft. *Hit:* 27 (5d8 + 5) Psychic damage, and the target has the Frightened condition until the start of the mindkiller's next turn. If the target is already Frightened, it instead takes an extra 10 (3d6) Psychic damage."
         ]
       },
       {
         "name": "Primal Fear (1/Day)",
         "entries": [
-          "wis DC 17, each creature in a 30-foot-radius Sphere [Area of Effect] centered on a point the mindkiller can see within 120 feet. 35 (10d6) Psychic damage, and the target has the Frightened condition until the start of the mindkiller's next turn. While Frightened in this way, the target can do only one of the following on each of its turns: move, take an action, or take a Bonus Action. {@actSaveSuccess Half damage only."
+          "*Wisdom Saving Throw:* DC 17, each creature in a 30-foot-radius Sphere [Area of Effect] centered on a point the mindkiller can see within 120 feet. *Failure:* 35 (10d6) Psychic damage, and the target has the Frightened condition until the start of the mindkiller's next turn. While Frightened in this way, the target can do only one of the following on each of its turns: move, take an action, or take a Bonus Action. *Success:* Half damage only."
         ]
       }
     ],
@@ -474,13 +474,13 @@
       {
         "name": "Flail",
         "entries": [
-          "Melee Weapon Attack: 6, reach 5 ft. 8 (1d8 + 4) Bludgeoning damage—plus 7 (2d6) Necrotic damage if the commander is Bloodied—and the target has Disadvantage on its next attack roll before the start of the commander's next turn."
+          "*Melee Weapon Attack:* 6, reach 5 ft. *Hit:* 8 (1d8 + 4) Bludgeoning damage—plus 7 (2d6) Necrotic damage if the commander is Bloodied—and the target has Disadvantage on its next attack roll before the start of the commander's next turn."
         ]
       },
       {
         "name": "Javelin",
         "entries": [
-          "Melee Weapon or Ranged Weapon Attack: 6, reach 5 ft. or range 30/120 ft. 7 (1d6 + 4) Piercing damage—plus 7 (2d6) Necrotic damage if the commander is Bloodied."
+          "*Melee Weapon or Ranged Weapon Attack:* 6, reach 5 ft. or range 30/120 ft. *Hit:* 7 (1d6 + 4) Piercing damage—plus 7 (2d6) Necrotic damage if the commander is Bloodied."
         ]
       }
     ],
@@ -527,13 +527,13 @@
       {
         "name": "Flail",
         "entries": [
-          "Melee Weapon Attack: 5, reach 5 ft. 7 (1d8 + 3) Bludgeoning damage—plus 4 (1d8) Necrotic damage if the knight is Bloodied—and the target has Disadvantage on its next attack roll before the start of the knight's next turn."
+          "*Melee Weapon Attack:* 5, reach 5 ft. *Hit:* 7 (1d8 + 3) Bludgeoning damage—plus 4 (1d8) Necrotic damage if the knight is Bloodied—and the target has Disadvantage on its next attack roll before the start of the knight's next turn."
         ]
       },
       {
         "name": "Javelin",
         "entries": [
-          "Melee Weapon or Ranged Weapon Attack: 5, reach 5 ft. or range 30/120 ft. 6 (1d6 + 3) Piercing damage—plus 4 (1d8) Necrotic damage if the knight is Bloodied."
+          "*Melee Weapon or Ranged Weapon Attack:* 5, reach 5 ft. or range 30/120 ft. *Hit:* 6 (1d6 + 3) Piercing damage—plus 4 (1d8) Necrotic damage if the knight is Bloodied."
         ]
       }
     ],
@@ -596,7 +596,7 @@
       {
         "name": "Poisoned Dagger",
         "entries": [
-          "Melee Weapon or Ranged Weapon Attack: 5, reach 5 ft. or range 20/60 ft. 5 (1d4 + 3) Piercing damage, and the target has the Poisoned condition until the start of the troubleshooter's next turn."
+          "*Melee Weapon or Ranged Weapon Attack:* 5, reach 5 ft. or range 20/60 ft. *Hit:* 5 (1d4 + 3) Piercing damage, and the target has the Poisoned condition until the start of the troubleshooter's next turn."
         ]
       }
     ],
@@ -657,7 +657,7 @@
       {
         "name": "Force Strike",
         "entries": [
-          "Melee Weapon or Ranged Weapon Attack: Bonus equals your spell attack modifier, reach 5 ft. or range 30 ft. 1d6 + summonSpellLevel Force damage."
+          "*Melee Weapon or Ranged Weapon Attack:* Bonus equals your spell attack modifier, reach 5 ft. or range 30 ft. *Hit:* 1d6 + summonSpellLevel Force damage."
         ]
       }
     ],
@@ -727,7 +727,7 @@
       {
         "name": "Radiant Burst",
         "entries": [
-          "Melee Weapon or Ranged Weapon Attack: 5, reach 5 ft. or range 30 ft. 7 (2d6) Radiant damage, and the creature has the Blinded condition until the start of the medic's next turn."
+          "*Melee Weapon or Ranged Weapon Attack:* 5, reach 5 ft. or range 30 ft. *Hit:* 7 (2d6) Radiant damage, and the creature has the Blinded condition until the start of the medic's next turn."
         ]
       }
     ],
@@ -799,13 +799,13 @@
       {
         "name": "Arcane Whip",
         "entries": [
-          "Melee Weapon Attack: 6, reach 10 ft. 13 (3d6 + 3) Force damage, and if the target is a Medium or smaller creature, it has the Prone condition. If the target already has the Prone condition, the attack deals an extra 7 (2d6) Force damage."
+          "*Melee Weapon Attack:* 6, reach 10 ft. *Hit:* 13 (3d6 + 3) Force damage, and if the target is a Medium or smaller creature, it has the Prone condition. If the target already has the Prone condition, the attack deals an extra 7 (2d6) Force damage."
         ]
       },
       {
         "name": "Shackling Glyph",
         "entries": [
-          "str DC 14, one creature the warden can see within 60 feet. The creature has the Grappled condition (escape DC 14). While Grappled, the creature has the Restrained condition."
+          "*Strength Saving Throw:* DC 14, one creature the warden can see within 60 feet. *Failure:* The creature has the Grappled condition (escape DC 14). While Grappled, the creature has the Restrained condition."
         ]
       }
     ],
@@ -877,7 +877,7 @@
       {
         "name": "Thunderbolt",
         "entries": [
-          "Melee Weapon or Ranged Weapon Attack: 6, reach 5 ft. or range 30 ft. 11 (2d6 + 4) Lightning damage plus 9 (2d8) Thunder damage. Critical The creature also has the Deafened condition for 1 minute."
+          "*Melee Weapon or Ranged Weapon Attack:* 6, reach 5 ft. or range 30 ft. *Hit:* 11 (2d6 + 4) Lightning damage plus 9 (2d8) Thunder damage. Critical *Hit:* The creature also has the Deafened condition for 1 minute."
         ]
       }
     ],
@@ -934,13 +934,13 @@
       {
         "name": "Crooked Staff",
         "entries": [
-          "Melee Weapon Attack: 4, reach 5 ft. 6 (1d8 + 2) Bludgeoning damage. If the target is a Medium or smaller creature, it has the Prone condition. If the target already has the Prone condition, the attack deals an extra 7 (2d6) Radiant damage."
+          "*Melee Weapon Attack:* 4, reach 5 ft. *Hit:* 6 (1d8 + 2) Bludgeoning damage. If the target is a Medium or smaller creature, it has the Prone condition. If the target already has the Prone condition, the attack deals an extra 7 (2d6) Radiant damage."
         ]
       },
       {
         "name": "Inquisitive Eye",
         "entries": [
-          "wis DC 13, one creature the inquisitive can see within 60 feet. 10 (3d6) Psychic damage, and the target is marked. The inquisitive has Advantage on attack rolls against a target it has marked. While marked, the target can't become hidden from the inquisitive, and if it has the Invisible condition, it gains no benefit from that condition against the inquisitive. The mark disappears after 1 minute or when the inquisitive uses this action again. {@actSaveSuccess Half damage only."
+          "*Wisdom Saving Throw:* DC 13, one creature the inquisitive can see within 60 feet. *Failure:* 10 (3d6) Psychic damage, and the target is marked. The inquisitive has Advantage on attack rolls against a target it has marked. While marked, the target can't become hidden from the inquisitive, and if it has the Invisible condition, it gains no benefit from that condition against the inquisitive. The mark disappears after 1 minute or when the inquisitive uses this action again. *Success:* Half damage only."
         ]
       }
     ],
@@ -1003,13 +1003,13 @@
       {
         "name": "Dagger",
         "entries": [
-          "Melee Weapon or Ranged Weapon Attack: 6, reach 5 ft. or range 20/60 ft. 9 (2d4 + 4) Piercing damage plus 7 (2d6) Poison damage."
+          "*Melee Weapon or Ranged Weapon Attack:* 6, reach 5 ft. or range 20/60 ft. *Hit:* 9 (2d4 + 4) Piercing damage plus 7 (2d6) Poison damage."
         ]
       },
       {
         "name": "Lightning Cage 5",
         "entries": [
-          "con DC 13, each creature in a 20-foot-radius Sphere [Area of Effect] centered on a point the enforcer can see within 60 feet. 13 (3d8) Lightning damage, and the creature can't take Reactions until the end of the enforcer's next turn. {@actSaveSuccess Half damage only."
+          "*Constitution Saving Throw:* DC 13, each creature in a 20-foot-radius Sphere [Area of Effect] centered on a point the enforcer can see within 60 feet. *Failure:* 13 (3d8) Lightning damage, and the creature can't take Reactions until the end of the enforcer's next turn. *Success:* Half damage only."
         ]
       }
     ],
@@ -1072,13 +1072,13 @@
       {
         "name": "Longsword",
         "entries": [
-          "Melee Weapon Attack: 7, reach 5 ft. 13 (2d8 + 4) Slashing damage, and the target has Disadvantage on the next attack roll it makes before the start of the marshal's next turn."
+          "*Melee Weapon Attack:* 7, reach 5 ft. *Hit:* 13 (2d8 + 4) Slashing damage, and the target has Disadvantage on the next attack roll it makes before the start of the marshal's next turn."
         ]
       },
       {
         "name": "Pistol",
         "entries": [
-          "Ranged Weapon Attack: 7, range 30/90 ft. 15 (2d10 + 4) Piercing damage."
+          "*Ranged Weapon Attack:* 7, range 30/90 ft. *Hit:* 15 (2d10 + 4) Piercing damage."
         ]
       }
     ],
@@ -1135,7 +1135,7 @@
       {
         "name": "Shadow Knife",
         "entries": [
-          "Melee Weapon or Ranged Weapon Attack: 8, reach 5 ft. or range 20/60 ft. 10 (2d4 + 5) Piercing damage plus 14 (4d6) Necrotic damage, and the target's Speed is reduced by 10 feet until the end of its next turn."
+          "*Melee Weapon or Ranged Weapon Attack:* 8, reach 5 ft. or range 20/60 ft. *Hit:* 10 (2d4 + 5) Piercing damage plus 14 (4d6) Necrotic damage, and the target's Speed is reduced by 10 feet until the end of its next turn."
         ]
       }
     ],
@@ -1206,7 +1206,7 @@
       {
         "name": "Bursting Sigil",
         "entries": [
-          "Melee Weapon or Ranged Weapon Attack: 5, reach 5 ft. or range 60 ft. 13 (3d6 + 3) Radiant damage."
+          "*Melee Weapon or Ranged Weapon Attack:* 5, reach 5 ft. or range 60 ft. *Hit:* 13 (3d6 + 3) Radiant damage."
         ]
       }
     ],
@@ -1215,7 +1215,7 @@
       {
         "name": "Word of Stasis 5",
         "entries": [
-          "con DC 13, each creature in a 20-foot-radius Sphere [Area of Effect] centered on a point the scribe can see within 60 feet. The target has the Incapacitated condition until the start of the scribe's next turn. While the target is Incapacitated, its Speed is 0 and can't increase."
+          "*Constitution Saving Throw:* DC 13, each creature in a 20-foot-radius Sphere [Area of Effect] centered on a point the scribe can see within 60 feet. *Failure:* The target has the Incapacitated condition until the start of the scribe's next turn. While the target is Incapacitated, its Speed is 0 and can't increase."
         ]
       }
     ],
@@ -1232,7 +1232,7 @@
     "size": "Medium",
     "type": "construct",
     "alignment": "neutral",
-    "armorClass": "",
+    "armorClass": "12 + your Intelligence modifier",
     "hitPoints": "5 + five times your Artificer level (the defender has a number of Hit Dice [d8s] equal to your Artificer level)",
     "speed": "walk 40 ft.",
     "abilities": {
@@ -1261,7 +1261,7 @@
       {
         "name": "Force-Empowered Rend",
         "entries": [
-          "Melee Weapon Attack: Bonus equals your spell attack modifier, reach 5 ft. 1d8 + 2 plus your Intelligence modifier Force damage."
+          "*Melee Weapon Attack:* Bonus equals your spell attack modifier, reach 5 ft. *Hit:* 1d8 + 2 plus your Intelligence modifier Force damage."
         ]
       },
       {
@@ -1338,7 +1338,7 @@
       {
         "name": "Aberrant Strike",
         "entries": [
-          "Melee Weapon Attack: 7, reach 5 ft. 13 (3d6 + 3) Piercing damage, plus 21 (6d6) Force damage if the marauder had Advantage on the attack roll."
+          "*Melee Weapon Attack:* 7, reach 5 ft. *Hit:* 13 (3d6 + 3) Piercing damage, plus 21 (6d6) Force damage if the marauder had Advantage on the attack roll."
         ]
       }
     ],
@@ -1346,7 +1346,7 @@
       {
         "name": "Tear Through Space",
         "entries": [
-          "The marauder teleports to a space it can see within 30 feet, appearing in a dazzling flash. con DC 17, each creature in a 5-foot Emanation [Area of Effect] originating from the marauder when it appears. The target has the Blinded condition until the end of the marauder's next turn."
+          "The marauder teleports to a space it can see within 30 feet, appearing in a dazzling flash. *Constitution Saving Throw:* DC 17, each creature in a 5-foot Emanation [Area of Effect] originating from the marauder when it appears. *Failure:* The target has the Blinded condition until the end of the marauder's next turn."
         ]
       }
     ],
@@ -1403,7 +1403,7 @@
       {
         "name": "Spear",
         "entries": [
-          "Melee Weapon or Ranged Weapon Attack: 4, reach 5 ft. or range 20/60 ft. 6 (1d8 + 2) Piercing damage."
+          "*Melee Weapon or Ranged Weapon Attack:* 4, reach 5 ft. or range 20/60 ft. *Hit:* 6 (1d8 + 2) Piercing damage."
         ]
       }
     ],
@@ -1450,13 +1450,13 @@
       {
         "name": "Shortsword",
         "entries": [
-          "Melee Weapon Attack: 7, reach 5 ft. 11 (2d6 + 4) Piercing damage, and the target has Disadvantage on attack rolls and ability checks until the end of its next turn."
+          "*Melee Weapon Attack:* 7, reach 5 ft. *Hit:* 11 (2d6 + 4) Piercing damage, and the target has Disadvantage on attack rolls and ability checks until the end of its next turn."
         ]
       },
       {
         "name": "Longbow",
         "entries": [
-          "Ranged Weapon Attack: 7, range 150/600 ft. 17 (3d8 + 4) Piercing damage, and the target's Speed is reduced by 10 feet until the end of its next turn."
+          "*Ranged Weapon Attack:* 7, range 150/600 ft. *Hit:* 17 (3d8 + 4) Piercing damage, and the target's Speed is reduced by 10 feet until the end of its next turn."
         ]
       }
     ],
@@ -1539,13 +1539,13 @@
       {
         "name": "Gloom Burst",
         "entries": [
-          "Melee Weapon or Ranged Weapon Attack: 9, reach 5 ft. or range 120 ft. 14 (2d8 + 5) Psychic damage."
+          "*Melee Weapon or Ranged Weapon Attack:* 9, reach 5 ft. or range 120 ft. *Hit:* 14 (2d8 + 5) Psychic damage."
         ]
       },
       {
         "name": "Shadow Cowl",
         "entries": [
-          "wis DC 17, one creature the shadow walker can see within 120 feet. 14 (4d6) Necrotic damage, and the target has the Blinded condition until the start of the shadow walker's next turn."
+          "*Wisdom Saving Throw:* DC 17, one creature the shadow walker can see within 120 feet. *Failure:* 14 (4d6) Necrotic damage, and the target has the Blinded condition until the start of the shadow walker's next turn."
         ]
       }
     ],
@@ -1610,13 +1610,13 @@
       {
         "name": "Scimitar",
         "entries": [
-          "Melee Weapon Attack: 5, reach 5 ft. 6 (1d6 + 3) Slashing damage plus 3 (1d6) Poison damage."
+          "*Melee Weapon Attack:* 5, reach 5 ft. *Hit:* 6 (1d6 + 3) Slashing damage plus 3 (1d6) Poison damage."
         ]
       },
       {
         "name": "Lunar Wisp",
         "entries": [
-          "Ranged Weapon Attack: 5, range 60 ft. 9 (2d8) Radiant damage, and the target emits Dim Light in a 10-foot radius and can't benefit from the Invisible condition until the end of the heir's next turn."
+          "*Ranged Weapon Attack:* 5, range 60 ft. *Hit:* 9 (2d8) Radiant damage, and the target emits Dim Light in a 10-foot radius and can't benefit from the Invisible condition until the end of the heir's next turn."
         ]
       }
     ],
@@ -1671,13 +1671,13 @@
       {
         "name": "Stingblade",
         "entries": [
-          "Melee Weapon Attack: 4, reach 5 ft. 5 (1d6 + 2) Piercing damage plus 2 (1d4) Poison damage."
+          "*Melee Weapon Attack:* 4, reach 5 ft. *Hit:* 5 (1d6 + 2) Piercing damage plus 2 (1d4) Poison damage."
         ]
       },
       {
         "name": "Boomerang",
         "entries": [
-          "Ranged Weapon Attack: 4, reach 30/120 ft. 7 (2d4 + 2) Bludgeoning damage."
+          "*Ranged Weapon Attack:* 4, reach 30/120 ft. *Hit:* 7 (2d4 + 2) Bludgeoning damage."
         ]
       }
     ],
@@ -1735,7 +1735,7 @@
       {
         "name": "Venom Staff",
         "entries": [
-          "Melee Weapon Attack: 4, reach 5 ft. 9 (2d6 + 2) Bludgeoning damage, and the target has the Poisoned condition until the end of the priest's next turn."
+          "*Melee Weapon Attack:* 4, reach 5 ft. *Hit:* 9 (2d6 + 2) Bludgeoning damage, and the target has the Poisoned condition until the end of the priest's next turn."
         ]
       }
     ],

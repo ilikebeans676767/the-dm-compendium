@@ -36,13 +36,13 @@
       {
         "name": "Dagger",
         "entries": [
-          "Melee Weapon Attack: 5 to hit, reach 5 ft., one target. 5 (1d4 + 3) piercing damage."
+          "*Melee Weapon Attack:* 5 to hit, reach 5 ft., one target. *Hit:* 5 (1d4 + 3) piercing damage."
         ]
       },
       {
         "name": "Light Crossbow",
         "entries": [
-          "Ranged Weapon Attack: 5 to hit, range 80/320 ft., one target. 7 (1d8 + 3) piercing damage."
+          "*Ranged Weapon Attack:* 5 to hit, range 80/320 ft., one target. *Hit:* 7 (1d8 + 3) piercing damage."
         ]
       }
     ],
@@ -96,13 +96,13 @@
       {
         "name": "Scimitar",
         "entries": [
-          "Melee Weapon Attack: 4 to hit, reach 5 ft., one target. 5 (1d6 + 2) slashing damage plus 2 (1d4) poison damage.."
+          "*Melee Weapon Attack:* 4 to hit, reach 5 ft., one target. *Hit:* 5 (1d6 + 2) slashing damage plus 2 (1d4) poison damage.."
         ]
       },
       {
         "name": "Light Crossbow",
         "entries": [
-          "Ranged Weapon Attack: 4 to hit, range 80/320 ft., one target. 6 (1d8 + 2) piercing damage."
+          "*Ranged Weapon Attack:* 4 to hit, range 80/320 ft., one target. *Hit:* 6 (1d8 + 2) piercing damage."
         ]
       }
     ],
@@ -169,7 +169,7 @@
       {
         "name": "Slam",
         "entries": [
-          "Melee Weapon Attack: 6 to hit, reach 5 ft., one target. 7 (1d6 + 4) bludgeoning damage."
+          "*Melee Weapon Attack:* 6 to hit, reach 5 ft., one target. *Hit:* 7 (1d6 + 4) bludgeoning damage."
         ]
       }
     ],

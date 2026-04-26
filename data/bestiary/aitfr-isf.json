@@ -52,13 +52,13 @@
       {
         "name": "Handaxe",
         "entries": [
-          "Melee Weapon Attack: 10 to hit, reach 5 ft., one target. 13 (2d6 + 6) slashing damage plus 3 (1d6) fire damage."
+          "*Melee Weapon Attack:* 10 to hit, reach 5 ft., one target. *Hit:* 13 (2d6 + 6) slashing damage plus 3 (1d6) fire damage."
         ]
       },
       {
         "name": "Hurl Flame",
         "entries": [
-          "Ranged Spell Attack: 7 to hit, range 120 ft., one target. 17 (5d6) fire damage."
+          "*Ranged Spell Attack:* 7 to hit, range 120 ft., one target. *Hit:* 17 (5d6) fire damage."
         ]
       }
     ],
@@ -121,7 +121,7 @@
       {
         "name": "Dagger",
         "entries": [
-          "Melee Weapon or Ranged Weapon Attack: 5 to hit, reach 5 ft. or range 20/60 ft., one target. 4 (1d4 + 2) piercing damage."
+          "*Melee Weapon or Ranged Weapon Attack:* 5 to hit, reach 5 ft. or range 20/60 ft., one target. *Hit:* 4 (1d4 + 2) piercing damage."
         ]
       }
     ],

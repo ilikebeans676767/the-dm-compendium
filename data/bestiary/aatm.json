@@ -47,13 +47,13 @@
       {
         "name": "Slam",
         "entries": [
-          "Melee Weapon Attack: 5 to hit, reach 5 ft., one target. 12 (2d8 + 3) bludgeoning damage."
+          "*Melee Weapon Attack:* 5 to hit, reach 5 ft., one target. *Hit:* 12 (2d8 + 3) bludgeoning damage."
         ]
       },
       {
         "name": "Entrap",
         "entries": [
-          "Melee Weapon Attack: 5 to hit, reach 5 ft., one Large or smaller creature. The target has the grappled condition (escape DC 13). Until this grapple ends, if the target is not an Undead, the target has the restrained condition and takes 14 (4d6) piercing damage at the start of each of its turns. The animated coffin can grapple only one creature at a time."
+          "*Melee Weapon Attack:* 5 to hit, reach 5 ft., one Large or smaller creature. *Hit:* The target has the grappled condition (escape DC 13). Until this grapple ends, if the target is not an Undead, the target has the restrained condition and takes 14 (4d6) piercing damage at the start of each of its turns. The animated coffin can grapple only one creature at a time."
         ]
       }
     ],
@@ -141,7 +141,7 @@
       {
         "name": "Withering Touch",
         "entries": [
-          "Melee Spell Attack: 11 to hit, reach 5 ft., one target. 32 (6d8 + 5) cold damage plus 31 (7d8) necrotic damage, and if the target is a creature, it can't regain hit points until the start of Skall's next turn."
+          "*Melee Spell Attack:* 11 to hit, reach 5 ft., one target. *Hit:* 32 (6d8 + 5) cold damage plus 31 (7d8) necrotic damage, and if the target is a creature, it can't regain hit points until the start of Skall's next turn."
         ]
       },
       {
@@ -231,7 +231,7 @@
       {
         "name": "Grave Burst",
         "entries": [
-          "Melee Spell or Ranged Spell Attack: 6 to hit, reach 5 ft. or range 120 ft., one target. 19 (3d10 + 3) necrotic or radiant damage (exorcist's choice)."
+          "*Melee Spell or Ranged Spell Attack:* 6 to hit, reach 5 ft. or range 120 ft., one target. *Hit:* 19 (3d10 + 3) necrotic or radiant damage (exorcist's choice)."
         ]
       },
       {

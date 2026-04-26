@@ -102,13 +102,13 @@
       {
         "name": "Club",
         "entries": [
-          "Melee Weapon Attack: 7 to hit, reach 5 ft., one target. 11 (2d6 + 4) bludgeoning damage."
+          "*Melee Weapon Attack:* 7 to hit, reach 5 ft., one target. *Hit:* 11 (2d6 + 4) bludgeoning damage."
         ]
       },
       {
         "name": "Hand Crossbow",
         "entries": [
-          "Ranged Weapon Attack: 5 to hit, range 30/120 ft., one target. 5 (1d6 + 2) piercing damage."
+          "*Ranged Weapon Attack:* 5 to hit, range 30/120 ft., one target. *Hit:* 5 (1d6 + 2) piercing damage."
         ]
       }
     ],

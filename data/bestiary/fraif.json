@@ -42,13 +42,13 @@
       {
         "name": "Rend",
         "entries": [
-          "Melee Weapon Attack: 9, reach 10 ft. 14 (2d8 + 5) Slashing damage plus 5 (1d10) Poison damage."
+          "*Melee Weapon Attack:* 9, reach 10 ft. *Hit:* 14 (2d8 + 5) Slashing damage plus 5 (1d10) Poison damage."
         ]
       },
       {
         "name": "Nightmare Breath 5",
         "entries": [
-          "wis DC 15, each creature in a 30-foot Cone [Area of Effect]. 38 (7d10) Psychic damage, and the target has the Frightened condition until the end of the dragon's next turn. {@actSaveSuccess Half damage only."
+          "*Wisdom Saving Throw:* DC 15, each creature in a 30-foot Cone [Area of Effect]. *Failure:* 38 (7d10) Psychic damage, and the target has the Frightened condition until the end of the dragon's next turn. *Success:* Half damage only."
         ]
       }
     ],
@@ -71,7 +71,7 @@
       {
         "name": "Spore Salvo",
         "entries": [
-          "con DC 15, one creature within 30 feet of the dragon that it can see. 13 (3d8) Poison damage, and the target has the Poisoned condition. It repeats the save at the end of each of its turns, ending the effect on itself on a success. After 1 minute, it succeeds automatically. {@actSaveSuccessOrFail The dragon can't take this action again until the start of its next turn."
+          "*Constitution Saving Throw:* DC 15, one creature within 30 feet of the dragon that it can see. *Failure:* 13 (3d8) Poison damage, and the target has the Poisoned condition. It repeats the save at the end of each of its turns, ending the effect on itself on a success. After 1 minute, it succeeds automatically. *Success or Failure:* The dragon can't take this action again until the start of its next turn."
         ]
       }
     ],
@@ -134,19 +134,19 @@
       {
         "name": "Rend",
         "entries": [
-          "Melee Weapon Attack: 11, reach 10 ft. 15 (2d8 + 6) Slashing damage plus 7 (2d6) Necrotic damage."
+          "*Melee Weapon Attack:* 11, reach 10 ft. *Hit:* 15 (2d8 + 6) Slashing damage plus 7 (2d6) Necrotic damage."
         ]
       },
       {
         "name": "Ruinous Breath 5",
         "entries": [
-          "con DC 18, each creature in a 60-foot Cone [Area of Effect]. 63 (14d8) Necrotic damage. {@actSaveSuccess Half damage."
+          "*Constitution Saving Throw:* DC 18, each creature in a 60-foot Cone [Area of Effect]. *Failure:* 63 (14d8) Necrotic damage. *Success:* Half damage."
         ]
       },
       {
         "name": "Time-Warping Breath",
         "entries": [
-          "wis DC 18, each creature that isn't currently affected by this breath in a 60-foot Cone [Area of Effect]. The target's Speed is halved, it can't take Reactions, and it can take either an action or a Bonus Action on its turn, not both. It repeats the save at the end of each of its turns, ending the effect on itself on a success. After 1 minute, it succeeds automatically."
+          "*Wisdom Saving Throw:* DC 18, each creature that isn't currently affected by this breath in a 60-foot Cone [Area of Effect]. *Failure:* The target's Speed is halved, it can't take Reactions, and it can take either an action or a Bonus Action on its turn, not both. It repeats the save at the end of each of its turns, ending the effect on itself on a success. After 1 minute, it succeeds automatically."
         ]
       }
     ],
@@ -168,7 +168,7 @@
       {
         "name": "Unearth Ruins",
         "entries": [
-          "The dragon magically raises broken, ancient ruins in a 20-foot-radius, 60-foot-high Cylinder [Area of Effect] centered on a point it can see within 120 feet. Ground in the Cylinder [Area of Effect] becomes Difficult Terrain. Each creature in the Cylinder [Area of Effect] when it appears is subjected to the following effect. str DC 18. 5 (2d4) Bludgeoning damage, and the target has the Prone condition. {@actSaveSuccessOrFail The dragon can't take this action again until the start of its next turn."
+          "The dragon magically raises broken, ancient ruins in a 20-foot-radius, 60-foot-high Cylinder [Area of Effect] centered on a point it can see within 120 feet. Ground in the Cylinder [Area of Effect] becomes Difficult Terrain. Each creature in the Cylinder [Area of Effect] when it appears is subjected to the following effect. *Strength Saving Throw:* DC 18. *Failure:* 5 (2d4) Bludgeoning damage, and the target has the Prone condition. *Success or Failure:* The dragon can't take this action again until the start of its next turn."
         ]
       }
     ],
@@ -221,13 +221,13 @@
       {
         "name": "Rend",
         "entries": [
-          "Melee Weapon Attack: 12, reach 15 ft. 17 (2d10 + 6) Slashing damage plus 5 (1d10) Poison damage."
+          "*Melee Weapon Attack:* 12, reach 15 ft. *Hit:* 17 (2d10 + 6) Slashing damage plus 5 (1d10) Poison damage."
         ]
       },
       {
         "name": "Nightmare Breath 5",
         "entries": [
-          "wis DC 20, each creature in a 90-foot Cone [Area of Effect]. 44 (8d10) Psychic damage, and the target has the Frightened condition until the end of the dragon's next turn. {@actSaveSuccess Half damage only."
+          "*Wisdom Saving Throw:* DC 20, each creature in a 90-foot Cone [Area of Effect]. *Failure:* 44 (8d10) Psychic damage, and the target has the Frightened condition until the end of the dragon's next turn. *Success:* Half damage only."
         ]
       }
     ],
@@ -250,7 +250,7 @@
       {
         "name": "Spore Salvo",
         "entries": [
-          "con DC 20, one creature within 30 feet of the dragon that it can see. 16 (3d10) Poison damage, and the target has the Poisoned condition. It repeats the save at the end of each of its turns, ending the effect on itself on a success. After 1 minute, it succeeds automatically. {@actSaveSuccessOrFail The dragon can't take this action again until the start of its next turn."
+          "*Constitution Saving Throw:* DC 20, one creature within 30 feet of the dragon that it can see. *Failure:* 16 (3d10) Poison damage, and the target has the Poisoned condition. It repeats the save at the end of each of its turns, ending the effect on itself on a success. After 1 minute, it succeeds automatically. *Success or Failure:* The dragon can't take this action again until the start of its next turn."
         ]
       }
     ],
@@ -313,19 +313,19 @@
       {
         "name": "Rend",
         "entries": [
-          "Melee Weapon Attack: 15, reach 15 ft. 19 (2d10 + 8) Slashing damage plus 9 (2d8) Necrotic damage."
+          "*Melee Weapon Attack:* 15, reach 15 ft. *Hit:* 19 (2d10 + 8) Slashing damage plus 9 (2d8) Necrotic damage."
         ]
       },
       {
         "name": "Ruinous Breath 5",
         "entries": [
-          "con DC 22, each creature in a 90-foot Cone [Area of Effect]. 72 (16d8) Necrotic damage. {@actSaveSuccess Half damage."
+          "*Constitution Saving Throw:* DC 22, each creature in a 90-foot Cone [Area of Effect]. *Failure:* 72 (16d8) Necrotic damage. *Success:* Half damage."
         ]
       },
       {
         "name": "Time-Warping Breath",
         "entries": [
-          "wis DC 22, each creature that isn't currently affected by this breath in a 90-foot Cone [Area of Effect]. The target's Speed is halved, it can't take Reactions, and it can take either an action or a Bonus Action on its turn, not both. It repeats the save at the end of each of its turns, ending the effect on itself on a success. After 1 minute, it succeeds automatically."
+          "*Wisdom Saving Throw:* DC 22, each creature that isn't currently affected by this breath in a 90-foot Cone [Area of Effect]. *Failure:* The target's Speed is halved, it can't take Reactions, and it can take either an action or a Bonus Action on its turn, not both. It repeats the save at the end of each of its turns, ending the effect on itself on a success. After 1 minute, it succeeds automatically."
         ]
       }
     ],
@@ -347,7 +347,7 @@
       {
         "name": "Unearth Ruins",
         "entries": [
-          "The dragon magically raises broken, ancient ruins in a 20-foot-radius, 60-foot-high Cylinder [Area of Effect] centered on a point it can see within 120 feet. Ground in the Cylinder [Area of Effect] becomes Difficult Terrain. Each creature in the Cylinder [Area of Effect] when it appears is subjected to the following effect. str DC 22. 13 (3d8) Bludgeoning damage, and the target has the Prone condition. {@actSaveSuccessOrFail The dragon can't take this action again until the start of its next turn."
+          "The dragon magically raises broken, ancient ruins in a 20-foot-radius, 60-foot-high Cylinder [Area of Effect] centered on a point it can see within 120 feet. Ground in the Cylinder [Area of Effect] becomes Difficult Terrain. Each creature in the Cylinder [Area of Effect] when it appears is subjected to the following effect. *Strength Saving Throw:* DC 22. *Failure:* 13 (3d8) Bludgeoning damage, and the target has the Prone condition. *Success or Failure:* The dragon can't take this action again until the start of its next turn."
         ]
       }
     ],
@@ -416,19 +416,19 @@
       {
         "name": "Bite (Hybrid or Spider Form Only)",
         "entries": [
-          "Melee Weapon Attack: 5, reach 5 ft. 6 (1d6 + 3) Piercing damage plus 2 (1d4) Poison damage."
+          "*Melee Weapon Attack:* 5, reach 5 ft. *Hit:* 6 (1d6 + 3) Piercing damage plus 2 (1d4) Poison damage."
         ]
       },
       {
         "name": "Slam",
         "entries": [
-          "Melee Weapon Attack: 5, reach 5 ft. 7 (1d8 + 3) Bludgeoning damage."
+          "*Melee Weapon Attack:* 5, reach 5 ft. *Hit:* 7 (1d8 + 3) Bludgeoning damage."
         ]
       },
       {
         "name": "Sling (Humanoid or Hybrid Form Only)",
         "entries": [
-          "Ranged Weapon Attack: 5, range 30/120 ft. 8 (2d4 + 3) Bludgeoning damage."
+          "*Ranged Weapon Attack:* 5, range 30/120 ft. *Hit:* 8 (2d4 + 3) Bludgeoning damage."
         ]
       }
     ],
@@ -516,13 +516,13 @@
       {
         "name": "Bite",
         "entries": [
-          "Melee Weapon Attack: 9, reach 5 ft. 23 (4d8 + 5) Piercing damage."
+          "*Melee Weapon Attack:* 9, reach 5 ft. *Hit:* 23 (4d8 + 5) Piercing damage."
         ]
       },
       {
         "name": "Claws (Land or Sky Form Only)",
         "entries": [
-          "Melee Weapon Attack: 9, reach 5 ft. 18 (3d8 + 5) Slashing damage. If the target is Large or smaller, it has the Prone condition."
+          "*Melee Weapon Attack:* 9, reach 5 ft. *Hit:* 18 (3d8 + 5) Slashing damage. If the target is Large or smaller, it has the Prone condition."
         ]
       }
     ],
@@ -616,13 +616,13 @@
       {
         "name": "Marine Burst",
         "entries": [
-          "Melee Weapon or Ranged Weapon Attack: 10, reach 5 ft. or range 60 ft. 17 (2d10 + 6) Cold damage."
+          "*Melee Weapon or Ranged Weapon Attack:* 10, reach 5 ft. or range 60 ft. *Hit:* 17 (2d10 + 6) Cold damage."
         ]
       },
       {
         "name": "Tail (Marid Form Only)",
         "entries": [
-          "Melee Weapon Attack: 10, reach 15 ft. 13 (2d6 + 6) Bludgeoning damage, and if the target is Huge or smaller, it has the Prone condition."
+          "*Melee Weapon Attack:* 10, reach 15 ft. *Hit:* 13 (2d6 + 6) Bludgeoning damage, and if the target is Huge or smaller, it has the Prone condition."
         ]
       }
     ],
@@ -645,7 +645,7 @@
       {
         "name": "Whirlpool",
         "entries": [
-          "str DC 18, each creature in a 30-foot Emanation [Area of Effect] originating from Biha Babir. 10 (3d6) Force damage, and the target is pulled 15 feet straight toward Biha Babir. Biha Babir can't use this action again until the start of her next turn."
+          "*Strength Saving Throw:* DC 18, each creature in a 30-foot Emanation [Area of Effect] originating from Biha Babir. *Failure:* 10 (3d6) Force damage, and the target is pulled 15 feet straight toward Biha Babir. *Success:* Half damage only. *Success or Failure:* Biha Babir can't use this action again until the start of her next turn."
         ]
       }
     ],
@@ -706,13 +706,13 @@
       {
         "name": "Gauntlet",
         "entries": [
-          "Melee Weapon Attack: 8, reach 5 ft. 17 (3d8 + 4) Bludgeoning damage."
+          "*Melee Weapon Attack:* 8, reach 5 ft. *Hit:* 17 (3d8 + 4) Bludgeoning damage."
         ]
       },
       {
         "name": "Oppressive Burst",
         "entries": [
-          "Ranged Weapon Attack: 8, range 120 ft. 16 (2d10 + 5) Psychic damage, and the target can't take Reactions until the start of the cultist's next turn."
+          "*Ranged Weapon Attack:* 8, range 120 ft. *Hit:* 16 (2d10 + 5) Psychic damage, and the target can't take Reactions until the start of the cultist's next turn."
         ]
       }
     ],
@@ -785,7 +785,7 @@
       {
         "name": "Cursed Blade",
         "entries": [
-          "Melee Weapon or Ranged Weapon Attack: 7 (with Advantage if the target doesn't have all its Hit Points), reach 5 ft. or range 20/80 ft. 14 (3d6 + 4) Slashing damage. The blade magically returns to the cultist's hand immediately after a ranged attack."
+          "*Melee Weapon or Ranged Weapon Attack:* 7 (with Advantage if the target doesn't have all its Hit Points), reach 5 ft. or range 20/80 ft. *Hit:* 14 (3d6 + 4) Slashing damage. The blade magically returns to the cultist's hand immediately after a ranged attack."
         ]
       }
     ],
@@ -851,7 +851,7 @@
       {
         "name": "Necrotic Burst",
         "entries": [
-          "Melee Weapon or Ranged Weapon Attack: 9, reach 5 ft. or range 120 ft. 27 (5d10) Necrotic damage and the target can't regain Hit Points until the end of the cultist's next turn."
+          "*Melee Weapon or Ranged Weapon Attack:* 9, reach 5 ft. or range 120 ft. *Hit:* 27 (5d10) Necrotic damage and the target can't regain Hit Points until the end of the cultist's next turn."
         ]
       }
     ],
@@ -892,7 +892,7 @@
       {
         "name": "Culling Aura",
         "entries": [
-          "con DC 20, each Bloodied creature in a 30-foot Emanation [Area of Effect] originating from the scion at the end of the scion's turn. The target can't regain Hit Points until the start of the scion's next turn."
+          "*Constitution Saving Throw:* DC 20, each Bloodied creature in a 30-foot Emanation [Area of Effect] originating from the scion at the end of the scion's turn. *Failure:* The target can't regain Hit Points until the start of the scion's next turn."
         ]
       },
       {
@@ -937,13 +937,13 @@
       {
         "name": "Death Touch",
         "entries": [
-          "Melee Weapon Attack: 12, reach 5 ft. 25 (4d8 + 7) Necrotic damage."
+          "*Melee Weapon Attack:* 12, reach 5 ft. *Hit:* 25 (4d8 + 7) Necrotic damage."
         ]
       },
       {
         "name": "Mindwrack Bolt",
         "entries": [
-          "Ranged Weapon Attack: 12, range 120 ft. 21 (6d6) Psychic damage and the target has the Poisoned condition until the start of the scion's next turn."
+          "*Ranged Weapon Attack:* 12, range 120 ft. *Hit:* 21 (6d6) Psychic damage and the target has the Poisoned condition until the start of the scion's next turn."
         ]
       }
     ],
@@ -994,13 +994,13 @@
       {
         "name": "Rend",
         "entries": [
-          "Melee Weapon Attack: 4, reach 5 ft. 6 (1d8 + 2) Slashing damage."
+          "*Melee Weapon Attack:* 4, reach 5 ft. *Hit:* 6 (1d8 + 2) Slashing damage."
         ]
       },
       {
         "name": "Nightmare Breath 5",
         "entries": [
-          "wis DC 11, each creature in a 15-foot Cone [Area of Effect]. 7 (2d6) Psychic damage, and the target has the Frightened condition until the end of the dragon's next turn. {@actSaveSuccess Half damage only."
+          "*Wisdom Saving Throw:* DC 11, each creature in a 15-foot Cone [Area of Effect]. *Failure:* 7 (2d6) Psychic damage, and the target has the Frightened condition until the end of the dragon's next turn. *Success:* Half damage only."
         ]
       }
     ],
@@ -1118,13 +1118,13 @@
       {
         "name": "Shortsword",
         "entries": [
-          "Melee Weapon Attack: 7, reach 5 ft. 11 (2d6 + 4) Piercing damage plus 10 (3d6) Poison damage."
+          "*Melee Weapon Attack:* 7, reach 5 ft. *Hit:* 11 (2d6 + 4) Piercing damage plus 10 (3d6) Poison damage."
         ]
       },
       {
         "name": "Drow Hand Crossbow",
         "entries": [
-          "Ranged Weapon Attack: 7, range 30/120 ft. 7 (1d6 + 4) Piercing damage, and the target makes a saving throw. con DC 15. The target has the Poisoned condition for 1 hour. While Poisoned in this way, the target also has the Unconscious condition. The target wakes up if it takes damage or if a creature within 5 feet of it takes an action to wake it."
+          "*Ranged Weapon Attack:* 7, range 30/120 ft. *Hit:* 7 (1d6 + 4) Piercing damage, and the target makes a saving throw. *Constitution Saving Throw:* DC 15. *Failure:* The target has the Poisoned condition for 1 hour. While Poisoned in this way, the target also has the Unconscious condition. The target wakes up if it takes damage or if a creature within 5 feet of it takes an action to wake it."
         ]
       }
     ],
@@ -1205,7 +1205,7 @@
       {
         "name": "Abyssal Burst",
         "entries": [
-          "Melee Weapon or Ranged Weapon Attack: 6, reach 5 ft. or range 120 ft. 21 (4d8 + 3) Poison damage."
+          "*Melee Weapon or Ranged Weapon Attack:* 6, reach 5 ft. or range 120 ft. *Hit:* 21 (4d8 + 3) Poison damage."
         ]
       }
     ],
@@ -1272,13 +1272,13 @@
       {
         "name": "Rapier",
         "entries": [
-          "Melee Weapon Attack: 4, reach 5 ft. 6 (1d8 + 2) Piercing damage."
+          "*Melee Weapon Attack:* 4, reach 5 ft. *Hit:* 6 (1d8 + 2) Piercing damage."
         ]
       },
       {
         "name": "Drow Hand Crossbow",
         "entries": [
-          "Ranged Weapon Attack: 4, range 30/120 ft. 4 (1d4 + 2) Piercing damage, and the target makes a saving throw. con DC 12. The target has the Poisoned condition for 1 hour. If the target fails the save by 5 or more, it also has the Unconscious condition while Poisoned in this way. The target wakes up if it takes damage or if a creature within 5 feet of it takes an action to wake it."
+          "*Ranged Weapon Attack:* 4, range 30/120 ft. *Hit:* 4 (1d4 + 2) Piercing damage, and the target makes a saving throw. *Constitution Saving Throw:* DC 12. *Failure:* The target has the Poisoned condition for 1 hour. If the target fails the save by 5 or more, it also has the Unconscious condition while Poisoned in this way. The target wakes up if it takes damage or if a creature within 5 feet of it takes an action to wake it."
         ]
       }
     ],
@@ -1358,13 +1358,13 @@
       {
         "name": "Scourge",
         "entries": [
-          "Melee Weapon Attack: 5, reach 10 ft. 6 (1d6 + 3) Piercing damage plus 17 (5d6) Poison damage."
+          "*Melee Weapon Attack:* 5, reach 10 ft. *Hit:* 6 (1d6 + 3) Piercing damage plus 17 (5d6) Poison damage."
         ]
       },
       {
         "name": "Spider Vortex 5",
         "entries": [
-          "con DC 15, each enemy in a 20-foot Emanation [Area of Effect] originating from the drow. 33 (6d10) Piercing damage, and the target has the Restrained condition until the start of the drow's next turn. {@actSaveSuccess Half damage only."
+          "*Constitution Saving Throw:* DC 15, each enemy in a 20-foot Emanation [Area of Effect] originating from the drow. *Failure:* 33 (6d10) Piercing damage, and the target has the Restrained condition until the start of the drow's next turn. *Success:* Half damage only."
         ]
       }
     ],
@@ -1498,13 +1498,13 @@
       {
         "name": "Dread Dagger",
         "entries": [
-          "Melee Weapon or Ranged Weapon Attack: 8, reach 5 ft. or range 20/60 ft. 10 (2d4 + 5) Piercing damage plus 4 (1d8) Necrotic damage. The dagger magically returns to Karas's hand immediately after a ranged attack."
+          "*Melee Weapon or Ranged Weapon Attack:* 8, reach 5 ft. or range 20/60 ft. *Hit:* 10 (2d4 + 5) Piercing damage plus 4 (1d8) Necrotic damage. The dagger magically returns to Karas's hand immediately after a ranged attack."
         ]
       },
       {
         "name": "Tyrant's Blade",
         "entries": [
-          "Melee Weapon Attack: 8, reach 5 ft. 8 (1d6 + 5) Slashing damage, and the target has the Frightened condition until the start of Karas's next turn. If the target is already Frightened, it instead takes 10 (3d6) Psychic damage."
+          "*Melee Weapon Attack:* 8, reach 5 ft. *Hit:* 8 (1d6 + 5) Slashing damage, and the target has the Frightened condition until the start of Karas's next turn. If the target is already Frightened, it instead takes 10 (3d6) Psychic damage."
         ]
       }
     ],
@@ -1521,7 +1521,7 @@
       {
         "name": "Harrow",
         "entries": [
-          "wis DC 15, one creature Karas can see within 90 feet of herself. 10 (3d6) Psychic damage, and the target has the Frightened condition for 1 minute. While Frightened, the target's Speed is 0 feet, and it repeats the save at the end of each of its turns, ending the effect on a success. {@actSaveSuccessOrFail Karas can't take this action again until the start of her next turn."
+          "*Wisdom Saving Throw:* DC 15, one creature Karas can see within 90 feet of herself. *Failure:* 10 (3d6) Psychic damage, and the target has the Frightened condition for 1 minute. While Frightened, the target's Speed is 0 feet, and it repeats the save at the end of each of its turns, ending the effect on a success. *Success or Failure:* Karas can't take this action again until the start of her next turn."
         ]
       },
       {
@@ -1605,7 +1605,7 @@
       {
         "name": "Arcane Burst",
         "entries": [
-          "Melee Weapon or Ranged Weapon Attack: 11, reach 5 ft., or range 120 ft. 32 (4d12 + 6) Force damage."
+          "*Melee Weapon or Ranged Weapon Attack:* 11, reach 5 ft., or range 120 ft. *Hit:* 32 (4d12 + 6) Force damage."
         ]
       }
     ],
@@ -1659,13 +1659,13 @@
       {
         "name": "Scimitar",
         "entries": [
-          "Melee Weapon Attack: 6, reach 5 ft. 7 (1d6 + 4) Slashing damage."
+          "*Melee Weapon Attack:* 6, reach 5 ft. *Hit:* 7 (1d6 + 4) Slashing damage."
         ]
       },
       {
         "name": "Clockwork Crossbow",
         "entries": [
-          "Ranged Weapon Attack: 6, range 80/320 ft. 8 (1d8 + 4) Piercing damage."
+          "*Ranged Weapon Attack:* 6, range 80/320 ft. *Hit:* 8 (1d8 + 4) Piercing damage."
         ]
       }
     ],
@@ -1734,13 +1734,13 @@
       {
         "name": "Halting Slam",
         "entries": [
-          "Melee Weapon Attack: 7, reach 10 ft. 15 (2d10 + 4) Bludgeoning damage, and the target's Speed is reduced to 0 until the end of its next turn."
+          "*Melee Weapon Attack:* 7, reach 10 ft. *Hit:* 15 (2d10 + 4) Bludgeoning damage, and the target's Speed is reduced to 0 until the end of its next turn."
         ]
       },
       {
         "name": "Radiant Ray",
         "entries": [
-          "Ranged Weapon Attack: 7, range 60 ft. 14 (4d6) Radiant damage."
+          "*Ranged Weapon Attack:* 7, range 60 ft. *Hit:* 14 (4d6) Radiant damage."
         ]
       }
     ],
@@ -1790,7 +1790,7 @@
       {
         "name": "Hooves",
         "entries": [
-          "Melee Weapon Attack: 6, reach 5 ft. 7 (1d8 + 3) Bludgeoning damage. If the nimblewright moved at least 20 feet straight toward the target immediately before the hit, the target takes an extra 4 (1d8) Bludgeoning damage and, if it is Huge or smaller, has the Prone condition."
+          "*Melee Weapon Attack:* 6, reach 5 ft. *Hit:* 7 (1d8 + 3) Bludgeoning damage. If the nimblewright moved at least 20 feet straight toward the target immediately before the hit, the target takes an extra 4 (1d8) Bludgeoning damage and, if it is Huge or smaller, has the Prone condition."
         ]
       }
     ],
@@ -1871,13 +1871,13 @@
       {
         "name": "Dread Stinger",
         "entries": [
-          "Melee Weapon Attack: 7, reach 5 ft. 7 (1d6 + 4) Piercing damage plus 13 (2d12) Poison damage."
+          "*Melee Weapon Attack:* 7, reach 5 ft. *Hit:* 7 (1d6 + 4) Piercing damage plus 13 (2d12) Poison damage."
         ]
       },
       {
         "name": "Mindwarp Ray",
         "entries": [
-          "Ranged Weapon Attack: 7, range 120 ft. 13 (2d8 + 4) Psychic damage, and the target has the Charmed condition until the start of the phaerimm's next turn."
+          "*Ranged Weapon Attack:* 7, range 120 ft. *Hit:* 13 (2d8 + 4) Psychic damage, and the target has the Charmed condition until the start of the phaerimm's next turn."
         ]
       }
     ],
@@ -1950,7 +1950,7 @@
       {
         "name": "Stinger",
         "entries": [
-          "Melee Weapon Attack: 3, reach 5 ft. 3 (1d4 + 1) Piercing damage."
+          "*Melee Weapon Attack:* 3, reach 5 ft. *Hit:* 3 (1d4 + 1) Piercing damage."
         ]
       }
     ],
@@ -2007,13 +2007,13 @@
       {
         "name": "Bite",
         "entries": [
-          "Melee Weapon Attack: 6, reach 5 ft. 8 (1d8 + 4) Piercing damage plus 3 (1d6) Cold damage."
+          "*Melee Weapon Attack:* 6, reach 5 ft. *Hit:* 8 (1d8 + 4) Piercing damage plus 3 (1d6) Cold damage."
         ]
       },
       {
         "name": "Constrict",
         "entries": [
-          "str DC 14, one Medium or smaller creature the snake can see within 10 feet. 3 (1d6) Bludgeoning damage plus 7 (2d6) Cold damage. The target has the Grappled condition (escape DC 14), and it has the Restrained condition until the grapple ends."
+          "*Strength Saving Throw:* DC 14, one Medium or smaller creature the snake can see within 10 feet. *Failure:* 3 (1d6) Bludgeoning damage plus 7 (2d6) Cold damage. The target has the Grappled condition (escape DC 14), and it has the Restrained condition until the grapple ends."
         ]
       }
     ],
@@ -2076,13 +2076,13 @@
       {
         "name": "Greataxe",
         "entries": [
-          "Melee Weapon Attack: 9, reach 5 ft. 18 (2d12 + 5) Slashing damage, and the target has the Poisoned condition until the end of its next turn."
+          "*Melee Weapon Attack:* 9, reach 5 ft. *Hit:* 18 (2d12 + 5) Slashing damage, and the target has the Poisoned condition until the end of its next turn."
         ]
       },
       {
         "name": "Handaxe",
         "entries": [
-          "Melee Weapon or Ranged Weapon Attack: 9, reach 5 ft. or range 20/60 ft. 22 (5d6 + 5) Slashing damage."
+          "*Melee Weapon or Ranged Weapon Attack:* 9, reach 5 ft. or range 20/60 ft. *Hit:* 22 (5d6 + 5) Slashing damage."
         ]
       }
     ],
@@ -2090,7 +2090,7 @@
       {
         "name": "Rust's Grip",
         "entries": [
-          "con DC 16, one creature Forfallen can see within 20 feet. The target has Disadvantage on this save if it has the Poisoned condition. 1 The target has the Restrained condition and repeats the save at the end of its next turn if it's still Restrained, ending the effect on itself on a success. 2 The target has the Petrified condition instead of the Restrained condition, becoming a statue of rusted iron."
+          "*Constitution Saving Throw:* DC 16, one creature Forfallen can see within 20 feet. The target has Disadvantage on this save if it has the Poisoned condition. *Failure 1:* The target has the Restrained condition and repeats the save at the end of its next turn if it's still Restrained, ending the effect on itself on a success. *Failure 2:* The target has the Petrified condition instead of the Restrained condition, becoming a statue of rusted iron."
         ]
       }
     ],
@@ -2136,13 +2136,13 @@
       {
         "name": "Slam",
         "entries": [
-          "Melee Weapon Attack: 10, reach 10 ft. 20 (4d6 + 6) Bludgeoning damage."
+          "*Melee Weapon Attack:* 10, reach 10 ft. *Hit:* 20 (4d6 + 6) Bludgeoning damage."
         ]
       },
       {
         "name": "Rusted Shot Put",
         "entries": [
-          "Ranged Weapon Attack: 10, range 60/240 ft. 15 (2d8 + 6) Bludgeoning damage, and the target has the Poisoned condition until the end of its next turn."
+          "*Ranged Weapon Attack:* 10, range 60/240 ft. *Hit:* 15 (2d8 + 6) Bludgeoning damage, and the target has the Poisoned condition until the end of its next turn."
         ]
       }
     ],
@@ -2151,7 +2151,7 @@
       {
         "name": "Rust-Riddled Hide",
         "entries": [
-          "The Rusted is hit by an attack roll that deals Bludgeoning, Piercing, or Slashing damage. the target has the Poisoned condition until the end of the target's next turn."
+          "The Rusted is hit by an attack roll that deals Bludgeoning, Piercing, or Slashing damage. {@actResponse d*Constitution Saving Throw:* DC 16, each creature of the Rusted's choice in a 5-foot Emanation [Area of Effect] originating from the Rusted. *Failure:* the target has the Poisoned condition until the end of the target's next turn."
         ]
       }
     ],
@@ -2199,13 +2199,13 @@
       {
         "name": "Greatsword",
         "entries": [
-          "Melee Weapon Attack: 6, reach 5 ft. 11 (2d6 + 4) Slashing damage, and the target has the Poisoned condition until the end of its next turn."
+          "*Melee Weapon Attack:* 6, reach 5 ft. *Hit:* 11 (2d6 + 4) Slashing damage, and the target has the Poisoned condition until the end of its next turn."
         ]
       },
       {
         "name": "Javelin",
         "entries": [
-          "Melee Weapon or Ranged Weapon Attack: 6, reach 5 ft. or range 30/120 ft. 11 (2d6 + 4) Piercing damage, and the target has the Poisoned condition until the end of its next turn."
+          "*Melee Weapon or Ranged Weapon Attack:* 6, reach 5 ft. or range 30/120 ft. *Hit:* 11 (2d6 + 4) Piercing damage, and the target has the Poisoned condition until the end of its next turn."
         ]
       }
     ],
@@ -2262,13 +2262,13 @@
       {
         "name": "Bite",
         "entries": [
-          "Melee Weapon Attack: 12, reach 20 ft. 29 (4d10 + 7) Piercing damage."
+          "*Melee Weapon Attack:* 12, reach 20 ft. *Hit:* 29 (4d10 + 7) Piercing damage."
         ]
       },
       {
         "name": "Steam Breath 5",
         "entries": [
-          "dex DC 19, each creature and flammable object that isn't being worn or carried in a 60-foot Cone [Area of Effect]. 45 (7d12) Fire damage, and the target starts {@hazard burning. Half damage only. {@actSaveSuccessOrFail Being underwater doesn't grant Resistance to this Fire damage."
+          "*Dexterity Saving Throw:* DC 19, each creature and flammable object that isn't being worn or carried in a 60-foot Cone [Area of Effect]. *Failure:* 45 (7d12) Fire damage, and the target starts burning. *Success:* Half damage only. *Success or Failure:* Being underwater doesn't grant Resistance to this Fire damage."
         ]
       }
     ],
@@ -2276,7 +2276,7 @@
       {
         "name": "Encasing Rust",
         "entries": [
-          "con DC 19, one creature within 20 feet of the Rusted. 14 (4d6) Poison damage, and the target has the Poisoned condition until the end of its next turn. While Poisoned, the target has the Paralyzed condition."
+          "*Constitution Saving Throw:* DC 19, one creature within 20 feet of the Rusted. *Failure:* 14 (4d6) Poison damage, and the target has the Poisoned condition until the end of its next turn. While Poisoned, the target has the Paralyzed condition."
         ]
       }
     ],
@@ -2361,13 +2361,13 @@
       {
         "name": "Rend",
         "entries": [
-          "Melee Weapon Attack: 14, reach 10 ft. 18 (2d10 + 7) Slashing damage plus 18 (4d8) Necrotic damage."
+          "*Melee Weapon Attack:* 14, reach 10 ft. *Hit:* 18 (2d10 + 7) Slashing damage plus 18 (4d8) Necrotic damage."
         ]
       },
       {
         "name": "Corroding Breath 5",
         "entries": [
-          "con DC 20, each creature in a 90-foot Cone [Area of Effect]. 52 (8d12) Acid or Necrotic damage (Sammaster's choice). {@actSaveSuccess Half damage."
+          "*Constitution Saving Throw:* DC 20, each creature in a 90-foot Cone [Area of Effect]. *Failure:* 52 (8d12) Acid or Necrotic damage (Sammaster's choice). *Success:* Half damage."
         ]
       }
     ],
@@ -2389,7 +2389,7 @@
       {
         "name": "Terrifying Presence",
         "entries": [
-          "wis DC 21, each creature in a 20-foot Emanation [Area of Effect] originating from Sammaster. 13 (2d12) Psychic damage, and the target has the Frightened condition until the end of its next turn. {@actSaveSuccessOrFail Sammaster can't take this action again until the start of his next turn."
+          "*Wisdom Saving Throw:* DC 21, each creature in a 20-foot Emanation [Area of Effect] originating from Sammaster. *Failure:* 13 (2d12) Psychic damage, and the target has the Frightened condition until the end of its next turn. *Success or Failure:* Sammaster can't take this action again until the start of his next turn."
         ]
       }
     ],
@@ -2477,13 +2477,13 @@
       {
         "name": "Corrosive Burst",
         "entries": [
-          "Melee Weapon or Ranged Weapon Attack: 13, reach 5 ft. or range 120 ft. 38 (5d12 + 6) Acid or Necrotic damage (Sammaster's choice)."
+          "*Melee Weapon or Ranged Weapon Attack:* 13, reach 5 ft. or range 120 ft. *Hit:* 38 (5d12 + 6) Acid or Necrotic damage (Sammaster's choice)."
         ]
       },
       {
         "name": "Paralyzing Touch",
         "entries": [
-          "Melee Weapon Attack: 13, reach 5 ft. 16 (3d6 + 6) Cold damage, and the target has the Paralyzed condition until the start of Sammaster's next turn."
+          "*Melee Weapon Attack:* 13, reach 5 ft. *Hit:* 16 (3d6 + 6) Cold damage, and the target has the Paralyzed condition until the start of Sammaster's next turn."
         ]
       }
     ],
@@ -2505,7 +2505,7 @@
       {
         "name": "Terrifying Presence",
         "entries": [
-          "wis DC 21, each creature in a 20-foot Emanation [Area of Effect] originating from Sammaster. 13 (2d12) Psychic damage, and the target has the Frightened condition until the end of its next turn. {@actSaveSuccessOrFail Sammaster can't take this action again until the start of his next turn."
+          "*Wisdom Saving Throw:* DC 21, each creature in a 20-foot Emanation [Area of Effect] originating from Sammaster. *Failure:* 13 (2d12) Psychic damage, and the target has the Frightened condition until the end of its next turn. *Success or Failure:* Sammaster can't take this action again until the start of his next turn."
         ]
       }
     ],
@@ -2543,19 +2543,19 @@
       {
         "name": "Rend",
         "entries": [
-          "Melee Weapon Attack: 4, reach 5 ft. 9 (2d6 + 2) Slashing damage plus 3 (1d6) Necrotic damage."
+          "*Melee Weapon Attack:* 4, reach 5 ft. *Hit:* 9 (2d6 + 2) Slashing damage plus 3 (1d6) Necrotic damage."
         ]
       },
       {
         "name": "Ruinous Breath 5",
         "entries": [
-          "con DC 12, each creature in a 15-foot Cone [Area of Effect]. 13 (3d8) Necrotic damage. {@actSaveSuccess Half damage."
+          "*Constitution Saving Throw:* DC 12, each creature in a 15-foot Cone [Area of Effect]. *Failure:* 13 (3d8) Necrotic damage. *Success:* Half damage."
         ]
       },
       {
         "name": "Time-Warping Breath",
         "entries": [
-          "wis DC 12, each creature that isn't currently affected by this breath in a 15-foot Cone [Area of Effect]. The target's Speed is halved, it can't take Reactions, and it can take either an action or a Bonus Action on its turn, not both. It repeats the save at the end of each of its turns, ending the effect on itself on a success. After 1 minute, it succeeds automatically."
+          "*Wisdom Saving Throw:* DC 12, each creature that isn't currently affected by this breath in a 15-foot Cone [Area of Effect]. *Failure:* The target's Speed is halved, it can't take Reactions, and it can take either an action or a Bonus Action on its turn, not both. It repeats the save at the end of each of its turns, ending the effect on itself on a success. After 1 minute, it succeeds automatically."
         ]
       }
     ],
@@ -2617,13 +2617,13 @@
       {
         "name": "Tendril",
         "entries": [
-          "Melee Weapon Attack: 10, reach 20 ft. 11 (1d10 + 6) Piercing damage plus 10 (3d6) Acid damage. If the target is Large or smaller, the spore pulls the target 5 feet straight toward itself."
+          "*Melee Weapon Attack:* 10, reach 20 ft. *Hit:* 11 (1d10 + 6) Piercing damage plus 10 (3d6) Acid damage. If the target is Large or smaller, the spore pulls the target 5 feet straight toward itself."
         ]
       },
       {
         "name": "Consume",
         "entries": [
-          "str DC 18, one Large or smaller creature within 5 feet. The target is pulled into the spore's space and has the Grappled condition (escape DC 16). Until the grapple ends, the target has the Blinded and Restrained conditions, and it takes 17 (5d6) Acid damage at the start of each of the spore's turns. When the spore moves, the Grappled target moves with it, costing it no extra movement. The spore can have one Large creature or up to nine Medium or smaller creatures Grappled at a time."
+          "*Strength Saving Throw:* DC 18, one Large or smaller creature within 5 feet. *Failure:* The target is pulled into the spore's space and has the Grappled condition (escape DC 16). Until the grapple ends, the target has the Blinded and Restrained conditions, and it takes 17 (5d6) Acid damage at the start of each of the spore's turns. When the spore moves, the Grappled target moves with it, costing it no extra movement. The spore can have one Large creature or up to nine Medium or smaller creatures Grappled at a time."
         ]
       }
     ],
@@ -2690,19 +2690,19 @@
       {
         "name": "Beak (Swan Form Only)",
         "entries": [
-          "Melee Weapon Attack: 6, reach 5 ft. 7 (1d6 + 4) Piercing damage. If the target is a Large or smaller creature, it has the Prone condition."
+          "*Melee Weapon Attack:* 6, reach 5 ft. *Hit:* 7 (1d6 + 4) Piercing damage. If the target is a Large or smaller creature, it has the Prone condition."
         ]
       },
       {
         "name": "Scimitar (Humanoid Form Only)",
         "entries": [
-          "Melee Weapon Attack: 6, reach 5 ft. 11 (2d6 + 4) Slashing damage."
+          "*Melee Weapon Attack:* 6, reach 5 ft. *Hit:* 11 (2d6 + 4) Slashing damage."
         ]
       },
       {
         "name": "Longbow (Humanoid Form Only)",
         "entries": [
-          "Ranged Weapon Attack: 6, range 150/600 ft. 13 (2d8 + 4) Piercing damage."
+          "*Ranged Weapon Attack:* 6, range 150/600 ft. *Hit:* 13 (2d8 + 4) Piercing damage."
         ]
       }
     ],
@@ -2798,19 +2798,19 @@
       {
         "name": "Eldritch Burst",
         "entries": [
-          "Melee Weapon or Ranged Weapon Attack: 12, reach 5 ft. or range 120 ft. 31 (4d12 + 5) Force damage."
+          "*Melee Weapon or Ranged Weapon Attack:* 12, reach 5 ft. or range 120 ft. *Hit:* 31 (4d12 + 5) Force damage."
         ]
       },
       {
         "name": "Paralyzing Touch",
         "entries": [
-          "Melee Weapon Attack: 12, reach 5 ft. 14 (2d8 + 5) Cold damage, and the target has the Paralyzed condition until the start of Valindra's next turn."
+          "*Melee Weapon Attack:* 12, reach 5 ft. *Hit:* 14 (2d8 + 5) Cold damage, and the target has the Paralyzed condition until the start of Valindra's next turn."
         ]
       },
       {
         "name": "Deathly Grasp 5",
         "entries": [
-          "dex DC 20, each creature in a 30-foot Emanation [Area of Effect] originating from Valindra. 1 39 (6d12) Force damage and the target has the Restrained condition and repeats the save at the end of each of its turns, ending the effect on itself on a success. After 1 minute, it succeeds automatically. Subsequent Failures: 39 (6d12) Necrotic damage, and Valindra gains 20 Temporary Hit Points."
+          "*Dexterity Saving Throw:* DC 20, each creature in a 30-foot Emanation [Area of Effect] originating from Valindra. *Failure 1:* 39 (6d12) Force damage and the target has the Restrained condition and repeats the save at the end of each of its turns, ending the effect on itself on a success. After 1 minute, it succeeds automatically. Subsequent Failures: 39 (6d12) Necrotic damage, and Valindra gains 20 Temporary Hit Points."
         ]
       }
     ],
@@ -2820,7 +2820,7 @@
       {
         "name": "Disrupt Life",
         "entries": [
-          "con DC 20, each creature that isn't Undead in a 20-foot Emanation [Area of Effect] originating from Valindra. 21 (6d6) Necrotic damage. Valindra can't take this action again until the start of her next turn."
+          "*Constitution Saving Throw:* DC 20, each creature that isn't Undead in a 20-foot Emanation [Area of Effect] originating from Valindra. *Failure:* 21 (6d6) Necrotic damage. *Success:* Half damage. *Success or Failure:* Valindra can't take this action again until the start of her next turn."
         ]
       },
       {
@@ -2832,7 +2832,7 @@
       {
         "name": "Life-Rending Gaze",
         "entries": [
-          "wis DC 20, one creature Valindra can see within 30 feet. 22 (4d10) Necrotic damage, and the target has the Frightened condition until the end of its next turn. {@actSaveSuccess Half damage only."
+          "*Wisdom Saving Throw:* DC 20, one creature Valindra can see within 30 feet. *Failure:* 22 (4d10) Necrotic damage, and the target has the Frightened condition until the end of its next turn. *Success:* Half damage only."
         ]
       }
     ],
@@ -2883,19 +2883,19 @@
       {
         "name": "Javelin (Humanoid or Hybrid Form Only)",
         "entries": [
-          "Melee Weapon or Ranged Weapon Attack: 7, reach 5 ft. or range 30/120 ft. 18 (4d6 + 4) Piercing damage."
+          "*Melee Weapon or Ranged Weapon Attack:* 7, reach 5 ft. or range 30/120 ft. *Hit:* 18 (4d6 + 4) Piercing damage."
         ]
       },
       {
         "name": "Rend",
         "entries": [
-          "Melee Weapon Attack: 7, reach 5 ft. 18 (4d6 + 4) Slashing damage."
+          "*Melee Weapon Attack:* 7, reach 5 ft. *Hit:* 18 (4d6 + 4) Slashing damage."
         ]
       },
       {
         "name": "Stinger (Wyvern or Hybrid Form Only)",
         "entries": [
-          "Melee Weapon Attack: 7, reach 5 ft. 7 (1d6 + 4) Piercing damage plus 16 (3d10) Poison damage, and the target has the Poisoned condition until the start of the werewyvern's next turn. If the target is a Humanoid, it is subjected to the following effect. con DC 16. The target is cursed. If the cursed target drops to 0 Hit Points, it instead becomes a Werewyvern under the DM's control and has 20 Hit Points. {@actSaveSuccess The target is immune to this werewyvern's curse for 24 hours."
+          "*Melee Weapon Attack:* 7, reach 5 ft. *Hit:* 7 (1d6 + 4) Piercing damage plus 16 (3d10) Poison damage, and the target has the Poisoned condition until the start of the werewyvern's next turn. If the target is a Humanoid, it is subjected to the following effect. *Constitution Saving Throw:* DC 16. *Failure:* The target is cursed. If the cursed target drops to 0 Hit Points, it instead becomes a Werewyvern under the DM's control and has 20 Hit Points. *Success:* The target is immune to this werewyvern's curse for 24 hours."
         ]
       }
     ],
@@ -2952,13 +2952,13 @@
       {
         "name": "Rend",
         "entries": [
-          "Melee Weapon Attack: 7, reach 10 ft. 11 (2d6 + 4) Slashing damage plus 3 (1d6) Poison damage."
+          "*Melee Weapon Attack:* 7, reach 10 ft. *Hit:* 11 (2d6 + 4) Slashing damage plus 3 (1d6) Poison damage."
         ]
       },
       {
         "name": "Nightmare Breath 5",
         "entries": [
-          "wis DC 14, each creature in a 30-foot Cone [Area of Effect]. 22 (4d10) Psychic damage, and the target has the Frightened condition until the end of the dragon's next turn. {@actSaveSuccess Half damage only."
+          "*Wisdom Saving Throw:* DC 14, each creature in a 30-foot Cone [Area of Effect]. *Failure:* 22 (4d10) Psychic damage, and the target has the Frightened condition until the end of the dragon's next turn. *Success:* Half damage only."
         ]
       }
     ],
@@ -3007,19 +3007,19 @@
       {
         "name": "Rend",
         "entries": [
-          "Melee Weapon Attack: 7, reach 10 ft. 14 (3d6 + 4) Slashing damage plus 7 (2d6) Necrotic damage."
+          "*Melee Weapon Attack:* 7, reach 10 ft. *Hit:* 14 (3d6 + 4) Slashing damage plus 7 (2d6) Necrotic damage."
         ]
       },
       {
         "name": "Ruinous Breath 5",
         "entries": [
-          "con DC 15, each creature in a 30-foot Cone [Area of Effect]. 36 (8d8) Necrotic damage. {@actSaveSuccess Half damage."
+          "*Constitution Saving Throw:* DC 15, each creature in a 30-foot Cone [Area of Effect]. *Failure:* 36 (8d8) Necrotic damage. *Success:* Half damage."
         ]
       },
       {
         "name": "Time-Warping Breath",
         "entries": [
-          "wis DC 15, each creature that isn't currently affected by this breath in a 30-foot Cone [Area of Effect]. The target's Speed is halved, it can't take Reactions, and it can take either an action or a Bonus Action on its turn, not both. It repeats the save at the end of each of its turns, ending the effect on itself on a success. After 1 minute, it succeeds automatically."
+          "*Wisdom Saving Throw:* DC 15, each creature that isn't currently affected by this breath in a 30-foot Cone [Area of Effect]. *Failure:* The target's Speed is halved, it can't take Reactions, and it can take either an action or a Bonus Action on its turn, not both. It repeats the save at the end of each of its turns, ending the effect on itself on a success. After 1 minute, it succeeds automatically."
         ]
       }
     ],
@@ -3084,13 +3084,13 @@
       {
         "name": "Dooming Blade",
         "entries": [
-          "Melee Weapon Attack: 5, reach 5 ft. 7 (1d8 + 3) Bludgeoning damage plus 7 (2d6) Necrotic damage."
+          "*Melee Weapon Attack:* 5, reach 5 ft. *Hit:* 7 (1d8 + 3) Bludgeoning damage plus 7 (2d6) Necrotic damage."
         ]
       },
       {
         "name": "Oppressive Ray",
         "entries": [
-          "Ranged Weapon Attack: 5, range 90 ft. 16 (3d10) Psychic damage."
+          "*Ranged Weapon Attack:* 5, range 90 ft. *Hit:* 16 (3d10) Psychic damage."
         ]
       }
     ],
@@ -3139,19 +3139,19 @@
       {
         "name": "Shortsword",
         "entries": [
-          "Melee Weapon Attack: 4, reach 5 ft. 5 (1d6 + 2) Piercing damage plus 2 (1d4) Poison damage."
+          "*Melee Weapon Attack:* 4, reach 5 ft. *Hit:* 5 (1d6 + 2) Piercing damage plus 2 (1d4) Poison damage."
         ]
       },
       {
         "name": "Pistol",
         "entries": [
-          "Ranged Weapon Attack: 4, range 80/320 ft. 7 (1d10 + 2) Piercing damage."
+          "*Ranged Weapon Attack:* 4, range 80/320 ft. *Hit:* 7 (1d10 + 2) Piercing damage."
         ]
       },
       {
         "name": "Knock Down",
         "entries": [
-          "str DC 12, one creature within 5 feet that the Zhentilar can see. 4 (1d4 + 2) Bludgeoning damage. If the target is a Medium or smaller creature, it has the Prone condition."
+          "*Strength Saving Throw:* DC 12, one creature within 5 feet that the Zhentilar can see. *Failure:* 4 (1d4 + 2) Bludgeoning damage. If the target is a Medium or smaller creature, it has the Prone condition."
         ]
       }
     ],
@@ -3244,13 +3244,13 @@
       {
         "name": "Slam",
         "entries": [
-          "Melee Weapon Attack: 11, reach 10 ft. 12 (3d4 + 5) Bludgeoning damage plus 22 (4d10) Necrotic damage."
+          "*Melee Weapon Attack:* 11, reach 10 ft. *Hit:* 12 (3d4 + 5) Bludgeoning damage plus 22 (4d10) Necrotic damage."
         ]
       },
       {
         "name": "Bewildering Bolt",
         "entries": [
-          "Ranged Weapon Attack: 11, range 120 ft. 27 (4d10 + 5) Psychic damage, and the target has the Charmed condition until the end of its next turn."
+          "*Ranged Weapon Attack:* 11, range 120 ft. *Hit:* 27 (4d10 + 5) Psychic damage, and the target has the Charmed condition until the end of its next turn."
         ]
       }
     ],
@@ -3266,7 +3266,7 @@
       {
         "name": "Stoke Paranoia",
         "entries": [
-          "wis DC 19, one creature Zlan can see within 30 feet (with Disadvantage if the target is holding or wearing chardalyn). 27 (6d8) Psychic damage and the target has the Charmed condition for 1 minute or until Zlan dies. While Charmed, the target doesn't act as an ally to any creature. Zlan can't take this action again until the start of its next turn."
+          "*Wisdom Saving Throw:* DC 19, one creature Zlan can see within 30 feet (with Disadvantage if the target is holding or wearing chardalyn). *Failure:* 27 (6d8) Psychic damage and the target has the Charmed condition for 1 minute or until Zlan dies. While Charmed, the target doesn't act as an ally to any creature. *Success:* Half damage only. *Success or Failure:* Zlan can't take this action again until the start of its next turn."
         ]
       }
     ],

@@ -150,7 +150,7 @@
       {
         "name": "Slam",
         "entries": [
-          "Melee Weapon Attack: 6 to hit, reach 10 ft., one target. 14 (3d6 + 4) bludgeoning damage."
+          "*Melee Weapon Attack:* 6 to hit, reach 10 ft., one target. *Hit:* 14 (3d6 + 4) bludgeoning damage."
         ]
       }
     ],
@@ -347,7 +347,7 @@
       {
         "name": "Slam",
         "entries": [
-          "Melee Weapon Attack: 5 to hit, reach 5 ft., one target. 10 (2d6 + 3) bludgeoning damage."
+          "*Melee Weapon Attack:* 5 to hit, reach 5 ft., one target. *Hit:* 10 (2d6 + 3) bludgeoning damage."
         ]
       },
       {
@@ -400,7 +400,7 @@
       {
         "name": "Pincer",
         "entries": [
-          "Melee Weapon Attack: 6 to hit, reach 10 ft., one target. 11 (2d6 + 4) bludgeoning damage. The target is grappled (Escape DC 14) if it is a Large or smaller creature and the spore servant doesn't have two other creatures grappled."
+          "*Melee Weapon Attack:* 6 to hit, reach 10 ft., one target. *Hit:* 11 (2d6 + 4) bludgeoning damage. The target is grappled (Escape DC 14) if it is a Large or smaller creature and the spore servant doesn't have two other creatures grappled."
         ]
       }
     ],
@@ -484,13 +484,13 @@
       {
         "name": "+2 Warhammer",
         "entries": [
-          "Melee Weapon Attack: 8 to hit, reach 5 ft., one target. 10 (1d8 + 6) bludgeoning damage, or 11 (1d10 + 6) bludgeoning damage if used with two hands. While Horgar is enlarged, the damage increases to 15 (2d8 + 6) or 17 (2d10 + 6) bludgeoning damage, respectively."
+          "*Melee Weapon Attack:* 8 to hit, reach 5 ft., one target. *Hit:* 10 (1d8 + 6) bludgeoning damage, or 11 (1d10 + 6) bludgeoning damage if used with two hands. While Horgar is enlarged, the damage increases to 15 (2d8 + 6) or 17 (2d10 + 6) bludgeoning damage, respectively."
         ]
       },
       {
         "name": "Heavy Crossbow",
         "entries": [
-          "Ranged Weapon Attack: 2 to hit, range 100/400 ft., one target. 5 (1d10) piercing damage."
+          "*Ranged Weapon Attack:* 2 to hit, range 100/400 ft., one target. *Hit:* 5 (1d10) piercing damage."
         ]
       },
       {
@@ -563,13 +563,13 @@
       {
         "name": "Hooked Shortspear",
         "entries": [
-          "Melee Weapon Attack: 2 to hit, reach 5 ft., one target. 1 (1d4 - 1) piercing damage. If the target is a creature, the derro can choose to deal no damage and try to trip the target instead, in which case the target must succeed on a DC 9 Strength saving throw or fall prone."
+          "*Melee Weapon Attack:* 2 to hit, reach 5 ft., one target. *Hit:* 1 (1d4 - 1) piercing damage. If the target is a creature, the derro can choose to deal no damage and try to trip the target instead, in which case the target must succeed on a DC 9 Strength saving throw or fall prone."
         ]
       },
       {
         "name": "Light Repeating Crossbow",
         "entries": [
-          "Ranged Weapon Attack: 4 to hit, range 40/160 ft., one target. 6 (1d8 + 2) piercing damage."
+          "*Ranged Weapon Attack:* 4 to hit, range 40/160 ft., one target. *Hit:* 6 (1d8 + 2) piercing damage."
         ]
       }
     ],
@@ -696,7 +696,7 @@
       {
         "name": "Shortsword",
         "entries": [
-          "Melee Weapon Attack: 5 to hit, reach 5 ft., one target. 6 (1d6 + 3) piercing damage. The sword is coated with serpent venom that wears off after the first hit. A target subjected to the venom must make a DC 11 Constitution saving throw, taking 10 (3d6) poison damage on a failed save, or half as much damage on a successful one."
+          "*Melee Weapon Attack:* 5 to hit, reach 5 ft., one target. *Hit:* 6 (1d6 + 3) piercing damage. The sword is coated with serpent venom that wears off after the first hit. A target subjected to the venom must make a DC 11 Constitution saving throw, taking 10 (3d6) poison damage on a failed save, or half as much damage on a successful one."
         ]
       }
     ],
@@ -960,7 +960,7 @@
       {
         "name": "Shortsword",
         "entries": [
-          "Melee Weapon Attack: 4 to hit, reach 5 ft., one target. 5 (1d6 + 2) piercing damage."
+          "*Melee Weapon Attack:* 4 to hit, reach 5 ft., one target. *Hit:* 5 (1d6 + 2) piercing damage."
         ]
       }
     ],
@@ -1083,13 +1083,13 @@
       {
         "name": "War Pick",
         "entries": [
-          "Melee Weapon Attack: 4 to hit, reach 5 ft., one target. 6 (1d8 + 2) piercing damage, or 11 (2d8 + 2) piercing damage while enlarged."
+          "*Melee Weapon Attack:* 4 to hit, reach 5 ft., one target. *Hit:* 6 (1d8 + 2) piercing damage, or 11 (2d8 + 2) piercing damage while enlarged."
         ]
       },
       {
         "name": "Javelin",
         "entries": [
-          "Melee Weapon or Ranged Weapon Attack: 4 to hit, reach 5 ft. or range 30/120 ft., one target. 5 (1d6 + 2) piercing damage, or 9 (2d6 + 2) piercing damage while enlarged."
+          "*Melee Weapon or Ranged Weapon Attack:* 4 to hit, reach 5 ft. or range 30/120 ft., one target. *Hit:* 5 (1d6 + 2) piercing damage, or 9 (2d6 + 2) piercing damage while enlarged."
         ]
       },
       {
@@ -1173,13 +1173,13 @@
       {
         "name": "War Pick",
         "entries": [
-          "Melee Weapon Attack: 4 to hit, reach 5 ft., one target. 6 (1d8 + 2) piercing damage, or 11 (2d8 + 2) piercing damage while enlarged."
+          "*Melee Weapon Attack:* 4 to hit, reach 5 ft., one target. *Hit:* 6 (1d8 + 2) piercing damage, or 11 (2d8 + 2) piercing damage while enlarged."
         ]
       },
       {
         "name": "Javelin",
         "entries": [
-          "Melee Weapon or Ranged Weapon Attack: 4 to hit, reach 5 ft. or range 30/120 ft., one target. 5 (1d6 + 2) piercing damage, or 9 (2d6 + 2) piercing damage while enlarged."
+          "*Melee Weapon or Ranged Weapon Attack:* 4 to hit, reach 5 ft. or range 30/120 ft., one target. *Hit:* 5 (1d6 + 2) piercing damage, or 9 (2d6 + 2) piercing damage while enlarged."
         ]
       },
       {
@@ -1226,7 +1226,7 @@
       {
         "name": "War Pick",
         "entries": [
-          "Melee Weapon Attack: 4 to hit, reach 5 ft., one target. 6 (1d8 + 2) piercing damage."
+          "*Melee Weapon Attack:* 4 to hit, reach 5 ft., one target. *Hit:* 6 (1d8 + 2) piercing damage."
         ]
       }
     ],
@@ -1313,13 +1313,13 @@
       {
         "name": "War Pick",
         "entries": [
-          "Melee Weapon Attack: 4 to hit, reach 5 ft., one target. 7 (1d8 + 3) piercing damage."
+          "*Melee Weapon Attack:* 4 to hit, reach 5 ft., one target. *Hit:* 7 (1d8 + 3) piercing damage."
         ]
       },
       {
         "name": "Heavy Crossbow",
         "entries": [
-          "Ranged Weapon Attack: 3 to hit, range 100/400 ft., one target. 5 (1d10) piercing damage."
+          "*Ranged Weapon Attack:* 3 to hit, range 100/400 ft., one target. *Hit:* 5 (1d10) piercing damage."
         ]
       }
     ],
@@ -1373,13 +1373,13 @@
       {
         "name": "Bite",
         "entries": [
-          "Melee Weapon Attack: 5 to hit, reach 5 ft., one creature. 7 (1d8 + 3) piercing damage, and the target must make a DC 12 Constitution saving throw, taking 9 (2d8) acid damage on a failed save, or half as much damage on a successful one."
+          "*Melee Weapon Attack:* 5 to hit, reach 5 ft., one creature. *Hit:* 7 (1d8 + 3) piercing damage, and the target must make a DC 12 Constitution saving throw, taking 9 (2d8) acid damage on a failed save, or half as much damage on a successful one."
         ]
       },
       {
         "name": "Sticky Leg (Recharges when the Steeder Has No Creatures Grappled)",
         "entries": [
-          "Melee Weapon Attack: 5 to hit, reach 5 ft., one Medium or smaller creature. The target is stuck to the steeder's leg and grappled until it escapes (escape DC 12)."
+          "*Melee Weapon Attack:* 5 to hit, reach 5 ft., one Medium or smaller creature. *Hit:* The target is stuck to the steeder's leg and grappled until it escapes (escape DC 12)."
         ]
       }
     ],
@@ -1535,7 +1535,7 @@
       {
         "name": "Bite",
         "entries": [
-          "Melee Weapon Attack: 4 to hit, reach 5 ft., one target. 6 (1d8 + 2) piercing damage."
+          "*Melee Weapon Attack:* 4 to hit, reach 5 ft., one target. *Hit:* 6 (1d8 + 2) piercing damage."
         ]
       }
     ],
@@ -1705,7 +1705,7 @@
       {
         "name": "+1 Flail",
         "entries": [
-          "Melee Weapon Attack: 5 to hit, reach 5 ft., one target. 7 (1d8 + 3) bludgeoning damage."
+          "*Melee Weapon Attack:* 5 to hit, reach 5 ft., one target. *Hit:* 7 (1d8 + 3) bludgeoning damage."
         ]
       }
     ],
@@ -1781,7 +1781,7 @@
       {
         "name": "Hook",
         "entries": [
-          "Melee Weapon Attack: 6 to hit, reach 10 ft., one target. 11 (2d6 + 4) piercing damage."
+          "*Melee Weapon Attack:* 6 to hit, reach 10 ft., one target. *Hit:* 11 (2d6 + 4) piercing damage."
         ]
       }
     ],
@@ -1844,7 +1844,7 @@
       {
         "name": "Bite",
         "entries": [
-          "Melee Weapon Attack: 2 to hit, reach 5 ft., one target. 1 piercing damage plus 1 poison damage."
+          "*Melee Weapon Attack:* 2 to hit, reach 5 ft., one target. *Hit:* 1 piercing damage plus 1 poison damage."
         ]
       }
     ],
@@ -1914,7 +1914,7 @@
       {
         "name": "Bite",
         "entries": [
-          "Melee Weapon Attack: 3 to hit, reach 5 ft., one target. 4 (1d6 + 1) piercing damage."
+          "*Melee Weapon Attack:* 3 to hit, reach 5 ft., one target. *Hit:* 4 (1d6 + 1) piercing damage."
         ]
       }
     ],
@@ -1924,7 +1924,7 @@
         "name": "Barbed Tail",
         "entries": [
           "When a creature provokes an opportunity attack from the ixitxachitl, the ixitxachitl can make the following attack instead of using its bite.",
-          "Melee Weapon Attack: 5 to hit, reach 5 ft., one target. 7 (1d8 + 3) piercing damage."
+          "*Melee Weapon Attack:* 5 to hit, reach 5 ft., one target. *Hit:* 7 (1d8 + 3) piercing damage."
         ]
       }
     ],
@@ -1974,7 +1974,7 @@
       {
         "name": "Bite",
         "entries": [
-          "Melee Weapon Attack: 3 to hit, reach 5 ft., one target. 4 (1d6 + 1) piercing damage."
+          "*Melee Weapon Attack:* 3 to hit, reach 5 ft., one target. *Hit:* 4 (1d6 + 1) piercing damage."
         ]
       }
     ],
@@ -1984,7 +1984,7 @@
         "name": "Barbed Tail",
         "entries": [
           "When a creature provokes an opportunity attack from the ixitxachitl, the ixitxachitl can make the following attack instead of using its bite.",
-          "Melee Weapon Attack: 5 to hit, reach 5 ft., one target. 7 (1d8 + 3) piercing damage."
+          "*Melee Weapon Attack:* 5 to hit, reach 5 ft., one target. *Hit:* 7 (1d8 + 3) piercing damage."
         ]
       }
     ],
@@ -2202,7 +2202,7 @@
       {
         "name": "Halberd",
         "entries": [
-          "Melee Weapon Attack: 4 to hit, reach 10 ft., one target. 7 (1d10 + 2) slashing damage."
+          "*Melee Weapon Attack:* 4 to hit, reach 10 ft., one target. *Hit:* 7 (1d10 + 2) slashing damage."
         ]
       }
     ],
@@ -2262,13 +2262,13 @@
       {
         "name": "Shortsword",
         "entries": [
-          "Melee Weapon Attack: 4 to hit, reach 5 ft., one target. 5 (1d6 + 2) piercing damage."
+          "*Melee Weapon Attack:* 4 to hit, reach 5 ft., one target. *Hit:* 5 (1d6 + 2) piercing damage."
         ]
       },
       {
         "name": "Hand Crossbow",
         "entries": [
-          "Ranged Weapon Attack: 4 to hit, range 30/120 ft., one target. 5 (1d6 + 2) piercing damage."
+          "*Ranged Weapon Attack:* 4 to hit, range 30/120 ft., one target. *Hit:* 5 (1d6 + 2) piercing damage."
         ]
       }
     ],
@@ -2349,13 +2349,13 @@
       {
         "name": "Bite",
         "entries": [
-          "Melee Weapon Attack: 4 to hit, reach 5 ft., one creature. 7 (1d8 + 2) piercing damage, and the target must make a DC 12 Constitution saving throw, taking 4 (1d8) acid damage on a failed save, or half as much damage on a successful one."
+          "*Melee Weapon Attack:* 4 to hit, reach 5 ft., one creature. *Hit:* 7 (1d8 + 2) piercing damage, and the target must make a DC 12 Constitution saving throw, taking 4 (1d8) acid damage on a failed save, or half as much damage on a successful one."
         ]
       },
       {
         "name": "Sticky Leg (Recharges when the Steeder Has No Creatures Grappled)",
         "entries": [
-          "Melee Weapon Attack: 4 to hit, reach 5 ft., one Small or Tiny creature. The target is stuck to the steeder's leg and grappled until it escapes (escape DC 12)."
+          "*Melee Weapon Attack:* 4 to hit, reach 5 ft., one Small or Tiny creature. *Hit:* The target is stuck to the steeder's leg and grappled until it escapes (escape DC 12)."
         ]
       }
     ],
@@ -2457,7 +2457,7 @@
       {
         "name": "Shortsword",
         "entries": [
-          "Melee Weapon Attack: 4 to hit, reach 5 ft., one target. 5 (1d6 + 2) piercing damage."
+          "*Melee Weapon Attack:* 4 to hit, reach 5 ft., one target. *Hit:* 5 (1d6 + 2) piercing damage."
         ]
       },
       {
@@ -2580,7 +2580,7 @@
       {
         "name": "Pseudopod",
         "entries": [
-          "Melee Weapon or Ranged Weapon Attack: 5 to hit, reach 5 ft. or 30 ft., one target. 6 (1d6 + 3) bludgeoning damage plus 18 (4d8) acid damage. In addition, nonmagical armor worn by the target is partly dissolved and takes a permanent and cumulative −1 penalty to the AC it offers. The armor is destroyed if the penalty reduces its AC to 10."
+          "*Melee Weapon or Ranged Weapon Attack:* 5 to hit, reach 5 ft. or 30 ft., one target. *Hit:* 6 (1d6 + 3) bludgeoning damage plus 18 (4d8) acid damage. In addition, nonmagical armor worn by the target is partly dissolved and takes a permanent and cumulative −1 penalty to the AC it offers. The armor is destroyed if the penalty reduces its AC to 10."
         ]
       }
     ],
@@ -3152,7 +3152,7 @@
       {
         "name": "War Pick",
         "entries": [
-          "Melee Weapon Attack: 3 to hit, reach 5 ft., one target. 4 (1d8) piercing damage."
+          "*Melee Weapon Attack:* 3 to hit, reach 5 ft., one target. *Hit:* 4 (1d8) piercing damage."
         ]
       },
       {
@@ -3284,19 +3284,19 @@
       {
         "name": "Bite",
         "entries": [
-          "Melee Weapon Attack: 6 to hit, reach 5 ft., one target. 6 (1d4 + 4) piercing damage."
+          "*Melee Weapon Attack:* 6 to hit, reach 5 ft., one target. *Hit:* 6 (1d4 + 4) piercing damage."
         ]
       },
       {
         "name": "Claw",
         "entries": [
-          "Melee Weapon Attack: 6 to hit, reach 5 ft., one target. 6 (1d4 + 4) slashing damage."
+          "*Melee Weapon Attack:* 6 to hit, reach 5 ft., one target. *Hit:* 6 (1d4 + 4) slashing damage."
         ]
       },
       {
         "name": "Greatclub",
         "entries": [
-          "Melee Weapon Attack: 6 to hit, reach 5 ft., one target. 8 (1d8 + 4) bludgeoning damage."
+          "*Melee Weapon Attack:* 6 to hit, reach 5 ft., one target. *Hit:* 8 (1d8 + 4) bludgeoning damage."
         ]
       },
       {
@@ -3404,7 +3404,7 @@
       {
         "name": "Vampiric Bite",
         "entries": [
-          "Melee Weapon Attack: 4 to hit, reach 5 ft., one target. 6 (1d8 + 2) piercing damage. The target must succeed on a DC 11 Constitution saving throw or its hit point maximum is reduced by an amount equal to the damage taken, and the ixitxachitl regains hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if its hit point maximum is reduced to 0."
+          "*Melee Weapon Attack:* 4 to hit, reach 5 ft., one target. *Hit:* 6 (1d8 + 2) piercing damage. The target must succeed on a DC 11 Constitution saving throw or its hit point maximum is reduced by an amount equal to the damage taken, and the ixitxachitl regains hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if its hit point maximum is reduced to 0."
         ]
       }
     ],
@@ -3414,7 +3414,7 @@
         "name": "Barbed Tail",
         "entries": [
           "When a creature provokes an opportunity attack from the ixitxachitl, the ixitxachitl can make the following attack instead of using its bite.",
-          "Melee Weapon Attack: 6 to hit, reach 5 ft., one target. 9 (1d10 + 4) piercing damage."
+          "*Melee Weapon Attack:* 6 to hit, reach 5 ft., one target. *Hit:* 9 (1d10 + 4) piercing damage."
         ]
       }
     ],
@@ -3464,7 +3464,7 @@
       {
         "name": "Vampiric Bite",
         "entries": [
-          "Melee Weapon Attack: 4 to hit, reach 5 ft., one target. 6 (1d8 + 2) piercing damage. The target must succeed on a DC 11 Constitution saving throw or its hit point maximum is reduced by an amount equal to the damage taken, and the ixitxachitl regains hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if its hit point maximum is reduced to 0."
+          "*Melee Weapon Attack:* 4 to hit, reach 5 ft., one target. *Hit:* 6 (1d8 + 2) piercing damage. The target must succeed on a DC 11 Constitution saving throw or its hit point maximum is reduced by an amount equal to the damage taken, and the ixitxachitl regains hit points equal to that amount. The reduction lasts until the target finishes a long rest. The target dies if its hit point maximum is reduced to 0."
         ]
       }
     ],
@@ -3474,7 +3474,7 @@
         "name": "Barbed Tail",
         "entries": [
           "When a creature provokes an opportunity attack from the ixitxachitl, the ixitxachitl can make the following attack instead of using its bite.",
-          "Melee Weapon Attack: 6 to hit, reach 5 ft., one target. 9 (1d10 + 4) piercing damage."
+          "*Melee Weapon Attack:* 6 to hit, reach 5 ft., one target. *Hit:* 9 (1d10 + 4) piercing damage."
         ]
       }
     ],
@@ -3556,19 +3556,19 @@
       {
         "name": "Longsword",
         "entries": [
-          "Melee Weapon Attack: 5 to hit, reach 5 ft., one target. 7 (1d8 + 3) slashing damage, or 8 (1d10 + 3) slashing damage if used with two hands."
+          "*Melee Weapon Attack:* 5 to hit, reach 5 ft., one target. *Hit:* 7 (1d8 + 3) slashing damage, or 8 (1d10 + 3) slashing damage if used with two hands."
         ]
       },
       {
         "name": "Shortsword",
         "entries": [
-          "Melee Weapon Attack: 5 to hit, reach 5 ft., one target. 6 (1d6 + 3) piercing damage."
+          "*Melee Weapon Attack:* 5 to hit, reach 5 ft., one target. *Hit:* 6 (1d6 + 3) piercing damage."
         ]
       },
       {
         "name": "Heavy Crossbow",
         "entries": [
-          "Ranged Weapon Attack: 3 to hit, range 100/400 ft., one target. 6 (1d10 + 1) piercing damage."
+          "*Ranged Weapon Attack:* 3 to hit, range 100/400 ft., one target. *Hit:* 6 (1d10 + 1) piercing damage."
         ]
       }
     ],
@@ -3766,7 +3766,7 @@
       {
         "name": "Slam",
         "entries": [
-          "Melee Weapon Attack: 3 to hit, reach 5 ft., one target. 8 (3d4 + 1) bludgeoning damage plus 7 (3d4) poison damage."
+          "*Melee Weapon Attack:* 3 to hit, reach 5 ft., one target. *Hit:* 8 (3d4 + 1) bludgeoning damage plus 7 (3d4) poison damage."
         ]
       },
       {
@@ -3836,7 +3836,7 @@
       {
         "name": "Bite",
         "entries": [
-          "Melee Weapon Attack: 3 to hit, reach 5 ft., one target. 3 (1d4 + 1) piercing damage plus 2 (1d4) poison damage."
+          "*Melee Weapon Attack:* 3 to hit, reach 5 ft., one target. *Hit:* 3 (1d4 + 1) piercing damage plus 2 (1d4) poison damage."
         ]
       }
     ],
@@ -3946,13 +3946,13 @@
       {
         "name": "Mace",
         "entries": [
-          "Melee Weapon Attack: 4 to hit, reach 5 ft., one target. 5 (1d6 + 2) bludgeoning damage."
+          "*Melee Weapon Attack:* 4 to hit, reach 5 ft., one target. *Hit:* 5 (1d6 + 2) bludgeoning damage."
         ]
       },
       {
         "name": "Heavy Crossbow",
         "entries": [
-          "Ranged Weapon Attack: 2 to hit, range 100/400 ft., one target. 5 (1d10) piercing damage."
+          "*Ranged Weapon Attack:* 2 to hit, range 100/400 ft., one target. *Hit:* 5 (1d10) piercing damage."
         ]
       }
     ],

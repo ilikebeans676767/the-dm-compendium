@@ -48,7 +48,7 @@
       {
         "name": "Celestial Radiance",
         "entries": [
-          "Melee Weapon or Ranged Weapon Attack: 7, reach 5 ft. or range 60 ft. 18 (4d8) Radiant damage."
+          "*Melee Weapon or Ranged Weapon Attack:* 7, reach 5 ft. or range 60 ft. *Hit:* 18 (4d8) Radiant damage."
         ]
       },
       {
@@ -108,7 +108,7 @@
       {
         "name": "Pseudopod",
         "entries": [
-          "Melee Weapon Attack: 3, reach 5 ft. 10 (2d8 + 1) Acid damage."
+          "*Melee Weapon Attack:* 3, reach 5 ft. *Hit:* 10 (2d8 + 1) Acid damage."
         ]
       }
     ],
@@ -155,13 +155,13 @@
       {
         "name": "Chaos Blast",
         "entries": [
-          "Melee Weapon or Ranged Weapon Attack: 4, reach 5 ft. or range 60 ft. 7 (2d6) damage. Roll 1d4 to determine the damage type: 1, Acid; 2, Cold; 3, Fire; 4, Lightning."
+          "*Melee Weapon or Ranged Weapon Attack:* 4, reach 5 ft. or range 60 ft. *Hit:* 7 (2d6) damage. Roll 1d4 to determine the damage type: 1, Acid; 2, Cold; 3, Fire; 4, Lightning."
         ]
       },
       {
         "name": "Sinister Command 5",
         "entries": [
-          "wis DC 12, one creature Ivlis can see within 60 feet. The target has the Charmed condition until the end of its next turn. While Charmed, the target has the Incapacitated condition."
+          "*Wisdom Saving Throw:* DC 12, one creature Ivlis can see within 60 feet. *Failure:* The target has the Charmed condition until the end of its next turn. While Charmed, the target has the Incapacitated condition."
         ]
       }
     ],
@@ -215,7 +215,7 @@
       {
         "name": "Poison Dagger",
         "entries": [
-          "Melee Weapon or Ranged Weapon Attack: 5, reach 5 ft. or range 20/60 ft. 5 (1d4 + 3) Piercing damage plus 3 (1d6) Poison damage."
+          "*Melee Weapon or Ranged Weapon Attack:* 5, reach 5 ft. or range 20/60 ft. *Hit:* 5 (1d4 + 3) Piercing damage plus 3 (1d6) Poison damage."
         ]
       }
     ],
@@ -276,7 +276,7 @@
       {
         "name": "Brine Slicer",
         "entries": [
-          "Melee Weapon Attack: 4, reach 5 ft. 9 (2d6 + 2) Slashing damage."
+          "*Melee Weapon Attack:* 4, reach 5 ft. *Hit:* 9 (2d6 + 2) Slashing damage."
         ]
       }
     ],
@@ -337,19 +337,19 @@
       {
         "name": "Bite",
         "entries": [
-          "Melee Weapon Attack: 4, reach 5 ft. 5 (1d6 + 2) Piercing damage plus 3 (1d6) Poison damage."
+          "*Melee Weapon Attack:* 4, reach 5 ft. *Hit:* 5 (1d6 + 2) Piercing damage plus 3 (1d6) Poison damage."
         ]
       },
       {
         "name": "Bone Pike",
         "entries": [
-          "Melee Weapon Attack: 4, reach 10 ft. 7 (1d10 + 2) Piercing damage."
+          "*Melee Weapon Attack:* 4, reach 10 ft. *Hit:* 7 (1d10 + 2) Piercing damage."
         ]
       },
       {
         "name": "Poison Spit",
         "entries": [
-          "Ranged Weapon Attack: 4, range 60 ft. 12 (3d6 + 2) Poison damage."
+          "*Ranged Weapon Attack:* 4, range 60 ft. *Hit:* 12 (3d6 + 2) Poison damage."
         ]
       }
     ],
@@ -396,13 +396,13 @@
       {
         "name": "Vile Mace",
         "entries": [
-          "Melee Weapon Attack: 4, reach 5 ft. 5 (1d6 + 2) Bludgeoning damage plus 3 (1d6) Necrotic damage."
+          "*Melee Weapon Attack:* 4, reach 5 ft. *Hit:* 5 (1d6 + 2) Bludgeoning damage plus 3 (1d6) Necrotic damage."
         ]
       },
       {
         "name": "Fateful Bolt",
         "entries": [
-          "Ranged Weapon Attack: 4, range 120 ft. 8 (1d12 + 2) Necrotic damage, and the next attack roll made against the target before the end of Narthus's next turn has Advantage."
+          "*Ranged Weapon Attack:* 4, range 120 ft. *Hit:* 8 (1d12 + 2) Necrotic damage, and the next attack roll made against the target before the end of Narthus's next turn has Advantage."
         ]
       }
     ],
@@ -443,13 +443,13 @@
       {
         "name": "Rapier",
         "entries": [
-          "Melee Weapon Attack: 5, reach 5 ft. 7 (1d8 + 3) Piercing damage."
+          "*Melee Weapon Attack:* 5, reach 5 ft. *Hit:* 7 (1d8 + 3) Piercing damage."
         ]
       },
       {
         "name": "Light Crossbow",
         "entries": [
-          "Ranged Weapon Attack: 5, range 80/320 ft. 7 (1d8 + 3) Piercing damage."
+          "*Ranged Weapon Attack:* 5, range 80/320 ft. *Hit:* 7 (1d8 + 3) Piercing damage."
         ]
       }
     ],
@@ -497,19 +497,19 @@
       {
         "name": "Needle Sword",
         "entries": [
-          "Melee Weapon Attack: 6, reach 5 ft. 6 (1d4 + 4) Piercing damage."
+          "*Melee Weapon Attack:* 6, reach 5 ft. *Hit:* 6 (1d4 + 4) Piercing damage."
         ]
       },
       {
         "name": "Enchanting Bow",
         "entries": [
-          "Ranged Weapon Attack: 6, range 40/160 ft. 1 Piercing damage, and the target has the Charmed condition until the start of the sprite's next turn."
+          "*Ranged Weapon Attack:* 6, range 40/160 ft. *Hit:* 1 Piercing damage, and the target has the Charmed condition until the start of the sprite's next turn."
         ]
       },
       {
         "name": "Heart Sight",
         "entries": [
-          "cha DC 10, one creature within 5 feet the sprite can see (Celestials, Fiends, Undead automatically fail the save). The sprite knows the target's emotions."
+          "*Charisma Saving Throw:* DC 10, one creature within 5 feet the sprite can see (Celestials, Fiends, Undead automatically fail the save). *Failure:* The sprite knows the target's emotions."
         ]
       },
       {
@@ -562,13 +562,13 @@
       {
         "name": "Shortsword",
         "entries": [
-          "Melee Weapon Attack: 4, reach 5 ft. 5 (1d6 + 2) Piercing damage."
+          "*Melee Weapon Attack:* 4, reach 5 ft. *Hit:* 5 (1d6 + 2) Piercing damage."
         ]
       },
       {
         "name": "Sling",
         "entries": [
-          "Ranged Weapon Attack: 4, range 30/120 ft. 4 (1d4 + 2) Bludgeoning damage."
+          "*Ranged Weapon Attack:* 4, range 30/120 ft. *Hit:* 4 (1d4 + 2) Bludgeoning damage."
         ]
       }
     ],
@@ -622,19 +622,19 @@
       {
         "name": "Necrotic Sword",
         "entries": [
-          "Melee Weapon Attack: 4, reach 5 ft. 6 (1d8 + 2) Slashing damage plus 4 (1d8) Necrotic damage."
+          "*Melee Weapon Attack:* 4, reach 5 ft. *Hit:* 6 (1d8 + 2) Slashing damage plus 4 (1d8) Necrotic damage."
         ]
       },
       {
         "name": "Necrotic Bow",
         "entries": [
-          "Ranged Weapon Attack: 4, range 150/600 ft. 6 (1d8 + 2) Piercing damage plus 4 (1d8) Necrotic damage."
+          "*Ranged Weapon Attack:* 4, range 150/600 ft. *Hit:* 6 (1d8 + 2) Piercing damage plus 4 (1d8) Necrotic damage."
         ]
       },
       {
         "name": "Drink Life 5",
         "entries": [
-          "con DC 13, one creature within 5 feet. 6 (1d8 + 2) Necrotic damage, and the wight regains a number of Hit Points equal to the Necrotic damage taken."
+          "*Constitution Saving Throw:* DC 13, one creature within 5 feet. *Failure:* 6 (1d8 + 2) Necrotic damage, and the wight regains a number of Hit Points equal to the Necrotic damage taken."
         ]
       }
     ],

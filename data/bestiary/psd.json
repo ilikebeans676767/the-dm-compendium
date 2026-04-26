@@ -42,7 +42,7 @@
       {
         "name": "Claw",
         "entries": [
-          "Melee Weapon Attack: 3 to hit, reach 5 ft., one target. 5 (1d8 + 1) slashing damage, and the target is grappled (escape DC 11). The homarid has two claws, each of which can grapple only one target."
+          "*Melee Weapon Attack:* 3 to hit, reach 5 ft., one target. *Hit:* 5 (1d8 + 1) slashing damage, and the target is grappled (escape DC 11). The homarid has two claws, each of which can grapple only one target."
         ]
       }
     ],
@@ -96,13 +96,13 @@
       {
         "name": "Bite",
         "entries": [
-          "Melee Weapon Attack: 6 to hit, reach 5 ft., one target. 9 (1d10 + 4) piercing damage."
+          "*Melee Weapon Attack:* 6 to hit, reach 5 ft., one target. *Hit:* 9 (1d10 + 4) piercing damage."
         ]
       },
       {
         "name": "Claw",
         "entries": [
-          "Melee Weapon Attack: 6 to hit, reach 5 ft., one target. 7 (1d6 + 4) slashing damage."
+          "*Melee Weapon Attack:* 6 to hit, reach 5 ft., one target. *Hit:* 7 (1d6 + 4) slashing damage."
         ]
       }
     ],
@@ -231,13 +231,13 @@
       {
         "name": "Bite",
         "entries": [
-          "Melee Weapon Attack: 7 to hit, reach 5 ft., one target. 14 (2d8 + 5) piercing damage."
+          "*Melee Weapon Attack:* 7 to hit, reach 5 ft., one target. *Hit:* 14 (2d8 + 5) piercing damage."
         ]
       },
       {
         "name": "Rend",
         "entries": [
-          "Melee Weapon Attack: 7 to hit, reach 5 ft., one prone creature. 23 (4d8 + 5) slashing damage."
+          "*Melee Weapon Attack:* 7 to hit, reach 5 ft., one prone creature. *Hit:* 23 (4d8 + 5) slashing damage."
         ]
       }
     ],

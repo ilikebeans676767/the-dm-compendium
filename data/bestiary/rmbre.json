@@ -36,7 +36,7 @@
       {
         "name": "Beak",
         "entries": [
-          "Melee Weapon Attack: 7 to hit, reach 5 ft., one creature. 10 (1d10 + 5) piercing damage."
+          "*Melee Weapon Attack:* 7 to hit, reach 5 ft., one creature. *Hit:* 10 (1d10 + 5) piercing damage."
         ]
       }
     ],
@@ -84,7 +84,7 @@
       {
         "name": "Bashin' Banjo",
         "entries": [
-          "Melee Weapon Attack: 4 to hit, reach 5 ft., one target. 6 (1d8 + 2) bludgeoning damage."
+          "*Melee Weapon Attack:* 4 to hit, reach 5 ft., one target. *Hit:* 6 (1d8 + 2) bludgeoning damage."
         ]
       }
     ],
@@ -152,13 +152,13 @@
       {
         "name": "Bite",
         "entries": [
-          "Melee Weapon Attack: 2 to hit, reach 5 ft., one creature. 9 (2d6 + 2) piercing damage."
+          "*Melee Weapon Attack:* 2 to hit, reach 5 ft., one creature. *Hit:* 9 (2d6 + 2) piercing damage."
         ]
       },
       {
         "name": "Claws",
         "entries": [
-          "Melee Weapon Attack: 4 to hit, reach 5 ft., one target. 7 (2d4 + 2) slashing damage."
+          "*Melee Weapon Attack:* 4 to hit, reach 5 ft., one target. *Hit:* 7 (2d4 + 2) slashing damage."
         ]
       }
     ],
@@ -267,7 +267,7 @@
       {
         "name": "Clay Jug",
         "entries": [
-          "Melee Weapon Attack: 5 to hit, reach 5 ft., one target. 7 (1d8 + 3) bludgeoning damage."
+          "*Melee Weapon Attack:* 5 to hit, reach 5 ft., one target. *Hit:* 7 (1d8 + 3) bludgeoning damage."
         ]
       }
     ],
@@ -308,7 +308,7 @@
       {
         "name": "Webby Hands",
         "entries": [
-          "Melee Weapon Attack: 6 to hit, reach 5 ft., one target. 8 (1d8 + 4) bludgeoning damage."
+          "*Melee Weapon Attack:* 6 to hit, reach 5 ft., one target. *Hit:* 8 (1d8 + 4) bludgeoning damage."
         ]
       }
     ],
