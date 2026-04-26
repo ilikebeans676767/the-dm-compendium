@@ -769,7 +769,7 @@ __export(main_exports, {
 module.exports = __toCommonJS(main_exports);
 
 // src/plugin/MyToolkitPlugin.ts
-var path7 = __toESM(require("path"));
+var path5 = __toESM(require("path"));
 var import_obsidian5 = require("obsidian");
 
 // src/deployer.ts
@@ -805,7 +805,7 @@ var Deployer = class {
   }
 };
 
-// src/formatters/BookFormatter.ts
+// src/formatters/MonsterFormatter.ts
 var path2 = __toESM(require("path"));
 
 // src/formatters/BaseFormatter.ts
@@ -831,38 +831,6 @@ async function loadJsonData(jsonPath, description) {
     return [];
   }
 }
-
-// src/formatters/BookFormatter.ts
-var BookFormatter = class extends BaseFormatter {
-  async load(dataDir) {
-    const books = await loadJsonData(
-      path2.join(dataDir, "cache", "books.json"),
-      "book"
-    );
-    return books.map((b) => this.format(b));
-  }
-  format(book) {
-    const stars = "\u2605".repeat(book.rating) + "\u2606".repeat(5 - book.rating);
-    return {
-      label: `${book.title} \u2014 ${book.author} (${book.year})`,
-      body: `## ${book.title}
-
-| Field    | Value              |
-| -------- | ------------------ |
-| Author   | ${book.author}     |
-| Year     | ${book.year}       |
-| Genre    | ${book.genre}      |
-| Rating   | ${stars}           |
-
-> [!toolkit-highlight]
-> ${book.notes}
-`
-    };
-  }
-};
-
-// src/formatters/MonsterFormatter.ts
-var path3 = __toESM(require("path"));
 
 // src/settings.ts
 var SOURCE_LIST = require_source_list();
@@ -894,7 +862,7 @@ var SAVE_KEYS = {
 var MonsterFormatter = class extends BaseFormatter {
   async load(dataDir) {
     const monsters = await loadJsonData(
-      path3.join(dataDir, "cache", "bestiary.json"),
+      path2.join(dataDir, "cache", "bestiary.json"),
       "monster"
     );
     return monsters.map((monster) => this.format(monster));
@@ -908,6 +876,7 @@ var MonsterFormatter = class extends BaseFormatter {
       body: `\`\`\`statblock
 layout: Basic 5e Layout
 name: ${yamlScalar(monster.name)}
+image: [[${yamlScalar(monster.name)}.jpg]]
 size: ${yamlScalar(monster.size)}
 type: ${yamlScalar(typeParts.type)}
 subtype: ${yamlScalar(typeParts.subtype)}
@@ -1023,38 +992,8 @@ function yamlScalar(value) {
   return JSON.stringify(String(value));
 }
 
-// src/formatters/MovieFormatter.ts
-var path4 = __toESM(require("path"));
-var MovieFormatter = class extends BaseFormatter {
-  async load(dataDir) {
-    const movies = await loadJsonData(
-      path4.join(dataDir, "cache", "movies.json"),
-      "movie"
-    );
-    return movies.map((m) => this.format(m));
-  }
-  format(movie) {
-    const stars = "\u2605".repeat(movie.rating) + "\u2606".repeat(5 - movie.rating);
-    return {
-      label: `${movie.title} \u2014 ${movie.director} (${movie.year})`,
-      body: `## ${movie.title}
-
-| Field    | Value              |
-| -------- | ------------------ |
-| Director | ${movie.director}  |
-| Year     | ${movie.year}      |
-| Genre    | ${movie.genre}     |
-| Rating   | ${stars}           |
-
-> [!toolkit-highlight]
-> ${movie.notes}
-`
-    };
-  }
-};
-
 // src/formatters/SpellFormatter.ts
-var path5 = __toESM(require("path"));
+var path3 = __toESM(require("path"));
 function formatYamlListValue(items) {
   if (!items?.length) {
     return " []";
@@ -1068,7 +1007,7 @@ ${items.map((item) => {
 var SpellFormatter = class extends BaseFormatter {
   async load(dataDir) {
     const spells = await loadJsonData(
-      path5.join(dataDir, "cache", "spells.json"),
+      path3.join(dataDir, "cache", "spells.json"),
       "spell"
     );
     return spells.map((spell) => this.format(spell));
@@ -1098,8 +1037,6 @@ higherLevel:${formatYamlListValue(spell.higherLevel)}
 // src/registry.ts
 var registry = {
   bestiary: new MonsterFormatter(),
-  books: new BookFormatter(),
-  movies: new MovieFormatter(),
   monsters: new MonsterFormatter(),
   spells: new SpellFormatter()
 };
@@ -1255,8 +1192,6 @@ var TypeSelectionModal = class extends import_obsidian2.FuzzySuggestModal {
   }
   getItems() {
     return [
-      { label: "Insert book", value: "books" },
-      { label: "Insert movie", value: "movies" },
       { label: "Insert monster", value: "monsters" },
       { label: "Insert spell", value: "spells" }
     ];
@@ -1398,25 +1333,13 @@ function createElement(tagName, className = "", text = "") {
 
 // src/utils/databaseCache.ts
 var fs3 = __toESM(require("fs"));
-var path6 = __toESM(require("path"));
+var path4 = __toESM(require("path"));
 var import_obsidian4 = require("obsidian");
 var SPELL_SOURCE_LIST = require_spell_source_list();
 var MONSTER_SOURCE_LIST = require_monster_source_list();
 var SPELL_SOURCE_SET = new Set(SPELL_SOURCE_LIST.map(normalizeSourceKey));
 var MONSTER_SOURCE_SET = new Set(MONSTER_SOURCE_LIST.map(normalizeSourceKey));
 var CACHE_METADATA_FILE = ".database-cache.json";
-var DATABASE_FILES = [
-  {
-    name: "books.json",
-    description: "books",
-    sourceUrl: "https://api.github.com/repos/guykahalani/my-toolkit-plugin/contents/data/books.json?ref=main"
-  },
-  {
-    name: "movies.json",
-    description: "movies",
-    sourceUrl: "https://api.github.com/repos/guykahalani/my-toolkit-plugin/contents/data/movies.json?ref=main"
-  }
-];
 var SOURCE_FILTERED_DATABASE_FILES = [
   {
     name: "spells.json",
@@ -1432,21 +1355,18 @@ var SOURCE_FILTERED_DATABASE_FILES = [
   }
 ];
 function getCacheDir(pluginDir) {
-  return path6.join(pluginDir, "cache");
+  return path4.join(pluginDir, "cache");
 }
 async function hasDatabaseCache(pluginDir, includedSources) {
   const cacheDir = getCacheDir(pluginDir);
   const results = await Promise.all(
-    [...DATABASE_FILES, ...SOURCE_FILTERED_DATABASE_FILES].map((file) => hasFile(path6.join(cacheDir, file.name)))
+    SOURCE_FILTERED_DATABASE_FILES.map((file) => hasFile(path4.join(cacheDir, file.name)))
   );
   return results.every(Boolean) && await hasMatchingCacheMetadata(cacheDir, includedSources);
 }
 async function refreshDatabaseCache(pluginDir, githubToken, includedSources) {
   const cacheDir = getCacheDir(pluginDir);
   await fs3.promises.mkdir(cacheDir, { recursive: true });
-  await Promise.all(
-    DATABASE_FILES.map((file) => writeJsonCacheFile(cacheDir, file, githubToken))
-  );
   await refreshSourceFilteredDatabaseCache(pluginDir, githubToken, includedSources);
 }
 async function refreshSourceFilteredDatabaseCache(pluginDir, githubToken, includedSources) {
@@ -1462,14 +1382,6 @@ async function refreshSourceFilteredDatabaseCache(pluginDir, githubToken, includ
   );
   await writeCacheMetadata(cacheDir, includedSources);
 }
-async function writeJsonCacheFile(cacheDir, file, githubToken) {
-  const data = await fetchJsonArrayFromGithub(file.sourceUrl, githubToken, file.description);
-  await fs3.promises.writeFile(
-    path6.join(cacheDir, file.name),
-    JSON.stringify(data, null, 2),
-    "utf-8"
-  );
-}
 async function writeSourceFilteredJsonCacheFile(cacheDir, file, githubToken, includedSources) {
   const selectedSources = getSelectedSources(includedSources, file.sourceSet);
   const sourceGroups = await Promise.all(
@@ -1484,7 +1396,7 @@ async function writeSourceFilteredJsonCacheFile(cacheDir, file, githubToken, inc
     return byName || String(left.source).localeCompare(String(right.source));
   });
   await fs3.promises.writeFile(
-    path6.join(cacheDir, file.name),
+    path4.join(cacheDir, file.name),
     JSON.stringify(data, null, 2),
     "utf-8"
   );
@@ -1528,7 +1440,7 @@ async function hasFile(filePath) {
 async function hasMatchingCacheMetadata(cacheDir, includedSources) {
   try {
     const metadata = JSON.parse(
-      await fs3.promises.readFile(path6.join(cacheDir, CACHE_METADATA_FILE), "utf-8")
+      await fs3.promises.readFile(path4.join(cacheDir, CACHE_METADATA_FILE), "utf-8")
     );
     return sourcesMatch(metadata.includedSources ?? [], includedSources);
   } catch {
@@ -1537,7 +1449,7 @@ async function hasMatchingCacheMetadata(cacheDir, includedSources) {
 }
 async function writeCacheMetadata(cacheDir, includedSources) {
   await fs3.promises.writeFile(
-    path6.join(cacheDir, CACHE_METADATA_FILE),
+    path4.join(cacheDir, CACHE_METADATA_FILE),
     JSON.stringify({ includedSources: normalizeSources(includedSources) }, null, 2),
     "utf-8"
   );
@@ -1561,7 +1473,7 @@ var MyToolkitPlugin = class extends import_obsidian5.Plugin {
     console.log("[Toolkit] Loading...");
     await this.loadSettings();
     const vaultPath = this.app.vault.adapter.getBasePath();
-    this.pluginDir = path7.join(vaultPath, this.app.vault.configDir, "plugins", this.manifest.id);
+    this.pluginDir = path5.join(vaultPath, this.app.vault.configDir, "plugins", this.manifest.id);
     await this.ensureDatabaseCache();
     this.addSettingTab(new ToolkitSettingTab(this.app, this));
     this.attachGlobalBridge();

@@ -9,25 +9,6 @@ const SPELL_SOURCE_SET = new Set(SPELL_SOURCE_LIST.map(normalizeSourceKey));
 const MONSTER_SOURCE_SET = new Set(MONSTER_SOURCE_LIST.map(normalizeSourceKey));
 const CACHE_METADATA_FILE = ".database-cache.json";
 
-export interface DatabaseFile {
-  name: string;
-  description: string;
-  sourceUrl: string;
-}
-
-const DATABASE_FILES: DatabaseFile[] = [
-  {
-    name: "books.json",
-    description: "books",
-    sourceUrl: "https://api.github.com/repos/guykahalani/my-toolkit-plugin/contents/data/books.json?ref=main",
-  },
-  {
-    name: "movies.json",
-    description: "movies",
-    sourceUrl: "https://api.github.com/repos/guykahalani/my-toolkit-plugin/contents/data/movies.json?ref=main",
-  },
-];
-
 interface SourceFilteredDatabaseFile {
   name: string;
   description: string;
@@ -50,10 +31,6 @@ const SOURCE_FILTERED_DATABASE_FILES: SourceFilteredDatabaseFile[] = [
   },
 ];
 
-export function getDatabaseFiles(): DatabaseFile[] {
-  return DATABASE_FILES;
-}
-
 export function getCacheDir(pluginDir: string): string {
   return path.join(pluginDir, "cache");
 }
@@ -61,7 +38,7 @@ export function getCacheDir(pluginDir: string): string {
 export async function hasDatabaseCache(pluginDir: string, includedSources: string[]): Promise<boolean> {
   const cacheDir = getCacheDir(pluginDir);
   const results = await Promise.all(
-    [...DATABASE_FILES, ...SOURCE_FILTERED_DATABASE_FILES].map((file) => hasFile(path.join(cacheDir, file.name)))
+    SOURCE_FILTERED_DATABASE_FILES.map((file) => hasFile(path.join(cacheDir, file.name)))
   );
 
   return results.every(Boolean)
@@ -76,9 +53,6 @@ export async function refreshDatabaseCache(
   const cacheDir = getCacheDir(pluginDir);
   await fs.promises.mkdir(cacheDir, { recursive: true });
 
-  await Promise.all(
-    DATABASE_FILES.map((file) => writeJsonCacheFile(cacheDir, file, githubToken))
-  );
   await refreshSourceFilteredDatabaseCache(pluginDir, githubToken, includedSources);
 }
 
@@ -99,15 +73,6 @@ export async function refreshSourceFilteredDatabaseCache(
     ))
   );
   await writeCacheMetadata(cacheDir, includedSources);
-}
-
-async function writeJsonCacheFile(cacheDir: string, file: DatabaseFile, githubToken: string) {
-  const data = await fetchJsonArrayFromGithub(file.sourceUrl, githubToken, file.description);
-  await fs.promises.writeFile(
-    path.join(cacheDir, file.name),
-    JSON.stringify(data, null, 2),
-    "utf-8"
-  );
 }
 
 async function writeSourceFilteredJsonCacheFile(

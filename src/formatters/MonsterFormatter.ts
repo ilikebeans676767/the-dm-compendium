@@ -67,6 +67,7 @@ export class MonsterFormatter extends BaseFormatter {
       body: `\`\`\`statblock
 layout: Basic 5e Layout
 name: ${yamlScalar(monster.name)}
+image: [[${yamlScalar(monster.name)}.jpg]]
 size: ${yamlScalar(monster.size)}
 type: ${yamlScalar(typeParts.type)}
 subtype: ${yamlScalar(typeParts.subtype)}
