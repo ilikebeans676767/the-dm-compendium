@@ -11,6 +11,7 @@ import {
 } from "../settings";
 import { ToolkitSettingTab } from "../ui/ToolkitSettingTab";
 import { insertFromToolkit } from "../ui/InsertModals";
+import { registerSpellCardProcessor } from "../renderers/SpellCardRenderer";
 import {
   hasDatabaseCache,
   refreshDatabaseCache,
@@ -33,6 +34,7 @@ export class MyToolkitPlugin extends Plugin {
     await this.ensureDatabaseCache();
     this.addSettingTab(new ToolkitSettingTab(this.app, this));
     this.attachGlobalBridge();
+    registerSpellCardProcessor(this);
     this.addCommands();
     this.deployVaultAssets(vaultPath);
 

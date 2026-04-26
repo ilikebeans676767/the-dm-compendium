@@ -17,12 +17,18 @@ interface SpellEntry {
   higherLevel?: string[];
 }
 
-const LEVEL_NAMES: Record<number, string> = {
-  0: "Cantrip",
-  1: "1st-level",
-  2: "2nd-level",
-  3: "3rd-level",
-};
+function formatYamlListValue(items: string[] | undefined): string {
+  if (!items?.length) {
+    return " []";
+  }
+
+  return `\n${items
+    .map((item) => {
+      const lines = item.split(/\r?\n/);
+      return [`  - |-`, ...lines.map((line) => `    ${line}`)].join("\n");
+    })
+    .join("\n")}`;
+}
 
 export class SpellFormatter extends BaseFormatter {
   async load(dataDir: string): Promise<FormatterItem[]> {
@@ -35,28 +41,22 @@ export class SpellFormatter extends BaseFormatter {
 
   protected format(spell: SpellEntry): FormatterItem {
     const sourceLabel = getSourceLabel(spell.source);
-    const levelText = LEVEL_NAMES[spell.level] ?? `${spell.level}th-level`;
-    const pageText = spell.page ? `, p. ${spell.page}` : "";
-    const higherLevel = spell.higherLevel?.length
-      ? `\n### At Higher Levels\n\n${spell.higherLevel.join("\n\n")}\n`
-      : "";
 
     return {
       label: `${spell.name} (${sourceLabel})`,
       source: spell.source,
-      body: `## ${spell.name}
-
-*${levelText} ${spell.school} (${sourceLabel}${pageText})*
-
-| Field | Value |
-| ----- | ----- |
-| Casting Time | ${spell.castingTime} |
-| Range | ${spell.range} |
-| Components | ${spell.components} |
-| Duration | ${spell.duration} |
-
-${spell.entries.join("\n\n")}
-${higherLevel}`,
+      body: `\`\`\`spellcard
+name: ${JSON.stringify(spell.name)}
+source: ${JSON.stringify(sourceLabel)}
+${spell.page ? `page: ${spell.page}\n` : ""}level: ${spell.level}
+school: ${JSON.stringify(spell.school.toLowerCase())}
+castingTime: ${JSON.stringify(spell.castingTime)}
+range: ${JSON.stringify(spell.range)}
+components: ${JSON.stringify(spell.components)}
+duration: ${JSON.stringify(spell.duration)}
+entries:${formatYamlListValue(spell.entries)}
+higherLevel:${formatYamlListValue(spell.higherLevel)}
+\`\`\``,
     };
   }
 }

@@ -770,7 +770,7 @@ module.exports = __toCommonJS(main_exports);
 
 // src/plugin/MyToolkitPlugin.ts
 var path7 = __toESM(require("path"));
-var import_obsidian4 = require("obsidian");
+var import_obsidian5 = require("obsidian");
 
 // src/deployer.ts
 var fs = __toESM(require("fs"));
@@ -994,12 +994,16 @@ var MovieFormatter = class extends BaseFormatter {
 
 // src/formatters/SpellFormatter.ts
 var path5 = __toESM(require("path"));
-var LEVEL_NAMES = {
-  0: "Cantrip",
-  1: "1st-level",
-  2: "2nd-level",
-  3: "3rd-level"
-};
+function formatYamlListValue(items) {
+  if (!items?.length) {
+    return " []";
+  }
+  return `
+${items.map((item) => {
+    const lines = item.split(/\r?\n/);
+    return [`  - |-`, ...lines.map((line) => `    ${line}`)].join("\n");
+  }).join("\n")}`;
+}
 var SpellFormatter = class extends BaseFormatter {
   async load(dataDir) {
     const spells = await loadJsonData(
@@ -1010,29 +1014,22 @@ var SpellFormatter = class extends BaseFormatter {
   }
   format(spell) {
     const sourceLabel = getSourceLabel(spell.source);
-    const levelText = LEVEL_NAMES[spell.level] ?? `${spell.level}th-level`;
-    const pageText = spell.page ? `, p. ${spell.page}` : "";
-    const higherLevel = spell.higherLevel?.length ? `
-### At Higher Levels
-
-${spell.higherLevel.join("\n\n")}
-` : "";
     return {
       label: `${spell.name} (${sourceLabel})`,
       source: spell.source,
-      body: `## ${spell.name}
-
-*${levelText} ${spell.school} (${sourceLabel}${pageText})*
-
-| Field | Value |
-| ----- | ----- |
-| Casting Time | ${spell.castingTime} |
-| Range | ${spell.range} |
-| Components | ${spell.components} |
-| Duration | ${spell.duration} |
-
-${spell.entries.join("\n\n")}
-${higherLevel}`
+      body: `\`\`\`spellcard
+name: ${JSON.stringify(spell.name)}
+source: ${JSON.stringify(sourceLabel)}
+${spell.page ? `page: ${spell.page}
+` : ""}level: ${spell.level}
+school: ${JSON.stringify(spell.school.toLowerCase())}
+castingTime: ${JSON.stringify(spell.castingTime)}
+range: ${JSON.stringify(spell.range)}
+components: ${JSON.stringify(spell.components)}
+duration: ${JSON.stringify(spell.duration)}
+entries:${formatYamlListValue(spell.entries)}
+higherLevel:${formatYamlListValue(spell.higherLevel)}
+\`\`\``
     };
   }
 };
@@ -1229,10 +1226,119 @@ var ItemSelectionModal = class extends import_obsidian2.FuzzySuggestModal {
   }
 };
 
+// src/renderers/SpellCardRenderer.ts
+var import_obsidian3 = require("obsidian");
+var LEVEL_NAMES = {
+  0: "Cantrip",
+  1: "1st-level",
+  2: "2nd-level",
+  3: "3rd-level"
+};
+function registerSpellCardProcessor(plugin) {
+  plugin.registerMarkdownCodeBlockProcessor("spellcard", async (source, el, ctx) => {
+    await renderSpellCard(plugin, source, el, ctx);
+  });
+}
+async function renderSpellCard(plugin, source, el, ctx) {
+  let spell;
+  try {
+    spell = normalizeSpellCardData((0, import_obsidian3.parseYaml)(source));
+  } catch (error) {
+    renderError(el, error);
+    return;
+  }
+  el.empty();
+  const card = createElement("article", "toolkit-spell-card");
+  el.appendChild(card);
+  const header = createElement("header", "toolkit-spell-card__header");
+  card.appendChild(header);
+  header.appendChild(createElement("h2", "", spell.name ?? "Unknown Spell"));
+  header.appendChild(createElement("p", "", getSpellSubtitle(spell)));
+  const sourceText = getSourceText(spell);
+  if (sourceText) {
+    header.appendChild(createElement("span", "", sourceText));
+  }
+  const meta = createElement("section", "toolkit-spell-card__meta");
+  card.appendChild(meta);
+  appendMeta(meta, "Casting Time", spell.castingTime);
+  appendMeta(meta, "Range", spell.range);
+  appendMeta(meta, "Components", spell.components);
+  appendMeta(meta, "Duration", spell.duration);
+  await appendMarkdownSection(plugin, card, ctx, "toolkit-spell-card__body", spell.entries);
+  if (spell.higherLevel?.length) {
+    const higher = createElement("section", "toolkit-spell-card__higher");
+    card.appendChild(higher);
+    higher.appendChild(createElement("h3", "", "At Higher Levels"));
+    await appendMarkdownSection(plugin, higher, ctx, "toolkit-spell-card__higher-body", spell.higherLevel);
+  }
+}
+function normalizeSpellCardData(raw) {
+  if (!raw || typeof raw !== "object") {
+    throw new Error("Spell card block must contain YAML fields.");
+  }
+  const spell = raw;
+  return {
+    ...spell,
+    entries: normalizeStringList(spell.entries),
+    higherLevel: normalizeStringList(spell.higherLevel)
+  };
+}
+function normalizeStringList(value) {
+  if (!Array.isArray(value)) {
+    return [];
+  }
+  return value.map((item) => item == null ? "" : String(item).trim()).filter((item) => item.length > 0);
+}
+function getSpellSubtitle(spell) {
+  const level = Number(spell.level);
+  const levelText = Number.isFinite(level) ? LEVEL_NAMES[level] ?? `${level}th-level` : "";
+  return [levelText, spell.school].filter(Boolean).join(" ");
+}
+function getSourceText(spell) {
+  if (!spell.source && !spell.page) {
+    return "";
+  }
+  return `${spell.source ?? ""}${spell.page ? `, p. ${spell.page}` : ""}`;
+}
+function appendMeta(parent, label, value) {
+  const item = createElement("div", "toolkit-spell-card__meta-item");
+  item.appendChild(createElement("strong", "", label));
+  item.appendChild(createElement("span", "", value || "-"));
+  parent.appendChild(item);
+}
+async function appendMarkdownSection(plugin, parent, ctx, className, entries) {
+  if (!entries?.length) {
+    return;
+  }
+  const section = createElement("section", className);
+  parent.appendChild(section);
+  for (const entry of entries) {
+    const entryEl = createElement("div", "toolkit-spell-card__entry");
+    section.appendChild(entryEl);
+    await import_obsidian3.MarkdownRenderer.render(plugin.app, entry, entryEl, ctx.sourcePath, plugin);
+  }
+}
+function renderError(el, error) {
+  el.empty();
+  const message = error instanceof Error ? error.message : "Unable to render spell card.";
+  const errorEl = createElement("div", "toolkit-spell-card-error", `Invalid spellcard YAML: ${message}`);
+  el.appendChild(errorEl);
+}
+function createElement(tagName, className = "", text = "") {
+  const element = document.createElement(tagName);
+  if (className) {
+    element.className = className;
+  }
+  if (text) {
+    element.textContent = text;
+  }
+  return element;
+}
+
 // src/utils/databaseCache.ts
 var fs3 = __toESM(require("fs"));
 var path6 = __toESM(require("path"));
-var import_obsidian3 = require("obsidian");
+var import_obsidian4 = require("obsidian");
 var SPELL_SOURCE_LIST = require_spell_source_list();
 var MONSTER_SOURCE_LIST = require_monster_source_list();
 var SPELL_SOURCE_SET = new Set(SPELL_SOURCE_LIST.map(normalizeSourceKey));
@@ -1330,7 +1436,7 @@ async function fetchJsonArrayFromGithub(sourceUrl, githubToken, description) {
   if (githubToken.trim()) {
     headers.Authorization = `Bearer ${githubToken.trim()}`;
   }
-  const response = await (0, import_obsidian3.requestUrl)({
+  const response = await (0, import_obsidian4.requestUrl)({
     url: sourceUrl,
     method: "GET",
     headers
@@ -1383,7 +1489,7 @@ function normalizeSources(sources) {
 }
 
 // src/plugin/MyToolkitPlugin.ts
-var MyToolkitPlugin = class extends import_obsidian4.Plugin {
+var MyToolkitPlugin = class extends import_obsidian5.Plugin {
   constructor() {
     super(...arguments);
     this.settings = DEFAULT_SETTINGS;
@@ -1398,9 +1504,10 @@ var MyToolkitPlugin = class extends import_obsidian4.Plugin {
     await this.ensureDatabaseCache();
     this.addSettingTab(new ToolkitSettingTab(this.app, this));
     this.attachGlobalBridge();
+    registerSpellCardProcessor(this);
     this.addCommands();
     this.deployVaultAssets(vaultPath);
-    new import_obsidian4.Notice("Toolkit Plugin loaded.");
+    new import_obsidian5.Notice("Toolkit Plugin loaded.");
     console.log("[Toolkit] Ready. Bridge attached, assets deployed.");
   }
   onunload() {
@@ -1473,12 +1580,12 @@ var MyToolkitPlugin = class extends import_obsidian4.Plugin {
     try {
       await refreshDatabaseCache(this.pluginDir, this.settings.githubToken, this.settings.includedSources);
       if (showSuccessNotice) {
-        new import_obsidian4.Notice("Toolkit database refreshed.");
+        new import_obsidian5.Notice("Toolkit database refreshed.");
       }
       console.log("[Toolkit] Database cache refreshed.");
     } catch (error) {
       console.error("[Toolkit] Failed to refresh database cache:", error);
-      new import_obsidian4.Notice("Toolkit database refresh failed. For a private repo, add a GitHub token in plugin settings.");
+      new import_obsidian5.Notice("Toolkit database refresh failed. For a private repo, add a GitHub token in plugin settings.");
     }
   }
   async refreshSourceFilteredCache() {
@@ -1491,7 +1598,7 @@ var MyToolkitPlugin = class extends import_obsidian4.Plugin {
       console.log("[Toolkit] Source-filtered database cache refreshed.");
     } catch (error) {
       console.error("[Toolkit] Failed to refresh source-filtered database cache:", error);
-      new import_obsidian4.Notice("Toolkit source cache refresh failed. Check the developer console.");
+      new import_obsidian5.Notice("Toolkit source cache refresh failed. Check the developer console.");
     }
   }
   filterItemsBySource(items) {
