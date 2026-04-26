@@ -883,6 +883,14 @@ function getSourceLabel(source) {
 
 // src/formatters/MonsterFormatter.ts
 var ABILITY_LABELS = ["str", "dex", "con", "int", "wis", "cha"];
+var SAVE_KEYS = {
+  str: "strength",
+  dex: "dexterity",
+  con: "constitution",
+  int: "intelligence",
+  wis: "wisdom",
+  cha: "charisma"
+};
 var MonsterFormatter = class extends BaseFormatter {
   async load(dataDir) {
     const monsters = await loadJsonData(
@@ -893,73 +901,126 @@ var MonsterFormatter = class extends BaseFormatter {
   }
   format(monster) {
     const sourceLabel = getSourceLabel(monster.source);
-    const pageText = monster.page ? `, p. ${monster.page}` : "";
-    const subtitle = [monster.size, monster.type, monster.alignment].filter(Boolean).join(", ");
+    const typeParts = splitType(monster.type);
     return {
       label: `${monster.name} (${sourceLabel})`,
       source: monster.source,
-      body: `## ${monster.name}
-
-*${subtitle} (${sourceLabel}${pageText})*
-
-| Field | Value |
-| ----- | ----- |
-| Armor Class | ${monster.armorClass || "-"} |
-| Hit Points | ${monster.hitPoints || "-"} |
-| Speed | ${monster.speed || "-"} |
-| Saving Throws | ${monster.savingThrows || "-"} |
-| Skills | ${monster.skills || "-"} |
-| Senses | ${monster.senses || "-"} |
-| Languages | ${monster.languages || "-"} |
-| Challenge | ${monster.challengeRating || "-"} |
-
-${this.formatAbilities(monster)}
-${this.formatSection("Traits", monster.traits)}
-${this.formatSection("Spellcasting", monster.spellcasting)}
-${this.formatSection("Actions", monster.actions)}
-${this.formatSection("Bonus Actions", monster.bonusActions)}
-${this.formatSection("Reactions", monster.reactions)}
-${this.formatSection("Legendary Actions", monster.legendaryActions)}
-${this.formatSection("Mythic Actions", monster.mythicActions)}
-${this.formatSection("Lair Actions", monster.lairActions)}
-${this.formatEnvironment(monster.environment)}`.trim()
+      body: `\`\`\`statblock
+layout: Basic 5e Layout
+name: ${yamlScalar(monster.name)}
+size: ${yamlScalar(monster.size)}
+type: ${yamlScalar(typeParts.type)}
+subtype: ${yamlScalar(typeParts.subtype)}
+alignment: ${yamlScalar(monster.alignment)}
+ac: ${yamlValue(parseLeadingNumber(monster.armorClass) ?? monster.armorClass)}
+hp: ${yamlValue(parseLeadingNumber(monster.hitPoints) ?? monster.hitPoints)}
+hit_dice: ${yamlScalar(parseHitDice(monster.hitPoints))}
+speed: ${yamlScalar(formatStatblockSpeed(monster.speed))}
+stats: [${ABILITY_LABELS.map((ability) => monster.abilities[ability]).join(", ")}]
+saves:${formatKeyValueList(monster.savingThrows, SAVE_KEYS)}
+skillsaves:${formatKeyValueList(monster.skills)}
+senses: ${yamlScalar(monster.senses)}
+languages: ${yamlScalar(monster.languages)}
+damage_resistances: ${yamlScalar(monster.damageResistances)}
+damage_immunities: ${yamlScalar(monster.damageImmunities)}
+condition_immunities: ${yamlScalar(monster.conditionImmunities)}
+cr: ${yamlScalar(monster.challengeRating)}
+traits:${formatNamedEntries(monster.traits)}
+actions:${formatNamedEntries([...monster.actions, ...monster.bonusActions])}
+reactions:${formatNamedEntries(monster.reactions)}
+legendary_actions:${formatNamedEntries(monster.legendaryActions)}
+mythic_actions:${formatNamedEntries(monster.mythicActions)}
+lair_actions:${formatNamedEntries(monster.lairActions)}
+spells:${formatSpellcasting(monster.spellcasting)}
+source: ${yamlScalar(sourceLabel)}
+page: ${yamlValue(monster.page ?? "")}
+\`\`\``
     };
   }
-  formatAbilities(monster) {
-    const headings = ABILITY_LABELS.map((ability) => ability.toUpperCase()).join(" | ");
-    const dividers = ABILITY_LABELS.map(() => "-----").join(" | ");
-    const values = ABILITY_LABELS.map((ability) => {
-      const score = monster.abilities[ability];
-      return `${score} (${formatModifier(score)})`;
-    }).join(" | ");
-    return `| ${headings} |
-| ${dividers} |
-| ${values} |
-`;
-  }
-  formatSection(title, entries) {
-    if (!entries.length) return "";
-    const body = entries.map((entry) => {
-      const heading = entry.name ? `**${entry.name}.** ` : "";
-      return `${heading}${entry.entries.join("\n\n")}`.trim();
-    }).join("\n\n");
-    return `
-### ${title}
-
-${body}
-`;
-  }
-  formatEnvironment(environment) {
-    return environment.length ? `
-### Environment
-
-${environment.join(", ")}
-` : "";
-  }
 };
-function formatModifier(score) {
-  const modifier = Math.floor((score - 10) / 2);
-  return modifier >= 0 ? `+${modifier}` : String(modifier);
+function splitType(type) {
+  const match = type.match(/^(.+?)\s*\((.+)\)$/);
+  return match ? { type: match[1], subtype: match[2] } : { type, subtype: "" };
+}
+function parseLeadingNumber(value) {
+  const match = value.match(/^(\d+)/);
+  return match ? Number(match[1]) : null;
+}
+function parseHitDice(value) {
+  const match = value.match(/\(([^)]+)\)/);
+  if (!match) {
+    return "";
+  }
+  return match[1].replace(/\s*[+-]\s*\d+$/, "").trim();
+}
+function formatStatblockSpeed(speed) {
+  return speed.replace(/\bwalk\s+/gi, "");
+}
+function formatKeyValueList(value, keyMap = {}) {
+  const entries = parseKeyValueString(value, keyMap);
+  if (!entries.length) {
+    return " []";
+  }
+  return `
+${entries.map(([key, entryValue]) => `  - ${key}: ${entryValue}`).join("\n")}`;
+}
+function parseKeyValueString(value, keyMap) {
+  if (!value) {
+    return [];
+  }
+  return value.split(",").map((part) => {
+    const [rawKey, ...rawValue] = part.split(":");
+    if (!rawKey || !rawValue.length) {
+      return null;
+    }
+    const normalizedKey = rawKey.trim().toLowerCase();
+    const key = keyMap[normalizedKey] ?? normalizedKey;
+    const stringValue = rawValue.join(":").trim();
+    const numberValue = Number(stringValue.replace(/^\+/, ""));
+    return [key, Number.isFinite(numberValue) ? numberValue : stringValue];
+  }).filter((entry) => Boolean(entry));
+}
+function formatNamedEntries(entries) {
+  if (!entries.length) {
+    return " []";
+  }
+  return `
+${entries.map(formatNamedEntry).join("\n")}`;
+}
+function formatNamedEntry(entry) {
+  return [
+    `  - name: ${yamlScalar(entry.name)}`,
+    `    desc:${formatBlockText(joinEntries(entry.entries), 6)}`
+  ].join("\n");
+}
+function formatSpellcasting(entries) {
+  const spellLines = entries.flatMap((entry) => {
+    const body = entry.entries.map((line) => line.trim()).filter(Boolean);
+    return entry.name && entry.name !== "Spellcasting" ? [`${entry.name}. ${body[0] ?? ""}`.trim(), ...body.slice(1)] : body;
+  });
+  if (!spellLines.length) {
+    return " []";
+  }
+  return `
+${spellLines.map((line) => `  -${formatBlockText(line, 4)}`).join("\n")}`;
+}
+function joinEntries(entries) {
+  return entries.map((entry) => entry.trim()).filter(Boolean).join("\n\n");
+}
+function formatBlockText(value, indent) {
+  const indentation = " ".repeat(indent);
+  const lines = value.split(/\r?\n/);
+  return ` |-
+${lines.map((line) => `${indentation}${line}`).join("\n")}`;
+}
+function yamlValue(value) {
+  return typeof value === "number" ? String(value) : yamlScalar(value);
+}
+function yamlScalar(value) {
+  if (value === void 0 || value === null || value === "") {
+    return '""';
+  }
+  return JSON.stringify(String(value));
 }
 
 // src/formatters/MovieFormatter.ts

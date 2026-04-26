@@ -342,6 +342,25 @@ function formatKeyValueMap(value = {}) {
     .join(", ");
 }
 
+function formatDelimitedTextList(values = []) {
+  return (values ?? []).map((value) => {
+    if (typeof value === "string") return cleanTagText(value);
+    if (!value || typeof value !== "object") return "";
+
+    const parts = [];
+    if (Array.isArray(value.preNote)) parts.push(cleanTagText(value.preNote.join(", ")));
+    else if (value.preNote) parts.push(cleanTagText(value.preNote));
+    if (Array.isArray(value.resist)) parts.push(formatDelimitedTextList(value.resist));
+    if (Array.isArray(value.immune)) parts.push(formatDelimitedTextList(value.immune));
+    if (Array.isArray(value.conditionImmune)) parts.push(formatDelimitedTextList(value.conditionImmune));
+    if (Array.isArray(value.vulnerable)) parts.push(formatDelimitedTextList(value.vulnerable));
+    if (value.special) parts.push(cleanTagText(value.special));
+    if (value.note) parts.push(cleanTagText(value.note));
+
+    return parts.filter(Boolean).join(" ");
+  }).filter(Boolean).join(", ");
+}
+
 function normalizeSpellcasting(spellcasting = []) {
   return (spellcasting ?? []).map((entry) => {
     const sections = [];
@@ -392,6 +411,9 @@ function normalizeMonster(monster) {
     skills: formatKeyValueMap(monster.skill),
     senses: [...(monster.senses ?? []).map(cleanTagText), monster.passive ? `passive Perception ${monster.passive}` : ""].filter(Boolean).join(", "),
     languages: (monster.languages ?? []).map(cleanTagText).join(", "),
+    damageResistances: formatDelimitedTextList(monster.resist),
+    damageImmunities: formatDelimitedTextList(monster.immune),
+    conditionImmunities: formatDelimitedTextList(monster.conditionImmune),
     challengeRating: formatChallengeRating(monster.cr),
     traits: renderNamedEntries(monster.trait),
     spellcasting: normalizeSpellcasting(monster.spellcasting),
