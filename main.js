@@ -764,30 +764,65 @@ var require_monster_source_list = __commonJS({
 // src/main.ts
 var main_exports = {};
 __export(main_exports, {
-  default: () => MyToolkitPlugin
+  default: () => main_default
 });
 module.exports = __toCommonJS(main_exports);
+
+// src/plugin/MyToolkitPlugin.ts
 var path7 = __toESM(require("path"));
-var import_obsidian2 = require("obsidian");
+var import_obsidian4 = require("obsidian");
+
+// src/deployer.ts
+var fs = __toESM(require("fs"));
+var path = __toESM(require("path"));
+var Deployer = class {
+  constructor(opts) {
+    this.opts = opts;
+  }
+  deployAll() {
+    this.setToolkitHotkey();
+  }
+  // Write Option+Shift+E for toolkit insertion into hotkeys.json
+  // Only sets if the user hasn't already customised this command.
+  setToolkitHotkey() {
+    const hotkeysPath = path.join(this.opts.vaultPath, ".obsidian", "hotkeys.json");
+    let hotkeys = {};
+    try {
+      if (fs.existsSync(hotkeysPath)) {
+        hotkeys = JSON.parse(fs.readFileSync(hotkeysPath, "utf-8"));
+      }
+    } catch {
+      console.warn("[Toolkit] Could not read hotkeys.json, will create.");
+    }
+    const commandId = "my-toolkit-plugin:insert-from-toolkit";
+    if (!hotkeys[commandId]) {
+      hotkeys[commandId] = [{ modifiers: ["Alt", "Shift"], key: "E" }];
+      fs.writeFileSync(hotkeysPath, JSON.stringify(hotkeys, null, 2));
+      console.log("[Toolkit] Hotkey Option+Shift+E set for toolkit insertion.");
+    } else {
+      console.log("[Toolkit] Toolkit hotkey already set by user, skipping.");
+    }
+  }
+};
 
 // src/formatters/BookFormatter.ts
-var path = __toESM(require("path"));
+var path2 = __toESM(require("path"));
 
 // src/formatters/BaseFormatter.ts
 var BaseFormatter = class {
 };
 
 // src/utils/dataLoader.ts
-var fs = __toESM(require("fs"));
+var fs2 = __toESM(require("fs"));
 var cache = /* @__PURE__ */ new Map();
 async function loadJsonData(jsonPath, description) {
   try {
-    const stat = await fs.promises.stat(jsonPath);
+    const stat = await fs2.promises.stat(jsonPath);
     const cached = cache.get(jsonPath);
     if (cached && cached.mtimeMs === stat.mtimeMs) {
       return cached.data;
     }
-    const fileContents = await fs.promises.readFile(jsonPath, "utf-8");
+    const fileContents = await fs2.promises.readFile(jsonPath, "utf-8");
     const data = JSON.parse(fileContents);
     cache.set(jsonPath, { mtimeMs: stat.mtimeMs, data });
     return data;
@@ -801,7 +836,7 @@ async function loadJsonData(jsonPath, description) {
 var BookFormatter = class extends BaseFormatter {
   async load(dataDir) {
     const books = await loadJsonData(
-      path.join(dataDir, "cache", "books.json"),
+      path2.join(dataDir, "cache", "books.json"),
       "book"
     );
     return books.map((b) => this.format(b));
@@ -827,7 +862,7 @@ var BookFormatter = class extends BaseFormatter {
 };
 
 // src/formatters/MonsterFormatter.ts
-var path2 = __toESM(require("path"));
+var path3 = __toESM(require("path"));
 
 // src/settings.ts
 var SOURCE_LIST = require_source_list();
@@ -851,7 +886,7 @@ var ABILITY_LABELS = ["str", "dex", "con", "int", "wis", "cha"];
 var MonsterFormatter = class extends BaseFormatter {
   async load(dataDir) {
     const monsters = await loadJsonData(
-      path2.join(dataDir, "cache", "bestiary.json"),
+      path3.join(dataDir, "cache", "bestiary.json"),
       "monster"
     );
     return monsters.map((monster) => this.format(monster));
@@ -928,11 +963,11 @@ function formatModifier(score) {
 }
 
 // src/formatters/MovieFormatter.ts
-var path3 = __toESM(require("path"));
+var path4 = __toESM(require("path"));
 var MovieFormatter = class extends BaseFormatter {
   async load(dataDir) {
     const movies = await loadJsonData(
-      path3.join(dataDir, "cache", "movies.json"),
+      path4.join(dataDir, "cache", "movies.json"),
       "movie"
     );
     return movies.map((m) => this.format(m));
@@ -958,7 +993,7 @@ var MovieFormatter = class extends BaseFormatter {
 };
 
 // src/formatters/SpellFormatter.ts
-var path4 = __toESM(require("path"));
+var path5 = __toESM(require("path"));
 var LEVEL_NAMES = {
   0: "Cantrip",
   1: "1st-level",
@@ -968,7 +1003,7 @@ var LEVEL_NAMES = {
 var SpellFormatter = class extends BaseFormatter {
   async load(dataDir) {
     const spells = await loadJsonData(
-      path4.join(dataDir, "cache", "spells.json"),
+      path5.join(dataDir, "cache", "spells.json"),
       "spell"
     );
     return spells.map((spell) => this.format(spell));
@@ -1011,43 +1046,193 @@ var registry = {
   spells: new SpellFormatter()
 };
 
-// src/deployer.ts
-var fs2 = __toESM(require("fs"));
-var path5 = __toESM(require("path"));
-var Deployer = class {
-  constructor(opts) {
-    this.opts = opts;
+// src/ui/ToolkitSettingTab.ts
+var import_obsidian = require("obsidian");
+var PRIORITY_SOURCE_KEYS = ["PHB", "XPHB", "DMG", "XDMG", "MM", "XMM"];
+var ToolkitSettingTab = class extends import_obsidian.PluginSettingTab {
+  constructor(app, plugin) {
+    super(app, plugin);
+    this.sourceSearchQuery = "";
+    this.sourceSearchTimer = null;
+    this.plugin = plugin;
   }
-  deployAll() {
-    this.setToolkitHotkey();
+  display() {
+    const { containerEl } = this;
+    if (this.sourceSearchTimer) {
+      clearTimeout(this.sourceSearchTimer);
+      this.sourceSearchTimer = null;
+    }
+    containerEl.empty();
+    this.renderGithubTokenSetting(containerEl);
+    this.renderSourceActions(containerEl);
+    const sourceSearchEl = containerEl.createDiv();
+    const sourceListEl = containerEl.createDiv();
+    this.renderSourceSearch(sourceSearchEl, sourceListEl);
+    this.renderSourceSettings(sourceListEl);
   }
-  // Write Option+Shift+E for toolkit insertion into hotkeys.json
-  // Only sets if the user hasn't already customised this command.
-  setToolkitHotkey() {
-    const hotkeysPath = path5.join(this.opts.vaultPath, ".obsidian", "hotkeys.json");
-    let hotkeys = {};
-    try {
-      if (fs2.existsSync(hotkeysPath)) {
-        hotkeys = JSON.parse(fs2.readFileSync(hotkeysPath, "utf-8"));
+  renderGithubTokenSetting(containerEl) {
+    new import_obsidian.Setting(containerEl).setName("GitHub token").setDesc("Fine-grained token with read-only Contents access to the private data repository.").addText((text) => {
+      text.setPlaceholder("github_pat_...").setValue(this.plugin.settings.githubToken).onChange(async (value) => {
+        this.plugin.settings.githubToken = value.trim();
+        await this.plugin.saveSettings();
+      });
+      text.inputEl.type = "password";
+    });
+  }
+  renderSourceActions(containerEl) {
+    new import_obsidian.Setting(containerEl).setName("D&D sources").setDesc("Choose which sources appear in D&D search results.").addButton((button) => {
+      button.setButtonText("Defaults").onClick(async () => {
+        this.plugin.settings.includedSources = getDefaultIncludedSources();
+        await this.plugin.saveSettings();
+        this.plugin.scheduleSourceFilteredCacheRefresh();
+        this.display();
+      });
+    }).addButton((button) => {
+      button.setButtonText("All").onClick(async () => {
+        this.plugin.settings.includedSources = Object.keys(SOURCE_LIST).map(normalizeSourceKey);
+        await this.plugin.saveSettings();
+        this.plugin.scheduleSourceFilteredCacheRefresh();
+        this.display();
+      });
+    }).addButton((button) => {
+      button.setButtonText("None").onClick(async () => {
+        this.plugin.settings.includedSources = [];
+        await this.plugin.saveSettings();
+        this.plugin.scheduleSourceFilteredCacheRefresh();
+        this.display();
+      });
+    });
+  }
+  renderSourceSearch(containerEl, sourceListEl) {
+    new import_obsidian.Setting(containerEl).setName("Search sources").addText((text) => {
+      text.setPlaceholder("Type a source name or abbreviation...").setValue(this.sourceSearchQuery).onChange((value) => {
+        if (this.sourceSearchTimer) {
+          clearTimeout(this.sourceSearchTimer);
+        }
+        this.sourceSearchTimer = setTimeout(() => {
+          this.sourceSearchTimer = null;
+          this.sourceSearchQuery = value;
+          this.renderSourceSettings(sourceListEl);
+        }, 200);
+      });
+    }).addButton((button) => {
+      button.setButtonText("Clear").onClick(() => {
+        this.sourceSearchQuery = "";
+        this.display();
+      });
+    });
+  }
+  renderSourceSettings(containerEl) {
+    containerEl.empty();
+    const includedSources = new Set(this.plugin.settings.includedSources.map(normalizeSourceKey));
+    const sourceEntries = Object.entries(SOURCE_LIST).sort(compareSourcesForSettings).filter(([sourceKey, source]) => sourceMatchesSearch(sourceKey, source, this.sourceSearchQuery));
+    if (!sourceEntries.length) {
+      new import_obsidian.Setting(containerEl).setName("No matching sources").setDesc("Try another source name or abbreviation.");
+      return;
+    }
+    sourceEntries.forEach(([sourceKey, source]) => {
+      const normalizedSourceKey = normalizeSourceKey(sourceKey);
+      new import_obsidian.Setting(containerEl).setName(`${source.full} (${source.short})`).addToggle((toggle) => {
+        toggle.setValue(includedSources.has(normalizedSourceKey)).onChange(async (value) => {
+          const nextSources = new Set(this.plugin.settings.includedSources.map(normalizeSourceKey));
+          if (value) {
+            nextSources.add(normalizedSourceKey);
+          } else {
+            nextSources.delete(normalizedSourceKey);
+          }
+          this.plugin.settings.includedSources = Array.from(nextSources).sort();
+          await this.plugin.saveSettings();
+          this.plugin.scheduleSourceFilteredCacheRefresh();
+        });
+      });
+    });
+  }
+};
+function sourceMatchesSearch(sourceKey, source, query) {
+  const normalizedQuery = query.trim().toLowerCase();
+  if (!normalizedQuery) return true;
+  return [
+    sourceKey,
+    normalizeSourceKey(sourceKey),
+    source.full,
+    source.short
+  ].some((value) => value.toLowerCase().includes(normalizedQuery));
+}
+function compareSourcesForSettings([leftKey, leftSource], [rightKey, rightSource]) {
+  const leftPriority = PRIORITY_SOURCE_KEYS.indexOf(normalizeSourceKey(leftKey));
+  const rightPriority = PRIORITY_SOURCE_KEYS.indexOf(normalizeSourceKey(rightKey));
+  if (leftPriority !== -1 || rightPriority !== -1) {
+    if (leftPriority === -1) return 1;
+    if (rightPriority === -1) return -1;
+    return leftPriority - rightPriority;
+  }
+  return leftSource.full.localeCompare(rightSource.full) || leftKey.localeCompare(rightKey);
+}
+
+// src/ui/InsertModals.ts
+var import_obsidian2 = require("obsidian");
+async function insertFromToolkit(app, editor) {
+  const typeModal = new TypeSelectionModal(app, async (selectedType) => {
+    if (!selectedType) return;
+    const items = await globalThis.__toolkit.getItems(selectedType);
+    if (!items || items.length === 0) {
+      new import_obsidian2.Notice(`No ${selectedType} found.`);
+      return;
+    }
+    const itemModal = new ItemSelectionModal(app, items, selectedType, (selectedItem) => {
+      if (selectedItem) {
+        editor.replaceSelection(selectedItem.body);
+        new import_obsidian2.Notice("Content inserted!");
       }
-    } catch {
-      console.warn("[Toolkit] Could not read hotkeys.json, will create.");
-    }
-    const commandId = "my-toolkit-plugin:insert-from-toolkit";
-    if (!hotkeys[commandId]) {
-      hotkeys[commandId] = [{ modifiers: ["Alt", "Shift"], key: "E" }];
-      fs2.writeFileSync(hotkeysPath, JSON.stringify(hotkeys, null, 2));
-      console.log("[Toolkit] Hotkey Option+Shift+E set for toolkit insertion.");
-    } else {
-      console.log("[Toolkit] Toolkit hotkey already set by user, skipping.");
-    }
+    });
+    itemModal.open();
+  });
+  typeModal.open();
+}
+var TypeSelectionModal = class extends import_obsidian2.FuzzySuggestModal {
+  constructor(app, onSelect) {
+    super(app);
+    this.onSelect = onSelect;
+    this.setPlaceholder("Choose what to insert...");
+  }
+  getItems() {
+    return [
+      { label: "Insert book", value: "books" },
+      { label: "Insert movie", value: "movies" },
+      { label: "Insert monster", value: "monsters" },
+      { label: "Insert spell", value: "spells" }
+    ];
+  }
+  getItemText(item) {
+    return item.label;
+  }
+  onChooseItem(item) {
+    this.onSelect(item.value);
+  }
+};
+var ItemSelectionModal = class extends import_obsidian2.FuzzySuggestModal {
+  constructor(app, items, typeName, onSelect) {
+    super(app);
+    this.items = items;
+    this.typeName = typeName;
+    this.onSelect = onSelect;
+    this.setPlaceholder(`Search ${typeName}...`);
+  }
+  getItems() {
+    return this.items;
+  }
+  getItemText(item) {
+    return item.label;
+  }
+  onChooseItem(item) {
+    this.onSelect(item);
   }
 };
 
 // src/utils/databaseCache.ts
 var fs3 = __toESM(require("fs"));
 var path6 = __toESM(require("path"));
-var import_obsidian = require("obsidian");
+var import_obsidian3 = require("obsidian");
 var SPELL_SOURCE_LIST = require_spell_source_list();
 var MONSTER_SOURCE_LIST = require_monster_source_list();
 var SPELL_SOURCE_SET = new Set(SPELL_SOURCE_LIST.map(normalizeSourceKey));
@@ -1145,7 +1330,7 @@ async function fetchJsonArrayFromGithub(sourceUrl, githubToken, description) {
   if (githubToken.trim()) {
     headers.Authorization = `Bearer ${githubToken.trim()}`;
   }
-  const response = await (0, import_obsidian.requestUrl)({
+  const response = await (0, import_obsidian3.requestUrl)({
     url: sourceUrl,
     method: "GET",
     headers
@@ -1197,9 +1382,8 @@ function normalizeSources(sources) {
   return sources.map(normalizeSourceKey).sort();
 }
 
-// src/main.ts
-var PRIORITY_SOURCE_KEYS = ["PHB", "XPHB", "DMG", "XDMG", "MM", "XMM"];
-var MyToolkitPlugin = class extends import_obsidian2.Plugin {
+// src/plugin/MyToolkitPlugin.ts
+var MyToolkitPlugin = class extends import_obsidian4.Plugin {
   constructor() {
     super(...arguments);
     this.settings = DEFAULT_SETTINGS;
@@ -1213,37 +1397,10 @@ var MyToolkitPlugin = class extends import_obsidian2.Plugin {
     this.pluginDir = path7.join(vaultPath, this.app.vault.configDir, "plugins", this.manifest.id);
     await this.ensureDatabaseCache();
     this.addSettingTab(new ToolkitSettingTab(this.app, this));
-    globalThis.__toolkit = {
-      getItems: async (dataType) => {
-        const formatter = registry[dataType];
-        if (!formatter) {
-          console.warn(`[Toolkit] Unknown data type: ${dataType}`);
-          return [];
-        }
-        await this.ensureDatabaseCache();
-        const items = await formatter.load(this.pluginDir);
-        return this.filterItemsBySource(items);
-      }
-    };
-    this.addCommand({
-      id: "insert-from-toolkit",
-      name: "Insert from toolkit",
-      editorCallback: async (editor, ctx) => {
-        await this.insertFromToolkit(editor);
-      }
-    });
-    this.addCommand({
-      id: "refresh-toolkit-database",
-      name: "Refresh Toolkit Database",
-      callback: async () => {
-        await this.refreshToolkitDatabase(true);
-      }
-    });
-    const deployer = new Deployer({
-      vaultPath
-    });
-    deployer.deployAll();
-    new import_obsidian2.Notice("\u2705 Toolkit Plugin loaded.");
+    this.attachGlobalBridge();
+    this.addCommands();
+    this.deployVaultAssets(vaultPath);
+    new import_obsidian4.Notice("Toolkit Plugin loaded.");
     console.log("[Toolkit] Ready. Bridge attached, assets deployed.");
   }
   onunload() {
@@ -1263,6 +1420,49 @@ var MyToolkitPlugin = class extends import_obsidian2.Plugin {
   async saveSettings() {
     await this.saveData(this.settings);
   }
+  scheduleSourceFilteredCacheRefresh() {
+    if (this.sourceRefreshTimer) {
+      clearTimeout(this.sourceRefreshTimer);
+    }
+    this.sourceRefreshTimer = setTimeout(async () => {
+      this.sourceRefreshTimer = null;
+      await this.refreshSourceFilteredCache();
+    }, 900);
+  }
+  attachGlobalBridge() {
+    globalThis.__toolkit = {
+      getItems: async (dataType) => {
+        const formatter = registry[dataType];
+        if (!formatter) {
+          console.warn(`[Toolkit] Unknown data type: ${dataType}`);
+          return [];
+        }
+        await this.ensureDatabaseCache();
+        const items = await formatter.load(this.pluginDir);
+        return this.filterItemsBySource(items);
+      }
+    };
+  }
+  addCommands() {
+    this.addCommand({
+      id: "insert-from-toolkit",
+      name: "Insert from toolkit",
+      editorCallback: async (editor) => {
+        await insertFromToolkit(this.app, editor);
+      }
+    });
+    this.addCommand({
+      id: "refresh-toolkit-database",
+      name: "Refresh Toolkit Database",
+      callback: async () => {
+        await this.refreshToolkitDatabase(true);
+      }
+    });
+  }
+  deployVaultAssets(vaultPath) {
+    const deployer = new Deployer({ vaultPath });
+    deployer.deployAll();
+  }
   async ensureDatabaseCache() {
     if (await hasDatabaseCache(this.pluginDir, this.settings.includedSources)) {
       return;
@@ -1273,22 +1473,13 @@ var MyToolkitPlugin = class extends import_obsidian2.Plugin {
     try {
       await refreshDatabaseCache(this.pluginDir, this.settings.githubToken, this.settings.includedSources);
       if (showSuccessNotice) {
-        new import_obsidian2.Notice("Toolkit database refreshed.");
+        new import_obsidian4.Notice("Toolkit database refreshed.");
       }
       console.log("[Toolkit] Database cache refreshed.");
     } catch (error) {
       console.error("[Toolkit] Failed to refresh database cache:", error);
-      new import_obsidian2.Notice("Toolkit database refresh failed. For a private repo, add a GitHub token in plugin settings.");
+      new import_obsidian4.Notice("Toolkit database refresh failed. For a private repo, add a GitHub token in plugin settings.");
     }
-  }
-  scheduleSourceFilteredCacheRefresh() {
-    if (this.sourceRefreshTimer) {
-      clearTimeout(this.sourceRefreshTimer);
-    }
-    this.sourceRefreshTimer = setTimeout(async () => {
-      this.sourceRefreshTimer = null;
-      await this.refreshSourceFilteredCache();
-    }, 900);
   }
   async refreshSourceFilteredCache() {
     try {
@@ -1300,135 +1491,14 @@ var MyToolkitPlugin = class extends import_obsidian2.Plugin {
       console.log("[Toolkit] Source-filtered database cache refreshed.");
     } catch (error) {
       console.error("[Toolkit] Failed to refresh source-filtered database cache:", error);
-      new import_obsidian2.Notice("Toolkit source cache refresh failed. Check the developer console.");
+      new import_obsidian4.Notice("Toolkit source cache refresh failed. Check the developer console.");
     }
   }
   filterItemsBySource(items) {
     const includedSources = new Set(this.settings.includedSources.map(normalizeSourceKey));
     return items.filter((item) => !item.source || includedSources.has(normalizeSourceKey(item.source)));
   }
-  // Direct insertion command - no templates required
-  async insertFromToolkit(editor) {
-    const typeModal = new TypeSelectionModal(this.app, async (selectedType) => {
-      if (!selectedType) return;
-      const items = await globalThis.__toolkit.getItems(selectedType);
-      if (!items || items.length === 0) {
-        new import_obsidian2.Notice(`No ${selectedType} found.`);
-        return;
-      }
-      const itemModal = new ItemSelectionModal(this.app, items, selectedType, (selectedItem) => {
-        if (selectedItem) {
-          editor.replaceSelection(selectedItem.body);
-          new import_obsidian2.Notice("Content inserted!");
-        }
-      });
-      itemModal.open();
-    });
-    typeModal.open();
-  }
 };
-var ToolkitSettingTab = class extends import_obsidian2.PluginSettingTab {
-  constructor(app, plugin) {
-    super(app, plugin);
-    this.plugin = plugin;
-  }
-  display() {
-    const { containerEl } = this;
-    containerEl.empty();
-    new import_obsidian2.Setting(containerEl).setName("GitHub token").setDesc("Fine-grained token with read-only Contents access to the private data repository.").addText((text) => {
-      text.setPlaceholder("github_pat_...").setValue(this.plugin.settings.githubToken).onChange(async (value) => {
-        this.plugin.settings.githubToken = value.trim();
-        await this.plugin.saveSettings();
-      });
-      text.inputEl.type = "password";
-    });
-    new import_obsidian2.Setting(containerEl).setName("D&D sources").setDesc("Choose which sources appear in D&D search results.").addButton((button) => {
-      button.setButtonText("Defaults").onClick(async () => {
-        this.plugin.settings.includedSources = getDefaultIncludedSources();
-        await this.plugin.saveSettings();
-        this.plugin.scheduleSourceFilteredCacheRefresh();
-        this.display();
-      });
-    }).addButton((button) => {
-      button.setButtonText("All").onClick(async () => {
-        this.plugin.settings.includedSources = Object.keys(SOURCE_LIST).map(normalizeSourceKey);
-        await this.plugin.saveSettings();
-        this.plugin.scheduleSourceFilteredCacheRefresh();
-        this.display();
-      });
-    }).addButton((button) => {
-      button.setButtonText("None").onClick(async () => {
-        this.plugin.settings.includedSources = [];
-        await this.plugin.saveSettings();
-        this.plugin.scheduleSourceFilteredCacheRefresh();
-        this.display();
-      });
-    });
-    const includedSources = new Set(this.plugin.settings.includedSources.map(normalizeSourceKey));
-    Object.entries(SOURCE_LIST).sort(compareSourcesForSettings).forEach(([sourceKey, source]) => {
-      const normalizedSourceKey = normalizeSourceKey(sourceKey);
-      new import_obsidian2.Setting(containerEl).setName(`${source.full} (${source.short})`).addToggle((toggle) => {
-        toggle.setValue(includedSources.has(normalizedSourceKey)).onChange(async (value) => {
-          const nextSources = new Set(this.plugin.settings.includedSources.map(normalizeSourceKey));
-          if (value) {
-            nextSources.add(normalizedSourceKey);
-          } else {
-            nextSources.delete(normalizedSourceKey);
-          }
-          this.plugin.settings.includedSources = Array.from(nextSources).sort();
-          await this.plugin.saveSettings();
-          this.plugin.scheduleSourceFilteredCacheRefresh();
-        });
-      });
-    });
-  }
-};
-function compareSourcesForSettings([leftKey, leftSource], [rightKey, rightSource]) {
-  const leftPriority = PRIORITY_SOURCE_KEYS.indexOf(normalizeSourceKey(leftKey));
-  const rightPriority = PRIORITY_SOURCE_KEYS.indexOf(normalizeSourceKey(rightKey));
-  if (leftPriority !== -1 || rightPriority !== -1) {
-    if (leftPriority === -1) return 1;
-    if (rightPriority === -1) return -1;
-    return leftPriority - rightPriority;
-  }
-  return leftSource.full.localeCompare(rightSource.full) || leftKey.localeCompare(rightKey);
-}
-var TypeSelectionModal = class extends import_obsidian2.FuzzySuggestModal {
-  constructor(app, onSelect) {
-    super(app);
-    this.onSelect = onSelect;
-    this.setPlaceholder("Choose what to insert...");
-  }
-  getItems() {
-    return [
-      { label: "Insert book", value: "books" },
-      { label: "Insert movie", value: "movies" },
-      { label: "Insert monster", value: "monsters" },
-      { label: "Insert spell", value: "spells" }
-    ];
-  }
-  getItemText(item) {
-    return item.label;
-  }
-  onChooseItem(item, evt) {
-    this.onSelect(item.value);
-  }
-};
-var ItemSelectionModal = class extends import_obsidian2.FuzzySuggestModal {
-  constructor(app, items, typeName, onSelect) {
-    super(app);
-    this.items = items;
-    this.typeName = typeName;
-    this.onSelect = onSelect;
-    this.setPlaceholder(`Search ${typeName}...`);
-  }
-  getItems() {
-    return this.items;
-  }
-  getItemText(item) {
-    return item.label;
-  }
-  onChooseItem(item, evt) {
-    this.onSelect(item);
-  }
-};
+
+// src/main.ts
+var main_default = MyToolkitPlugin;
