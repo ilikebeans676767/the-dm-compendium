@@ -52,13 +52,21 @@ damage: ${yamlScalar(item.damage)}
 range: ${yamlScalar(item.range)}
 properties:${formatYamlListValue(item.properties)}
 mastery:${formatYamlListValue(item.mastery)}
-entries:${formatYamlListValue(item.entries)}
+entries:${formatYamlEntryListValue(item.entries)}
 \`\`\``,
     };
   }
 }
 
 function formatYamlListValue(items: string[] | undefined): string {
+  return formatYamlListItems(items, "\n");
+}
+
+function formatYamlEntryListValue(items: string[] | undefined): string {
+  return formatYamlListItems(items, "\n\n");
+}
+
+function formatYamlListItems(items: string[] | undefined, separator: string): string {
   if (!items?.length) {
     return " []";
   }
@@ -68,7 +76,7 @@ function formatYamlListValue(items: string[] | undefined): string {
       const lines = item.split(/\r?\n/);
       return [`  - |-`, ...lines.map((line) => `    ${line}`)].join("\n");
     })
-    .join("\n")}`;
+    .join(separator)}`;
 }
 
 function yamlScalar(value: unknown): string {

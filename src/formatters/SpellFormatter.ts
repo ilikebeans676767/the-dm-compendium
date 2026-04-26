@@ -17,7 +17,11 @@ interface SpellEntry {
   higherLevel?: string[];
 }
 
-function formatYamlListValue(items: string[] | undefined): string {
+function formatYamlEntryListValue(items: string[] | undefined): string {
+  return formatYamlListItems(items, "\n\n");
+}
+
+function formatYamlListItems(items: string[] | undefined, separator: string): string {
   if (!items?.length) {
     return " []";
   }
@@ -27,7 +31,7 @@ function formatYamlListValue(items: string[] | undefined): string {
       const lines = item.split(/\r?\n/);
       return [`  - |-`, ...lines.map((line) => `    ${line}`)].join("\n");
     })
-    .join("\n")}`;
+    .join(separator)}`;
 }
 
 export class SpellFormatter extends BaseFormatter {
@@ -54,8 +58,8 @@ castingTime: ${JSON.stringify(spell.castingTime)}
 range: ${JSON.stringify(spell.range)}
 components: ${JSON.stringify(spell.components)}
 duration: ${JSON.stringify(spell.duration)}
-entries:${formatYamlListValue(spell.entries)}
-higherLevel:${formatYamlListValue(spell.higherLevel)}
+entries:${formatYamlEntryListValue(spell.entries)}
+higherLevel:${formatYamlEntryListValue(spell.higherLevel)}
 \`\`\``,
     };
   }

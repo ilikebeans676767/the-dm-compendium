@@ -1,7 +1,7 @@
 {
   "id": "my-toolkit-plugin",
   "name": "My Toolkit Plugin",
-  "version": "0.1.25",
+  "version": "0.1.26",
   "minAppVersion": "1.4.0",
   "description": "POC toolkit plugin with data formatters and Templater integration.",
   "author": "You",

@@ -969,12 +969,18 @@ damage: ${yamlScalar(item.damage)}
 range: ${yamlScalar(item.range)}
 properties:${formatYamlListValue(item.properties)}
 mastery:${formatYamlListValue(item.mastery)}
-entries:${formatYamlListValue(item.entries)}
+entries:${formatYamlEntryListValue(item.entries)}
 \`\`\``
     };
   }
 };
 function formatYamlListValue(items) {
+  return formatYamlListItems(items, "\n");
+}
+function formatYamlEntryListValue(items) {
+  return formatYamlListItems(items, "\n\n");
+}
+function formatYamlListItems(items, separator) {
   if (!items?.length) {
     return " []";
   }
@@ -982,7 +988,7 @@ function formatYamlListValue(items) {
 ${items.map((item) => {
     const lines = item.split(/\r?\n/);
     return [`  - |-`, ...lines.map((line) => `    ${line}`)].join("\n");
-  }).join("\n")}`;
+  }).join(separator)}`;
 }
 function yamlScalar(value) {
   if (value === void 0 || value === null || value === "") {
@@ -1137,7 +1143,10 @@ function yamlScalar2(value) {
 
 // src/formatters/SpellFormatter.ts
 var path4 = __toESM(require("path"));
-function formatYamlListValue2(items) {
+function formatYamlEntryListValue2(items) {
+  return formatYamlListItems2(items, "\n\n");
+}
+function formatYamlListItems2(items, separator) {
   if (!items?.length) {
     return " []";
   }
@@ -1145,7 +1154,7 @@ function formatYamlListValue2(items) {
 ${items.map((item) => {
     const lines = item.split(/\r?\n/);
     return [`  - |-`, ...lines.map((line) => `    ${line}`)].join("\n");
-  }).join("\n")}`;
+  }).join(separator)}`;
 }
 var SpellFormatter = class extends BaseFormatter {
   async load(dataDir) {
@@ -1170,8 +1179,8 @@ castingTime: ${JSON.stringify(spell.castingTime)}
 range: ${JSON.stringify(spell.range)}
 components: ${JSON.stringify(spell.components)}
 duration: ${JSON.stringify(spell.duration)}
-entries:${formatYamlListValue2(spell.entries)}
-higherLevel:${formatYamlListValue2(spell.higherLevel)}
+entries:${formatYamlEntryListValue2(spell.entries)}
+higherLevel:${formatYamlEntryListValue2(spell.higherLevel)}
 \`\`\``
     };
   }
