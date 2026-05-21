@@ -6,12 +6,12 @@ export interface SourceInfo {
 
 export const SOURCE_LIST = require("./source-list.json") as Record<string, SourceInfo>;
 
-export interface ToolkitSettings {
+export interface DmCompendiumSettings {
   githubToken: string;
   includedSources: string[];
 }
 
-export const DEFAULT_SETTINGS: ToolkitSettings = {
+export const DEFAULT_SETTINGS: DmCompendiumSettings = {
   githubToken: "",
   includedSources: [],
 };

@@ -15,7 +15,7 @@ export async function loadJsonData<T>(jsonPath: string, description: string): Pr
     cache.set(jsonPath, { mtimeMs: stat.mtimeMs, data });
     return data;
   } catch (error) {
-    console.error(`[Toolkit] Failed to load ${description} data from ${jsonPath}:`, error);
+    console.error(`[DM Compendium] Failed to load ${description} data from ${jsonPath}:`, error);
     return [];
   }
 }

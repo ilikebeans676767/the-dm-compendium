@@ -4,23 +4,23 @@ import {
   normalizeSourceKey,
   SourceInfo,
   SOURCE_LIST,
-  ToolkitSettings,
+  DmCompendiumSettings,
 } from "../settings";
 
 const PRIORITY_SOURCE_KEYS = ["PHB", "XPHB", "DMG", "XDMG", "MM", "XMM"];
 
-export interface ToolkitSettingsPlugin {
-  settings: ToolkitSettings;
+export interface DmCompendiumSettingsPlugin {
+  settings: DmCompendiumSettings;
   saveSettings(): Promise<void>;
   scheduleSourceFilteredCacheRefresh(): void;
 }
 
-export class ToolkitSettingTab extends PluginSettingTab {
-  plugin: Plugin & ToolkitSettingsPlugin;
+export class DmCompendiumSettingTab extends PluginSettingTab {
+  plugin: Plugin & DmCompendiumSettingsPlugin;
   private sourceSearchQuery = "";
   private sourceSearchTimer: ReturnType<typeof setTimeout> | null = null;
 
-  constructor(app: App, plugin: Plugin & ToolkitSettingsPlugin) {
+  constructor(app: App, plugin: Plugin & DmCompendiumSettingsPlugin) {
     super(app, plugin);
     this.plugin = plugin;
   }

@@ -44,10 +44,10 @@ async function renderSpellCard(
 
   el.empty();
 
-  const card = createElement("article", "toolkit-spell-card");
+  const card = createElement("article", "compendium-spell-card");
   el.appendChild(card);
 
-  const header = createElement("header", "toolkit-spell-card__header");
+  const header = createElement("header", "compendium-spell-card__header");
   card.appendChild(header);
 
   header.appendChild(createElement("h2", "", spell.name ?? "Unknown Spell"));
@@ -58,20 +58,20 @@ async function renderSpellCard(
     header.appendChild(createElement("span", "", sourceText));
   }
 
-  const meta = createElement("section", "toolkit-spell-card__meta");
+  const meta = createElement("section", "compendium-spell-card__meta");
   card.appendChild(meta);
   appendMeta(meta, "Casting Time", spell.castingTime);
   appendMeta(meta, "Range", spell.range);
   appendMeta(meta, "Components", spell.components);
   appendMeta(meta, "Duration", spell.duration);
 
-  await appendMarkdownSection(plugin, card, ctx, "toolkit-spell-card__body", spell.entries);
+  await appendMarkdownSection(plugin, card, ctx, "compendium-spell-card__body", spell.entries);
 
   if (spell.higherLevel?.length) {
-    const higher = createElement("section", "toolkit-spell-card__higher");
+    const higher = createElement("section", "compendium-spell-card__higher");
     card.appendChild(higher);
     higher.appendChild(createElement("h3", "", "At Higher Levels"));
-    await appendMarkdownSection(plugin, higher, ctx, "toolkit-spell-card__higher-body", spell.higherLevel);
+    await appendMarkdownSection(plugin, higher, ctx, "compendium-spell-card__higher-body", spell.higherLevel);
   }
 }
 
@@ -113,7 +113,7 @@ function getSourceText(spell: SpellCardData): string {
 }
 
 function appendMeta(parent: HTMLElement, label: string, value: string | undefined) {
-  const item = createElement("div", "toolkit-spell-card__meta-item");
+  const item = createElement("div", "compendium-spell-card__meta-item");
   item.appendChild(createElement("strong", "", label));
   item.appendChild(createElement("span", "", value || "-"));
   parent.appendChild(item);
@@ -134,7 +134,7 @@ async function appendMarkdownSection(
   parent.appendChild(section);
 
   for (const entry of entries) {
-    const entryEl = createElement("div", "toolkit-spell-card__entry");
+    const entryEl = createElement("div", "compendium-spell-card__entry");
     section.appendChild(entryEl);
     await MarkdownRenderer.render(plugin.app, entry, entryEl, ctx.sourcePath, plugin);
   }
@@ -143,7 +143,7 @@ async function appendMarkdownSection(
 function renderError(el: HTMLElement, error: unknown) {
   el.empty();
   const message = error instanceof Error ? error.message : "Unable to render spell card.";
-  const errorEl = createElement("div", "toolkit-spell-card-error", `Invalid spellcard YAML: ${message}`);
+  const errorEl = createElement("div", "compendium-spell-card-error", `Invalid spellcard YAML: ${message}`);
   el.appendChild(errorEl);
 }
 

@@ -1,3 +1,3 @@
-import { MyToolkitPlugin } from "./plugin/MyToolkitPlugin";
+import { DmCompendiumPlugin } from "./plugin/DmCompendiumPlugin";
 
-export default MyToolkitPlugin;
+export default DmCompendiumPlugin;

@@ -858,7 +858,7 @@ __export(main_exports, {
 });
 module.exports = __toCommonJS(main_exports);
 
-// src/plugin/MyToolkitPlugin.ts
+// src/plugin/DmCompendiumPlugin.ts
 var path6 = __toESM(require("path"));
 var import_obsidian6 = require("obsidian");
 
@@ -870,27 +870,59 @@ var Deployer = class {
     this.opts = opts;
   }
   deployAll() {
-    this.setToolkitHotkey();
+    this.setCompendiumHotkeys();
   }
-  // Write Option+Shift+E for toolkit insertion into hotkeys.json
+  // Write default compendium shortcuts into hotkeys.json.
   // Only sets if the user hasn't already customised this command.
-  setToolkitHotkey() {
-    const hotkeysPath = path.join(this.opts.vaultPath, ".obsidian", "hotkeys.json");
+  setCompendiumHotkeys() {
+    const hotkeysPath = path.join(
+      this.opts.vaultPath,
+      ".obsidian",
+      "hotkeys.json"
+    );
     let hotkeys = {};
     try {
       if (fs.existsSync(hotkeysPath)) {
         hotkeys = JSON.parse(fs.readFileSync(hotkeysPath, "utf-8"));
       }
     } catch {
-      console.warn("[Toolkit] Could not read hotkeys.json, will create.");
+      console.warn("[DM Compendium] Could not read hotkeys.json, will create.");
     }
-    const commandId = "my-toolkit-plugin:insert-from-toolkit";
+    const oldCommandId = "the-dm-compendium:insert-from-toolkit";
+    const commandId = "the-dm-compendium:insert-from-compendium";
+    let changed = false;
+    if (hotkeys[oldCommandId]) {
+      if (!hotkeys[commandId]) {
+        hotkeys[commandId] = hotkeys[oldCommandId];
+      }
+      delete hotkeys[oldCommandId];
+      changed = true;
+    }
     if (!hotkeys[commandId]) {
-      hotkeys[commandId] = [{ modifiers: ["Alt", "Shift"], key: "E" }];
-      fs.writeFileSync(hotkeysPath, JSON.stringify(hotkeys, null, 2));
-      console.log("[Toolkit] Hotkey Option+Shift+E set for toolkit insertion.");
+      hotkeys[commandId] = [{ modifiers: ["Ctrl", "Shift"], key: "C" }];
+      changed = true;
+      console.log(
+        "[DM Compendium] Hotkey Ctrl+Shift+C set for compendium insertion."
+      );
     } else {
-      console.log("[Toolkit] Toolkit hotkey already set by user, skipping.");
+      console.log(
+        "[DM Compendium] Compendium hotkey already set by user, skipping."
+      );
+    }
+    const refreshCommandId = "the-dm-compendium:refresh-compendium-database";
+    if (!hotkeys[refreshCommandId]) {
+      hotkeys[refreshCommandId] = [{ modifiers: ["Ctrl", "Shift"], key: "R" }];
+      changed = true;
+      console.log(
+        "[DM Compendium] Hotkey Ctrl+Shift+R set for database refresh."
+      );
+    } else {
+      console.log(
+        "[DM Compendium] Database refresh hotkey already set by user, skipping."
+      );
+    }
+    if (changed) {
+      fs.writeFileSync(hotkeysPath, JSON.stringify(hotkeys, null, 2));
     }
   }
 };
@@ -917,7 +949,7 @@ async function loadJsonData(jsonPath, description) {
     cache.set(jsonPath, { mtimeMs: stat.mtimeMs, data });
     return data;
   } catch (error) {
-    console.error(`[Toolkit] Failed to load ${description} data from ${jsonPath}:`, error);
+    console.error(`[DM Compendium] Failed to load ${description} data from ${jsonPath}:`, error);
     return [];
   }
 }
@@ -1194,10 +1226,10 @@ var registry = {
   spells: new SpellFormatter()
 };
 
-// src/ui/ToolkitSettingTab.ts
+// src/ui/DmCompendiumSettingTab.ts
 var import_obsidian = require("obsidian");
 var PRIORITY_SOURCE_KEYS = ["PHB", "XPHB", "DMG", "XDMG", "MM", "XMM"];
-var ToolkitSettingTab = class extends import_obsidian.PluginSettingTab {
+var DmCompendiumSettingTab = class extends import_obsidian.PluginSettingTab {
   constructor(app, plugin) {
     super(app, plugin);
     this.sourceSearchQuery = "";
@@ -1319,10 +1351,10 @@ function compareSourcesForSettings([leftKey, leftSource], [rightKey, rightSource
 
 // src/ui/InsertModals.ts
 var import_obsidian2 = require("obsidian");
-async function insertFromToolkit(app, editor) {
+async function insertFromCompendium(app, editor) {
   const typeModal = new TypeSelectionModal(app, async (selectedType) => {
     if (!selectedType) return;
-    const items = await globalThis.__toolkit.getItems(selectedType);
+    const items = await globalThis.__dmCompendium.getItems(selectedType);
     if (!items || items.length === 0) {
       new import_obsidian2.Notice(`No ${selectedType} found.`);
       return;
@@ -1392,9 +1424,9 @@ async function renderItemCard(plugin, source, el, ctx) {
     return;
   }
   el.empty();
-  const card = createElement("article", "toolkit-item-card");
+  const card = createElement("article", "compendium-item-card");
   el.appendChild(card);
-  const header = createElement("header", "toolkit-item-card__header");
+  const header = createElement("header", "compendium-item-card__header");
   card.appendChild(header);
   header.appendChild(createElement("h2", "", item.name ?? "Unknown Item"));
   header.appendChild(createElement("p", "", getItemSubtitle(item)));
@@ -1404,7 +1436,7 @@ async function renderItemCard(plugin, source, el, ctx) {
   }
   const facts = getItemFacts(item);
   if (facts.length) {
-    const meta = createElement("section", "toolkit-item-card__meta");
+    const meta = createElement("section", "compendium-item-card__meta");
     card.appendChild(meta);
     for (const [label, value] of facts) {
       appendMeta(meta, label, value);
@@ -1412,7 +1444,7 @@ async function renderItemCard(plugin, source, el, ctx) {
   }
   appendTagList(card, "Properties", item.properties);
   appendTagList(card, "Mastery", item.mastery);
-  await appendMarkdownSection(plugin, card, ctx, "toolkit-item-card__body", item.entries);
+  await appendMarkdownSection(plugin, card, ctx, "compendium-item-card__body", item.entries);
 }
 function normalizeItemCardData(raw) {
   if (!raw || typeof raw !== "object") {
@@ -1453,7 +1485,7 @@ function getItemFacts(item) {
   return facts.filter(([, value]) => Boolean(value));
 }
 function appendMeta(parent, label, value) {
-  const item = createElement("div", "toolkit-item-card__meta-item");
+  const item = createElement("div", "compendium-item-card__meta-item");
   item.appendChild(createElement("strong", "", label));
   item.appendChild(createElement("span", "", value || "-"));
   parent.appendChild(item);
@@ -1462,9 +1494,9 @@ function appendTagList(parent, label, values) {
   if (!values?.length) {
     return;
   }
-  const section = createElement("section", "toolkit-item-card__tags");
+  const section = createElement("section", "compendium-item-card__tags");
   section.appendChild(createElement("strong", "", label));
-  const list = createElement("div", "toolkit-item-card__tag-list");
+  const list = createElement("div", "compendium-item-card__tag-list");
   section.appendChild(list);
   for (const value of values) {
     list.appendChild(createElement("span", "", value));
@@ -1478,7 +1510,7 @@ async function appendMarkdownSection(plugin, parent, ctx, className, entries) {
   const section = createElement("section", className);
   parent.appendChild(section);
   for (const entry of entries) {
-    const entryEl = createElement("div", "toolkit-item-card__entry");
+    const entryEl = createElement("div", "compendium-item-card__entry");
     section.appendChild(entryEl);
     await import_obsidian3.MarkdownRenderer.render(plugin.app, entry, entryEl, ctx.sourcePath, plugin);
   }
@@ -1486,7 +1518,7 @@ async function appendMarkdownSection(plugin, parent, ctx, className, entries) {
 function renderError(el, error) {
   el.empty();
   const message = error instanceof Error ? error.message : "Unable to render item card.";
-  const errorEl = createElement("div", "toolkit-item-card-error", `Invalid itemcard YAML: ${message}`);
+  const errorEl = createElement("div", "compendium-item-card-error", `Invalid itemcard YAML: ${message}`);
   el.appendChild(errorEl);
 }
 function createElement(tagName, className = "", text = "") {
@@ -1522,9 +1554,9 @@ async function renderSpellCard(plugin, source, el, ctx) {
     return;
   }
   el.empty();
-  const card = createElement2("article", "toolkit-spell-card");
+  const card = createElement2("article", "compendium-spell-card");
   el.appendChild(card);
-  const header = createElement2("header", "toolkit-spell-card__header");
+  const header = createElement2("header", "compendium-spell-card__header");
   card.appendChild(header);
   header.appendChild(createElement2("h2", "", spell.name ?? "Unknown Spell"));
   header.appendChild(createElement2("p", "", getSpellSubtitle(spell)));
@@ -1532,18 +1564,18 @@ async function renderSpellCard(plugin, source, el, ctx) {
   if (sourceText) {
     header.appendChild(createElement2("span", "", sourceText));
   }
-  const meta = createElement2("section", "toolkit-spell-card__meta");
+  const meta = createElement2("section", "compendium-spell-card__meta");
   card.appendChild(meta);
   appendMeta2(meta, "Casting Time", spell.castingTime);
   appendMeta2(meta, "Range", spell.range);
   appendMeta2(meta, "Components", spell.components);
   appendMeta2(meta, "Duration", spell.duration);
-  await appendMarkdownSection2(plugin, card, ctx, "toolkit-spell-card__body", spell.entries);
+  await appendMarkdownSection2(plugin, card, ctx, "compendium-spell-card__body", spell.entries);
   if (spell.higherLevel?.length) {
-    const higher = createElement2("section", "toolkit-spell-card__higher");
+    const higher = createElement2("section", "compendium-spell-card__higher");
     card.appendChild(higher);
     higher.appendChild(createElement2("h3", "", "At Higher Levels"));
-    await appendMarkdownSection2(plugin, higher, ctx, "toolkit-spell-card__higher-body", spell.higherLevel);
+    await appendMarkdownSection2(plugin, higher, ctx, "compendium-spell-card__higher-body", spell.higherLevel);
   }
 }
 function normalizeSpellCardData(raw) {
@@ -1575,7 +1607,7 @@ function getSourceText2(spell) {
   return `${spell.source ?? ""}${spell.page ? `, p. ${spell.page}` : ""}`;
 }
 function appendMeta2(parent, label, value) {
-  const item = createElement2("div", "toolkit-spell-card__meta-item");
+  const item = createElement2("div", "compendium-spell-card__meta-item");
   item.appendChild(createElement2("strong", "", label));
   item.appendChild(createElement2("span", "", value || "-"));
   parent.appendChild(item);
@@ -1587,7 +1619,7 @@ async function appendMarkdownSection2(plugin, parent, ctx, className, entries) {
   const section = createElement2("section", className);
   parent.appendChild(section);
   for (const entry of entries) {
-    const entryEl = createElement2("div", "toolkit-spell-card__entry");
+    const entryEl = createElement2("div", "compendium-spell-card__entry");
     section.appendChild(entryEl);
     await import_obsidian4.MarkdownRenderer.render(plugin.app, entry, entryEl, ctx.sourcePath, plugin);
   }
@@ -1595,7 +1627,7 @@ async function appendMarkdownSection2(plugin, parent, ctx, className, entries) {
 function renderError2(el, error) {
   el.empty();
   const message = error instanceof Error ? error.message : "Unable to render spell card.";
-  const errorEl = createElement2("div", "toolkit-spell-card-error", `Invalid spellcard YAML: ${message}`);
+  const errorEl = createElement2("div", "compendium-spell-card-error", `Invalid spellcard YAML: ${message}`);
   el.appendChild(errorEl);
 }
 function createElement2(tagName, className = "", text = "") {
@@ -1646,36 +1678,46 @@ function getCacheDir(pluginDir) {
 async function hasDatabaseCache(pluginDir, includedSources) {
   const cacheDir = getCacheDir(pluginDir);
   const results = await Promise.all(
-    SOURCE_FILTERED_DATABASE_FILES.map((file) => hasFile(path5.join(cacheDir, file.name)))
+    SOURCE_FILTERED_DATABASE_FILES.map(
+      (file) => hasFile(path5.join(cacheDir, file.name))
+    )
   );
   return results.every(Boolean) && await hasMatchingCacheMetadata(cacheDir, includedSources);
 }
 async function refreshDatabaseCache(pluginDir, githubToken, includedSources) {
   const cacheDir = getCacheDir(pluginDir);
   await fs3.promises.mkdir(cacheDir, { recursive: true });
-  await refreshSourceFilteredDatabaseCache(pluginDir, githubToken, includedSources);
+  await refreshSourceFilteredDatabaseCache(
+    pluginDir,
+    githubToken,
+    includedSources
+  );
 }
 async function refreshSourceFilteredDatabaseCache(pluginDir, githubToken, includedSources) {
   const cacheDir = getCacheDir(pluginDir);
   await fs3.promises.mkdir(cacheDir, { recursive: true });
   await Promise.all(
-    SOURCE_FILTERED_DATABASE_FILES.map((file) => writeSourceFilteredJsonCacheFile(
-      cacheDir,
-      file,
-      githubToken,
-      includedSources
-    ))
+    SOURCE_FILTERED_DATABASE_FILES.map(
+      (file) => writeSourceFilteredJsonCacheFile(
+        cacheDir,
+        file,
+        githubToken,
+        includedSources
+      )
+    )
   );
   await writeCacheMetadata(cacheDir, includedSources);
 }
 async function writeSourceFilteredJsonCacheFile(cacheDir, file, githubToken, includedSources) {
   const selectedSources = getSelectedSources(includedSources, file.sourceSet);
   const sourceGroups = await Promise.all(
-    selectedSources.map((sourceKey) => fetchJsonArrayFromGithub(
-      file.getSourceUrl(sourceKey),
-      githubToken,
-      `${sourceKey} ${file.description}`
-    ))
+    selectedSources.map(
+      (sourceKey) => fetchJsonArrayFromGithub(
+        file.getSourceUrl(sourceKey),
+        githubToken,
+        `${sourceKey} ${file.description}`
+      )
+    )
   );
   const data = sourceGroups.flat().sort((left, right) => {
     const byName = String(left.name).localeCompare(String(right.name));
@@ -1710,13 +1752,13 @@ function getSelectedSources(includedSources, sourceSet) {
   return includedSources.map(normalizeSourceKey).filter((sourceKey) => sourceSet.has(sourceKey)).sort();
 }
 function getSpellSourceUrl(sourceKey) {
-  return `https://api.github.com/repos/guykahalani/my-toolkit-plugin/contents/data/spells/${sourceKey.toLowerCase()}.json?ref=main`;
+  return `https://api.github.com/repos/guykahalani/the-dm-compendium/contents/data/spells/${sourceKey.toLowerCase()}.json?ref=main`;
 }
 function getBestiarySourceUrl(sourceKey) {
-  return `https://api.github.com/repos/guykahalani/my-toolkit-plugin/contents/data/bestiary/${sourceKey.toLowerCase()}.json?ref=main`;
+  return `https://api.github.com/repos/guykahalani/the-dm-compendium/contents/data/bestiary/${sourceKey.toLowerCase()}.json?ref=main`;
 }
 function getItemSourceUrl(sourceKey) {
-  return `https://api.github.com/repos/guykahalani/my-toolkit-plugin/contents/data/items/${sourceKey.toLowerCase()}.json?ref=main`;
+  return `https://api.github.com/repos/guykahalani/the-dm-compendium/contents/data/items/${sourceKey.toLowerCase()}.json?ref=main`;
 }
 async function hasFile(filePath) {
   try {
@@ -1729,7 +1771,10 @@ async function hasFile(filePath) {
 async function hasMatchingCacheMetadata(cacheDir, includedSources) {
   try {
     const metadata = JSON.parse(
-      await fs3.promises.readFile(path5.join(cacheDir, CACHE_METADATA_FILE), "utf-8")
+      await fs3.promises.readFile(
+        path5.join(cacheDir, CACHE_METADATA_FILE),
+        "utf-8"
+      )
     );
     return sourcesMatch(metadata.includedSources ?? [], includedSources);
   } catch {
@@ -1739,7 +1784,11 @@ async function hasMatchingCacheMetadata(cacheDir, includedSources) {
 async function writeCacheMetadata(cacheDir, includedSources) {
   await fs3.promises.writeFile(
     path5.join(cacheDir, CACHE_METADATA_FILE),
-    JSON.stringify({ includedSources: normalizeSources(includedSources) }, null, 2),
+    JSON.stringify(
+      { includedSources: normalizeSources(includedSources) },
+      null,
+      2
+    ),
     "utf-8"
   );
 }
@@ -1750,8 +1799,8 @@ function normalizeSources(sources) {
   return sources.map(normalizeSourceKey).sort();
 }
 
-// src/plugin/MyToolkitPlugin.ts
-var MyToolkitPlugin = class extends import_obsidian6.Plugin {
+// src/plugin/DmCompendiumPlugin.ts
+var DmCompendiumPlugin = class extends import_obsidian6.Plugin {
   constructor() {
     super(...arguments);
     this.settings = DEFAULT_SETTINGS;
@@ -1759,26 +1808,26 @@ var MyToolkitPlugin = class extends import_obsidian6.Plugin {
     this.sourceRefreshTimer = null;
   }
   async onload() {
-    console.log("[Toolkit] Loading...");
+    console.log("[DM Compendium] Loading...");
     await this.loadSettings();
     const vaultPath = this.app.vault.adapter.getBasePath();
     this.pluginDir = path6.join(vaultPath, this.app.vault.configDir, "plugins", this.manifest.id);
     await this.ensureDatabaseCache();
-    this.addSettingTab(new ToolkitSettingTab(this.app, this));
+    this.addSettingTab(new DmCompendiumSettingTab(this.app, this));
     this.attachGlobalBridge();
     registerItemCardProcessor(this);
     registerSpellCardProcessor(this);
     this.addCommands();
     this.deployVaultAssets(vaultPath);
-    new import_obsidian6.Notice("Toolkit Plugin loaded.");
-    console.log("[Toolkit] Ready. Bridge attached, assets deployed.");
+    new import_obsidian6.Notice("The DM Compendium loaded.");
+    console.log("[DM Compendium] Ready. Bridge attached, assets deployed.");
   }
   onunload() {
     if (this.sourceRefreshTimer) {
       clearTimeout(this.sourceRefreshTimer);
     }
-    delete globalThis.__toolkit;
-    console.log("[Toolkit] Unloaded. Bridge removed.");
+    delete globalThis.__dmCompendium;
+    console.log("[DM Compendium] Unloaded. Bridge removed.");
   }
   async loadSettings() {
     const loadedSettings = await this.loadData();
@@ -1800,11 +1849,11 @@ var MyToolkitPlugin = class extends import_obsidian6.Plugin {
     }, 900);
   }
   attachGlobalBridge() {
-    globalThis.__toolkit = {
+    globalThis.__dmCompendium = {
       getItems: async (dataType) => {
         const formatter = registry[dataType];
         if (!formatter) {
-          console.warn(`[Toolkit] Unknown data type: ${dataType}`);
+          console.warn(`[DM Compendium] Unknown data type: ${dataType}`);
           return [];
         }
         await this.ensureDatabaseCache();
@@ -1815,17 +1864,17 @@ var MyToolkitPlugin = class extends import_obsidian6.Plugin {
   }
   addCommands() {
     this.addCommand({
-      id: "insert-from-toolkit",
-      name: "Insert from toolkit",
+      id: "insert-from-compendium",
+      name: "Insert from compendium",
       editorCallback: async (editor) => {
-        await insertFromToolkit(this.app, editor);
+        await insertFromCompendium(this.app, editor);
       }
     });
     this.addCommand({
-      id: "refresh-toolkit-database",
-      name: "Refresh Toolkit Database",
+      id: "refresh-compendium-database",
+      name: "Refresh Compendium Database",
       callback: async () => {
-        await this.refreshToolkitDatabase(true);
+        await this.refreshCompendiumDatabase(true);
       }
     });
   }
@@ -1837,18 +1886,18 @@ var MyToolkitPlugin = class extends import_obsidian6.Plugin {
     if (await hasDatabaseCache(this.pluginDir, this.settings.includedSources)) {
       return;
     }
-    await this.refreshToolkitDatabase(false);
+    await this.refreshCompendiumDatabase(false);
   }
-  async refreshToolkitDatabase(showSuccessNotice) {
+  async refreshCompendiumDatabase(showSuccessNotice) {
     try {
       await refreshDatabaseCache(this.pluginDir, this.settings.githubToken, this.settings.includedSources);
       if (showSuccessNotice) {
-        new import_obsidian6.Notice("Toolkit database refreshed.");
+        new import_obsidian6.Notice("Compendium database refreshed.");
       }
-      console.log("[Toolkit] Database cache refreshed.");
+      console.log("[DM Compendium] Database cache refreshed.");
     } catch (error) {
-      console.error("[Toolkit] Failed to refresh database cache:", error);
-      new import_obsidian6.Notice("Toolkit database refresh failed. For a private repo, add a GitHub token in plugin settings.");
+      console.error("[DM Compendium] Failed to refresh database cache:", error);
+      new import_obsidian6.Notice("Compendium database refresh failed. For a private repo, add a GitHub token in plugin settings.");
     }
   }
   async refreshSourceFilteredCache() {
@@ -1858,10 +1907,10 @@ var MyToolkitPlugin = class extends import_obsidian6.Plugin {
         this.settings.githubToken,
         this.settings.includedSources
       );
-      console.log("[Toolkit] Source-filtered database cache refreshed.");
+      console.log("[DM Compendium] Source-filtered database cache refreshed.");
     } catch (error) {
-      console.error("[Toolkit] Failed to refresh source-filtered database cache:", error);
-      new import_obsidian6.Notice("Toolkit source cache refresh failed. Check the developer console.");
+      console.error("[DM Compendium] Failed to refresh source-filtered database cache:", error);
+      new import_obsidian6.Notice("Compendium source cache refresh failed. Check the developer console.");
     }
   }
   filterItemsBySource(items) {
@@ -1871,4 +1920,4 @@ var MyToolkitPlugin = class extends import_obsidian6.Plugin {
 };
 
 // src/main.ts
-var main_default = MyToolkitPlugin;
+var main_default = DmCompendiumPlugin;

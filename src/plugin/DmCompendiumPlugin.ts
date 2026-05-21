@@ -7,10 +7,10 @@ import {
   DEFAULT_SETTINGS,
   getDefaultIncludedSources,
   normalizeSourceKey,
-  ToolkitSettings,
+  DmCompendiumSettings,
 } from "../settings";
-import { ToolkitSettingTab } from "../ui/ToolkitSettingTab";
-import { insertFromToolkit } from "../ui/InsertModals";
+import { DmCompendiumSettingTab } from "../ui/DmCompendiumSettingTab";
+import { insertFromCompendium } from "../ui/InsertModals";
 import { registerItemCardProcessor } from "../renderers/ItemCardRenderer";
 import { registerSpellCardProcessor } from "../renderers/SpellCardRenderer";
 import {
@@ -19,13 +19,13 @@ import {
   refreshSourceFilteredDatabaseCache,
 } from "../utils/databaseCache";
 
-export class MyToolkitPlugin extends Plugin {
-  settings: ToolkitSettings = DEFAULT_SETTINGS;
+export class DmCompendiumPlugin extends Plugin {
+  settings: DmCompendiumSettings = DEFAULT_SETTINGS;
   private pluginDir = "";
   private sourceRefreshTimer: ReturnType<typeof setTimeout> | null = null;
 
   async onload() {
-    console.log("[Toolkit] Loading...");
+    console.log("[DM Compendium] Loading...");
 
     await this.loadSettings();
 
@@ -33,15 +33,15 @@ export class MyToolkitPlugin extends Plugin {
     this.pluginDir = path.join(vaultPath, this.app.vault.configDir, "plugins", this.manifest.id);
 
     await this.ensureDatabaseCache();
-    this.addSettingTab(new ToolkitSettingTab(this.app, this));
+    this.addSettingTab(new DmCompendiumSettingTab(this.app, this));
     this.attachGlobalBridge();
     registerItemCardProcessor(this);
     registerSpellCardProcessor(this);
     this.addCommands();
     this.deployVaultAssets(vaultPath);
 
-    new Notice("Toolkit Plugin loaded.");
-    console.log("[Toolkit] Ready. Bridge attached, assets deployed.");
+    new Notice("The DM Compendium loaded.");
+    console.log("[DM Compendium] Ready. Bridge attached, assets deployed.");
   }
 
   onunload() {
@@ -49,12 +49,12 @@ export class MyToolkitPlugin extends Plugin {
       clearTimeout(this.sourceRefreshTimer);
     }
 
-    delete (globalThis as any).__toolkit;
-    console.log("[Toolkit] Unloaded. Bridge removed.");
+    delete (globalThis as any).__dmCompendium;
+    console.log("[DM Compendium] Unloaded. Bridge removed.");
   }
 
   async loadSettings() {
-    const loadedSettings = (await this.loadData()) as Partial<ToolkitSettings> | null;
+    const loadedSettings = (await this.loadData()) as Partial<DmCompendiumSettings> | null;
     this.settings = Object.assign({}, DEFAULT_SETTINGS, loadedSettings);
     if (!Array.isArray(loadedSettings?.includedSources)) {
       this.settings.includedSources = getDefaultIncludedSources();
@@ -77,11 +77,11 @@ export class MyToolkitPlugin extends Plugin {
   }
 
   private attachGlobalBridge() {
-    (globalThis as any).__toolkit = {
+    (globalThis as any).__dmCompendium = {
       getItems: async (dataType: string): Promise<FormatterItem[]> => {
         const formatter = registry[dataType];
         if (!formatter) {
-          console.warn(`[Toolkit] Unknown data type: ${dataType}`);
+          console.warn(`[DM Compendium] Unknown data type: ${dataType}`);
           return [];
         }
 
@@ -94,18 +94,18 @@ export class MyToolkitPlugin extends Plugin {
 
   private addCommands() {
     this.addCommand({
-      id: "insert-from-toolkit",
-      name: "Insert from toolkit",
+      id: "insert-from-compendium",
+      name: "Insert from compendium",
       editorCallback: async (editor: Editor) => {
-        await insertFromToolkit(this.app, editor);
+        await insertFromCompendium(this.app, editor);
       },
     });
 
     this.addCommand({
-      id: "refresh-toolkit-database",
-      name: "Refresh Toolkit Database",
+      id: "refresh-compendium-database",
+      name: "Refresh Compendium Database",
       callback: async () => {
-        await this.refreshToolkitDatabase(true);
+        await this.refreshCompendiumDatabase(true);
       },
     });
   }
@@ -120,19 +120,19 @@ export class MyToolkitPlugin extends Plugin {
       return;
     }
 
-    await this.refreshToolkitDatabase(false);
+    await this.refreshCompendiumDatabase(false);
   }
 
-  private async refreshToolkitDatabase(showSuccessNotice: boolean) {
+  private async refreshCompendiumDatabase(showSuccessNotice: boolean) {
     try {
       await refreshDatabaseCache(this.pluginDir, this.settings.githubToken, this.settings.includedSources);
       if (showSuccessNotice) {
-        new Notice("Toolkit database refreshed.");
+        new Notice("Compendium database refreshed.");
       }
-      console.log("[Toolkit] Database cache refreshed.");
+      console.log("[DM Compendium] Database cache refreshed.");
     } catch (error) {
-      console.error("[Toolkit] Failed to refresh database cache:", error);
-      new Notice("Toolkit database refresh failed. For a private repo, add a GitHub token in plugin settings.");
+      console.error("[DM Compendium] Failed to refresh database cache:", error);
+      new Notice("Compendium database refresh failed. For a private repo, add a GitHub token in plugin settings.");
     }
   }
 
@@ -143,10 +143,10 @@ export class MyToolkitPlugin extends Plugin {
         this.settings.githubToken,
         this.settings.includedSources
       );
-      console.log("[Toolkit] Source-filtered database cache refreshed.");
+      console.log("[DM Compendium] Source-filtered database cache refreshed.");
     } catch (error) {
-      console.error("[Toolkit] Failed to refresh source-filtered database cache:", error);
-      new Notice("Toolkit source cache refresh failed. Check the developer console.");
+      console.error("[DM Compendium] Failed to refresh source-filtered database cache:", error);
+      new Notice("Compendium source cache refresh failed. Check the developer console.");
     }
   }
 

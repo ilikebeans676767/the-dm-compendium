@@ -1,15 +1,15 @@
-import * as fs from "fs";
-import * as path from "path";
-import { requestUrl } from "obsidian";
-import { normalizeSourceKey } from "../settings";
+import * as fs from 'fs';
+import * as path from 'path';
+import { requestUrl } from 'obsidian';
+import { normalizeSourceKey } from '../settings';
 
-const SPELL_SOURCE_LIST = require("../spell-source-list.json") as string[];
-const MONSTER_SOURCE_LIST = require("../monster-source-list.json") as string[];
-const ITEM_SOURCE_LIST = require("../item-source-list.json") as string[];
+const SPELL_SOURCE_LIST = require('../spell-source-list.json') as string[];
+const MONSTER_SOURCE_LIST = require('../monster-source-list.json') as string[];
+const ITEM_SOURCE_LIST = require('../item-source-list.json') as string[];
 const SPELL_SOURCE_SET = new Set(SPELL_SOURCE_LIST.map(normalizeSourceKey));
 const MONSTER_SOURCE_SET = new Set(MONSTER_SOURCE_LIST.map(normalizeSourceKey));
 const ITEM_SOURCE_SET = new Set(ITEM_SOURCE_LIST.map(normalizeSourceKey));
-const CACHE_METADATA_FILE = ".database-cache.json";
+const CACHE_METADATA_FILE = '.database-cache.json';
 
 interface SourceFilteredDatabaseFile {
   name: string;
@@ -20,65 +20,78 @@ interface SourceFilteredDatabaseFile {
 
 const SOURCE_FILTERED_DATABASE_FILES: SourceFilteredDatabaseFile[] = [
   {
-    name: "spells.json",
-    description: "spells",
+    name: 'spells.json',
+    description: 'spells',
     sourceSet: SPELL_SOURCE_SET,
     getSourceUrl: getSpellSourceUrl,
   },
   {
-    name: "bestiary.json",
-    description: "monsters",
+    name: 'bestiary.json',
+    description: 'monsters',
     sourceSet: MONSTER_SOURCE_SET,
     getSourceUrl: getBestiarySourceUrl,
   },
   {
-    name: "items.json",
-    description: "items",
+    name: 'items.json',
+    description: 'items',
     sourceSet: ITEM_SOURCE_SET,
     getSourceUrl: getItemSourceUrl,
   },
 ];
 
 export function getCacheDir(pluginDir: string): string {
-  return path.join(pluginDir, "cache");
+  return path.join(pluginDir, 'cache');
 }
 
-export async function hasDatabaseCache(pluginDir: string, includedSources: string[]): Promise<boolean> {
+export async function hasDatabaseCache(
+  pluginDir: string,
+  includedSources: string[],
+): Promise<boolean> {
   const cacheDir = getCacheDir(pluginDir);
   const results = await Promise.all(
-    SOURCE_FILTERED_DATABASE_FILES.map((file) => hasFile(path.join(cacheDir, file.name)))
+    SOURCE_FILTERED_DATABASE_FILES.map((file) =>
+      hasFile(path.join(cacheDir, file.name)),
+    ),
   );
 
-  return results.every(Boolean)
-    && await hasMatchingCacheMetadata(cacheDir, includedSources);
+  return (
+    results.every(Boolean) &&
+    (await hasMatchingCacheMetadata(cacheDir, includedSources))
+  );
 }
 
 export async function refreshDatabaseCache(
   pluginDir: string,
   githubToken: string,
-  includedSources: string[]
+  includedSources: string[],
 ): Promise<void> {
   const cacheDir = getCacheDir(pluginDir);
   await fs.promises.mkdir(cacheDir, { recursive: true });
 
-  await refreshSourceFilteredDatabaseCache(pluginDir, githubToken, includedSources);
+  await refreshSourceFilteredDatabaseCache(
+    pluginDir,
+    githubToken,
+    includedSources,
+  );
 }
 
 export async function refreshSourceFilteredDatabaseCache(
   pluginDir: string,
   githubToken: string,
-  includedSources: string[]
+  includedSources: string[],
 ): Promise<void> {
   const cacheDir = getCacheDir(pluginDir);
   await fs.promises.mkdir(cacheDir, { recursive: true });
 
   await Promise.all(
-    SOURCE_FILTERED_DATABASE_FILES.map((file) => writeSourceFilteredJsonCacheFile(
-      cacheDir,
-      file,
-      githubToken,
-      includedSources
-    ))
+    SOURCE_FILTERED_DATABASE_FILES.map((file) =>
+      writeSourceFilteredJsonCacheFile(
+        cacheDir,
+        file,
+        githubToken,
+        includedSources,
+      ),
+    ),
   );
   await writeCacheMetadata(cacheDir, includedSources);
 }
@@ -87,34 +100,38 @@ async function writeSourceFilteredJsonCacheFile(
   cacheDir: string,
   file: SourceFilteredDatabaseFile,
   githubToken: string,
-  includedSources: string[]
+  includedSources: string[],
 ) {
   const selectedSources = getSelectedSources(includedSources, file.sourceSet);
   const sourceGroups = await Promise.all(
-    selectedSources.map((sourceKey) => fetchJsonArrayFromGithub(
-      file.getSourceUrl(sourceKey),
-      githubToken,
-      `${sourceKey} ${file.description}`
-    ))
+    selectedSources.map((sourceKey) =>
+      fetchJsonArrayFromGithub(
+        file.getSourceUrl(sourceKey),
+        githubToken,
+        `${sourceKey} ${file.description}`,
+      ),
+    ),
   );
-  const data = sourceGroups
-    .flat()
-    .sort((left: any, right: any) => {
-      const byName = String(left.name).localeCompare(String(right.name));
-      return byName || String(left.source).localeCompare(String(right.source));
-    });
+  const data = sourceGroups.flat().sort((left: any, right: any) => {
+    const byName = String(left.name).localeCompare(String(right.name));
+    return byName || String(left.source).localeCompare(String(right.source));
+  });
 
   await fs.promises.writeFile(
     path.join(cacheDir, file.name),
     JSON.stringify(data, null, 2),
-    "utf-8"
+    'utf-8',
   );
 }
 
-async function fetchJsonArrayFromGithub(sourceUrl: string, githubToken: string, description: string): Promise<any[]> {
+async function fetchJsonArrayFromGithub(
+  sourceUrl: string,
+  githubToken: string,
+  description: string,
+): Promise<any[]> {
   const headers: Record<string, string> = {
-    Accept: "application/vnd.github.raw+json",
-    "X-GitHub-Api-Version": "2022-11-28",
+    Accept: 'application/vnd.github.raw+json',
+    'X-GitHub-Api-Version': '2022-11-28',
   };
 
   if (githubToken.trim()) {
@@ -123,7 +140,7 @@ async function fetchJsonArrayFromGithub(sourceUrl: string, githubToken: string, 
 
   const response = await requestUrl({
     url: sourceUrl,
-    method: "GET",
+    method: 'GET',
     headers,
   });
   const data = response.json;
@@ -143,15 +160,15 @@ function getSelectedSources(includedSources: string[], sourceSet: Set<string>) {
 }
 
 function getSpellSourceUrl(sourceKey: string) {
-  return `https://api.github.com/repos/guykahalani/my-toolkit-plugin/contents/data/spells/${sourceKey.toLowerCase()}.json?ref=main`;
+  return `https://api.github.com/repos/guykahalani/the-dm-compendium/contents/data/spells/${sourceKey.toLowerCase()}.json?ref=main`;
 }
 
 function getBestiarySourceUrl(sourceKey: string) {
-  return `https://api.github.com/repos/guykahalani/my-toolkit-plugin/contents/data/bestiary/${sourceKey.toLowerCase()}.json?ref=main`;
+  return `https://api.github.com/repos/guykahalani/the-dm-compendium/contents/data/bestiary/${sourceKey.toLowerCase()}.json?ref=main`;
 }
 
 function getItemSourceUrl(sourceKey: string) {
-  return `https://api.github.com/repos/guykahalani/my-toolkit-plugin/contents/data/items/${sourceKey.toLowerCase()}.json?ref=main`;
+  return `https://api.github.com/repos/guykahalani/the-dm-compendium/contents/data/items/${sourceKey.toLowerCase()}.json?ref=main`;
 }
 
 async function hasFile(filePath: string): Promise<boolean> {
@@ -163,10 +180,16 @@ async function hasFile(filePath: string): Promise<boolean> {
   }
 }
 
-async function hasMatchingCacheMetadata(cacheDir: string, includedSources: string[]) {
+async function hasMatchingCacheMetadata(
+  cacheDir: string,
+  includedSources: string[],
+) {
   try {
     const metadata = JSON.parse(
-      await fs.promises.readFile(path.join(cacheDir, CACHE_METADATA_FILE), "utf-8")
+      await fs.promises.readFile(
+        path.join(cacheDir, CACHE_METADATA_FILE),
+        'utf-8',
+      ),
     ) as { includedSources?: string[] };
     return sourcesMatch(metadata.includedSources ?? [], includedSources);
   } catch {
@@ -177,13 +200,20 @@ async function hasMatchingCacheMetadata(cacheDir: string, includedSources: strin
 async function writeCacheMetadata(cacheDir: string, includedSources: string[]) {
   await fs.promises.writeFile(
     path.join(cacheDir, CACHE_METADATA_FILE),
-    JSON.stringify({ includedSources: normalizeSources(includedSources) }, null, 2),
-    "utf-8"
+    JSON.stringify(
+      { includedSources: normalizeSources(includedSources) },
+      null,
+      2,
+    ),
+    'utf-8',
   );
 }
 
 function sourcesMatch(left: string[], right: string[]) {
-  return JSON.stringify(normalizeSources(left)) === JSON.stringify(normalizeSources(right));
+  return (
+    JSON.stringify(normalizeSources(left)) ===
+    JSON.stringify(normalizeSources(right))
+  );
 }
 
 function normalizeSources(sources: string[]) {

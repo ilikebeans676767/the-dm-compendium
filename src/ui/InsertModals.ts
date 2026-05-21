@@ -6,11 +6,11 @@ interface TypeSelectionItem {
   value: string;
 }
 
-export async function insertFromToolkit(app: App, editor: Editor) {
+export async function insertFromCompendium(app: App, editor: Editor) {
   const typeModal = new TypeSelectionModal(app, async (selectedType: string) => {
     if (!selectedType) return;
 
-    const items = await (globalThis as any).__toolkit.getItems(selectedType);
+    const items = await (globalThis as any).__dmCompendium.getItems(selectedType);
     if (!items || items.length === 0) {
       new Notice(`No ${selectedType} found.`);
       return;

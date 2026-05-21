@@ -1,9 +1,9 @@
 {
-  "id": "my-toolkit-plugin",
-  "name": "My Toolkit Plugin",
-  "version": "0.1.27",
+  "id": "the-dm-compendium",
+  "name": "The DM Compendium",
+  "version": "1.0.0",
   "minAppVersion": "1.4.0",
-  "description": "POC toolkit plugin with data formatters and Templater integration.",
-  "author": "You",
-  "isDesktopOnly": true
+  "description": "A plugin for Obsidian that provides a comprehensive compendium of Dungeons & Dragons 5th Edition content.",
+  "author": "guykahalani",
+  "isDesktopOnly": false
 }

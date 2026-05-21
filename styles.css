@@ -1,13 +1,13 @@
 /* Obsidian loads this automatically from the plugin folder. No snippet system needed. */
 
-.callout[data-callout="toolkit-highlight"] {
+.callout[data-callout="compendium-highlight"] {
     --callout-color: 233, 69, 96;
     --callout-icon: lucide-flask-conical;
     background-color: rgba(26, 26, 46, 0.6);
     border-left: 3px solid rgba(233, 69, 96, 0.8);
 }
 
-.callout[data-callout="toolkit-highlight"] .callout-title {
+.callout[data-callout="compendium-highlight"] .callout-title {
     color: #e94560;
     font-family: monospace;
     font-size: 0.8em;
@@ -15,12 +15,12 @@
     text-transform: uppercase;
 }
 
-.callout[data-callout="toolkit-highlight"] .callout-content {
+.callout[data-callout="compendium-highlight"] .callout-content {
     color: #eaeaea;
     font-family: monospace;
 }
 
-.toolkit-spell-card {
+.compendium-spell-card {
     max-width: 420px;
     padding: 1rem;
     border: 2px solid var(--text-muted);
@@ -30,84 +30,84 @@
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 
-.toolkit-spell-card__header {
+.compendium-spell-card__header {
     border-bottom: 2px solid var(--text-muted);
     padding-bottom: 0.5rem;
     margin-bottom: 0.75rem;
 }
 
-.toolkit-spell-card__header h2 {
+.compendium-spell-card__header h2 {
     margin: 0;
     font-size: 1.6rem;
     letter-spacing: 0.03em;
 }
 
-.toolkit-spell-card__header p {
+.compendium-spell-card__header p {
     margin: 0.15rem 0;
     font-style: italic;
     color: var(--text-muted);
     text-transform: capitalize;
 }
 
-.toolkit-spell-card__header span {
+.compendium-spell-card__header span {
     font-size: 0.8rem;
     color: var(--text-faint);
 }
 
-.toolkit-spell-card__meta {
+.compendium-spell-card__meta {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 0.5rem;
     margin-bottom: 1rem;
 }
 
-.toolkit-spell-card__meta-item {
+.compendium-spell-card__meta-item {
     padding: 0.45rem 0.55rem;
     border-radius: 8px;
     background: var(--background-secondary);
 }
 
-.toolkit-spell-card__meta-item strong {
+.compendium-spell-card__meta-item strong {
     display: block;
     font-size: 0.7rem;
     text-transform: uppercase;
     color: var(--text-muted);
 }
 
-.toolkit-spell-card__meta-item span {
+.compendium-spell-card__meta-item span {
     font-size: 0.95rem;
 }
 
-.toolkit-spell-card__entry > :first-child {
+.compendium-spell-card__entry > :first-child {
     margin-top: 0;
 }
 
-.toolkit-spell-card__entry > :last-child {
+.compendium-spell-card__entry > :last-child {
     margin-bottom: 0;
 }
 
-.toolkit-spell-card__entry + .toolkit-spell-card__entry {
+.compendium-spell-card__entry + .compendium-spell-card__entry {
     margin-top: 0.85rem;
 }
 
-.toolkit-spell-card__body,
-.toolkit-spell-card__higher-body {
+.compendium-spell-card__body,
+.compendium-spell-card__higher-body {
     line-height: 1.45;
 }
 
-.toolkit-spell-card__higher {
+.compendium-spell-card__higher {
     margin-top: 1rem;
     padding-top: 0.75rem;
     border-top: 1px solid var(--background-modifier-border);
 }
 
-.toolkit-spell-card__higher h3 {
+.compendium-spell-card__higher h3 {
     margin: 0 0 0.35rem;
     font-size: 1rem;
     text-transform: uppercase;
 }
 
-.toolkit-spell-card-error {
+.compendium-spell-card-error {
     padding: 0.75rem;
     border: 1px solid var(--text-error);
     border-radius: 8px;
@@ -115,7 +115,7 @@
     background: var(--background-primary);
 }
 
-.toolkit-item-card {
+.compendium-item-card {
     max-width: 460px;
     padding: 1rem;
     border: 2px solid var(--background-modifier-border);
@@ -125,45 +125,45 @@
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.14);
 }
 
-.toolkit-item-card__header {
+.compendium-item-card__header {
     padding-bottom: 0.55rem;
     margin-bottom: 0.8rem;
     border-bottom: 2px solid var(--background-modifier-border);
 }
 
-.toolkit-item-card__header h2 {
+.compendium-item-card__header h2 {
     margin: 0;
     font-size: 1.45rem;
 }
 
-.toolkit-item-card__header p {
+.compendium-item-card__header p {
     margin: 0.2rem 0;
     color: var(--text-muted);
     font-style: italic;
     text-transform: capitalize;
 }
 
-.toolkit-item-card__header span {
+.compendium-item-card__header span {
     color: var(--text-faint);
     font-size: 0.8rem;
 }
 
-.toolkit-item-card__meta {
+.compendium-item-card__meta {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 0.5rem;
     margin-bottom: 0.85rem;
 }
 
-.toolkit-item-card__meta-item {
+.compendium-item-card__meta-item {
     padding: 0.45rem 0.55rem;
     border: 1px solid var(--background-modifier-border);
     border-radius: 8px;
     background: var(--background-secondary);
 }
 
-.toolkit-item-card__meta-item strong,
-.toolkit-item-card__tags strong {
+.compendium-item-card__meta-item strong,
+.compendium-item-card__tags strong {
     display: block;
     margin-bottom: 0.15rem;
     color: var(--text-muted);
@@ -171,21 +171,21 @@
     text-transform: uppercase;
 }
 
-.toolkit-item-card__meta-item span {
+.compendium-item-card__meta-item span {
     font-size: 0.95rem;
 }
 
-.toolkit-item-card__tags {
+.compendium-item-card__tags {
     margin: 0.7rem 0;
 }
 
-.toolkit-item-card__tag-list {
+.compendium-item-card__tag-list {
     display: flex;
     flex-wrap: wrap;
     gap: 0.35rem;
 }
 
-.toolkit-item-card__tag-list span {
+.compendium-item-card__tag-list span {
     padding: 0.18rem 0.45rem;
     border: 1px solid var(--background-modifier-border);
     border-radius: 999px;
@@ -194,24 +194,24 @@
     font-size: 0.78rem;
 }
 
-.toolkit-item-card__body {
+.compendium-item-card__body {
     margin-top: 0.8rem;
     line-height: 1.45;
 }
 
-.toolkit-item-card__entry > :first-child {
+.compendium-item-card__entry > :first-child {
     margin-top: 0;
 }
 
-.toolkit-item-card__entry > :last-child {
+.compendium-item-card__entry > :last-child {
     margin-bottom: 0;
 }
 
-.toolkit-item-card__entry + .toolkit-item-card__entry {
+.compendium-item-card__entry + .compendium-item-card__entry {
     margin-top: 0.85rem;
 }
 
-.toolkit-item-card-error {
+.compendium-item-card-error {
     padding: 0.75rem;
     border: 1px solid var(--text-error);
     border-radius: 8px;

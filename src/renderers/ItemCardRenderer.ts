@@ -42,10 +42,10 @@ async function renderItemCard(
 
   el.empty();
 
-  const card = createElement("article", "toolkit-item-card");
+  const card = createElement("article", "compendium-item-card");
   el.appendChild(card);
 
-  const header = createElement("header", "toolkit-item-card__header");
+  const header = createElement("header", "compendium-item-card__header");
   card.appendChild(header);
   header.appendChild(createElement("h2", "", item.name ?? "Unknown Item"));
   header.appendChild(createElement("p", "", getItemSubtitle(item)));
@@ -57,7 +57,7 @@ async function renderItemCard(
 
   const facts = getItemFacts(item);
   if (facts.length) {
-    const meta = createElement("section", "toolkit-item-card__meta");
+    const meta = createElement("section", "compendium-item-card__meta");
     card.appendChild(meta);
     for (const [label, value] of facts) {
       appendMeta(meta, label, value);
@@ -67,7 +67,7 @@ async function renderItemCard(
   appendTagList(card, "Properties", item.properties);
   appendTagList(card, "Mastery", item.mastery);
 
-  await appendMarkdownSection(plugin, card, ctx, "toolkit-item-card__body", item.entries);
+  await appendMarkdownSection(plugin, card, ctx, "compendium-item-card__body", item.entries);
 }
 
 function normalizeItemCardData(raw: unknown): ItemCardData {
@@ -120,7 +120,7 @@ function getItemFacts(item: ItemCardData): Array<[string, string | undefined]> {
 }
 
 function appendMeta(parent: HTMLElement, label: string, value: string | undefined) {
-  const item = createElement("div", "toolkit-item-card__meta-item");
+  const item = createElement("div", "compendium-item-card__meta-item");
   item.appendChild(createElement("strong", "", label));
   item.appendChild(createElement("span", "", value || "-"));
   parent.appendChild(item);
@@ -131,9 +131,9 @@ function appendTagList(parent: HTMLElement, label: string, values: string[] | un
     return;
   }
 
-  const section = createElement("section", "toolkit-item-card__tags");
+  const section = createElement("section", "compendium-item-card__tags");
   section.appendChild(createElement("strong", "", label));
-  const list = createElement("div", "toolkit-item-card__tag-list");
+  const list = createElement("div", "compendium-item-card__tag-list");
   section.appendChild(list);
 
   for (const value of values) {
@@ -158,7 +158,7 @@ async function appendMarkdownSection(
   parent.appendChild(section);
 
   for (const entry of entries) {
-    const entryEl = createElement("div", "toolkit-item-card__entry");
+    const entryEl = createElement("div", "compendium-item-card__entry");
     section.appendChild(entryEl);
     await MarkdownRenderer.render(plugin.app, entry, entryEl, ctx.sourcePath, plugin);
   }
@@ -167,7 +167,7 @@ async function appendMarkdownSection(
 function renderError(el: HTMLElement, error: unknown) {
   el.empty();
   const message = error instanceof Error ? error.message : "Unable to render item card.";
-  const errorEl = createElement("div", "toolkit-item-card-error", `Invalid itemcard YAML: ${message}`);
+  const errorEl = createElement("div", "compendium-item-card-error", `Invalid itemcard YAML: ${message}`);
   el.appendChild(errorEl);
 }
 
