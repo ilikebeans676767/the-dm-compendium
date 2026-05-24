@@ -5,6 +5,7 @@ Search and insert Dungeons & Dragons 5th Edition monsters, spells, and items int
 ## Features
 
 - Insert formatted monsters, spells, and items from the command palette.
+- Generate monster statblock YAML compatible with popular Obsidian TTRPG tools.
 - Render inline spell and item cards in reading view.
 - Choose which D&D sources are included in search results.
 - Cache selected compendium data locally for faster searching after the first load.
@@ -24,6 +25,16 @@ You can assign custom shortcuts for these commands from **Settings > Hotkeys**.
 
 Open **Settings > Community plugins > The DM Compendium** to choose which sources appear in search results.
 
+## TTRPG plugin compatibility
+
+Monster inserts are designed to work especially well with the Obsidian TTRPG Community plugins:
+
+- [Fantasy Statblocks](https://github.com/Obsidian-TTRPG-Community/fantasy-statblocks)
+- [Initiative Tracker](https://github.com/Obsidian-TTRPG-Community/initiative-tracker)
+- [Dice Roller](https://github.com/Obsidian-TTRPG-Community/dice-roller)
+
+Inserted monsters use `statblock` code blocks with YAML fields expected by Fantasy Statblocks, including the Basic 5e layout. With those plugins installed, the generated monster cards can be used as rendered statblocks, added to a bestiary, added to the initiative tracker, and used for rolling HP, attacks, and other supported rolls directly from the card.
+
 ## Disclosures
 
 - **Network access:** The plugin downloads selected compendium JSON files from the GitHub API at `api.github.com/repos/guykahalani/the-dm-compendium` when the local cache is missing, when sources are changed, or when the refresh command is run.
@@ -31,23 +42,6 @@ Open **Settings > Community plugins > The DM Compendium** to choose which source
 - **Account requirements:** No account is required.
 - **Telemetry and ads:** The plugin does not collect telemetry, analytics, or usage data, and it does not show ads.
 - **Platform support:** This plugin is desktop-only because it uses Node.js filesystem APIs for local caching.
-
-## Development
-
-```bash
-npm ci
-npm run typecheck
-npm run build
-```
-
-Community releases should be created from a tag that exactly matches `manifest.json`'s `version`, for example:
-
-```bash
-git tag 1.0.1
-git push origin 1.0.1
-```
-
-The release workflow uploads `main.js`, `manifest.json`, and `styles.css` as individual release assets.
 
 ## License
 
