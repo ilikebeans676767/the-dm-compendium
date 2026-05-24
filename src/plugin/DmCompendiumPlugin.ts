@@ -1,6 +1,5 @@
 import * as path from "path";
 import { Editor, Notice, Plugin } from "obsidian";
-import { Deployer } from "../deployer";
 import { FormatterItem } from "../formatters/BaseFormatter";
 import { registry } from "../registry";
 import {
@@ -25,32 +24,21 @@ export class DmCompendiumPlugin extends Plugin {
   private sourceRefreshTimer: ReturnType<typeof setTimeout> | null = null;
 
   async onload() {
-    console.log("[DM Compendium] Loading...");
-
     await this.loadSettings();
 
     const vaultPath = (this.app.vault.adapter as any).getBasePath() as string;
     this.pluginDir = path.join(vaultPath, this.app.vault.configDir, "plugins", this.manifest.id);
 
-    await this.ensureDatabaseCache();
     this.addSettingTab(new DmCompendiumSettingTab(this.app, this));
-    this.attachGlobalBridge();
     registerItemCardProcessor(this);
     registerSpellCardProcessor(this);
     this.addCommands();
-    this.deployVaultAssets(vaultPath);
-
-    new Notice("The DM Compendium loaded.");
-    console.log("[DM Compendium] Ready. Bridge attached, assets deployed.");
   }
 
   onunload() {
     if (this.sourceRefreshTimer) {
       clearTimeout(this.sourceRefreshTimer);
     }
-
-    delete (globalThis as any).__dmCompendium;
-    console.log("[DM Compendium] Unloaded. Bridge removed.");
   }
 
   async loadSettings() {
@@ -76,20 +64,15 @@ export class DmCompendiumPlugin extends Plugin {
     }, 900);
   }
 
-  private attachGlobalBridge() {
-    (globalThis as any).__dmCompendium = {
-      getItems: async (dataType: string): Promise<FormatterItem[]> => {
-        const formatter = registry[dataType];
-        if (!formatter) {
-          console.warn(`[DM Compendium] Unknown data type: ${dataType}`);
-          return [];
-        }
+  async getItems(dataType: string): Promise<FormatterItem[]> {
+    const formatter = registry[dataType];
+    if (!formatter) {
+      return [];
+    }
 
-        await this.ensureDatabaseCache();
-        const items = await formatter.load(this.pluginDir);
-        return this.filterItemsBySource(items);
-      },
-    };
+    await this.ensureDatabaseCache();
+    const items = await formatter.load(this.pluginDir);
+    return this.filterItemsBySource(items);
   }
 
   private addCommands() {
@@ -97,22 +80,17 @@ export class DmCompendiumPlugin extends Plugin {
       id: "insert-from-compendium",
       name: "Insert from compendium",
       editorCallback: async (editor: Editor) => {
-        await insertFromCompendium(this.app, editor);
+        await insertFromCompendium(this.app, editor, (dataType) => this.getItems(dataType));
       },
     });
 
     this.addCommand({
       id: "refresh-compendium-database",
-      name: "Refresh Compendium Database",
+      name: "Refresh database",
       callback: async () => {
         await this.refreshCompendiumDatabase(true);
       },
     });
-  }
-
-  private deployVaultAssets(vaultPath: string) {
-    const deployer = new Deployer({ vaultPath });
-    deployer.deployAll();
   }
 
   private async ensureDatabaseCache() {
@@ -125,14 +103,13 @@ export class DmCompendiumPlugin extends Plugin {
 
   private async refreshCompendiumDatabase(showSuccessNotice: boolean) {
     try {
-      await refreshDatabaseCache(this.pluginDir, this.settings.githubToken, this.settings.includedSources);
+      await refreshDatabaseCache(this.pluginDir, this.settings.includedSources);
       if (showSuccessNotice) {
         new Notice("Compendium database refreshed.");
       }
-      console.log("[DM Compendium] Database cache refreshed.");
     } catch (error) {
       console.error("[DM Compendium] Failed to refresh database cache:", error);
-      new Notice("Compendium database refresh failed. For a private repo, add a GitHub token in plugin settings.");
+      new Notice("Compendium database refresh failed. Check the developer console.");
     }
   }
 
@@ -140,10 +117,8 @@ export class DmCompendiumPlugin extends Plugin {
     try {
       await refreshSourceFilteredDatabaseCache(
         this.pluginDir,
-        this.settings.githubToken,
         this.settings.includedSources
       );
-      console.log("[DM Compendium] Source-filtered database cache refreshed.");
     } catch (error) {
       console.error("[DM Compendium] Failed to refresh source-filtered database cache:", error);
       new Notice("Compendium source cache refresh failed. Check the developer console.");

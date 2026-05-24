@@ -33,30 +33,12 @@ export class DmCompendiumSettingTab extends PluginSettingTab {
     }
     containerEl.empty();
 
-    this.renderGithubTokenSetting(containerEl);
     this.renderSourceActions(containerEl);
 
     const sourceSearchEl = containerEl.createDiv();
     const sourceListEl = containerEl.createDiv();
     this.renderSourceSearch(sourceSearchEl, sourceListEl);
     this.renderSourceSettings(sourceListEl);
-  }
-
-  private renderGithubTokenSetting(containerEl: HTMLElement) {
-    new Setting(containerEl)
-      .setName("GitHub token")
-      .setDesc("Fine-grained token with read-only Contents access to the private data repository.")
-      .addText((text) => {
-        text
-          .setPlaceholder("github_pat_...")
-          .setValue(this.plugin.settings.githubToken)
-          .onChange(async (value) => {
-            this.plugin.settings.githubToken = value.trim();
-            await this.plugin.saveSettings();
-          });
-
-        text.inputEl.type = "password";
-      });
   }
 
   private renderSourceActions(containerEl: HTMLElement) {
