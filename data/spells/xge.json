@@ -162,7 +162,8 @@
       "**Funeral Rite**\n\nYou touch one corpse, and for the next 7 days, the target can't become undead by any means short of a wish spell.",
       "**Wedding**\n\nYou touch adult humanoids willing to be bonded together in marriage. For the next 7 days, each target gains a +2 bonus to AC while they are within 30 feet of each other. A creature can benefit from this rite again only if widowed."
     ],
-    "higherLevel": []
+    "higherLevel": [],
+    "ritual": true
   },
   {
     "name": "Chaos Bolt",
@@ -1246,7 +1247,8 @@
     "entries": [
       "You cause up to ten words to form in a part of the sky you can see. The words appear to be made of cloud and remain in place for the spell's duration. The words dissipate when the spell ends. A strong wind can disperse the clouds and end the spell early."
     ],
-    "higherLevel": []
+    "higherLevel": [],
+    "ritual": true
   },
   {
     "name": "Snare",

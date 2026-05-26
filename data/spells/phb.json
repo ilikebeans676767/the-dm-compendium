@@ -50,7 +50,8 @@
       "A mental alarm alerts you with a ping in your mind if you are within 1 mile of the warded area. This ping awakens you if you are sleeping.",
       "An audible alarm produces the sound of a hand bell for 10 seconds within 60 feet."
     ],
-    "higherLevel": []
+    "higherLevel": [],
+    "ritual": true
   },
   {
     "name": "Alter Self",
@@ -106,7 +107,8 @@
     ],
     "higherLevel": [
       "**At Higher Levels**\n\nIf you cast this spell using a spell slot of 3rd level or higher, the duration of the spell increases by 48 hours for each slot level above 2nd."
-    ]
+    ],
+    "ritual": true
   },
   {
     "name": "Animal Shapes",
@@ -357,7 +359,8 @@
       "The spell doesn't take into account any possible circumstances that might change the outcome, such as the casting of additional spells or the loss or gain of a companion.",
       "If you cast the spell two or more times before completing your next long rest, there is a cumulative 25 chance for each casting after the first that you get a random reading. The DM makes this roll in secret."
     ],
-    "higherLevel": []
+    "higherLevel": [],
+    "ritual": true
   },
   {
     "name": "Aura of Life",
@@ -524,7 +527,8 @@
     "entries": [
       "You touch a willing beast. For the duration of the spell, you can use your action to see through the beast's eyes and hear what it hears, and continue to do so until you use your action to return to your normal senses. While perceiving through the beast's senses, you gain the benefits of any special senses possessed by that creature, though you are blinded and deafened to your own surroundings."
     ],
-    "higherLevel": []
+    "higherLevel": [],
+    "ritual": true
   },
   {
     "name": "Bestow Curse",
@@ -1023,7 +1027,8 @@
       "Divine beings aren't necessarily omniscient, so you might receive \"unclear\" as an answer if a question pertains to information that lies beyond the deity's knowledge. In a case where a one-word answer could be misleading or contrary to the deity's interests, the DM might offer a short phrase as an answer instead.",
       "If you cast the spell two or more times before finishing your next long rest, there is a cumulative 25 chance for each casting after the first that you get no answer. The DM makes this roll in secret."
     ],
-    "higherLevel": []
+    "higherLevel": [],
+    "ritual": true
   },
   {
     "name": "Commune with Nature",
@@ -1042,7 +1047,8 @@
       "- terrain and bodies of water\n- prevalent plants, minerals, animals, or peoples\n- powerful celestials, fey, fiends, elementals, or undead\n- influence from other planes of existence\n- buildings",
       "For example, you could determine the location of powerful undead in the area, the location of major sources of safe drinking water, and the location of any nearby towns."
     ],
-    "higherLevel": []
+    "higherLevel": [],
+    "ritual": true
   },
   {
     "name": "Compelled Duel",
@@ -1076,7 +1082,8 @@
       "For the duration, you understand the literal meaning of any spoken language that you hear. You also understand any written language that you see, but you must be touching the surface on which the words are written. It takes about 1 minute to read one page of text.",
       "This spell doesn't decode secret messages in a text or a glyph, such as an arcane sigil, that isn't part of a written language."
     ],
-    "higherLevel": []
+    "higherLevel": [],
+    "ritual": true
   },
   {
     "name": "Compulsion",
@@ -1310,7 +1317,8 @@
       "You mentally contact a demigod, the spirit of a long-dead sage, or some other mysterious entity from another plane. Contacting this extraplanar intelligence can strain or even break your mind. When you cast this spell, make a DC 15 Intelligence saving throw. On a failure, you take 6d6 psychic damage and are insane until you finish a long rest. While insane, you can't take actions, can't understand what other creatures say, can't read, and speak only in gibberish. A greater restoration spell cast on you ends this effect.",
       "On a successful save, you can ask the entity up to five questions. You must ask your questions before the spell ends. The DM answers each question with one word, such as \"yes,\" \"no,\" \"maybe,\" \"never,\" \"irrelevant,\" or \"unclear\" (if the entity doesn't know the answer to the question). If a one-word answer would be misleading, the DM might instead offer a short phrase as an answer."
     ],
-    "higherLevel": []
+    "higherLevel": [],
+    "ritual": true
   },
   {
     "name": "Contagion",
@@ -1750,7 +1758,8 @@
       "For the duration, you sense the presence of magic within 30 feet of you. If you sense magic in this way, you can use your action to see a faint aura around any visible creature or object in the area that bears magic, and you learn its school of magic, if any.",
       "The spell can penetrate most barriers, but it is blocked by 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt."
     ],
-    "higherLevel": []
+    "higherLevel": [],
+    "ritual": true
   },
   {
     "name": "Detect Poison and Disease",
@@ -1767,7 +1776,8 @@
       "For the duration, you can sense the presence and location of poisons, poisonous creatures, and diseases within 30 feet of you. You also identify the kind of poison, poisonous creature, or disease in each case.",
       "The spell can penetrate most barriers, but it is blocked by 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt."
     ],
-    "higherLevel": []
+    "higherLevel": [],
+    "ritual": true
   },
   {
     "name": "Detect Thoughts",
@@ -1917,7 +1927,8 @@
       "The spell doesn't take into account any possible circumstances that might change the outcome, such as the casting of additional spells or the loss or gain of a companion.",
       "If you cast the spell two or more times before finishing your next long rest, there is a cumulative 25 chance for each casting after the first that you get a random reading. The DM makes this roll in secret."
     ],
-    "higherLevel": []
+    "higherLevel": [],
+    "ritual": true
   },
   {
     "name": "Divine Favor",
@@ -2033,7 +2044,8 @@
       "If another creature is holding or carrying the item, crushing the sapphire doesn't transport the item to you, but instead you learn who the creature possessing the object is and roughly where that creature is located at that moment.",
       "Dispel magic or a similar effect successfully applied to the sapphire ends this spell's effect."
     ],
-    "higherLevel": []
+    "higherLevel": [],
+    "ritual": true
   },
   {
     "name": "Dream",
@@ -2418,7 +2430,8 @@
       "You touch a willing creature and put it into a cataleptic state that is indistinguishable from death.",
       "For the spell's duration, or until you use an action to touch the target and dismiss the spell, the target appears dead to all outward inspection and to spells used to determine the target's status. The target is blinded and incapacitated, and its speed drops to 0. The target has resistance to all damage except psychic damage. If the target is diseased or poisoned when you cast the spell, or becomes diseased or poisoned while under the spell's effect, the disease and poison have no effect until the spell ends."
     ],
-    "higherLevel": []
+    "higherLevel": [],
+    "ritual": true
   },
   {
     "name": "Find Familiar",
@@ -2440,7 +2453,8 @@
       "You can't have more than one familiar at a time. If you cast this spell while you already have a familiar, you instead cause it to adopt a new form. Choose one of the forms from the above list. Your familiar transforms into the chosen creature.",
       "Finally, when you cast a spell with a range of touch, your familiar can deliver the spell as if it had cast the spell. Your familiar must be within 100 feet of you, and it must use its reaction to deliver the spell when you cast it. If the spell requires an attack roll, you use your attack modifier for the roll."
     ],
-    "higherLevel": []
+    "higherLevel": [],
+    "ritual": true
   },
   {
     "name": "Find Steed",
@@ -2714,7 +2728,8 @@
       "When you cast this spell, you can designate a password. A creature that speaks the password as it enters the area takes no damage from the spell.",
       "The spell's area can't overlap with the area of another forbiddance spell. If you cast forbiddance every day for 30 days in the same location, the spell lasts until it is dispelled, and the material components are consumed on the last casting."
     ],
-    "higherLevel": []
+    "higherLevel": [],
+    "ritual": true
   },
   {
     "name": "Forcecage",
@@ -2859,7 +2874,8 @@
       "You touch a corpse or other remains. For the duration, the target is protected from decay and can't become undead.",
       "The spell also effectively extends the time limit on raising the target from the dead, since days spent under the influence of this spell don't count against the time limit of spells such as raise dead."
     ],
-    "higherLevel": []
+    "higherLevel": [],
+    "ritual": true
   },
   {
     "name": "Giant Insect",
@@ -3479,7 +3495,8 @@
       "You choose one object that you must touch throughout the casting of the spell. If it is a magic item or some other magic-imbued object, you learn its properties and how to use them, whether it requires attunement to use, and how many charges it has, if any. You learn whether any spells are affecting the item and what they are. If the item was created by a spell, you learn which spell created it.",
       "If you instead touch a creature throughout the casting, you learn what spells, if any, are currently affecting it."
     ],
-    "higherLevel": []
+    "higherLevel": [],
+    "ritual": true
   },
   {
     "name": "Illusory Script",
@@ -3498,7 +3515,8 @@
       "Should the spell be dispelled, the original script and the illusion both disappear.",
       "A creature with truesight can read the hidden message."
     ],
-    "higherLevel": []
+    "higherLevel": [],
+    "ritual": true
   },
   {
     "name": "Imprisonment",
@@ -3689,7 +3707,8 @@
       "Nine creatures of Medium size or smaller can fit inside the dome with you. The spell fails if its area includes a larger creature or more than nine creatures. Creatures and objects within the dome when you cast this spell can move through it freely. All other creatures and objects are barred from passing through it. Spells and other magical effects can't extend through the dome or be cast through it. The atmosphere inside the space is comfortable and dry, regardless of the weather outside.",
       "Until the spell ends, you can command the interior to become dimly lit or dark. The dome is opaque from the outside, of any color you choose, but it is transparent from the inside."
     ],
-    "higherLevel": []
+    "higherLevel": [],
+    "ritual": true
   },
   {
     "name": "Lesser Restoration",
@@ -3795,7 +3814,8 @@
     "entries": [
       "Describe or name a specific kind of beast or plant. Concentrating on the voice of nature in your surroundings, you learn the direction and distance to the closest creature or plant of that kind within 5 miles, if any are present."
     ],
-    "higherLevel": []
+    "higherLevel": [],
+    "ritual": true
   },
   {
     "name": "Locate Creature",
@@ -3962,7 +3982,8 @@
       "When that circumstance occurs, a magical mouth appears on the object and recites the message in your voice and at the same volume you spoke. If the object you chose has a mouth or something that looks like a mouth (for example, the mouth of a statue), the magical mouth appears there so that the words appear to come from the object's mouth. When you cast this spell, you can have the spell end after it delivers its message, or it can remain and repeat its message whenever the trigger occurs.",
       "The triggering circumstance can be as general or as detailed as you like, though it must be based on visual or audible conditions that occur within 30 feet of the object. For example, you could instruct the mouth to speak when any creature moves within 30 feet of the object or when a silver bell rings within 30 feet of it."
     ],
-    "higherLevel": []
+    "higherLevel": [],
+    "ritual": true
   },
   {
     "name": "Magic Weapon",
@@ -4109,7 +4130,8 @@
       "While merged with the stone, you can't see what occurs outside it, and any Wisdom (Perception) checks you make to hear sounds outside it are made with disadvantage. You remain aware of the passage of time and can cast spells on yourself while merged in the stone. You can use your movement to leave the stone where you entered it, which ends the spell. You otherwise can't move.",
       "Minor physical damage to the stone doesn't harm you, but its partial destruction or a change in its shape (to the extent that you no longer fit within it) expels you and deals 6d6 bludgeoning damage to you. The stone's complete destruction (or transmutation into a different substance) expels you and deals 50 bludgeoning damage to you. If expelled, you fall prone in an unoccupied space closest to where you first entered."
     ],
-    "higherLevel": []
+    "higherLevel": [],
+    "ritual": true
   },
   {
     "name": "Melf's Acid Arrow",
@@ -4602,7 +4624,8 @@
       "A Large quasi-real, horselike creature appears on the ground in an unoccupied space of your choice within range. You decide the creature's appearance, but it is equipped with a saddle, bit, and bridle. Any of the equipment created by the spell vanishes in a puff of smoke if it is carried more than 10 feet away from the steed.",
       "For the duration, you or a creature you choose can ride the steed. The creature uses the statistics for a riding horse, except it has a speed of 100 feet and can travel 10 miles in an hour, or 13 miles at a fast pace. When the spell ends, the steed gradually fades, giving the rider 1 minute to dismount. The spell ends if you use an action to dismiss it or if the steed takes any damage."
     ],
-    "higherLevel": []
+    "higherLevel": [],
+    "ritual": true
   },
   {
     "name": "Planar Ally",
@@ -4973,7 +4996,8 @@
     "entries": [
       "All nonmagical food and drink within a 5-foot-radius sphere centered on a point of your choice within range is purified and rendered free of poison and disease."
     ],
-    "higherLevel": []
+    "higherLevel": [],
+    "ritual": true
   },
   {
     "name": "Raise Dead",
@@ -5009,7 +5033,8 @@
       "You forge a telepathic link among up to eight willing creatures of your choice within range, psychically linking each creature to all the others for the duration. Creatures with Intelligence scores of 2 or less aren't affected by this spell.",
       "Until the spell ends, the targets can communicate telepathically through the bond whether or not they have a common language. The communication is possible over any distance, though it can't extend to other planes of existence."
     ],
-    "higherLevel": []
+    "higherLevel": [],
+    "ritual": true
   },
   {
     "name": "Ray of Enfeeblement",
@@ -5485,7 +5510,8 @@
     "entries": [
       "For the duration, no sound can be created within or pass through a 20-foot-radius sphere centered on a point you choose within range. Any creature or object entirely inside the sphere is immune to thunder damage, and creatures are deafened while entirely inside it. Casting a spell that includes a verbal component is impossible there."
     ],
-    "higherLevel": []
+    "higherLevel": [],
+    "ritual": true
   },
   {
     "name": "Silent Image",
@@ -5611,7 +5637,8 @@
     "entries": [
       "You gain the ability to comprehend and verbally communicate with beasts for the duration. The knowledge and awareness of many beasts is limited by their intelligence, but at minimum, beasts can give you information about nearby locations and monsters, including whatever they can perceive or have perceived within the past day. You might be able to persuade a beast to perform a small favor for you, at the DM's discretion."
     ],
-    "higherLevel": []
+    "higherLevel": [],
+    "ritual": true
   },
   {
     "name": "Speak with Dead",
@@ -6020,7 +6047,8 @@
       "The disk is immobile while you are within 20 feet of it. If you move more than 20 feet away from it, the disk follows you so that it remains within 20 feet of you. It can move across uneven terrain, up or down stairs, slopes and the like, but it can't cross an elevation change of 10 feet or more. For example, the disk can't move across a 10-foot-deep pit, nor could it leave such a pit if it was created at the bottom.",
       "If you move more than 100 feet from the disk (typically because it can't move around an obstacle to follow you), the spell ends."
     ],
-    "higherLevel": []
+    "higherLevel": [],
+    "ritual": true
   },
   {
     "name": "Thaumaturgy",
@@ -6267,7 +6295,8 @@
       "Once on each of your turns as a bonus action, you can mentally command the servant to move up to 15 feet and interact with an object. The servant can perform simple tasks that a human servant could do, such as fetching things, cleaning, mending, folding clothes, lighting fires, serving food, and pouring wine. Once you give the command, the servant performs the task to the best of its ability until it completes the task, then waits for your next command.",
       "If you command the servant to perform a task that would move it more than 60 feet away from you, the spell ends."
     ],
-    "higherLevel": []
+    "higherLevel": [],
+    "ritual": true
   },
   {
     "name": "Vampiric Touch",
@@ -6433,7 +6462,8 @@
     "entries": [
       "This spell grants up to ten willing creatures you can see within range the ability to breathe underwater until the spell ends. Affected creatures also retain their normal mode of respiration."
     ],
-    "higherLevel": []
+    "higherLevel": [],
+    "ritual": true
   },
   {
     "name": "Water Walk",
@@ -6450,7 +6480,8 @@
       "This spell grants the ability to move across any liquid surface—such as water, acid, mud, snow, quicksand, or lava—as if it were harmless solid ground (creatures crossing molten lava can still take damage from the heat). Up to ten willing creatures you can see within range gain this ability for the duration.",
       "If you target a creature submerged in a liquid, the spell carries the target to the surface of the liquid at a rate of 60 feet per round."
     ],
-    "higherLevel": []
+    "higherLevel": [],
+    "ritual": true
   },
   {
     "name": "Web",

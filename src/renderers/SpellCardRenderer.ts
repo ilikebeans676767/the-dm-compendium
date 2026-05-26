@@ -10,15 +10,16 @@ interface SpellCardData {
   range?: string;
   components?: string;
   duration?: string;
+  ritual?: boolean;
   entries?: string[];
   higherLevel?: string[];
 }
 
 const LEVEL_NAMES: Record<number, string> = {
   0: "Cantrip",
-  1: "1st-level",
-  2: "2nd-level",
-  3: "3rd-level",
+  1: "1st-Level",
+  2: "2nd-Level",
+  3: "3rd-Level",
 };
 
 export function registerSpellCardProcessor(plugin: Plugin) {
@@ -61,7 +62,7 @@ async function renderSpellCard(
   const meta = createElement("section", "compendium-spell-card__meta");
   card.appendChild(meta);
   appendMeta(meta, "Casting Time", spell.castingTime);
-  appendMeta(meta, "Range", spell.range);
+  appendMeta(meta, "Range", formatRangeForDisplay(spell));
   appendMeta(meta, "Components", spell.components);
   appendMeta(meta, "Duration", spell.duration);
 
@@ -101,7 +102,31 @@ function normalizeStringList(value: unknown): string[] {
 function getSpellSubtitle(spell: SpellCardData): string {
   const level = Number(spell.level);
   const levelText = Number.isFinite(level) ? LEVEL_NAMES[level] ?? `${level}th-level` : "";
-  return [levelText, spell.school].filter(Boolean).join(" ");
+  const school = spell.school ? capitalize(String(spell.school)) : "";
+  const base = [levelText, school].filter(Boolean).join(" ");
+  return spell.ritual ? `${base} (ritual)` : base;
+}
+
+function capitalize(text: string): string {
+  if (!text) return text;
+  return text[0].toUpperCase() + text.slice(1);
+}
+
+function formatRangeForDisplay(spell: SpellCardData): string | undefined {
+  const range = spell.range;
+  if (!range) return range;
+
+  // If the data gives an area type like "sphere" but the effect is centered on the caster
+  // (phrases like "within 30 feet of you"), show "self" instead.
+  const areaTypes = new Set(["sphere", "hemisphere", "cube", "circle", "area"]);
+  if (areaTypes.has(String(range).toLowerCase()) && spell.entries?.length) {
+    const text = spell.entries.join(" ").toLowerCase();
+    if (/within\s+\d+\s*-?foot[s]?\s+of\s+(you|yourself)/.test(text) || /within\s+.*\bof\s+(you|yourself)/.test(text)) {
+      return "self";
+    }
+  }
+
+  return range;
 }
 
 function getSourceText(spell: SpellCardData): string {

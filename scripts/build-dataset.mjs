@@ -229,7 +229,7 @@ function formatDuration(duration = []) {
 }
 
 function normalizeSpell(spell) {
-  return {
+  const result = {
     name: spell.name,
     source: spell.source,
     sourceKey: String(spell.source).toUpperCase(),
@@ -243,6 +243,12 @@ function normalizeSpell(spell) {
     entries: renderEntries(spell.entries),
     higherLevel: renderEntries(spell.entriesHigherLevel),
   };
+  
+  if (spell.meta?.ritual) {
+    result.ritual = true;
+  }
+  
+  return result;
 }
 
 const SIZE_NAMES = {

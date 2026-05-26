@@ -16,6 +16,7 @@
     ],
     "higherLevel": [
       "**Using a Higher-Level Spell Slot**\n\nUse the spell slot's level for the spell's level in the stat block."
-    ]
+    ],
+    "ritual": true
   }
 ]
