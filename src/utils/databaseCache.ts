@@ -62,7 +62,6 @@ export async function hasDatabaseCache(
 
 export async function refreshDatabaseCache(
   pluginDir: string,
-  githubToken: string,
   includedSources: string[],
 ): Promise<void> {
   const cacheDir = getCacheDir(pluginDir);
@@ -70,14 +69,12 @@ export async function refreshDatabaseCache(
 
   await refreshSourceFilteredDatabaseCache(
     pluginDir,
-    githubToken,
     includedSources,
   );
 }
 
 export async function refreshSourceFilteredDatabaseCache(
   pluginDir: string,
-  githubToken: string,
   includedSources: string[],
 ): Promise<void> {
   const cacheDir = getCacheDir(pluginDir);
@@ -88,7 +85,6 @@ export async function refreshSourceFilteredDatabaseCache(
       writeSourceFilteredJsonCacheFile(
         cacheDir,
         file,
-        githubToken,
         includedSources,
       ),
     ),
@@ -99,7 +95,6 @@ export async function refreshSourceFilteredDatabaseCache(
 async function writeSourceFilteredJsonCacheFile(
   cacheDir: string,
   file: SourceFilteredDatabaseFile,
-  githubToken: string,
   includedSources: string[],
 ) {
   const selectedSources = getSelectedSources(includedSources, file.sourceSet);
@@ -107,7 +102,6 @@ async function writeSourceFilteredJsonCacheFile(
     selectedSources.map((sourceKey) =>
       fetchJsonArrayFromGithub(
         file.getSourceUrl(sourceKey),
-        githubToken,
         `${sourceKey} ${file.description}`,
       ),
     ),
@@ -126,17 +120,12 @@ async function writeSourceFilteredJsonCacheFile(
 
 async function fetchJsonArrayFromGithub(
   sourceUrl: string,
-  githubToken: string,
   description: string,
 ): Promise<any[]> {
   const headers: Record<string, string> = {
     Accept: 'application/vnd.github.raw+json',
     'X-GitHub-Api-Version': '2022-11-28',
   };
-
-  if (githubToken.trim()) {
-    headers.Authorization = `Bearer ${githubToken.trim()}`;
-  }
 
   const response = await requestUrl({
     url: sourceUrl,

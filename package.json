@@ -1,15 +1,16 @@
 {
   "name": "the-dm-compendium",
   "version": "1.0.1",
-  "description": "A plugin for Obsidian that provides a comprehensive compendium of Dungeons & Dragons 5th Edition content",
-  "main": "index.js",
+  "description": "Search and insert Dungeons & Dragons 5th Edition monsters, spells, and items into notes.",
+  "main": "main.js",
   "scripts": {
     "build:data": "node scripts/build-dataset.mjs",
     "build": "node esbuild.config.mjs",
+    "typecheck": "tsc --noEmit",
     "dev": "node esbuild.config.mjs --watch"
   },
   "keywords": [],
-  "author": "",
+  "author": "guykahalani",
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^25.6.0",
