@@ -2,6 +2,8 @@
 
 Search and insert Dungeons & Dragons 5th Edition monsters, spells, and items into your notes.
 
+Visit the landing page [here](https://guykahalani.github.io/dm-compendium-landing/).
+
 ## Features
 
 - Insert formatted monsters, spells, and items from the command palette.
