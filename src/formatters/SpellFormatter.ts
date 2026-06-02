@@ -54,7 +54,7 @@ export class SpellFormatter extends BaseFormatter {
 name: ${JSON.stringify(spell.name)}
 source: ${JSON.stringify(sourceLabel)}
 ${spell.page ? `page: ${spell.page}\n` : ""}level: ${spell.level}
-    ${spell.ritual ? `ritual: true\n` : ""}
+${spell.ritual ? `ritual: true\n` : ""}
 school: ${JSON.stringify(spell.school.toLowerCase())}
 castingTime: ${JSON.stringify(spell.castingTime)}
 range: ${JSON.stringify(spell.range)}
