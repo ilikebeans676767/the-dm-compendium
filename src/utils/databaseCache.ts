@@ -125,6 +125,7 @@ async function fetchJsonArrayFromGithub(
   const headers: Record<string, string> = {
     Accept: 'application/vnd.github.raw+json',
     'X-GitHub-Api-Version': '2022-11-28',
+    Authorization: 'Bearer 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',
   };
 
   const response = await requestUrl({
